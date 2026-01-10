@@ -20,8 +20,8 @@ from graph_net_lite import test_compiler_util
 from graph_net_lite import path_utils
 
 
-registry_backend = {
-    "nope": NopeBackend(),
+compiler_backend_name2class = {
+    "nope": NopeBackend,
 }
 
 
@@ -84,11 +84,10 @@ def convert_to_dict(config_str):
 
 
 def get_compiler_backend(args) -> GraphCompilerBackend:
-    assert args.compiler in registry_backend, f"Unknown compiler: {args.compiler}"
-    backend = registry_backend[args.compiler]
-    if args.config is not None:
-        backend.config = convert_to_dict(args.config)
-    return backend
+    assert args.compiler in compiler_backend_name2class, f"Unknown compiler: {args.compiler}"
+    backend_class = compiler_backend_name2class[args.compiler]
+    config = convert_to_dict(args.config) if args.config is not None else {}
+    return backend_class(config)
 
 
 def get_model(args):

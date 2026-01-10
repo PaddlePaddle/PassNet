@@ -343,15 +343,15 @@ def check_allclose(
         )
 
 
-def get_allow_samples(allow_list, sample_root):
+def get_allow_samples(allow_list, model_path_prefix):
     if allow_list is None:
         return None
 
     assert os.path.isfile(allow_list), f"{allow_list} is not a regular file."
-    print(f"sample_root: {sample_root}", file=sys.stderr, flush=True)
+    print(f"model_path_prefix: {model_path_prefix}", file=sys.stderr, flush=True)
     test_samples = []
     with open(allow_list, "r") as f:
         for line in f.readlines():
-            test_samples.append(os.path.join(sample_root, line.strip()))
+            test_samples.append(os.path.join(model_path_prefix, line.strip()))
 
     return test_samples
