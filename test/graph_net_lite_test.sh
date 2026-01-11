@@ -19,3 +19,7 @@ python3 -m graph_net_lite.torch.test_compiler \
 EOF
 ) 2>&1 | tee "$OUTPUT_PATH/validation.log"
 
+python3 -m graph_net_lite.aggregate_es_scores \
+    --benchmark-path "$OUTPUT_PATH/validation.log" \
+    --sample-id 1 \
+    --output-json-file-path "$OUTPUT_PATH/aggregated_score.json"
