@@ -9,12 +9,14 @@ model_list="$AI4C_ROOT/test/workspace_graph_net_lite_test/small10_torch_samples_
 python3 -m graph_net_lite.torch.test_compiler \
     --model-path-prefix $AI4C_ROOT/test/workspace_graph_net_lite_test \
     --allow-list $model_list \
-    --compiler nope \
+    --compiler pass_mgr \
     --device cuda \
     --config $(base64 -w 0 <<EOF
 {
-    "model_path_prefix": "$AI4C_ROOT",
-    "sample_root": "$AI4C_ROOT"
+    "input_pass_rule_dir": "$AI4C_ROOT/test/workspace_graph_net_lite_test/example_input_pass_rule_dir",
+    "output_pass_rule_dir": "$AI4C_ROOT/test/workspace_graph_net_lite_test/example_output_pass_rule_dir",
+    "output_pass_pattern_limit": 1,
+    "output_pass_replacement_func_limit": 1
 }
 EOF
 ) 2>&1 | tee "$OUTPUT_PATH/validation.log"

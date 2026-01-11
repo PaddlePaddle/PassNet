@@ -16,12 +16,14 @@ import platform
 import base64
 from graph_net_lite.torch.backend.graph_compiler_backend import GraphCompilerBackend
 from graph_net_lite.torch.backend.nope_backend import NopeBackend
+from graph_net_lite.torch.backend.pass_mgr_backend import PassMgrBackend
 from graph_net_lite import test_compiler_util
 from graph_net_lite import path_utils
 
 
 compiler_backend_name2class = {
     "nope": NopeBackend,
+    "pass_mgr": PassMgrBackend,
 }
 
 
