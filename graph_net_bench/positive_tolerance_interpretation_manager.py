@@ -1,9 +1,9 @@
 from typing import Type, List
-from graph_net_lite.positive_tolerance_interpretation import PositiveToleranceInterpretation
-from graph_net_lite.default_positive_tolerance_interpretation import (
+from graph_net_bench.positive_tolerance_interpretation import PositiveToleranceInterpretation
+from graph_net_bench.default_positive_tolerance_interpretation import (
     DefaultPositiveToleranceInterpretation,
 )
-from graph_net_lite.mismatch_extended_positive_tolerance_interpretation import (
+from graph_net_bench.mismatch_extended_positive_tolerance_interpretation import (
     MismatchExtendedPositiveToleranceInterpretation,
 )
 

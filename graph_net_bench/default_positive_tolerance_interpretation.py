@@ -1,6 +1,6 @@
 from enum import IntEnum
 
-from graph_net_lite.positive_tolerance_interpretation import PositiveToleranceInterpretation
+from graph_net_bench.positive_tolerance_interpretation import PositiveToleranceInterpretation
 
 
 class DefaultErrorEnum(IntEnum):

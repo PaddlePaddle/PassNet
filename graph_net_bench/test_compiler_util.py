@@ -9,7 +9,7 @@ import numpy as np
 from dataclasses import dataclass
 from contextlib import contextmanager
 
-from graph_net_lite import path_utils
+from graph_net_bench import path_utils
 
 
 @dataclass

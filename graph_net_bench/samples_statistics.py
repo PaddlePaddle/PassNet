@@ -8,7 +8,7 @@ from typing import Union, Optional
 
 from scipy.stats import gmean
 from collections.abc import Callable
-from graph_net_lite.positive_tolerance_interpretation import PositiveToleranceInterpretation
+from graph_net_bench.positive_tolerance_interpretation import PositiveToleranceInterpretation
 
 
 def get_errno_from_error_type(

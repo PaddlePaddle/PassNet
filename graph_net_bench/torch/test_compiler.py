@@ -14,11 +14,11 @@ import random
 import numpy as np
 import platform
 import base64
-from graph_net_lite.torch.backend.graph_compiler_backend import GraphCompilerBackend
-from graph_net_lite.torch.backend.nope_backend import NopeBackend
-from graph_net_lite.torch.backend.pass_mgr_backend import PassMgrBackend
-from graph_net_lite import test_compiler_util
-from graph_net_lite import path_utils
+from graph_net_bench.torch.backend.graph_compiler_backend import GraphCompilerBackend
+from graph_net_bench.torch.backend.nope_backend import NopeBackend
+from graph_net_bench.torch.backend.pass_mgr_backend import PassMgrBackend
+from graph_net_bench import test_compiler_util
+from graph_net_bench import path_utils
 
 
 compiler_backend_name2class = {
@@ -381,7 +381,7 @@ def test_multi_models(args):
             cmd = " ".join(
                 [
                     sys.executable,
-                    f"-m graph_net_lite.torch.{module_name}",
+                    f"-m graph_net_bench.torch.{module_name}",
                     f"--model-path {model_path}",
                     f"--compiler {args.compiler}",
                     f"--device {args.device}",
@@ -427,7 +427,7 @@ def test_multi_models_with_prefix(args):
         cmd = " ".join(
             [
                 sys.executable,
-                f"-m graph_net_lite.torch.{py_module_name}",
+                f"-m graph_net_bench.torch.{py_module_name}",
                 f"--model-path {model_path}",
                 f"--compiler {args.compiler}",
                 f"--device {args.device}",
