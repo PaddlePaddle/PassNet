@@ -1,9 +1,9 @@
 import argparse
 from collections import OrderedDict, Counter
-from graph_net_lite import analysis_util
-from graph_net_lite import samples_statistics
-from graph_net_lite.positive_tolerance_interpretation import PositiveToleranceInterpretation
-from graph_net_lite.samples_statistics import (
+from graph_net_bench import analysis_util
+from graph_net_bench import samples_statistics
+from graph_net_bench.positive_tolerance_interpretation import PositiveToleranceInterpretation
+from graph_net_bench.samples_statistics import (
     get_errno_from_error_type,
 )
 
