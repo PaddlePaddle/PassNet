@@ -14,11 +14,13 @@ class AnalysisAgent(BaseAgent):
         requirement = self._handle_init_message(init_message)
 
         analysis_prompt = self.render_prompt("agent_analysis_pass.j2", **requirement)
-        response_text = self.client.chat(
+        query_result = self.client.chat(
             user_prompt=analysis_prompt, system_prompt=self.system_prompt
         )
+        response_text = query_result.response_text
+        token_usage = query_result.token_usage
+    
         pass_plan = extract_code_blocks(response_text, ["json", ""])
-
         new_msg = AgentMessage(
             sender=self.name,
             content=response_text,
@@ -27,6 +29,7 @@ class AnalysisAgent(BaseAgent):
             token_usage={},
             is_terminal=False,
         )
+        new_msg.update_token_usage(token_usage)
         return new_msg
 
     def _handle_init_message(self, msg: AgentMessage):

@@ -26,8 +26,9 @@ class EngineerAgent(BaseAgent):
             pass_name = pass_info.get("name")
             print(f"[{self.name}] Implementing {pass_name} using {meta_info['dsl']}...")
 
-            code = self._process_one_pass(pass_info)
+            code, token_usage = self._process_one_pass(pass_info, meta_info["dsl"], meta_info["device"])
             pass_info["optimized_pass_code"] = code
+            init_message.update_token_usage(token_usage)
 
         # dump the optimized pass plan
         self._dump_pass_plan(meta_info["task_path"], pass_plan)
@@ -37,12 +38,12 @@ class EngineerAgent(BaseAgent):
             content="",
             code_content=json.dumps(pass_plan, ensure_ascii=False),
             meta_info=init_message.meta_info,
-            token_usage=None,
+            token_usage=init_message.token_usage,
             is_terminal=False,
         )
         return new_msg
 
-    def _process_one_msg(self, pass_info, dsl, backend):
+    def _process_one_pass(self, pass_info, dsl, backend):
         references = _get_references(dsl)
         references_content = []
         for ref in references:
@@ -59,8 +60,11 @@ class EngineerAgent(BaseAgent):
         response = self.client.chat(
             user_prompt=optimization_prompt, system_prompt=self.system_prompt
         )
-        code = extract_code_blocks(response, ["python", ""])
-        return code
+        response_text = response.response_text
+        token_usage = response.token_usage
+        
+        code = extract_code_blocks(response_text, ["python", ""])
+        return code, token_usage
 
     def _handle_init_message(self, messages):
         """fetch DSL and device setting from meta_info"""
