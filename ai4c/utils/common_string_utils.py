@@ -2,6 +2,12 @@ import os
 import re
 
 
+def write_file(file_path: str, content: str, mode="w", encoding="utf-8") -> None:
+    dir_name = os.path.dirname(file_path)
+    os.makedirs(dir_name, exist_ok=True)
+    with open(file_path, mode, encoding=encoding) as f:
+        f.write(content)
+
 def read_file(file_path: str, encoding="utf-8") -> str:
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"File not found: {file_path}")

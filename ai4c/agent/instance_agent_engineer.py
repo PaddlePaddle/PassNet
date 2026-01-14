@@ -1,6 +1,11 @@
+import os
 import json
-from ai4c.agent.agent_base import BaseAgent
-from ai4c.utils.common_string_utils import extract_code_blocks
+import uuid
+from ai4c.agent.agent_base import BaseAgent, AgentMessage
+from ai4c.utils.common_string_utils import (
+    extract_code_blocks,
+    write_file
+)
 
 register_reference = {
     "triton": ["agent_analysis_pass.j2"]
@@ -28,9 +33,20 @@ class EngineerAgent(BaseAgent):
             print(f"[{self.name}] Implementing {pass_name} using {meta_info['dsl']}...")
             
             code = self._process_one_pass(pass_info)
-            generated_codes[pass_name] = code
-            
+            pass_info["optimized_pass_code"] = code
+        
+        # dump the optimized pass plan
+        self._dump_pass_plan(meta_info["task_path"], pass_plan)
 
+        new_msg = AgentMessage(
+            sender=self.name,
+            content="",
+            code_content=json.dumps(pass_plan, ensure_ascii=False),
+            meta_info=init_message.meta_info,
+            token_usage=None,
+            is_terminal=False
+        )
+        return new_msg
 
 
     def _process_one_msg(self, pass_info, dsl, backend):
@@ -52,9 +68,34 @@ class EngineerAgent(BaseAgent):
         return code
 
     def _handle_init_message(self, messages):
-        ''' fetch DSL and device setting from meta_info ''' 
-        
+        ''' fetch DSL and device setting from meta_info '''        
         return {
+            "task_path": messages.meta_info["task_path"],
             "dsl": messages.meta_info["dsl"],
             "device": messages.meta_info["device"]
         }
+    
+    def _dump_pass_plan(self, task_path, pass_plan):
+        plan_id = str(uuid.uuid4())[:8]
+        workdir_path = f"{task_path}/pass_{plan_id}"
+        
+        # write sorted_output_pass_rule_names.json
+        pass_order = pass_plan["pass_order"]
+        sorted_output_pass_rule_path = os.path.join(
+            workdir_path, "sorted_output_pass_rule_names.json"
+        )
+        write_file(
+            sorted_output_pass_rule_path, 
+            json.dumps(pass_order, ensure_ascii=False)
+        )
+
+        # write pass file
+        passes = pass_plan["pass_details"]
+        for _pass in passes:
+            pass_name = _pass["name"]
+            pass_code = _pass.get("optimized_pass_code", "")
+            pass_file_path = os.path.join(
+                workdir_path, f"{pass_name}.py"
+            )
+            write_file(pass_file_path, pass_code)
+        
