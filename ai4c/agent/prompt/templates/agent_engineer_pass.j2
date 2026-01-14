@@ -1,0 +1,20 @@
+{# Task Define #}
+Given a predefined optimization pass, you should generate a semantically equivalent but higher-performance kernel in `replacement_func`.
+
+{# Instructions #}
+Please output the full pass code with optimized `replacement_func`, and DO NOT modify `pattern` and `replacement_args` functions.
+Ouput code in codebloack! Please generate real code, NOT pseudocode, make sure the code compiles and is fully functional.
+Just output the pass code, no other text, and NO testing code!
+
+{# Input #}
+The unoptimized pass scheme is:
+```python
+{{pass_code}}
+```
+
+{# Example #}
+There are some reference optimization passes for {{ dsl }}:
+{% for ref in references %}
+### Reference Example {{ loop.index }}
+{{ ref }}
+{% endfor %}

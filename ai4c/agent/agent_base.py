@@ -12,10 +12,10 @@ from ai4c.utils.llm_query_utils import (
 
 @dataclass
 class AgentMessage:
-    sender: str         # which agent is the current message from
-    content: str        # The natural language reasoning or prompt
-    code_content: str   # Pass Code
-    runtime_info: str   # e.g., error messages, stdout logs
+    sender: str                 # which agent is the current message from
+    content: str                # The natural language reasoning or prompt
+    code_content: str           # Pass Code
+    meta_info: Dict[str, Any]   # e.g., error messages, stdout logs
     token_usage: Dict[str, Any]
     is_terminal: bool = False
     
@@ -53,7 +53,7 @@ class BaseAgent(ABC):
         self.tools: Dict[str, Callable] = {}
 
     @abstractmethod
-    def process(self, msg: list[AgentMessage]) -> list[AgentMessage]:
+    def process(self, messages: list[AgentMessage]) -> list[AgentMessage]:
         pass
 
     def register_tool(self, func: Callable):
@@ -62,7 +62,7 @@ class BaseAgent(ABC):
     def render_prompt(self, template_name: str, **kwargs):
         return self.prompt_manager.render(template_name, **kwargs)
 
-    def _set_system_prompt(self, system_prompt):
+    def set_system_prompt(self, system_prompt):
         self.system_prompt = system_prompt
         self.history = [{"role": "system", "content": system_prompt}]
         

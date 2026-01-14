@@ -14,6 +14,7 @@ class AgentWorkflowEngine:
 
     def register_agent(self, agent: BaseAgent):
         self._agents[agent.name] = agent
+        return self
 
     def set_first_agent(self, agent_name):
         self._first_agent_name = agent_name
