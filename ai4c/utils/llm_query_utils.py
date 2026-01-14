@@ -85,7 +85,7 @@ def query_llm_service(queryConfig: LLMQueryConfig) -> callable:
 
         query_result = LLMQueryResult(
             response_text=response_text,
-            token_usage=token_cost_dict,
+            token_usage=token_cost_dict.to_dict() if token_cost_dict else None,
         )
         return query_result
 

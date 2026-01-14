@@ -19,7 +19,7 @@ class AnalysisAgent(BaseAgent):
         )
         response_text = query_result.response_text
         token_usage = query_result.token_usage
-    
+
         pass_plan = extract_code_blocks(response_text, ["json", ""])
         new_msg = AgentMessage(
             sender=self.name,
@@ -41,9 +41,9 @@ class AnalysisAgent(BaseAgent):
         # read the requirement file
         graph_file_path = read_file(os.path.join(task_path, "graph_list.txt")).split(
             "\n"
-        )
-        entry_info = read_file(os.path.join(task_path, "entry.sh"))
+        )[:-1]
 
+        entry_info = read_file(os.path.join(task_path, "entry.sh"))
         requirement_info["entry"] = entry_info
         for gf in graph_file_path:
             graph_data = {"name": gf, "model_code": None, "weight_meta": None}

@@ -19,15 +19,18 @@ class EngineerAgent(BaseAgent):
     def process(self, messages):
         init_message = messages[-1]
         meta_info = self._handle_init_message(init_message)
-        pass_plan = json.loads(init_message.code_content)
+        pass_plan_jstr = json.loads(init_message.code_content)
+        pass_plan = json.loads(pass_plan_jstr)
 
         pass_details = pass_plan.get("pass_details", [])
         for pass_info in pass_details:
             pass_name = pass_info.get("name")
             print(f"[{self.name}] Implementing {pass_name} using {meta_info['dsl']}...")
 
-            code, token_usage = self._process_one_pass(pass_info, meta_info["dsl"], meta_info["device"])
-            pass_info["optimized_pass_code"] = code
+            optimized_pass_code, token_usage = self._process_one_pass(
+                pass_info, meta_info["dsl"], meta_info["device"]
+            )
+            pass_info["optimized_pass_code"] = optimized_pass_code
             init_message.update_token_usage(token_usage)
 
         # dump the optimized pass plan
@@ -50,7 +53,7 @@ class EngineerAgent(BaseAgent):
             references_content.append(self.render_prompt(ref))
 
         optimization_prompt = self.render_prompt(
-            "engineer_user.j2",
+            "agent_engineer_pass.j2",
             pass_info=pass_info,
             dsl=dsl,
             backend=backend,
@@ -62,7 +65,7 @@ class EngineerAgent(BaseAgent):
         )
         response_text = response.response_text
         token_usage = response.token_usage
-        
+
         code = extract_code_blocks(response_text, ["python", ""])
         return code, token_usage
 

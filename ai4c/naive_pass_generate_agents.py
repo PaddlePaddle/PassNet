@@ -6,8 +6,14 @@ from ai4c.agent.instance_agent_engineer import EngineerAgent
 
 
 def construct_init_message(args):
-    init_message = AgentMessage()
-    init_message.sender = "<initial>"
+    init_message = AgentMessage(
+        sender="<initial>",
+        content=None,
+        code_content=None,
+        meta_info={},
+        token_usage=None,
+        is_terminal=False,
+    )
     init_message.meta_info["task_path"] = args.model_dir
     init_message.meta_info["dsl"] = args.dsl
     init_message.meta_info["device"] = args.device
@@ -23,6 +29,7 @@ def main(args):
         name="AnalysisAgent",
         llm_config=llm_query_config,
         template_dir=args.template_dir,
+        system_prompt=None,
     )
     analysis_agent.set_system_prompt(
         analysis_agent.render_prompt("system_analysis_agent.j2")
@@ -31,6 +38,7 @@ def main(args):
         name="EngineerAgent",
         llm_config=llm_query_config,
         template_dir=args.template_dir,
+        system_prompt=None,
     )
     engineer_agent.set_system_prompt(
         engineer_agent.render_prompt(
@@ -43,7 +51,9 @@ def main(args):
     # registe agents and run
     agent_framework.register_agent(analysis_agent).register_agent(engineer_agent)
     agent_framework.set_first_agent("AnalysisAgent")
-    agent_framework.run()
+    agent_framework.register_transition("AnalysisAgent", "EngineerAgent")
+    initial_message = construct_init_message(args)
+    agent_framework.run(initial_message)
 
 
 if __name__ == "__main__":
@@ -79,3 +89,5 @@ if __name__ == "__main__":
         default="cuda",
         help="The device which profile runs on",
     )
+    args = parser.parse_args()
+    main(args)
