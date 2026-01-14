@@ -6,19 +6,19 @@ from ai4c.agent.prompt.prompt_manager import PromptManager
 from ai4c.utils.llm_query_utils import (
     LLMQueryConfig,
     query_llm_service,
-    add_token_usage
+    add_token_usage,
 )
 
 
 @dataclass
 class AgentMessage:
-    sender: str                 # which agent is the current message from
-    content: str                # The natural language reasoning or prompt
-    code_content: str           # Pass Code
-    meta_info: Dict[str, Any]   # e.g., error messages, stdout logs
+    sender: str  # which agent is the current message from
+    content: str  # The natural language reasoning or prompt
+    code_content: str  # Pass Code
+    meta_info: Dict[str, Any]  # e.g., error messages, stdout logs
     token_usage: Dict[str, Any]
     is_terminal: bool = False
-    
+
     def update_token_usage(self, new_usage):
         self.token_usage = add_token_usage(self.token_usage, new_usage)
 
@@ -30,18 +30,18 @@ class LLMClient:
 
     def chat(self, user_prompt: str, system_prompt: str):
         result = self._service_func(user_prompt, system_prompt)
-        
+
         if result is None:
             raise RuntimeError("LLM Service returned None (Max retries exceeded).")
-            
+
         return result
 
 
 class BaseAgent(ABC):
     def __init__(
-        self, 
-        name: str, 
-        llm_config: LLMQueryConfig, 
+        self,
+        name: str,
+        llm_config: LLMQueryConfig,
         template_dir: str,
         system_prompt: str = "You are a help assistant.",
     ):
@@ -65,7 +65,7 @@ class BaseAgent(ABC):
     def set_system_prompt(self, system_prompt):
         self.system_prompt = system_prompt
         self.history = [{"role": "system", "content": system_prompt}]
-        
+
     def _format_history_to_prompt(self, new_content):
         formatted_prompt = ""
         for msg in self.history:

@@ -2,14 +2,9 @@ import os
 import json
 import uuid
 from ai4c.agent.agent_base import BaseAgent, AgentMessage
-from ai4c.utils.common_string_utils import (
-    extract_code_blocks,
-    write_file
-)
+from ai4c.utils.common_string_utils import extract_code_blocks, write_file
 
-register_reference = {
-    "triton": ["agent_analysis_pass.j2"]
-}
+register_reference = {"triton": ["agent_analysis_pass.j2"]}
 
 
 def _get_references(dsl_type):
@@ -21,7 +16,6 @@ class EngineerAgent(BaseAgent):
     def __init__(self, name, llm_config, template_dir, system_prompt):
         super().__init__(name, llm_config, template_dir, system_prompt)
 
-
     def process(self, messages):
         init_message = messages[-1]
         meta_info = self._handle_init_message(init_message)
@@ -31,10 +25,10 @@ class EngineerAgent(BaseAgent):
         for pass_info in pass_details:
             pass_name = pass_info.get("name")
             print(f"[{self.name}] Implementing {pass_name} using {meta_info['dsl']}...")
-            
+
             code = self._process_one_pass(pass_info)
             pass_info["optimized_pass_code"] = code
-        
+
         # dump the optimized pass plan
         self._dump_pass_plan(meta_info["task_path"], pass_plan)
 
@@ -44,49 +38,49 @@ class EngineerAgent(BaseAgent):
             code_content=json.dumps(pass_plan, ensure_ascii=False),
             meta_info=init_message.meta_info,
             token_usage=None,
-            is_terminal=False
+            is_terminal=False,
         )
         return new_msg
-
 
     def _process_one_msg(self, pass_info, dsl, backend):
         references = _get_references(dsl)
         references_content = []
         for ref in references:
             references_content.append(self.render_prompt(ref))
-        
+
         optimization_prompt = self.render_prompt(
-            "engineer_user.j2", 
+            "engineer_user.j2",
             pass_info=pass_info,
             dsl=dsl,
             backend=backend,
-            references=references_content
+            references=references_content,
         )
 
-        response = self.client.chat(user_prompt=optimization_prompt, system_prompt=self.system_prompt)
+        response = self.client.chat(
+            user_prompt=optimization_prompt, system_prompt=self.system_prompt
+        )
         code = extract_code_blocks(response, ["python", ""])
         return code
 
     def _handle_init_message(self, messages):
-        ''' fetch DSL and device setting from meta_info '''        
+        """fetch DSL and device setting from meta_info"""
         return {
             "task_path": messages.meta_info["task_path"],
             "dsl": messages.meta_info["dsl"],
-            "device": messages.meta_info["device"]
+            "device": messages.meta_info["device"],
         }
-    
+
     def _dump_pass_plan(self, task_path, pass_plan):
         plan_id = str(uuid.uuid4())[:8]
         workdir_path = f"{task_path}/pass_{plan_id}"
-        
+
         # write sorted_output_pass_rule_names.json
         pass_order = pass_plan["pass_order"]
         sorted_output_pass_rule_path = os.path.join(
             workdir_path, "sorted_output_pass_rule_names.json"
         )
         write_file(
-            sorted_output_pass_rule_path, 
-            json.dumps(pass_order, ensure_ascii=False)
+            sorted_output_pass_rule_path, json.dumps(pass_order, ensure_ascii=False)
         )
 
         # write pass file
@@ -94,8 +88,5 @@ class EngineerAgent(BaseAgent):
         for _pass in passes:
             pass_name = _pass["name"]
             pass_code = _pass.get("optimized_pass_code", "")
-            pass_file_path = os.path.join(
-                workdir_path, f"{pass_name}.py"
-            )
+            pass_file_path = os.path.join(workdir_path, f"{pass_name}.py")
             write_file(pass_file_path, pass_code)
-        

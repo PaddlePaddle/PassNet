@@ -1,8 +1,5 @@
 from typing import Dict
-from ai4c.agent.agent_base import (
-    AgentMessage,
-    BaseAgent
-)
+from ai4c.agent.agent_base import AgentMessage, BaseAgent
 
 
 class AgentWorkflowEngine:
@@ -33,9 +30,9 @@ class AgentWorkflowEngine:
 
         for turn in range(self._max_turns):
             response_msg = self._run_agent_turn(agent_name, response_msg, turn_num=turn)
-                
+
     def _run_agent_turn(self, agent_name, response_msg, turn_num):
-        ''' Run agent workflow until no next agent is found.'''
+        """Run agent workflow until no next agent is found."""
 
         while agent_name is not None:
             print(f"[Agent Framework] iter: {turn_num}, '{agent_name}' is working")
@@ -47,6 +44,6 @@ class AgentWorkflowEngine:
         current_agent_instance = self._agents[agent_name]
         resp_msg = current_agent_instance.process(msg)
         return resp_msg
-    
+
     def _get_next_agent_name(self, current_agent_name):
         return self._transitions.get(current_agent_name, None)

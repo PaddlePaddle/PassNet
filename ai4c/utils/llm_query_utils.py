@@ -1,4 +1,3 @@
-
 import os
 import time
 import openai
@@ -53,12 +52,11 @@ def backoffWrapper(
 def query_llm_service(queryConfig: LLMQueryConfig) -> callable:
     """The interface of querying LLM one shot"""
 
-    ai4c_base_url = queryConfig.ai4c_base_url \
-        or os.getenv("AI4C_BASE_URL")
-    ai4c_api_key = queryConfig.ai4c_api_key \
-        or os.getenv("AI4C_API_KEY")
-    ai4c_api_model_name = queryConfig.ai4c_api_model_name \
-        or os.getenv("AI4C_API_MODEL_NAME")
+    ai4c_base_url = queryConfig.ai4c_base_url or os.getenv("AI4C_BASE_URL")
+    ai4c_api_key = queryConfig.ai4c_api_key or os.getenv("AI4C_API_KEY")
+    ai4c_api_model_name = queryConfig.ai4c_api_model_name or os.getenv(
+        "AI4C_API_MODEL_NAME"
+    )
     if not ai4c_base_url or not ai4c_api_key:
         raise ValueError(
             "Both GRAPHNET_BASE_URL and GRAPHNET_API_KEY "
@@ -104,7 +102,7 @@ def query_llm_service(queryConfig: LLMQueryConfig) -> callable:
 
 
 def add_token_usage(token_usage_a: dict, token_usage_b: dict) -> dict:
-    ''' Recursively add two token usage dictionaries '''
+    """Recursively add two token usage dictionaries"""
 
     if token_usage_a is None:
         return token_usage_b

@@ -70,12 +70,12 @@ if __name__ == "__main__":
         type=str,
         required=False,
         default=None,
-        help="The domain specific language for code generation in pass optimization."
+        help="The domain specific language for code generation in pass optimization.",
     )
     parser.add_argument(
         "--device",
         type=str,
         required=False,
         default="cuda",
-        help="The device which profile runs on"
+        help="The device which profile runs on",
     )
