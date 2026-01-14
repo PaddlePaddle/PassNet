@@ -2,7 +2,7 @@ from typing import Dict, Callable
 from dataclasses import dataclass
 from typing import Dict, Any
 from abc import ABC, abstractmethod
-from ai4c.tools.llm_query_utils import (
+from ai4c.utils.llm_query_utils import (
     LLMQueryConfig,
     query_llm_service,
     add_token_usage
@@ -11,9 +11,7 @@ from ai4c.tools.llm_query_utils import (
 
 @dataclass
 class AgentMessage:
-    sender: str
-    receiver: str
-    
+    sender: str         # which agent is the current message from
     content: str        # The natural language reasoning or prompt
     code_content: str   # Pass Code
     runtime_info: str   # e.g., error messages, stdout logs
@@ -47,7 +45,7 @@ class BaseAgent(ABC):
         self.tools: Dict[str, Callable] = {}
 
     @abstractmethod
-    def process(self, msg: list[AgentMessage]) -> AgentMessage:
+    def process(self, msg: list[AgentMessage]) -> list[AgentMessage]:
         pass
 
     def register_tool(self, func: Callable):
