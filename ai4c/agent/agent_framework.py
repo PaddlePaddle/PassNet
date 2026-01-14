@@ -23,14 +23,14 @@ class AgentWorkflowEngine:
 
     def run(self, initial_task_message: AgentMessage):
         assert len(self._agents) > 0, "There is no agent registered."
+        assert self._first_agent_name is not None, "First agent not set."
 
         response_msg = [initial_task_message]
         agent_name = self._first_agent_name
 
         print("[Agent Framework] Start Working")
 
-        for turn in self._max_turns:
-            response_msg = self._execute_agent(self._first_agent_name, response_msg)
+        for turn in range(self._max_turns):
             response_msg = self._run_agent_turn(agent_name, response_msg, turn_num=turn)
                 
     def _run_agent_turn(self, agent_name, response_msg, turn_num):
@@ -38,8 +38,8 @@ class AgentWorkflowEngine:
 
         while agent_name is not None:
             print(f"[Agent Framework] iter: {turn_num}, '{agent_name}' is working")
-            agent_name = self._get_next_agent_name(agent_name)
             response_msg = self._execute_agent(agent_name, response_msg)
+            agent_name = self._get_next_agent_name(agent_name)
         return response_msg
 
     def _execute_agent(self, agent_name, msg: list[AgentMessage]):

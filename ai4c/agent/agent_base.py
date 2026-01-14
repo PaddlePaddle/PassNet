@@ -2,6 +2,7 @@ from typing import Dict, Callable
 from dataclasses import dataclass
 from typing import Dict, Any
 from abc import ABC, abstractmethod
+from ai4c.agent.prompt.prompt_manager import PromptManager
 from ai4c.utils.llm_query_utils import (
     LLMQueryConfig,
     query_llm_service,
@@ -37,9 +38,16 @@ class LLMClient:
 
 
 class BaseAgent(ABC):
-    def __init__(self, name: str, system_prompt: str, llm_config: LLMQueryConfig):
+    def __init__(
+        self, 
+        name: str, 
+        llm_config: LLMQueryConfig, 
+        template_dir: str,
+        system_prompt: str = "You are a help assistant.",
+    ):
         self.name = name
         self.system_prompt = system_prompt
+        self.prompt_manager = PromptManager(template_dir)
         self.client = LLMClient(llm_config)
         self.history = [{"role": "system", "content": system_prompt}]
         self.tools: Dict[str, Callable] = {}
@@ -51,6 +59,13 @@ class BaseAgent(ABC):
     def register_tool(self, func: Callable):
         self.tools[func.__name__] = func
 
+    def render_prompt(self, template_name: str, **kwargs):
+        return self.prompt_manager.render(template_name, **kwargs)
+
+    def _set_system_prompt(self, system_prompt):
+        self.system_prompt = system_prompt
+        self.history = [{"role": "system", "content": system_prompt}]
+        
     def _format_history_to_prompt(self, new_content):
         formatted_prompt = ""
         for msg in self.history:
