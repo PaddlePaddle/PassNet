@@ -1,0 +1,106 @@
+{# Task Define #}
+You are analyzing the provided models and task requirements, and design an ordered sequence of optimization passes to get speedups.
+You have complete freedom to choose the set of operators you want to replace in pattern.
+
+{# Requirements #}
+Here are some requirements:
+
+1. Output Requirements
+You must output one JSON object wrapped with codeblocks. The JSON must have the following structure:
+
+```json
+{
+    "reasoning": "<Brief explanation of why these passes are needed.>",
+    "pass_order": ["<your_PathName_1>", "<your_PathName_2>"],
+    "pass_details": [
+        {
+            "name": "<your_PathName_1>",
+            "priority": 0,
+            "description": "Explanation of what this pass does (e.g., Fuse Conv and ReLU)",
+            "pass_code": "<Pass Code without codeblocks>"
+        },
+        ...
+    ]
+}
+```
+
+2. Pass Code Requirements
+The pass_code field MUST contain a Python string defining three functions: pattern, replacement_args, and replacement_func.
+* `pattern` function defines the subgraph structure to match
+* `replacement_args` function maps matched arguments to the replacement function
+* `replacement_func` function is left empty (with pass) for implementation by another agent later
+
+Example of pass_code:
+
+```python
+import torch
+
+def pattern(x, w):
+    # Example: matching a linear followed by relu
+    return torch.nn.functional.relu(torch.nn.functional.linear(x, w))
+
+def replacement_args(x, w):
+    # Return args needed for the new operator
+    return (x, w)
+
+def replacement_func(): # No args here
+    pass # Implementation left for other agents
+```
+
+3. Pass Code Notations
+Pattern matching is performed over the exact dataflow structure of the computation graph.
+Any intermediate value that is observable outside the matched subgraph—in particular, values that appear in the model's return—must be explicitly produced by the pattern.
+
+For example, given nn.model:
+```python
+class Model(torch.nn.Module):
+    def forward(self, in_0):
+        ...
+        tmp_5 = tmp_4.transpose(-1, -2)
+        tmp_9 = tmp_5 @ tmp_6
+        return (tmp_5, tmp_8, tmp_9)
+```
+
+You decide to optimize `transpose + matmul` pattern, the correct pattern and replacement is:
+```
+def pattern(a, b):
+    t = a.transpose(-1, -2)
+    out = t @ b
+    return t, out
+
+def replacement_args(a, b):
+    return (a, b)
+
+def replacement_func():
+    pass
+```
+
+rather than:
+```python
+def pattern(a, b):
+    out = a.transpose(-1, -2) @ b
+    return out
+
+def replacement_args(a, b):
+    return (a, b)
+
+def replacement_func():
+    pass
+```
+
+{# Instruction #}
+Now, given the task requirements and target models below, generate the optimization Pass Plan in the specified JSON format!
+Please output in codeblocks. Just output the JSON, NO other text!
+
+{# Input #}
+Task Requirement:
+```bash
+{{ entry }}
+```
+
+Target Graphs:
+{% for graph in graphs_data %}
+Graph Name: {{ graph.name }}
+model.py: {{ graph.model_code }}
+weight_meta.py (Input shapes and types): {{ graph.weight_meta }}
+{% endfor %}
