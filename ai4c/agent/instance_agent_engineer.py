@@ -1,6 +1,5 @@
 import os
 import json
-import uuid
 from ai4c.agent.agent_base import BaseAgent, AgentMessage
 from ai4c.utils.common_string_utils import extract_code_blocks, write_file
 
@@ -17,7 +16,7 @@ class EngineerAgent(BaseAgent):
         super().__init__(name, llm_config, template_dir, system_prompt)
 
     def process(self, messages):
-        init_message = messages[-1]
+        init_message = messages
         meta_info = self._handle_init_message(init_message)
         pass_plan_jstr = json.loads(init_message.code_content)
         pass_plan = json.loads(pass_plan_jstr)
@@ -78,8 +77,7 @@ class EngineerAgent(BaseAgent):
         }
 
     def _dump_pass_plan(self, task_path, pass_plan):
-        plan_id = str(uuid.uuid4())[:8]
-        workdir_path = f"{task_path}/pass_{plan_id}"
+        workdir_path = f"{task_path}/example_output_pass_rule_dir"
 
         # write sorted_output_pass_rule_names.json
         pass_order = pass_plan["pass_order"]

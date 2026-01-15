@@ -12,6 +12,33 @@ The unoptimized pass scheme is:
 {{pass_code}}
 ```
 
+{# Constraints #}
+Format constraints must be followed when optimizing the pass.
+* Do not modify pattern or replacement_args
+* The kernel call function must be decorated with @torch.fx.wrap, and not implemented inside replacement_func
+* replacement_func must return the kernel call function without any arguments
+
+
+The following is an explanation.
+```
+# don't modify pattern and replacement_args
+def pattern(...):
+    ...
+
+def replacement_args(...):
+    ...
+
+<custom_kernel_code>
+
+@torch.fx.wrap # must be used
+def <custom_kernel_call_func>(...):
+    ...
+
+def replacement_func(): # no args here
+    return <custom_kernel_call_func>  # return a callback, no args, no `()`
+```
+
+
 {# Example #}
 There are some reference optimization passes for {{ dsl }}:
 {% for ref in references %}
