@@ -1,0 +1,12 @@
+FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel
+ENV DEBIAN_FRONTEND=noninteractive
+
+# workdir
+WORKDIR /workspace
+COPY . /workspace/GraphNet
+WORKDIR /workspace/GraphNet
+
+# build
+RUN pip install -r requirements.txt
+
+CMD ["/bin/bash"]
