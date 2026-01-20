@@ -77,7 +77,7 @@ class EngineerAgent(BaseAgent):
         }
 
     def _dump_pass_plan(self, task_path, pass_plan):
-        workdir_path = f"{task_path}/example_output_pass_rule_dir"
+        workdir_path = f"{task_path}/pass_dir"
 
         # write sorted_output_pass_rule_names.json
         pass_order = pass_plan["pass_order"]
