@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "Neurora_opus-tatoeba-heb-eng_2_start0_end4_0"
+}

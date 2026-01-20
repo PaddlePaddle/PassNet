@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "miangoar_esm2_t12_35M_UR50D-finetuned-secondary-structure-classification_1_start4_end19_1"
+}

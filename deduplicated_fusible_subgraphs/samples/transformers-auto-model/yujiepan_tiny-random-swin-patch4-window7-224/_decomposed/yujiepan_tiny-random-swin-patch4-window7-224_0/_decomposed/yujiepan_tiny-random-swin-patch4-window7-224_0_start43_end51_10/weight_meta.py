@@ -1,0 +1,30 @@
+class Program_weight_tensor_meta_tmp_59:
+	name = "in_0"
+	original_name = "tmp_59"
+	shape = [1, 784, 16]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.005
+
+
+class Program_weight_tensor_meta_w_15:
+	name = "w_0"
+	original_name = "w_15"
+	shape = [16]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+	data = [0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+
+
+class Program_weight_tensor_meta_w_16:
+	name = "w_1"
+	original_name = "w_16"
+	shape = [16]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+	data = [1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000]

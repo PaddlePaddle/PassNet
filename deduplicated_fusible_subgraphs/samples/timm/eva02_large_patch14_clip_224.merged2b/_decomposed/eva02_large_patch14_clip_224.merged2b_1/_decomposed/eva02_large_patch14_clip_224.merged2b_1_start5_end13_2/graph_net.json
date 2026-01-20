@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "eva02_large_patch14_clip_224.merged2b_1_start5_end13_2"
+}

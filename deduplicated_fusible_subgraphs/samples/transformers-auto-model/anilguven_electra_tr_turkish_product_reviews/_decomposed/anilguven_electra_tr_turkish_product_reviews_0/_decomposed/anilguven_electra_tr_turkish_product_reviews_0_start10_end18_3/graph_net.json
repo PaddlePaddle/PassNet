@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "anilguven_electra_tr_turkish_product_reviews_0_start10_end18_3"
+}

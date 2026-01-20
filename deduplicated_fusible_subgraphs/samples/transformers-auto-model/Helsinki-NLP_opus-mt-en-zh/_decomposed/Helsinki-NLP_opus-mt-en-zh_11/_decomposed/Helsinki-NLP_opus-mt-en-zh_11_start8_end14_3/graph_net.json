@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "Helsinki-NLP_opus-mt-en-zh_11_start8_end14_3"
+}

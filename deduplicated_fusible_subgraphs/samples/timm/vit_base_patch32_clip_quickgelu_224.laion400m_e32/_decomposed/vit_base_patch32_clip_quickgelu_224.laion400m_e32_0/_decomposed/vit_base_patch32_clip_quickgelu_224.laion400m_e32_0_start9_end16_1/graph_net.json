@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "vit_base_patch32_clip_quickgelu_224.laion400m_e32_0_start9_end16_1"
+}

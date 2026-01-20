@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "audeering_wav2vec2-large-robust-24-ft-age-gender_0_start42_end50_13"
+}
