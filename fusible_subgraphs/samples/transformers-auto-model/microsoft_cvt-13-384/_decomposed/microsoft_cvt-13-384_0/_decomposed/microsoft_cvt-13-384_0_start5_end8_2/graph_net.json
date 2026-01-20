@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "microsoft_cvt-13-384_0_start5_end8_2"
+}

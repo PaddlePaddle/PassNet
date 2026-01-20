@@ -1,0 +1,10 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, in_0, in_1, in_2, w_0, w_1):
+        tmp_0 = in_1 + in_2
+        tmp_1 = torch.cat((in_0, tmp_0), dim=1)
+        tmp_0 = None
+        tmp_2 = torch.nn.functional.layer_norm(tmp_1, (768,), w_1, w_0, 1e-06)
+        return (tmp_1, tmp_2)

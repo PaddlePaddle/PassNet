@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "siglip-base-patch16-224_0_start14_end16_4"
+}

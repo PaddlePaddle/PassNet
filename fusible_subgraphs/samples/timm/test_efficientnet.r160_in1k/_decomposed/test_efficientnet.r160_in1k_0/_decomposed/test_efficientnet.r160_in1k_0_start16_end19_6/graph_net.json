@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "test_efficientnet.r160_in1k_0_start16_end19_6"
+}

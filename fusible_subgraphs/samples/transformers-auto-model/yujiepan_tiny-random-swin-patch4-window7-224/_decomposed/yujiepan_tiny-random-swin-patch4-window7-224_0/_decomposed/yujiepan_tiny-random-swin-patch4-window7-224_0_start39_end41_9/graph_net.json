@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "yujiepan_tiny-random-swin-patch4-window7-224_0_start39_end41_9"
+}

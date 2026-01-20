@@ -1,0 +1,58 @@
+class Program_weight_tensor_meta_tmp_91:
+	name = "in_0"
+	original_name = "tmp_91"
+	shape = [1, 32, 128, 128]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_w_10:
+	name = "w_0"
+	original_name = "w_10"
+	shape = [64]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_w_11:
+	name = "w_1"
+	original_name = "w_11"
+	shape = [64, 32, 3, 3]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.002
+
+
+class Program_weight_tensor_meta_w_7:
+	name = "w_2"
+	original_name = "w_7"
+	shape = [64]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_w_8:
+	name = "w_3"
+	original_name = "w_8"
+	shape = [64]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_w_9:
+	name = "w_4"
+	original_name = "w_9"
+	shape = [64]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000

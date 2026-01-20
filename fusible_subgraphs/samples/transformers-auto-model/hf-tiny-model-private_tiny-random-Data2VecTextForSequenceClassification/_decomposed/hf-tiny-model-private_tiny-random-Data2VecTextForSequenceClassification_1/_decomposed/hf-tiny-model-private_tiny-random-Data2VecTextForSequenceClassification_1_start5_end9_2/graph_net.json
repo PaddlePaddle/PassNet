@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification_1_start5_end9_2"
+}

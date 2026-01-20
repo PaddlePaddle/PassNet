@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "mmarco-mMiniLMv2-L12-H384-v1_0_start12_end19_2"
+}

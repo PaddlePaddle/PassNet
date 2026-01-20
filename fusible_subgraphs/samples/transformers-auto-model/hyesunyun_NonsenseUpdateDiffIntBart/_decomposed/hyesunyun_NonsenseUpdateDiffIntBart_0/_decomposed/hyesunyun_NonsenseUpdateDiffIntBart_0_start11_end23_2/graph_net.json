@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "hyesunyun_NonsenseUpdateDiffIntBart_0_start11_end23_2"
+}

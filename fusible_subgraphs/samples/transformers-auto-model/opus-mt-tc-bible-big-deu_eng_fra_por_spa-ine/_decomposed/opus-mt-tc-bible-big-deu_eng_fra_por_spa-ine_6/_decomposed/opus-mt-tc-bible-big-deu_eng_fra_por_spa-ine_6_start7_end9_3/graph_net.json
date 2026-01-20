@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "opus-mt-tc-bible-big-deu_eng_fra_por_spa-ine_6_start7_end9_3"
+}

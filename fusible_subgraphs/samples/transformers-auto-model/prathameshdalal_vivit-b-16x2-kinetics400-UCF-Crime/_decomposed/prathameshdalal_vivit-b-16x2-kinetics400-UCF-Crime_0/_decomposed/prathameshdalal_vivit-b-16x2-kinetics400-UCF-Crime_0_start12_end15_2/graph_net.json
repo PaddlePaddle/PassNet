@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "prathameshdalal_vivit-b-16x2-kinetics400-UCF-Crime_0_start12_end15_2"
+}

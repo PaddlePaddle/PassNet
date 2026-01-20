@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "apple_mobilevitv2-1.0-imagenet1k-256_0_start48_end50_14"
+}

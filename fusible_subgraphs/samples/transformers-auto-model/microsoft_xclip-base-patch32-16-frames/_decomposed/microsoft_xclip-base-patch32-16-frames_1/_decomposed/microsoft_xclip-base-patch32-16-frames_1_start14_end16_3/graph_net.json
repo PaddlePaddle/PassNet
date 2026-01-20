@@ -1,0 +1,7 @@
+{
+    "framework": "torch",
+    "num_devices_required": 1,
+    "num_nodes_required": 1,
+    "dynamic": false,
+    "model_name": "microsoft_xclip-base-patch32-16-frames_1_start14_end16_3"
+}
