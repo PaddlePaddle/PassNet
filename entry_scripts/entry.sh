@@ -1,4 +1,12 @@
 #!/bin/bash
+set -x
+
+ai4c_repo_root=$(realpath $0 | xargs -I{} dirname {} | xargs -I{} dirname {})
+if [ ! -f "$ai4c_repo_root/graph_net_bench/__init__.py" ]; then
+    echo Python module graph_net_bench not found
+    exit -1
+fi
+export PYTHONPATH=$ai4c_repo_root:$PYTHONPATH
 
 SAMPLE_ROOT=$(dirname $0)
 OUTPUT_PATH=/tmp/workspace_graph_net_bench_test
