@@ -32,4 +32,5 @@ EOF
 python3 -m graph_net_bench.aggregate_es_scores \
     --benchmark-path "$OUTPUT_PATH/validation.log" \
     --sample-id 1 \
+    --disable-aggregation-mode \
     --output-json-file-path "$OUTPUT_PATH/aggregated_score.json"
