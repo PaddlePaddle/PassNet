@@ -72,6 +72,7 @@ class PassMgrBackend(GraphCompilerBackend):
 
     def torch_compile_backend(self, gm: torch.fx.GraphModule, sample_inputs: list):
         pass_result = self.pass_manager(gm)
+        assert pass_result.modified
         return pass_result.graph_module
 
     def make_pass_manager(self):
