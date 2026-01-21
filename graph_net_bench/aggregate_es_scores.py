@@ -232,13 +232,14 @@ def main(args):
         for weight in [weights[tolerance]]
         for score in [all_es_scores['validation'][tolerance]]
     )
+    rectified_speedup = 10**float(weighted_sum)
     result = {
         "id": args.sample_id,
-        "score": float(weighted_sum),
+        "score": rectified_speedup,
     }
     with open(args.output_json_file_path, "w") as f:
         json.dump(result, f, indent=4)
-    print(f"{weighted_sum=}")
+    print(f"{rectified_speedup=}")
     print(f"Result is saved to {args.output_json_file_path}")
 
 def get_weights():
