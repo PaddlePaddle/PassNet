@@ -7,8 +7,9 @@ if [ $(cat .git/config | grep 'ai4c' | wc -l) -eq 0 ]; then
     exit 1
 fi
 
+
 get_selected() {
-    head graph_lists/fusible_subgraphs.txt
+    head ./graph_lists/fusible_subgraphs.txt
 }
 
 get_selected \
@@ -21,15 +22,24 @@ get_selected \
 
 get_selected \
     | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8}' \
-    | xargs -I{} ln -s $(pwd)/graphs $(pwd)/{}/graphs -f
+    | xargs -I{} unlink ./{}/graphs
+get_selected \
+    | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8}' \
+    | xargs -I{} ln -sr ./graphs ./{}/graphs
 
 get_selected \
     | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8}' \
-    | xargs -I{} ln -s $(pwd)/entry_scripts/entry.sh $(pwd)/{}/entry.sh -f
+    | xargs -I{} unlink ./{}/entry.sh
+get_selected \
+    | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8}' \
+    | xargs -I{} ln -sr ./entry_scripts/entry.sh ./{}/entry.sh
 
 get_selected \
     | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8}' \
-    | xargs -I{} ln -s $(pwd)/graph_net_bench $(pwd)/{}/graph_net_bench -f
+    | xargs -I{} unlink ./{}/graph_net_bench
+get_selected \
+    | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8}' \
+    | xargs -I{} ln -sr ./graph_net_bench ./{}/graph_net_bench
 
 get_selected | while read i;
 do
@@ -39,5 +49,5 @@ done
 
 get_selected \
     | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8}' \
-    | tee sample_lists/demo_fusible_samples.txt
+    | tee ./sample_lists/demo_fusible_samples.txt
 
