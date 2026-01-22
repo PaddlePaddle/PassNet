@@ -51,9 +51,11 @@ class EngineerAgent(BaseAgent):
         for ref in references:
             references_content.append(self.render_prompt(ref))
 
+        pass_code = pass_info.get("pass_code", "")
         optimization_prompt = self.render_prompt(
             "agent_engineer_pass.j2",
             pass_info=pass_info,
+            pass_code=pass_code,
             dsl=dsl,
             backend=backend,
             references=references_content,
