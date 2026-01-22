@@ -21,6 +21,10 @@ get_selected \
     | xargs -I{} mkdir -p {}
 
 get_selected \
+    | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8"/pass_dir"}' \
+    | xargs -I{} touch ./{}/.ignore
+
+get_selected \
     | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8}' \
     | xargs -I{} unlink ./{}/graphs
 get_selected \
