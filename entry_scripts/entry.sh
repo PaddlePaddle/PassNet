@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 
 ai4c_repo_root=$(realpath $0 | xargs -I{} dirname {} | xargs -I{} dirname {})
 if [ ! -f "$ai4c_repo_root/graph_net_bench/__init__.py" ]; then
@@ -14,6 +13,8 @@ OUTPUT_PATH=/tmp/workspace_graph_net_bench_test
 mkdir -p "$OUTPUT_PATH"
 model_list="$SAMPLE_ROOT/graph_list.txt"
 
+pass_match_result_file_path=$(mktemp)
+
 python3 -m graph_net_bench.torch.test_compiler \
     --model-path-prefix $SAMPLE_ROOT \
     --allow-list $model_list \
@@ -21,6 +22,7 @@ python3 -m graph_net_bench.torch.test_compiler \
     --device cuda \
     --config $(base64 -w 0 <<EOF
 {
+    "pass_match_result_file_path": "$pass_match_result_file_path",
     "input_pass_rule_dir": "$SAMPLE_ROOT/const_pass_dir",
     "output_pass_rule_dir": "$SAMPLE_ROOT/pass_dir",
     "output_pass_pattern_limit": 100,
@@ -28,6 +30,14 @@ python3 -m graph_net_bench.torch.test_compiler \
 }
 EOF
 ) 2>&1 | tee "$OUTPUT_PATH/validation.log"
+
+pass_match_result=$(cat $pass_match_result_file_path)
+unlink $pass_match_result_file_path
+echo Is Any pass matched? [$pass_match_result]
+if [[ $pass_match_result == "False" ]]; then
+    echo Early exit on pass mismatch.
+    exit -1
+fi
 
 python3 -m graph_net_bench.aggregate_es_scores \
     --benchmark-path "$OUTPUT_PATH/validation.log" \
