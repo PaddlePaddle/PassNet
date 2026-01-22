@@ -15,10 +15,12 @@ model_list="$SAMPLE_ROOT/graph_list.txt"
 
 pass_match_result_file_path=$(mktemp)
 
+compiler_method=pass_mgr
+
 python3 -m graph_net_bench.torch.test_compiler \
     --model-path-prefix $SAMPLE_ROOT \
     --allow-list $model_list \
-    --compiler pass_mgr \
+    --compiler $compiler_method \
     --device cuda \
     --config $(base64 -w 0 <<EOF
 {
@@ -33,8 +35,8 @@ EOF
 
 pass_match_result=$(cat $pass_match_result_file_path)
 unlink $pass_match_result_file_path
-echo Is Any pass matched? [$pass_match_result]
-if [[ $pass_match_result == "False" ]]; then
+echo Has Any pass matched? [$pass_match_result]
+if [[ $compiler_method == "pass_mgr" && $pass_match_result == "False" ]]; then
     echo Early exit on pass mismatch.
     exit -1
 fi
