@@ -25,6 +25,7 @@ class PassMgrBackend(GraphCompilerBackend):
         output_pass_rule_dir: str,
         output_pass_pattern_limit: int,
         output_pass_replacement_func_limit: int,
+        pass_match_result_file_path: str = None,
         **kwargs,
     ):
         sorted_input_pass_rule_names = self._get_sorted_input_pass_rule_names(
@@ -40,6 +41,7 @@ class PassMgrBackend(GraphCompilerBackend):
             'output_pass_replacement_func_limit': output_pass_replacement_func_limit,
             'sorted_input_pass_rule_names': sorted_input_pass_rule_names,
             'sorted_output_pass_rule_names': sorted_output_pass_rule_names,
+            'pass_match_result_file_path': pass_match_result_file_path,
         }
 
     def _get_sorted_output_pass_rule_names(self, output_pass_rule_dir):
@@ -72,7 +74,9 @@ class PassMgrBackend(GraphCompilerBackend):
 
     def torch_compile_backend(self, gm: torch.fx.GraphModule, sample_inputs: list):
         pass_result = self.pass_manager(gm)
-        assert pass_result.modified
+        if self.config['pass_match_result_file_path'] is not None: 
+            tmp_file = Path(self.config['pass_match_result_file_path'])
+            tmp_file.write_text(str(pass_result.modified))
         return pass_result.graph_module
 
     def make_pass_manager(self):
