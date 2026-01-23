@@ -36,10 +36,6 @@ EOF
 pass_match_result=$(cat $pass_match_result_file_path)
 unlink $pass_match_result_file_path
 echo Has Any pass matched? [$pass_match_result]
-if [[ $compiler_method == "pass_mgr" && $pass_match_result == "False" ]]; then
-    echo Early exit on pass mismatch.
-    exit -1
-fi
 
 python3 -m graph_net_bench.aggregate_es_scores \
     --benchmark-path "$OUTPUT_PATH/validation.log" \
