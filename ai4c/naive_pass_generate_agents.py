@@ -1,4 +1,7 @@
 import argparse
+from functools import partial
+
+from ai4c.utils.eval_runner import on_before_round, on_after_round
 from ai4c.agent.agent_base import LLMQueryConfig, AgentMessage
 from ai4c.agent.agent_framework import AgentWorkflowEngine
 from ai4c.agent.instance_agent_analysis import AnalysisAgent
@@ -22,7 +25,7 @@ def construct_init_message(args):
 
 def main(args):
     llm_query_config = LLMQueryConfig()
-    agent_framework = AgentWorkflowEngine(args.max_turns)
+    engine = AgentWorkflowEngine(args.max_turns)
 
     # custom agent framework
     analysis_agent = AnalysisAgent(
@@ -48,12 +51,20 @@ def main(args):
         )
     )
 
-    # registe agents and run
-    agent_framework.register_agent(analysis_agent).register_agent(engineer_agent)
-    agent_framework.set_first_agent("AnalysisAgent")
-    agent_framework.register_transition("AnalysisAgent", "EngineerAgent")
-    initial_message = construct_init_message(args)
-    agent_framework.run(initial_message)
+    engine.register_agent(analysis_agent).register_agent(engineer_agent)
+    engine.set_first_agent("AnalysisAgent")
+    engine.register_transition("AnalysisAgent", "EngineerAgent")
+
+    def message_factory(turn_idx: int) -> AgentMessage:
+        return construct_init_message(args)
+
+    on_after_round_bound = partial(on_after_round, eval_output_dir=args.eval_output_dir)
+
+    engine.run_multi_round(
+        message_factory=message_factory,
+        on_before_round=on_before_round,
+        on_after_round=on_after_round_bound,
+    )
 
 
 if __name__ == "__main__":
@@ -66,7 +77,14 @@ if __name__ == "__main__":
         type=int,
         required=False,
         default=1,
-        help="the max turns that agent framework can run",
+        help="number of multi-round iterations. Each iteration generates passes, runs entry.sh, then feeds validation.log feedback into the next iteration.",
+    )
+    parser.add_argument(
+        "--eval-output-dir",
+        type=str,
+        required=False,
+        default=None,
+        help="Directory containing validation.log and aggregated_score.json produced by entry.sh. Required when --max-turns > 1.",
     )
     parser.add_argument(
         "--template-dir",
@@ -90,4 +108,6 @@ if __name__ == "__main__":
         help="The device which profile runs on",
     )
     args = parser.parse_args()
+    if args.max_turns > 1 and not args.eval_output_dir:
+        parser.error("--eval-output-dir is required when --max-turns > 1")
     main(args)

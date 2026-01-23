@@ -88,9 +88,32 @@ def replacement_func():
     pass
 ```
 
-{# Instruction #}
-Now, given the task requirements and target models below, generate the optimization Pass Plan in the specified JSON format!
-Please output in codeblocks. Just output the JSON, NO other text!
+{% if fixed_pass_names %}
+Naming Constraint (multi-round):
+You MUST keep the pass names exactly the same as the previous round, in the same order:
+{{ fixed_pass_names }}
+{% endif %}
+
+{# Multi-turn feedback #}
+{% if last_run_feedback %}
+Previous Run Feedback (from entry.sh / validation.log):
+Status: {{ last_run_status }}
+rectified_speedup: {{ last_run_rectified_speedup }}
+speedup_gpu: {{ last_run_speedup_gpu }}
+```
+{{ last_run_feedback }}
+```
+
+Rules:
+- If there is any error/traceback in the feedback, prioritize fixing the bug so the run succeeds.
+{% endif %}
+
+{% if last_pass_artifacts %}
+Previous Round Pass Artifacts (names + current pass_dir code):
+```
+{{ last_pass_artifacts }}
+```
+{% endif %}
 
 {# Input #}
 Task Requirement:
@@ -104,3 +127,7 @@ Graph Name: {{ graph.name }}
 model.py: {{ graph.model_code }}
 weight_meta.py (Input shapes and types): {{ graph.weight_meta }}
 {% endfor %}
+
+{# Instruction #}
+Now, given the task requirements and target models above, generate the optimization Pass Plan in the specified JSON format!
+Please output in codeblocks. Just output the JSON, NO other text!

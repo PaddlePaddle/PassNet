@@ -1,7 +1,7 @@
 import os
 import json
 from ai4c.agent.agent_base import BaseAgent, AgentMessage
-from ai4c.utils.common_string_utils import extract_code_blocks, write_file
+from ai4c.utils.common_string_utils import extract_last_code_block, write_file
 
 register_reference = {"triton": ["agent_analysis_pass.j2"]}
 
@@ -15,11 +15,27 @@ class EngineerAgent(BaseAgent):
     def __init__(self, name, llm_config, template_dir, system_prompt):
         super().__init__(name, llm_config, template_dir, system_prompt)
 
-    def process(self, messages):
-        init_message = messages
+    def process(self, messages: list[AgentMessage]) -> list[AgentMessage]:
+        init_message = messages[0]
         meta_info = self._handle_init_message(init_message)
-        pass_plan_jstr = json.loads(init_message.code_content)
-        pass_plan = json.loads(pass_plan_jstr)
+
+        pass_plan_json_str = json.loads(init_message.code_content)
+        pass_plan = json.loads(pass_plan_json_str)
+
+        fixed_names_env = os.getenv("AI4C_FIXED_PASS_NAMES")
+        if fixed_names_env:
+            try:
+                fixed_names = json.loads(fixed_names_env)
+            except Exception:
+                fixed_names = None
+            if isinstance(fixed_names, list) and fixed_names:
+                pass_details = pass_plan.get("pass_details", [])
+                if isinstance(pass_details, list):
+                    for i, p in enumerate(pass_details):
+                        if i < len(fixed_names) and isinstance(p, dict):
+                            p["name"] = fixed_names[i]
+                # Keep pass_order consistent with fixed names (trim to available passes)
+                pass_plan["pass_order"] = fixed_names[: len(pass_details)]
 
         pass_details = pass_plan.get("pass_details", [])
         for pass_info in pass_details:
@@ -43,7 +59,7 @@ class EngineerAgent(BaseAgent):
             token_usage=init_message.token_usage,
             is_terminal=False,
         )
-        return new_msg
+        return [new_msg]
 
     def _process_one_pass(self, pass_info, dsl, backend):
         references = _get_references(dsl)
@@ -59,6 +75,8 @@ class EngineerAgent(BaseAgent):
             dsl=dsl,
             backend=backend,
             references=references_content,
+            last_run_feedback=(os.environ.get("AI4C_LAST_RUN_FEEDBACK") or ""),
+            last_pass_artifacts=(os.environ.get("AI4C_LAST_PASS_ARTIFACTS") or ""),
         )
 
         response = self.client.chat(
@@ -67,7 +85,9 @@ class EngineerAgent(BaseAgent):
         response_text = response.response_text
         token_usage = response.token_usage
 
-        code = extract_code_blocks(response_text, ["python", ""])
+        # Take only the last code block to avoid accidental concatenation of
+        # multiple blocks (which can make pass files grow across rounds).
+        code = extract_last_code_block(response_text, ["python", ""])
         return code, token_usage
 
     def _handle_init_message(self, messages):

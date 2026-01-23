@@ -36,3 +36,18 @@ def extract_code_blocks(text, code_language_types: list[str]) -> str:
         combined_code.append(code)
 
     return " \n ".join(combined_code) if combined_code else ""
+
+
+def extract_last_code_block(text, code_language_types: list[str]) -> str:
+    """
+    Extract ONLY the last fenced code block from text.
+    """
+    pattern = r"```.*?\n(.*?)```"
+    matches = re.findall(pattern, text, re.DOTALL)
+    if not matches:
+        return ""
+    code = matches[-1].strip()
+    for lang_type in code_language_types:
+        if code.startswith(lang_type):
+            code = code[len(lang_type) :].strip()
+    return code

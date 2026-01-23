@@ -12,6 +12,23 @@ class AnalysisAgent(BaseAgent):
     def process(self, messages: list[AgentMessage]) -> list[AgentMessage]:
         init_message = messages[0]
         requirement = self._handle_init_message(init_message)
+        # Optional multi-turn feedback from the previous evaluation round.
+        requirement["last_run_feedback"] = (init_message.meta_info or {}).get(
+            "last_run_feedback"
+        )
+        requirement["last_run_status"] = (init_message.meta_info or {}).get("last_run_status")
+        requirement["last_run_rectified_speedup"] = (init_message.meta_info or {}).get(
+            "last_run_rectified_speedup"
+        )
+        requirement["last_run_speedup_gpu"] = (init_message.meta_info or {}).get(
+            "last_run_speedup_gpu"
+        )
+        requirement["last_pass_artifacts"] = (init_message.meta_info or {}).get(
+            "last_pass_artifacts"
+        )
+        requirement["fixed_pass_names"] = (init_message.meta_info or {}).get(
+            "fixed_pass_names"
+        )
 
         analysis_prompt = self.render_prompt("agent_analysis_pass.j2", **requirement)
         query_result = self.client.chat(
@@ -30,7 +47,7 @@ class AnalysisAgent(BaseAgent):
             is_terminal=False,
         )
         new_msg.update_token_usage(token_usage)
-        return new_msg
+        return [new_msg]
 
     def _handle_init_message(self, msg: AgentMessage):
         """analyze the task requirement"""

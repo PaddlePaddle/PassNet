@@ -6,6 +6,21 @@ Please output the full pass code with optimized `replacement_func`, and DO NOT m
 Ouput code in codebloack! Please generate real code, NOT pseudocode, make sure the code compiles and is fully functional.
 Just output the pass code, no other text, and NO testing code!
 
+{% if last_run_feedback %}
+Previous Run Feedback (validation.log excerpt):
+```
+{{ last_run_feedback }}
+```
+If the previous run failed, update the implementation to fix the reported error.
+{% endif %}
+
+{% if last_pass_artifacts %}
+Previous Round Pass Artifacts (names + current pass_dir code):
+```
+{{ last_pass_artifacts }}
+```
+{% endif %}
+
 {# Input #}
 The unoptimized pass scheme is:
 ```python
