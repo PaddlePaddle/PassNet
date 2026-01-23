@@ -77,6 +77,8 @@ class PassMgrBackend(GraphCompilerBackend):
         if self.config['pass_match_result_file_path'] is not None: 
             tmp_file = Path(self.config['pass_match_result_file_path'])
             tmp_file.write_text(str(pass_result.modified))
+        if not pass_result.modified:
+            exit(-1)
         return pass_result.graph_module
 
     def make_pass_manager(self):
