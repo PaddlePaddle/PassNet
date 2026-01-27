@@ -1,6 +1,5 @@
-from typing import Dict, Callable
+from typing import Dict, Callable, Any, Optional
 from dataclasses import dataclass
-from typing import Dict, Any
 from abc import ABC, abstractmethod
 from ai4c.agent.prompt.prompt_manager import PromptManager
 from ai4c.utils.llm_query_utils import (
@@ -13,13 +12,15 @@ from ai4c.utils.llm_query_utils import (
 @dataclass
 class AgentMessage:
     sender: str  # which agent is the current message from
-    content: str  # The natural language reasoning or prompt
-    code_content: str  # Pass Code
+    content: Optional[str]  # The natural language reasoning or prompt
+    code_content: Optional[str]  # Pass Code
     meta_info: Dict[str, Any]  # e.g., error messages, stdout logs
-    token_usage: Dict[str, Any]
+    token_usage: Optional[Dict[str, Any]] = None
     is_terminal: bool = False
 
     def update_token_usage(self, new_usage):
+        if self.token_usage is None:
+            self.token_usage = {}
         self.token_usage = add_token_usage(self.token_usage, new_usage)
 
 

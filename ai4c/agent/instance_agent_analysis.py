@@ -38,10 +38,18 @@ class AnalysisAgent(BaseAgent):
         token_usage = query_result.token_usage
 
         pass_plan = extract_code_blocks(response_text, ["json", ""])
+        if not pass_plan:
+            raise ValueError("No code blocks found in AnalysisAgent response. Expected JSON pass plan.")
+        
+        try:
+            json.loads(pass_plan)
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Extracted code block is not valid JSON: {e}")
+        
         new_msg = AgentMessage(
             sender=self.name,
             content=response_text,
-            code_content=json.dumps(pass_plan, ensure_ascii=False),
+            code_content=pass_plan,
             meta_info=init_message.meta_info,
             token_usage={},
             is_terminal=False,
@@ -53,7 +61,9 @@ class AnalysisAgent(BaseAgent):
         """analyze the task requirement"""
 
         requirement_info = {"entry": None, "graphs_data": []}
-        task_path = msg.meta_info["task_path"]
+        task_path = msg.meta_info.get("task_path")
+        if not task_path:
+            raise ValueError("task_path is required in meta_info but was not found.")
 
         # read the requirement file
         graph_file_path = read_file(os.path.join(task_path, "graph_list.txt")).split(

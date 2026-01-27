@@ -3,10 +3,11 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Callable, Dict, Optional, Any
 from ai4c.agent.agent_base import AgentMessage, BaseAgent
+from ai4c.utils.multi_round_utils import _early_exit_with_success
 
 
 @dataclass
-class TurnContext:
+class Turn_Context:
     turn_idx: int
     max_turns: int
     initial_message: AgentMessage
@@ -46,6 +47,8 @@ class AgentWorkflowEngine:
         raise RuntimeError("Agent chain returned no messages.")
 
     def _execute_agent(self, agent_name, msg: list[AgentMessage]) -> list[AgentMessage]:
+        if agent_name not in self._agents:
+            raise ValueError(f"Agent '{agent_name}' is not registered.")
         current_agent_instance = self._agents[agent_name]
         resp_msg = current_agent_instance.process(msg)
         return resp_msg
@@ -57,8 +60,8 @@ class AgentWorkflowEngine:
         self,
         *,
         message_factory: Callable[[int], AgentMessage],
-        on_after_round: Optional[Callable[[TurnContext], Any]] = None,
-        on_before_round: Optional[Callable[[TurnContext], None]] = None,
+        evaluate_round: Optional[Callable[[Turn_Context], Any]] = None,
+        prepare_round: Optional[Callable[[Turn_Context], None]] = None,
     ):
         assert len(self._agents) > 0, "There is no agent registered."
         assert self._first_agent_name is not None, "First agent not set."
@@ -68,30 +71,25 @@ class AgentWorkflowEngine:
 
         for turn in range(self._max_turns):
             init_msg = message_factory(turn)
-            ctx = TurnContext(
+            ctx = Turn_Context(
                 turn_idx=turn,
                 max_turns=self._max_turns,
                 initial_message=init_msg,
                 final_message=last_final,
                 last_eval=last_eval,
             )
-            if on_before_round is not None:
-                on_before_round(ctx)
+            if prepare_round is not None:
+                prepare_round(ctx)
 
             print(f"[Agent Framework] Start round {turn+1}/{self._max_turns}")
             last_final = self._run_agent_turn(ctx.initial_message, turn_num=turn)
             ctx.final_message = last_final
 
-            if on_after_round is not None:
-                last_eval = on_after_round(ctx)
+            if evaluate_round is not None:
+                last_eval = evaluate_round(ctx)
                 ctx.last_eval = last_eval
 
-                # Early exit: if evaluation succeeded, we're done.
-                try:
-                    if getattr(last_eval, "status", None) == "success":
-                        print(f"[Agent Framework] Early exit on success at round {turn+1}/{self._max_turns}")
-                        break
-                except Exception:
-                    pass
+            if _early_exit_with_success(last_eval, turn, self._max_turns):
+                break
 
         return last_eval

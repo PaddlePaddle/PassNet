@@ -13,6 +13,8 @@ from ai4c.utils.multi_round_utils import (
     parse_rectified_speedup,
     read_text,
     truncate_text,
+    _cleanup_pass_dir,
+    parse_json_or_warn,
 )
 
 
@@ -65,10 +67,9 @@ def format_eval_feedback(ev: Any) -> str:
 def format_last_pass_artifacts(task_path: str, last_engineer_plan_json: str) -> str:
     if not last_engineer_plan_json:
         return ""
-    try:
-        plan = json.loads(last_engineer_plan_json)
-    except Exception:
-        return truncate_text(last_engineer_plan_json, 20000)
+    plan, fallback = parse_json_or_warn(last_engineer_plan_json)
+    if plan is None:
+        return fallback or ""
 
     pass_details = plan.get("pass_details", []) if isinstance(plan, dict) else []
     names: list[str] = []
@@ -89,23 +90,12 @@ def format_last_pass_artifacts(task_path: str, last_engineer_plan_json: str) -> 
             code = f"<failed to read {fp}: {type(e).__name__}: {e}>"
         lines.append(f"\n--- pass_file: {fp} ---\n{truncate_text(code, 12000)}")
 
-    # After we have captured the artifacts for prompting, remove pass .py files so
-    # the next round starts from a clean slate (Engineer will rewrite them).
-    try:
-        if os.path.isdir(base_dir):
-            for fn in os.listdir(base_dir):
-                if fn.endswith(".py"):
-                    try:
-                        os.remove(os.path.join(base_dir, fn))
-                    except Exception:
-                        pass
-    except Exception:
-        pass
+    _cleanup_pass_dir(base_dir=base_dir)
 
     return truncate_text("\n".join(lines), 30000)
 
 
-def on_before_round(ctx: Any) -> None:
+def prepare_round(ctx: Any) -> None:
     if getattr(ctx, "last_eval", None) is None:
         return
     last_eval = ctx.last_eval
@@ -116,25 +106,28 @@ def on_before_round(ctx: Any) -> None:
         last_eval, "rectified_speedup", None
     )
     ctx.initial_message.meta_info["last_run_speedup_gpu"] = getattr(last_eval, "speedup_gpu", None)
-    os.environ["AI4C_LAST_RUN_FEEDBACK"] = feedback
 
-    last_plan_json = getattr(getattr(ctx, "final_message", None), "code_content", None)
-    if last_plan_json:
-        artifacts = format_last_pass_artifacts(ctx.initial_message.meta_info["task_path"], last_plan_json)
-        ctx.initial_message.meta_info["last_pass_artifacts"] = artifacts
-        os.environ["AI4C_LAST_PASS_ARTIFACTS"] = artifacts
+    final_message = getattr(ctx, "final_message", None)
+    last_plan_json = getattr(final_message, "code_content", None) if final_message else None
+    if not last_plan_json:
+        return
 
-        try:
-            last_plan = json.loads(last_plan_json)
-            last_pass_order = last_plan.get("pass_order") if isinstance(last_plan, dict) else None
-        except Exception:
-            last_pass_order = None
-        if isinstance(last_pass_order, list) and last_pass_order:
-            os.environ["AI4C_FIXED_PASS_NAMES"] = json.dumps(last_pass_order, ensure_ascii=False)
-            ctx.initial_message.meta_info["fixed_pass_names"] = last_pass_order
+    artifacts = format_last_pass_artifacts(ctx.initial_message.meta_info["task_path"], last_plan_json)
+    ctx.initial_message.meta_info["last_pass_artifacts"] = artifacts
+
+    try:
+        last_plan = json.loads(last_plan_json)
+    except Exception:
+        return
+
+    last_pass_order = last_plan.get("pass_order") if isinstance(last_plan, dict) else None
+    if isinstance(last_pass_order, list) and last_pass_order:
+        ctx.initial_message.meta_info["fixed_pass_names"] = last_pass_order
+    else:
+        print(f"[Warning] Failed to parse last_plan_json as JSON: {type(last_plan).__name__}: {last_plan}")
 
 
-def on_after_round(ctx: Any, *, eval_output_dir: Optional[str]) -> EvalResult:
+def evaluate_round(ctx: Any, *, eval_output_dir: Optional[str]) -> EvalResult:
     print(f"[AI4C] ===== Round {ctx.turn_idx+1}/{ctx.max_turns}: running entry.sh =====")
     ev = run_entry_and_collect(
         ctx.initial_message.meta_info["task_path"],
@@ -225,5 +218,3 @@ def run_entry_and_collect(
         rectified_speedup=rectified,
         error_excerpt=error_excerpt,
     )
-
-

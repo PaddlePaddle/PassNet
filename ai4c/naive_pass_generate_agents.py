@@ -1,7 +1,7 @@
 import argparse
 from functools import partial
 
-from ai4c.utils.eval_runner import on_before_round, on_after_round
+from ai4c.utils.eval_runner import prepare_round, evaluate_round
 from ai4c.agent.agent_base import LLMQueryConfig, AgentMessage
 from ai4c.agent.agent_framework import AgentWorkflowEngine
 from ai4c.agent.instance_agent_analysis import AnalysisAgent
@@ -55,15 +55,15 @@ def main(args):
     engine.set_first_agent("AnalysisAgent")
     engine.register_transition("AnalysisAgent", "EngineerAgent")
 
-    def message_factory(turn_idx: int) -> AgentMessage:
+    def message_factory(_turn_idx):
         return construct_init_message(args)
 
-    on_after_round_bound = partial(on_after_round, eval_output_dir=args.eval_output_dir)
+    evaluate_round_bound = partial(evaluate_round, eval_output_dir=args.eval_output_dir)
 
     engine.run_multi_round(
         message_factory=message_factory,
-        on_before_round=on_before_round,
-        on_after_round=on_after_round_bound,
+        prepare_round=prepare_round,
+        evaluate_round=evaluate_round_bound,
     )
 
 

@@ -24,8 +24,8 @@ python3 -m ai4c.naive_pass_generate_agents --max-turns 1 --dsl triton --model-di
 samples/fusible_subgraphs/bat_resnext26ts.ch_in1k/bat_resnext26ts.ch_in1k_0_start11_end15_2/entry.sh
 
 # 多轮模式（每轮：生成pass -> 运行entry.sh -> 读取validation.log/分数作为下一轮上下文）
-python3 -m ai4c.naive_pass_generate_agents --max-turns 3 --dsl triton \
-  --model-dir samples/fusible_subgraphs/bat_resnext26ts.ch_in1k/bat_resnext26ts.ch_in1k_0_start11_end15_2 \
+python3 -m ai4c.naive_pass_generate_agents --max-turns 5 --dsl triton \
+  --model-dir samples/fusible_subgraphs/bat_resnext26ts.ch_in1k/bat_resnext26ts.ch_in1k_0_start6_end11_1 \
   --eval-output-dir /path/to/your/workspace_graph_net_bench_test
 ```
 

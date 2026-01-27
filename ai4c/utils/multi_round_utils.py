@@ -7,6 +7,27 @@ from typing import Any
 
 from typing import Optional, Union
 
+def _early_exit_with_success(last_eval, turn: int, n_rounds: int) -> bool:
+    try:
+        if getattr(last_eval, "status", None) == "success":
+            print(
+                f"[Agent Framework] Early exit on success at round {turn+1}/{n_rounds}"
+            )
+            return True
+    except Exception:
+        return False
+    return False
+
+def _cleanup_pass_dir(base_dir: str):
+    if not os.path.isdir(base_dir):
+        return
+    for fn in os.listdir(base_dir):
+        if not fn.endswith(".py"):
+            continue
+        try:
+            os.remove(os.path.join(base_dir, fn))
+        except Exception:
+            return
 
 def truncate_text(s: Optional[str], max_chars: int, *, suffix: str = "\n... <truncated> ...") -> str:
     """
@@ -72,5 +93,18 @@ def parse_rectified_speedup(score_path: Optional[str]) -> Optional[float]:
         return None
     v = data.get("score")
     return parse_float(v) if not isinstance(v, (int, float)) else float(v)
+
+
+def parse_json_or_warn(json_str: str, fallback_max_chars: int = 20000) -> tuple[Optional[Any], Optional[str]]:
+    """
+    Parse JSON string, return (parsed_object, None) on success.
+    On failure, print warning and return (None, truncated_raw_string).
+    """
+    try:
+        return json.loads(json_str), None
+    except Exception as e:
+        print(f"[Warning] Failed to parse JSON: {type(e).__name__}: {e}")
+        print(f"[Warning] Returning truncated raw content instead.")
+        return None, truncate_text(json_str, fallback_max_chars)
 
 
