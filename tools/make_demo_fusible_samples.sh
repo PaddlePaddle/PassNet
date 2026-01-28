@@ -9,7 +9,7 @@ fi
 
 
 get_selected() {
-    head ./graph_lists/fusible_subgraphs.txt
+    head -200 ./graph_lists/fusible_subgraphs.txt
 }
 
 get_selected \
