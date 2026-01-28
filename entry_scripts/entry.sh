@@ -22,6 +22,8 @@ python3 -m graph_net_bench.torch.test_compiler \
     --allow-list $model_list \
     --compiler $compiler_method \
     --device cuda \
+    --warmup 25 \
+    --trials 100 \
     --config $(base64 -w 0 <<EOF
 {
     "pass_match_result_file_path": "$pass_match_result_file_path",
