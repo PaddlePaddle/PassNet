@@ -1,1 +1,0 @@
-/workspace/ai4c/entry_scripts/entry.sh
