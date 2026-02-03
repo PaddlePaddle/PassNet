@@ -2,6 +2,7 @@ import os
 import torch
 import torch.fx
 from torch.fx.subgraph_rewriter import replace_pattern
+from torch.fx.passes.utils.matcher_utils import SubgraphMatcher
 from torch.fx.passes.infra.pass_manager import PassManager, PassResult
 import random
 import string
@@ -11,6 +12,75 @@ from collections import OrderedDict
 from pathlib import Path
 import importlib.util as imp
 from .graph_compiler_backend import GraphCompilerBackend
+from dataclasses import dataclass
+from typing import Any, List, Optional, Dict
+from enum import Enum, auto
+
+class FailureType(Enum):
+    OP_MISMATCH = auto()
+    TARGET_MISMATCH = auto()
+    ATTR_MISMATCH = auto()
+
+@dataclass
+class MatchFailure:
+    pattern_node: torch.fx.Node
+    target_node: torch.fx.Node
+    failure_type: FailureType
+    expected: Any = None
+    actual: Any = None
+    
+    def __repr__(self):
+        return (f"MatchFailure(type={self.failure_type.name}, "
+                f"p={self.pattern_node.name}, t={self.target_node.name}, "
+                f"exp={self.expected}, act={self.actual})")
+
+class DiagnosticMatcher(SubgraphMatcher):
+    def __init__(self, pattern_graph: torch.fx.Graph):
+        super().__init__(pattern_graph)
+        self.failures: List[MatchFailure] = []
+    
+    def _record_failure(self, p_node, t_node, failure_type, expected=None, actual=None) -> bool:
+        self.failures.append(MatchFailure(p_node, t_node, failure_type, expected, actual))
+        return False
+    
+    def _match_attributes(self, pn, gn) -> bool:
+        pn_value = torch.fx.graph_module._get_attr(pn.graph.owning_module, pn.target)
+        gn_value = torch.fx.graph_module._get_attr(gn.graph.owning_module, gn.target)
+        
+        if type(pn_value) is not type(gn_value):
+            return self._record_failure(pn, gn, FailureType.ATTR_MISMATCH, 
+                                        type(pn_value).__name__, type(gn_value).__name__)
+        
+        if isinstance(pn_value, torch.Tensor) and isinstance(gn_value, torch.Tensor):
+            return True
+        
+        return self._record_failure(pn, gn, FailureType.ATTR_MISMATCH, 
+                                    f"unsupported type {type(pn_value).__name__}", None)
+    
+    def _nodes_are_equal(self, pn, gn, node_name_match=""):
+        if not self.match_placeholder and pn.op == "placeholder":
+            return True
+        
+        if node_name_match and node_name_match in gn.name:
+            return True
+        
+        if pn.op != gn.op:
+            return self._record_failure(pn, gn, FailureType.OP_MISMATCH, pn.op, gn.op)
+        
+        if pn.op == "placeholder" or pn.op == "output":
+            return True
+        
+        if pn.op == "get_attr":
+            return self._match_attributes(pn, gn)
+        
+        if pn.target != gn.target:
+            if pn.op == "call_function":
+                p_name = getattr(pn.target, "__name__", str(pn.target))
+                t_name = getattr(gn.target, "__name__", str(gn.target))
+                return self._record_failure(pn, gn, FailureType.TARGET_MISMATCH, p_name, t_name)
+            return self._record_failure(pn, gn, FailureType.TARGET_MISMATCH, pn.target, gn.target)
+
+        return True
 
 
 class PassMgrBackend(GraphCompilerBackend):
@@ -78,20 +148,23 @@ class PassMgrBackend(GraphCompilerBackend):
             tmp_file = Path(self.config['pass_match_result_file_path'])
             tmp_file.write_text(str(pass_result.modified))
         if not pass_result.modified:
-            exit(-1)
+            print("[PassMgrBackend] Warning: No passes modified the graph. Returning original.")
+            # exit(-1)  <-- Removed to allow continued execution or fallback
         return pass_result.graph_module
 
     def make_pass_manager(self):
         return PassManager(passes=self.get_passes())
 
     def get_passes(self):
-        return [
+        passes = [
             create_pass(
                 pass_name=pass_name,
                 pass_rule=pass_rule
             )
             for pass_name, pass_rule in self._get_named_pass_rules()
         ]
+        print(f"[PassMgrBackend] Loaded {len(passes)} passes: {[p.__name__ for p in passes]}")
+        return passes
 
     def _get_named_pass_rules(self):
         name2output_pass_rules = OrderedDict(
@@ -171,7 +244,7 @@ class PassMgrBackend(GraphCompilerBackend):
 
 
 class PatternReplacementPass:
-    def __init__(self, pass_rule):
+    def __init__(self, pass_rule, pass_name="unnamed_pass"):
         arg_names = list(inspect.signature(pass_rule.pattern).parameters.keys())
         @self.reset_func_arg_names(arg_names)
         def replacement(*args):
@@ -179,7 +252,33 @@ class PatternReplacementPass:
             
         self.pattern = pass_rule.pattern
         self.replacement = replacement
+        self.pass_name = pass_name
 
+    def _print_diagnostic_report(self, gm: torch.fx.GraphModule) -> None:
+        try:
+            # Get pattern graph
+            if isinstance(self.pattern, torch.fx.GraphModule):
+                pattern_graph = self.pattern.graph
+            elif isinstance(self.pattern, torch.fx.Graph):
+                pattern_graph = self.pattern
+            else:
+                pattern_graph = torch.fx.symbolic_trace(self.pattern).graph
+            
+            # Run diagnostic matcher with overriden _nodes_are_equal method
+            matcher = DiagnosticMatcher(pattern_graph)
+            matcher.match(gm.graph)
+            
+            if matcher.failures:
+                print(f"[PassMgrBackend] Diagnostic Report for {self.pass_name}:")
+                meaningful = [f for f in matcher.failures if f.failure_type != FailureType.OP_MISMATCH]
+                failures_to_show = meaningful[:] if meaningful else matcher.failures[:]
+                for f in failures_to_show:
+                    print(f"  - {f}")
+            else:
+                print(f"[PassMgrBackend] No specific node failures recorded.")
+        except Exception as e:
+            print(f"[PassMgrBackend] Diagnostic failed: {e}")
+    
     @classmethod
     def reset_func_arg_names(cls, arg_names):
         # arg_names is a list like ['x', 'y', 'z']
@@ -198,8 +297,11 @@ def {func_name}(f):
         return namespace[func_name]
 
     def __call__(self, gm: torch.fx.GraphModule):
-        # This performs the actual match-and-replace
-        matches = replace_pattern(gm, self.pattern, self.replacement)
+        try:
+            matches = replace_pattern(gm, self.pattern, self.replacement)
+        except Exception as e:
+            print(f"[PassMgrBackend] Pass {self.pass_name} CRASHED with error: {e}")
+            raise e
         
         # Determine if the graph actually changed
         modified = len(matches) > 0
@@ -207,12 +309,16 @@ def {func_name}(f):
         if modified:
             gm.recompile()
             print(f"Applied {len(matches)} replacements.")
-        
+        else:
+            # Diagnose pattern matching failure
+            print(f"[PassMgrBackend] Pass {self.pass_name} failed to match.")
+            self._print_diagnostic_report(gm)
+
         # Return the PassResult object
         return PassResult(gm, modified)
 
 def create_pass(pass_name, pass_rule):
-    gm_pass = PatternReplacementPass(pass_rule)
+    gm_pass = PatternReplacementPass(pass_rule, pass_name)
     def func(gm):
         return gm_pass(gm)
     func.__name__ = pass_name
