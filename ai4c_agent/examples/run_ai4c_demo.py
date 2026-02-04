@@ -171,7 +171,7 @@ def patched_runagent(ds, scaffold="r2egym", **kwargs):
         # Run agent
         try:
             from r2egym.agenthub.run.edit import run_agent_with_restarts
-            result = run_agent_with_restarts(
+            trajectory = run_agent_with_restarts(
                 agent, env,
                 max_steps=max_steps,
                 num_restarts=kwargs.get('num_restarts', 1),
@@ -182,16 +182,11 @@ def patched_runagent(ds, scaffold="r2egym", **kwargs):
                 scaffold="r2egym",  # Use r2egym scaffold, AI4C tools detected via command_files
                 max_tokens=kwargs.get('max_tokens', 65536),
             )
-            logger.info(f"Result type from run_agent_with_restarts: {type(result)}")
-            logger.info(f"Result: {result}")
+            logger.info(f"Trajectory type: {type(trajectory)}")
 
-            # Unpack the result
-            if isinstance(result, tuple) and len(result) == 2:
-                trajectory, history = result
-                logger.info(f"Successfully unpacked: trajectory type={type(trajectory)}, history type={type(history)}")
-            else:
-                logger.error(f"Unexpected result format: {type(result)}")
-                raise ValueError(f"Expected tuple of (trajectory, history), got {type(result)}")
+            # Get history from agent instance (stored as final_history)
+            history = getattr(agent, 'final_history', None)
+            logger.info(f"History retrieved: {history is not None}")
         except Exception as e:
             logger.error(f"Error during agent run: {e}")
             import traceback

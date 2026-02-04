@@ -238,8 +238,13 @@ class AI4CAgent(R2EGymAgent):
         )
 
         self.logger.info(f"Returning trajectory with exit_reason: {trajectory.exit_reason}")
-        self.logger.info(f"Return type: (Trajectory, list)")
-        return trajectory, self.history
+        self.logger.info(f"Return type: Trajectory object (open-source r2e-gym expects single return)")
+
+        # Store history as instance variable so it can be accessed later
+        self.final_history = self.history
+
+        # Open-source r2e-gym expects agent.run() to return just Trajectory, not tuple
+        return trajectory
 
     def model_query(self, messages: List[Dict[str, str]], temperature: float = 0) -> Dict[str, Any]:
         """
