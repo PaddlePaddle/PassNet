@@ -1,0 +1,9 @@
+
+# Core dependency - r2e-gym framework (from GitHub)
+git+https://github.com/R2E-Gym/R2E-Gym.git
+
+# Note: AI4C benchmark is NOT a code dependency
+# AI4C-agent uses:
+# 1. AI4C Docker image - built from ../Dockerfile.nvidia in parent AI4C project
+# 2. AI4C sample data - mounted as volume during runtime
+# 3. No direct Python imports from AI4C code
