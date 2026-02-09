@@ -11,7 +11,8 @@ def extract_all_import_alias(tree: ast.AST) -> list[tuple[str, int]]:
       <- $tree ast.AST
       <- ($python_module_name_in_from_xxx_import_yyy AliasedModuleAndLineno <- $tree)
       <- ($python_module_name_in_import_xxx_as_yyy AliasedModuleAndLineno <- $tree)
-      <- ($merged <- $list_a <- $list_b)
+      <- ($python_module_name_for_submodule_rename_assign AliasedModuleAndLineno <- $tree)
+      <- ($merged <- $list_a <- $list_b <- $list_c)
     """
 
     def get_from_root_modules(t: ast.AST) -> list[tuple[str, int]]:
@@ -24,7 +25,6 @@ def extract_all_import_alias(tree: ast.AST) -> list[tuple[str, int]]:
 
     def get_aliased_imports(t: ast.AST) -> list[tuple[str, int]]:
         # 'import numpy as np' -> 'numpy'
-        # 'import os' is ignored because alias.asname is None
         return [
             (alias.name, node.lineno)
             for node in ast.walk(t)
@@ -33,19 +33,33 @@ def extract_all_import_alias(tree: ast.AST) -> list[tuple[str, int]]:
             if alias.asname
         ]
 
-    def merge_first_occurrences(list_a: list, list_b: list) -> list[tuple[str, int]]:
+    def get_submodule_rename_assigns(t: ast.AST) -> list[tuple[str, int]]:
+        # 'F = torch.nn.functional' -> 'torch'
+        results = []
+        for node in ast.walk(t):
+            if isinstance(node, ast.Assign) and isinstance(node.value, ast.Attribute):
+                curr = node.value
+                while isinstance(curr, ast.Attribute):
+                    curr = curr.value
+                if isinstance(curr, ast.Name):
+                    results.append((curr.id, node.lineno))
+        return results
+
+    def merge_first_occurrences(*lists: list) -> list[tuple[str, int]]:
         # Layer 2: Merge and ensure uniqueness based on first lineno
         registry = {}
-        for name, line in list_a + list_b:
-            if name and name not in registry:
-                registry[name] = line
-        return list(registry.items())
+        for sublist in lists:
+            for name, line in sublist:
+                if name and name not in registry:
+                    registry[name] = line
+        return sorted(registry.items(), key=lambda x: x[1])
 
     # Resolve Exponent logic (<-)
     from_list = get_from_root_modules(tree)
     alias_list = get_aliased_imports(tree)
+    assign_list = get_submodule_rename_assigns(tree)
 
-    return merge_first_occurrences(from_list, alias_list)
+    return merge_first_occurrences(from_list, alias_list, assign_list)
 
 
 def test_main():
@@ -55,13 +69,16 @@ def test_main():
     # Case 2: Aliased import returns the original module name
     src2 = "import numpy as np"  # Expected: [('numpy', 1)]
 
-    # Case 3: Ignored standard imports and Duplicates
-    src3 = """
+    # Case 3: Submodule rename assignment
+    src3 = "import torch; F = torch.nn.functional"  # Expected: [('torch', 2)]
+
+    # Case 4: Ignored standard imports and Duplicates
+    src4 = """
 import os
-import sys
 from math.constants import pi
 import numpy as np
-    """  # Expected: [('math', 4), ('numpy', 5)]
+G = torch.nn.utils
+    """  # Expected: [('math', 3), ('numpy', 4), ('torch', 5)]
 
     def run_check(source, expected_keys, ignored_keys, label):
         t = ast.parse(source)
@@ -78,7 +95,8 @@ import numpy as np
     print("Executing Viba test suite...")
     run_check(src1, ["os"], [], "From-Import Root")
     run_check(src2, ["numpy"], ["np"], "Aliased Import Original Name")
-    run_check(src3, ["math", "numpy"], ["os", "sys"], "Ignored and Multi-line")
+    run_check(src3, ["torch"], ["F"], "Submodule Rename")
+    run_check(src4, ["math", "numpy", "torch"], ["os"], "Ignored and Mixed Patterns")
 
 
 if __name__ == "__main__":
