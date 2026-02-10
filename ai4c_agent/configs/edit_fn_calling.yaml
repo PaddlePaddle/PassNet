@@ -120,6 +120,69 @@ instance_prompt: |-
       return kernel_wrapper  # Return the function, not a call
   ```
 
+  There is a reference optimization passes for Triton kernel.
+  Give unoptimized pass:
+    ```python
+    import torch
+
+    def pattern(x, y):
+        return x+y
+
+    def replacement_args(x, y):
+        return (x, y)
+
+    def replacement_func():
+        pass
+    ```
+
+    Output optimization Pass:
+    ```python
+
+    triton.jit
+    def add_kernel(
+        x_ptr,
+        y_ptr,
+        out_ptr,
+        n_elements,
+        BLOCK_SIZE: tl.constexpr,
+    ):
+        # Each program handles a contiguous block of data of size BLOCK_SIZE
+        block_start = tl.program_id(0) * BLOCK_SIZE
+        offsets = block_start + tl.arange(0, BLOCK_SIZE)
+        mask = offsets < n_elements # Mask to ensure we don't go out of bounds
+        # Load
+        x = tl.load(x_ptr + offsets, mask=mask, other=0.0)
+        y = tl.load(y_ptr + offsets, mask=mask, other=0.0)
+        # Calculate
+        out = x + y
+        # Store
+        tl.store(out_ptr + offsets, out, mask=mask)
+
+    @torch.fx.wrap
+    def triton_add(x, y):
+        N = x.numel()
+        BLOCK_SIZE = 1024
+        num_programs = (N + BLOCK_SIZE - 1) // BLOCK_SIZE
+
+        out = torch.empty_like(x)
+
+        triton_add_kernel[(num_programs,)](
+            x_ptr=x,
+            y_ptr=y,
+            out_ptr=out,
+            n_elements=N,
+            BLOCK_SIZE=BLOCK_SIZE,
+        )
+
+        return out
+
+    def replacement_args(x, y):
+        return (x, y)
+
+    def replacement_func():
+        return triton_add
+    ```
+
   **Pattern Matching Guidelines:**
 
   Pattern matching is performed over the exact dataflow structure of the computation graph.
@@ -168,18 +231,18 @@ instance_prompt: |-
   - Create separate pass files for independent optimization opportunities (don't try to optimize everything in one pass)
   - Pattern matching is strict - only include actual operations, exclude `tmp_x = None` cleanup statements
   - Each pattern should match ONE specific operation or fusion opportunity
+  - Each pattern should inculde at least one Triton kernel implementation
   - Pay attention to what the model returns - your pattern must return the same structure
   - ALWAYS create sorted_output_pass_rule_names.json listing all your pass files
   - When iterating, focus on optimizing the kernel implementation rather than changing pattern/replacement_args
-  - Use tensor shapes from weight_meta.py to inform your kernel design (tile sizes, grid dimensions)
   - Test early and often with pass_evaluator to catch issues
   - Learn from evaluation feedback - if pattern doesn't match, check your pattern function carefully
   - For correctness failures, verify your kernel logic and data types
-  - For speedup optimization, experiment with different memory access patterns and block sizes
+  - For speedup optimization, first analyze the performance bottlenecks of the Triton kernel, then progressively apply optimizations such as autotuning configurations, re-tile for better parallelism (e.g. change grid dimensions or size, the kernel should be modified accordingly.), and kernel fusion.
 
 command_files:
-  - "/ssd1/hesijun/ai4c/ai4c_agent/tools/file_editor.py"
-  - "/ssd1/hesijun/ai4c/ai4c_agent/tools/pass_evaluator.py"
+  - "./tools/file_editor.py"
+  - "./tools/pass_evaluator.py"
 llm_name: "gpt-4o"
 other_args:
   max_retries: 3
