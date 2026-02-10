@@ -6,3 +6,4 @@ openai
 docker
 jinja2
 scipy
+chardet

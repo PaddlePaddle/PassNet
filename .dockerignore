@@ -1,5 +1,5 @@
 # Git
-.git
+# .git - commented out to preserve git repo in Docker image
 .gitignore
 .gitattributes
 
