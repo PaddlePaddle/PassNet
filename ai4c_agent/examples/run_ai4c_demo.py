@@ -56,7 +56,7 @@ def parse_args():
     parser.add_argument(
         "--traj-dir",
         type=str,
-        default="/home/zhuxinguo/project/ai4c/ai4c_agent/trajectories/ai4c",
+        default="./trajectories/ai4c",
         help="Directory to save trajectories"
     )
     parser.add_argument(
