@@ -44,19 +44,19 @@ def parse_args():
     parser.add_argument(
         "--dataset",
         type=str,
-        default="/ssd1/hesijun/ai4c/ai4c_agent/datasets/ai4c_demo_dataset.jsonl",
+        default="./datasets/ai4c_demo_dataset.jsonl",
         help="Path to dataset JSONL file"
     )
     parser.add_argument(
         "--config",
         type=str,
-        default="/ssd1/hesijun/ai4c/ai4c_agent/configs",
+        default="./configs",
         help="Path to config directory"
     )
     parser.add_argument(
         "--traj-dir",
         type=str,
-        default="/ssd1/hesijun/ai4c/ai4c_agent/trajectories/ai4c",
+        default="/home/zhuxinguo/project/ai4c/ai4c_agent/trajectories/ai4c",
         help="Directory to save trajectories"
     )
     parser.add_argument(
@@ -109,7 +109,8 @@ if args.anthropic_api_key:
 os.environ["MAX_WORKERS"] = str(args.max_workers)
 
 # Add ai4c_agent directory to path
-sys.path.insert(0, "/ssd1/hesijun/ai4c/ai4c_agent")
+AI4C_AGENT_DIR = Path(__file__).parent.parent.resolve()
+sys.path.insert(0, str(AI4C_AGENT_DIR))
 
 # Import AI4C runtime directly from runtime folder
 from runtime.ai4c_docker import AI4CDocker
@@ -148,7 +149,7 @@ def patched_runagent(ds, scaffold="r2egym", **kwargs):
 
         logger = setup_logging(
             name=ds["docker_image"].replace("/", "_"),
-            log_file=f"run_logs/{exp_name}/{ds['docker_image'].replace('/', '_')}.log",
+            log_file=f"./run_logs/{exp_name}/{ds['docker_image'].replace('/', '_')}.log",
             console=True,
             level=INFO,
         )
@@ -164,6 +165,11 @@ def patched_runagent(ds, scaffold="r2egym", **kwargs):
         config_file = Path(scaffold) / "edit_fn_calling.yaml" if use_fn_calling else Path(scaffold) / "edit_non_fn_calling.yaml"
         agent_args = AgentArgs.from_yaml(config_file)
         agent_args.llm_name = llm_name
+        agent_args.llm_base_url = os.getenv("LLM_BASE_URL")
+        agent_args.other_args = {
+            "openai_llm_api_key": os.getenv("OPENAI_API_KEY"),
+            "anthropic_llm_api_key": os.getenv("ANTHROPIC_API_KEY"),
+        }
 
         # Initialize agent - use AI4CAgent instead of generic Agent
         agent = AI4CAgent(name="AI4CAgent", args=agent_args, logger=logger)

@@ -305,6 +305,16 @@ No parameters are required - simply call this tool to evaluate your current pass
         start_time = time.time()
         retries = 0
 
+        # fetch api key (default use openai key)
+        api_key = None
+        if self.other_args:
+            openai_api_key = self.other_args.get("openai_llm_api_key", None)
+            anthropic_api_key = self.other_args.get("anthropic_llm_api_key", None)
+        else:
+            openai_api_key = None
+            anthropic_api_key = None
+        api_key = openai_api_key if openai_api_key else anthropic_api_key
+        
         while retries < self.max_retries:
             try:
                 response = litellm.completion(
@@ -313,6 +323,7 @@ No parameters are required - simply call this tool to evaluate your current pass
                     messages=messages_,
                     timeout=self.llm_timeout,
                     api_base=self.llm_base_url,
+                    api_key=api_key,
                     temperature=temperature,
                 )
                 self.logger.warning(f"Querying LLM complete")
