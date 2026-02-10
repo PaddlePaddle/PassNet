@@ -38,8 +38,11 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 # Set working directory
 WORKDIR /workspace/ai4c
 
-# Copy project files
+# Copy project files (including .git directory to maintain git functionality)
 COPY . .
+
+# Reset any uncommitted changes to have a clean git state
+RUN git reset --hard HEAD
 
 # Set PYTHONPATH
 ENV PYTHONPATH=/workspace/ai4c:$PYTHONPATH
