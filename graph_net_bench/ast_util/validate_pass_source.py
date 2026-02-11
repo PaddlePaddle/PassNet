@@ -12,9 +12,19 @@ BLOCKED_IMPORT_PREFIXES = [
 ]
 
 BLOCKED_CALL_PREFIXES = [
-    "torch.nn.",
-    "torch.ops.",
-    "torch.autograd.",
+    "torch"
+]
+
+ALLOWED_TORCH_CALLS = [
+    "torch.empty",
+    "torch.empty_like",
+    "torch.zeros",
+    "torch.zeros_like",
+    "torch.ones",
+    "torch.ones_like",
+    "torch.full",
+    "torch.full_like",
+    "torch.as_tensor"
 ]
 
 # Functions whose bodies are allowed to use blocked APIs
@@ -138,6 +148,8 @@ def _extract_non_exempt_nodes(tree: ast.AST) -> list[ast.AST]:
 
 
 def _is_blocked_call(resolved: str) -> bool:
+    if resolved in ALLOWED_TORCH_CALLS:
+        return False
     return any(resolved.startswith(p) for p in BLOCKED_CALL_PREFIXES)
 
 
