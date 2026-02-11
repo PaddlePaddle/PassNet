@@ -1,7 +1,6 @@
 import os
 import torch
 import torch.fx
-from torch.fx.subgraph_rewriter import replace_pattern
 from torch.fx.passes.utils.matcher_utils import SubgraphMatcher
 from torch.fx.passes.infra.pass_manager import PassManager, PassResult
 import random
@@ -15,6 +14,7 @@ from .graph_compiler_backend import GraphCompilerBackend
 from dataclasses import dataclass
 from typing import Any, List, Optional, Dict
 from enum import Enum, auto
+from ..custom_replacement import _replace_pattern
 
 class FailureType(Enum):
     OP_MISMATCH = auto()
@@ -241,16 +241,20 @@ class PassMgrBackend(GraphCompilerBackend):
         input_pass_rule_dir = self.config['input_pass_rule_dir']
         sorted_input_pass_rule_names = self.config['sorted_input_pass_rule_names']
         return [
-            self._find_rule(dir_path=input_pass_rule_dir, name=name)
+            rule 
             for name in sorted_input_pass_rule_names
+            if (rule := self._find_rule(dir_path=input_pass_rule_dir, name=name))
+            is not None
         ]
 
     def _get_output_pass_rules(self):
         output_pass_rule_dir = self.config['output_pass_rule_dir']
         sorted_output_pass_rule_names = self.config['sorted_output_pass_rule_names']
         rules = [
-            self._find_rule(dir_path=output_pass_rule_dir, name=name)
+            rule 
             for name in sorted_output_pass_rule_names
+            if (rule := self._find_rule(dir_path=output_pass_rule_dir, name=name)) 
+            is not None
         ]
         rules = self._bound_by_replacement_func_limit(rules)
         rules = self._bound_by_pattern_limit(rules)
@@ -345,7 +349,7 @@ def {func_name}(f):
 
     def __call__(self, gm: torch.fx.GraphModule):
         try:
-            matches = replace_pattern(gm, self.pattern, self.replacement)
+            matches = _replace_pattern(gm, self.pattern, self.replacement)
         except Exception as e:
             print(f"[PassMgrBackend] Pass {self.pass_name} CRASHED with error: {e}")
             raise e
@@ -378,13 +382,13 @@ def load_py_module(path, name='unamed'):
         source = f.read()
     violations = validate_pass_source(source)
     if violations:
+        print(f"[PassMgrBackend] Detected hacking behavior, forbidden torch API usage in replacement_func")
         print(f"[PassMgrBackend] Pass source validation failed for {path}:")
         for v in violations:
             print(f"  - {v}")
-        raise RuntimeError(
-            f"Pass '{name}' at {path} failed source validation with "
-            f"{len(violations)} violation(s). See details above."
-        )
+        print(f"[PassMgrBackend] Skipping loading of {name} due to validation failures.")
+        return None
+
     spec = imp.spec_from_file_location(name, path)
     module = imp.module_from_spec(spec)
     module.__file__ = path
