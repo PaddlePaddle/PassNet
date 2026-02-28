@@ -454,6 +454,7 @@ class StrReplaceEditor:
                 return EditorResult(output="", error=_LINT_ERROR_TEMPLATE + lint_error)
 
         try:
+            path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(file_text, encoding="utf-8")
             self.file_history[str(path)].append("")
         except Exception as e:
