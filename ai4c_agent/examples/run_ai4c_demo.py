@@ -44,19 +44,19 @@ def parse_args():
     parser.add_argument(
         "--dataset",
         type=str,
-        default="/ssd1/hesijun/ai4c/ai4c_agent/datasets/ai4c_demo_dataset.jsonl",
+        default="./datasets/ai4c_demo_dataset.jsonl",
         help="Path to dataset JSONL file"
     )
     parser.add_argument(
         "--config",
         type=str,
-        default="/ssd1/hesijun/ai4c/ai4c_agent/configs",
+        default="./configs",
         help="Path to config directory"
     )
     parser.add_argument(
         "--traj-dir",
         type=str,
-        default="/ssd1/hesijun/ai4c/ai4c_agent/trajectories/ai4c",
+        default="./trajectories/ai4c",
         help="Directory to save trajectories"
     )
     parser.add_argument(
@@ -109,7 +109,7 @@ if args.anthropic_api_key:
 os.environ["MAX_WORKERS"] = str(args.max_workers)
 
 # Add ai4c_agent directory to path
-sys.path.insert(0, "/ssd1/hesijun/ai4c/ai4c_agent")
+# sys.path.insert(0, "/ssd1/hesijun/ai4c/ai4c_agent")
 
 # Import AI4C runtime directly from runtime folder
 from runtime.ai4c_docker import AI4CDocker
