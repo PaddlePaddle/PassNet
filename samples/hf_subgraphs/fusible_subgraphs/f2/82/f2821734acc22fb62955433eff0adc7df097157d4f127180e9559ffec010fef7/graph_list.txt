@@ -1,0 +1,6 @@
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start109_end115_24
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1452_end1458_60
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start166_end172_37
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start52_end58_11
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start273_end279_26
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/OttoYu_Tree-ConditionHK/_decomposed/OttoYu_Tree-ConditionHK_start1397_end1403_55

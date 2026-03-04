@@ -1,0 +1,12 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/timm/dpn48b/_decomposed/dpn48b_start52_end54_10
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/timm/dpn48b/_decomposed/dpn48b_start8_end10_2
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start471_end473_39
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start471_end473_39
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start186_end188_26
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start8_end10_2
+graphs/hf_subgraphs/fusible_subgraphs/3/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start471_end473_39
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start186_end188_26
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start8_end10_2
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start69_end71_14
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/timm/dpn48b/_decomposed/dpn48b_start52_end54_10
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/timm/dpn48b/_decomposed/dpn48b_start8_end10_2

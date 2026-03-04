@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start209_end217_45
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start1440_end1448_63

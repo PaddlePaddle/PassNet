@@ -1,0 +1,3 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start118_end121_15
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start107_end110_14
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start107_end110_14

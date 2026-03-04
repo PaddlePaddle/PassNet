@@ -1,0 +1,4 @@
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224/_decomposed/facebook_deit-small-distilled-patch16-224_start0_end9_0
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224/_decomposed/facebook_deit-tiny-distilled-patch16-224_start0_end9_0
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/timm/deit_tiny_distilled_patch16_224.fb_in1k/_decomposed/deit_tiny_distilled_patch16_224.fb_in1k_start0_end9_0
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/timm/deit_base_distilled_patch16_224.fb_in1k/_decomposed/deit_base_distilled_patch16_224.fb_in1k_start0_end9_0

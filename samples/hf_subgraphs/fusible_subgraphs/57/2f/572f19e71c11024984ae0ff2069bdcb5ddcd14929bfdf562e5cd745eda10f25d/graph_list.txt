@@ -1,0 +1,7 @@
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start13_end15_2
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification_start14_end16_2
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start13_end15_2
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start13_end15_2
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/BAAI_AltCLIP/_decomposed/BAAI_AltCLIP_start22_end24_4
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start13_end15_2
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start13_end15_2

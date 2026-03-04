@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/facebook_dinov2-small/_decomposed/facebook_dinov2-small_start340_end344_24
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/arxyzan_data2vec-beit-base/_decomposed/arxyzan_data2vec-beit-base_start796_end800_5

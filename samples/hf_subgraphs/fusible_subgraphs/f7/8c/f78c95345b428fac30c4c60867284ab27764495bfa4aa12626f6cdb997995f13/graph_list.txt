@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/microsoft_beit-large-patch16-512/_decomposed/microsoft_beit-large-patch16-512_start1537_end1541_28
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft_beit-base-patch16-384/_decomposed/microsoft_beit-base-patch16-384_start19_end23_1

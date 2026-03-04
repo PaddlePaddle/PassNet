@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/torchvision/googlenet/_decomposed/googlenet_start2_end6_1
+graphs/hf_subgraphs/fusible_subgraphs/1/samples/torchvision/googlenet/_decomposed/googlenet_start2_end6_1

@@ -1,0 +1,4 @@
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start127_end132_16
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-384/_decomposed/siglip2-giant-opt-patch16-384_start994_end999_3
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start127_end132_16
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start142_end147_19

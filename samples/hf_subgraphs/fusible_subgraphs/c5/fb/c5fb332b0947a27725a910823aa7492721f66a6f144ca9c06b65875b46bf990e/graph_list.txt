@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/mooncakex_img2/_decomposed/mooncakex_img2_start302_end304_2
+graphs/hf_subgraphs/fusible_subgraphs/3/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start48_end50_2

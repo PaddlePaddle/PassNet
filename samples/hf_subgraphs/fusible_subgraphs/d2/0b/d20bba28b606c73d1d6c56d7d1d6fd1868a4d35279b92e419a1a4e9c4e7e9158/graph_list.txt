@@ -1,0 +1,4 @@
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k/_decomposed/facebook_data2vec-vision-large-ft1k_start13_end19_1
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft_beit-base-patch16-384/_decomposed/microsoft_beit-base-patch16-384_start13_end19_0
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/facebook_data2vec-vision-base-ft1k/_decomposed/facebook_data2vec-vision-base-ft1k_start13_end19_1
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/microsoft_beit-large-patch16-512/_decomposed/microsoft_beit-large-patch16-512_start13_end19_0

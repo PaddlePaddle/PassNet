@@ -1,0 +1,5 @@
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/torchgeometric/LINKX/_decomposed/LINKX_start0_end2_0
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start134_end136_17
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/torchgeometric/LINKX/_decomposed/LINKX_start0_end2_0
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start134_end136_17
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start134_end136_17

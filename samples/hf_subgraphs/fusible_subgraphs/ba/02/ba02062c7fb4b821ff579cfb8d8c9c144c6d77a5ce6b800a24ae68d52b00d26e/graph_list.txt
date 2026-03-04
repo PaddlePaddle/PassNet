@@ -1,0 +1,3 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1416_end1418_53
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start138_end140_30
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start1363_end1365_48

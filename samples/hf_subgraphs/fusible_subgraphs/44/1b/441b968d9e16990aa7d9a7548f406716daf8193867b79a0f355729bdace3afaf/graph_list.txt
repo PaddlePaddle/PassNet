@@ -1,0 +1,4 @@
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/segformer_b2_clothes/_decomposed/segformer_b2_clothes_start649_end656_3
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start2089_end2096_73
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/segformer_b2_clothes/_decomposed/segformer_b2_clothes_start649_end656_3
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start2089_end2096_73
