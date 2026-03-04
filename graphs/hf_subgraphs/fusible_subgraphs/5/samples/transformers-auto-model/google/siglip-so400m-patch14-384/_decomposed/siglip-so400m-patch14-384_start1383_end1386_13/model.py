@@ -1,0 +1,14 @@
+import torch
+from torch import device
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, in_0, in_1, in_2, in_3):
+        tmp_0 = in_0
+        tmp_1 = in_1
+        tmp_2 = torch.matmul(in_2, in_3)
+        tmp_3 = tmp_1.to(device(type='cuda'))
+        tmp_1 = None
+        tmp_4 = tmp_0.to(device(type='cuda'))
+        tmp_0 = None
+        return (tmp_4, tmp_3, tmp_2)

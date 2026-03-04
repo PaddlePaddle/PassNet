@@ -1,0 +1,26 @@
+{
+    "samples/mmpose/ViTPose-B": [
+        [
+            0,
+            5
+        ]
+    ],
+    "samples/mmpose/ViTPose-H": [
+        [
+            0,
+            5
+        ]
+    ],
+    "samples/mmpose/ViTPose-L": [
+        [
+            0,
+            5
+        ]
+    ],
+    "samples/mmpose/ViTPose-S": [
+        [
+            0,
+            5
+        ]
+    ]
+}

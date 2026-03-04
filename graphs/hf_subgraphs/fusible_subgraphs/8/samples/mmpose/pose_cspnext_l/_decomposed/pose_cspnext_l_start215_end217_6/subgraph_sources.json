@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/pose_cspnext_l": [
+        [
+            215,
+            217
+        ]
+    ],
+    "samples/ultralytics/yolov3-sppu": [
+        [
+            187,
+            189
+        ]
+    ]
+}

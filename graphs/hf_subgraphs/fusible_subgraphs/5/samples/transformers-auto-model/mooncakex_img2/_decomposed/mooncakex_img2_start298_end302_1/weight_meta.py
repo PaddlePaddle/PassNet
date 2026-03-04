@@ -1,0 +1,19 @@
+class Program_weight_tensor_meta_attention_scores_24:
+	name = "in_0"
+	original_name = "attention_scores_24"
+	shape = [2, 12, 7, 7]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.005
+	std = 0.100
+
+
+class Program_weight_tensor_meta_extended_attention_mask_2:
+	name = "in_1"
+	original_name = "extended_attention_mask_2"
+	shape = [2, 1, 1, 7]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+	data = [-0.000000, -0.000000, -0.000000, -0.000000, -0.000000, -0.000000, -0.000000, -0.000000, -0.000000, -0.000000, -0.000000, -0.000000, -0.000000, -0.000000]

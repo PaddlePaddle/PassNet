@@ -1,0 +1,42 @@
+{
+    "samples/transformers-auto-model/InstaDeepAI_nucleotide-transformer-500m-human-ref": [
+        [
+            43,
+            47
+        ],
+        [
+            77,
+            81
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_esm2_t33_650M_UR50D": [
+        [
+            72,
+            76
+        ],
+        [
+            137,
+            141
+        ]
+    ],
+    "samples/transformers-auto-model/miangoar_esm2_t12_35M_UR50D-finetuned-secondary-structure-classification": [
+        [
+            72,
+            76
+        ],
+        [
+            137,
+            141
+        ]
+    ],
+    "samples/transformers-auto-model/sureshnam9_esm2_t6_8M_UR50D-finetuned-secondary-structure": [
+        [
+            72,
+            76
+        ],
+        [
+            137,
+            141
+        ]
+    ]
+}

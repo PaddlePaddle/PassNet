@@ -1,0 +1,72 @@
+class Program_weight_tensor_meta_L_kwargs_attention_mask_:
+	name = "in_0"
+	original_name = "L_kwargs_attention_mask_"
+	shape = [1, 64]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_position_embeddings_parameters_weight_:
+	name = "in_1"
+	original_name = "L_self_modules_embeddings_modules_position_embeddings_parameters_weight_"
+	shape = [1002, 1280]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.020
+
+
+class Program_weight_tensor_meta_L_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_LayerNorm_parameters_bias_:
+	name = "in_2"
+	original_name = "L_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_LayerNorm_parameters_bias_"
+	shape = [1280]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_LayerNorm_parameters_weight_:
+	name = "in_3"
+	original_name = "L_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_LayerNorm_parameters_weight_"
+	shape = [1280]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_getitem_1:
+	name = "in_4"
+	original_name = "getitem_1"
+	shape = [1, 1, 1]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+	data = [1.000000]
+
+
+class Program_weight_tensor_meta_mul_2:
+	name = "in_5"
+	original_name = "mul_2"
+	shape = [1, 64, 1280]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.004
+
+
+class Program_weight_tensor_meta_position_ids:
+	name = "in_6"
+	original_name = "position_ids"
+	shape = [1, 64]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	max_val = 65
+	min_val = 2

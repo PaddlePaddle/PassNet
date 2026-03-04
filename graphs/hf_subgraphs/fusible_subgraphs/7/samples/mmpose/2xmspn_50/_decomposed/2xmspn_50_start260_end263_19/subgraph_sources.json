@@ -1,0 +1,110 @@
+{
+    "samples/mmpose/2xmspn_50": [
+        [
+            260,
+            263
+        ]
+    ],
+    "samples/mmpose/pose_hourglass_52": [
+        [
+            3,
+            6
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            56,
+            59
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R18": [
+        [
+            18,
+            21
+        ],
+        [
+            102,
+            105
+        ]
+    ],
+    "samples/mmseg/BiSeNetV2": [
+        [
+            15,
+            18
+        ]
+    ],
+    "samples/mmseg/DDRNet-slim": [
+        [
+            3,
+            6
+        ],
+        [
+            20,
+            23
+        ]
+    ],
+    "samples/mmseg/ICNet_R101": [
+        [
+            3,
+            6
+        ]
+    ],
+    "samples/timm/dla60_res2net": [
+        [
+            23,
+            26
+        ],
+        [
+            78,
+            81
+        ]
+    ],
+    "samples/timm/gernet_l.idstcv_in1k": [
+        [
+            3,
+            6
+        ]
+    ],
+    "samples/timm/hrnet_w18.ms_aug_in1k": [
+        [
+            3,
+            6
+        ]
+    ],
+    "samples/timm/res2net50_14w_8s.in1k": [
+        [
+            154,
+            157
+        ]
+    ],
+    "samples/timm/resnet10t.c3_in1k": [
+        [
+            17,
+            20
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            37,
+            40
+        ]
+    ],
+    "samples/timm/test_resnet.r160_in1k": [
+        [
+            17,
+            20
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            40,
+            43
+        ]
+    ]
+}

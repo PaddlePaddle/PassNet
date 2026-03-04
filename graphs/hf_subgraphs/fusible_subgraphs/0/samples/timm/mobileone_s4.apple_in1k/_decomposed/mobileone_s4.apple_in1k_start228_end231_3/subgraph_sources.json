@@ -1,0 +1,12 @@
+{
+    "samples/timm/mobileone_s4.apple_in1k": [
+        [
+            228,
+            231
+        ],
+        [
+            332,
+            335
+        ]
+    ]
+}
