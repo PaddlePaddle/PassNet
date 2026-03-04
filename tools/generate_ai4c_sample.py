@@ -66,11 +66,9 @@ def generate_sample(sample_uids, sample_uid2model_path, output_path, graphs_path
 
     ai4c_root = get_ai4c_root()
 
-    # Create required directory structure
+    # Create required pass_dir directory and create .ignore
     (sample_output_path / "pass_dir").mkdir(parents=True, exist_ok=True)
-
-    # Create .ignore
-    (sample_output_path / ".ignore").touch()
+    (sample_output_path / "pass_dir" / ".ignore").touch()
 
     # Create symbolic links
     safe_relative_symlink(ai4c_root / "graphs", sample_output_path / "graphs")
