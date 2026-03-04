@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start1454_end1463_66
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start397_end406_37

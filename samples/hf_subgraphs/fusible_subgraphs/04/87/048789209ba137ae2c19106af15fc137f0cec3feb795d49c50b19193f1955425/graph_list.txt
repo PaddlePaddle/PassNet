@@ -1,0 +1,15 @@
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start151_end153_0
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start298_end300_10
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start151_end153_0
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start298_end300_10
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT/_decomposed/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT_start28_end30_6
+graphs/hf_subgraphs/fusible_subgraphs/6/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start440_end442_7
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start6_end8_2
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start298_end300_10
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT/_decomposed/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT_start28_end30_6
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/mmpose/RTMO-l/_decomposed/RTMO-l_start347_end349_11
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT/_decomposed/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT_start28_end30_6
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/mmpose/RTMO-l/_decomposed/RTMO-l_start347_end349_11
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start151_end153_0
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/torchgeometric/LINKX/_decomposed/LINKX_start32_end34_9
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft_trocr-small-printed/_decomposed/microsoft_trocr-small-printed_start672_end674_14

@@ -1,0 +1,5 @@
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start1403_end1405_56
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start115_end117_25
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start58_end60_12
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start269_end271_25
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start135_end137_12

@@ -1,0 +1,9 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start23_end31_5
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/google_mobilebert-uncased/_decomposed/google_mobilebert-uncased_start1393_end1401_53
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification_start111_end119_6
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start23_end31_5
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification_start119_end127_12
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/google_mobilebert-uncased/_decomposed/google_mobilebert-uncased_start1393_end1401_53
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start23_end31_5
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/google_mobilebert-uncased/_decomposed/google_mobilebert-uncased_start1393_end1401_53
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification_start119_end127_12

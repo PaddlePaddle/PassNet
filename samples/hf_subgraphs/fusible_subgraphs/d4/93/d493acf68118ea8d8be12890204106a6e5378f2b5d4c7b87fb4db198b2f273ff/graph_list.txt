@@ -1,0 +1,1 @@
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/trocr-base-handwritten/_decomposed/trocr-base-handwritten_start326_end333_15

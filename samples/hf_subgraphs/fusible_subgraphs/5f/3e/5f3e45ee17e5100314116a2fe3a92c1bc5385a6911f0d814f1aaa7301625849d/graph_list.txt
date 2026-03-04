@@ -1,0 +1,14 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start301_end303_20
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/trocr-base-handwritten/_decomposed/trocr-base-handwritten_start1015_end1017_27
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT/_decomposed/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT_start30_end32_7
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start219_end221_43
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification_start115_end117_9
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/mmseg/Twins_svt-b_fpn/_decomposed/Twins_svt-b_fpn_start226_end228_12
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/mmseg/Twins_svt-b_fpn/_decomposed/Twins_svt-b_fpn_start48_end50_8
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/mmpose/ViTPose-S/_decomposed/ViTPose-S_start204_end206_10
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT/_decomposed/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT_start30_end32_7
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT/_decomposed/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT_start30_end32_7
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start43_end45_11
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification_start115_end117_9
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification_start115_end117_9
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start8_end10_3

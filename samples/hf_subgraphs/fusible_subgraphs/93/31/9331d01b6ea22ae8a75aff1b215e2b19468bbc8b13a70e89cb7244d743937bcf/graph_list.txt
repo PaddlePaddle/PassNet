@@ -1,0 +1,8 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start2102_end2108_75
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512/_decomposed/segformer-b0-finetuned-ade-512-512_start348_end354_24
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start2108_end2114_76
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512/_decomposed/segformer-b0-finetuned-ade-512-512_start348_end354_24
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start2102_end2108_75
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start2096_end2102_74
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start2096_end2102_74
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start2108_end2114_76

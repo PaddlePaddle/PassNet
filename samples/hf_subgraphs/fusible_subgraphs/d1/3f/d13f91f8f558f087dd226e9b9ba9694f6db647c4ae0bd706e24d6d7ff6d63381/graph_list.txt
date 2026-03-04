@@ -1,0 +1,8 @@
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start36_end39_5
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/torchvision/efficientnet_b0/_decomposed/efficientnet_b0_start9_end12_2
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start220_end223_18
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start1052_end1055_50
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start36_end39_5
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start220_end223_18
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start1052_end1055_50
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start220_end223_18

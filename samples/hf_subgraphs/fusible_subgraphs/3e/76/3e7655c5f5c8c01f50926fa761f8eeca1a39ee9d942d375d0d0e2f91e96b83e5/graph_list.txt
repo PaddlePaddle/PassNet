@@ -1,0 +1,8 @@
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start128_end133_20
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start0_end5_0
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start376_end381_40
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start128_end133_20
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start376_end381_40
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start1984_end1989_60
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start1984_end1989_60
+graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start0_end5_0

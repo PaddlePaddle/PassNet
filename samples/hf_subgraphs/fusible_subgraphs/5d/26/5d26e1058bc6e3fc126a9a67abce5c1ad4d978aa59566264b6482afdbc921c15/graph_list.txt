@@ -1,0 +1,3 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/hustvl_yolos-tiny/_decomposed/hustvl_yolos-tiny_start28_end31_2
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/AkshatSurolia_DeiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_DeiT-FaceMask-Finetuned_start18_end21_4
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/Intel_dpt-large/_decomposed/Intel_dpt-large_start25_end28_6

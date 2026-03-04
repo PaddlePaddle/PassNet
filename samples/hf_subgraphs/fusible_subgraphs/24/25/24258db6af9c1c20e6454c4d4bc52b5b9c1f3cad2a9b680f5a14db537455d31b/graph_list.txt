@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start0_end7_0
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/mmseg/Twins_svt-b_fpn/_decomposed/Twins_svt-b_fpn_start0_end7_0

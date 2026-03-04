@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/hustvl_yolos-tiny/_decomposed/hustvl_yolos-tiny_start0_end12_0
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection/_decomposed/nickmuchi_yolos-small-plant-disease-detection_start0_end12_0

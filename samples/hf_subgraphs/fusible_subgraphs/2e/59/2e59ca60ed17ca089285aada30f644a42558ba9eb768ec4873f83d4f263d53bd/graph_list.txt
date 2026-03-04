@@ -1,0 +1,4 @@
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224/_decomposed/facebook_deit-small-distilled-patch16-224_start21_end25_5
+graphs/hf_subgraphs/fusible_subgraphs/2/samples/transformers-auto-model/owkin_phikon-v2/_decomposed/owkin_phikon-v2_start21_end25_3
+graphs/hf_subgraphs/fusible_subgraphs/5/samples/transformers-auto-model/Intel_dpt-large/_decomposed/Intel_dpt-large_start28_end32_7
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection/_decomposed/nickmuchi_yolos-small-plant-disease-detection_start43_end47_4
