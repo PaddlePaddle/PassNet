@@ -1,0 +1,56 @@
+{
+    "samples/mmpose/RTMO-l": [
+        [
+            345,
+            347
+        ]
+    ],
+    "samples/mmpose/ViTPose-B": [
+        [
+            240,
+            242
+        ]
+    ],
+    "samples/mmpose/ViTPose-B-simple": [
+        [
+            240,
+            242
+        ]
+    ],
+    "samples/mmpose/ViTPose-H": [
+        [
+            640,
+            642
+        ]
+    ],
+    "samples/mmpose/ViTPose-H-simple": [
+        [
+            640,
+            642
+        ]
+    ],
+    "samples/mmpose/ViTPose-L": [
+        [
+            480,
+            482
+        ]
+    ],
+    "samples/mmpose/ViTPose-L-simple": [
+        [
+            480,
+            482
+        ]
+    ],
+    "samples/mmpose/ViTPose-S": [
+        [
+            240,
+            242
+        ]
+    ],
+    "samples/mmpose/ViTPose-S-simple": [
+        [
+            240,
+            242
+        ]
+    ]
+}

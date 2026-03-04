@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/sdadas_polish-reranker-roberta-v2": [
+        [
+            22,
+            25
+        ],
+        [
+            47,
+            50
+        ]
+    ]
+}

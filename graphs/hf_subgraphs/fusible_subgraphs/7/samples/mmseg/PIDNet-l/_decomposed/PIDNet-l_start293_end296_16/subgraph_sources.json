@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/PIDNet-l": [
+        [
+            293,
+            296
+        ]
+    ],
+    "samples/mmseg/PIDNet-s": [
+        [
+            250,
+            253
+        ]
+    ]
+}

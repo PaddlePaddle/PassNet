@@ -1,0 +1,64 @@
+{
+    "samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT": [
+        [
+            33,
+            41
+        ],
+        [
+            341,
+            349
+        ]
+    ],
+    "samples/transformers-auto-model/HooshvareLab_albert-fa-zwnj-base-v2": [
+        [
+            33,
+            41
+        ],
+        [
+            341,
+            349
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base": [
+        [
+            36,
+            44
+        ],
+        [
+            432,
+            440
+        ]
+    ],
+    "samples/transformers-auto-model/albert_albert-large-v2": [
+        [
+            33,
+            41
+        ],
+        [
+            677,
+            685
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            79,
+            87
+        ],
+        [
+            135,
+            143
+        ],
+        [
+            247,
+            255
+        ],
+        [
+            583,
+            591
+        ],
+        [
+            1815,
+            1823
+        ]
+    ]
+}

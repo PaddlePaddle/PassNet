@@ -1,0 +1,8 @@
+{
+    "samples/torchvision/efficientnet_b0": [
+        [
+            5,
+            7
+        ]
+    ]
+}

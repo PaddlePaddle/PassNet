@@ -1,0 +1,20 @@
+{
+    "samples/timm/convit_base": [
+        [
+            0,
+            6
+        ]
+    ],
+    "samples/timm/convit_small": [
+        [
+            0,
+            6
+        ]
+    ],
+    "samples/timm/convit_tiny": [
+        [
+            0,
+            6
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224": [
+        [
+            26,
+            34
+        ],
+        [
+            83,
+            91
+        ],
+        [
+            140,
+            148
+        ]
+    ]
+}

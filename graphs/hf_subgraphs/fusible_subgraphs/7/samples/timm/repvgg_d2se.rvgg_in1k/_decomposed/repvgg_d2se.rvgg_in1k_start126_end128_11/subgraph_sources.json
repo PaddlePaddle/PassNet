@@ -1,0 +1,12 @@
+{
+    "samples/timm/repvgg_d2se.rvgg_in1k": [
+        [
+            126,
+            128
+        ],
+        [
+            654,
+            656
+        ]
+    ]
+}
