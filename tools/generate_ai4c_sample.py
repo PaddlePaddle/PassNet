@@ -1,7 +1,12 @@
 import os
 import argparse
 import hashlib
+import shutil
+import json
+import re
+import subprocess
 from pathlib import Path
+from typing import List, Dict
 
 
 def get_ai4c_root():
@@ -47,7 +52,7 @@ def safe_relative_symlink(src: Path, dst: Path):
     dst.symlink_to(relative_src)
 
 
-def generate_sample(sample_uids, sample_uid2model_path, output_path, graphs_path_in_ai4c):
+def generate_sample(sample_uids: List[str], sample_uid2model_path: Dict[str, str], output_path: Path, graphs_path_in_ai4c: Path) -> str:
     """
     Generate a AI4C sample.
     """
@@ -97,6 +102,73 @@ def generate_sample(sample_uids, sample_uid2model_path, output_path, graphs_path
     return str(sample_output_path)
 
 
+def evaluate_sample(sample_path: str) -> bool:
+    """
+    Evaluate a AI4C sample.
+    """
+    validation_log_path = Path("/tmp/workspace_graph_net_bench_test/validation.log")
+    aggregated_score_path = Path("/tmp/workspace_graph_net_bench_test/aggregated_score.json")
+
+    sample_dir = Path(sample_path).resolve()
+    entry_script = sample_dir / "entry.sh"
+
+    if not entry_script.exists():
+        print(f"{entry_script} not found.")
+        return False
+
+    # Clean old outputs before execution
+    for path in (validation_log_path, aggregated_score_path):
+        if path.exists() or path.is_symlink():
+            path.unlink()
+
+    try:
+        # Execute entry.sh inside sample_dir
+        proc = subprocess.run(
+            ["bash", str(entry_script)],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            timeout=1800,
+            text=True,
+        )
+        if proc.returncode != 0:
+            print(f"Run {entry_script} failed with return code {proc.returncode}.")
+            return False
+
+        # Validate log file existence
+        if not validation_log_path.exists():
+            print(f"{validation_log_path} not found for {sample_dir}.")
+            return False
+
+        # Extract rectified_speedup from log
+        log_content = proc.stdout
+        match = re.search(r"rectified_speedup=([0-9.eE+-]+)", log_content)
+        if not match:
+            print(f"rectified_speedup not found in log {log_path} for {sample_dir}.")
+            return False
+
+        rectified_speedup = float(match.group(1))
+
+        # Validate aggregated_score.json
+        if not aggregated_score_path.exists():
+            print(f"{aggregated_score_path} not found for {sample_dir}")
+            return False
+
+        with open(aggregated_score_path, "r") as f:
+            score = json.load(f)
+
+        if score["score"] != rectified_speedup:
+            print(f"Score is not equal to rectified_speedup ({score['score']} != {rectified_speedup}).")
+            return False
+
+        return True
+    except subprocess.TimeoutExpired:
+        print(f"Execution timeout for {sample_dir}.")
+        return False
+    except Exception as e:
+        print(f"Execution error: {str(e)}")
+        return False
+
+
 def main(args):
     ai4c_root = get_ai4c_root()
     group_sample_uids_path = Path(args.grouped_sample_uids_list)
@@ -111,19 +183,26 @@ def main(args):
     num_successed = 0
     generated_sample_list = []
     with open(group_sample_uids_path) as f:
-        for line in f:
+        for idx, line in enumerate(f):
             line = line.strip()
             if not line:
                 continue
 
             sample_uids = line.split(",")
-            print(sample_uids)
+            print(f"- [{idx}] Generate AI4C sample for uids {sample_uids}")
             sample_output_path = generate_sample(sample_uids, sample_uid2model_path, output_path, graphs_path_in_ai4c)
-            if sample_output_path:
-                sample_output_path = os.path.relpath(Path(sample_output_path).resolve(), start=ai4c_root.resolve())
-                generated_sample_list.append(sample_output_path)
-                num_successed += 1
-            break
+            if sample_output_path is None:
+                continue
+
+            if args.do_eval:
+                eval_stat = evaluate_sample(sample_output_path)
+                if not eval_stat:
+                    shutil.rmtree(Path(sample_output_path))
+                    continue
+
+            sample_output_path = os.path.relpath(Path(sample_output_path).resolve(), start=ai4c_root.resolve())
+            generated_sample_list.append(sample_output_path)
+            num_successed += 1
 
     output_sample_list_path = Path(args.output_sample_list)
     output_sample_list_path.write_text("\n".join(generated_sample_list))
@@ -158,6 +237,11 @@ if __name__ == "__main__":
         "--output-sample-list",
         required=True,
         help="Output sample list",
+    )
+    parser.add_argument(
+        "--do-eval",
+        action="store_true",
+        help="Run evaluation after generating samples"
     )
     args = parser.parse_args()
     main(args)
