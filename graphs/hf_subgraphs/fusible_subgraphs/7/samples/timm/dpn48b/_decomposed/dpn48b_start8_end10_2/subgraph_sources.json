@@ -1,0 +1,14 @@
+{
+    "samples/timm/dpn48b": [
+        [
+            8,
+            10
+        ]
+    ],
+    "samples/timm/dpn68.mx_in1k": [
+        [
+            8,
+            10
+        ]
+    ]
+}

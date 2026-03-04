@@ -1,0 +1,18 @@
+{
+    "samples/timm/resnet10t.c3_in1k": [
+        [
+            30,
+            33
+        ],
+        [
+            40,
+            43
+        ]
+    ],
+    "samples/timm/test_resnet.r160_in1k": [
+        [
+            43,
+            46
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k": [
+        [
+            1428,
+            1440
+        ],
+        [
+            1476,
+            1488
+        ]
+    ]
+}

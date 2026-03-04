@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT": [
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            25
+        ]
+    ]
+}

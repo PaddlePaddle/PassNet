@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/DNLNet_R101": [
+        [
+            373,
+            375
+        ]
+    ],
+    "samples/mmseg/NonLocalNet_R101": [
+        [
+            194,
+            196
+        ]
+    ]
+}

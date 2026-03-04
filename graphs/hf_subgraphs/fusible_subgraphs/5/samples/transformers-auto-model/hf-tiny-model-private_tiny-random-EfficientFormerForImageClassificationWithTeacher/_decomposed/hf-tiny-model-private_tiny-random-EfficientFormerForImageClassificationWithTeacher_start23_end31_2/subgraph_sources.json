@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerForImageClassificationWithTeacher": [
+        [
+            6,
+            14
+        ],
+        [
+            23,
+            31
+        ],
+        [
+            59,
+            67
+        ]
+    ]
+}

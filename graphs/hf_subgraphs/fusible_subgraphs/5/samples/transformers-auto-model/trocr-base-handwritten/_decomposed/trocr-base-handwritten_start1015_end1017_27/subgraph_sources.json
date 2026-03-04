@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/trocr-base-handwritten": [
+        [
+            388,
+            390
+        ],
+        [
+            901,
+            903
+        ],
+        [
+            1015,
+            1017
+        ]
+    ]
+}

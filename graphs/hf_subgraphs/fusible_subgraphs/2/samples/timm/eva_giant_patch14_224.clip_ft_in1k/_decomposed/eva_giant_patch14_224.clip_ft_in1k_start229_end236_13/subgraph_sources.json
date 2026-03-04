@@ -1,0 +1,16 @@
+{
+    "samples/timm/eva_giant_patch14_224.clip_ft_in1k": [
+        [
+            9,
+            16
+        ],
+        [
+            31,
+            38
+        ],
+        [
+            229,
+            236
+        ]
+    ]
+}

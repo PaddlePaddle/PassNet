@@ -1,0 +1,38 @@
+class Program_weight_tensor_meta_x_19:
+	name = "in_0"
+	original_name = "x_19"
+	shape = [1, 256, 32, 32]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.029
+	std = 0.061
+
+
+class Program_weight_tensor_meta_x_22:
+	name = "in_1"
+	original_name = "x_22"
+	shape = [1, 256, 32, 32]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.049
+	std = 0.083
+
+
+class Program_weight_tensor_meta_x_25:
+	name = "in_2"
+	original_name = "x_25"
+	shape = [1, 256, 32, 32]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.121
+	std = 0.142
+
+
+class Program_weight_tensor_meta_x_27:
+	name = "in_3"
+	original_name = "x_27"
+	shape = [1, 256, 32, 32]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.246
+	std = 0.239

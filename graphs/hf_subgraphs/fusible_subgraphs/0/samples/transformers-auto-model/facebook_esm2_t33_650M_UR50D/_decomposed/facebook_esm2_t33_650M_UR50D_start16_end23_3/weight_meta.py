@@ -1,0 +1,30 @@
+class Program_weight_tensor_meta_L_kwargs_input_ids_:
+	name = "in_0"
+	original_name = "L_kwargs_input_ids_"
+	shape = [1, 64]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [0, 6, 3, 17, 3, 3, 3, 3, 3, 3, 3, 29, 2, 0, 6, 3, 17, 3, 3, 3, 3, 3, 3, 3, 29, 2, 0, 6, 3, 17, 3, 3, 3, 3, 3, 3, 3, 29, 2, 0, 6, 3, 17, 3, 3, 3, 3, 3, 3, 3, 29, 2, 0, 6, 3, 17, 3, 3, 3, 3, 3, 3, 3, 29]
+
+
+class Program_weight_tensor_meta_embeddings:
+	name = "in_1"
+	original_name = "embeddings"
+	shape = [1, 64, 1280]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.004
+
+
+class Program_weight_tensor_meta_src_lengths:
+	name = "in_2"
+	original_name = "src_lengths"
+	shape = [1]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [64]

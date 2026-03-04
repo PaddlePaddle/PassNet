@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/RTMO-l": [
+        [
+            338,
+            340
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            925,
+            927
+        ]
+    ]
+}

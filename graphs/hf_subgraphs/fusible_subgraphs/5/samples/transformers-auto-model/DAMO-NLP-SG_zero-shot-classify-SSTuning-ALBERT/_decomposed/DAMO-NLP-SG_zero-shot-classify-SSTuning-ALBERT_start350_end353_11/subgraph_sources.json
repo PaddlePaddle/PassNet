@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT": [
+        [
+            350,
+            353
+        ]
+    ],
+    "samples/transformers-auto-model/domenicrosati_BioM-ALBERT-xxlarge-finetuned-DAGPap22": [
+        [
+            266,
+            269
+        ]
+    ]
+}

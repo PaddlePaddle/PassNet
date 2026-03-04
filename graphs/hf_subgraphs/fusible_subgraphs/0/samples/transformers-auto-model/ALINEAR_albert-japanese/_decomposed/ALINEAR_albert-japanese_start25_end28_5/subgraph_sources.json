@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/ALINEAR_albert-japanese": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/HooshvareLab_albert-fa-zwnj-base-v2": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/albert-base-v2": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/anilguven_albert_tr_turkish_product_reviews": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-10-spanish-distilled-ner": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-2-spanish-distilled-ner": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-albert-base-v2": [
+        [
+            25,
+            28
+        ]
+    ]
+}

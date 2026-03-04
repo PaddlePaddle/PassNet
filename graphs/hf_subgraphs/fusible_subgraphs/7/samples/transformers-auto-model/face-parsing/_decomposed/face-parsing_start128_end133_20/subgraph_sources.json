@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            128,
+            133
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            88,
+            93
+        ]
+    ]
+}
