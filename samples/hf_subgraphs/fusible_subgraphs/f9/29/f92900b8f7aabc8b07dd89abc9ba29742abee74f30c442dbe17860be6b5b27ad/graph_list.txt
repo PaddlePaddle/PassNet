@@ -1,0 +1,1 @@
+graphs/hf_subgraphs/fusible_subgraphs/8/samples/torchvision/shufflenet_v2_x0_5/_decomposed/shufflenet_v2_x0_5_start65_end70_3

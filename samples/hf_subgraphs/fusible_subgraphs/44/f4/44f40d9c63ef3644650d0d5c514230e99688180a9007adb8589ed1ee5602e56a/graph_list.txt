@@ -1,0 +1,1 @@
+graphs/hf_subgraphs/fusible_subgraphs/8/samples/transformers-auto-model/sdadas_polish-reranker-roberta-v2/_decomposed/sdadas_polish-reranker-roberta-v2_start3_end6_1
