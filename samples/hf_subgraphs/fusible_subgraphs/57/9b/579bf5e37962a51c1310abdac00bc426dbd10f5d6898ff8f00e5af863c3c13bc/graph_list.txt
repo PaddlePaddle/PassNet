@@ -1,0 +1,1 @@
+graphs/hf_subgraphs/fusible_subgraphs/4/samples/transformers-auto-model/Data-Lab_ruRoberta-large_classification_v0.2/_decomposed/Data-Lab_ruRoberta-large_classification_v0.2_start12_end19_2

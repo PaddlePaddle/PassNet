@@ -1,0 +1,1 @@
+graphs/hf_subgraphs/fusible_subgraphs/7/samples/transformers-auto-model/bge-small-zh/_decomposed/bge-small-zh_start92_end95_7

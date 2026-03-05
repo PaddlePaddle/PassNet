@@ -1,1 +1,0 @@
-graphs/hf_subgraphs/fusible_subgraphs/0/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start21_end26_4
