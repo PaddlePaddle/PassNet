@@ -1,0 +1,48 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification": [
+        [
+            81,
+            84
+        ],
+        [
+            84,
+            87
+        ],
+        [
+            87,
+            90
+        ],
+        [
+            106,
+            109
+        ],
+        [
+            109,
+            112
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification": [
+        [
+            19,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieForSequenceClassification": [
+        [
+            15,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-NystromformerForSequenceClassification": [
+        [
+            18,
+            21
+        ]
+    ]
+}

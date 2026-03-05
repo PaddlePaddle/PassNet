@@ -1,0 +1,12 @@
+{
+    "samples/torchvision/regnet_y_3_2gf": [
+        [
+            140,
+            142
+        ],
+        [
+            156,
+            158
+        ]
+    ]
+}

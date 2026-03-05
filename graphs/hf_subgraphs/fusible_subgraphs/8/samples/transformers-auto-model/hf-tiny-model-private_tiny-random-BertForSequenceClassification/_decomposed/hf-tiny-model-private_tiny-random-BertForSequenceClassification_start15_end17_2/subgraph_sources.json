@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaForSequenceClassification": [
+        [
+            24,
+            26
+        ]
+    ]
+}

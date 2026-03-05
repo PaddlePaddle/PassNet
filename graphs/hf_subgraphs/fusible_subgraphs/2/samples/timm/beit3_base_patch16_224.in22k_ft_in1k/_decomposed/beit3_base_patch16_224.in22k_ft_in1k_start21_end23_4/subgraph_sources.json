@@ -1,0 +1,24 @@
+{
+    "samples/timm/beit3_base_patch16_224.in22k_ft_in1k": [
+        [
+            21,
+            23
+        ]
+    ],
+    "samples/transformers-auto-model/ibombonato_swin-age-classifier": [
+        [
+            698,
+            700
+        ],
+        [
+            746,
+            748
+        ]
+    ],
+    "samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K": [
+        [
+            78,
+            80
+        ]
+    ]
+}

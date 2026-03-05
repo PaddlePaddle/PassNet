@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/MCG-NJU_videomae-base-finetuned-kinetics": [
+        [
+            34,
+            36
+        ],
+        [
+            277,
+            279
+        ]
+    ],
+    "samples/transformers-auto-model/trocr-base-handwritten": [
+        [
+            32,
+            34
+        ],
+        [
+            266,
+            268
+        ]
+    ]
+}

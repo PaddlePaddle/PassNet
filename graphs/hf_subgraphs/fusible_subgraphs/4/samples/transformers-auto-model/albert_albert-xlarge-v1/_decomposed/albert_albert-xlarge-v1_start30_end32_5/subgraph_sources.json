@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/albert_albert-xlarge-v1": [
+        [
+            30,
+            32
+        ],
+        [
+            35,
+            37
+        ]
+    ]
+}

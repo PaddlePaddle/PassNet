@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/miangoar_esm2_t12_35M_UR50D-finetuned-secondary-structure-classification": [
+        [
+            92,
+            94
+        ],
+        [
+            677,
+            679
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/facebook_dinov2-large": [
+        [
+            37,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/owkin_phikon-v2": [
+        [
+            27,
+            30
+        ]
+    ]
+}

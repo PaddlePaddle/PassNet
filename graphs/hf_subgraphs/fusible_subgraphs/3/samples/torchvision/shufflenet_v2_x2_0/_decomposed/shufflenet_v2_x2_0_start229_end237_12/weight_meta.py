@@ -1,0 +1,18 @@
+class Program_weight_tensor_meta_input_130:
+	name = "in_0"
+	original_name = "input_130"
+	shape = [32, 488, 7, 7]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.004
+
+
+class Program_weight_tensor_meta_x1_10:
+	name = "in_1"
+	original_name = "x1_10"
+	shape = [32, 488, 7, 7]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.023
+	std = 0.072

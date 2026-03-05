@@ -1,0 +1,70 @@
+{
+    "samples/transformers-auto-model/ALINEAR_albert-japanese": [
+        [
+            30,
+            32
+        ],
+        [
+            35,
+            37
+        ]
+    ],
+    "samples/transformers-auto-model/Aleksandar_distilbert-srb-ner-setimes": [
+        [
+            27,
+            29
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            137,
+            139
+        ]
+    ],
+    "samples/transformers-auto-model/HooshvareLab_albert-fa-zwnj-base-v2": [
+        [
+            30,
+            32
+        ],
+        [
+            42,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/ckiplab_albert-base-chinese-pos": [
+        [
+            35,
+            37
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-2-spanish-distilled-ner": [
+        [
+            30,
+            32
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            51,
+            53
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/clip-ViT-B-32-multilingual-v1": [
+        [
+            27,
+            29
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            137,
+            139
+        ]
+    ]
+}

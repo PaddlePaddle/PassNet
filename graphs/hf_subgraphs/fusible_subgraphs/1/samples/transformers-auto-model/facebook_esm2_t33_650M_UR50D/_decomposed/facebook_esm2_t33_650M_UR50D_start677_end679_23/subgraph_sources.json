@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/facebook_esm2_t33_650M_UR50D": [
+        [
+            92,
+            94
+        ],
+        [
+            677,
+            679
+        ]
+    ]
+}

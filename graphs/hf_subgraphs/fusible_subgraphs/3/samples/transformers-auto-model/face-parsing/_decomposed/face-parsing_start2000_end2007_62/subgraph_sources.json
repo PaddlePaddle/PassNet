@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            2000,
+            2007
+        ],
+        [
+            2034,
+            2041
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased": [
+        [
+            33,
+            35
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            300,
+            302
+        ]
+    ]
+}
