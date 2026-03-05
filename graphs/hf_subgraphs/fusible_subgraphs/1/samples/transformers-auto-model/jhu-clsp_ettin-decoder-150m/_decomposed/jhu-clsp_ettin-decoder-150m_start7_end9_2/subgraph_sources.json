@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m": [
+        [
+            7,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/jinaai_jina-reranker-m0": [
+        [
+            17,
+            19
+        ]
+    ]
+}

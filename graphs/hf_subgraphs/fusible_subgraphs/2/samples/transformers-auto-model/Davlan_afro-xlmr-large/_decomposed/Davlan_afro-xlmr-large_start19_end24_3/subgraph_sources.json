@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Davlan_afro-xlmr-large": [
+        [
+            19,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_xtremedistil-l6-h256-mnli-fever-anli-ling-binary": [
+        [
+            10,
+            15
+        ]
+    ]
+}

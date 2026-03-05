@@ -1,0 +1,8 @@
+{
+    "samples/timm/vit_huge_patch14_gap_224.in1k_ijepa": [
+        [
+            7,
+            13
+        ]
+    ]
+}

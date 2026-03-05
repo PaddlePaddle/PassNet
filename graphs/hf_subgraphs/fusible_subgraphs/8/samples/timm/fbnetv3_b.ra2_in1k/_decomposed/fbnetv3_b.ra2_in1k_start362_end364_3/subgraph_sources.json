@@ -1,0 +1,14 @@
+{
+    "samples/timm/fbnetv3_b.ra2_in1k": [
+        [
+            362,
+            364
+        ]
+    ],
+    "samples/timm/hardcorenas_a.miil_green_in1k": [
+        [
+            143,
+            145
+        ]
+    ]
+}

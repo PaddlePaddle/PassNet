@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/ALINEAR_albert-japanese": [
+        [
+            266,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/HooshvareLab_albert-fa-zwnj-base-v2": [
+        [
+            350,
+            353
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k": [
+        [
+            358,
+            361
+        ]
+    ],
+    "samples/transformers-auto-model/ckiplab_albert-base-chinese-pos": [
+        [
+            266,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-2-spanish-distilled-ner": [
+        [
+            56,
+            59
+        ]
+    ]
+}

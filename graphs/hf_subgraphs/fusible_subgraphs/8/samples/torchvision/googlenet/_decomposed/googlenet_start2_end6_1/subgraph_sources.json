@@ -1,0 +1,8 @@
+{
+    "samples/torchvision/googlenet": [
+        [
+            2,
+            6
+        ]
+    ]
+}

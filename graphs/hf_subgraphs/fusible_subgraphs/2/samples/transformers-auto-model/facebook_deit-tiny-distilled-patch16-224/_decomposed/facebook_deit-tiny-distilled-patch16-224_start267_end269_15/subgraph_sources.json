@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224": [
+        [
+            27,
+            29
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            267,
+            269
+        ]
+    ]
+}

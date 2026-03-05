@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification": [
+        [
+            22,
+            24
+        ],
+        [
+            51,
+            53
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification": [
+        [
+            14,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieForSequenceClassification": [
+        [
+            13,
+            15
+        ]
+    ]
+}

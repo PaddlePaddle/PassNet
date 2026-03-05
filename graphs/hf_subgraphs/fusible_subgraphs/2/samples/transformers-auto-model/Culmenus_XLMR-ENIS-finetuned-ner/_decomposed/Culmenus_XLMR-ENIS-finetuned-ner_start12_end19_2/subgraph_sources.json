@@ -1,0 +1,122 @@
+{
+    "samples/transformers-auto-model/Culmenus_XLMR-ENIS-finetuned-ner": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-bort": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-merged": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_est-roberta": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_litlat-bert": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Jodsa_camembert_mlm": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/aimarsg_prueba5": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/almanach_camembert-base": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/axotion_polish-reranker-base-ranknet": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/distilroberta-base": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/ethanyt_guwen-ner": [
+        [
+            10,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/huggingface_CodeBERTa-small-v1": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/inthedarkness_klue-roberta-small-cross-encoder": [
+        [
+            10,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/lst-nectec_HoogBERTa-POS-lst20": [
+        [
+            10,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/mahwizzzz_UrduClassification": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/nli-MiniLM2-L6-H768": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-distilroberta-v1": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/tau_tavbert-he": [
+        [
+            10,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/truong1301_reranker_pho_BLAI": [
+        [
+            10,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/ukr-models_xlm-roberta-base-uk": [
+        [
+            12,
+            19
+        ]
+    ]
+}

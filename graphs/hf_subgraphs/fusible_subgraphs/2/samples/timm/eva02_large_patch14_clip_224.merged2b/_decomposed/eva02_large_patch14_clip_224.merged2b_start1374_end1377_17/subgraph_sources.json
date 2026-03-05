@@ -1,0 +1,20 @@
+{
+    "samples/timm/eva02_large_patch14_clip_224.merged2b": [
+        [
+            1374,
+            1377
+        ]
+    ],
+    "samples/timm/vit_large_patch16_224.augreg_in21k": [
+        [
+            510,
+            513
+        ]
+    ],
+    "samples/timm/vit_large_patch16_224.mae": [
+        [
+            510,
+            513
+        ]
+    ]
+}

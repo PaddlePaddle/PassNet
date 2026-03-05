@@ -1,0 +1,56 @@
+{
+    "samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased": [
+        [
+            13,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40": [
+        [
+            23,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/ashique_BanglaTraitBERT": [
+        [
+            13,
+            15
+        ],
+        [
+            42,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/dbmdz_electra-large-discriminator-finetuned-conll03-english": [
+        [
+            13,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/monoelectra-large": [
+        [
+            13,
+            15
+        ],
+        [
+            42,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/paulkm_autotrain-lottery_v2-2420075389": [
+        [
+            13,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/satyaalmasian_temporal_tagger_German_GELECTRA": [
+        [
+            13,
+            15
+        ],
+        [
+            42,
+            44
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-512_A-8": [
+        [
+            233,
+            236
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-512_A-8": [
+        [
+            57,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en": [
+        [
+            140,
+            143
+        ]
+    ]
+}

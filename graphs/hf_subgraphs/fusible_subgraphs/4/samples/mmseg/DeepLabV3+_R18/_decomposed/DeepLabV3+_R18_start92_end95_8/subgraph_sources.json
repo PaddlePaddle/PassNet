@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            92,
+            95
+        ]
+    ]
+}

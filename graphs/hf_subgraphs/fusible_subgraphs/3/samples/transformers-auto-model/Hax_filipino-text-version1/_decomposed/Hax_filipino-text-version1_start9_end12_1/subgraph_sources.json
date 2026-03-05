@@ -1,0 +1,56 @@
+{
+    "samples/transformers-auto-model/Hax_filipino-text-version1": [
+        [
+            9,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_electra-small-swedish-cased-generator": [
+        [
+            9,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/emfa_l-lectra-danish-finetuned-hatespeech": [
+        [
+            9,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/fgaim_tielectra-small-pos": [
+        [
+            9,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra-small-discriminator": [
+        [
+            9,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra_small_discriminator": [
+        [
+            9,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification": [
+        [
+            9,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/monologg_koelectra-small-finetuned-naver-ner": [
+        [
+            9,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_electra-small-discriminator-zeroshot-v1.1": [
+        [
+            9,
+            12
+        ]
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/Data-Lab_ruRoberta-large_classification_v0.2": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Davlan_afro-xlmr-large": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/FacebookAI_roberta-large": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_roberta-large-korean-upos": [
+        [
+            10,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/TrustSafeAI_RADAR_Vicuna_7B": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/joeddav_xlm-roberta-large-xnli": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/quora-roberta-large": [
+        [
+            12,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-roberta-large-v1": [
+        [
+            12,
+            19
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/facebook_dinov2-small": [
+        [
+            43,
+            46
+        ],
+        [
+            70,
+            73
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/timm/mobilenetv4_conv_aa_large.e230_r384_in12k": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/timm/semnasnet_075.rmsp_in1k": [
+        [
+            80,
+            83
+        ]
+    ]
+}

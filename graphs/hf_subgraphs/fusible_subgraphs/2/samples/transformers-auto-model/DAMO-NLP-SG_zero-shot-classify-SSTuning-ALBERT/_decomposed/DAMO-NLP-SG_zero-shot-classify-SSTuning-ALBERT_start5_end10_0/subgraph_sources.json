@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT": [
+        [
+            5,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/HooshvareLab_albert-fa-zwnj-base-v2": [
+        [
+            5,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/ckiplab_albert-base-chinese-pos": [
+        [
+            5,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-10-spanish-distilled-ner": [
+        [
+            5,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-2-spanish-distilled-ner": [
+        [
+            5,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-albert-base-v2": [
+        [
+            5,
+            10
+        ]
+    ]
+}
