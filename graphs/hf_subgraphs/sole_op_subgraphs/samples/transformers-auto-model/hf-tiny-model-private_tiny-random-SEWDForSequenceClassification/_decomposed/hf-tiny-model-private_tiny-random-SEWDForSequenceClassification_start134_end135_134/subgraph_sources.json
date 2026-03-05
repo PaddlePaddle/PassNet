@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SEWDForSequenceClassification": [
+        [
+            134,
+            135
+        ],
+        [
+            224,
+            225
+        ],
+        [
+            314,
+            315
+        ],
+        [
+            404,
+            405
+        ]
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "samples/timm/coatnet_3_224": [
+        [
+            41,
+            42
+        ]
+    ],
+    "samples/timm/coatnet_4_224": [
+        [
+            41,
+            42
+        ]
+    ],
+    "samples/timm/mobilenet_edgetpu_v2_m.ra4_e3600_r224_in1k": [
+        [
+            110,
+            111
+        ]
+    ],
+    "samples/timm/resnet51q.ra2_in1k": [
+        [
+            137,
+            138
+        ]
+    ],
+    "samples/timm/resnet61q.ra2_in1k": [
+        [
+            158,
+            159
+        ]
+    ],
+    "samples/timm/rexnetr_200.sw_in12k": [
+        [
+            175,
+            176
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/Geotrend_distilbert-base-ar-cased": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-tur-eng": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/akdeniz27_bert-base-turkish-cased-ner": [
+        [
+            9,
+            10
+        ]
+    ]
+}

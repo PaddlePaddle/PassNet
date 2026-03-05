@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PerceiverForImageClassificationConvProcessing": [
+        [
+            13,
+            14
+        ],
+        [
+            15,
+            16
+        ]
+    ]
+}

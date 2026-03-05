@@ -1,0 +1,44 @@
+{
+    "samples/mmseg/OCRNet_R101": [
+        [
+            359,
+            360
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            1156,
+            1157
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            573,
+            574
+        ]
+    ],
+    "samples/mmseg/SegNeXt-b": [
+        [
+            848,
+            849
+        ]
+    ],
+    "samples/mmseg/SegNeXt-l": [
+        [
+            1494,
+            1495
+        ]
+    ],
+    "samples/mmseg/SegNeXt-s": [
+        [
+            430,
+            431
+        ]
+    ],
+    "samples/mmseg/SegNeXt-t": [
+        [
+            544,
+            545
+        ]
+    ]
+}

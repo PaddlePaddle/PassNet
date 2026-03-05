@@ -1,0 +1,6 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/KoboldAI_fairseq-dense-1.3B/_decomposed/KoboldAI_fairseq-dense-1.3B_start21_end22_21
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start1180_end1181_1180
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmpose/2xmspn_50/_decomposed/2xmspn_50_start108_end109_108
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/Finnish-NLP_convbert-base-generator-finnish/_decomposed/Finnish-NLP_convbert-base-generator-finnish_start120_end121_120
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start159_end160_159
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/microsoft_beit-base-patch16-384/_decomposed/microsoft_beit-base-patch16-384_start103_end104_103

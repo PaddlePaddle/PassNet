@@ -1,0 +1,122 @@
+{
+    "samples/timm/convnext_atto_ols.a2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/convnext_femto_ols.d1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/convnext_nano_ols.d1h_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/convnext_pico_ols.d1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/convnext_zepto_rms_ols.ra4_e3600_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mambaout_base.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mambaout_base_plus_rw.sw_e150_in12k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mambaout_base_short_rw.sw_e500_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mambaout_base_tall_rw.sw_e500_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mambaout_base_wide_rw.sw_e500_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mambaout_femto.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mambaout_kobe.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mambaout_small.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mambaout_small_rw.sw_e450_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mambaout_tiny.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/starnet_s1.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/starnet_s2.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/starnet_s3.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/starnet_s4.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/RMBG-1.4": [
+        [
+            0,
+            1
+        ]
+    ]
+}

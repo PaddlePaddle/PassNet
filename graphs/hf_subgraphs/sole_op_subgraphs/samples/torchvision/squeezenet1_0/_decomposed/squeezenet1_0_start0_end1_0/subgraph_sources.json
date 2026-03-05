@@ -1,0 +1,14 @@
+{
+    "samples/torchvision/squeezenet1_0": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/squeezenet1_1": [
+        [
+            0,
+            1
+        ]
+    ]
+}

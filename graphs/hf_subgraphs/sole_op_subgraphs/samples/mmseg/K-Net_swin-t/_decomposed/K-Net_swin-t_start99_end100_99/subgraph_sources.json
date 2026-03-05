@@ -1,0 +1,26 @@
+{
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            99,
+            100
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            99,
+            100
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            99,
+            100
+        ]
+    ],
+    "samples/transformers-auto-model/zuppif_maskformer-swin-small-ade": [
+        [
+            106,
+            107
+        ]
+    ]
+}

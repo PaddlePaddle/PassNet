@@ -1,0 +1,44 @@
+{
+    "samples/timm/efficientnetv2_rw_m.agc_in1k": [
+        [
+            82,
+            83
+        ]
+    ],
+    "samples/timm/hgnet_base.ssld_in1k": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/timm/mobilenetv1_125.ra4_e3600_r224_in1k": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/timm/mobileone_s3.apple_in1k": [
+        [
+            145,
+            146
+        ]
+    ],
+    "samples/timm/repvit_m2_3.dist_300e_in1k": [
+        [
+            751,
+            752
+        ]
+    ],
+    "samples/torchvision/efficientnet_v2_m": [
+        [
+            87,
+            88
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-x-small": [
+        [
+            270,
+            271
+        ]
+    ]
+}

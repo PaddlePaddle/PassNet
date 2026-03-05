@@ -1,0 +1,12 @@
+{
+    "samples/timm/coatnext_nano_rw_224": [
+        [
+            7,
+            8
+        ],
+        [
+            42,
+            43
+        ]
+    ]
+}

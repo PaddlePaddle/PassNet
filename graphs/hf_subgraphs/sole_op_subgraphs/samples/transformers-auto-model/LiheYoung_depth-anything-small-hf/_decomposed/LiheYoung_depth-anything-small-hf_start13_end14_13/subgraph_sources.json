@@ -1,0 +1,62 @@
+{
+    "samples/transformers-auto-model/LiheYoung_depth-anything-small-hf": [
+        [
+            1,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/depth-anything_Depth-Anything-V2-Metric-Indoor-Small-hf": [
+        [
+            1,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/depth-anything_Depth-Anything-V2-Metric-Outdoor-Small-hf": [
+        [
+            1,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-small": [
+        [
+            8,
+            9
+        ]
+    ]
+}

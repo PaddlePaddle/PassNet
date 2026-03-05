@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/MoritzLaurer_DeBERTa-v3-large-mnli-fever-anli-ling-wanli": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/transformers-auto-model/TTian_deberta-classifier-feedback-1024-pseudo": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-v3-large": [
+        [
+            40,
+            41
+        ]
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/disi-unibo-nlp_openbioner-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/emekaboris_autonlp-txc-17923129": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-base-cased": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_rembert": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RemBertForSequenceClassification": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english": [
+        [
+            0,
+            1
+        ]
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-TimesformerForVideoClassification": [
+        [
+            54,
+            55
+        ],
+        [
+            121,
+            122
+        ],
+        [
+            188,
+            189
+        ],
+        [
+            255,
+            256
+        ],
+        [
+            322,
+            323
+        ]
+    ]
+}

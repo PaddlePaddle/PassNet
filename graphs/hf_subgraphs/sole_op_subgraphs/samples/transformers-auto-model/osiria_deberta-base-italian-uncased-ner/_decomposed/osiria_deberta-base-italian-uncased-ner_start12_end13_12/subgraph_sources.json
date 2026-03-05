@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/osiria_deberta-base-italian-uncased-ner": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ]
+}

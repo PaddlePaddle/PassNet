@@ -1,0 +1,80 @@
+{
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-en-zh": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/IMISLab_GreekWiki-umt5-base": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Michielo_mt5-small_nl-en_translation": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_long-t5-tfg": [
+        [
+            1942,
+            1943
+        ]
+    ],
+    "samples/transformers-auto-model/csebuetnlp_mT5_multilingual_XLSum": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-base": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-mini": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-base-translation-ja_zh": [
+        [
+            673,
+            674
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-small-translation-ja_zh": [
+        [
+            465,
+            466
+        ]
+    ],
+    "samples/transformers-auto-model/larryvrh_mt5-translation-ja_zh": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/t5-small": [
+        [
+            1,
+            2
+        ]
+    ]
+}

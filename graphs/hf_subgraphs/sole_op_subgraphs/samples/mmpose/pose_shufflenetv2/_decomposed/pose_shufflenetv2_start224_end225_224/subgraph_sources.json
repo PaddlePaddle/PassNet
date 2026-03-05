@@ -1,0 +1,30 @@
+{
+    "samples/mmpose/pose_shufflenetv2": [
+        [
+            224,
+            225
+        ],
+        [
+            240,
+            241
+        ],
+        [
+            256,
+            257
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x1_0": [
+        [
+            224,
+            225
+        ],
+        [
+            240,
+            241
+        ],
+        [
+            256,
+            257
+        ]
+    ]
+}

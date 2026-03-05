@@ -1,0 +1,14 @@
+{
+    "samples/timm/efficientnet_b5.sw_in12k": [
+        [
+            397,
+            398
+        ]
+    ],
+    "samples/torchvision/efficientnet_b5": [
+        [
+            419,
+            420
+        ]
+    ]
+}

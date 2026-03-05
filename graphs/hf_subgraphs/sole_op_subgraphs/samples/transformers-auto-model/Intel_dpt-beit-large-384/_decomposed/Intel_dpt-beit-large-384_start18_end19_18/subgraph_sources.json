@@ -1,0 +1,48 @@
+{
+    "samples/transformers-auto-model/Intel_dpt-beit-large-384": [
+        [
+            2,
+            3
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_dpt-large": [
+        [
+            642,
+            643
+        ],
+        [
+            658,
+            659
+        ],
+        [
+            674,
+            675
+        ],
+        [
+            689,
+            690
+        ]
+    ],
+    "samples/transformers-auto-model/apple_DepthPro-hf": [
+        [
+            672,
+            673
+        ],
+        [
+            1540,
+            1541
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/timm/mobileone_s0.apple_in1k": [
+        [
+            324,
+            325
+        ]
+    ],
+    "samples/timm/mobileone_s3.apple_in1k": [
+        [
+            33,
+            34
+        ]
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "samples/mmseg/Mask2Former_R50": [
+        [
+            6,
+            7
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            96,
+            97
+        ]
+    ],
+    "samples/transformers-auto-model/Thomasboosinger_owlvit-base-patch32": [
+        [
+            946,
+            947
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-base-patch16": [
+        [
+            946,
+            947
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14": [
+        [
+            1366,
+            1367
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14-finetuned": [
+        [
+            1366,
+            1367
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch16": [
+        [
+            946,
+            947
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch32": [
+        [
+            946,
+            947
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-large-patch14": [
+        [
+            1366,
+            1367
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            701,
+            702
+        ]
+    ],
+    "samples/transformers-auto-model/upfeatmediainc_owlv2-base-patch16-ensemble": [
+        [
+            946,
+            947
+        ]
+    ]
+}

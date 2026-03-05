@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/Farid59_nllb-darija-fr_eng": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/OpenMed_OpenMed-NER-PharmaDetect-SuperMedical-125M": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_pegasus-large-book-summary": [
+        [
+            10,
+            11
+        ],
+        [
+            494,
+            495
+        ]
+    ]
+}

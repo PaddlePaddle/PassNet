@@ -1,0 +1,32 @@
+{
+    "samples/timm/swinv2_cr_small_224.sw_in1k": [
+        [
+            1323,
+            1324
+        ],
+        [
+            1378,
+            1379
+        ]
+    ],
+    "samples/timm/swinv2_cr_small_ns_224.sw_in1k": [
+        [
+            1326,
+            1327
+        ],
+        [
+            1381,
+            1382
+        ]
+    ],
+    "samples/timm/swinv2_cr_tiny_ns_224.sw_in1k": [
+        [
+            624,
+            625
+        ],
+        [
+            679,
+            680
+        ]
+    ]
+}

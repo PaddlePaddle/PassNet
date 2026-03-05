@@ -1,0 +1,32 @@
+{
+    "samples/timm/mobilenetv3_large_150d.ra4_e3600_r256_in1k": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            244,
+            245
+        ],
+        [
+            259,
+            260
+        ],
+        [
+            280,
+            281
+        ],
+        [
+            295,
+            296
+        ]
+    ],
+    "samples/timm/semnasnet_075.rmsp_in1k": [
+        [
+            180,
+            181
+        ]
+    ]
+}

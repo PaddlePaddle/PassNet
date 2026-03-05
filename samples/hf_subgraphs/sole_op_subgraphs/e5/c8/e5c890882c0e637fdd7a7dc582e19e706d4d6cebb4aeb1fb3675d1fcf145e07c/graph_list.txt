@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/facebook_levit-128/_decomposed/facebook_levit-128_start111_end112_111
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start121_end122_121

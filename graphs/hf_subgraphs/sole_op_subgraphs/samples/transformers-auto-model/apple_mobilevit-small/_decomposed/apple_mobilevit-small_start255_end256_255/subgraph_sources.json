@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/apple_mobilevit-small": [
+        [
+            255,
+            256
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-x-small": [
+        [
+            255,
+            256
+        ]
+    ]
+}

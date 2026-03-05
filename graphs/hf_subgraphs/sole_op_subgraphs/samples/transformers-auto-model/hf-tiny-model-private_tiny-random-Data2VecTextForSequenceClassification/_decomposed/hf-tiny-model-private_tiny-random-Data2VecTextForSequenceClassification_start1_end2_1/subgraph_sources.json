@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegaForSequenceClassification": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaForSequenceClassification": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaPreLayerNormForSequenceClassification": [
+        [
+            1,
+            2
+        ]
+    ]
+}

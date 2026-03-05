@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/apple_mobilevit-small": [
+        [
+            302,
+            303
+        ],
+        [
+            330,
+            331
+        ],
+        [
+            358,
+            359
+        ]
+    ]
+}

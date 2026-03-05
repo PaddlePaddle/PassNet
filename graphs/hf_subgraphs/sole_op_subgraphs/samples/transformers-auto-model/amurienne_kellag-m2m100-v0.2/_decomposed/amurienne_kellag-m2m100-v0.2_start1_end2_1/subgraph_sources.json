@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/amurienne_kellag-m2m100-v0.2": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/breadlicker45_autotrain-blender-50601120822": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/gsarti_it5-efficient-small-el32-wiki-summarization": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/sismetanin_mbart_ru_sum_gazeta-ru-sentiment-liniscrowd": [
+        [
+            1,
+            2
+        ]
+    ]
+}

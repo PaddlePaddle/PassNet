@@ -1,0 +1,74 @@
+{
+    "samples/timm/coatnet_2_224": [
+        [
+            41,
+            42
+        ]
+    ],
+    "samples/timm/coatnet_5_224": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/timm/hgnetv2_b3.ssld_stage1_in22k_in1k": [
+        [
+            245,
+            246
+        ]
+    ],
+    "samples/timm/hgnetv2_b4.ssld_stage1_in22k_in1k": [
+        [
+            186,
+            187
+        ]
+    ],
+    "samples/timm/hgnetv2_b5.ssld_stage1_in22k_in1k": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/timm/hgnetv2_b6.ssld_stage1_in22k_in1k": [
+        [
+            378,
+            379
+        ]
+    ],
+    "samples/timm/xception41.tf_in1k": [
+        [
+            199,
+            200
+        ]
+    ],
+    "samples/timm/xception41p.ra3_in1k": [
+        [
+            160,
+            161
+        ]
+    ],
+    "samples/timm/xception65.ra3_in1k": [
+        [
+            327,
+            328
+        ]
+    ],
+    "samples/timm/xception65p.ra3_in1k": [
+        [
+            264,
+            265
+        ]
+    ],
+    "samples/timm/xception71.tf_in1k": [
+        [
+            363,
+            364
+        ]
+    ],
+    "samples/torchvision/maxvit_t": [
+        [
+            421,
+            422
+        ]
+    ]
+}

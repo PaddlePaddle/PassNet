@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/kanak8278_xlnet-large-cased-ner-food-combined-weighted-v2": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/xlnet-base-cased": [
+        [
+            29,
+            30
+        ]
+    ]
+}

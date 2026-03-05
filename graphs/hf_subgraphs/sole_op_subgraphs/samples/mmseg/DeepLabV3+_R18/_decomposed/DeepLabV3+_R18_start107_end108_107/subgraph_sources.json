@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            107,
+            108
+        ]
+    ],
+    "samples/timm/repghostnet_058.in1k": [
+        [
+            171,
+            172
+        ]
+    ]
+}

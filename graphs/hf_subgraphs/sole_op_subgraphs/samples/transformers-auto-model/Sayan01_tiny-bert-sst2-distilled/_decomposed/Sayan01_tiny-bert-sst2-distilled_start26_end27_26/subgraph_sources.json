@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/Sayan01_tiny-bert-sst2-distilled": [
+        [
+            26,
+            27
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            92,
+            93
+        ]
+    ]
+}

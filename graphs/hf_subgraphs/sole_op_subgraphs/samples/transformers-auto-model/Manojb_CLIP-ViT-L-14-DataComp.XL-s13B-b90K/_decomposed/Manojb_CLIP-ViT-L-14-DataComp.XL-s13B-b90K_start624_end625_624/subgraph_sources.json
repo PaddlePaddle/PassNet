@@ -1,0 +1,300 @@
+{
+    "samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K": [
+        [
+            624,
+            625
+        ],
+        [
+            626,
+            627
+        ]
+    ],
+    "samples/transformers-auto-model/Q-MM_clip-vit-large-patch14-336": [
+        [
+            672,
+            673
+        ],
+        [
+            674,
+            675
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-224-lit": [
+        [
+            931,
+            932
+        ],
+        [
+            933,
+            934
+        ],
+        [
+            986,
+            987
+        ],
+        [
+            988,
+            989
+        ],
+        [
+            1041,
+            1042
+        ],
+        [
+            1043,
+            1044
+        ],
+        [
+            1096,
+            1097
+        ],
+        [
+            1098,
+            1099
+        ],
+        [
+            1151,
+            1152
+        ],
+        [
+            1153,
+            1154
+        ],
+        [
+            1206,
+            1207
+        ],
+        [
+            1208,
+            1209
+        ],
+        [
+            1261,
+            1262
+        ],
+        [
+            1263,
+            1264
+        ],
+        [
+            1316,
+            1317
+        ],
+        [
+            1318,
+            1319
+        ],
+        [
+            1371,
+            1372
+        ],
+        [
+            1373,
+            1374
+        ],
+        [
+            1426,
+            1427
+        ],
+        [
+            1428,
+            1429
+        ],
+        [
+            1481,
+            1482
+        ],
+        [
+            1483,
+            1484
+        ],
+        [
+            1536,
+            1537
+        ],
+        [
+            1538,
+            1539
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_metaclip-b16-400m": [
+        [
+            348,
+            349
+        ],
+        [
+            350,
+            351
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_metaclip-b32-400m": [
+        [
+            348,
+            349
+        ],
+        [
+            350,
+            351
+        ]
+    ],
+    "samples/transformers-auto-model/gowitheflowlab_clip-base-10240-checkpoint350": [
+        [
+            348,
+            349
+        ],
+        [
+            350,
+            351
+        ]
+    ],
+    "samples/transformers-auto-model/kaveh_rclip": [
+        [
+            668,
+            669
+        ]
+    ],
+    "samples/transformers-auto-model/laion_CLIP-ViT-H-14-laion2B-s32B-b79K": [
+        [
+            824,
+            825
+        ],
+        [
+            826,
+            827
+        ]
+    ],
+    "samples/transformers-auto-model/openai_clip-vit-base-patch32": [
+        [
+            348,
+            349
+        ],
+        [
+            350,
+            351
+        ]
+    ],
+    "samples/transformers-auto-model/openai_clip-vit-large-patch14": [
+        [
+            672,
+            673
+        ],
+        [
+            674,
+            675
+        ]
+    ],
+    "samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K": [
+        [
+            324,
+            325
+        ],
+        [
+            326,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/LaBSE": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-MiniLM-L12-v1": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-MiniLM-L6-v1": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-distilroberta-v1": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-roberta-large-v1": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/bert-large-nli-cls-token": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/clip-ViT-B-32-multilingual-v1": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/distiluse-base-multilingual-cased-v2": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/msmarco-roberta-base-ance-firstp": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-MiniLM-L3-v2": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-TinyBERT-L6-v2": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-albert-base-v2": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-albert-small-v2": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-distilroberta-base-v1": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/shaunster_clip_14_model": [
+        [
+            348,
+            349
+        ],
+        [
+            350,
+            351
+        ]
+    ],
+    "samples/transformers-auto-model/yuvalkirstain_PickScore_v1": [
+        [
+            824,
+            825
+        ],
+        [
+            826,
+            827
+        ]
+    ]
+}

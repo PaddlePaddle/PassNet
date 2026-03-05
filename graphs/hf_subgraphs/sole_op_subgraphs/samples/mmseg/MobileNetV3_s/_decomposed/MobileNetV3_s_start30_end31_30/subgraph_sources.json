@@ -1,0 +1,72 @@
+{
+    "samples/mmseg/MobileNetV3_s": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_075.lamb_in1k": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_100.lamb_in1k": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/timm/repghostnet_080.in1k": [
+        [
+            184,
+            185
+        ],
+        [
+            209,
+            210
+        ]
+    ],
+    "samples/timm/repghostnet_111.in1k": [
+        [
+            114,
+            115
+        ],
+        [
+            133,
+            134
+        ],
+        [
+            148,
+            149
+        ],
+        [
+            163,
+            164
+        ],
+        [
+            188,
+            189
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_small": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x1_5": [
+        [
+            28,
+            29
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            60,
+            61
+        ]
+    ]
+}

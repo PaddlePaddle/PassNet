@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/ckiplab_albert-tiny-chinese-ner": [
+        [
+            27,
+            28
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            90,
+            91
+        ]
+    ]
+}

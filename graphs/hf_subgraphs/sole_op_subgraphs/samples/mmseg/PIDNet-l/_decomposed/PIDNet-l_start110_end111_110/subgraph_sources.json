@@ -1,0 +1,44 @@
+{
+    "samples/mmseg/PIDNet-l": [
+        [
+            110,
+            111
+        ],
+        [
+            117,
+            118
+        ],
+        [
+            188,
+            189
+        ],
+        [
+            195,
+            196
+        ]
+    ],
+    "samples/mmseg/PIDNet-s": [
+        [
+            84,
+            85
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            153,
+            154
+        ],
+        [
+            160,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/upernet-convnext-tiny": [
+        [
+            35,
+            36
+        ]
+    ]
+}

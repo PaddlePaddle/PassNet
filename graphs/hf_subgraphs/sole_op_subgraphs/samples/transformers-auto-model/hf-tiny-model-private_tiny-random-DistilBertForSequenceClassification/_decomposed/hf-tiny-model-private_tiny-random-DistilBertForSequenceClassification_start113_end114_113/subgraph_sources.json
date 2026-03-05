@@ -1,0 +1,52 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification": [
+        [
+            25,
+            26
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            113,
+            114
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-FlaubertForSequenceClassification": [
+        [
+            48,
+            49
+        ],
+        [
+            85,
+            86
+        ],
+        [
+            122,
+            123
+        ],
+        [
+            159,
+            160
+        ],
+        [
+            196,
+            197
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224": [
+        [
+            59,
+            60
+        ]
+    ]
+}

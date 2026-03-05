@@ -1,0 +1,880 @@
+{
+    "samples/nemo/parakeet-ctc-0.6b": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/nemo/parakeet-ctc-1.1b": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/nemo/parakeet-tdt-0.6b-v3": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/nemo/parakeet-tdt-1.1b": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_large": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_medium": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_small": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_large_pc": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_large_streaming_multi": [
+        [
+            32,
+            33
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_medium_streaming_80ms_pc": [
+        [
+            32,
+            33
+        ]
+    ],
+    "samples/torchaudio/wavlm_base": [
+        [
+            36,
+            37
+        ],
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/torchaudio/wavlm_large": [
+        [
+            57,
+            58
+        ],
+        [
+            67,
+            68
+        ]
+    ],
+    "samples/transformers-auto-model/907508196l_wavlm-libri-clean-100h-base-plus-finetuned-ks": [
+        [
+            36,
+            37
+        ],
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/Fsoft-AIC_videberta-base": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/IMISLab_GreekWiki-umt5-base": [
+        [
+            45,
+            46
+        ],
+        [
+            155,
+            156
+        ],
+        [
+            265,
+            266
+        ],
+        [
+            375,
+            376
+        ],
+        [
+            485,
+            486
+        ],
+        [
+            595,
+            596
+        ],
+        [
+            705,
+            706
+        ],
+        [
+            815,
+            816
+        ],
+        [
+            925,
+            926
+        ],
+        [
+            1035,
+            1036
+        ],
+        [
+            1145,
+            1146
+        ],
+        [
+            1255,
+            1256
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_fid_flan_t5_base_nq": [
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_deberta-base-ainu-ud-goeswith": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_deberta-base-chinese-ud-goeswith": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_deberta-base-japanese-aozora-ud-goeswith": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Michielo_mt5-small_nl-en_translation": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_DeBERTa-v3-base-mnli-fever-anli": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_DeBERTa-v3-large-mnli-fever-anli-ling-wanli": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_mDeBERTa-v3-base-mnli-xnli": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/NDugar_deberta-v2-xlarge-mnli": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_long-t5-tfg": [
+        [
+            127,
+            128
+        ],
+        [
+            137,
+            138
+        ],
+        [
+            199,
+            200
+        ],
+        [
+            209,
+            210
+        ],
+        [
+            1989,
+            1990
+        ]
+    ],
+    "samples/transformers-auto-model/TTian_deberta-classifier-feedback-1024-pseudo": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/Zahra99_wavlm-large-finetuned-iemocap": [
+        [
+            56,
+            57
+        ],
+        [
+            66,
+            67
+        ]
+    ],
+    "samples/transformers-auto-model/akhtet_mDeBERTa-v3-base-myanmar-xnli": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/allegro_plt5-large": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/andersonbcdefg_seo-spam-classifier": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/anton-l_sew-d-mid-400k-ft-keyword-spotting": [
+        [
+            71,
+            72
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/canary-1b-v2": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/cointegrated_rut5-base-absum": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/csebuetnlp_mT5_multilingual_XLSum": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-base": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-base-lm-adapt": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-el16": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-el2": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-el4": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-el6": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-el8": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-kv128": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-kv16": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-kv256": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-kv32": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nh16": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nh24": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nh32": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nh8": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nl24": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nl32": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nl36": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nl40": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nl48": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-dl12": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-el2": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-el4": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-el6": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-el8": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-kv128": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-kv16": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-kv256": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-kv32": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nh2": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nh24": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nh32": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nh4": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nh8": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nh8-nl32": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nl10": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nl16": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nl20": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nl32": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-v1_1-small": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5-small": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-mini": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/gsarti_it5-efficient-small-el32-wiki-summarization": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MPNetForSequenceClassification": [
+        [
+            23,
+            24
+        ],
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SEWDForSequenceClassification": [
+        [
+            51,
+            52
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-WavLMForSequenceClassification": [
+        [
+            28,
+            29
+        ],
+        [
+            38,
+            39
+        ]
+    ],
+    "samples/transformers-auto-model/igorktech_rut5-small-chit-chat-intelligent": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-base-translation-ja_zh": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            720,
+            721
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-small-translation-ja_zh": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            512,
+            513
+        ]
+    ],
+    "samples/transformers-auto-model/kakaobank_kf-deberta-base": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/larryvrh_mt5-translation-ja_zh": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/mazkooleg_0-9up-wavlm-base-plus-ft": [
+        [
+            36,
+            37
+        ],
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            354,
+            355
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-v3-base": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-v3-large": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-v3-small": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_mpnet-base": [
+        [
+            23,
+            24
+        ],
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/transformers-auto-model/moska_plt5-seq-clf-with-entities-updated-finetuned": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/osiria_deberta-base-italian-uncased-ner": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_tFINE-base-300m-samsum": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/t5-small": [
+        [
+            48,
+            49
+        ]
+    ]
+}

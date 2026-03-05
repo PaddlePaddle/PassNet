@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/MoritzLaurer_mDeBERTa-v3-base-mnli-xnli": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/akhtet_mDeBERTa-v3-base-myanmar-xnli": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ]
+}

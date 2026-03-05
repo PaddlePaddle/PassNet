@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/nielsr_focalnet-base": [
+        [
+            100,
+            101
+        ],
+        [
+            142,
+            143
+        ]
+    ]
+}

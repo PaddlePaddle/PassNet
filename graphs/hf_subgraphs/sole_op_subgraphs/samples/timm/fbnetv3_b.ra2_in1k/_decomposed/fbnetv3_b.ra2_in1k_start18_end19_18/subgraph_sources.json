@@ -1,0 +1,26 @@
+{
+    "samples/timm/fbnetv3_b.ra2_in1k": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/timm/mixnet_l.ft_in1k": [
+        [
+            22,
+            23
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_050.lamb_in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/repghostnet_058.in1k": [
+        [
+            236,
+            237
+        ]
+    ]
+}

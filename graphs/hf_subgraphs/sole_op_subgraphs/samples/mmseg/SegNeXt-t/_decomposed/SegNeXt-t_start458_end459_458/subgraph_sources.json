@@ -1,0 +1,22 @@
+{
+    "samples/mmseg/SegNeXt-t": [
+        [
+            458,
+            459
+        ],
+        [
+            496,
+            497
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-tiny": [
+        [
+            290,
+            291
+        ],
+        [
+            314,
+            315
+        ]
+    ]
+}

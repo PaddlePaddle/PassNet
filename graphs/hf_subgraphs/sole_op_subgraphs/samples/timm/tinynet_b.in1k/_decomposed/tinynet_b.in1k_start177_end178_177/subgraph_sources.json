@@ -1,0 +1,36 @@
+{
+    "samples/timm/tinynet_b.in1k": [
+        [
+            177,
+            178
+        ],
+        [
+            192,
+            193
+        ],
+        [
+            207,
+            208
+        ]
+    ],
+    "samples/torchvision/efficientnet_b6": [
+        [
+            357,
+            358
+        ]
+    ],
+    "samples/torchvision/mnasnet0_75": [
+        [
+            114,
+            115
+        ],
+        [
+            123,
+            124
+        ],
+        [
+            132,
+            133
+        ]
+    ]
+}

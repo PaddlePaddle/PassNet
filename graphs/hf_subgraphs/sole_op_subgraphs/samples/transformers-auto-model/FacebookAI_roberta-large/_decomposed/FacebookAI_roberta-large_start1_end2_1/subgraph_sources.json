@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/FacebookAI_roberta-large": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/OpenMed_OpenMed-NER-PharmaDetect-SuperMedical-125M": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/distilroberta-base": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/roberta-base": [
+        [
+            1,
+            2
+        ]
+    ]
+}

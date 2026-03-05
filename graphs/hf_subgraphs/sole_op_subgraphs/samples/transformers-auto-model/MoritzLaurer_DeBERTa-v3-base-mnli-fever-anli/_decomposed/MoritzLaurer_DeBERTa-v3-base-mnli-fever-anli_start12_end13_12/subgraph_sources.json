@@ -1,0 +1,92 @@
+{
+    "samples/transformers-auto-model/MoritzLaurer_DeBERTa-v3-base-mnli-fever-anli": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_DeBERTa-v3-large-mnli-fever-anli-ling-wanli": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/NDugar_deberta-v2-xlarge-mnli": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/TTian_deberta-classifier-feedback-1024-pseudo": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/andersonbcdefg_seo-spam-classifier": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-v3-base": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-v3-large": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-v3-small": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ]
+}

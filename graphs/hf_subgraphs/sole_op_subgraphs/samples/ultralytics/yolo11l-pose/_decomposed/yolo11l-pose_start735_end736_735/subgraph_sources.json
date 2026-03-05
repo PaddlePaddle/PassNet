@@ -1,0 +1,80 @@
+{
+    "samples/ultralytics/yolo11l-pose": [
+        [
+            735,
+            736
+        ]
+    ],
+    "samples/ultralytics/yolo11m-pose": [
+        [
+            516,
+            517
+        ]
+    ],
+    "samples/ultralytics/yolo11n-pose": [
+        [
+            431,
+            432
+        ]
+    ],
+    "samples/ultralytics/yolo11s-pose": [
+        [
+            431,
+            432
+        ]
+    ],
+    "samples/ultralytics/yolo11x-pose": [
+        [
+            735,
+            736
+        ]
+    ],
+    "samples/ultralytics/yolo12l-pose": [
+        [
+            1156,
+            1157
+        ]
+    ],
+    "samples/ultralytics/yolo12m-pose": [
+        [
+            706,
+            707
+        ]
+    ],
+    "samples/ultralytics/yolo12n-pose": [
+        [
+            672,
+            673
+        ]
+    ],
+    "samples/ultralytics/yolo12s-pose": [
+        [
+            672,
+            673
+        ]
+    ],
+    "samples/ultralytics/yolo12x-pose": [
+        [
+            1156,
+            1157
+        ]
+    ],
+    "samples/ultralytics/yolov8l-pose": [
+        [
+            467,
+            468
+        ]
+    ],
+    "samples/ultralytics/yolov8m-pose": [
+        [
+            401,
+            402
+        ]
+    ],
+    "samples/ultralytics/yolov8n-pose": [
+        [
+            335,
+            336
+        ]
+    ]
+}

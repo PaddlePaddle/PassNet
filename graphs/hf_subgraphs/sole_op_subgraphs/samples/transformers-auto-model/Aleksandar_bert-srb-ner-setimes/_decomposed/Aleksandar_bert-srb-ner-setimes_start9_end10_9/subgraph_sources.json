@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Aleksandar_bert-srb-ner-setimes": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-heb-eng": [
+        [
+            10,
+            11
+        ]
+    ]
+}

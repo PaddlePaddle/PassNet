@@ -1,0 +1,122 @@
+{
+    "samples/timm/efficientnet_b0.ra4_e3600_r224_in1k": [
+        [
+            133,
+            134
+        ],
+        [
+            148,
+            149
+        ]
+    ],
+    "samples/timm/efficientnet_b1.ft_in1k": [
+        [
+            190,
+            191
+        ],
+        [
+            205,
+            206
+        ],
+        [
+            220,
+            221
+        ]
+    ],
+    "samples/timm/efficientnet_b4.ra2_in1k": [
+        [
+            236,
+            237
+        ]
+    ],
+    "samples/timm/efficientnet_lite0.ra_in1k": [
+        [
+            79,
+            80
+        ],
+        [
+            88,
+            89
+        ]
+    ],
+    "samples/timm/fbnetc_100.rmsp_in1k": [
+        [
+            119,
+            120
+        ],
+        [
+            128,
+            129
+        ]
+    ],
+    "samples/timm/hardcorenas_a.miil_green_in1k": [
+        [
+            100,
+            101
+        ]
+    ],
+    "samples/timm/hardcorenas_e.miil_green_in1k": [
+        [
+            142,
+            143
+        ],
+        [
+            157,
+            158
+        ]
+    ],
+    "samples/timm/hardcorenas_f.miil_green_in1k": [
+        [
+            142,
+            143
+        ],
+        [
+            157,
+            158
+        ]
+    ],
+    "samples/timm/tinynet_a.in1k": [
+        [
+            148,
+            149
+        ],
+        [
+            163,
+            164
+        ],
+        [
+            178,
+            179
+        ]
+    ],
+    "samples/torchvision/efficientnet_b0": [
+        [
+            137,
+            138
+        ],
+        [
+            153,
+            154
+        ]
+    ],
+    "samples/torchvision/efficientnet_b1": [
+        [
+            198,
+            199
+        ],
+        [
+            214,
+            215
+        ],
+        [
+            230,
+            231
+        ]
+    ],
+    "samples/torchvision/efficientnet_b4": [
+        [
+            248,
+            249
+        ]
+    ]
+}

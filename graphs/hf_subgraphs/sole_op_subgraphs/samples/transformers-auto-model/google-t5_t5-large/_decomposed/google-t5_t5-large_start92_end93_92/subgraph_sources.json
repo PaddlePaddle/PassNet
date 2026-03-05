@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            92,
+            93
+        ]
+    ],
+    "samples/transformers-auto-model/larryvrh_mt5-translation-ja_zh": [
+        [
+            92,
+            93
+        ]
+    ]
+}

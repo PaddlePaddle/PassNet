@@ -1,0 +1,14 @@
+{
+    "samples/torchvision/swin_b": [
+        [
+            86,
+            87
+        ]
+    ],
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            103,
+            104
+        ]
+    ]
+}

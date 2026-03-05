@@ -1,0 +1,66 @@
+{
+    "samples/timm/fastvit_s12.apple_dist_in1k": [
+        [
+            32,
+            33
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/ultralytics/yolo12n-obb": [
+        [
+            76,
+            77
+        ],
+        [
+            115,
+            116
+        ],
+        [
+            154,
+            155
+        ],
+        [
+            193,
+            194
+        ]
+    ],
+    "samples/ultralytics/yolo12n-pose": [
+        [
+            76,
+            77
+        ],
+        [
+            115,
+            116
+        ],
+        [
+            154,
+            155
+        ],
+        [
+            193,
+            194
+        ]
+    ],
+    "samples/ultralytics/yolo12n-seg": [
+        [
+            76,
+            77
+        ],
+        [
+            115,
+            116
+        ],
+        [
+            154,
+            155
+        ],
+        [
+            193,
+            194
+        ]
+    ]
+}

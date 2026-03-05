@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/DeepLabV3+_R101": [
+        [
+            374,
+            375
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            98,
+            99
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R50": [
+        [
+            204,
+            205
+        ]
+    ]
+}

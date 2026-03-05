@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/depth-anything_prompt-depth-anything-vits-hf": [
+        [
+            1,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            18,
+            19
+        ]
+    ]
+}

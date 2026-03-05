@@ -1,0 +1,26 @@
+{
+    "samples/timm/davit_base": [
+        [
+            26,
+            27
+        ]
+    ],
+    "samples/torchvision/swin_b": [
+        [
+            12,
+            13
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            95,
+            96
+        ]
+    ]
+}

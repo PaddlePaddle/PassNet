@@ -1,0 +1,22 @@
+{
+    "samples/torchvision/swin_v2_s": [
+        [
+            164,
+            165
+        ],
+        [
+            220,
+            221
+        ]
+    ],
+    "samples/torchvision/swin_v2_t": [
+        [
+            164,
+            165
+        ],
+        [
+            220,
+            221
+        ]
+    ]
+}

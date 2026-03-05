@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OPTForSequenceClassification": [
+        [
+            54,
+            55
+        ],
+        [
+            85,
+            86
+        ],
+        [
+            116,
+            117
+        ],
+        [
+            147,
+            148
+        ],
+        [
+            178,
+            179
+        ]
+    ]
+}

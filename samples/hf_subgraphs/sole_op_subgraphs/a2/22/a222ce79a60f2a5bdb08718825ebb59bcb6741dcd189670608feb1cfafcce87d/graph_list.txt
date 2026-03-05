@@ -1,0 +1,1 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/timm/swinv2_cr_small_224.sw_in1k/_decomposed/swinv2_cr_small_224.sw_in1k_start1011_end1012_1011

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/zuppif_maskformer-swin-small-ade": [
+        [
+            41,
+            42
+        ],
+        [
+            120,
+            121
+        ]
+    ]
+}

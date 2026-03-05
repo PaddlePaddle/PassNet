@@ -1,0 +1,60 @@
+{
+    "samples/timm/coatnet_2_rw_224": [
+        [
+            627,
+            628
+        ]
+    ],
+    "samples/timm/coatnet_nano_cc_224": [
+        [
+            339,
+            340
+        ],
+        [
+            373,
+            374
+        ]
+    ],
+    "samples/timm/coatnet_nano_rw_224": [
+        [
+            368,
+            369
+        ],
+        [
+            402,
+            403
+        ]
+    ],
+    "samples/timm/coatnet_pico_rw_224": [
+        [
+            302,
+            303
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_2_rw_224": [
+        [
+            773,
+            774
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_nano_rw_224": [
+        [
+            414,
+            415
+        ],
+        [
+            454,
+            455
+        ]
+    ],
+    "samples/timm/coatnext_nano_rw_224": [
+        [
+            340,
+            341
+        ],
+        [
+            374,
+            375
+        ]
+    ]
+}

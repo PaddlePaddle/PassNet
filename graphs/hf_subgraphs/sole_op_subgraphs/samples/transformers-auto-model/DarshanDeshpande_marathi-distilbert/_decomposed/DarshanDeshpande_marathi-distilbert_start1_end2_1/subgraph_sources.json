@@ -1,0 +1,74 @@
+{
+    "samples/transformers-auto-model/DarshanDeshpande_marathi-distilbert": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/TrustSafeAI_RADAR_Vicuna_7B": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/aurelio-ai_sr-test-clip": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/bge-base-en-v1.5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/bge-large-zh": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/bge-reranker-large": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-en": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CLIPSegModel": [
+        [
+            162,
+            163
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            187,
+            188
+        ]
+    ],
+    "samples/transformers-auto-model/multilingual-e5-large": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/splade-mini": [
+        [
+            0,
+            1
+        ]
+    ]
+}

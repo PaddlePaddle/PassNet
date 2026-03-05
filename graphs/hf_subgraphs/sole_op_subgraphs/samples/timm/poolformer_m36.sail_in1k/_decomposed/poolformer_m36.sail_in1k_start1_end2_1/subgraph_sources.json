@@ -1,0 +1,62 @@
+{
+    "samples/timm/poolformer_m36.sail_in1k": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/timm/poolformer_m48.sail_in1k": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/timm/poolformer_s12.sail_in1k": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/timm/poolformer_s24.sail_in1k": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/timm/poolformer_s36.sail_in1k": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/timm/poolformerv2_m36.sail_in1k": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/timm/poolformerv2_m48.sail_in1k": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/timm/poolformerv2_s12.sail_in1k": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/timm/poolformerv2_s24.sail_in1k": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/timm/poolformerv2_s36.sail_in1k": [
+        [
+            4,
+            5
+        ]
+    ]
+}

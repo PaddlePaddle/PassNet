@@ -1,0 +1,32 @@
+{
+    "samples/timm/xception41.tf_in1k": [
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/timm/xception41p.ra3_in1k": [
+        [
+            42,
+            43
+        ]
+    ],
+    "samples/timm/xception65.ra3_in1k": [
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/timm/xception65p.ra3_in1k": [
+        [
+            42,
+            43
+        ]
+    ],
+    "samples/timm/xception71.tf_in1k": [
+        [
+            89,
+            90
+        ]
+    ]
+}

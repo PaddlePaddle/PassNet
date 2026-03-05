@@ -1,0 +1,82 @@
+{
+    "samples/transformers-auto-model/Thomasboosinger_owlvit-base-patch32": [
+        [
+            444,
+            445
+        ],
+        [
+            446,
+            447
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-base-patch16": [
+        [
+            444,
+            445
+        ],
+        [
+            446,
+            447
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14": [
+        [
+            864,
+            865
+        ],
+        [
+            866,
+            867
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14-finetuned": [
+        [
+            864,
+            865
+        ],
+        [
+            866,
+            867
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch16": [
+        [
+            444,
+            445
+        ],
+        [
+            446,
+            447
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch32": [
+        [
+            444,
+            445
+        ],
+        [
+            446,
+            447
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-large-patch14": [
+        [
+            864,
+            865
+        ],
+        [
+            866,
+            867
+        ]
+    ],
+    "samples/transformers-auto-model/upfeatmediainc_owlv2-base-patch16-ensemble": [
+        [
+            444,
+            445
+        ],
+        [
+            446,
+            447
+        ]
+    ]
+}

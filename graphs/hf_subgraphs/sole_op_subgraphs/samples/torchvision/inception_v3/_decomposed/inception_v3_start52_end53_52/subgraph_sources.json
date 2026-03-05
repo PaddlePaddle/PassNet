@@ -1,0 +1,16 @@
+{
+    "samples/torchvision/inception_v3": [
+        [
+            52,
+            53
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            98,
+            99
+        ]
+    ]
+}

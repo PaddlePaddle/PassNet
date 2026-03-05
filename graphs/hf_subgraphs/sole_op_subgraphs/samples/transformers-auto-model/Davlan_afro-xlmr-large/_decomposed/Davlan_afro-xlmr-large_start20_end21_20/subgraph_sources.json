@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/Davlan_afro-xlmr-large": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_xtremedistil-l6-h256-mnli-fever-anli-ling-binary": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-heb-eng": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-hye-eng": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-ron-eng": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-tur-eng": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-zho-eng": [
+        [
+            12,
+            13
+        ]
+    ]
+}

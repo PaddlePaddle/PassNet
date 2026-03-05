@@ -1,0 +1,42 @@
+{
+    "samples/ultralytics/yolov5l6u": [
+        [
+            554,
+            555
+        ],
+        [
+            555,
+            556
+        ]
+    ],
+    "samples/ultralytics/yolov5m6u": [
+        [
+            462,
+            463
+        ],
+        [
+            463,
+            464
+        ]
+    ],
+    "samples/ultralytics/yolov5n6u": [
+        [
+            370,
+            371
+        ],
+        [
+            371,
+            372
+        ]
+    ],
+    "samples/ultralytics/yolov5x6u": [
+        [
+            646,
+            647
+        ],
+        [
+            647,
+            648
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/Intel_zoedepth-nyu": [
+        [
+            133,
+            134
+        ],
+        [
+            276,
+            277
+        ],
+        [
+            355,
+            356
+        ]
+    ]
+}

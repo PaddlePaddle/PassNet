@@ -1,0 +1,50 @@
+{
+    "samples/timm/coatnet_rmlp_2_rw_224": [
+        [
+            152,
+            153
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_2_rw_384": [
+        [
+            152,
+            153
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_nano_rw_224": [
+        [
+            169,
+            170
+        ],
+        [
+            209,
+            210
+        ],
+        [
+            249,
+            250
+        ],
+        [
+            289,
+            290
+        ],
+        [
+            329,
+            330
+        ],
+        [
+            372,
+            373
+        ]
+    ],
+    "samples/torchvision/swin_v2_b": [
+        [
+            151,
+            152
+        ],
+        [
+            206,
+            207
+        ]
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "samples/transformers-auto-model/EleutherAI_pythia-1b": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/baidu/ERNIE-4.5-0.3B-PT": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/bigscience/bloom-560m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/Phi-3-mini-4k-instruct": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1_5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/openai-community/gpt2": [
+        [
+            1,
+            2
+        ]
+    ]
+}

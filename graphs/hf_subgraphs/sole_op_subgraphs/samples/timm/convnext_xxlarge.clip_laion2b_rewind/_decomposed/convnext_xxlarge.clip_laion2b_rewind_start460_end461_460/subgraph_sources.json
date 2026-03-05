@@ -1,0 +1,16 @@
+{
+    "samples/timm/convnext_xxlarge.clip_laion2b_rewind": [
+        [
+            460,
+            461
+        ],
+        [
+            472,
+            473
+        ],
+        [
+            484,
+            485
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Data-Lab_ruRoberta-large_classification_v0.2": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/axotion_polish-reranker-base-ranknet": [
+        [
+            1,
+            2
+        ]
+    ]
+}

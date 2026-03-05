@@ -1,0 +1,42 @@
+{
+    "samples/mmseg/SegNeXt-t": [
+        [
+            16,
+            17
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            92,
+            93
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-tiny": [
+        [
+            5,
+            6
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanForImageClassification": [
+        [
+            36,
+            37
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanModel": [
+        [
+            36,
+            37
+        ]
+    ]
+}

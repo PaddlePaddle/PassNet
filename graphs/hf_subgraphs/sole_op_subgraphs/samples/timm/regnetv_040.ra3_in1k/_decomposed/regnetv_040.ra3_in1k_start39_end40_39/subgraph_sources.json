@@ -1,0 +1,98 @@
+{
+    "samples/timm/regnetv_040.ra3_in1k": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/timm/regnetx_002.pycls_in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/regnetx_016.pycls_in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/regnetx_064.pycls_in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/regnety_002.pycls_in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/regnety_006.pycls_in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/regnety_032.pycls_in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/regnety_040.pycls_in1k": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/timm/regnety_080.pycls_in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/regnety_320.pycls_in1k": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/timm/regnety_320.seer": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/timm/regnety_640.seer": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/timm/regnety_640.seer_ft_in1k": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/torchvision/regnet_x_1_6gf": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/torchvision/regnet_y_32gf": [
+        [
+            42,
+            43
+        ]
+    ],
+    "samples/torchvision/regnet_y_3_2gf": [
+        [
+            8,
+            9
+        ]
+    ]
+}

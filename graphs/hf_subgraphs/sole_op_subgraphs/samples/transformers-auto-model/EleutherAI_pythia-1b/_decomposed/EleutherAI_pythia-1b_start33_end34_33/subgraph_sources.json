@@ -1,0 +1,80 @@
+{
+    "samples/transformers-auto-model/EleutherAI_pythia-1b": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/transformers-auto-model/TinyLlama/TinyLlama-1.1B-Chat-v0.4": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/transformers-auto-model/baidu/ERNIE-4.5-0.3B-PT": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/deepseek-ai/deepseek-coder-1.3b-base": [
+        [
+            32,
+            33
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-1.1-2b-it": [
+        [
+            32,
+            33
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-2b-it": [
+        [
+            32,
+            33
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-1b-it": [
+        [
+            67,
+            68
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-270m": [
+        [
+            67,
+            68
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/Phi-3-mini-4k-instruct": [
+        [
+            35,
+            36
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1_5": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            33,
+            34
+        ]
+    ]
+}

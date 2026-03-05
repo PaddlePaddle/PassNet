@@ -1,0 +1,44 @@
+{
+    "samples/mmseg/ERFNet": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SegNeXt-b": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SegNeXt-l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SegNeXt-s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SegNeXt-t": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerForImageClassificationWithTeacher": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerModel": [
+        [
+            0,
+            1
+        ]
+    ]
+}

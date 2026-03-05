@@ -1,0 +1,38 @@
+{
+    "samples/timm/vit_base_patch32_224.augreg_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/vit_base_patch32_224.orig_in21k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/vit_large_patch32_224.orig_in21k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/vit_small_patch32_224.augreg_in21k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/vit_b_32": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/vit_l_32": [
+        [
+            0,
+            1
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/torchvision/maxvit_t": [
+        [
+            65,
+            66
+        ],
+        [
+            167,
+            168
+        ]
+    ]
+}

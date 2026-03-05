@@ -1,0 +1,54 @@
+{
+    "samples/transformers-auto-model/sentence-transformers/clip-ViT-B-32-multilingual-v1": [
+        [
+            25,
+            26
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            113,
+            114
+        ],
+        [
+            135,
+            136
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/distiluse-base-multilingual-cased-v2": [
+        [
+            25,
+            26
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            113,
+            114
+        ],
+        [
+            135,
+            136
+        ]
+    ]
+}

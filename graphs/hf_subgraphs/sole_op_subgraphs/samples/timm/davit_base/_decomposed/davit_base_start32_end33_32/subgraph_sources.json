@@ -1,0 +1,18 @@
+{
+    "samples/timm/davit_base": [
+        [
+            32,
+            33
+        ]
+    ],
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            44,
+            45
+        ],
+        [
+            120,
+            121
+        ]
+    ]
+}

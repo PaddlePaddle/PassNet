@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/Data-Lab_ruRoberta-large_classification_v0.2": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-af-es": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/HooshvareLab_albert-fa-zwnj-base-v2": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/LeoFeng_ChineseSequenceClassification": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/axotion_polish-reranker-base-ranknet": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/hfl_chinese-macbert-large": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/hfl_chinese-roberta-wwm-ext": [
+        [
+            9,
+            10
+        ]
+    ]
+}

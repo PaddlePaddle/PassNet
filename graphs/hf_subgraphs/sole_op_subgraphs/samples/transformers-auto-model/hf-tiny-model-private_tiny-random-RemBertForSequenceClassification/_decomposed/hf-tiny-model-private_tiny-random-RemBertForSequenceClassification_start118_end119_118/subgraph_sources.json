@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RemBertForSequenceClassification": [
+        [
+            31,
+            32
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            89,
+            90
+        ],
+        [
+            118,
+            119
+        ],
+        [
+            147,
+            148
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            6,
+            7
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            128,
+            129
+        ]
+    ],
+    "samples/transformers-auto-model/gagan3012_swin_arocr_tiny": [
+        [
+            163,
+            164
+        ],
+        [
+            221,
+            222
+        ],
+        [
+            312,
+            313
+        ]
+    ]
+}

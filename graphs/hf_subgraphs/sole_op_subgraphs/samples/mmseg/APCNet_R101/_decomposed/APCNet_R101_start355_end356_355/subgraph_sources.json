@@ -1,0 +1,102 @@
+{
+    "samples/mmseg/APCNet_R101": [
+        [
+            355,
+            356
+        ],
+        [
+            387,
+            388
+        ],
+        [
+            419,
+            420
+        ],
+        [
+            451,
+            452
+        ]
+    ],
+    "samples/mmseg/APCNet_R50": [
+        [
+            185,
+            186
+        ],
+        [
+            217,
+            218
+        ],
+        [
+            249,
+            250
+        ],
+        [
+            281,
+            282
+        ]
+    ],
+    "samples/mmseg/DANet_R101": [
+        [
+            377,
+            378
+        ],
+        [
+            378,
+            379
+        ],
+        [
+            386,
+            387
+        ]
+    ],
+    "samples/mmseg/DANet_R50": [
+        [
+            207,
+            208
+        ],
+        [
+            208,
+            209
+        ],
+        [
+            216,
+            217
+        ]
+    ],
+    "samples/mmseg/EncNet_R101": [
+        [
+            354,
+            355
+        ]
+    ],
+    "samples/mmseg/EncNet_R50": [
+        [
+            184,
+            185
+        ]
+    ],
+    "samples/mmseg/FastFCN_enc": [
+        [
+            217,
+            218
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            357,
+            358
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            1154,
+            1155
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            571,
+            572
+        ]
+    ]
+}

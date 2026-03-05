@@ -1,0 +1,14 @@
+{
+    "samples/timm/caformer_m36": [
+        [
+            869,
+            870
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_dpt-large": [
+        [
+            6,
+            7
+        ]
+    ]
+}

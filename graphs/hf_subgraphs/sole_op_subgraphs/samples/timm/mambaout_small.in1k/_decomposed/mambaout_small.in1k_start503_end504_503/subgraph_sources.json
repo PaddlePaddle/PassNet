@@ -1,0 +1,50 @@
+{
+    "samples/timm/mambaout_small.in1k": [
+        [
+            503,
+            504
+        ],
+        [
+            517,
+            518
+        ],
+        [
+            531,
+            532
+        ]
+    ],
+    "samples/timm/mambaout_small_rw.sw_e450_in1k": [
+        [
+            534,
+            535
+        ],
+        [
+            549,
+            550
+        ],
+        [
+            564,
+            565
+        ]
+    ],
+    "samples/timm/mambaout_tiny.in1k": [
+        [
+            237,
+            238
+        ],
+        [
+            251,
+            252
+        ],
+        [
+            265,
+            266
+        ]
+    ],
+    "samples/timm/rdnet_small.nv_in1k": [
+        [
+            150,
+            151
+        ]
+    ]
+}

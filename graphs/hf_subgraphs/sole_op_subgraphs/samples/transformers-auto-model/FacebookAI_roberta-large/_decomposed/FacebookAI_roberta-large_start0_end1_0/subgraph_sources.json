@@ -1,0 +1,68 @@
+{
+    "samples/transformers-auto-model/FacebookAI_roberta-large": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/OpenMed_OpenMed-NER-PharmaDetect-SuperMedical-125M": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/YituTech_conv-bert-base": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/distilbert_distilbert-base-uncased": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/distilroberta-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_mobilebert-uncased": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DebertaV2ForSequenceClassification": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_layoutlm-base-uncased": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/mohsenfayyaz_BERT_Warmup": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/roberta-base": [
+        [
+            0,
+            1
+        ]
+    ]
+}

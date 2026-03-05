@@ -1,0 +1,52 @@
+{
+    "samples/timm/fastvit_t8.apple_dist_in1k": [
+        [
+            85,
+            86
+        ],
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/timm/focalnet_small_lrf.ms_in1k": [
+        [
+            22,
+            23
+        ],
+        [
+            64,
+            65
+        ]
+    ],
+    "samples/timm/focalnet_tiny_lrf.ms_in1k": [
+        [
+            22,
+            23
+        ],
+        [
+            64,
+            65
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-small-lrf": [
+        [
+            24,
+            25
+        ],
+        [
+            71,
+            72
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-tiny-lrf": [
+        [
+            24,
+            25
+        ],
+        [
+            71,
+            72
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google_t5-efficient-mini": [
+        [
+            92,
+            93
+        ]
+    ],
+    "samples/transformers-auto-model/t5-small": [
+        [
+            92,
+            93
+        ]
+    ]
+}

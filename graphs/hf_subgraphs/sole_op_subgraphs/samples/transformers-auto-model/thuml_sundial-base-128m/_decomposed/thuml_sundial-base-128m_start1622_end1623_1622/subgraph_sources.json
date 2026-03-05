@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/thuml_sundial-base-128m": [
+        [
+            1622,
+            1623
+        ]
+    ],
+    "samples/transformers-auto-model/tsime_detr_mapilary": [
+        [
+            1009,
+            1010
+        ],
+        [
+            1014,
+            1015
+        ]
+    ]
+}

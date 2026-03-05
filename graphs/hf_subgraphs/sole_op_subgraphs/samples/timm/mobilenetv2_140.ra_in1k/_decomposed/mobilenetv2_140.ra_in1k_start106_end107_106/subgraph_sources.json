@@ -1,0 +1,12 @@
+{
+    "samples/timm/mobilenetv2_140.ra_in1k": [
+        [
+            97,
+            98
+        ],
+        [
+            106,
+            107
+        ]
+    ]
+}

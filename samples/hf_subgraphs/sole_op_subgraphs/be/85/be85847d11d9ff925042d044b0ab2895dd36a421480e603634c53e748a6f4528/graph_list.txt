@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/Thomasboosinger_owlvit-base-patch32/_decomposed/Thomasboosinger_owlvit-base-patch32_start988_end989_988
+graphs/hf_subgraphs/sole_op_subgraphs/samples/torchvision/googlenet/_decomposed/googlenet_start1_end2_1

@@ -1,0 +1,11 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/cosyvoice/CosyVoice-300M/_decomposed/CosyVoice-300M_start139_end140_139
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/InstaDeepAI_nucleotide-transformer-500m-human-ref/_decomposed/InstaDeepAI_nucleotide-transformer-500m-human-ref_start27_end28_27
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmpose/pose_hrformer_base/_decomposed/pose_hrformer_base_start1045_end1046_1045
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmpose/S-ViPNAS-Res50/_decomposed/S-ViPNAS-Res50_start13_end14_13
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmpose/pose_swin_b/_decomposed/pose_swin_b_start1068_end1069_1068
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/Intel_zoedepth-kitti/_decomposed/Intel_zoedepth-kitti_start8_end9_8
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/EncNet_R101/_decomposed/EncNet_R101_start369_end370_369
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CLIPSegModel/_decomposed/hf-tiny-model-private_tiny-random-CLIPSegModel_start5_end6_5
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/Mask2Former_R50/_decomposed/Mask2Former_R50_start135_end136_135
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmpose/RTMO-l/_decomposed/RTMO-l_start319_end320_319
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/K-Net_deeplabv3/_decomposed/K-Net_deeplabv3_start219_end220_219

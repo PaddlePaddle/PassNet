@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/MIT_ast-finetuned-audioset-14-14-0.443": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-base": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-giant": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-large": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-small": [
+        [
+            1,
+            2
+        ]
+    ]
+}

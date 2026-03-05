@@ -1,0 +1,20 @@
+{
+    "samples/nemo/stt_en_conformer_ctc_large": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_medium": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_small": [
+        [
+            25,
+            26
+        ]
+    ]
+}

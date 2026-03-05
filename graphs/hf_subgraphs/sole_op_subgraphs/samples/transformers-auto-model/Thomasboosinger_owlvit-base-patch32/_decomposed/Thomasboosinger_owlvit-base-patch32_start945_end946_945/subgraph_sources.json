@@ -1,0 +1,96 @@
+{
+    "samples/transformers-auto-model/Thomasboosinger_owlvit-base-patch32": [
+        [
+            945,
+            946
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-base-patch16": [
+        [
+            945,
+            946
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14": [
+        [
+            1365,
+            1366
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14-finetuned": [
+        [
+            1365,
+            1366
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch16": [
+        [
+            945,
+            946
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch32": [
+        [
+            945,
+            946
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-large-patch14": [
+        [
+            1365,
+            1366
+        ]
+    ],
+    "samples/transformers-auto-model/google_pix2struct-base": [
+        [
+            758,
+            759
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            700,
+            701
+        ]
+    ],
+    "samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m": [
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/jinaai_jina-reranker-m0": [
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/openai_whisper-base": [
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/upfeatmediainc_owlv2-base-patch16-ensemble": [
+        [
+            945,
+            946
+        ]
+    ]
+}

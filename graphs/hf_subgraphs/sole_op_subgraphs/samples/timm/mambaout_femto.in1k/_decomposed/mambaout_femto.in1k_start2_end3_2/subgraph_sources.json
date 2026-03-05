@@ -1,0 +1,14 @@
+{
+    "samples/timm/mambaout_femto.in1k": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/timm/mambaout_kobe.in1k": [
+        [
+            2,
+            3
+        ]
+    ]
+}

@@ -1,0 +1,9 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/YituTech_conv-bert-base/_decomposed/YituTech_conv-bert-base_start133_end134_133
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/Finnish-NLP_convbert-base-generator-finnish/_decomposed/Finnish-NLP_convbert-base-generator-finnish_start141_end142_141
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection/_decomposed/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection_start724_end725_724
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/google_owlv2-base-patch16/_decomposed/google_owlv2-base-patch16_start969_end970_969
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/Finnish-NLP_convbert-base-generator-finnish/_decomposed/Finnish-NLP_convbert-base-generator-finnish_start131_end132_131
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/YituTech_conv-bert-base/_decomposed/YituTech_conv-bert-base_start101_end102_101
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-ConvBertForSequenceClassification_start143_end144_143
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/Finnish-NLP_convbert-base-generator-finnish/_decomposed/Finnish-NLP_convbert-base-generator-finnish_start143_end144_143
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/Finnish-NLP_convbert-base-generator-finnish/_decomposed/Finnish-NLP_convbert-base-generator-finnish_start102_end103_102

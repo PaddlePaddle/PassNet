@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DebertaForSequenceClassification": [
+        [
+            36,
+            37
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            100,
+            101
+        ],
+        [
+            104,
+            105
+        ],
+        [
+            164,
+            165
+        ],
+        [
+            168,
+            169
+        ],
+        [
+            228,
+            229
+        ],
+        [
+            232,
+            233
+        ],
+        [
+            292,
+            293
+        ],
+        [
+            296,
+            297
+        ]
+    ]
+}

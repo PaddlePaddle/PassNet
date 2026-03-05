@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/SegNeXt-s": [
+        [
+            425,
+            426
+        ]
+    ],
+    "samples/mmseg/SegNeXt-t": [
+        [
+            539,
+            540
+        ]
+    ]
+}

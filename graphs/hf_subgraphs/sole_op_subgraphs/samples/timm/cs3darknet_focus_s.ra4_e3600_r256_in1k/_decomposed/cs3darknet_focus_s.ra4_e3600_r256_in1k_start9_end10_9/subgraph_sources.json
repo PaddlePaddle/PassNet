@@ -1,0 +1,14 @@
+{
+    "samples/timm/cs3darknet_focus_s.ra4_e3600_r256_in1k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/cs3darknet_s": [
+        [
+            12,
+            13
+        ]
+    ]
+}

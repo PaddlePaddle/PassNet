@@ -1,0 +1,26 @@
+{
+    "samples/timm/coatnet_nano_rw_224": [
+        [
+            334,
+            335
+        ]
+    ],
+    "samples/timm/coatnet_pico_rw_224": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_nano_rw_224": [
+        [
+            374,
+            375
+        ]
+    ],
+    "samples/timm/coatnext_nano_rw_224": [
+        [
+            306,
+            307
+        ]
+    ]
+}

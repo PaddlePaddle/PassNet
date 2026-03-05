@@ -1,0 +1,92 @@
+{
+    "samples/torchvision/regnet_x_16gf": [
+        [
+            232,
+            233
+        ]
+    ],
+    "samples/torchvision/regnet_x_1_6gf": [
+        [
+            192,
+            193
+        ]
+    ],
+    "samples/torchvision/regnet_x_32gf": [
+        [
+            242,
+            243
+        ]
+    ],
+    "samples/torchvision/regnet_x_3_2gf": [
+        [
+            262,
+            263
+        ]
+    ],
+    "samples/torchvision/regnet_x_400mf": [
+        [
+            232,
+            233
+        ]
+    ],
+    "samples/torchvision/regnet_x_800mf": [
+        [
+            172,
+            173
+        ]
+    ],
+    "samples/torchvision/regnet_x_8gf": [
+        [
+            242,
+            243
+        ]
+    ],
+    "samples/torchvision/regnet_y_128gf": [
+        [
+            444,
+            445
+        ]
+    ],
+    "samples/torchvision/regnet_y_16gf": [
+        [
+            300,
+            301
+        ]
+    ],
+    "samples/torchvision/regnet_y_1_6gf": [
+        [
+            444,
+            445
+        ]
+    ],
+    "samples/torchvision/regnet_y_32gf": [
+        [
+            332,
+            333
+        ]
+    ],
+    "samples/torchvision/regnet_y_3_2gf": [
+        [
+            348,
+            349
+        ]
+    ],
+    "samples/torchvision/regnet_y_400mf": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/torchvision/regnet_y_800mf": [
+        [
+            236,
+            237
+        ]
+    ],
+    "samples/torchvision/regnet_y_8gf": [
+        [
+            284,
+            285
+        ]
+    ]
+}

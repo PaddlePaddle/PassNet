@@ -1,0 +1,38 @@
+{
+    "samples/timm/coatnet_0_rw_224": [
+        [
+            344,
+            345
+        ]
+    ],
+    "samples/timm/coatnet_1_rw_224": [
+        [
+            628,
+            629
+        ]
+    ],
+    "samples/timm/coatnet_bn_0_rw_224": [
+        [
+            312,
+            313
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_0_rw_224": [
+        [
+            390,
+            391
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_1_rw2_224": [
+        [
+            718,
+            719
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_1_rw_224": [
+        [
+            720,
+            721
+        ]
+    ]
+}

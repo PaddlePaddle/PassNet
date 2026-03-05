@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google_byt5_base": [
+        [
+            91,
+            92
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_base": [
+        [
+            91,
+            92
+        ]
+    ]
+}

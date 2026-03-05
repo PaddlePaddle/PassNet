@@ -1,0 +1,26 @@
+{
+    "samples/timm/regnetx_040.pycls_in1k": [
+        [
+            80,
+            81
+        ]
+    ],
+    "samples/timm/regnetx_064.pycls_in1k": [
+        [
+            70,
+            71
+        ]
+    ],
+    "samples/timm/regnety_016.pycls_in1k": [
+        [
+            138,
+            139
+        ]
+    ],
+    "samples/torchvision/regnet_y_1_6gf": [
+        [
+            140,
+            141
+        ]
+    ]
+}

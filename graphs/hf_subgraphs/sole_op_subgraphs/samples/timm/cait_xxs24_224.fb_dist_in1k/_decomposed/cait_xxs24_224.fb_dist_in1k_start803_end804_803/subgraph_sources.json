@@ -1,0 +1,42 @@
+{
+    "samples/timm/cait_xxs24_224.fb_dist_in1k": [
+        [
+            803,
+            804
+        ],
+        [
+            831,
+            832
+        ]
+    ],
+    "samples/timm/cait_xxs24_384": [
+        [
+            803,
+            804
+        ],
+        [
+            831,
+            832
+        ]
+    ],
+    "samples/timm/cait_xxs36_224.fb_dist_in1k": [
+        [
+            1199,
+            1200
+        ],
+        [
+            1227,
+            1228
+        ]
+    ],
+    "samples/timm/cait_xxs36_384": [
+        [
+            1199,
+            1200
+        ],
+        [
+            1227,
+            1228
+        ]
+    ]
+}

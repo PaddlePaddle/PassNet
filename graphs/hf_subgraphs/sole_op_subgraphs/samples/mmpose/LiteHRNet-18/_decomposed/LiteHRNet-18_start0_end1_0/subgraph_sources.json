@@ -1,0 +1,624 @@
+{
+    "samples/mmpose/LiteHRNet-18": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/LiteHRNet-30": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/S-ViPNAS-MobileNetV3": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/deeppose_mobilenetv2_rle": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_t": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_hrformer_base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_hrformer_small": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_hrnet_w32": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_hrnetv2_w18_dark": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_mobilenetv2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnest_101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnest_200": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnest_269": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnest_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_152": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_shufflenetv1": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_shufflenetv2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/rtmpose-l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/rtmpose-m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/rtmpose-s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/rtmpose-t": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/rtmw-l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/rtmw-m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/rtmw-x": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/simcc_S-ViPNAS-MobileNetV3": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/simcc_mobilenetv2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ANN_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ANN_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/APCNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/APCNet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/BiSeNetV2": [
+        [
+            0,
+            1
+        ],
+        [
+            24,
+            25
+        ]
+    ],
+    "samples/mmseg/CCNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/CCNet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/CGNet": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/mmseg/DANet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DANet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DDRNet-slim": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DMNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DMNet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DNLNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DNLNet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/EMANet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/EMANet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/EncNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/EncNet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/FCN_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/FCN_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Fast-SCNN": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/FastFCN_enc": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/FastFCN_psp": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/GCNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/GCNet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18-Small": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ICNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ICNet_R18": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ICNet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ISANet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ISANet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/K-Net_fcn": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/K-Net_pspnet": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/K-Net_upernet": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3+": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_FCN": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_PSPNet": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/NonLocalNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/PIDNet-l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/PIDNet-s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/PSPNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/PSPNet_R18": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/PSPNet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3plus": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ResNeSt_fcn": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ResNeSt_pspnet": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SemanticFPN_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/UPerNet_R101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/UPerNet_R50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-small": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-x-small": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_levit-128": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_levit-192": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_levit-256": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_levit-384": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LevitModel": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel": [
+        [
+            0,
+            1
+        ]
+    ]
+}

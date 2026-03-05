@@ -1,0 +1,56 @@
+{
+    "samples/timm/dm_nfnet_f0": [
+        [
+            578,
+            579
+        ]
+    ],
+    "samples/timm/dm_nfnet_f2": [
+        [
+            1610,
+            1611
+        ]
+    ],
+    "samples/timm/dm_nfnet_f3": [
+        [
+            2126,
+            2127
+        ]
+    ],
+    "samples/timm/dm_nfnet_f4": [
+        [
+            2642,
+            2643
+        ]
+    ],
+    "samples/timm/dm_nfnet_f5": [
+        [
+            3158,
+            3159
+        ]
+    ],
+    "samples/timm/dm_nfnet_f6": [
+        [
+            3674,
+            3675
+        ]
+    ],
+    "samples/timm/eca_nfnet_l1": [
+        [
+            990,
+            991
+        ]
+    ],
+    "samples/timm/eca_nfnet_l2": [
+        [
+            1458,
+            1459
+        ]
+    ],
+    "samples/timm/eca_nfnet_l3": [
+        [
+            1926,
+            1927
+        ]
+    ]
+}

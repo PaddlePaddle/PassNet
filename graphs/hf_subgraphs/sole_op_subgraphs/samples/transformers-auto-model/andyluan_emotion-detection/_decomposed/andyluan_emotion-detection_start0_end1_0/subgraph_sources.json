@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/andyluan_emotion-detection": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/jinaai_jina-reranker-m0": [
+        [
+            15,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/venishpatidar_wa-ad-mod": [
+        [
+            0,
+            1
+        ]
+    ]
+}

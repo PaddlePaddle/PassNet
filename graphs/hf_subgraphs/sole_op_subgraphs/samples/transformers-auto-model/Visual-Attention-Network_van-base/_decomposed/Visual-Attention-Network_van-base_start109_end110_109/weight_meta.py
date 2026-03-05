@@ -1,0 +1,28 @@
+class Program_weight_tensor_meta_L_self_modules_encoder_modules_stages_modules_1_modules_layers_modules_1_modules_attention_modules_attention_layer_modules_attention_modules_depth_wise_dilated_parameters_bias_:
+	name = "w_0"
+	original_name = "L_self_modules_encoder_modules_stages_modules_1_modules_layers_modules_1_modules_attention_modules_attention_layer_modules_attention_modules_depth_wise_dilated_parameters_bias_"
+	shape = [128]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_encoder_modules_stages_modules_1_modules_layers_modules_1_modules_attention_modules_attention_layer_modules_attention_modules_depth_wise_dilated_parameters_weight_:
+	name = "w_1"
+	original_name = "L_self_modules_encoder_modules_stages_modules_1_modules_layers_modules_1_modules_attention_modules_attention_layer_modules_attention_modules_depth_wise_dilated_parameters_weight_"
+	shape = [128, 1, 7, 7]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.003
+	std = 0.202
+
+
+class Program_weight_tensor_meta_hidden_state_76:
+	name = "in_0"
+	original_name = "hidden_state_76"
+	shape = [1, 128, 28, 28]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.007

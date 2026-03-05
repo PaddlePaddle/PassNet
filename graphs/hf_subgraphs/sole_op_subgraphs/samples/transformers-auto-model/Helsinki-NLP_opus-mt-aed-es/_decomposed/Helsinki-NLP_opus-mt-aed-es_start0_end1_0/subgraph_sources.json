@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-aed-es": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OPTForSequenceClassification": [
+        [
+            0,
+            1
+        ]
+    ]
+}

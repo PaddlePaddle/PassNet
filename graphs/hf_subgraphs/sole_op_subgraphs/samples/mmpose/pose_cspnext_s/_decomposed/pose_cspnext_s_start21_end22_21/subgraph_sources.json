@@ -1,0 +1,20 @@
+{
+    "samples/mmpose/pose_cspnext_s": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/mmpose/rtmpose-s": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_small_050.e3000_r224_in1k": [
+        [
+            15,
+            16
+        ]
+    ]
+}

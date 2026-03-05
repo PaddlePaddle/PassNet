@@ -1,0 +1,38 @@
+{
+    "samples/torchaudio/wavlm_base": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/torchaudio/wavlm_large": [
+        [
+            69,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/907508196l_wavlm-libri-clean-100h-base-plus-finetuned-ks": [
+        [
+            47,
+            48
+        ]
+    ],
+    "samples/transformers-auto-model/Zahra99_wavlm-large-finetuned-iemocap": [
+        [
+            67,
+            68
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-WavLMForSequenceClassification": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/mazkooleg_0-9up-wavlm-base-plus-ft": [
+        [
+            47,
+            48
+        ]
+    ]
+}

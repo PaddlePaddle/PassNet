@@ -1,0 +1,54 @@
+{
+    "samples/transformers-auto-model/SenseTime_deformable-detr-single-scale": [
+        [
+            1143,
+            1144
+        ],
+        [
+            1225,
+            1226
+        ],
+        [
+            1307,
+            1308
+        ],
+        [
+            1389,
+            1390
+        ],
+        [
+            1471,
+            1472
+        ],
+        [
+            1553,
+            1554
+        ]
+    ],
+    "samples/transformers-auto-model/SenseTime_deformable-detr-single-scale-dc5": [
+        [
+            1143,
+            1144
+        ],
+        [
+            1225,
+            1226
+        ],
+        [
+            1307,
+            1308
+        ],
+        [
+            1389,
+            1390
+        ],
+        [
+            1471,
+            1472
+        ],
+        [
+            1553,
+            1554
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Lazaro97_results": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/ukr-models_xlm-roberta-base-uk": [
+        [
+            1,
+            2
+        ]
+    ]
+}

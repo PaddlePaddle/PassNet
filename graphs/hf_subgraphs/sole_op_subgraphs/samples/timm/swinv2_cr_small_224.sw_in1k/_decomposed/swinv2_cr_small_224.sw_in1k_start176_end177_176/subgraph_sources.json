@@ -1,0 +1,38 @@
+{
+    "samples/timm/swinv2_cr_small_224.sw_in1k": [
+        [
+            176,
+            177
+        ],
+        [
+            238,
+            239
+        ]
+    ],
+    "samples/timm/swinv2_cr_small_ns_224.sw_in1k": [
+        [
+            177,
+            178
+        ],
+        [
+            239,
+            240
+        ]
+    ],
+    "samples/timm/swinv2_cr_tiny_ns_224.sw_in1k": [
+        [
+            177,
+            178
+        ],
+        [
+            239,
+            240
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_levit-192": [
+        [
+            173,
+            174
+        ]
+    ]
+}

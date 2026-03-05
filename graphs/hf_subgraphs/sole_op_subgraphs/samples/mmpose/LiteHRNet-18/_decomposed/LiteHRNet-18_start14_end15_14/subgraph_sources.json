@@ -1,0 +1,190 @@
+{
+    "samples/mmpose/LiteHRNet-18": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/mmpose/LiteHRNet-30": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/mmseg/BiSeNetV2": [
+        [
+            41,
+            42
+        ],
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/timm/eca_botnext26ts_256": [
+        [
+            85,
+            86
+        ]
+    ],
+    "samples/timm/eca_halonext26ts": [
+        [
+            85,
+            86
+        ]
+    ],
+    "samples/timm/eca_resnext26ts.ch_in1k": [
+        [
+            128,
+            129
+        ]
+    ],
+    "samples/timm/ghostnet_100.in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/lcnet_050.ra2_in1k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_050.lamb_in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_075.lamb_in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_100.lamb_in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/regnetx_080.pycls_in1k": [
+        [
+            232,
+            233
+        ]
+    ],
+    "samples/timm/regnetx_160.pycls_in1k": [
+        [
+            222,
+            223
+        ]
+    ],
+    "samples/timm/regnety_006.pycls_in1k": [
+        [
+            74,
+            75
+        ]
+    ],
+    "samples/timm/regnety_080.pycls_in1k": [
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/timm/regnety_080_tv.tv2_in1k": [
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/timm/regnety_320.pycls_in1k": [
+        [
+            316,
+            317
+        ]
+    ],
+    "samples/timm/regnety_320.seer": [
+        [
+            316,
+            317
+        ]
+    ],
+    "samples/timm/regnetz_d32.ra3_in1k": [
+        [
+            146,
+            147
+        ]
+    ],
+    "samples/timm/repghostnet_058.in1k": [
+        [
+            26,
+            27
+        ]
+    ],
+    "samples/timm/repghostnet_100.in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/repghostnet_111.in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/resnext26ts.ra2_in1k": [
+        [
+            79,
+            80
+        ]
+    ],
+    "samples/timm/seresnext26ts.ch_in1k": [
+        [
+            115,
+            116
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_small": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/torchvision/regnet_x_16gf": [
+        [
+            224,
+            225
+        ]
+    ],
+    "samples/torchvision/regnet_x_8gf": [
+        [
+            234,
+            235
+        ]
+    ],
+    "samples/torchvision/regnet_y_32gf": [
+        [
+            318,
+            319
+        ]
+    ],
+    "samples/torchvision/regnet_y_8gf": [
+        [
+            108,
+            109
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CvtForImageClassification": [
+        [
+            12,
+            13
+        ],
+        [
+            20,
+            21
+        ]
+    ]
+}

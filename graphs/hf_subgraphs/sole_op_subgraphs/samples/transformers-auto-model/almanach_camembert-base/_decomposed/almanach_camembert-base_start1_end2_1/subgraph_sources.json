@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/almanach_camembert-base": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/cmarkea_distilcamembert-base-nli": [
+        [
+            1,
+            2
+        ]
+    ]
+}

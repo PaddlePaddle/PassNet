@@ -1,0 +1,48 @@
+{
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/mmseg/FastFCN_enc": [
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/mmseg/FastFCN_psp": [
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/timm/skresnet18.ra_in1k": [
+        [
+            61,
+            62
+        ],
+        [
+            113,
+            114
+        ],
+        [
+            165,
+            166
+        ]
+    ],
+    "samples/timm/skresnet34.ra_in1k": [
+        [
+            85,
+            86
+        ],
+        [
+            185,
+            186
+        ],
+        [
+            333,
+            334
+        ]
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/bge-base-en-v1.5": [
+        [
+            283,
+            284
+        ]
+    ],
+    "samples/transformers-auto-model/bge-large-zh": [
+        [
+            547,
+            548
+        ]
+    ],
+    "samples/transformers-auto-model/bge-reranker-large": [
+        [
+            554,
+            555
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-en": [
+        [
+            283,
+            284
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            107,
+            108
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-small-printed": [
+        [
+            323,
+            324
+        ]
+    ],
+    "samples/transformers-auto-model/multilingual-e5-large": [
+        [
+            554,
+            555
+        ]
+    ],
+    "samples/transformers-auto-model/splade-mini": [
+        [
+            107,
+            108
+        ]
+    ]
+}

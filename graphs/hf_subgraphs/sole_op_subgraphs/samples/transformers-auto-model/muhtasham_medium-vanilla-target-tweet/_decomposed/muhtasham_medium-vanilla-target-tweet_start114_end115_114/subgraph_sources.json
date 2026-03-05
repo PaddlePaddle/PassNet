@@ -1,0 +1,54 @@
+{
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            26,
+            27
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            92,
+            93
+        ],
+        [
+            114,
+            115
+        ],
+        [
+            136,
+            137
+        ],
+        [
+            158,
+            159
+        ],
+        [
+            180,
+            181
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_small-vanilla-target-tweet": [
+        [
+            26,
+            27
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            92,
+            93
+        ]
+    ]
+}

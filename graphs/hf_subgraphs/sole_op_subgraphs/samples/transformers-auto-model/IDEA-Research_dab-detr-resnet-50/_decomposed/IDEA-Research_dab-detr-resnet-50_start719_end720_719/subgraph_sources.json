@@ -1,0 +1,92 @@
+{
+    "samples/transformers-auto-model/IDEA-Research_dab-detr-resnet-50": [
+        [
+            719,
+            720
+        ]
+    ],
+    "samples/transformers-auto-model/SenseTime_deformable-detr-single-scale": [
+        [
+            704,
+            705
+        ]
+    ],
+    "samples/transformers-auto-model/binery_Table_detection_MS_E_14": [
+        [
+            283,
+            284
+        ]
+    ],
+    "samples/transformers-auto-model/davidhajdu_dab_detr_finetuned_cppe5": [
+        [
+            720,
+            721
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101": [
+        [
+            1399,
+            1400
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-50": [
+        [
+            719,
+            720
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_conditional-detr-resnet-50": [
+        [
+            719,
+            720
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-detection": [
+        [
+            283,
+            284
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-structure-recognition": [
+        [
+            283,
+            284
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            719,
+            720
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r101-cd45rb-8ah-6l-256d-4096ffn": [
+        [
+            1399,
+            1400
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r50-cd45rb-4ah-6l": [
+        [
+            719,
+            720
+        ]
+    ],
+    "samples/transformers-auto-model/prathmeshrmadhu_detr-finetuned-odorv3": [
+        [
+            704,
+            705
+        ]
+    ],
+    "samples/transformers-auto-model/rice-rice_detr-resnet-50_finetuned_dataset": [
+        [
+            719,
+            720
+        ]
+    ],
+    "samples/transformers-auto-model/tsime_detr_mapilary": [
+        [
+            714,
+            715
+        ]
+    ]
+}

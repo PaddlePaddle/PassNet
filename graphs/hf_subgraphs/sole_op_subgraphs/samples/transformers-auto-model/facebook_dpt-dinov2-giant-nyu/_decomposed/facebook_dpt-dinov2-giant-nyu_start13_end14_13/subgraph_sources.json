@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/facebook_dpt-dinov2-giant-nyu": [
+        [
+            13,
+            14
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            60,
+            61
+        ]
+    ]
+}

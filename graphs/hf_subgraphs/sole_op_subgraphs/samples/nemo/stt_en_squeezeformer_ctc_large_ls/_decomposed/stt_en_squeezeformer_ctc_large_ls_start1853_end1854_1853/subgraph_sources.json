@@ -1,0 +1,38 @@
+{
+    "samples/nemo/stt_en_squeezeformer_ctc_large_ls": [
+        [
+            1853,
+            1854
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_medium_large_ls": [
+        [
+            1509,
+            1510
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_medium_ls": [
+        [
+            1681,
+            1682
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_small_ls": [
+        [
+            1509,
+            1510
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_small_medium_ls": [
+        [
+            1337,
+            1338
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_xsmall_ls": [
+        [
+            1337,
+            1338
+        ]
+    ]
+}

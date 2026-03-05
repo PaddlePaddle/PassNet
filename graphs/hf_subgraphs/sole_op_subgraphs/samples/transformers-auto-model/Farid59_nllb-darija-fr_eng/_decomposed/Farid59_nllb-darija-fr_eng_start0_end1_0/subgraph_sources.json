@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/Farid59_nllb-darija-fr_eng": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/SpaceCowboy03_finetuned-kde4-es-to-fr": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/flutter-painter_nllb-fra-fuf-v2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/moussaKam_barthez-orangesum-abstract": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/voxreality_src_ctx_aware_nllb_1.3B": [
+        [
+            0,
+            1
+        ]
+    ]
+}

@@ -1,0 +1,182 @@
+{
+    "samples/transformers-auto-model/FacebookAI_roberta-large": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_xtremedistil-l6-h256-mnli-fever-anli-ling-binary": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/Onutoa_1_6e-3_5_0.5": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/OpenMed_OpenMed-NER-PharmaDetect-SuperMedical-125M": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_bart-large-finetuned-eLife": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Sayan01_L-2_H-768_A-12_Large_sst2": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/Sayan01_L-4_H-128_A-2_Large_sst2": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/Sayan01_tiny-bert-sst2-distilled": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/bert-base-uncased": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/distilbert_distilbert-base-uncased": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/distilroberta-base": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/echarlaix_bart-base-cnn-r2-18.7-d23-hybrid": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_bart-large-cnn": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dpr-ctx_encoder-single-nq-base": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-large-uncased": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PLBartForSequenceClassification": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/milistu_reranker-msmarco-v1.1-MiniLM-L12-H384-uncased-lambdaloss_v2": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/mohsenfayyaz_BERT_Warmup": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_mini-vanilla-target-tweet": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_small-vanilla-target-tweet": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/navteca_bart-large-mnli": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/ncoop57_bart-base-code-summarizer-java-v0": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/nreimers_MiniLM-L6-H384-uncased": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/prajjwal1_bert-tiny": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/roberta-base": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers_paraphrase-MiniLM-L3-v2": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distilbart-cnn-12-6": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-1": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-3": [
+        [
+            10,
+            11
+        ]
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "samples/timm/convnext_atto.d2_in1k": [
+        [
+            4,
+            5
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/timm/convnext_atto_ols.a2_in1k": [
+        [
+            5,
+            6
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/convnext_atto_rms": [
+        [
+            8,
+            9
+        ],
+        [
+            24,
+            25
+        ]
+    ],
+    "samples/timm/convnextv2_atto.fcmae": [
+        [
+            4,
+            5
+        ],
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/timm/convnextv2_atto.fcmae_ft_in1k": [
+        [
+            4,
+            5
+        ],
+        [
+            23,
+            24
+        ]
+    ]
+}

@@ -1,0 +1,8 @@
+class Program_weight_tensor_meta_out_26:
+	name = "in_0"
+	original_name = "out_26"
+	shape = [1, 256, 64, 48]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.001
+	std = 0.016

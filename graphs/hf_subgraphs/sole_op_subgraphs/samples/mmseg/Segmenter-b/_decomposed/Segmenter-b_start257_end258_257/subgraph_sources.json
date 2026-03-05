@@ -1,0 +1,26 @@
+{
+    "samples/mmseg/Segmenter-b": [
+        [
+            257,
+            258
+        ]
+    ],
+    "samples/mmseg/Segmenter-l": [
+        [
+            470,
+            471
+        ]
+    ],
+    "samples/mmseg/Segmenter-s": [
+        [
+            257,
+            258
+        ]
+    ],
+    "samples/mmseg/Segmenter-t": [
+        [
+            257,
+            258
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LevitModel": [
+        [
+            134,
+            135
+        ],
+        [
+            171,
+            172
+        ],
+        [
+            208,
+            209
+        ]
+    ]
+}

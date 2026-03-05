@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/ydshieh_tiny-random-gptj-for-sequence-classification": [
+        [
+            81,
+            82
+        ],
+        [
+            158,
+            159
+        ],
+        [
+            235,
+            236
+        ],
+        [
+            312,
+            313
+        ],
+        [
+            389,
+            390
+        ]
+    ]
+}

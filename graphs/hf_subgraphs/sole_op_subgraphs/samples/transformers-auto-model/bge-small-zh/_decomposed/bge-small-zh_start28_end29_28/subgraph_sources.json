@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            28,
+            29
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            94,
+            95
+        ]
+    ]
+}

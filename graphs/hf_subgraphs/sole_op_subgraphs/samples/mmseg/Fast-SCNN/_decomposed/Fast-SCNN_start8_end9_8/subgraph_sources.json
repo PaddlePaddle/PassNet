@@ -1,0 +1,192 @@
+{
+    "samples/mmseg/Fast-SCNN": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/timm/fastvit_t8.apple_dist_in1k": [
+        [
+            10,
+            11
+        ],
+        [
+            64,
+            65
+        ]
+    ],
+    "samples/timm/ghostnet_100.in1k": [
+        [
+            26,
+            27
+        ]
+    ],
+    "samples/timm/lcnet_075.ra2_in1k": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/timm/mixnet_m.ft_in1k": [
+        [
+            21,
+            22
+        ],
+        [
+            61,
+            62
+        ]
+    ],
+    "samples/timm/mixnet_s.ft_in1k": [
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/mobilenetv2_050.lamb_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/mobileone_s0.apple_in1k": [
+        [
+            9,
+            10
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            81,
+            82
+        ]
+    ],
+    "samples/timm/regnety_008.pycls_in1k": [
+        [
+            204,
+            205
+        ]
+    ],
+    "samples/timm/regnetz_c16.ra3_in1k": [
+        [
+            303,
+            304
+        ]
+    ],
+    "samples/timm/regnetz_e8.ra3_in1k": [
+        [
+            56,
+            57
+        ]
+    ],
+    "samples/timm/repghostnet_200.in1k": [
+        [
+            26,
+            27
+        ]
+    ],
+    "samples/timm/repvit_m0_9.dist_300e_in1k": [
+        [
+            47,
+            48
+        ]
+    ],
+    "samples/timm/repvit_m1.dist_in1k": [
+        [
+            47,
+            48
+        ]
+    ],
+    "samples/timm/spnasnet_100.rmsp_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/tinynet_c.in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/tinynet_d.in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/tinynet_e.in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/torchvision/mnasnet0_75": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/torchvision/mnasnet1_0": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x0_5": [
+        [
+            70,
+            71
+        ],
+        [
+            78,
+            79
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CvtForImageClassification": [
+        [
+            64,
+            65
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            105,
+            106
+        ],
+        [
+            113,
+            114
+        ]
+    ]
+}

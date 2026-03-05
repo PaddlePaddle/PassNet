@@ -1,0 +1,32 @@
+{
+    "samples/timm/coat_mini": [
+        [
+            9,
+            10
+        ],
+        [
+            60,
+            61
+        ]
+    ],
+    "samples/timm/coat_small": [
+        [
+            9,
+            10
+        ],
+        [
+            60,
+            61
+        ]
+    ],
+    "samples/timm/coat_tiny": [
+        [
+            9,
+            10
+        ],
+        [
+            60,
+            61
+        ]
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "samples/mmpose/pose_cspnext_m": [
+        [
+            21,
+            22
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_t": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/mmpose/rtmpose-m": [
+        [
+            21,
+            22
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/mmpose/rtmpose-t": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/mmpose/rtmw-m": [
+        [
+            21,
+            22
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/timm/fbnetv3_b.ra2_in1k": [
+        [
+            26,
+            27
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            44,
+            45
+        ]
+    ]
+}

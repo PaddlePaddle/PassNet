@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MPNetForSequenceClassification": [
+        [
+            22,
+            23
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_mpnet-base": [
+        [
+            22,
+            23
+        ]
+    ]
+}

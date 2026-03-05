@@ -1,0 +1,12 @@
+{
+    "samples/mmpose/pose_swin_b": [
+        [
+            8,
+            9
+        ],
+        [
+            78,
+            79
+        ]
+    ]
+}

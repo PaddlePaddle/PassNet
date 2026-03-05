@@ -1,0 +1,20 @@
+{
+    "samples/mmpose/deeppose_resnet_101": [
+        [
+            346,
+            347
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_152": [
+        [
+            516,
+            517
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_50": [
+        [
+            176,
+            177
+        ]
+    ]
+}

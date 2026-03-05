@@ -1,0 +1,58 @@
+{
+    "samples/timm/hardcorenas_a.miil_green_in1k": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/timm/hardcorenas_c.miil_green_in1k": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/timm/hardcorenas_d.miil_green_in1k": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/timm/hardcorenas_e.miil_green_in1k": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/timm/hardcorenas_f.miil_green_in1k": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_050.lamb_in1k": [
+        [
+            78,
+            79
+        ],
+        [
+            93,
+            94
+        ]
+    ],
+    "samples/torchvision/mnasnet0_5": [
+        [
+            45,
+            46
+        ],
+        [
+            54,
+            55
+        ]
+    ]
+}

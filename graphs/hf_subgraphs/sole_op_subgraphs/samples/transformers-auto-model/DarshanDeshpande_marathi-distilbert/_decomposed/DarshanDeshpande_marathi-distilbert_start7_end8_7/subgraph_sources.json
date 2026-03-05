@@ -1,0 +1,106 @@
+{
+    "samples/transformers-auto-model/DarshanDeshpande_marathi-distilbert": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/TrustSafeAI_RADAR_Vicuna_7B": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/bge-base-en-v1.5": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/bge-large-zh": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/bge-reranker-large": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-en": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/ethanyt_guwen-ner": [
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-cnn_dailymail": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            199,
+            200
+        ],
+        [
+            201,
+            202
+        ]
+    ],
+    "samples/transformers-auto-model/multilingual-e5-large": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/nlptown_bert_base_multilingual_uncased_sentiment": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_pegasus-large-book-summary": [
+        [
+            8,
+            9
+        ],
+        [
+            492,
+            493
+        ]
+    ],
+    "samples/transformers-auto-model/simonmun_Eyse_SentenceClassification": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/splade-mini": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distill-pegasus-xsum-16-4": [
+        [
+            10,
+            11
+        ]
+    ]
+}

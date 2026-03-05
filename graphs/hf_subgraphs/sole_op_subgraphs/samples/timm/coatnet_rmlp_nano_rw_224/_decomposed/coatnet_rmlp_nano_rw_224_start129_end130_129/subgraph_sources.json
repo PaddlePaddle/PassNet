@@ -1,0 +1,56 @@
+{
+    "samples/timm/coatnet_rmlp_nano_rw_224": [
+        [
+            129,
+            130
+        ]
+    ],
+    "samples/torchvision/swin_v2_b": [
+        [
+            6,
+            7
+        ],
+        [
+            61,
+            62
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification": [
+        [
+            133,
+            134
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2ForImageClassification": [
+        [
+            152,
+            153
+        ],
+        [
+            256,
+            257
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2Model": [
+        [
+            152,
+            153
+        ],
+        [
+            256,
+            257
+        ]
+    ],
+    "samples/transformers-auto-model/vuiseng9_tiny-random-SwinModel": [
+        [
+            133,
+            134
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-SwinModel": [
+        [
+            133,
+            134
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/CLAck_en-vi": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-GPTJForSequenceClassification": [
+        [
+            4,
+            5
+        ]
+    ]
+}

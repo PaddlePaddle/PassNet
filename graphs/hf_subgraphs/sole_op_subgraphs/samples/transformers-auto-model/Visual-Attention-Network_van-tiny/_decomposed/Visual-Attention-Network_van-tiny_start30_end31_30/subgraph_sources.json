@@ -1,0 +1,28 @@
+{
+    "samples/transformers-auto-model/Visual-Attention-Network_van-tiny": [
+        [
+            6,
+            7
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            54,
+            55
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanForImageClassification": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanModel": [
+        [
+            37,
+            38
+        ]
+    ]
+}

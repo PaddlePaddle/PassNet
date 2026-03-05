@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Culmenus_XLMR-ENIS-finetuned-ner": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_finest-bert": [
+        [
+            9,
+            10
+        ]
+    ]
+}

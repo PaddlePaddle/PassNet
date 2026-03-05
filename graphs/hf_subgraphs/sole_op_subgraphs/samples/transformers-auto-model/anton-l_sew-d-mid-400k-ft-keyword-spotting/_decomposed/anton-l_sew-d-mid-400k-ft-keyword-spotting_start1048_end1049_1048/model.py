@@ -1,0 +1,8 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, in_0, in_1):
+        tmp_0 = in_0.masked_fill_(in_1, 0)
+        tmp_0 = None
+        return ()

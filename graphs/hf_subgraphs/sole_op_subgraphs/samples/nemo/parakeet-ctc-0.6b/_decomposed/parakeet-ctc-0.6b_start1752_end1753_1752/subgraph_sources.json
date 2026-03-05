@@ -1,0 +1,68 @@
+{
+    "samples/nemo/parakeet-ctc-0.6b": [
+        [
+            1752,
+            1753
+        ]
+    ],
+    "samples/nemo/parakeet-ctc-1.1b": [
+        [
+            3030,
+            3031
+        ]
+    ],
+    "samples/nemo/parakeet-tdt-0.6b-v3": [
+        [
+            1751,
+            1752
+        ]
+    ],
+    "samples/nemo/parakeet-tdt-1.1b": [
+        [
+            3029,
+            3030
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_large": [
+        [
+            1317,
+            1318
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_medium": [
+        [
+            1317,
+            1318
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_small": [
+        [
+            1175,
+            1176
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_large_pc": [
+        [
+            1254,
+            1255
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_large_streaming_multi": [
+        [
+            1302,
+            1303
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_medium_streaming_80ms_pc": [
+        [
+            1229,
+            1230
+        ]
+    ],
+    "samples/transformers-auto-model/canary-1b-v2": [
+        [
+            2319,
+            2320
+        ]
+    ]
+}

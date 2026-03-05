@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/depth-anything_Depth-Anything-V2-Base-hf": [
+        [
+            1,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/depth-anything_Depth-Anything-V2-Metric-Outdoor-Base-hf": [
+        [
+            1,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-base": [
+        [
+            8,
+            9
+        ]
+    ]
+}

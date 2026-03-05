@@ -1,0 +1,40 @@
+{
+    "samples/timm/eca_botnext26ts_256": [
+        [
+            109,
+            110
+        ],
+        [
+            111,
+            112
+        ],
+        [
+            161,
+            162
+        ],
+        [
+            163,
+            164
+        ],
+        [
+            216,
+            217
+        ],
+        [
+            218,
+            219
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-small": [
+        [
+            283,
+            284
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-x-small": [
+        [
+            283,
+            284
+        ]
+    ]
+}

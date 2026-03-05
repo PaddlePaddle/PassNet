@@ -1,0 +1,32 @@
+{
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            1190,
+            1191
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            607,
+            608
+        ]
+    ],
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            2098,
+            2099
+        ]
+    ],
+    "samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512": [
+        [
+            344,
+            345
+        ]
+    ],
+    "samples/transformers-auto-model/segformer_b2_clothes": [
+        [
+            658,
+            659
+        ]
+    ]
+}

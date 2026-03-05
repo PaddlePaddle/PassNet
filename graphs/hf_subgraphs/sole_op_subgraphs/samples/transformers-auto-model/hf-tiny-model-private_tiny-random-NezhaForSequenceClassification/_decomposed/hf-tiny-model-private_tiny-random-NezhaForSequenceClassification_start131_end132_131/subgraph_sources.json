@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-NezhaForSequenceClassification": [
+        [
+            39,
+            40
+        ],
+        [
+            85,
+            86
+        ],
+        [
+            131,
+            132
+        ],
+        [
+            177,
+            178
+        ],
+        [
+            223,
+            224
+        ]
+    ]
+}

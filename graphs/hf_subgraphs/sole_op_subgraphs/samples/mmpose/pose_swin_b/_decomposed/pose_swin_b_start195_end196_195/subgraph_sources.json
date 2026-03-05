@@ -1,0 +1,20 @@
+{
+    "samples/mmpose/pose_swin_b": [
+        [
+            195,
+            196
+        ]
+    ],
+    "samples/mmpose/pose_swin_l": [
+        [
+            195,
+            196
+        ]
+    ],
+    "samples/mmpose/pose_swin_t": [
+        [
+            195,
+            196
+        ]
+    ]
+}

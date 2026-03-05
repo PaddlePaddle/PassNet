@@ -1,0 +1,38 @@
+{
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            189,
+            190
+        ]
+    ],
+    "samples/mmseg/FastFCN_enc": [
+        [
+            189,
+            190
+        ]
+    ],
+    "samples/mmseg/FastFCN_psp": [
+        [
+            189,
+            190
+        ]
+    ],
+    "samples/timm/coat_mini": [
+        [
+            1535,
+            1536
+        ]
+    ],
+    "samples/timm/coat_small": [
+        [
+            1535,
+            1536
+        ]
+    ],
+    "samples/timm/coat_tiny": [
+        [
+            1535,
+            1536
+        ]
+    ]
+}

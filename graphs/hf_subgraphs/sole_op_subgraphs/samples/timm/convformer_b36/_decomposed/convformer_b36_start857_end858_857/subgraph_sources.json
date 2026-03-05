@@ -1,0 +1,36 @@
+{
+    "samples/timm/convformer_b36": [
+        [
+            857,
+            858
+        ],
+        [
+            884,
+            885
+        ],
+        [
+            911,
+            912
+        ]
+    ],
+    "samples/timm/focalnet_large_fl3.ms_in22k": [
+        [
+            1038,
+            1039
+        ],
+        [
+            1084,
+            1085
+        ]
+    ],
+    "samples/timm/focalnet_large_fl4.ms_in22k": [
+        [
+            1153,
+            1154
+        ],
+        [
+            1204,
+            1205
+        ]
+    ]
+}

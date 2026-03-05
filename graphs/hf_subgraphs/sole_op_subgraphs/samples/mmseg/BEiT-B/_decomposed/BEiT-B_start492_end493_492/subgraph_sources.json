@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/BEiT-B": [
+        [
+            492,
+            493
+        ]
+    ],
+    "samples/mmseg/BEiT-L": [
+        [
+            924,
+            925
+        ]
+    ]
+}

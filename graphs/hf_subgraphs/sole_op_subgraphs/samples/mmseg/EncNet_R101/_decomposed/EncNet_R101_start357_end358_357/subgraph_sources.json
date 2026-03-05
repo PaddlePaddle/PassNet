@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/EncNet_R101": [
+        [
+            357,
+            358
+        ]
+    ],
+    "samples/mmseg/EncNet_R50": [
+        [
+            187,
+            188
+        ]
+    ],
+    "samples/mmseg/FastFCN_enc": [
+        [
+            220,
+            221
+        ]
+    ]
+}

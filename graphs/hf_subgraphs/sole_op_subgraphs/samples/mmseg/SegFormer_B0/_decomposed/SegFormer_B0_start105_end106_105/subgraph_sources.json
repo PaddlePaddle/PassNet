@@ -1,0 +1,24 @@
+{
+    "samples/mmseg/SegFormer_B0": [
+        [
+            77,
+            78
+        ],
+        [
+            105,
+            106
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            72,
+            73
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_uperhead": [
+        [
+            72,
+            73
+        ]
+    ]
+}

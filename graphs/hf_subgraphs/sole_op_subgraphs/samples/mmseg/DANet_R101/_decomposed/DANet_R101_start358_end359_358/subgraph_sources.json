@@ -1,0 +1,32 @@
+{
+    "samples/mmseg/DANet_R101": [
+        [
+            358,
+            359
+        ]
+    ],
+    "samples/mmseg/DANet_R50": [
+        [
+            188,
+            189
+        ]
+    ],
+    "samples/timm/caformer_b36": [
+        [
+            357,
+            358
+        ]
+    ],
+    "samples/timm/caformer_s18": [
+        [
+            410,
+            411
+        ]
+    ],
+    "samples/timm/caformer_s36": [
+        [
+            869,
+            870
+        ]
+    ]
+}

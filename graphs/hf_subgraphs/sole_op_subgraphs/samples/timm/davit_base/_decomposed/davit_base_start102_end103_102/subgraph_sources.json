@@ -1,0 +1,28 @@
+{
+    "samples/timm/davit_base": [
+        [
+            102,
+            103
+        ]
+    ],
+    "samples/torchvision/swin_b": [
+        [
+            129,
+            130
+        ],
+        [
+            172,
+            173
+        ]
+    ],
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            142,
+            143
+        ],
+        [
+            191,
+            192
+        ]
+    ]
+}

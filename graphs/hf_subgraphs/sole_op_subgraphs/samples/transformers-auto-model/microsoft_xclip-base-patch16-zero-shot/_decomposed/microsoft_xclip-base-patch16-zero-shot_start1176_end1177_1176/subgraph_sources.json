@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot": [
+        [
+            1176,
+            1177
+        ],
+        [
+            1205,
+            1206
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32-16-frames": [
+        [
+            1176,
+            1177
+        ],
+        [
+            1205,
+            1206
+        ]
+    ]
+}

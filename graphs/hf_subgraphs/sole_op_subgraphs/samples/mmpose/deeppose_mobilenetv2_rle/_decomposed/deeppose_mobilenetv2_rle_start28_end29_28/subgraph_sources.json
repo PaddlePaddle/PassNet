@@ -1,0 +1,140 @@
+{
+    "samples/mmpose/deeppose_mobilenetv2_rle": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/mmpose/pose_mobilenetv2": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/mmpose/simcc_mobilenetv2": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3+": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_FCN": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_PSPNet": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/timm/efficientnet_b3.ra2_in1k": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/timm/efficientnet_b4.ra2_in1k": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/timm/efficientnet_b5.sw_in12k": [
+        [
+            41,
+            42
+        ]
+    ],
+    "samples/timm/mixnet_s.ft_in1k": [
+        [
+            341,
+            342
+        ]
+    ],
+    "samples/timm/mobilenetv2_100.ra_in1k": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/timm/mobilenetv2_110d.ra_in1k": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/timm/mobilenetv2_120d.ra_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/mobilenetv2_140.ra_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/rexnet_150.nav_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/tinynet_c.in1k": [
+        [
+            75,
+            76
+        ]
+    ],
+    "samples/timm/tinynet_d.in1k": [
+        [
+            45,
+            46
+        ]
+    ],
+    "samples/timm/tinynet_e.in1k": [
+        [
+            45,
+            46
+        ]
+    ],
+    "samples/torchvision/efficientnet_b3": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/torchvision/efficientnet_b4": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/torchvision/efficientnet_b5": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/torchvision/mobilenet_v2": [
+        [
+            28,
+            29
+        ]
+    ]
+}

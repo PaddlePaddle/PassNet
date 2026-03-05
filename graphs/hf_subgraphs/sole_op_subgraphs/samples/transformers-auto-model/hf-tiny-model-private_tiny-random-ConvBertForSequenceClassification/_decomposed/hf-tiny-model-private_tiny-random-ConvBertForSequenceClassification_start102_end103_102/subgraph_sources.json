@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvBertForSequenceClassification": [
+        [
+            51,
+            52
+        ],
+        [
+            102,
+            103
+        ],
+        [
+            153,
+            154
+        ],
+        [
+            204,
+            205
+        ],
+        [
+            255,
+            256
+        ]
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification": [
+        [
+            63,
+            64
+        ],
+        [
+            111,
+            112
+        ],
+        [
+            187,
+            188
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2ForImageClassification": [
+        [
+            72,
+            73
+        ],
+        [
+            130,
+            131
+        ],
+        [
+            221,
+            222
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2Model": [
+        [
+            72,
+            73
+        ],
+        [
+            130,
+            131
+        ],
+        [
+            221,
+            222
+        ]
+    ],
+    "samples/transformers-auto-model/vuiseng9_tiny-random-SwinModel": [
+        [
+            63,
+            64
+        ],
+        [
+            111,
+            112
+        ],
+        [
+            187,
+            188
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-SwinModel": [
+        [
+            63,
+            64
+        ],
+        [
+            111,
+            112
+        ],
+        [
+            187,
+            188
+        ]
+    ]
+}

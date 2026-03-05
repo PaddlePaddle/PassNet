@@ -1,0 +1,14 @@
+{
+    "samples/timm/mobilenetv4_conv_large.e500_r256_in1k": [
+        [
+            151,
+            152
+        ]
+    ],
+    "samples/torchvision/mnasnet1_3": [
+        [
+            106,
+            107
+        ]
+    ]
+}

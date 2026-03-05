@@ -1,0 +1,44 @@
+{
+    "samples/mmpose/pose_swin_b": [
+        [
+            141,
+            142
+        ],
+        [
+            211,
+            212
+        ]
+    ],
+    "samples/mmseg/Swin-b": [
+        [
+            145,
+            146
+        ],
+        [
+            215,
+            216
+        ]
+    ],
+    "samples/timm/davit_base": [
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/timm/davit_huge": [
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            146,
+            147
+        ],
+        [
+            195,
+            196
+        ]
+    ]
+}

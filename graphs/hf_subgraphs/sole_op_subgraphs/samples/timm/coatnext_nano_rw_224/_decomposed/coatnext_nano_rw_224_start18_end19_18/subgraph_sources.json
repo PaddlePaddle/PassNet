@@ -1,0 +1,174 @@
+{
+    "samples/timm/coatnext_nano_rw_224": [
+        [
+            18,
+            19
+        ],
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/timm/convnext_pico.d1_in1k": [
+        [
+            4,
+            5
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/timm/convnext_pico_ols.d1_in1k": [
+        [
+            5,
+            6
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/convnext_zepto_rms.ra4_e3600_r224_in1k": [
+        [
+            48,
+            49
+        ],
+        [
+            64,
+            65
+        ]
+    ],
+    "samples/timm/convnext_zepto_rms_ols.ra4_e3600_r224_in1k": [
+        [
+            50,
+            51
+        ],
+        [
+            66,
+            67
+        ]
+    ],
+    "samples/timm/convnextv2_pico.fcmae": [
+        [
+            4,
+            5
+        ],
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/timm/convnextv2_pico.fcmae_ft_in1k": [
+        [
+            4,
+            5
+        ],
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/timm/rdnet_tiny.nv_in1k": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/timm/starnet_s2.in1k": [
+        [
+            17,
+            18
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            35,
+            36
+        ]
+    ],
+    "samples/timm/starnet_s3.in1k": [
+        [
+            27,
+            28
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            45,
+            46
+        ]
+    ],
+    "samples/timm/starnet_s4.in1k": [
+        [
+            37,
+            38
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            65,
+            66
+        ]
+    ],
+    "samples/timm/test_convnext.r160_in1k": [
+        [
+            100,
+            101
+        ],
+        [
+            112,
+            113
+        ]
+    ],
+    "samples/timm/test_convnext2.r160_in1k": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/ultralytics/yolo12n": [
+        [
+            76,
+            77
+        ],
+        [
+            115,
+            116
+        ],
+        [
+            154,
+            155
+        ],
+        [
+            193,
+            194
+        ]
+    ]
+}

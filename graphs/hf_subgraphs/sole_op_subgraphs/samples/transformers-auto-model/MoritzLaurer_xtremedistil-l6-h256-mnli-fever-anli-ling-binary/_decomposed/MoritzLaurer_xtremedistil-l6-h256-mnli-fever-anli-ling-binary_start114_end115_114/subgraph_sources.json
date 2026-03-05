@@ -1,0 +1,46 @@
+{
+    "samples/transformers-auto-model/MoritzLaurer_xtremedistil-l6-h256-mnli-fever-anli-ling-binary": [
+        [
+            26,
+            27
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            92,
+            93
+        ],
+        [
+            114,
+            115
+        ],
+        [
+            136,
+            137
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_mini-vanilla-target-tweet": [
+        [
+            26,
+            27
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            92,
+            93
+        ]
+    ]
+}

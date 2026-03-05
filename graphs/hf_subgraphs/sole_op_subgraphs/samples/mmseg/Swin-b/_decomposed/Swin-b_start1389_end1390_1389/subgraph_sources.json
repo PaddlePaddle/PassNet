@@ -1,0 +1,18 @@
+{
+    "samples/mmseg/Swin-b": [
+        [
+            1389,
+            1390
+        ],
+        [
+            1436,
+            1437
+        ]
+    ],
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            865,
+            866
+        ]
+    ]
+}

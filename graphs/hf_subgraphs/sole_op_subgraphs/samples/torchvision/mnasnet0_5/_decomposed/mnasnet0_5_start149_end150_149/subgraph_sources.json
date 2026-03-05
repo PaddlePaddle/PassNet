@@ -1,0 +1,50 @@
+{
+    "samples/torchvision/mnasnet0_5": [
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/torchvision/mnasnet0_75": [
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/torchvision/mnasnet1_0": [
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/torchvision/mnasnet1_3": [
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x0_5": [
+        [
+            269,
+            270
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x1_0": [
+        [
+            269,
+            270
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x1_5": [
+        [
+            269,
+            270
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x2_0": [
+        [
+            269,
+            270
+        ]
+    ]
+}

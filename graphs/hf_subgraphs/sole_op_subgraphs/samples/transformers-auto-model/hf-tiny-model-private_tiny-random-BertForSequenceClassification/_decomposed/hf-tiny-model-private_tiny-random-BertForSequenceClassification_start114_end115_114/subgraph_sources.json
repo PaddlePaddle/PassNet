@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification": [
+        [
+            26,
+            27
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            92,
+            93
+        ],
+        [
+            114,
+            115
+        ]
+    ]
+}

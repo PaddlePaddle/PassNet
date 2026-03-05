@@ -1,0 +1,32 @@
+{
+    "samples/mmseg/EMANet_R101": [
+        [
+            352,
+            353
+        ]
+    ],
+    "samples/mmseg/EMANet_R50": [
+        [
+            182,
+            183
+        ]
+    ],
+    "samples/mmseg/GCNet_R101": [
+        [
+            351,
+            352
+        ]
+    ],
+    "samples/mmseg/GCNet_R50": [
+        [
+            181,
+            182
+        ]
+    ],
+    "samples/mmseg/SegNeXt-b": [
+        [
+            842,
+            843
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/timm/hgnet_tiny.paddle_in1k": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/timm/repvit_m1_0.dist_300e_in1k": [
+        [
+            331,
+            332
+        ]
+    ]
+}

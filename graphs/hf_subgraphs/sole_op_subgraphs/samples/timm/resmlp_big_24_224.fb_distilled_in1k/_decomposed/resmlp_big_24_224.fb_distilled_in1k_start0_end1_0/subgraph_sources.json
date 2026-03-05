@@ -1,0 +1,26 @@
+{
+    "samples/timm/resmlp_big_24_224.fb_distilled_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/vit_base_patch8_224.augreg2_in21k_ft_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/vit_base_patch8_224.dino": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/vit_small_patch8_224.dino": [
+        [
+            0,
+            1
+        ]
+    ]
+}

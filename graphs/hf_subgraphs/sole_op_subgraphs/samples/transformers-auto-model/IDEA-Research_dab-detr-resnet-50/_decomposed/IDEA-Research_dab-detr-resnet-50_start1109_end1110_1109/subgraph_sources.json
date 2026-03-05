@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/IDEA-Research_dab-detr-resnet-50": [
+        [
+            1109,
+            1110
+        ]
+    ],
+    "samples/transformers-auto-model/davidhajdu_dab_detr_finetuned_cppe5": [
+        [
+            1110,
+            1111
+        ]
+    ]
+}

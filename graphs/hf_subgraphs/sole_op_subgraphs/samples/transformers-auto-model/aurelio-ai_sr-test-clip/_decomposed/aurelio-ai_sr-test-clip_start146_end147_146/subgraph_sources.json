@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/aurelio-ai_sr-test-clip": [
+        [
+            146,
+            147
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CLIPSegModel": [
+        [
+            161,
+            162
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            186,
+            187
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_pegasus-large-book-summary": [
+        [
+            0,
+            1
+        ]
+    ]
+}

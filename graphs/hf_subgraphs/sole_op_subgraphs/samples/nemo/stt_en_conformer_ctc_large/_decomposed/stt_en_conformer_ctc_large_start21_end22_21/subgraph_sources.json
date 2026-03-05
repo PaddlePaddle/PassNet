@@ -1,0 +1,20 @@
+{
+    "samples/nemo/stt_en_conformer_ctc_large": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_large_streaming_multi": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_medium_large_ls": [
+        [
+            21,
+            22
+        ]
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "samples/timm/coatnet_rmlp_0_rw_224": [
+        [
+            105,
+            106
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_1_rw2_224": [
+        [
+            153,
+            154
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_1_rw_224": [
+        [
+            155,
+            156
+        ]
+    ],
+    "samples/torchvision/swin_v2_s": [
+        [
+            151,
+            152
+        ],
+        [
+            206,
+            207
+        ]
+    ],
+    "samples/torchvision/swin_v2_t": [
+        [
+            151,
+            152
+        ],
+        [
+            206,
+            207
+        ]
+    ],
+    "samples/transformers-auto-model/gagan3012_swin_arocr_tiny": [
+        [
+            189,
+            190
+        ],
+        [
+            271,
+            272
+        ]
+    ]
+}

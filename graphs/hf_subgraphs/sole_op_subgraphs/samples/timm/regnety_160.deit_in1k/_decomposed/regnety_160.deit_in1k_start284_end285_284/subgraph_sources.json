@@ -1,0 +1,14 @@
+{
+    "samples/timm/regnety_160.deit_in1k": [
+        [
+            284,
+            285
+        ]
+    ],
+    "samples/torchvision/regnet_y_16gf": [
+        [
+            286,
+            287
+        ]
+    ]
+}

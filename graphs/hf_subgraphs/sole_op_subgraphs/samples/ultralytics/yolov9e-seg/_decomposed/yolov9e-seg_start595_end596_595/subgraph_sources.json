@@ -1,0 +1,12 @@
+{
+    "samples/ultralytics/yolov9e-seg": [
+        [
+            595,
+            596
+        ],
+        [
+            596,
+            597
+        ]
+    ]
+}

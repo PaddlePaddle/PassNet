@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/bge-base-en-v1.5": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/bge-large-zh": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-en": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/monologg_kocharelectra-base-kmounlp-ner": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/nlptown_bert_base_multilingual_uncased_sentiment": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/simonmun_Eyse_SentenceClassification": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/splade-mini": [
+        [
+            2,
+            3
+        ]
+    ]
+}

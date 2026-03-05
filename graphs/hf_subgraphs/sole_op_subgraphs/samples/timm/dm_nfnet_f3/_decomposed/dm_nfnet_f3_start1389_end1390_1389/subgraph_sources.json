@@ -1,0 +1,36 @@
+{
+    "samples/timm/dm_nfnet_f3": [
+        [
+            1389,
+            1390
+        ]
+    ],
+    "samples/timm/dm_nfnet_f4": [
+        [
+            1518,
+            1519
+        ]
+    ],
+    "samples/timm/dm_nfnet_f5": [
+        [
+            1647,
+            1648
+        ]
+    ],
+    "samples/timm/dm_nfnet_f6": [
+        [
+            1776,
+            1777
+        ],
+        [
+            3590,
+            3591
+        ]
+    ],
+    "samples/timm/eca_nfnet_l3": [
+        [
+            1257,
+            1258
+        ]
+    ]
+}

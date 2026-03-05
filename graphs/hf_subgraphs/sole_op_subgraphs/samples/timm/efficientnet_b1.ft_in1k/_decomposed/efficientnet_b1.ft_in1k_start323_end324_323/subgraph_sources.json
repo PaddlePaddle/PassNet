@@ -1,0 +1,78 @@
+{
+    "samples/timm/efficientnet_b1.ft_in1k": [
+        [
+            323,
+            324
+        ]
+    ],
+    "samples/timm/gernet_l.idstcv_in1k": [
+        [
+            105,
+            106
+        ],
+        [
+            115,
+            116
+        ],
+        [
+            125,
+            126
+        ],
+        [
+            135,
+            136
+        ],
+        [
+            145,
+            146
+        ],
+        [
+            155,
+            156
+        ],
+        [
+            165,
+            166
+        ],
+        [
+            175,
+            176
+        ]
+    ],
+    "samples/timm/gernet_m.idstcv_in1k": [
+        [
+            105,
+            106
+        ],
+        [
+            115,
+            116
+        ],
+        [
+            125,
+            126
+        ],
+        [
+            135,
+            136
+        ]
+    ],
+    "samples/timm/mobilenet_edgetpu_v2_m.ra4_e3600_r224_in1k": [
+        [
+            145,
+            146
+        ]
+    ],
+    "samples/timm/rexnetr_300.sw_in12k": [
+        [
+            137,
+            138
+        ]
+    ],
+    "samples/torchvision/efficientnet_b1": [
+        [
+            338,
+            339
+        ]
+    ]
+}

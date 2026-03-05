@@ -1,0 +1,226 @@
+{
+    "samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/IMISLab_GreekWiki-umt5-base": [
+        [
+            47,
+            48
+        ],
+        [
+            157,
+            158
+        ],
+        [
+            267,
+            268
+        ],
+        [
+            377,
+            378
+        ],
+        [
+            487,
+            488
+        ],
+        [
+            597,
+            598
+        ],
+        [
+            707,
+            708
+        ],
+        [
+            817,
+            818
+        ],
+        [
+            927,
+            928
+        ],
+        [
+            1037,
+            1038
+        ],
+        [
+            1147,
+            1148
+        ],
+        [
+            1257,
+            1258
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_fid_flan_t5_base_nq": [
+        [
+            51,
+            52
+        ]
+    ],
+    "samples/transformers-auto-model/Michielo_mt5-small_nl-en_translation": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_long-t5-tfg": [
+        [
+            1991,
+            1992
+        ]
+    ],
+    "samples/transformers-auto-model/allegro_plt5-large": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/cointegrated_rut5-base-absum": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/csebuetnlp_mT5_multilingual_XLSum": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-base": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5-small": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_base": [
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_small": [
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_base": [
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_large": [
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_small": [
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/transformers-auto-model/google_pix2struct-base": [
+        [
+            815,
+            816
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-mini": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/gsarti_it5-efficient-small-el32-wiki-summarization": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/igorktech_rut5-small-chit-chat-intelligent": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-base-translation-ja_zh": [
+        [
+            722,
+            723
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-small-translation-ja_zh": [
+        [
+            514,
+            515
+        ]
+    ],
+    "samples/transformers-auto-model/larryvrh_mt5-translation-ja_zh": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            356,
+            357
+        ]
+    ],
+    "samples/transformers-auto-model/moska_plt5-seq-clf-with-entities-updated-finetuned": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_tFINE-base-300m-samsum": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/t5-small": [
+        [
+            50,
+            51
+        ]
+    ]
+}

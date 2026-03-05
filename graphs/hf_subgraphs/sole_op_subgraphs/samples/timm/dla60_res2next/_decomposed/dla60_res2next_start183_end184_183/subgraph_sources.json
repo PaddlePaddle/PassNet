@@ -1,0 +1,216 @@
+{
+    "samples/timm/dla60_res2next": [
+        [
+            20,
+            21
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            183,
+            184
+        ],
+        [
+            186,
+            187
+        ],
+        [
+            189,
+            190
+        ],
+        [
+            393,
+            394
+        ],
+        [
+            396,
+            397
+        ],
+        [
+            399,
+            400
+        ]
+    ],
+    "samples/timm/eca_botnext26ts_256": [
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/timm/eca_halonext26ts": [
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/timm/eca_resnext26ts.ch_in1k": [
+        [
+            90,
+            91
+        ]
+    ],
+    "samples/timm/regnetv_040.ra3_in1k": [
+        [
+            136,
+            137
+        ]
+    ],
+    "samples/timm/regnetv_064.ra3_in1k": [
+        [
+            154,
+            155
+        ]
+    ],
+    "samples/timm/regnetx_008.pycls_in1k": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/timm/regnetx_120.pycls_in1k": [
+        [
+            80,
+            81
+        ]
+    ],
+    "samples/timm/regnetx_320.pycls_in1k": [
+        [
+            100,
+            101
+        ]
+    ],
+    "samples/timm/regnety_008.pycls_in1k": [
+        [
+            24,
+            25
+        ]
+    ],
+    "samples/timm/regnety_040.pycls_in1k": [
+        [
+            138,
+            139
+        ]
+    ],
+    "samples/timm/regnety_064.pycls_in1k": [
+        [
+            154,
+            155
+        ]
+    ],
+    "samples/timm/regnety_080.pycls_in1k": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/timm/regnety_080_tv.tv2_in1k": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/timm/regnetz_c16.ra3_in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/regnetz_d32.ra3_in1k": [
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/timm/repghostnet_050.in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/res2next50.in1k": [
+        [
+            85,
+            86
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            182,
+            183
+        ],
+        [
+            185,
+            186
+        ],
+        [
+            188,
+            189
+        ],
+        [
+            327,
+            328
+        ],
+        [
+            330,
+            331
+        ],
+        [
+            333,
+            334
+        ]
+    ],
+    "samples/timm/resnext26ts.ra2_in1k": [
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/timm/seresnext26ts.ch_in1k": [
+        [
+            81,
+            82
+        ]
+    ],
+    "samples/torchvision/regnet_x_32gf": [
+        [
+            102,
+            103
+        ]
+    ],
+    "samples/torchvision/regnet_x_800mf": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/torchvision/regnet_y_8gf": [
+        [
+            42,
+            43
+        ]
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2ForImageClassification": [
+        [
+            80,
+            81
+        ],
+        [
+            83,
+            84
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            162,
+            163
+        ],
+        [
+            165,
+            166
+        ],
+        [
+            168,
+            169
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2Model": [
+        [
+            80,
+            81
+        ],
+        [
+            83,
+            84
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            162,
+            163
+        ],
+        [
+            165,
+            166
+        ],
+        [
+            168,
+            169
+        ]
+    ]
+}

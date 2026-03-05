@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/facebook_levit-256": [
+        [
+            415,
+            416
+        ],
+        [
+            452,
+            453
+        ],
+        [
+            489,
+            490
+        ],
+        [
+            526,
+            527
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32-16-frames": [
+        [
+            742,
+            743
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "samples/timm/repghostnet_100.in1k": [
+        [
+            184,
+            185
+        ],
+        [
+            209,
+            210
+        ]
+    ],
+    "samples/timm/repghostnet_111.in1k": [
+        [
+            126,
+            127
+        ]
+    ],
+    "samples/timm/repvit_m1_0.dist_300e_in1k": [
+        [
+            57,
+            58
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            87,
+            88
+        ]
+    ]
+}

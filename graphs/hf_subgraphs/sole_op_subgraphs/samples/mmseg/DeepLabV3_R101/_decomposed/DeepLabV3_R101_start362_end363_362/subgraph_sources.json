@@ -1,0 +1,62 @@
+{
+    "samples/mmseg/DeepLabV3_R101": [
+        [
+            362,
+            363
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R50": [
+        [
+            192,
+            193
+        ]
+    ],
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            225,
+            226
+        ]
+    ],
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            192,
+            193
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3": [
+        [
+            160,
+            161
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3": [
+        [
+            895,
+            896
+        ]
+    ],
+    "samples/mmseg/UNet_deeplabv3": [
+        [
+            92,
+            93
+        ]
+    ],
+    "samples/torchvision/deeplabv3_mobilenet_v3_large": [
+        [
+            190,
+            191
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet101": [
+        [
+            351,
+            352
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet50": [
+        [
+            181,
+            182
+        ]
+    ]
+}

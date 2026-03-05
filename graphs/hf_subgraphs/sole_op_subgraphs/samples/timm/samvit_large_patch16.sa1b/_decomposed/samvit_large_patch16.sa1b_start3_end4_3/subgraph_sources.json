@@ -1,0 +1,8 @@
+{
+    "samples/timm/samvit_large_patch16.sa1b": [
+        [
+            3,
+            4
+        ]
+    ]
+}

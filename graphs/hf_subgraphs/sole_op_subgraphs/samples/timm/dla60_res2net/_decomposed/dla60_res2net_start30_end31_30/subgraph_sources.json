@@ -1,0 +1,44 @@
+{
+    "samples/timm/dla60_res2net": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/timm/dla60_res2next": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/timm/res2net101_26w_4s": [
+        [
+            22,
+            23
+        ]
+    ],
+    "samples/timm/res2net101d": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/timm/res2net50_26w_4s.in1k": [
+        [
+            22,
+            23
+        ]
+    ],
+    "samples/timm/res2net50d.in1k": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/timm/res2next50.in1k": [
+        [
+            22,
+            23
+        ]
+    ]
+}

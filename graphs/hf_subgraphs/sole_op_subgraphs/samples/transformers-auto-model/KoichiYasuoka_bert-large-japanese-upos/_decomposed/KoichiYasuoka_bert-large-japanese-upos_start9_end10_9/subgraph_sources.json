@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/KoichiYasuoka_bert-large-japanese-upos": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification": [
+        [
+            7,
+            8
+        ]
+    ]
+}

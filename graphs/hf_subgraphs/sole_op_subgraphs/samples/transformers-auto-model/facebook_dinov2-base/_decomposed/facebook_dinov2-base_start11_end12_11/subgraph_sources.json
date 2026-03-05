@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/facebook_dinov2-base": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-giant": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-large": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-small": [
+        [
+            11,
+            12
+        ]
+    ]
+}

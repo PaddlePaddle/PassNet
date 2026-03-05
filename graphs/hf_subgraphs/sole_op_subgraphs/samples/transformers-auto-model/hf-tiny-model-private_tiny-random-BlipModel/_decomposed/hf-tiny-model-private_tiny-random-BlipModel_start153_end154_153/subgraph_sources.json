@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BlipModel": [
+        [
+            153,
+            154
+        ],
+        [
+            184,
+            185
+        ],
+        [
+            215,
+            216
+        ],
+        [
+            246,
+            247
+        ],
+        [
+            277,
+            278
+        ]
+    ]
+}

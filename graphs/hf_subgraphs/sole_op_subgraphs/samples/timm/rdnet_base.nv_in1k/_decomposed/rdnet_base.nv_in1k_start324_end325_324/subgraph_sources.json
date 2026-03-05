@@ -1,0 +1,12 @@
+{
+    "samples/timm/rdnet_base.nv_in1k": [
+        [
+            324,
+            325
+        ],
+        [
+            371,
+            372
+        ]
+    ]
+}

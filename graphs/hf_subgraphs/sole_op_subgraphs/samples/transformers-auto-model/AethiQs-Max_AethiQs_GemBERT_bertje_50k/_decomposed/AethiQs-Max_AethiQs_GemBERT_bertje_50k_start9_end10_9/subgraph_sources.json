@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/AethiQs-Max_AethiQs_GemBERT_bertje_50k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/Jodsa_camembert_mlm": [
+        [
+            18,
+            19
+        ]
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "samples/timm/eca_resnet33ts.ra2_in1k": [
+        [
+            110,
+            111
+        ]
+    ],
+    "samples/timm/eca_resnext26ts.ch_in1k": [
+        [
+            94,
+            95
+        ]
+    ],
+    "samples/timm/ecaresnet101d.miil_in1k": [
+        [
+            148,
+            149
+        ]
+    ],
+    "samples/timm/ecaresnet269d.ra2_in1k": [
+        [
+            590,
+            591
+        ]
+    ],
+    "samples/timm/ecaresnet26t.ra2_in1k": [
+        [
+            97,
+            98
+        ]
+    ],
+    "samples/timm/ecaresnet50d.miil_in1k": [
+        [
+            148,
+            149
+        ]
+    ],
+    "samples/timm/ecaresnetlight.miil_in1k": [
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/timm/poolformer_m36.sail_in1k": [
+        [
+            188,
+            189
+        ]
+    ],
+    "samples/timm/poolformer_m48.sail_in1k": [
+        [
+            248,
+            249
+        ]
+    ],
+    "samples/timm/poolformer_s12.sail_in1k": [
+        [
+            68,
+            69
+        ]
+    ],
+    "samples/timm/poolformer_s24.sail_in1k": [
+        [
+            128,
+            129
+        ]
+    ],
+    "samples/timm/poolformer_s36.sail_in1k": [
+        [
+            188,
+            189
+        ]
+    ],
+    "samples/timm/poolformerv2_m36.sail_in1k": [
+        [
+            185,
+            186
+        ]
+    ],
+    "samples/timm/poolformerv2_m48.sail_in1k": [
+        [
+            241,
+            242
+        ]
+    ],
+    "samples/timm/poolformerv2_s12.sail_in1k": [
+        [
+            73,
+            74
+        ]
+    ],
+    "samples/timm/poolformerv2_s24.sail_in1k": [
+        [
+            129,
+            130
+        ]
+    ],
+    "samples/timm/poolformerv2_s36.sail_in1k": [
+        [
+            185,
+            186
+        ]
+    ],
+    "samples/timm/resnest50d_1s4x24d.in1k": [
+        [
+            161,
+            162
+        ]
+    ],
+    "samples/timm/skresnet18.ra_in1k": [
+        [
+            117,
+            118
+        ]
+    ],
+    "samples/timm/skresnet34.ra_in1k": [
+        [
+            189,
+            190
+        ]
+    ],
+    "samples/timm/skresnext50_32x4d.ra_in1k": [
+        [
+            191,
+            192
+        ]
+    ]
+}
