@@ -1,0 +1,14 @@
+{
+    "samples/timm/efficientnet_b2.ra_in1k": [
+        [
+            235,
+            236
+        ]
+    ],
+    "samples/torchvision/efficientnet_b2": [
+        [
+            246,
+            247
+        ]
+    ]
+}

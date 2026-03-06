@@ -1,0 +1,152 @@
+{
+    "samples/mmpose/pose_pvtv2-b2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SegFormer_B0": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SegFormer_B1": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SegFormer_B2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SegFormer_B3": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SegFormer_B4": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SegFormer_B5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-large": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-small": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-tiny": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerModel": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanForImageClassification": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanModel": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b3": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b4": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/segformer_b2_clothes": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/vinvino02_glpn-nyu": [
+        [
+            0,
+            1
+        ]
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "samples/mmpose/pose_shufflenetv1": [
+        [
+            21,
+            22
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            47,
+            48
+        ]
+    ],
+    "samples/timm/ghostnet_100.in1k": [
+        [
+            84,
+            85
+        ]
+    ],
+    "samples/timm/repghostnet_050.in1k": [
+        [
+            105,
+            106
+        ],
+        [
+            141,
+            142
+        ],
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/timm/repghostnet_100.in1k": [
+        [
+            84,
+            85
+        ]
+    ],
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            72,
+            73
+        ],
+        [
+            97,
+            98
+        ]
+    ]
+}

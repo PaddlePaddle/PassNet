@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BloomForSequenceClassification": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/ydshieh_tiny-random-gptj-for-sequence-classification": [
+        [
+            18,
+            19
+        ]
+    ]
+}

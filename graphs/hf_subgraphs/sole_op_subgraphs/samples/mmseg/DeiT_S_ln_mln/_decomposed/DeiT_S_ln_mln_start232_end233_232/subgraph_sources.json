@@ -1,0 +1,26 @@
+{
+    "samples/mmseg/DeiT_S_ln_mln": [
+        [
+            232,
+            233
+        ]
+    ],
+    "samples/mmseg/DeiT_S_mln": [
+        [
+            231,
+            232
+        ]
+    ],
+    "samples/mmseg/ViT_B_ln_mln": [
+        [
+            232,
+            233
+        ]
+    ],
+    "samples/mmseg/ViT_B_mln": [
+        [
+            231,
+            232
+        ]
+    ]
+}

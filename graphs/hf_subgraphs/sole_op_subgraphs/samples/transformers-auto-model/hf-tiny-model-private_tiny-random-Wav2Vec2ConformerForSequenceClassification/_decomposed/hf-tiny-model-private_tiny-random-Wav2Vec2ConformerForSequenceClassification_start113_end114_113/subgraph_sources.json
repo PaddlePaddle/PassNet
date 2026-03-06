@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Wav2Vec2ConformerForSequenceClassification": [
+        [
+            46,
+            47
+        ],
+        [
+            113,
+            114
+        ],
+        [
+            180,
+            181
+        ],
+        [
+            247,
+            248
+        ]
+    ]
+}

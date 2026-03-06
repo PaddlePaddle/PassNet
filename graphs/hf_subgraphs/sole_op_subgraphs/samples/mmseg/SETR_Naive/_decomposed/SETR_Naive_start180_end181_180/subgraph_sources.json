@@ -1,0 +1,64 @@
+{
+    "samples/mmseg/SETR_Naive": [
+        [
+            180,
+            181
+        ],
+        [
+            269,
+            270
+        ],
+        [
+            358,
+            359
+        ]
+    ],
+    "samples/timm/coat_lite_medium.in1k": [
+        [
+            1416,
+            1417
+        ]
+    ],
+    "samples/timm/coat_lite_medium_384": [
+        [
+            1416,
+            1417
+        ]
+    ],
+    "samples/timm/coat_lite_mini.in1k": [
+        [
+            447,
+            448
+        ]
+    ],
+    "samples/timm/coat_lite_small.in1k": [
+        [
+            855,
+            856
+        ]
+    ],
+    "samples/timm/coat_lite_tiny.in1k": [
+        [
+            447,
+            448
+        ]
+    ],
+    "samples/timm/coat_mini": [
+        [
+            447,
+            448
+        ]
+    ],
+    "samples/timm/coat_small": [
+        [
+            447,
+            448
+        ]
+    ],
+    "samples/timm/coat_tiny": [
+        [
+            447,
+            448
+        ]
+    ]
+}

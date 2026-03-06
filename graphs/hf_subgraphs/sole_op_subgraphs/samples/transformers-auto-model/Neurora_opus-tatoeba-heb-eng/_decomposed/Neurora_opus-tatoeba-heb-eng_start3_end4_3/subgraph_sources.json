@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-heb-eng": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/igorktech_rut5-small-chit-chat-intelligent": [
+        [
+            3,
+            4
+        ]
+    ]
+}

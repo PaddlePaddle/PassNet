@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/facebook_levit-256": [
+        [
+            399,
+            400
+        ],
+        [
+            436,
+            437
+        ],
+        [
+            473,
+            474
+        ],
+        [
+            510,
+            511
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LevitModel": [
+        [
+            91,
+            92
+        ]
+    ]
+}

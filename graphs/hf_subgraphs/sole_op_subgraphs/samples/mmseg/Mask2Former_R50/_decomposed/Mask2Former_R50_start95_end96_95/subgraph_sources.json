@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/Mask2Former_R50": [
+        [
+            95,
+            96
+        ]
+    ]
+}

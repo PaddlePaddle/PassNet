@@ -1,0 +1,64 @@
+{
+    "samples/transformers-auto-model/IDEA-Research_dab-detr-resnet-50": [
+        [
+            1154,
+            1155
+        ],
+        [
+            1296,
+            1297
+        ],
+        [
+            1438,
+            1439
+        ],
+        [
+            1580,
+            1581
+        ],
+        [
+            1722,
+            1723
+        ],
+        [
+            1864,
+            1865
+        ]
+    ],
+    "samples/transformers-auto-model/davidhajdu_dab_detr_finetuned_cppe5": [
+        [
+            1155,
+            1156
+        ],
+        [
+            1297,
+            1298
+        ],
+        [
+            1439,
+            1440
+        ],
+        [
+            1581,
+            1582
+        ],
+        [
+            1723,
+            1724
+        ],
+        [
+            1865,
+            1866
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_layoutlm-base-uncased": [
+        [
+            15,
+            16
+        ],
+        [
+            17,
+            18
+        ]
+    ]
+}

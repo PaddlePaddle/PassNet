@@ -1,0 +1,26 @@
+{
+    "samples/timm/eca_nfnet_l0": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/timm/eca_nfnet_l1": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/timm/eca_nfnet_l2": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/timm/eca_nfnet_l3": [
+        [
+            8,
+            9
+        ]
+    ]
+}

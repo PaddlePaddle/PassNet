@@ -1,0 +1,14 @@
+{
+    "samples/timm/regnetz_040.ra3_in1k": [
+        [
+            333,
+            334
+        ]
+    ],
+    "samples/timm/regnetz_040_h.ra3_in1k": [
+        [
+            333,
+            334
+        ]
+    ]
+}

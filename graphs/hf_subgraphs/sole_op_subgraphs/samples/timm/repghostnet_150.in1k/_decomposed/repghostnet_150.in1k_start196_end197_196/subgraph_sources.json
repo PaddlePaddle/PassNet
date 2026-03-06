@@ -1,0 +1,18 @@
+{
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            196,
+            197
+        ],
+        [
+            217,
+            218
+        ]
+    ],
+    "samples/timm/rexnet_100.nav_in1k": [
+        [
+            99,
+            100
+        ]
+    ]
+}

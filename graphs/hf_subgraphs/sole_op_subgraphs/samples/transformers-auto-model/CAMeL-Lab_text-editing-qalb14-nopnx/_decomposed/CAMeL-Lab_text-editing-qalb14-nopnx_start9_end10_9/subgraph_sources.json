@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/CAMeL-Lab_text-editing-qalb14-nopnx": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/GroNLP_bert-base-dutch-cased-frisian": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-zh-en": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-zho-eng": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/debabrata-ai_NepNER": [
+        [
+            7,
+            8
+        ]
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/BAAI_AltCLIP": [
+        [
+            1461,
+            1462
+        ]
+    ],
+    "samples/transformers-auto-model/BAAI_AltCLIP-m18": [
+        [
+            1701,
+            1702
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AltCLIPModel": [
+        [
+            340,
+            341
+        ]
+    ],
+    "samples/transformers-auto-model/kaveh_rclip": [
+        [
+            951,
+            952
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot": [
+        [
+            1241,
+            1242
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32-16-frames": [
+        [
+            1241,
+            1242
+        ]
+    ]
+}

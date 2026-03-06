@@ -1,0 +1,46 @@
+{
+    "samples/transformers-auto-model/google_byt5_base": [
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_small": [
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_base": [
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_large": [
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_small": [
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/transformers-auto-model/google_pix2struct-base": [
+        [
+            765,
+            766
+        ],
+        [
+            770,
+            771
+        ],
+        [
+            823,
+            824
+        ]
+    ]
+}

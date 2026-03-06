@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/aurelio-ai_sr-test-clip": [
+        [
+            154,
+            155
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CLIPSegModel": [
+        [
+            169,
+            170
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            194,
+            195
+        ]
+    ]
+}

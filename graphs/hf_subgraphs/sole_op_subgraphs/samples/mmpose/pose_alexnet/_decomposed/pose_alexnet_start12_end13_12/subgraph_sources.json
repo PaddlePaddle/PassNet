@@ -1,0 +1,86 @@
+{
+    "samples/mmpose/pose_alexnet": [
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/timm/inception_resnet_v2": [
+        [
+            9,
+            10
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            282,
+            283
+        ],
+        [
+            645,
+            646
+        ]
+    ],
+    "samples/timm/inception_v3.gluon_in1k": [
+        [
+            9,
+            10
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/timm/inception_v4": [
+        [
+            9,
+            10
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            142,
+            143
+        ],
+        [
+            386,
+            387
+        ]
+    ],
+    "samples/torchvision/alexnet": [
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/torchvision/inception_v3": [
+        [
+            22,
+            23
+        ],
+        [
+            29,
+            30
+        ]
+    ]
+}

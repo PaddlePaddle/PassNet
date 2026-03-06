@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AltCLIPModel": [
+        [
+            39,
+            40
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            126,
+            127
+        ],
+        [
+            155,
+            156
+        ]
+    ]
+}

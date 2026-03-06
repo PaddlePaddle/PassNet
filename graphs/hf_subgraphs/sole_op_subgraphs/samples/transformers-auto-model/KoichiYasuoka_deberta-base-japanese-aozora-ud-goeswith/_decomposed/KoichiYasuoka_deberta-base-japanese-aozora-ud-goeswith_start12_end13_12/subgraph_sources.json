@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/KoichiYasuoka_deberta-base-japanese-aozora-ud-goeswith": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ]
+}

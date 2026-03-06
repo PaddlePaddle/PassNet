@@ -1,0 +1,158 @@
+{
+    "samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/IMISLab_GreekWiki-umt5-base": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_fid_flan_t5_base_nq": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/Michielo_mt5-small_nl-en_translation": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/allegro_plt5-large": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/cointegrated_rut5-base-absum": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/csebuetnlp_mT5_multilingual_XLSum": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-base": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/google/bigbird-roberta-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google/bigbird-roberta-large": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5-small": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_base": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_small": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_base": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_large": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_small": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-mini": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/gsarti_it5-efficient-small-el32-wiki-summarization": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/igorktech_rut5-small-chit-chat-intelligent": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/larryvrh_mt5-translation-ja_zh": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/moska_plt5-seq-clf-with-entities-updated-finetuned": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/t5-small": [
+        [
+            13,
+            14
+        ]
+    ]
+}

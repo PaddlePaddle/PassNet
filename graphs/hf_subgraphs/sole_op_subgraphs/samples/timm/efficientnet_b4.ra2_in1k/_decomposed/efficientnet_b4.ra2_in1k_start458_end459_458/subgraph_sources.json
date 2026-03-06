@@ -1,0 +1,20 @@
+{
+    "samples/timm/efficientnet_b4.ra2_in1k": [
+        [
+            458,
+            459
+        ]
+    ],
+    "samples/timm/rexnetr_300.sw_in12k": [
+        [
+            209,
+            210
+        ]
+    ],
+    "samples/torchvision/efficientnet_b4": [
+        [
+            482,
+            483
+        ]
+    ]
+}

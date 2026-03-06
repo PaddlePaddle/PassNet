@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/DGT": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/mmseg/Segmenter-l": [
+        [
+            9,
+            10
+        ]
+    ]
+}

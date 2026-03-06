@@ -1,0 +1,32 @@
+{
+    "samples/timm/regnety_1280.seer": [
+        [
+            154,
+            155
+        ]
+    ],
+    "samples/timm/regnety_1280.seer_ft_in1k": [
+        [
+            154,
+            155
+        ]
+    ],
+    "samples/timm/regnety_160.deit_in1k": [
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/torchvision/regnet_y_128gf": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/torchvision/regnet_y_16gf": [
+        [
+            108,
+            109
+        ]
+    ]
+}

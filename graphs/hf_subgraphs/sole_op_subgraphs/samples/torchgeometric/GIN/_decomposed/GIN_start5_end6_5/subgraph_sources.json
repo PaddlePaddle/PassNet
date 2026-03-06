@@ -1,0 +1,20 @@
+{
+    "samples/torchgeometric/GIN": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/torchgeometric/GraphSAGE": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/torchgeometric/LINKX": [
+        [
+            5,
+            6
+        ]
+    ]
+}

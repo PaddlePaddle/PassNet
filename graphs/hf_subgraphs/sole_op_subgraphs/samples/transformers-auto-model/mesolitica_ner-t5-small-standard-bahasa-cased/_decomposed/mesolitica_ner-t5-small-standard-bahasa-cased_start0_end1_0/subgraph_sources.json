@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            0,
+            1
+        ],
+        [
+            304,
+            305
+        ]
+    ]
+}

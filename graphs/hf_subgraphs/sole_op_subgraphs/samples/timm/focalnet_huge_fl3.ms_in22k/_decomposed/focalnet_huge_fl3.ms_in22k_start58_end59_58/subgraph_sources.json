@@ -1,0 +1,36 @@
+{
+    "samples/timm/focalnet_huge_fl3.ms_in22k": [
+        [
+            9,
+            10
+        ],
+        [
+            58,
+            59
+        ]
+    ],
+    "samples/timm/focalnet_huge_fl4.ms_in22k": [
+        [
+            9,
+            10
+        ],
+        [
+            63,
+            64
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x1_5": [
+        [
+            224,
+            225
+        ],
+        [
+            240,
+            241
+        ],
+        [
+            256,
+            257
+        ]
+    ]
+}

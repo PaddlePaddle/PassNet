@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/facebook_esm2_t33_650M_UR50D": [
+        [
+            12,
+            13
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/miangoar_esm2_t12_35M_UR50D-finetuned-secondary-structure-classification": [
+        [
+            12,
+            13
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/sureshnam9_esm2_t6_8M_UR50D-finetuned-secondary-structure": [
+        [
+            12,
+            13
+        ],
+        [
+            16,
+            17
+        ]
+    ]
+}

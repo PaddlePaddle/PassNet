@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/aimarsg_prueba5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/distilbert_distilbert-base-cased": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/google_fnet-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-FNetForSequenceClassification": [
+        [
+            0,
+            1
+        ]
+    ]
+}

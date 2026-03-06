@@ -1,0 +1,134 @@
+{
+    "samples/transformers-auto-model/Fsoft-AIC_videberta-base": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_deberta-base-ainu-ud-goeswith": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_deberta-base-chinese-ud-goeswith": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_deberta-base-japanese-aozora-ud-goeswith": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_deberta-base-thai-ud-goeswith": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_DeBERTa-v3-base-mnli-fever-anli": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_DeBERTa-v3-large-mnli-fever-anli-ling-wanli": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_mDeBERTa-v3-base-mnli-xnli": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/NDugar_deberta-v2-xlarge-mnli": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/TTian_deberta-classifier-feedback-1024-pseudo": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/akhtet_mDeBERTa-v3-base-myanmar-xnli": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/andersonbcdefg_seo-spam-classifier": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/anton-l_sew-d-mid-400k-ft-keyword-spotting": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DebertaForSequenceClassification": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DebertaV2ForSequenceClassification": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SEWDForSequenceClassification": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/kakaobank_kf-deberta-base": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-v3-base": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-v3-large": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-v3-small": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/osiria_deberta-base-italian-uncased-ner": [
+        [
+            9,
+            10
+        ]
+    ]
+}

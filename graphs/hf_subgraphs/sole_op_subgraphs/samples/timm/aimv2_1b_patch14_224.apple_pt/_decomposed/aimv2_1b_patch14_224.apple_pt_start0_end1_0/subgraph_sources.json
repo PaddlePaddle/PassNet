@@ -1,0 +1,134 @@
+{
+    "samples/timm/aimv2_1b_patch14_224.apple_pt": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/aimv2_1b_patch14_336.apple_pt": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/aimv2_1b_patch14_448.apple_pt": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/aimv2_3b_patch14_224.apple_pt": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/aimv2_3b_patch14_336.apple_pt": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/aimv2_3b_patch14_448.apple_pt": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/aimv2_huge_patch14_224.apple_pt": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/aimv2_large_patch14_224.apple_pt": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/convmixer_1024_20_ks9_p14.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/deit3_huge_patch14_224.fb_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eva02_base_patch14_224.mim_in22k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eva02_enormous_patch14_clip_224.laion2b": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eva02_large_patch14_224.mim_in22k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eva02_large_patch14_clip_224.merged2b": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eva02_small_patch14_224.mim_in22k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eva02_tiny_patch14_224.mim_in22k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eva_giant_patch14_224.clip_ft_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eva_giant_patch14_clip_224.laion400m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/vit_huge_patch14_224.mae": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/vit_huge_patch14_gap_224.in1k_ijepa": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/vit_so400m_patch14_siglip_gap_224.pali2_3b_pt": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/vit_h_14": [
+        [
+            0,
+            1
+        ]
+    ]
+}

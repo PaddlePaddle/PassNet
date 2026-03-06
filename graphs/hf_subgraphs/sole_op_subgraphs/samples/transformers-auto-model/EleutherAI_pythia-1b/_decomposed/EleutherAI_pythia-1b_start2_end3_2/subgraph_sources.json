@@ -1,0 +1,100 @@
+{
+    "samples/transformers-auto-model/EleutherAI_pythia-1b": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/TinyLlama/TinyLlama-1.1B-Chat-v0.4": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/baidu/ERNIE-4.5-0.3B-PT": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/deepseek-ai/deepseek-coder-1.3b-base": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-1.1-2b-it": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-2b-it": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-1b-it": [
+        [
+            2,
+            3
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-270m": [
+        [
+            2,
+            3
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/jinaai_jina-reranker-m0": [
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/Phi-3-mini-4k-instruct": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1_5": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            2,
+            3
+        ]
+    ]
+}

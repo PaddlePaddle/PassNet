@@ -1,0 +1,124 @@
+{
+    "samples/mmseg/SegNeXt-b": [
+        [
+            16,
+            17
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            92,
+            93
+        ]
+    ],
+    "samples/mmseg/SegNeXt-l": [
+        [
+            16,
+            17
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            92,
+            93
+        ]
+    ],
+    "samples/mmseg/SegNeXt-s": [
+        [
+            16,
+            17
+        ],
+        [
+            54,
+            55
+        ]
+    ],
+    "samples/mmseg/SegNeXt-t": [
+        [
+            138,
+            139
+        ],
+        [
+            176,
+            177
+        ],
+        [
+            214,
+            215
+        ]
+    ],
+    "samples/timm/test_convnext3.r160_in1k": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-base": [
+        [
+            5,
+            6
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-large": [
+        [
+            5,
+            6
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-small": [
+        [
+            5,
+            6
+        ],
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-tiny": [
+        [
+            84,
+            85
+        ],
+        [
+            108,
+            109
+        ],
+        [
+            132,
+            133
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanForImageClassification": [
+        [
+            67,
+            68
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanModel": [
+        [
+            67,
+            68
+        ]
+    ]
+}

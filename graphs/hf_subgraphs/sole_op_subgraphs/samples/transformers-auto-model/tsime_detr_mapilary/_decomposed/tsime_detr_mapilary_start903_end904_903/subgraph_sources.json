@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/tsime_detr_mapilary": [
+        [
+            903,
+            904
+        ]
+    ],
+    "samples/ultralytics/yolov5l6u": [
+        [
+            509,
+            510
+        ]
+    ],
+    "samples/ultralytics/yolov5m6u": [
+        [
+            417,
+            418
+        ]
+    ],
+    "samples/ultralytics/yolov5n6u": [
+        [
+            325,
+            326
+        ]
+    ],
+    "samples/ultralytics/yolov5x6u": [
+        [
+            601,
+            602
+        ]
+    ]
+}

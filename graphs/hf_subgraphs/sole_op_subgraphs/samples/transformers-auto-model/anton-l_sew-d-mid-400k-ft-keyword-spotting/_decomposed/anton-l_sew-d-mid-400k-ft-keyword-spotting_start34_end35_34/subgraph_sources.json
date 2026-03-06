@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/anton-l_sew-d-mid-400k-ft-keyword-spotting": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/transformers-auto-model/anton-l_sew-mid-100k-ft-common-language": [
+        [
+            34,
+            35
+        ]
+    ]
+}

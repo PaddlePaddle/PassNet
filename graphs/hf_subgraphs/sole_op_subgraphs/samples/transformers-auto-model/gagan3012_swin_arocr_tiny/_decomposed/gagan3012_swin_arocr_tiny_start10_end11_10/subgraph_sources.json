@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/gagan3012_swin_arocr_tiny": [
+        [
+            10,
+            11
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            139,
+            140
+        ]
+    ]
+}

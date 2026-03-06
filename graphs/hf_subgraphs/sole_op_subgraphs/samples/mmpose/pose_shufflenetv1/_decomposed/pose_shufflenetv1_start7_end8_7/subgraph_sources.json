@@ -1,0 +1,26 @@
+{
+    "samples/mmpose/pose_shufflenetv1": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/timm/mixnet_l.ft_in1k": [
+        [
+            61,
+            62
+        ]
+    ],
+    "samples/timm/repghostnet_050.in1k": [
+        [
+            110,
+            111
+        ]
+    ],
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            118,
+            119
+        ]
+    ]
+}

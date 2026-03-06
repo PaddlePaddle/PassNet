@@ -1,0 +1,56 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PerceiverForImageClassificationConvProcessing": [
+        [
+            19,
+            20
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PerceiverForImageClassificationFourier": [
+        [
+            19,
+            20
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PerceiverForImageClassificationLearned": [
+        [
+            19,
+            20
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            103,
+            104
+        ]
+    ]
+}

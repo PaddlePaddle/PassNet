@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/ms-marco-TinyBERT-L2": [
+        [
+            26,
+            27
+        ],
+        [
+            48,
+            49
+        ]
+    ]
+}

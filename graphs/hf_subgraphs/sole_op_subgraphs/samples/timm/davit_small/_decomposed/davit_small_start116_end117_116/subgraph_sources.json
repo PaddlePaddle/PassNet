@@ -1,0 +1,14 @@
+{
+    "samples/timm/davit_small": [
+        [
+            116,
+            117
+        ]
+    ],
+    "samples/timm/davit_tiny": [
+        [
+            116,
+            117
+        ]
+    ]
+}

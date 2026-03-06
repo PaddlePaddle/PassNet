@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/microsoft_swin-large-patch4-window7-224-in22k": [
+        [
+            45,
+            46
+        ],
+        [
+            122,
+            123
+        ]
+    ]
+}

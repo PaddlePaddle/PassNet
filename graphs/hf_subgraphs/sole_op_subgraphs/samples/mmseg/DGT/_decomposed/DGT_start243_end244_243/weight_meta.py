@@ -1,0 +1,18 @@
+class Program_weight_tensor_meta_unsqueeze_1:
+	name = "in_0"
+	original_name = "unsqueeze_1"
+	shape = [1, 1, 768]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.004
+	std = 0.091
+
+
+class Program_weight_tensor_meta_x_4:
+	name = "in_1"
+	original_name = "x_4"
+	shape = [1, 1024, 768]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.003
+	std = 0.159

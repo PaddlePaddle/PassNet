@@ -1,0 +1,110 @@
+{
+    "samples/mmpose/RTMO-l": [
+        [
+            259,
+            260
+        ]
+    ],
+    "samples/mmpose/RTMO-m": [
+        [
+            196,
+            197
+        ]
+    ],
+    "samples/mmpose/RTMO-s": [
+        [
+            133,
+            134
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_l": [
+        [
+            218,
+            219
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_m": [
+        [
+            168,
+            169
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_s": [
+        [
+            118,
+            119
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_t": [
+        [
+            98,
+            99
+        ]
+    ],
+    "samples/mmpose/rtmpose-l": [
+        [
+            218,
+            219
+        ]
+    ],
+    "samples/mmpose/rtmpose-m": [
+        [
+            168,
+            169
+        ]
+    ],
+    "samples/mmpose/rtmpose-s": [
+        [
+            118,
+            119
+        ]
+    ],
+    "samples/mmpose/rtmpose-t": [
+        [
+            98,
+            99
+        ]
+    ],
+    "samples/mmpose/rtmw-l": [
+        [
+            218,
+            219
+        ]
+    ],
+    "samples/mmpose/rtmw-m": [
+        [
+            168,
+            169
+        ]
+    ],
+    "samples/mmpose/rtmw-x": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/mmpose/yoloxpose_l": [
+        [
+            259,
+            260
+        ]
+    ],
+    "samples/mmpose/yoloxpose_m": [
+        [
+            196,
+            197
+        ]
+    ],
+    "samples/mmpose/yoloxpose_tiny": [
+        [
+            133,
+            134
+        ]
+    ],
+    "samples/ultralytics/yolov3-sppu": [
+        [
+            190,
+            191
+        ]
+    ]
+}

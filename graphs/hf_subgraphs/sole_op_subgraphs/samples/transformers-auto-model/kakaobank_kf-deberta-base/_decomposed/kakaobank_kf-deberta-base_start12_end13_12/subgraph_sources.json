@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/kakaobank_kf-deberta-base": [
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ]
+}

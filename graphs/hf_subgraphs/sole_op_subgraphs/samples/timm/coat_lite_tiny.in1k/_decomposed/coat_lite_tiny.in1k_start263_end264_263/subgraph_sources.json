@@ -1,0 +1,12 @@
+{
+    "samples/timm/coat_lite_tiny.in1k": [
+        [
+            263,
+            264
+        ],
+        [
+            314,
+            315
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/facebook_levit-192": [
+        [
+            224,
+            225
+        ],
+        [
+            261,
+            262
+        ],
+        [
+            298,
+            299
+        ],
+        [
+            335,
+            336
+        ]
+    ]
+}

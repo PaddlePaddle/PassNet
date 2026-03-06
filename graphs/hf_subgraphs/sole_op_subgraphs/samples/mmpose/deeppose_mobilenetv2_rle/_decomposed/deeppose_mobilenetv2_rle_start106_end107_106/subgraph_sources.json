@@ -1,0 +1,204 @@
+{
+    "samples/mmpose/deeppose_mobilenetv2_rle": [
+        [
+            97,
+            98
+        ],
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/mmpose/pose_mobilenetv2": [
+        [
+            97,
+            98
+        ],
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/mmpose/simcc_mobilenetv2": [
+        [
+            97,
+            98
+        ],
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/mmseg/Fast-SCNN": [
+        [
+            50,
+            51
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            68,
+            69
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3": [
+        [
+            97,
+            98
+        ],
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3+": [
+        [
+            97,
+            98
+        ],
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_FCN": [
+        [
+            97,
+            98
+        ],
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_PSPNet": [
+        [
+            97,
+            98
+        ],
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/timm/efficientnet_b3.ra2_in1k": [
+        [
+            131,
+            132
+        ],
+        [
+            146,
+            147
+        ],
+        [
+            161,
+            162
+        ],
+        [
+            176,
+            177
+        ]
+    ],
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            168,
+            169
+        ]
+    ],
+    "samples/timm/hardcorenas_c.miil_green_in1k": [
+        [
+            180,
+            181
+        ]
+    ],
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            97,
+            98
+        ]
+    ],
+    "samples/timm/mobilenetv2_100.ra_in1k": [
+        [
+            97,
+            98
+        ],
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/timm/tinynet_e.in1k": [
+        [
+            132,
+            133
+        ]
+    ],
+    "samples/torchvision/efficientnet_b3": [
+        [
+            136,
+            137
+        ],
+        [
+            152,
+            153
+        ],
+        [
+            168,
+            169
+        ],
+        [
+            184,
+            185
+        ]
+    ],
+    "samples/torchvision/mnasnet0_5": [
+        [
+            141,
+            142
+        ]
+    ],
+    "samples/torchvision/mnasnet1_0": [
+        [
+            97,
+            98
+        ]
+    ],
+    "samples/torchvision/mobilenet_v2": [
+        [
+            97,
+            98
+        ],
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/ultralytics/yolov10m": [
+        [
+            131,
+            132
+        ],
+        [
+            147,
+            148
+        ],
+        [
+            321,
+            322
+        ],
+        [
+            337,
+            338
+        ],
+        [
+            403,
+            404
+        ],
+        [
+            466,
+            467
+        ]
+    ]
+}

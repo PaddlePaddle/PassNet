@@ -1,0 +1,158 @@
+{
+    "samples/mmseg/SegNeXt-b": [
+        [
+            830,
+            831
+        ]
+    ],
+    "samples/mmseg/SegNeXt-l": [
+        [
+            1476,
+            1477
+        ]
+    ],
+    "samples/mmseg/SegNeXt-s": [
+        [
+            412,
+            413
+        ]
+    ],
+    "samples/mmseg/SegNeXt-t": [
+        [
+            526,
+            527
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_fpn": [
+        [
+            676,
+            677
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_uperhead": [
+        [
+            676,
+            677
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_fpn": [
+        [
+            975,
+            976
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_uperhead": [
+        [
+            975,
+            976
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_fpn": [
+        [
+            400,
+            401
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_uperhead": [
+        [
+            400,
+            401
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            938,
+            939
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_uperhead": [
+        [
+            938,
+            939
+        ]
+    ],
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            938,
+            939
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            709,
+            710
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_uperhead": [
+        [
+            709,
+            710
+        ]
+    ],
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            2091,
+            2092
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification": [
+        [
+            85,
+            86
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerModel": [
+        [
+            85,
+            86
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            337,
+            338
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            337,
+            338
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b2": [
+        [
+            651,
+            652
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b3": [
+        [
+            1131,
+            1132
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b4": [
+        [
+            1651,
+            1652
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b5": [
+        [
+            2091,
+            2092
+        ]
+    ],
+    "samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512": [
+        [
+            337,
+            338
+        ]
+    ],
+    "samples/transformers-auto-model/segformer_b2_clothes": [
+        [
+            651,
+            652
+        ]
+    ]
+}

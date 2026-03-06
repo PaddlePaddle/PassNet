@@ -1,0 +1,64 @@
+{
+    "samples/transformers-auto-model/Geotrend_distilbert-base-bg-cased": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_roberta-large-korean-upos": [
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BartForSequenceClassification": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification": [
+        [
+            8,
+            9
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MvpForSequenceClassification": [
+        [
+            8,
+            9
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaForSequenceClassification": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/inthedarkness_klue-roberta-small-cross-encoder": [
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/klue_bert-base": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/pongjin_roberta_with_kornli": [
+        [
+            16,
+            17
+        ]
+    ]
+}

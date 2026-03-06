@@ -1,0 +1,80 @@
+{
+    "samples/transformers-auto-model/IDEA-Research_dab-detr-resnet-50": [
+        [
+            887,
+            888
+        ]
+    ],
+    "samples/transformers-auto-model/binery_Table_detection_MS_E_14": [
+        [
+            434,
+            435
+        ]
+    ],
+    "samples/transformers-auto-model/davidhajdu_dab_detr_finetuned_cppe5": [
+        [
+            888,
+            889
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101": [
+        [
+            1550,
+            1551
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-50": [
+        [
+            870,
+            871
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_conditional-detr-resnet-50": [
+        [
+            870,
+            871
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-detection": [
+        [
+            434,
+            435
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-structure-recognition": [
+        [
+            434,
+            435
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            870,
+            871
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r101-cd45rb-8ah-6l-256d-4096ffn": [
+        [
+            1550,
+            1551
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r50-cd45rb-4ah-6l": [
+        [
+            870,
+            871
+        ]
+    ],
+    "samples/transformers-auto-model/prathmeshrmadhu_detr-finetuned-odorv3": [
+        [
+            750,
+            751
+        ]
+    ],
+    "samples/transformers-auto-model/rice-rice_detr-resnet-50_finetuned_dataset": [
+        [
+            870,
+            871
+        ]
+    ]
+}

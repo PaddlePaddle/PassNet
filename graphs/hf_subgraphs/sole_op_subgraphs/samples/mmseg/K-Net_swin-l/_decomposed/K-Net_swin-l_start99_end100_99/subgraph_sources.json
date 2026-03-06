@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            99,
+            100
+        ]
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "samples/transformers-auto-model/IDEA-Research_dab-detr-resnet-50": [
+        [
+            1183,
+            1184
+        ],
+        [
+            1328,
+            1329
+        ],
+        [
+            1470,
+            1471
+        ],
+        [
+            1612,
+            1613
+        ],
+        [
+            1754,
+            1755
+        ],
+        [
+            1896,
+            1897
+        ]
+    ],
+    "samples/transformers-auto-model/davidhajdu_dab_detr_finetuned_cppe5": [
+        [
+            1184,
+            1185
+        ],
+        [
+            1329,
+            1330
+        ],
+        [
+            1471,
+            1472
+        ],
+        [
+            1613,
+            1614
+        ],
+        [
+            1755,
+            1756
+        ],
+        [
+            1897,
+            1898
+        ]
+    ]
+}

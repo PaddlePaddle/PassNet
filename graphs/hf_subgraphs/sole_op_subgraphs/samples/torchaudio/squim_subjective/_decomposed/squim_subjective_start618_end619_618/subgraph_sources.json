@@ -1,0 +1,14 @@
+{
+    "samples/torchaudio/squim_subjective": [
+        [
+            618,
+            619
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-224-lit": [
+        [
+            1581,
+            1582
+        ]
+    ]
+}

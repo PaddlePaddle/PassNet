@@ -1,0 +1,298 @@
+{
+    "samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/IMISLab_GreekWiki-umt5-base": [
+        [
+            36,
+            37
+        ],
+        [
+            146,
+            147
+        ],
+        [
+            256,
+            257
+        ],
+        [
+            366,
+            367
+        ],
+        [
+            476,
+            477
+        ],
+        [
+            586,
+            587
+        ],
+        [
+            696,
+            697
+        ],
+        [
+            806,
+            807
+        ],
+        [
+            916,
+            917
+        ],
+        [
+            1026,
+            1027
+        ],
+        [
+            1136,
+            1137
+        ],
+        [
+            1246,
+            1247
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_fid_flan_t5_base_nq": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/transformers-auto-model/Michielo_mt5-small_nl-en_translation": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_long-t5-tfg": [
+        [
+            1980,
+            1981
+        ]
+    ],
+    "samples/transformers-auto-model/allegro_plt5-large": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/binery_Table_detection_MS_E_14": [
+        [
+            676,
+            677
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/cointegrated_rut5-base-absum": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/csebuetnlp_mT5_multilingual_XLSum": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101": [
+        [
+            1792,
+            1793
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101-dc5": [
+        [
+            1792,
+            1793
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-50": [
+        [
+            1112,
+            1113
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-base": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5-small": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_base": [
+        [
+            38,
+            39
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_small": [
+        [
+            38,
+            39
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_base": [
+        [
+            38,
+            39
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_large": [
+        [
+            38,
+            39
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_small": [
+        [
+            38,
+            39
+        ]
+    ],
+    "samples/transformers-auto-model/google_pix2struct-base": [
+        [
+            804,
+            805
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-mini": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/gsarti_it5-efficient-small-el32-wiki-summarization": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/igorktech_rut5-small-chit-chat-intelligent": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-base-translation-ja_zh": [
+        [
+            711,
+            712
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-small-translation-ja_zh": [
+        [
+            503,
+            504
+        ]
+    ],
+    "samples/transformers-auto-model/larryvrh_mt5-translation-ja_zh": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            345,
+            346
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_conditional-detr-resnet-50": [
+        [
+            1112,
+            1113
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-detection": [
+        [
+            677,
+            678
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-structure-recognition": [
+        [
+            677,
+            678
+        ]
+    ],
+    "samples/transformers-auto-model/moska_plt5-seq-clf-with-entities-updated-finetuned": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            1124,
+            1125
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r101-cd45rb-8ah-6l-256d-4096ffn": [
+        [
+            1804,
+            1805
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r50-cd45rb-4ah-6l": [
+        [
+            1130,
+            1131
+        ]
+    ],
+    "samples/transformers-auto-model/prathmeshrmadhu_detr-finetuned-odorv3": [
+        [
+            992,
+            993
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_tFINE-base-300m-samsum": [
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/rice-rice_detr-resnet-50_finetuned_dataset": [
+        [
+            1118,
+            1119
+        ]
+    ],
+    "samples/transformers-auto-model/t5-small": [
+        [
+            39,
+            40
+        ]
+    ]
+}

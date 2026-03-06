@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/garNER_albert-tiny-spanish-es-LM": [
+        [
+            27,
+            28
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            90,
+            91
+        ]
+    ]
+}

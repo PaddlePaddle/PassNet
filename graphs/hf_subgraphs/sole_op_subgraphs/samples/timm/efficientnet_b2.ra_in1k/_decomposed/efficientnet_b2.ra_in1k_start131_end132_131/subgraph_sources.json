@@ -1,0 +1,60 @@
+{
+    "samples/timm/efficientnet_b2.ra_in1k": [
+        [
+            131,
+            132
+        ],
+        [
+            146,
+            147
+        ],
+        [
+            161,
+            162
+        ]
+    ],
+    "samples/timm/mnasnet_small.lamb_in1k": [
+        [
+            185,
+            186
+        ]
+    ],
+    "samples/timm/mobilenetv2_140.ra_in1k": [
+        [
+            62,
+            63
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            89,
+            90
+        ]
+    ],
+    "samples/timm/semnasnet_075.rmsp_in1k": [
+        [
+            121,
+            122
+        ]
+    ],
+    "samples/torchvision/efficientnet_b2": [
+        [
+            136,
+            137
+        ],
+        [
+            152,
+            153
+        ],
+        [
+            168,
+            169
+        ]
+    ]
+}

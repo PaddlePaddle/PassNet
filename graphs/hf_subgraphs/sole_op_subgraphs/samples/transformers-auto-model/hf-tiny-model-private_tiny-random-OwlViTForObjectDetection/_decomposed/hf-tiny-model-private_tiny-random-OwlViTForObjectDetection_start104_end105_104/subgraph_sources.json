@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            34,
+            35
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            104,
+            105
+        ],
+        [
+            139,
+            140
+        ],
+        [
+            174,
+            175
+        ]
+    ]
+}

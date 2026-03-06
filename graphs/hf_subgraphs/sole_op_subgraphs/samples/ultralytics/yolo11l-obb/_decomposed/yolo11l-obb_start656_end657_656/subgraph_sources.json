@@ -1,0 +1,114 @@
+{
+    "samples/ultralytics/yolo11l-obb": [
+        [
+            656,
+            657
+        ],
+        [
+            657,
+            658
+        ],
+        [
+            658,
+            659
+        ]
+    ],
+    "samples/ultralytics/yolo11m-obb": [
+        [
+            437,
+            438
+        ],
+        [
+            438,
+            439
+        ],
+        [
+            439,
+            440
+        ]
+    ],
+    "samples/ultralytics/yolo11n-obb": [
+        [
+            352,
+            353
+        ],
+        [
+            353,
+            354
+        ],
+        [
+            354,
+            355
+        ]
+    ],
+    "samples/ultralytics/yolo11s-obb": [
+        [
+            352,
+            353
+        ],
+        [
+            353,
+            354
+        ],
+        [
+            354,
+            355
+        ]
+    ],
+    "samples/ultralytics/yolo11x-obb": [
+        [
+            656,
+            657
+        ],
+        [
+            657,
+            658
+        ],
+        [
+            658,
+            659
+        ]
+    ],
+    "samples/ultralytics/yolov8l-obb": [
+        [
+            388,
+            389
+        ],
+        [
+            389,
+            390
+        ],
+        [
+            390,
+            391
+        ]
+    ],
+    "samples/ultralytics/yolov8m-obb": [
+        [
+            322,
+            323
+        ],
+        [
+            323,
+            324
+        ],
+        [
+            324,
+            325
+        ]
+    ],
+    "samples/ultralytics/yolov8n-obb": [
+        [
+            256,
+            257
+        ],
+        [
+            257,
+            258
+        ],
+        [
+            258,
+            259
+        ]
+    ]
+}

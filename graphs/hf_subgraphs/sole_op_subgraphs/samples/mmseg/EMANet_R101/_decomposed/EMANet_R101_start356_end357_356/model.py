@@ -1,0 +1,7 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, in_0):
+        tmp_0 = torch.nn.functional.normalize(in_0, dim=1, p=1)
+        return (tmp_0,)

@@ -1,0 +1,50 @@
+{
+    "samples/nemo/parakeet-ctc-0.6b": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/nemo/parakeet-ctc-1.1b": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/nemo/parakeet-tdt-0.6b-v3": [
+        [
+            32,
+            33
+        ]
+    ],
+    "samples/nemo/parakeet-tdt-1.1b": [
+        [
+            32,
+            33
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_large_pc": [
+        [
+            32,
+            33
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_large_streaming_multi": [
+        [
+            36,
+            37
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_medium_streaming_80ms_pc": [
+        [
+            36,
+            37
+        ]
+    ],
+    "samples/transformers-auto-model/canary-1b-v2": [
+        [
+            32,
+            33
+        ]
+    ]
+}

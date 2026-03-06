@@ -1,0 +1,82 @@
+{
+    "samples/timm/dm_nfnet_f2": [
+        [
+            830,
+            831
+        ]
+    ],
+    "samples/timm/dm_nfnet_f3": [
+        [
+            959,
+            960
+        ],
+        [
+            1999,
+            2000
+        ]
+    ],
+    "samples/timm/dm_nfnet_f4": [
+        [
+            650,
+            651
+        ],
+        [
+            1088,
+            1089
+        ],
+        [
+            2386,
+            2387
+        ]
+    ],
+    "samples/timm/dm_nfnet_f5": [
+        [
+            693,
+            694
+        ],
+        [
+            1217,
+            1218
+        ],
+        [
+            2773,
+            2774
+        ]
+    ],
+    "samples/timm/dm_nfnet_f6": [
+        [
+            736,
+            737
+        ],
+        [
+            1346,
+            1347
+        ],
+        [
+            3160,
+            3161
+        ]
+    ],
+    "samples/timm/eca_nfnet_l1": [
+        [
+            633,
+            634
+        ]
+    ],
+    "samples/timm/eca_nfnet_l2": [
+        [
+            750,
+            751
+        ]
+    ],
+    "samples/timm/eca_nfnet_l3": [
+        [
+            867,
+            868
+        ],
+        [
+            1810,
+            1811
+        ]
+    ]
+}

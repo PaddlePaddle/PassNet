@@ -1,0 +1,12 @@
+{
+    "samples/torchvision/efficientnet_b6": [
+        [
+            671,
+            672
+        ],
+        [
+            687,
+            688
+        ]
+    ]
+}

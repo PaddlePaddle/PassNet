@@ -1,0 +1,70 @@
+{
+    "samples/mmpose/deeppose_mobilenetv2_rle": [
+        [
+            150,
+            151
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_101": [
+        [
+            343,
+            344
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_101_rle": [
+        [
+            343,
+            344
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_152": [
+        [
+            513,
+            514
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_152_rle": [
+        [
+            513,
+            514
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_50": [
+        [
+            173,
+            174
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_50_rle": [
+        [
+            173,
+            174
+        ]
+    ],
+    "samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter": [
+        [
+            23,
+            24
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            107,
+            108
+        ],
+        [
+            149,
+            150
+        ],
+        [
+            191,
+            192
+        ],
+        [
+            233,
+            234
+        ]
+    ]
+}

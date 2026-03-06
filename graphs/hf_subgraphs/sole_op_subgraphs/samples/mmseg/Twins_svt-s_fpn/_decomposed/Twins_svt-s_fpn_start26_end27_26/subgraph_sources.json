@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            26,
+            27
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_uperhead": [
+        [
+            26,
+            27
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/NDugar_deberta-v2-xlarge-mnli": [
+        [
+            146,
+            147
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegaForSequenceClassification": [
+        [
+            24,
+            25
+        ],
+        [
+            155,
+            156
+        ],
+        [
+            286,
+            287
+        ],
+        [
+            417,
+            418
+        ],
+        [
+            548,
+            549
+        ]
+    ]
+}

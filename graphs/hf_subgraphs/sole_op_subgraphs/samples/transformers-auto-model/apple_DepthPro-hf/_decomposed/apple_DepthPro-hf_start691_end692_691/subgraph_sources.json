@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/apple_DepthPro-hf": [
+        [
+            691,
+            692
+        ]
+    ],
+    "samples/ultralytics/yolov10l": [
+        [
+            691,
+            692
+        ]
+    ],
+    "samples/ultralytics/yolov10m": [
+        [
+            566,
+            567
+        ]
+    ],
+    "samples/ultralytics/yolov10n": [
+        [
+            454,
+            455
+        ]
+    ],
+    "samples/ultralytics/yolov10s": [
+        [
+            466,
+            467
+        ]
+    ],
+    "samples/ultralytics/yolov10x": [
+        [
+            745,
+            746
+        ]
+    ]
+}

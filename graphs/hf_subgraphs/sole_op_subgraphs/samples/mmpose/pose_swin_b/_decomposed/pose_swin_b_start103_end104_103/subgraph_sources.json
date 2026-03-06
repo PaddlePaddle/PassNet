@@ -1,0 +1,26 @@
+{
+    "samples/mmpose/pose_swin_b": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/mmseg/Swin-b": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/torchvision/swin_b": [
+        [
+            90,
+            91
+        ]
+    ],
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            107,
+            108
+        ]
+    ]
+}

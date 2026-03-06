@@ -1,0 +1,14 @@
+{
+    "samples/timm/coatnet_5_224": [
+        [
+            42,
+            43
+        ]
+    ],
+    "samples/torchvision/maxvit_t": [
+        [
+            933,
+            934
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/Sayan01_L-4_H-128_A-2_Large_sst2": [
+        [
+            26,
+            27
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            92,
+            93
+        ]
+    ],
+    "samples/transformers-auto-model/prajjwal1_bert-tiny": [
+        [
+            26,
+            27
+        ],
+        [
+            48,
+            49
+        ]
+    ]
+}

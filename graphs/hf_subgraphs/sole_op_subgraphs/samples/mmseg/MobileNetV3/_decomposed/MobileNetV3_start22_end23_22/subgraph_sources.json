@@ -1,0 +1,100 @@
+{
+    "samples/mmseg/MobileNetV3": [
+        [
+            22,
+            23
+        ]
+    ],
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/mixnet_s.ft_in1k": [
+        [
+            35,
+            36
+        ]
+    ],
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            19,
+            20
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_100.miil_in21k": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/timm/mobilenetv3_rw.rmsp_in1k": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/timm/regnetz_c16.ra3_in1k": [
+        [
+            317,
+            318
+        ]
+    ],
+    "samples/timm/repghostnet_200.in1k": [
+        [
+            42,
+            43
+        ],
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/timm/spnasnet_100.rmsp_in1k": [
+        [
+            19,
+            20
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/torchvision/deeplabv3_mobilenet_v3_large": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/torchvision/mnasnet0_75": [
+        [
+            19,
+            20
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/torchvision/mnasnet1_0": [
+        [
+            19,
+            20
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_large": [
+        [
+            20,
+            21
+        ]
+    ]
+}

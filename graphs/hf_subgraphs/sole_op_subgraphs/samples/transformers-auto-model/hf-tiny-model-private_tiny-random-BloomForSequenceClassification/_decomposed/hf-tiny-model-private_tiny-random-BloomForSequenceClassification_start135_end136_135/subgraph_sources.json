@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BloomForSequenceClassification": [
+        [
+            51,
+            52
+        ],
+        [
+            93,
+            94
+        ],
+        [
+            135,
+            136
+        ],
+        [
+            177,
+            178
+        ],
+        [
+            219,
+            220
+        ]
+    ]
+}

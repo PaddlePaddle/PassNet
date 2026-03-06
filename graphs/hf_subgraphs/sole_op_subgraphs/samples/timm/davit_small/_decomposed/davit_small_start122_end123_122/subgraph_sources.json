@@ -1,0 +1,74 @@
+{
+    "samples/timm/davit_small": [
+        [
+            122,
+            123
+        ]
+    ],
+    "samples/timm/davit_tiny": [
+        [
+            122,
+            123
+        ]
+    ],
+    "samples/timm/swinv2_cr_small_224.sw_in1k": [
+        [
+            171,
+            172
+        ],
+        [
+            232,
+            233
+        ]
+    ],
+    "samples/timm/swinv2_cr_small_ns_224.sw_in1k": [
+        [
+            172,
+            173
+        ],
+        [
+            233,
+            234
+        ]
+    ],
+    "samples/timm/swinv2_cr_tiny_ns_224.sw_in1k": [
+        [
+            172,
+            173
+        ],
+        [
+            233,
+            234
+        ]
+    ],
+    "samples/transformers-auto-model/ibombonato_swin-age-classifier": [
+        [
+            178,
+            179
+        ],
+        [
+            254,
+            255
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-small-patch4-window7-224": [
+        [
+            178,
+            179
+        ],
+        [
+            254,
+            255
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-tiny-patch4-window7-224": [
+        [
+            178,
+            179
+        ],
+        [
+            254,
+            255
+        ]
+    ]
+}

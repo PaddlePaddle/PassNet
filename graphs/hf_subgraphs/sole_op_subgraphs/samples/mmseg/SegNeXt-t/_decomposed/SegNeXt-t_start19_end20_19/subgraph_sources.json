@@ -1,0 +1,30 @@
+{
+    "samples/mmseg/SegNeXt-t": [
+        [
+            19,
+            20
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            95,
+            96
+        ]
+    ],
+    "samples/timm/inception_next_base.sail_in1k": [
+        [
+            61,
+            62
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            95,
+            96
+        ]
+    ]
+}

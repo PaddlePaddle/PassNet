@@ -1,0 +1,38 @@
+{
+    "samples/mmpose/RTMO-l": [
+        [
+            316,
+            317
+        ],
+        [
+            317,
+            318
+        ]
+    ],
+    "samples/mmpose/RTMO-m": [
+        [
+            245,
+            246
+        ],
+        [
+            246,
+            247
+        ]
+    ],
+    "samples/mmpose/RTMO-s": [
+        [
+            174,
+            175
+        ],
+        [
+            175,
+            176
+        ]
+    ],
+    "samples/transformers-auto-model/apple_DepthPro-hf": [
+        [
+            2301,
+            2302
+        ]
+    ]
+}

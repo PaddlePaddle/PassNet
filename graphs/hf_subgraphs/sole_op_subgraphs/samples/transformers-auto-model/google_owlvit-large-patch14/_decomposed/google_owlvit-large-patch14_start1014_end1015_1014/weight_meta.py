@@ -1,0 +1,8 @@
+class Program_weight_tensor_meta_attn_weights_66:
+	name = "in_0"
+	original_name = "attn_weights_66"
+	shape = [16, 7, 7]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.002

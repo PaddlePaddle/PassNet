@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BlipModel": [
+        [
+            299,
+            300
+        ]
+    ],
+    "samples/transformers-auto-model/mooncakex_img2": [
+        [
+            670,
+            671
+        ]
+    ]
+}

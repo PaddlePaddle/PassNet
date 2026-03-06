@@ -1,0 +1,28 @@
+class Program_weight_tensor_meta_L_self_modules_stages_modules_1_modules_0_modules_conv2_parameters_bias_:
+	name = "w_0"
+	original_name = "L_self_modules_stages_modules_1_modules_0_modules_conv2_parameters_bias_"
+	shape = [128]
+	dtype = "torch.float32"
+	device = "cpu"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_silu_8:
+	name = "in_0"
+	original_name = "silu_8"
+	shape = [1, 128, 56, 56]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.008
+	std = 0.092
+
+
+class Program_weight_tensor_meta_weight_11:
+	name = "in_1"
+	original_name = "weight_11"
+	shape = [128, 64, 3, 3]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.070

@@ -1,0 +1,2122 @@
+{
+    "samples/mmseg/DGT": [
+        [
+            71,
+            72
+        ],
+        [
+            127,
+            128
+        ],
+        [
+            183,
+            184
+        ],
+        [
+            239,
+            240
+        ]
+    ],
+    "samples/timm/cait_m36_384": [
+        [
+            1196,
+            1197
+        ],
+        [
+            1224,
+            1225
+        ],
+        [
+            1252,
+            1253
+        ]
+    ],
+    "samples/timm/cait_m48_448": [
+        [
+            1592,
+            1593
+        ],
+        [
+            1620,
+            1621
+        ],
+        [
+            1648,
+            1649
+        ]
+    ],
+    "samples/timm/cait_s24_224.fb_dist_in1k": [
+        [
+            800,
+            801
+        ],
+        [
+            828,
+            829
+        ],
+        [
+            856,
+            857
+        ]
+    ],
+    "samples/timm/cait_s24_384": [
+        [
+            800,
+            801
+        ],
+        [
+            828,
+            829
+        ],
+        [
+            856,
+            857
+        ]
+    ],
+    "samples/timm/cait_s36_384": [
+        [
+            1196,
+            1197
+        ],
+        [
+            1224,
+            1225
+        ],
+        [
+            1252,
+            1253
+        ]
+    ],
+    "samples/timm/cait_xs24_384": [
+        [
+            800,
+            801
+        ],
+        [
+            828,
+            829
+        ],
+        [
+            856,
+            857
+        ]
+    ],
+    "samples/timm/cait_xxs24_224.fb_dist_in1k": [
+        [
+            800,
+            801
+        ],
+        [
+            828,
+            829
+        ],
+        [
+            856,
+            857
+        ]
+    ],
+    "samples/timm/cait_xxs24_384": [
+        [
+            800,
+            801
+        ],
+        [
+            828,
+            829
+        ],
+        [
+            856,
+            857
+        ]
+    ],
+    "samples/timm/cait_xxs36_224.fb_dist_in1k": [
+        [
+            1196,
+            1197
+        ],
+        [
+            1224,
+            1225
+        ],
+        [
+            1252,
+            1253
+        ]
+    ],
+    "samples/timm/cait_xxs36_384": [
+        [
+            1196,
+            1197
+        ],
+        [
+            1224,
+            1225
+        ],
+        [
+            1252,
+            1253
+        ]
+    ],
+    "samples/timm/coat_lite_medium.in1k": [
+        [
+            1418,
+            1419
+        ]
+    ],
+    "samples/timm/coat_lite_medium_384": [
+        [
+            1418,
+            1419
+        ]
+    ],
+    "samples/timm/coat_lite_mini.in1k": [
+        [
+            449,
+            450
+        ]
+    ],
+    "samples/timm/coat_lite_small.in1k": [
+        [
+            857,
+            858
+        ]
+    ],
+    "samples/timm/coat_lite_tiny.in1k": [
+        [
+            449,
+            450
+        ]
+    ],
+    "samples/timm/coat_mini": [
+        [
+            1693,
+            1694
+        ],
+        [
+            1694,
+            1695
+        ],
+        [
+            1695,
+            1696
+        ]
+    ],
+    "samples/timm/coat_small": [
+        [
+            1693,
+            1694
+        ],
+        [
+            1694,
+            1695
+        ],
+        [
+            1695,
+            1696
+        ]
+    ],
+    "samples/timm/coat_tiny": [
+        [
+            1693,
+            1694
+        ],
+        [
+            1694,
+            1695
+        ],
+        [
+            1695,
+            1696
+        ]
+    ],
+    "samples/timm/crossvit_15_240.in1k": [
+        [
+            605,
+            606
+        ],
+        [
+            606,
+            607
+        ]
+    ],
+    "samples/timm/crossvit_15_dagger_240.in1k": [
+        [
+            613,
+            614
+        ],
+        [
+            614,
+            615
+        ]
+    ],
+    "samples/timm/crossvit_15_dagger_408.in1k": [
+        [
+            614,
+            615
+        ],
+        [
+            615,
+            616
+        ]
+    ],
+    "samples/timm/crossvit_18_240.in1k": [
+        [
+            668,
+            669
+        ],
+        [
+            669,
+            670
+        ]
+    ],
+    "samples/timm/crossvit_18_dagger_240.in1k": [
+        [
+            676,
+            677
+        ],
+        [
+            677,
+            678
+        ]
+    ],
+    "samples/timm/crossvit_18_dagger_408.in1k": [
+        [
+            677,
+            678
+        ],
+        [
+            678,
+            679
+        ]
+    ],
+    "samples/timm/crossvit_9_240.in1k": [
+        [
+            479,
+            480
+        ],
+        [
+            480,
+            481
+        ]
+    ],
+    "samples/timm/crossvit_9_dagger_240.in1k": [
+        [
+            487,
+            488
+        ],
+        [
+            488,
+            489
+        ]
+    ],
+    "samples/timm/crossvit_base_240.in1k": [
+        [
+            542,
+            543
+        ],
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/timm/crossvit_small_240.in1k": [
+        [
+            542,
+            543
+        ],
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/timm/crossvit_tiny_240.in1k": [
+        [
+            542,
+            543
+        ],
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/timm/deit3_base_patch16_224.fb_in1k": [
+        [
+            284,
+            285
+        ]
+    ],
+    "samples/timm/deit3_base_patch16_384": [
+        [
+            284,
+            285
+        ]
+    ],
+    "samples/timm/deit3_huge_patch14_224.fb_in1k": [
+        [
+            744,
+            745
+        ]
+    ],
+    "samples/timm/deit3_large_patch16_224.fb_in1k": [
+        [
+            560,
+            561
+        ]
+    ],
+    "samples/timm/deit3_large_patch16_384": [
+        [
+            560,
+            561
+        ]
+    ],
+    "samples/timm/deit3_medium_patch16_224.fb_in1k": [
+        [
+            284,
+            285
+        ]
+    ],
+    "samples/timm/deit3_small_patch16_224.fb_in1k": [
+        [
+            284,
+            285
+        ]
+    ],
+    "samples/timm/deit3_small_patch16_384": [
+        [
+            284,
+            285
+        ]
+    ],
+    "samples/timm/deit_base_distilled_patch16_224.fb_in1k": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/deit_base_distilled_patch16_384": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/deit_base_patch16_224.fb_in1k": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/deit_small_distilled_patch16_224.fb_in1k": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/deit_small_patch16_224.fb_in1k": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/deit_tiny_distilled_patch16_224.fb_in1k": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/deit_tiny_patch16_224.fb_in1k": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/eva02_base_patch16_clip_224.merged2b": [
+        [
+            692,
+            693
+        ]
+    ],
+    "samples/timm/eva02_enormous_patch14_clip_224.laion2b": [
+        [
+            1416,
+            1417
+        ]
+    ],
+    "samples/timm/eva02_large_patch14_clip_224.merged2b": [
+        [
+            1376,
+            1377
+        ]
+    ],
+    "samples/timm/eva_giant_patch14_clip_224.laion400m": [
+        [
+            888,
+            889
+        ]
+    ],
+    "samples/timm/vit_base_patch16_224.dino": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/vit_base_patch16_224_miil.in21k": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/vit_base_patch16_clip_224.datacompxl": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/vit_base_patch16_clip_quickgelu_224.metaclip_2pt5b": [
+        [
+            285,
+            286
+        ]
+    ],
+    "samples/timm/vit_base_patch16_rope_224.naver_in1k": [
+        [
+            643,
+            644
+        ]
+    ],
+    "samples/timm/vit_base_patch16_rope_ape_224.naver_in1k": [
+        [
+            644,
+            645
+        ]
+    ],
+    "samples/timm/vit_base_patch16_rope_mixed_224.naver_in1k": [
+        [
+            671,
+            672
+        ]
+    ],
+    "samples/timm/vit_base_patch16_rope_mixed_ape_224.naver_in1k": [
+        [
+            672,
+            673
+        ]
+    ],
+    "samples/timm/vit_base_patch32_224.augreg_in1k": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/vit_base_patch32_224.orig_in21k": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/vit_base_patch32_clip_224.datacompxl": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/vit_base_patch32_clip_quickgelu_224.laion400m_e32": [
+        [
+            285,
+            286
+        ]
+    ],
+    "samples/timm/vit_base_patch8_224.augreg2_in21k_ft_in1k": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/vit_base_patch8_224.dino": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/vit_betwixt_patch32_clip_224.tinyclip_laion400m": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/vit_giant_patch14_clip_224.laion2b": [
+        [
+            849,
+            850
+        ]
+    ],
+    "samples/timm/vit_gigantic_patch14_clip_224.laion2b": [
+        [
+            1017,
+            1018
+        ]
+    ],
+    "samples/timm/vit_gigantic_patch14_clip_quickgelu_224.metaclip_2pt5b": [
+        [
+            1113,
+            1114
+        ]
+    ],
+    "samples/timm/vit_huge_patch14_224.mae": [
+        [
+            680,
+            681
+        ]
+    ],
+    "samples/timm/vit_huge_patch14_clip_224.dfn5b": [
+        [
+            681,
+            682
+        ]
+    ],
+    "samples/timm/vit_huge_patch14_clip_quickgelu_224.dfn5b": [
+        [
+            745,
+            746
+        ]
+    ],
+    "samples/timm/vit_large_patch14_clip_224.datacompxl": [
+        [
+            513,
+            514
+        ]
+    ],
+    "samples/timm/vit_large_patch14_clip_quickgelu_224.dfn2b": [
+        [
+            561,
+            562
+        ]
+    ],
+    "samples/timm/vit_large_patch16_224.augreg_in21k": [
+        [
+            512,
+            513
+        ]
+    ],
+    "samples/timm/vit_large_patch16_224.mae": [
+        [
+            512,
+            513
+        ]
+    ],
+    "samples/timm/vit_large_patch16_rope_224.naver_in1k": [
+        [
+            1279,
+            1280
+        ]
+    ],
+    "samples/timm/vit_large_patch16_rope_ape_224.naver_in1k": [
+        [
+            1280,
+            1281
+        ]
+    ],
+    "samples/timm/vit_large_patch16_rope_mixed_224.naver_in1k": [
+        [
+            1319,
+            1320
+        ]
+    ],
+    "samples/timm/vit_large_patch16_rope_mixed_ape_224.naver_in1k": [
+        [
+            1320,
+            1321
+        ]
+    ],
+    "samples/timm/vit_large_patch32_224.orig_in21k": [
+        [
+            512,
+            513
+        ]
+    ],
+    "samples/timm/vit_medium_patch16_clip_224.tinyclip_yfcc15m": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/vit_medium_patch32_clip_224.tinyclip_laion400m": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/vit_small_patch16_224.dino": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/vit_small_patch16_rope_224.naver_in1k": [
+        [
+            643,
+            644
+        ]
+    ],
+    "samples/timm/vit_small_patch16_rope_ape_224.naver_in1k": [
+        [
+            644,
+            645
+        ]
+    ],
+    "samples/timm/vit_small_patch16_rope_mixed_224.naver_in1k": [
+        [
+            671,
+            672
+        ]
+    ],
+    "samples/timm/vit_small_patch16_rope_mixed_ape_224.naver_in1k": [
+        [
+            672,
+            673
+        ]
+    ],
+    "samples/timm/vit_small_patch32_224.augreg_in21k": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/vit_small_patch8_224.dino": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/vit_xsmall_patch16_clip_224.tinyclip_yfcc15m": [
+        [
+            219,
+            220
+        ]
+    ],
+    "samples/torchvision/vit_b_16": [
+        [
+            152,
+            153
+        ]
+    ],
+    "samples/torchvision/vit_b_32": [
+        [
+            152,
+            153
+        ]
+    ],
+    "samples/torchvision/vit_h_14": [
+        [
+            392,
+            393
+        ]
+    ],
+    "samples/torchvision/vit_l_16": [
+        [
+            296,
+            297
+        ]
+    ],
+    "samples/torchvision/vit_l_32": [
+        [
+            296,
+            297
+        ]
+    ],
+    "samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased": [
+        [
+            708,
+            709
+        ]
+    ],
+    "samples/transformers-auto-model/AK_ak_nlp": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/transformers-auto-model/ALINEAR_albert-japanese": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/ALINEAR_albert-japanese-v2": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/AVSilva_bertimbau-large-fine-tuned-md": [
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/transformers-auto-model/AethiQs-Max_AethiQs_GemBERT_bertje_50k": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/AkshatSurolia_DeiT-FaceMask-Finetuned": [
+        [
+            321,
+            322
+        ]
+    ],
+    "samples/transformers-auto-model/Aleksandar_bert-srb-ner-setimes": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/BAAI_AltCLIP": [
+        [
+            719,
+            720
+        ]
+    ],
+    "samples/transformers-auto-model/BAAI_AltCLIP-m18": [
+        [
+            719,
+            720
+        ]
+    ],
+    "samples/transformers-auto-model/CAMeL-Lab_text-editing-qalb14-nopnx": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/Culmenus_XLMR-ENIS-finetuned-ner": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/DAMO-NLP-SG_zero-shot-classify-SSTuning-ALBERT": [
+        [
+            352,
+            353
+        ]
+    ],
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-bort": [
+        [
+            112,
+            113
+        ]
+    ],
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-merged": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/transformers-auto-model/Data-Lab_ruRoberta-large_classification_v0.2": [
+        [
+            552,
+            553
+        ]
+    ],
+    "samples/transformers-auto-model/Davlan_afro-xlmr-large": [
+        [
+            552,
+            553
+        ]
+    ],
+    "samples/transformers-auto-model/DeepChem_ChemBERTa-10M-MLM": [
+        [
+            90,
+            91
+        ]
+    ],
+    "samples/transformers-auto-model/Dr-BERT_CAS-Biomedical-POS-Tagging": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_est-roberta": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_finest-bert": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_litlat-bert": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/FacebookAI_roberta-large": [
+        [
+            552,
+            553
+        ]
+    ],
+    "samples/transformers-auto-model/Film8844_wangchanberta-ner": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/Ghana-NLP_robako-base-akuapem-twi-cased": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/transformers-auto-model/GroNLP_bert-base-dutch-cased-frisian": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/Hate-speech-CNERG_dehatebert-mono-arabic": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/HooshvareLab_albert-fa-zwnj-base-v2": [
+        [
+            352,
+            353
+        ]
+    ],
+    "samples/transformers-auto-model/InstaDeepAI_nucleotide-transformer-500m-human-ref": [
+        [
+            847,
+            848
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_dpt-large": [
+        [
+            640,
+            641
+        ],
+        [
+            656,
+            657
+        ],
+        [
+            672,
+            673
+        ],
+        [
+            687,
+            688
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_zoedepth-kitti": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_zoedepth-nyu": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/JackWong0911_timesformer-base-finetuned-k400-finetuned-kinetic400-subset-epoch6-num_frame_10": [
+        [
+            824,
+            825
+        ]
+    ],
+    "samples/transformers-auto-model/Jodsa_camembert_mlm": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k": [
+        [
+            360,
+            361
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_bert-large-japanese-upos": [
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_roberta-large-korean-upos": [
+        [
+            550,
+            551
+        ]
+    ],
+    "samples/transformers-auto-model/Lazaro97_results": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/LeoFeng_ChineseSequenceClassification": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/MCG-NJU_videomae-base-short": [
+        [
+            333,
+            334
+        ]
+    ],
+    "samples/transformers-auto-model/MCG-NJU_videomae-large": [
+        [
+            657,
+            658
+        ]
+    ],
+    "samples/transformers-auto-model/MIT_ast-finetuned-audioset-10-10-0.4593": [
+        [
+            323,
+            324
+        ]
+    ],
+    "samples/transformers-auto-model/MIT_ast-finetuned-audioset-14-14-0.443": [
+        [
+            323,
+            324
+        ]
+    ],
+    "samples/transformers-auto-model/MIT_ast-finetuned-speech-commands-v2": [
+        [
+            323,
+            324
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_ernie-m-base_pytorch": [
+        [
+            374,
+            375
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40": [
+        [
+            718,
+            719
+        ]
+    ],
+    "samples/transformers-auto-model/Mizuiro-sakura_luke-japanese-large-finetuned-ner": [
+        [
+            788,
+            789
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_multilingual-MiniLMv2-L12-mnli-xnli": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_multilingual-MiniLMv2-L6-mnli-xnli": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_xtremedistil-l6-h256-mnli-fever-anli-ling-binary": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/Onutoa_1_6e-3_5_0.5": [
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/transformers-auto-model/OpenMed_OpenMed-NER-PharmaDetect-SuperMedical-125M": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/Poulami_muril-large-cased-finetuned-sentiment-SST2": [
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/transformers-auto-model/Recognai_bert-base-spanish-wwm-cased-xnli": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/Sahajtomar_German_Zeroshot": [
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/transformers-auto-model/Sayan01_L-2_H-768_A-12_Large_sst2": [
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/Sayan01_L-4_H-128_A-2_Large_sst2": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/Sayan01_tiny-bert-sst2-distilled": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/TrustSafeAI_RADAR_Vicuna_7B": [
+        [
+            552,
+            553
+        ]
+    ],
+    "samples/transformers-auto-model/VitaliiVrublevskyi_ibert-roberta-base-finetuned-mrpc": [
+        [
+            569,
+            570
+        ]
+    ],
+    "samples/transformers-auto-model/WIC-Uchile_ene_phase4": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/adhisetiawan_vit-resisc45": [
+        [
+            320,
+            321
+        ]
+    ],
+    "samples/transformers-auto-model/aimarsg_prueba5": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/akdeniz27_bert-base-turkish-cased-ner": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/albert-base-v2": [
+        [
+            352,
+            353
+        ]
+    ],
+    "samples/transformers-auto-model/albert_albert-base-v1": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/albert_albert-large-v1": [
+        [
+            520,
+            521
+        ]
+    ],
+    "samples/transformers-auto-model/albert_albert-large-v2": [
+        [
+            688,
+            689
+        ]
+    ],
+    "samples/transformers-auto-model/albert_albert-xlarge-v1": [
+        [
+            520,
+            521
+        ]
+    ],
+    "samples/transformers-auto-model/almanach_camembert-base": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/anilguven_albert_tr_turkish_product_reviews": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/arxyzan_data2vec-beit-base": [
+        [
+            799,
+            800
+        ]
+    ],
+    "samples/transformers-auto-model/axotion_polish-reranker-base-ranknet": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/bert-base-uncased": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/bge-base-en-v1.5": [
+        [
+            281,
+            282
+        ],
+        [
+            284,
+            285
+        ]
+    ],
+    "samples/transformers-auto-model/bge-large-zh": [
+        [
+            545,
+            546
+        ],
+        [
+            548,
+            549
+        ]
+    ],
+    "samples/transformers-auto-model/bge-reranker-large": [
+        [
+            552,
+            553
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-en": [
+        [
+            281,
+            282
+        ],
+        [
+            284,
+            285
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            105,
+            106
+        ],
+        [
+            108,
+            109
+        ]
+    ],
+    "samples/transformers-auto-model/bookbot_distil-ast-audioset": [
+        [
+            167,
+            168
+        ]
+    ],
+    "samples/transformers-auto-model/ckiplab_albert-base-chinese-pos": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/ckiplab_albert-tiny-chinese-ner": [
+        [
+            100,
+            101
+        ]
+    ],
+    "samples/transformers-auto-model/cmarkea_distilcamembert-base-nli": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/transformers-auto-model/cointegrated_rubert-base-cased-nli-threeway": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-10-spanish-distilled-ner": [
+        [
+            226,
+            227
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-2-spanish-distilled-ner": [
+        [
+            58,
+            59
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-4-spanish-distilled-ner": [
+        [
+            100,
+            101
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-6-spanish-finetuned-ner": [
+        [
+            142,
+            143
+        ]
+    ],
+    "samples/transformers-auto-model/disi-unibo-nlp_openbioner-base": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/distilroberta-base": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/transformers-auto-model/domenicrosati_BioM-ALBERT-xxlarge-finetuned-DAGPap22": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/eliza-dukim_para-kqc-sim": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/emekaboris_autonlp-txc-17923129": [
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/transformers-auto-model/erica_krm_sa2": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/ethanyt_guwen-ner": [
+        [
+            286,
+            287
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit-base-distilled-patch16-384": [
+        [
+            321,
+            322
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224": [
+        [
+            321,
+            322
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224": [
+        [
+            321,
+            322
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dino-vitb8": [
+        [
+            320,
+            321
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dino-vits8": [
+        [
+            320,
+            321
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_esm2_t33_650M_UR50D": [
+        [
+            2174,
+            2175
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_timesformer-base-finetuned-k400": [
+        [
+            824,
+            825
+        ]
+    ],
+    "samples/transformers-auto-model/fcakyon_timesformer-hr-finetuned-k400": [
+        [
+            824,
+            825
+        ]
+    ],
+    "samples/transformers-auto-model/fcakyon_timesformer-large-finetuned-k400": [
+        [
+            824,
+            825
+        ]
+    ],
+    "samples/transformers-auto-model/garNER_albert-tiny-spanish-es-LM": [
+        [
+            100,
+            101
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-base-cased": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-base-chinese": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-base-multilingual-cased": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-large-uncased": [
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-128_A-2": [
+        [
+            235,
+            236
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-256_A-4": [
+        [
+            235,
+            236
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-512_A-8": [
+        [
+            235,
+            236
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-768_A-12": [
+        [
+            235,
+            236
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-12_H-128_A-2": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-12_H-256_A-4": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-12_H-512_A-8": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-128_A-2": [
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-256_A-4": [
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-512_A-8": [
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-768_A-12": [
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-4_H-128_A-2": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-4_H-256_A-4": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-4_H-512_A-8": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-4_H-768_A-12": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-6_H-128_A-2": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-6_H-256_A-4": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-6_H-512_A-8": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-6_H-768_A-12": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-128_A-2": [
+        [
+            191,
+            192
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-256_A-4": [
+        [
+            191,
+            192
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-512_A-8": [
+        [
+            191,
+            192
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-768_A-12": [
+        [
+            191,
+            192
+        ]
+    ],
+    "samples/transformers-auto-model/google/fnet-base": [
+        [
+            213,
+            214
+        ]
+    ],
+    "samples/transformers-auto-model/google_fnet-base": [
+        [
+            213,
+            214
+        ]
+    ],
+    "samples/transformers-auto-model/google_mobilebert-uncased": [
+        [
+            1435,
+            1436
+        ]
+    ],
+    "samples/transformers-auto-model/google_rembert": [
+        [
+            941,
+            942
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification": [
+        [
+            142,
+            143
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AltCLIPModel": [
+        [
+            168,
+            169
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification": [
+        [
+            125,
+            126
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BlipModel": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DPTModel": [
+        [
+            120,
+            121
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification": [
+        [
+            166,
+            167
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel": [
+        [
+            139,
+            140
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieForSequenceClassification": [
+        [
+            157,
+            158
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieMForSequenceClassification": [
+        [
+            164,
+            165
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EsmForSequenceClassification": [
+        [
+            188,
+            189
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-FNetForSequenceClassification": [
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LukeForSequenceClassification": [
+        [
+            180,
+            181
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MPNetForSequenceClassification": [
+        [
+            195,
+            196
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegaForSequenceClassification": [
+        [
+            662,
+            663
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification": [
+        [
+            157,
+            158
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileBertForSequenceClassification": [
+        [
+            314,
+            315
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-NezhaForSequenceClassification": [
+        [
+            239,
+            240
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RemBertForSequenceClassification": [
+        [
+            158,
+            159
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaForSequenceClassification": [
+        [
+            134,
+            135
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaPreLayerNormForSequenceClassification": [
+        [
+            167,
+            168
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-TimesformerForVideoClassification": [
+        [
+            355,
+            356
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ViTModel": [
+        [
+            138,
+            139
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosModel": [
+        [
+            169,
+            170
+        ]
+    ],
+    "samples/transformers-auto-model/hfl_chinese-macbert-large": [
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/transformers-auto-model/hfl_chinese-roberta-wwm-ext": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/hossamamer12_BUS15100_MB2_20epoch_notweettokenizer_fp16": [
+        [
+            137,
+            138
+        ]
+    ],
+    "samples/transformers-auto-model/huggingface_CodeBERTa-small-v1": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-base": [
+        [
+            365,
+            366
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small": [
+        [
+            365,
+            366
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-tiny": [
+        [
+            331,
+            332
+        ]
+    ],
+    "samples/transformers-auto-model/inthedarkness_klue-roberta-small-cross-encoder": [
+        [
+            154,
+            155
+        ]
+    ],
+    "samples/transformers-auto-model/joeddav_xlm-roberta-large-xnli": [
+        [
+            552,
+            553
+        ]
+    ],
+    "samples/transformers-auto-model/kaveh_rclip": [
+        [
+            938,
+            939
+        ]
+    ],
+    "samples/transformers-auto-model/klue_bert-base": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/lst-nectec_HoogBERTa-POS-lst20": [
+        [
+            286,
+            287
+        ]
+    ],
+    "samples/transformers-auto-model/m3hrdadfi_albert-fa-base-v2-ner-peyma": [
+        [
+            352,
+            353
+        ]
+    ],
+    "samples/transformers-auto-model/mahwizzzz_UrduClassification": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/miangoar_esm2_t12_35M_UR50D-finetuned-secondary-structure-classification": [
+        [
+            809,
+            810
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_layoutlm-base-uncased": [
+        [
+            420,
+            421
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_mpnet-base": [
+        [
+            405,
+            406
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-small-printed": [
+        [
+            321,
+            322
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xlm-align-base": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/milistu_reranker-msmarco-v1.1-MiniLM-L12-H384-uncased-lambdaloss_v2": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/mooncakex_img2": [
+        [
+            659,
+            660
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L12-v2": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L2-v2": [
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L4-v2": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L6-v2": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-TinyBERT-L2": [
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-TinyBERT-L4": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-TinyBERT-L6": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/msmarco-MiniLM-L12-en-de-v1": [
+        [
+            281,
+            282
+        ]
+    ],
+    "samples/transformers-auto-model/msmarco-MiniLM-L6-en-de-v1": [
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            191,
+            192
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_mini-vanilla-target-tweet": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_small-vanilla-target-tweet": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/multilingual-e5-large": [
+        [
+            552,
+            553
+        ]
+    ],
+    "samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en": [
+        [
+            142,
+            143
+        ]
+    ],
+    "samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/transformers-auto-model/nghuyong_ernie-2.0-base-en": [
+        [
+            360,
+            361
+        ]
+    ],
+    "samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection": [
+        [
+            365,
+            366
+        ]
+    ],
+    "samples/transformers-auto-model/nlptown_bert_base_multilingual_uncased_sentiment": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/nreimers_MiniLM-L6-H384-uncased": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/owkin_phikon": [
+        [
+            320,
+            321
+        ]
+    ],
+    "samples/transformers-auto-model/pongjin_roberta_with_kornli": [
+        [
+            286,
+            287
+        ]
+    ],
+    "samples/transformers-auto-model/prajjwal1_bert-tiny": [
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/roberta-base": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/sdadas_polish-reranker-roberta-v2": [
+        [
+            621,
+            622
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/LaBSE": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-MiniLM-L12-v1": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-MiniLM-L6-v1": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-distilroberta-v1": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-roberta-large-v1": [
+        [
+            552,
+            553
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/bert-large-nli-cls-token": [
+        [
+            543,
+            544
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/msmarco-roberta-base-ance-firstp": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-MiniLM-L3-v2": [
+        [
+            81,
+            82
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-TinyBERT-L6-v2": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-albert-base-v2": [
+        [
+            352,
+            353
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-albert-small-v2": [
+        [
+            184,
+            185
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-distilroberta-base-v1": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers_paraphrase-MiniLM-L3-v2": [
+        [
+            81,
+            82
+        ]
+    ],
+    "samples/transformers-auto-model/simjo_dummy-model": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/simonmun_Eyse_SentenceClassification": [
+        [
+            279,
+            280
+        ]
+    ],
+    "samples/transformers-auto-model/splade-mini": [
+        [
+            105,
+            106
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english": [
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/studio-ousia_luke-base": [
+        [
+            404,
+            405
+        ]
+    ],
+    "samples/transformers-auto-model/sureshnam9_esm2_t6_8M_UR50D-finetuned-secondary-structure": [
+        [
+            419,
+            420
+        ]
+    ],
+    "samples/transformers-auto-model/tau_tavbert-he": [
+        [
+            286,
+            287
+        ]
+    ],
+    "samples/transformers-auto-model/truong1301_reranker_pho_BLAI": [
+        [
+            286,
+            287
+        ]
+    ],
+    "samples/transformers-auto-model/ukr-models_xlm-roberta-base-uk": [
+        [
+            288,
+            289
+        ]
+    ],
+    "samples/transformers-auto-model/xc2450_distilbert-portuguese-cased-finetuned-bec_classification": [
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/yiyanghkust_finbert-tone": [
+        [
+            279,
+            280
+        ]
+    ]
+}

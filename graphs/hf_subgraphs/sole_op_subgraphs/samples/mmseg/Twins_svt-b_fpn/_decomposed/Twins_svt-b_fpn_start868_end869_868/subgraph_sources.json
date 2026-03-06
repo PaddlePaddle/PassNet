@@ -1,0 +1,60 @@
+{
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            9,
+            10
+        ],
+        [
+            868,
+            869
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_uperhead": [
+        [
+            9,
+            10
+        ],
+        [
+            868,
+            869
+        ]
+    ],
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            9,
+            10
+        ],
+        [
+            868,
+            869
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            9,
+            10
+        ],
+        [
+            572,
+            573
+        ],
+        [
+            645,
+            646
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_uperhead": [
+        [
+            9,
+            10
+        ],
+        [
+            572,
+            573
+        ],
+        [
+            645,
+            646
+        ]
+    ]
+}

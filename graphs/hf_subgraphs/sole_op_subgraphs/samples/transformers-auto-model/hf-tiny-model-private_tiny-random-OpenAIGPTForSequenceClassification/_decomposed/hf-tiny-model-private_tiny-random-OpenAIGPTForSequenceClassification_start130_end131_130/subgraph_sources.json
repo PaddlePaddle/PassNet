@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OpenAIGPTForSequenceClassification": [
+        [
+            30,
+            31
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            130,
+            131
+        ],
+        [
+            180,
+            181
+        ],
+        [
+            230,
+            231
+        ]
+    ]
+}

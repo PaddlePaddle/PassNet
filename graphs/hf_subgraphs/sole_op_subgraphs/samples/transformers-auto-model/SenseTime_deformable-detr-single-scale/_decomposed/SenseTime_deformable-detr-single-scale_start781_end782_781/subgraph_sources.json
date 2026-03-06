@@ -1,0 +1,28 @@
+{
+    "samples/transformers-auto-model/SenseTime_deformable-detr-single-scale": [
+        [
+            781,
+            782
+        ],
+        [
+            786,
+            787
+        ]
+    ],
+    "samples/transformers-auto-model/thuml_sundial-base-128m": [
+        [
+            2594,
+            2595
+        ]
+    ],
+    "samples/transformers-auto-model/tsime_detr_mapilary": [
+        [
+            993,
+            994
+        ],
+        [
+            998,
+            999
+        ]
+    ]
+}

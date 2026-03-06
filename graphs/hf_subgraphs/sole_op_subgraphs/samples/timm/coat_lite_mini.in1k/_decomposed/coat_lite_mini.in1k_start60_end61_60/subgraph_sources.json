@@ -1,0 +1,64 @@
+{
+    "samples/timm/coat_lite_mini.in1k": [
+        [
+            9,
+            10
+        ],
+        [
+            60,
+            61
+        ]
+    ],
+    "samples/timm/coat_lite_small.in1k": [
+        [
+            9,
+            10
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            111,
+            112
+        ]
+    ],
+    "samples/timm/coat_lite_tiny.in1k": [
+        [
+            9,
+            10
+        ],
+        [
+            60,
+            61
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-13": [
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            51,
+            52
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-21": [
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            51,
+            52
+        ]
+    ]
+}

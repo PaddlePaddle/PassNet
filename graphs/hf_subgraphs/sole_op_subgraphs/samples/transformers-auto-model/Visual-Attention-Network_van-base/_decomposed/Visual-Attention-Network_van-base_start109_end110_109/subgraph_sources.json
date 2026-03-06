@@ -1,0 +1,60 @@
+{
+    "samples/transformers-auto-model/Visual-Attention-Network_van-base": [
+        [
+            85,
+            86
+        ],
+        [
+            109,
+            110
+        ],
+        [
+            133,
+            134
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-large": [
+        [
+            85,
+            86
+        ],
+        [
+            109,
+            110
+        ],
+        [
+            133,
+            134
+        ],
+        [
+            157,
+            158
+        ],
+        [
+            181,
+            182
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-small": [
+        [
+            61,
+            62
+        ],
+        [
+            85,
+            86
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanForImageClassification": [
+        [
+            99,
+            100
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanModel": [
+        [
+            99,
+            100
+        ]
+    ]
+}

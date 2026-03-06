@@ -1,0 +1,82 @@
+{
+    "samples/timm/coat_lite_medium.in1k": [
+        [
+            35,
+            36
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            137,
+            138
+        ]
+    ],
+    "samples/timm/coat_lite_medium_384": [
+        [
+            35,
+            36
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            137,
+            138
+        ]
+    ],
+    "samples/timm/coat_lite_mini.in1k": [
+        [
+            147,
+            148
+        ],
+        [
+            198,
+            199
+        ]
+    ],
+    "samples/timm/coat_lite_small.in1k": [
+        [
+            198,
+            199
+        ],
+        [
+            249,
+            250
+        ],
+        [
+            300,
+            301
+        ],
+        [
+            351,
+            352
+        ]
+    ],
+    "samples/timm/coat_lite_tiny.in1k": [
+        [
+            147,
+            148
+        ],
+        [
+            198,
+            199
+        ]
+    ],
+    "samples/timm/inception_next_base.sail_in1k": [
+        [
+            60,
+            61
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            94,
+            95
+        ]
+    ]
+}

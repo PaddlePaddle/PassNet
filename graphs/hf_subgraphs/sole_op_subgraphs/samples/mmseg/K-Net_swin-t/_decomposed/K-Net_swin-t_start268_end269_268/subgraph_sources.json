@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            268,
+            269
+        ]
+    ]
+}

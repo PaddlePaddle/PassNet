@@ -1,0 +1,68 @@
+{
+    "samples/mmpose/pose_swin_t": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/timm/swinv2_cr_small_224.sw_in1k": [
+        [
+            95,
+            96
+        ]
+    ],
+    "samples/timm/swinv2_cr_small_ns_224.sw_in1k": [
+        [
+            95,
+            96
+        ]
+    ],
+    "samples/timm/swinv2_cr_tiny_ns_224.sw_in1k": [
+        [
+            95,
+            96
+        ]
+    ],
+    "samples/transformers-auto-model/ibombonato_swin-age-classifier": [
+        [
+            107,
+            108
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-small-patch4-window7-224": [
+        [
+            107,
+            108
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-tiny-patch4-window7-224": [
+        [
+            107,
+            108
+        ]
+    ],
+    "samples/transformers-auto-model/zuppif_maskformer-swin-small-ade": [
+        [
+            110,
+            111
+        ]
+    ]
+}

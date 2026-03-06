@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en": [
+        [
+            35,
+            36
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            101,
+            102
+        ],
+        [
+            134,
+            135
+        ]
+    ]
+}

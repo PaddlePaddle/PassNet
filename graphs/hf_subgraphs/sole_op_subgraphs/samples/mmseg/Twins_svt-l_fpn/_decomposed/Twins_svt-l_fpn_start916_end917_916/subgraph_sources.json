@@ -1,0 +1,28 @@
+{
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            916,
+            917
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            293,
+            294
+        ],
+        [
+            327,
+            328
+        ]
+    ],
+    "samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512": [
+        [
+            293,
+            294
+        ],
+        [
+            327,
+            328
+        ]
+    ]
+}

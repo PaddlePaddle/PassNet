@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/tsime_detr_mapilary": [
+        [
+            1001,
+            1002
+        ],
+        [
+            1002,
+            1003
+        ]
+    ]
+}

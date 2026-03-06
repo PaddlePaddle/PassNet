@@ -1,0 +1,42 @@
+{
+    "samples/torchgeometric/LINKX": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/torchgeometric/SignedGCN": [
+        [
+            15,
+            16
+        ],
+        [
+            32,
+            33
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/sadhaklal_mlp-california-housing": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/sadhaklal_mlp-iris": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/sadhaklal_wide-and-deep-net-california-housing": [
+        [
+            0,
+            1
+        ]
+    ]
+}

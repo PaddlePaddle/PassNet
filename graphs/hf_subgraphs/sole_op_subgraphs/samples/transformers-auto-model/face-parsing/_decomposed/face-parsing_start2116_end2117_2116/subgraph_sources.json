@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            2116,
+            2117
+        ]
+    ],
+    "samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512": [
+        [
+            362,
+            363
+        ]
+    ],
+    "samples/transformers-auto-model/segformer_b2_clothes": [
+        [
+            676,
+            677
+        ]
+    ]
+}

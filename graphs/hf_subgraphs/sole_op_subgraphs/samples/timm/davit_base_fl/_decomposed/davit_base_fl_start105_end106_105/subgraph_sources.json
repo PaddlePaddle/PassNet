@@ -1,0 +1,24 @@
+{
+    "samples/timm/davit_base_fl": [
+        [
+            105,
+            106
+        ]
+    ],
+    "samples/timm/davit_huge_fl": [
+        [
+            16,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k": [
+        [
+            146,
+            147
+        ],
+        [
+            195,
+            196
+        ]
+    ]
+}

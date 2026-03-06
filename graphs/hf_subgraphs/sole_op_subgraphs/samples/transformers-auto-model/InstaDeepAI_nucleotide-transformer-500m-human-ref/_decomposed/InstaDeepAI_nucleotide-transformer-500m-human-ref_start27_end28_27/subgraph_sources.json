@@ -1,0 +1,56 @@
+{
+    "samples/transformers-auto-model/InstaDeepAI_nucleotide-transformer-500m-human-ref": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/bge-reranker-large": [
+        [
+            555,
+            556
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_esm2_t33_650M_UR50D": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EsmForSequenceClassification": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/ibm-research_MoLFormer-XL-both-10pct": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/miangoar_esm2_t12_35M_UR50D-finetuned-secondary-structure-classification": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/multilingual-e5-large": [
+        [
+            555,
+            556
+        ]
+    ],
+    "samples/transformers-auto-model/splade-mini": [
+        [
+            108,
+            109
+        ]
+    ],
+    "samples/transformers-auto-model/sureshnam9_esm2_t6_8M_UR50D-finetuned-secondary-structure": [
+        [
+            25,
+            26
+        ]
+    ]
+}

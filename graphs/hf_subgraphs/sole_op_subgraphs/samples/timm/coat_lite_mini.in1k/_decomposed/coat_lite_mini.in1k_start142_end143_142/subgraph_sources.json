@@ -1,0 +1,58 @@
+{
+    "samples/timm/coat_lite_mini.in1k": [
+        [
+            142,
+            143
+        ],
+        [
+            193,
+            194
+        ]
+    ],
+    "samples/timm/coat_lite_small.in1k": [
+        [
+            193,
+            194
+        ],
+        [
+            244,
+            245
+        ],
+        [
+            295,
+            296
+        ],
+        [
+            346,
+            347
+        ]
+    ],
+    "samples/timm/coat_lite_tiny.in1k": [
+        [
+            142,
+            143
+        ],
+        [
+            193,
+            194
+        ]
+    ],
+    "samples/torchvision/maxvit_t": [
+        [
+            268,
+            269
+        ],
+        [
+            312,
+            313
+        ],
+        [
+            370,
+            371
+        ],
+        [
+            414,
+            415
+        ]
+    ]
+}

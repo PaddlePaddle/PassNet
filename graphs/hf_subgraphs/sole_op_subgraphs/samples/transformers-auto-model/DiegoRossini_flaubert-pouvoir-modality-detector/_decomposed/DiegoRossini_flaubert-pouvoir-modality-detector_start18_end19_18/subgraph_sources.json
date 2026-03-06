@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/DiegoRossini_flaubert-pouvoir-modality-detector": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-FlaubertForSequenceClassification": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/vpelloin_MEDIA_NLU-flaubert_oral_mixed": [
+        [
+            18,
+            19
+        ]
+    ]
+}
