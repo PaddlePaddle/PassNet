@@ -1,0 +1,1 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/facebook_metaclip-b32-400m/_decomposed/facebook_metaclip-b32-400m_start121_end122_121

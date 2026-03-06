@@ -1,0 +1,3 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/ultralytics/yolov10l/_decomposed/yolov10l_start685_end686_685
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/Mask2Former_R50/_decomposed/Mask2Former_R50_start111_end112_111
+graphs/hf_subgraphs/sole_op_subgraphs/samples/timm/eca_resnet33ts.ra2_in1k/_decomposed/eca_resnet33ts.ra2_in1k_start110_end111_110
