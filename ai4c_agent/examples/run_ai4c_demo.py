@@ -254,8 +254,21 @@ def run_multiple_ai4c(
     """
     # Load dataset from JSONL
     print(f"Loading dataset from {dataset_path}...")
+    skip_instances = []
+    dataset = []
+    if os.path.exists(os.path.join(traj_dir, "ai4c_full_trajectory.jsonl")):
+        for line in open(os.path.join(traj_dir, "ai4c_full_trajectory.jsonl"), 'r'):
+            item = json.loads(line)
+            instance_id = item["ds"]["instance_id"]
+            skip_instances.append(instance_id)
     with open(dataset_path, 'r') as f:
-        dataset = [json.loads(line) for line in f]
+        for line in f:
+            item = json.loads(line)
+            instance_id = item["instance_id"]
+            if instance_id in skip_instances:
+                continue
+            else:
+                dataset.append(item)
 
     # Select subset
     if k is None:
