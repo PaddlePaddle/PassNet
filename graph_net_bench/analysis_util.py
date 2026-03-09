@@ -28,6 +28,7 @@ def detect_sample_status(log_text: str) -> str:
         - "shape_mismatch": Output shape mismatch between eager and compiled
         - "type_mismatch": Data type mismatch between eager and compiled
         - "runtime_fail": Runtime error during execution
+        - "pass_miss": pass manager finished but did not match/modify graph
     """
     lines = log_text.split("\n") if isinstance(log_text, str) else log_text
 
@@ -37,6 +38,7 @@ def detect_sample_status(log_text: str) -> str:
     shape_match = False
     type_match = False
     runtime_fail = False
+    pass_miss = False
 
     # Scan for status and mismatch markers
     for line in lines:
@@ -53,6 +55,9 @@ def detect_sample_status(log_text: str) -> str:
             shape_match = True
             eager_success = True
             compile_success = True
+        elif "[PassMgrBackend] in line" and "No passes modified" in line:
+            # Treat pass manager no-op as a sample-level miss so scoring can penalize it.
+            pass_miss = True
         else:
             # Do nothing
             pass
@@ -71,6 +76,8 @@ def detect_sample_status(log_text: str) -> str:
         return "type_mismatch"
     elif runtime_fail:
         return "runtime_fail"
+    elif pass_miss:
+        return "pass_miss"
     else:
         return "correct"
 
