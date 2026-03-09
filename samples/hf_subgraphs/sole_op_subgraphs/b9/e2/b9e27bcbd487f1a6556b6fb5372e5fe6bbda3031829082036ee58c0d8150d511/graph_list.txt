@@ -1,1 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/timm/convnext_atto.d2_in1k/_decomposed/convnext_atto.d2_in1k_start32_end33_32

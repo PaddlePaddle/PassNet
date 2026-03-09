@@ -1,2 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/BAAI_AltCLIP/_decomposed/BAAI_AltCLIP_start1461_end1462_1461
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/google/fnet-base/_decomposed/fnet-base_start10_end11_10

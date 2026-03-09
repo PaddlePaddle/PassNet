@@ -1,2 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/torchgeometric/GIN/_decomposed/GIN_start23_end24_23
-graphs/hf_subgraphs/sole_op_subgraphs/samples/torchgeometric/GraphSAGE/_decomposed/GraphSAGE_start24_end25_24

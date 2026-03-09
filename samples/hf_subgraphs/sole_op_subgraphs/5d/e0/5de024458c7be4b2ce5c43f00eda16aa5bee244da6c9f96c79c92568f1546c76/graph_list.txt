@@ -1,4 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/Intel_zoedepth-nyu/_decomposed/Intel_zoedepth-nyu_start116_end117_116
-graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/Mask2Former_R50/_decomposed/Mask2Former_R50_start164_end165_164
-graphs/hf_subgraphs/sole_op_subgraphs/samples/torchaudio/wavlm_base/_decomposed/wavlm_base_start34_end35_34
-graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/BEiT-B/_decomposed/BEiT-B_start114_end115_114

@@ -1,4 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/Mahmoud8_ernie-m-base_pytorch/_decomposed/Mahmoud8_ernie-m-base_pytorch_start2_end3_2
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64/_decomposed/ARTeLab_it5-summarization-fanpage-64_start6_end7_6
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start165_end166_165
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/microsoft_beit-base-patch16-384/_decomposed/microsoft_beit-base-patch16-384_start109_end110_109

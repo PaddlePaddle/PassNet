@@ -1,1 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/torchvision/swin_v2_s/_decomposed/swin_v2_s_start1550_end1551_1550

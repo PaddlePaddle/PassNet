@@ -1,1 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/microsoft_table-transformer-structure-recognition/_decomposed/microsoft_table-transformer-structure-recognition_start1003_end1004_1003

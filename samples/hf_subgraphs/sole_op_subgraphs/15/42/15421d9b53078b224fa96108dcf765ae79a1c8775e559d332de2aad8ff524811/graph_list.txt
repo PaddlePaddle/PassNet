@@ -1,1 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start104_end105_104

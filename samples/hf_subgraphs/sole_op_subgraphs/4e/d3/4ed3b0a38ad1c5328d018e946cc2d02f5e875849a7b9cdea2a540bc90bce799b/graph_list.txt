@@ -1,4 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/kanak8278_xlnet-large-cased-ner-food-combined-weighted-v2/_decomposed/kanak8278_xlnet-large-cased-ner-food-combined-weighted-v2_start22_end23_22
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1030_end1031_1030
-graphs/hf_subgraphs/sole_op_subgraphs/samples/mmpose/pose_swin_b/_decomposed/pose_swin_b_start1070_end1071_1070
-graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/Mask2Former_R50/_decomposed/Mask2Former_R50_start156_end157_156

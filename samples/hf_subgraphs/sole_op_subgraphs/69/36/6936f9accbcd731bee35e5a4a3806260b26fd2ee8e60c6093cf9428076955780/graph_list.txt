@@ -1,2 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/SegNeXt-b/_decomposed/SegNeXt-b_start861_end862_861
-graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/SegNeXt-b/_decomposed/SegNeXt-b_start853_end854_853
