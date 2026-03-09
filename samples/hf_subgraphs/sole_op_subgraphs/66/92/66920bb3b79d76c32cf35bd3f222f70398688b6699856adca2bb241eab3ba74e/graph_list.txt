@@ -1,1 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot/_decomposed/microsoft_xclip-base-patch16-zero-shot_start758_end759_758

@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/torchvision/vit_h_14/_decomposed/vit_h_14_start104_end105_104
+graphs/hf_subgraphs/sole_op_subgraphs/samples/torchvision/vit_b_16/_decomposed/vit_b_16_start104_end105_104

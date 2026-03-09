@@ -1,1 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/timm/test_convnext.r160_in1k/_decomposed/test_convnext.r160_in1k_start50_end51_50

@@ -1,1 +1,0 @@
-../../../../../../entry_scripts/entry.sh

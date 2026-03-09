@@ -1,1 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/nemo/stt_en_squeezeformer_ctc_small_ls/_decomposed/stt_en_squeezeformer_ctc_small_ls_start15_end16_15

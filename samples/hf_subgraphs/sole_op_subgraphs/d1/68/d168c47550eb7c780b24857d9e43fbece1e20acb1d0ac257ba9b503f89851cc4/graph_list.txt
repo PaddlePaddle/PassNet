@@ -1,1 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/gagan3012_swin_arocr_tiny/_decomposed/gagan3012_swin_arocr_tiny_start230_end231_230

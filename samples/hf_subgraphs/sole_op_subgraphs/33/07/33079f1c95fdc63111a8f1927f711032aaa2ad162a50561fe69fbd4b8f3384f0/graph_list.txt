@@ -1,1 +1,0 @@
-graphs/hf_subgraphs/sole_op_subgraphs/samples/timm/coat_lite_medium.in1k/_decomposed/coat_lite_medium.in1k_start1035_end1036_1035
