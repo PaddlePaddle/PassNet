@@ -1,8 +1,0 @@
-class Program_weight_tensor_meta_attn_output_73:
-	name = "in_0"
-	original_name = "attn_output_73"
-	shape = [1, 12, 12, 64]
-	dtype = "torch.float32"
-	device = "cuda:0"
-	mean = -0.000
-	std = 0.115

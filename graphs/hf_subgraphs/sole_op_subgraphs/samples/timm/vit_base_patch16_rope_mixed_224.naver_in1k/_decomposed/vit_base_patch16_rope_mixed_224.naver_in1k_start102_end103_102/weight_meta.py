@@ -1,8 +1,0 @@
-class Program_weight_tensor_meta_getitem_22:
-	name = "in_0"
-	original_name = "getitem_22"
-	shape = [12, 196, 128]
-	dtype = "torch.float32"
-	device = "cuda:0"
-	mean = 0.384
-	std = 0.594

@@ -1,7 +1,0 @@
-import torch
-
-class GraphModule(torch.nn.Module):
-
-    def forward(self, in_0):
-        tmp_0 = torch.nn.functional.interpolate(in_0, scale_factor=2.0, mode='nearest')
-        return (tmp_0,)

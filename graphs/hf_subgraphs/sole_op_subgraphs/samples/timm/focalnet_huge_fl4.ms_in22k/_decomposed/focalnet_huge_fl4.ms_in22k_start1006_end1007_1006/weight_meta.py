@@ -1,8 +1,0 @@
-class Program_weight_tensor_meta_gates_18:
-	name = "in_0"
-	original_name = "gates_18"
-	shape = [1, 5, 14, 14]
-	dtype = "torch.float32"
-	device = "cuda:0"
-	mean = -0.004
-	std = 0.149

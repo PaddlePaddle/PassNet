@@ -1,8 +1,0 @@
-class Program_weight_tensor_meta_features_48:
-	name = "in_0"
-	original_name = "features_48"
-	shape = [1, 144, 32, 32]
-	dtype = "torch.float32"
-	device = "cuda:0"
-	mean = 0.000
-	std = 0.000

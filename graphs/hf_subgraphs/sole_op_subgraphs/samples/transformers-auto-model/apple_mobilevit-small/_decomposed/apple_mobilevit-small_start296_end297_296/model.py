@@ -1,7 +1,0 @@
-import torch
-
-class GraphModule(torch.nn.Module):
-
-    def forward(self, in_0):
-        tmp_0 = in_0 / 7.745966692414834
-        return (tmp_0,)

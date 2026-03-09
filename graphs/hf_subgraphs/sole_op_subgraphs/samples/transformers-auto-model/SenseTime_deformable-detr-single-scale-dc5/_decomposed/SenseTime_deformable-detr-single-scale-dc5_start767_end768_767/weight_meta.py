@@ -1,9 +1,0 @@
-class Program_weight_tensor_meta_to_2:
-	name = "in_0"
-	original_name = "to_2"
-	shape = [1]
-	dtype = "torch.float32"
-	device = "cuda:0"
-	mean = 50.000
-	std = 0.000
-	data = [50.000000]
