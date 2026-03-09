@@ -91,7 +91,7 @@ class DiagnosticMatcher(SubgraphMatcher):
             self._recording = True
             self._current_failures = []
         try:
-            result = super()._match_nodes(pn, gn, match, node_name_match)
+            result = super()._match_nodes(pn, gn, match)
             if is_top_level:
                 self._recording = False
                 if not result:
@@ -126,7 +126,7 @@ class DiagnosticMatcher(SubgraphMatcher):
         self._best_match_size = -1
         self._containment_failures = []
         self.failures = []
-        result = super().match(graph, node_name_match)
+        result = super().match(graph)
         if not result:
             if self._containment_failures:
                 self.failures = self._containment_failures
