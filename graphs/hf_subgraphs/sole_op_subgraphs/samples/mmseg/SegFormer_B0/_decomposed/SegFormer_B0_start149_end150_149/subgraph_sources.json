@@ -1,0 +1,76 @@
+{
+    "samples/mmseg/SegFormer_B0": [
+        [
+            149,
+            150
+        ],
+        [
+            177,
+            178
+        ]
+    ],
+    "samples/mmseg/SegNeXt-t": [
+        [
+            280,
+            281
+        ],
+        [
+            318,
+            319
+        ],
+        [
+            356,
+            357
+        ],
+        [
+            394,
+            395
+        ],
+        [
+            432,
+            433
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-tiny": [
+        [
+            175,
+            176
+        ],
+        [
+            199,
+            200
+        ],
+        [
+            223,
+            224
+        ],
+        [
+            247,
+            248
+        ],
+        [
+            271,
+            272
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            212,
+            213
+        ],
+        [
+            252,
+            253
+        ]
+    ],
+    "samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512": [
+        [
+            212,
+            213
+        ],
+        [
+            252,
+            253
+        ]
+    ]
+}

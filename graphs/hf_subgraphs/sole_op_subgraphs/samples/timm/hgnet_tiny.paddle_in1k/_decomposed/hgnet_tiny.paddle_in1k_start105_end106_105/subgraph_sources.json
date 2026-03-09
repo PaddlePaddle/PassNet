@@ -1,0 +1,22 @@
+{
+    "samples/timm/hgnet_tiny.paddle_in1k": [
+        [
+            105,
+            106
+        ]
+    ],
+    "samples/torchaudio/squim_objective": [
+        [
+            16,
+            17
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            66,
+            67
+        ]
+    ]
+}

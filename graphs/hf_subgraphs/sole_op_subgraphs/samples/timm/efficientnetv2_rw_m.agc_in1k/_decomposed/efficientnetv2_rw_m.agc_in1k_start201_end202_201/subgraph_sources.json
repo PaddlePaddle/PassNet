@@ -1,0 +1,14 @@
+{
+    "samples/timm/efficientnetv2_rw_m.agc_in1k": [
+        [
+            201,
+            202
+        ]
+    ],
+    "samples/timm/rexnet_130.nav_in1k": [
+        [
+            156,
+            157
+        ]
+    ]
+}

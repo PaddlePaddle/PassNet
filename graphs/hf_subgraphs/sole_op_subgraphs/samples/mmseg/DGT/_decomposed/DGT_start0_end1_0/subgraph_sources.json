@@ -1,0 +1,80 @@
+{
+    "samples/mmseg/DGT": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DeiT_B": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DeiT_S": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DeiT_S_ln_mln": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/DeiT_S_mln": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SETR_MLA": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/SETR_Naive": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Segmenter-b": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Segmenter-l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Segmenter-s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Segmenter-t": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ViT_B_ln_mln": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ViT_B_mln": [
+        [
+            0,
+            1
+        ]
+    ]
+}

@@ -1,0 +1,9 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, in_0):
+        tmp_0 = in_0
+        tmp_1 = torch.special.logit(tmp_0, eps=1e-05)
+        tmp_0 = None
+        return (tmp_1,)

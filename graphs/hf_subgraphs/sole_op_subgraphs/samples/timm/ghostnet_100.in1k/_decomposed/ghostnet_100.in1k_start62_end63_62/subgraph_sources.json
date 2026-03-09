@@ -1,0 +1,98 @@
+{
+    "samples/timm/ghostnet_100.in1k": [
+        [
+            62,
+            63
+        ]
+    ],
+    "samples/timm/hardcorenas_a.miil_green_in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/timm/hardcorenas_c.miil_green_in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/hardcorenas_d.miil_green_in1k": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/timm/mixnet_xl.ra_in1k": [
+        [
+            62,
+            63
+        ]
+    ],
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_100.miil_in21k": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/timm/mobilenetv3_rw.rmsp_in1k": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/timm/repghostnet_200.in1k": [
+        [
+            62,
+            63
+        ]
+    ],
+    "samples/timm/semnasnet_075.rmsp_in1k": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/timm/semnasnet_100.rmsp_in1k": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/torchvision/deeplabv3_mobilenet_v3_large": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/torchvision/mnasnet0_75": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/torchvision/mnasnet1_0": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_large": [
+        [
+            29,
+            30
+        ]
+    ]
+}

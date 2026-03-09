@@ -1,0 +1,134 @@
+{
+    "samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_xtremedistil-l6-h256-mnli-fever-anli-ling-binary": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Onutoa_1_6e-3_5_0.5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Sayan01_L-2_H-768_A-12_Large_sst2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Sayan01_L-4_H-128_A-2_Large_sst2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Sayan01_tiny-bert-sst2-distilled": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/bert-base-uncased": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/dbmdz_electra-large-discriminator-finetuned-conll03-english": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dpr-ctx_encoder-single-nq-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-large-uncased": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra-base-discriminator": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra-small-discriminator": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BigBirdForSequenceClassification": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/milistu_reranker-msmarco-v1.1-MiniLM-L12-H384-uncased-lambdaloss_v2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_mini-vanilla-target-tweet": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_small-vanilla-target-tweet": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nghuyong_ernie-2.0-base-en": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/nreimers_MiniLM-L6-H384-uncased": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/prajjwal1_bert-tiny": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_electra-small-discriminator-zeroshot-v1.1": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers_paraphrase-MiniLM-L3-v2": [
+        [
+            0,
+            1
+        ]
+    ]
+}

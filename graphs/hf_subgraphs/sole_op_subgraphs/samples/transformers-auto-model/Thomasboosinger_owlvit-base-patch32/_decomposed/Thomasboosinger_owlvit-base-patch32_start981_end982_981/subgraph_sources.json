@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/Thomasboosinger_owlvit-base-patch32": [
+        [
+            981,
+            982
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-base-patch16": [
+        [
+            981,
+            982
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14": [
+        [
+            1401,
+            1402
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch16": [
+        [
+            981,
+            982
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-large-patch14": [
+        [
+            1401,
+            1402
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            736,
+            737
+        ]
+    ]
+}

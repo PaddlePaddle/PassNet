@@ -1,0 +1,306 @@
+{
+    "samples/mmpose/pose_hrformer_small": [
+        [
+            631,
+            632
+        ],
+        [
+            999,
+            1000
+        ],
+        [
+            1367,
+            1368
+        ],
+        [
+            1735,
+            1736
+        ],
+        [
+            2224,
+            2225
+        ],
+        [
+            2250,
+            2251
+        ],
+        [
+            2255,
+            2256
+        ]
+    ],
+    "samples/mmseg/BiSeNetV2": [
+        [
+            93,
+            94
+        ],
+        [
+            100,
+            101
+        ]
+    ],
+    "samples/timm/dla102x2.in1k": [
+        [
+            15,
+            16
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            151,
+            152
+        ],
+        [
+            354,
+            355
+        ]
+    ],
+    "samples/timm/ese_vovnet19b_dw.ra_in1k": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/timm/fastvit_s12.apple_dist_in1k": [
+        [
+            10,
+            11
+        ],
+        [
+            64,
+            65
+        ]
+    ],
+    "samples/timm/hgnetv2_b0.ssld_stage1_in22k_in1k": [
+        [
+            55,
+            56
+        ]
+    ],
+    "samples/timm/hgnetv2_b1.ssld_stage1_in22k_in1k": [
+        [
+            55,
+            56
+        ]
+    ],
+    "samples/timm/lcnet_050.ra2_in1k": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/timm/lcnet_100.ra2_in1k": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            63,
+            64
+        ],
+        [
+            193,
+            194
+        ],
+        [
+            771,
+            772
+        ]
+    ],
+    "samples/timm/mixnet_l.ft_in1k": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/timm/mobilenetv1_100.ra4_e3600_r224_in1k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/mobilenetv1_100h.ra4_e3600_r224_in1k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_100.miil_in21k": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/timm/mobilenetv3_rw.rmsp_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/mobileone_s1.apple_in1k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/mobileone_s2.apple_in1k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/mobileone_s3.apple_in1k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/mobileone_s4.apple_in1k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/regnetz_d8.ra3_in1k": [
+        [
+            146,
+            147
+        ]
+    ],
+    "samples/timm/repvit_m1_1.dist_300e_in1k": [
+        [
+            47,
+            48
+        ]
+    ],
+    "samples/timm/repvit_m1_5.dist_300e_in1k": [
+        [
+            77,
+            78
+        ]
+    ],
+    "samples/timm/repvit_m2.dist_in1k": [
+        [
+            47,
+            48
+        ]
+    ],
+    "samples/timm/repvit_m3.dist_in1k": [
+        [
+            77,
+            78
+        ]
+    ],
+    "samples/timm/resnext101_64x4d.c1_in1k": [
+        [
+            39,
+            40
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            313,
+            314
+        ]
+    ],
+    "samples/timm/senet154.gluon_in1k": [
+        [
+            63,
+            64
+        ],
+        [
+            193,
+            194
+        ],
+        [
+            771,
+            772
+        ]
+    ],
+    "samples/timm/seresnext101_64x4d.gluon_in1k": [
+        [
+            57,
+            58
+        ],
+        [
+            123,
+            124
+        ],
+        [
+            493,
+            494
+        ]
+    ],
+    "samples/torchvision/deeplabv3_mobilenet_v3_large": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_large": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/torchvision/resnext101_64x4d": [
+        [
+            39,
+            40
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            313,
+            314
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-13": [
+        [
+            12,
+            13
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-13-384": [
+        [
+            12,
+            13
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-21": [
+        [
+            12,
+            13
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-21-384-22k": [
+        [
+            12,
+            13
+        ],
+        [
+            20,
+            21
+        ]
+    ]
+}

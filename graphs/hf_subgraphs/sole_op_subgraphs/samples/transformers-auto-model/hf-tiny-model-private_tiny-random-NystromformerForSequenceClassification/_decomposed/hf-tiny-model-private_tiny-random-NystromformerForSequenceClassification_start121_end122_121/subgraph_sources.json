@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-NystromformerForSequenceClassification": [
+        [
+            28,
+            29
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            90,
+            91
+        ],
+        [
+            121,
+            122
+        ],
+        [
+            152,
+            153
+        ]
+    ]
+}

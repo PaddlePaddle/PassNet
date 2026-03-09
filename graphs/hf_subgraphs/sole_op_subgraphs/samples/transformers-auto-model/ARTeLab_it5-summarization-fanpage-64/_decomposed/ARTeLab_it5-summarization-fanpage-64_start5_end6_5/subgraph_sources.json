@@ -1,0 +1,508 @@
+{
+    "samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/CLAck_en-vi": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/ELiRF_NASCA": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Farid59_nllb-darija-fr_eng": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-NORTH_EU-NORTH_EU": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-aed-es": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-af-es": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-en-zh": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-zh-en": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/IMISLab_GreekWiki-umt5-base": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_fid_flan_t5_base_nq": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Michielo_mt5-small_nl-en_translation": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/NeNeDataScientist_NeNeAI007_fr-kiluba-translation": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-heb-eng": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-hye-eng": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-ron-eng": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-tur-eng": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-zho-eng": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Nextcloud-AI_opus-mt-ar-es": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_bart-large-finetuned-eLife": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_long-t5-tfg": [
+        [
+            1946,
+            1947
+        ]
+    ],
+    "samples/transformers-auto-model/SpaceCowboy03_finetuned-kde4-es-to-fr": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/allegro_plt5-large": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/amurienne_kellag-m2m100-v0.2": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/andyluan_emotion-detection": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/bigscience/bloom-560m": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/breadlicker45_autotrain-blender-50601120822": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/cmarkea_bloomz-560m-nli": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/cointegrated_rut5-base-absum": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/csebuetnlp_mT5_multilingual_XLSum": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/echarlaix_bart-base-cnn-r2-18.7-d23-hybrid": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_bart-large-cnn": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/flutter-painter_nllb-fra-fuf-v2": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-base": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-1b-it": [
+        [
+            11,
+            12
+        ],
+        [
+            26,
+            27
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-270m": [
+        [
+            11,
+            12
+        ],
+        [
+            26,
+            27
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5-small": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_base": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_small": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_base": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_large": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_small": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-cnn_dailymail": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-xsum": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/google_pix2struct-base": [
+        [
+            760,
+            761
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-mini": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/gsarti_it5-efficient-small-el32-wiki-summarization": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BartForSequenceClassification": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BloomForSequenceClassification": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-GPTJForSequenceClassification": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OPTForSequenceClassification": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PLBartForSequenceClassification": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/igorktech_rut5-small-chit-chat-intelligent": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/intelia-lab-uah_bloomz-560m_AE_SQAC": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-base-translation-ja_zh": [
+        [
+            677,
+            678
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-small-translation-ja_zh": [
+        [
+            469,
+            470
+        ]
+    ],
+    "samples/transformers-auto-model/kannt-im_marian-finetuned-kde4-en-to-fr": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/larryvrh_mt5-translation-ja_zh": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            311,
+            312
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/Phi-3-mini-4k-instruct": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/moska_plt5-seq-clf-with-entities-updated-finetuned": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/moussaKam_barthez-orangesum-abstract": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/navteca_bart-large-mnli": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/ncoop57_bart-base-code-summarizer-java-v0": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/noamr_bert-finetuned-ner": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_pegasus-large-book-summary": [
+        [
+            487,
+            488
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_tFINE-base-300m-samsum": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/sbulut_finetuned-kde4-en-to-tr": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/sismetanin_mbart_ru_sum_gazeta-ru-sentiment-liniscrowd": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distilbart-cnn-12-6": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distill-pegasus-xsum-16-4": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/t5-small": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-1": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-3": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/venishpatidar_wa-ad-mod": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/voxreality_src_ctx_aware_nllb_1.3B": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/ydshieh_tiny-random-gptj-for-sequence-classification": [
+        [
+            6,
+            7
+        ]
+    ]
+}
