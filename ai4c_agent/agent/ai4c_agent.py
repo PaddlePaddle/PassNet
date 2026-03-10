@@ -63,6 +63,26 @@ class AI4CAgent(R2EGymAgent):
             snapshot.append((file_path, file_content))
         return snapshot
 
+    def _update_best_snapshot_from_evaluator(
+        self,
+        env,
+        observation,
+        best_pass_snapshot: List[tuple[str, str]],
+    ) -> List[tuple[str, str]]:
+        """Update max score and pass snapshot from one pass_evaluator observation."""
+        score = self.extract_speedup(observation.bash_output)
+        if score > self.max_score:
+            self.max_score = score
+            try:
+                best_pass_snapshot = self._capture_pass_snapshot(env)
+            except Exception as snapshot_error:
+                self.logger.error(f"Failed to capture pass snapshot: {snapshot_error}")
+        snapshot_paths = [path for path, _ in best_pass_snapshot]
+        self.logger.info(
+            f"Pass Snapshot Files: {snapshot_paths} score {self.max_score}"
+        )
+        return best_pass_snapshot
+
     def run(
         self,
         env,
@@ -172,17 +192,10 @@ class AI4CAgent(R2EGymAgent):
             try:
                 obs, reward, done, info = env.step(action, timeout=max_exec_time)
                 if action.function_name == "pass_evaluator":
-                    print("[DEBUG] Evaluated pass: {}".format(obs.bash_output))
-                    score = self.extract_speedup(obs.bash_output)
-                    if score > self.max_score:
-                        self.max_score = score
-                        try:
-                            best_pass_snapshot = self._capture_pass_snapshot(env)
-                        except Exception as snapshot_error:
-                            self.logger.error(f"Failed to capture pass snapshot: {snapshot_error}")
-                    snapshot_paths = [path for path, _ in best_pass_snapshot]
-                    self.logger.info(
-                        f"Pass Snapshot Files: {snapshot_paths} score {self.max_score}"
+                    best_pass_snapshot = self._update_best_snapshot_from_evaluator(
+                        env=env,
+                        observation=obs,
+                        best_pass_snapshot=best_pass_snapshot,
                     )
             except Exception as e:
                 obs = str(e)
