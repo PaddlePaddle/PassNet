@@ -1,0 +1,1 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/google_pix2struct-base/_decomposed/google_pix2struct-base_start3_end4_3
