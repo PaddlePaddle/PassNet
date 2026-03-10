@@ -1,0 +1,214 @@
+{
+    "samples/mmpose/pose_cspnext_m": [
+        [
+            58,
+            59
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            88,
+            89
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_t": [
+        [
+            75,
+            76
+        ]
+    ],
+    "samples/mmpose/rtmpose-m": [
+        [
+            58,
+            59
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            88,
+            89
+        ]
+    ],
+    "samples/mmpose/rtmpose-t": [
+        [
+            75,
+            76
+        ]
+    ],
+    "samples/mmpose/rtmw-m": [
+        [
+            58,
+            59
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            252,
+            253
+        ],
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/fbnetc_100.rmsp_in1k": [
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/timm/focalnet_small_lrf.ms_in1k": [
+        [
+            17,
+            18
+        ],
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/timm/focalnet_small_srf.ms_in1k": [
+        [
+            17,
+            18
+        ],
+        [
+            54,
+            55
+        ]
+    ],
+    "samples/timm/focalnet_tiny_lrf.ms_in1k": [
+        [
+            17,
+            18
+        ],
+        [
+            59,
+            60
+        ]
+    ],
+    "samples/timm/focalnet_tiny_srf.ms_in1k": [
+        [
+            17,
+            18
+        ],
+        [
+            54,
+            55
+        ]
+    ],
+    "samples/timm/hgnetv2_b1.ssld_stage1_in22k_in1k": [
+        [
+            87,
+            88
+        ],
+        [
+            94,
+            95
+        ],
+        [
+            101,
+            102
+        ],
+        [
+            119,
+            120
+        ],
+        [
+            126,
+            127
+        ],
+        [
+            133,
+            134
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_075.lamb_in1k": [
+        [
+            78,
+            79
+        ]
+    ],
+    "samples/timm/semnasnet_075.rmsp_in1k": [
+        [
+            42,
+            43
+        ],
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/torchvision/mnasnet0_75": [
+        [
+            45,
+            46
+        ],
+        [
+            54,
+            55
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-small": [
+        [
+            19,
+            20
+        ],
+        [
+            61,
+            62
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-small-lrf": [
+        [
+            19,
+            20
+        ],
+        [
+            66,
+            67
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-tiny": [
+        [
+            19,
+            20
+        ],
+        [
+            61,
+            62
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-tiny-lrf": [
+        [
+            19,
+            20
+        ],
+        [
+            66,
+            67
+        ]
+    ]
+}

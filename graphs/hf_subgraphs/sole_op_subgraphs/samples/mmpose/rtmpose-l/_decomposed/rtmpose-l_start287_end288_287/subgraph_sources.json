@@ -1,0 +1,66 @@
+{
+    "samples/mmpose/rtmpose-l": [
+        [
+            287,
+            288
+        ]
+    ],
+    "samples/mmpose/rtmpose-m": [
+        [
+            228,
+            229
+        ]
+    ],
+    "samples/mmpose/rtmpose-s": [
+        [
+            169,
+            170
+        ]
+    ],
+    "samples/mmpose/rtmpose-t": [
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/mmpose/rtmw-l": [
+        [
+            435,
+            436
+        ]
+    ],
+    "samples/mmpose/rtmw-m": [
+        [
+            376,
+            377
+        ]
+    ],
+    "samples/mmpose/rtmw-x": [
+        [
+            494,
+            495
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegaForSequenceClassification": [
+        [
+            59,
+            60
+        ],
+        [
+            190,
+            191
+        ],
+        [
+            321,
+            322
+        ],
+        [
+            452,
+            453
+        ],
+        [
+            583,
+            584
+        ]
+    ]
+}

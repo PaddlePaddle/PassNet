@@ -1,0 +1,62 @@
+{
+    "samples/mmpose/cpm": [
+        [
+            12,
+            13
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            85,
+            86
+        ],
+        [
+            102,
+            103
+        ]
+    ],
+    "samples/timm/inception_resnet_v2": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/timm/inception_v3.gluon_in1k": [
+        [
+            23,
+            24
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            69,
+            70
+        ]
+    ],
+    "samples/torchvision/inception_v3": [
+        [
+            36,
+            37
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            82,
+            83
+        ]
+    ]
+}

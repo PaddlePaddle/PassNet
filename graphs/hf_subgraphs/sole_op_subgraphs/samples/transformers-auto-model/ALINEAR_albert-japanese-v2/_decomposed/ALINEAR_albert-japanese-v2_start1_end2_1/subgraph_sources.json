@@ -1,0 +1,62 @@
+{
+    "samples/transformers-auto-model/ALINEAR_albert-japanese-v2": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Hate-speech-CNERG_dehatebert-mono-arabic": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14": [
+        [
+            1009,
+            1010
+        ]
+    ],
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-large-patch14": [
+        [
+            761,
+            762
+        ]
+    ],
+    "samples/transformers-auto-model/TinyLlama/TinyLlama-1.1B-Chat-v0.4": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-224-lit": [
+        [
+            903,
+            904
+        ]
+    ],
+    "samples/transformers-auto-model/intelia-lab-uah_bloomz-560m_AE_SQAC": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/jinaai_jina-reranker-m0": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_layoutlm-base-uncased": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/openai-community/gpt2": [
+        [
+            0,
+            1
+        ]
+    ]
+}

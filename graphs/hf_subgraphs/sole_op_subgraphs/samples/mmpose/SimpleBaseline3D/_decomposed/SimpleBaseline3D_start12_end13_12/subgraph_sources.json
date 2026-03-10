@@ -1,0 +1,12 @@
+{
+    "samples/mmpose/SimpleBaseline3D": [
+        [
+            12,
+            13
+        ],
+        [
+            22,
+            23
+        ]
+    ]
+}

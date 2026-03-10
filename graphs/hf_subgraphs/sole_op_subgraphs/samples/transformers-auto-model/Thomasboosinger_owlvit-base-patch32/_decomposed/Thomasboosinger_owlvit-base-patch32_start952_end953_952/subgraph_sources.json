@@ -1,0 +1,92 @@
+{
+    "samples/transformers-auto-model/Thomasboosinger_owlvit-base-patch32": [
+        [
+            952,
+            953
+        ],
+        [
+            954,
+            955
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-base-patch16": [
+        [
+            952,
+            953
+        ],
+        [
+            954,
+            955
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14": [
+        [
+            1372,
+            1373
+        ],
+        [
+            1374,
+            1375
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14-finetuned": [
+        [
+            1372,
+            1373
+        ],
+        [
+            1374,
+            1375
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch16": [
+        [
+            952,
+            953
+        ],
+        [
+            954,
+            955
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch32": [
+        [
+            952,
+            953
+        ],
+        [
+            954,
+            955
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-large-patch14": [
+        [
+            1372,
+            1373
+        ],
+        [
+            1374,
+            1375
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            707,
+            708
+        ],
+        [
+            709,
+            710
+        ]
+    ],
+    "samples/transformers-auto-model/upfeatmediainc_owlv2-base-patch16-ensemble": [
+        [
+            952,
+            953
+        ],
+        [
+            954,
+            955
+        ]
+    ]
+}

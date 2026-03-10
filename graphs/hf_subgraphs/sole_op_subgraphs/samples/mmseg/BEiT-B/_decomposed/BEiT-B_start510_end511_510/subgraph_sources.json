@@ -1,0 +1,170 @@
+{
+    "samples/mmseg/BEiT-B": [
+        [
+            510,
+            511
+        ]
+    ],
+    "samples/mmseg/BEiT-L": [
+        [
+            942,
+            943
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-B": [
+        [
+            447,
+            448
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-L": [
+        [
+            447,
+            448
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-S": [
+        [
+            447,
+            448
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-T": [
+        [
+            267,
+            268
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-XL": [
+        [
+            447,
+            448
+        ]
+    ],
+    "samples/mmseg/DeiT_B": [
+        [
+            278,
+            279
+        ]
+    ],
+    "samples/mmseg/DeiT_S": [
+        [
+            278,
+            279
+        ]
+    ],
+    "samples/mmseg/DeiT_S_ln_mln": [
+        [
+            291,
+            292
+        ]
+    ],
+    "samples/mmseg/DeiT_S_mln": [
+        [
+            290,
+            291
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            1566,
+            1567
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            828,
+            829
+        ]
+    ],
+    "samples/mmseg/K-Net_upernet": [
+        [
+            229,
+            230
+        ]
+    ],
+    "samples/mmseg/MAE": [
+        [
+            487,
+            488
+        ]
+    ],
+    "samples/mmseg/Swin-b": [
+        [
+            1566,
+            1567
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            1566,
+            1567
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            828,
+            829
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_uperhead": [
+        [
+            730,
+            731
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_uperhead": [
+        [
+            1029,
+            1030
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_uperhead": [
+        [
+            454,
+            455
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_uperhead": [
+        [
+            992,
+            993
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_uperhead": [
+        [
+            763,
+            764
+        ]
+    ],
+    "samples/mmseg/UPerNet_R101": [
+        [
+            399,
+            400
+        ]
+    ],
+    "samples/mmseg/UPerNet_R50": [
+        [
+            229,
+            230
+        ]
+    ],
+    "samples/mmseg/ViT_B_ln_mln": [
+        [
+            291,
+            292
+        ]
+    ],
+    "samples/mmseg/ViT_B_mln": [
+        [
+            290,
+            291
+        ]
+    ],
+    "samples/transformers-auto-model/upernet-convnext-tiny": [
+        [
+            51,
+            52
+        ]
+    ]
+}

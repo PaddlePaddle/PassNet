@@ -1,0 +1,128 @@
+{
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            1505,
+            1506
+        ]
+    ],
+    "samples/transformers-auto-model/gagan3012_swin_arocr_tiny": [
+        [
+            928,
+            929
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification": [
+        [
+            246,
+            247
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2ForImageClassification": [
+        [
+            290,
+            291
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2Model": [
+        [
+            290,
+            291
+        ]
+    ],
+    "samples/transformers-auto-model/ibombonato_swin-age-classifier": [
+        [
+            755,
+            756
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k": [
+        [
+            1505,
+            1506
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-large-patch4-window12-384-in22k": [
+        [
+            1505,
+            1506
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-large-patch4-window7-224-in22k": [
+        [
+            1505,
+            1506
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-small-patch4-window7-224": [
+        [
+            1505,
+            1506
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-tiny-patch4-window7-224": [
+        [
+            755,
+            756
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-base": [
+        [
+            1033,
+            1034
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-base-lrf": [
+        [
+            1153,
+            1154
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-small": [
+        [
+            1033,
+            1034
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-small-lrf": [
+        [
+            1153,
+            1154
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-tiny": [
+        [
+            529,
+            530
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-tiny-lrf": [
+        [
+            589,
+            590
+        ]
+    ],
+    "samples/transformers-auto-model/vuiseng9_tiny-random-SwinModel": [
+        [
+            246,
+            247
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-SwinModel": [
+        [
+            246,
+            247
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224": [
+        [
+            226,
+            227
+        ]
+    ],
+    "samples/transformers-auto-model/zuppif_maskformer-swin-small-ade": [
+        [
+            1594,
+            1595
+        ]
+    ]
+}

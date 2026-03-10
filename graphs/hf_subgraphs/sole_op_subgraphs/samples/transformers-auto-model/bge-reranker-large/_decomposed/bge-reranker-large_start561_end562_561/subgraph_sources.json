@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/bge-reranker-large": [
+        [
+            561,
+            562
+        ]
+    ],
+    "samples/transformers-auto-model/ibm-research_MoLFormer-XL-both-10pct": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/multilingual-e5-large": [
+        [
+            561,
+            562
+        ]
+    ],
+    "samples/transformers-auto-model/splade-mini": [
+        [
+            114,
+            115
+        ]
+    ]
+}
