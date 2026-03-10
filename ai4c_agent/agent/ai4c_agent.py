@@ -50,6 +50,33 @@ class AI4CAgent(R2EGymAgent):
                 except ValueError:
                     pass
         return 0.0
+    
+    def parse_output_patch(self, env, pass_dir_output: str) -> str:
+        output_patch = ""
+        try:
+            # Try to read the pass files if they exist
+            if pass_dir_output.strip():
+                # output_patch = f"Pass files created:\n{pass_dir_output}"
+                output_patch_files = pass_dir_output.strip().split("\n")
+                for idx, file in enumerate(output_patch_files):
+                    output_patch += "-"*20 + f" {file} " + "-"*20
+                    file_content, _ = env.runtime.run(f"cat {file.strip()}", timeout=10)
+                    output_patch += f"\n{file_content}\n\n"
+                output_patch += "-"*20 + f" pass_dir/score.txt " + "-"*20
+                output_patch += f"\n{self.max_score}\n\n"
+        except:
+            pass
+        return output_patch
+    
+    def update_speedup_and_pass_status(self, env, observation: str) -> str:
+        score = self.extract_speedup(observation)
+        if score > self.max_score:
+            self.max_score = score
+            try:
+                pass_dir_output, _ = env.runtime.run("ls pass_dir/*.py pass_dir/*.json 2>/dev/null || echo ''", timeout=10)
+            except:
+                pass
+        return pass_dir_output
 
     def run(
         self,
@@ -160,14 +187,7 @@ class AI4CAgent(R2EGymAgent):
             try:
                 obs, reward, done, info = env.step(action, timeout=max_exec_time)
                 if action.function_name == "pass_evaluator":
-                    score = self.extract_speedup(obs.bash_output)
-                    if score > self.max_score:
-                        self.max_score = score
-                        try:
-                            pass_dir_output, _ = env.runtime.run("ls pass_dir/*.py pass_dir/*.json 2>/dev/null || echo ''", timeout=10)
-                        except:
-                            pass
-                    self.logger.info(f"Pass Directory Contents: {pass_dir_output} score {self.max_score}")
+                    pass_dir_output = self.update_speedup_and_pass_status(env, obs.bash_output)
             except Exception as e:
                 obs = str(e)
                 self.logger.error(f"Error during environment step: {obs}")
@@ -242,21 +262,8 @@ class AI4CAgent(R2EGymAgent):
         self.logger.info(f"Agent run complete. Total steps: {step_count}")
 
         # Get output patch (for AI4C, this would be the pass files)
-        output_patch = ""
-        try:
-            # Try to read the pass files if they exist
-            if pass_dir_output.strip():
-                # output_patch = f"Pass files created:\n{pass_dir_output}"
-                output_patch_files = pass_dir_output.strip().split("\n")
-                for idx, file in enumerate(output_patch_files):
-                    output_patch += "-"*20 + f" {file} " + "-"*20
-                    file_content, _ = env.runtime.run(f"cat {file.strip()}", timeout=10)
-                    output_patch += f"\n{file_content}\n\n"
-                output_patch += "-"*20 + f" pass_dir/score.txt " + "-"*20
-                output_patch += f"\n{self.max_score}\n\n"
-        except:
-            pass
-
+        output_patch = self.parse_output_patch(env, pass_dir_output)
+        
         # Create Trajectory object
         trajectory = Trajectory(
             trajectory_steps=self.trajectory_steps,
