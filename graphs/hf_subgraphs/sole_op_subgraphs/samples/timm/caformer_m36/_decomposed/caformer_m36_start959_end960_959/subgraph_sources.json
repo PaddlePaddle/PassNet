@@ -1,0 +1,82 @@
+{
+    "samples/timm/caformer_m36": [
+        [
+            959,
+            960
+        ]
+    ],
+    "samples/timm/convformer_m36": [
+        [
+            930,
+            931
+        ]
+    ],
+    "samples/timm/mambaout_small.in1k": [
+        [
+            495,
+            496
+        ],
+        [
+            496,
+            497
+        ],
+        [
+            510,
+            511
+        ],
+        [
+            524,
+            525
+        ],
+        [
+            539,
+            540
+        ]
+    ],
+    "samples/timm/mambaout_small_rw.sw_e450_in1k": [
+        [
+            527,
+            528
+        ],
+        [
+            542,
+            543
+        ],
+        [
+            557,
+            558
+        ],
+        [
+            573,
+            574
+        ]
+    ],
+    "samples/timm/mambaout_tiny.in1k": [
+        [
+            229,
+            230
+        ],
+        [
+            230,
+            231
+        ],
+        [
+            244,
+            245
+        ],
+        [
+            258,
+            259
+        ],
+        [
+            273,
+            274
+        ]
+    ],
+    "samples/timm/rdnet_small.nv_in1k": [
+        [
+            152,
+            153
+        ]
+    ]
+}

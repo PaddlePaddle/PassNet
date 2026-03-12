@@ -1,0 +1,68 @@
+{
+    "samples/timm/fbnetv3_d.ra2_in1k": [
+        [
+            70,
+            71
+        ]
+    ],
+    "samples/timm/fbnetv3_g.ra2_in1k": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/timm/mnasnet_small.lamb_in1k": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_075.lamb_in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_100.lamb_in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_small_050.e3000_r224_in1k": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/timm/tinynet_c.in1k": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/timm/tinynet_d.in1k": [
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/timm/tinynet_e.in1k": [
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/torchvision/mnasnet1_3": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_small": [
+        [
+            34,
+            35
+        ]
+    ]
+}

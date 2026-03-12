@@ -1,0 +1,316 @@
+{
+    "samples/mmpose/2xmspn_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/2xrsn_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/3xmspn_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/3xrsn_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/4xmspn_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/S-ViPNAS-Res50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_101_rle": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_152": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_152_rle": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_50_rle": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/ipr_resnet_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/mspn_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_hourglass_52": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnet_101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnet_152": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnet_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnext_101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnext_152": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_resnext_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_scnet_101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_scnet_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_seresnet_101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_seresnet_152": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_seresnet_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/rsn_18": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/rsn_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/simcc_resnet_50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R18": [
+        [
+            0,
+            1
+        ],
+        [
+            96,
+            97
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R50": [
+        [
+            0,
+            1
+        ],
+        [
+            202,
+            203
+        ]
+    ],
+    "samples/transformers-auto-model/IDEA-Research_dab-detr-resnet-50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Ramos-Ramos_vicreg-resnet-50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/SenseTime_deformable-detr-single-scale": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/SenseTime_deformable-detr-single-scale-dc5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/binery_Table_detection_MS_E_14": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/davidhajdu_dab_detr_finetuned_cppe5": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101-dc5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/grelade_mmx-resnet-18": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_conditional-detr-resnet-50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_resnet-50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-detection": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-structure-recognition": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r101-cd45rb-8ah-6l-256d-4096ffn": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r50-cd45rb-4ah-6l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/prathmeshrmadhu_detr-finetuned-odorv3": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/rice-rice_detr-resnet-50_finetuned_dataset": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/tsime_detr_mapilary": [
+        [
+            0,
+            1
+        ]
+    ]
+}

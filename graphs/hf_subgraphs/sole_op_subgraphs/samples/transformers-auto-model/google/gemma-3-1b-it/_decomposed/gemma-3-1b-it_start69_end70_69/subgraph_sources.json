@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google/gemma-3-1b-it": [
+        [
+            69,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-270m": [
+        [
+            69,
+            70
+        ]
+    ]
+}

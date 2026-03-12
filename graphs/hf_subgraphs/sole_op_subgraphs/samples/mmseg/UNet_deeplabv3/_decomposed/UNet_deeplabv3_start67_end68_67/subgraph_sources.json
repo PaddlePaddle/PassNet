@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/UNet_deeplabv3": [
+        [
+            67,
+            68
+        ]
+    ],
+    "samples/mmseg/UNet_fcn": [
+        [
+            67,
+            68
+        ]
+    ],
+    "samples/mmseg/UNet_pspnet": [
+        [
+            67,
+            68
+        ]
+    ]
+}

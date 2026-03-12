@@ -1,0 +1,74 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            2099,
+            2100
+        ],
+        [
+            2105,
+            2106
+        ],
+        [
+            2111,
+            2112
+        ],
+        [
+            2117,
+            2118
+        ]
+    ],
+    "samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512": [
+        [
+            345,
+            346
+        ],
+        [
+            351,
+            352
+        ],
+        [
+            357,
+            358
+        ],
+        [
+            363,
+            364
+        ]
+    ],
+    "samples/transformers-auto-model/segformer_b2_clothes": [
+        [
+            659,
+            660
+        ],
+        [
+            665,
+            666
+        ],
+        [
+            671,
+            672
+        ],
+        [
+            677,
+            678
+        ]
+    ],
+    "samples/transformers-auto-model/upernet-convnext-tiny": [
+        [
+            37,
+            38
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            51
+        ]
+    ]
+}

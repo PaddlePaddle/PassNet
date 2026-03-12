@@ -1,0 +1,194 @@
+{
+    "samples/mmseg/BEiT-B": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/BEiT-L": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/MAE": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/AkshatSurolia_DeiT-FaceMask-Finetuned": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_dpt-large": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/adhisetiawan_vit-resisc45": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/arxyzan_data2vec-beit-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-base-ft1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-large": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit-base-distilled-patch16-384": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_base_distilled_patch16_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_base_patch16_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_small_distilled_patch16_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_tiny_distilled_patch16_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DPTModel": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-tiny": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-base-patch16-224-pt22k-ft22k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-base-patch16-384": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-224-pt22k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-384": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-512": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-small-printed": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/owkin_phikon": [
+        [
+            0,
+            1
+        ]
+    ]
+}

@@ -1,0 +1,3 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmpose/pose_swin_b/_decomposed/pose_swin_b_start1051_end1052_1051
+graphs/hf_subgraphs/sole_op_subgraphs/samples/torchvision/swin_v2_b/_decomposed/swin_v2_b_start1045_end1046_1045
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SwinForImageClassification_start113_end114_113

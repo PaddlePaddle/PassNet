@@ -1,0 +1,5 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/apple_mobilevit-small/_decomposed/apple_mobilevit-small_start385_end386_385
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegaForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegaForSequenceClassification_start126_end127_126
+graphs/hf_subgraphs/sole_op_subgraphs/samples/timm/convnext_atto_rms/_decomposed/convnext_atto_rms_start106_end107_106
+graphs/hf_subgraphs/sole_op_subgraphs/samples/timm/crossvit_15_240.in1k/_decomposed/crossvit_15_240.in1k_start612_end613_612
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/Intel_zoedepth-kitti/_decomposed/Intel_zoedepth-kitti_start138_end139_138

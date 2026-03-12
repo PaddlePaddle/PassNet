@@ -1,0 +1,62 @@
+{
+    "samples/mmpose/pose_alexnet": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/PoolFormer_m36": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/PoolFormer_m48": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s12": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s24": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CvtForImageClassification": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-13": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-13-384": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-21": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-21-384-22k": [
+        [
+            0,
+            1
+        ]
+    ]
+}

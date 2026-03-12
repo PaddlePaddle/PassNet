@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/google_pegasus-cnn_dailymail": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-xsum": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_pegasus-large-book-summary": [
+        [
+            485,
+            486
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_tFINE-base-300m-samsum": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distill-pegasus-xsum-16-4": [
+        [
+            3,
+            4
+        ]
+    ]
+}

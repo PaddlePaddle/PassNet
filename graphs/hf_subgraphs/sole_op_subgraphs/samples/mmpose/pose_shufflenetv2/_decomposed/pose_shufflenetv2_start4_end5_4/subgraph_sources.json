@@ -1,0 +1,108 @@
+{
+    "samples/mmpose/pose_shufflenetv2": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/timm/lcnet_075.ra2_in1k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/mnasnet_small.lamb_in1k": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/timm/regnetx_004.pycls_in1k": [
+        [
+            112,
+            113
+        ]
+    ],
+    "samples/timm/regnety_032.pycls_in1k": [
+        [
+            122,
+            123
+        ]
+    ],
+    "samples/timm/regnetz_040.ra3_in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/regnetz_040_h.ra3_in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/regnetz_c16.ra3_in1k": [
+        [
+            124,
+            125
+        ]
+    ],
+    "samples/timm/repghostnet_058.in1k": [
+        [
+            118,
+            119
+        ]
+    ],
+    "samples/timm/repghostnet_100.in1k": [
+        [
+            26,
+            27
+        ]
+    ],
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/torchvision/mnasnet0_5": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/torchvision/regnet_y_3_2gf": [
+        [
+            124,
+            125
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x0_5": [
+        [
+            4,
+            5
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x1_0": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x1_5": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x2_0": [
+        [
+            4,
+            5
+        ]
+    ]
+}

@@ -76,7 +76,14 @@ instance_prompt: |-
      - Continue iterating to maximize speedup
  
   **Technical Requirements:**
- 
+  - You MUST create at least one pass file under ./pass_dir/ and it must be importable by the evaluation framework (no syntax errors, missing imports, or unresolved symbols).
+  - You MUST create ./pass_dir/sorted_output_pass_rule_names.json.
+    - It must be a JSON array of strings.
+    - Each string MUST exactly equal a pass Python filename without .py.
+    - Every pass you want applied MUST appear in this list, in the exact order you want them executed.
+  - Pattern outputs MUST include every value that is observable outside the matched subgraph (e.g., any intermediate that appears in the model’s return).
+  - replacement_func() MUST be a zero-argument function that returns a callable function object (DO NOT call it).
+  
   **Creating the Pass File:**
   Use the file_editor tool to create your pass file. The command MUST include both --path and --file_text:
   ```
@@ -92,15 +99,15 @@ instance_prompt: |-
  
   # Pattern matching function
   def pattern(arg1, arg2, ...):
-      """ Define the computation pattern to match
-        Special Note: This should mirror the operations in model.py
-        e.g., given `tmp1 = torch.conv2d(input_tensor, weight_tensor, bias_tensor, (1, 1), (0, 0), (1, 1), 1)`
-        Wrong case: result = torch.conv2d(input_tensor, weight_tensor, bias_tensor, stride=(1, 1), padding=(0, 0), dilation=(1, 1), groups=1)
-        Right case: result = torch.conv2d(input_tensor, weight_tensor, bias_tensor, (1, 1), (0, 0), (1, 1), 1)
- 
-        YOU MUST REMEMBER TO MIRROR THE OPERATIONS IN model.py!
+      """ 
+      Define the computation pattern to match
+      SPECIAL NOTE: The operations in this function MUST mirror the operations in model.py exactly (including positional vs keyword arguments, op variants, and dataflow).
+      e.g.:
+        if model.py has `tmp1 = torch.conv2d(input_tensor, weight_tensor, bias_tensor, (1, 1), (0, 0), (1, 1), 1)`,
+        pattern MUST also use positional arguments for stride, padding, dilation, and groups, not keyword arguments.
+        **Wrong case**: result = torch.conv2d(input_tensor, weight_tensor, bias_tensor, stride=(1, 1), padding=(0, 0), dilation=(1, 1), groups=1)
+        **Right case**: result = torch.conv2d(input_tensor, weight_tensor, bias_tensor, (1, 1), (0, 0), (1, 1), 1)
       """
- 
       result = ...  # operations to match
       return result
  
@@ -144,9 +151,9 @@ instance_prompt: |-
  
     Output optimization Pass:
     ```python
- 
-    triton.jit
-    def add_kernel(
+
+    @triton.jit
+    def triton_add_kernel(
         x_ptr,
         y_ptr,
         out_ptr,

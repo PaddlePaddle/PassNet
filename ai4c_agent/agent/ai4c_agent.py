@@ -50,33 +50,38 @@ class AI4CAgent(R2EGymAgent):
                 except ValueError:
                     pass
         return 0.0
-    
-    def parse_output_patch(self, env, pass_dir_output: str) -> str:
-        output_patch = ""
-        try:
-            # Try to read the pass files if they exist
-            if pass_dir_output.strip():
-                # output_patch = f"Pass files created:\n{pass_dir_output}"
-                output_patch_files = pass_dir_output.strip().split("\n")
-                for idx, file in enumerate(output_patch_files):
-                    output_patch += "-"*20 + f" {file} " + "-"*20
-                    file_content, _ = env.runtime.run(f"cat {file.strip()}", timeout=10)
-                    output_patch += f"\n{file_content}\n\n"
-                output_patch += "-"*20 + f" pass_dir/score.txt " + "-"*20
-                output_patch += f"\n{self.max_score}\n\n"
-        except:
-            pass
-        return output_patch
-    
-    def update_speedup_and_pass_status(self, env, observation: str) -> str:
-        score = self.extract_speedup(observation)
+
+    def _capture_pass_snapshot(self, env) -> List[tuple[str, str]]:
+        """Capture pass_dir file contents as an in-memory snapshot."""
+        snapshot: List[tuple[str, str]] = []
+        file_list_raw, _ = env.runtime.run(
+            "ls pass_dir/*.py pass_dir/*.json 2>/dev/null || echo ''", timeout=10
+        )
+        file_paths = [line.strip() for line in file_list_raw.strip().split("\n") if line.strip()]
+        for file_path in file_paths:
+            file_content, _ = env.runtime.run(f"cat {file_path}", timeout=10)
+            snapshot.append((file_path, file_content))
+        return snapshot
+
+    def _update_best_snapshot_from_evaluator(
+        self,
+        env,
+        observation,
+        best_pass_snapshot: List[tuple[str, str]],
+    ) -> List[tuple[str, str]]:
+        """Update max score and pass snapshot from one pass_evaluator observation."""
+        score = self.extract_speedup(observation.bash_output)
         if score > self.max_score:
             self.max_score = score
             try:
-                pass_dir_output, _ = env.runtime.run("ls pass_dir/*.py pass_dir/*.json 2>/dev/null || echo ''", timeout=10)
-            except:
-                pass
-        return pass_dir_output
+                best_pass_snapshot = self._capture_pass_snapshot(env)
+            except Exception as snapshot_error:
+                self.logger.error(f"Failed to capture pass snapshot: {snapshot_error}")
+        snapshot_paths = [path for path, _ in best_pass_snapshot]
+        self.logger.info(
+            f"Pass Snapshot Files: {snapshot_paths} score {self.max_score}"
+        )
+        return best_pass_snapshot
 
     def run(
         self,
@@ -141,7 +146,7 @@ class AI4CAgent(R2EGymAgent):
         done = False
         step_count = 0
         total_time_traj = 0
-        pass_dir_output = ""
+        best_pass_snapshot: List[tuple[str, str]] = []
         self.trajectory_steps: List[TrajectoryStep] = []
 
         # Agent loop
@@ -187,7 +192,11 @@ class AI4CAgent(R2EGymAgent):
             try:
                 obs, reward, done, info = env.step(action, timeout=max_exec_time)
                 if action.function_name == "pass_evaluator":
-                    pass_dir_output = self.update_speedup_and_pass_status(env, obs.bash_output)
+                    best_pass_snapshot = self._update_best_snapshot_from_evaluator(
+                        env=env,
+                        observation=obs,
+                        best_pass_snapshot=best_pass_snapshot,
+                    )
             except Exception as e:
                 obs = str(e)
                 self.logger.error(f"Error during environment step: {obs}")
@@ -262,8 +271,17 @@ class AI4CAgent(R2EGymAgent):
         self.logger.info(f"Agent run complete. Total steps: {step_count}")
 
         # Get output patch (for AI4C, this would be the pass files)
-        output_patch = self.parse_output_patch(env, pass_dir_output)
-        
+        output_patch = ""
+        try:
+            if best_pass_snapshot:
+                for file_path, file_content in best_pass_snapshot:
+                    output_patch += "-"*20 + f" {file_path} " + "-"*20
+                    output_patch += f"\n{file_content}\n\n"
+                output_patch += "-"*20 + f" pass_dir/score.txt " + "-"*20
+                output_patch += f"\n{self.max_score}\n\n"
+        except Exception as output_patch_error:
+            self.logger.error(f"Failed to serialize output patch from snapshot: {output_patch_error}")
+
         # Create Trajectory object
         trajectory = Trajectory(
             trajectory_steps=self.trajectory_steps,

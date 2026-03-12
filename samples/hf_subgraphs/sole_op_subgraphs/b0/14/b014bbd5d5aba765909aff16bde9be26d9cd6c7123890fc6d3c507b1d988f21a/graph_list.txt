@@ -1,0 +1,3 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/torchvision/r3d_18/_decomposed/r3d_18_start10_end11_10
+graphs/hf_subgraphs/sole_op_subgraphs/samples/torchvision/r3d_18/_decomposed/r3d_18_start0_end1_0
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/JackWong0911_vivit-b-16x2-kinetics400-finetuned-kinectic/_decomposed/JackWong0911_vivit-b-16x2-kinetics400-finetuned-kinectic_start1_end2_1

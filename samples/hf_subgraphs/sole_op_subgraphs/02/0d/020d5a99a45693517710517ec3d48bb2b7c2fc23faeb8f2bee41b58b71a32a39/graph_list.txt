@@ -1,0 +1,6 @@
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/SegNeXt-b/_decomposed/SegNeXt-b_start838_end839_838
+graphs/hf_subgraphs/sole_op_subgraphs/samples/transformers-auto-model/anton-l_sew-d-mid-400k-ft-keyword-spotting/_decomposed/anton-l_sew-d-mid-400k-ft-keyword-spotting_start2_end3_2
+graphs/hf_subgraphs/sole_op_subgraphs/samples/torchaudio/hubert_base/_decomposed/hubert_base_start2_end3_2
+graphs/hf_subgraphs/sole_op_subgraphs/samples/timm/poolformerv2_m36.sail_in1k/_decomposed/poolformerv2_m36.sail_in1k_start101_end102_101
+graphs/hf_subgraphs/sole_op_subgraphs/samples/mmseg/PoolFormer_m36/_decomposed/PoolFormer_m36_start103_end104_103
+graphs/hf_subgraphs/sole_op_subgraphs/samples/torchaudio/convtasnet_base_libri2mix/_decomposed/convtasnet_base_libri2mix_start105_end106_105

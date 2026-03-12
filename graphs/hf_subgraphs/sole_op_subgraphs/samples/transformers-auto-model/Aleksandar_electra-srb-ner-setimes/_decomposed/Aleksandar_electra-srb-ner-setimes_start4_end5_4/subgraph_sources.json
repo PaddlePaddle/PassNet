@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/Aleksandar_electra-srb-ner-setimes": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/fgaim_tielectra-small-pos": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/klue_bert-base": [
+        [
+            0,
+            1
+        ]
+    ]
+}

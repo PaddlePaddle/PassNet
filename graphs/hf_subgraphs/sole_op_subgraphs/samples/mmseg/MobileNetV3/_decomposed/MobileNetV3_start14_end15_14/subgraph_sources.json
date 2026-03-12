@@ -1,0 +1,38 @@
+{
+    "samples/mmseg/MobileNetV3": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/timm/fastvit_s12.apple_dist_in1k": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/timm/mobileone_s1.apple_in1k": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/timm/mobileone_s2.apple_in1k": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/timm/mobileone_s3.apple_in1k": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/timm/mobileone_s4.apple_in1k": [
+        [
+            7,
+            8
+        ]
+    ]
+}
