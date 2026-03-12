@@ -3,6 +3,7 @@ import json
 import argparse
 import numpy as np
 from graph_net_bench import analysis_util
+from graph_net_bench import imp_util
 from graph_net_bench import verify_aggregated_params
 from graph_net_bench.positive_tolerance_interpretation_manager import (
     get_supported_positive_tolerance_interpretation_types,
@@ -223,8 +224,8 @@ def main(args):
                 es_scores_wrapper, folder_name
             )
             all_es_scores[folder_name] = verified_es_values
-
-    weights = get_weights()
+    weight_func = _get_weight_func()
+    weights = weight_func()
     assert set(weights.keys()) == set(all_es_scores['validation'].keys())
     weighted_sum = sum(
         weight * np.log(score) / np.log(10)
@@ -241,6 +242,13 @@ def main(args):
         json.dump(result, f, indent=4)
     print(f"{rectified_speedup=}")
     print(f"Result is saved to {args.output_json_file_path}")
+
+def _get_weight_func():
+    custom_weight_func_path = os.environ.get("AI4C_CUSTOM_WEIGHT_FUNC_PATH")
+    if custom_weight_func_path is None:
+        return get_weights
+    module = imp_util.load_module(custom_weight_func_path)
+    return module.get_weights
 
 def get_weights():
     # `weights` is derived from the NLP ES metrics of NVIDIA A100 relative to H20
