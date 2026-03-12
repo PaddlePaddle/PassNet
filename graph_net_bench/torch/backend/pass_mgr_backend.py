@@ -10,6 +10,7 @@ import json
 from collections import OrderedDict
 from pathlib import Path
 import importlib.util as imp
+from graph_net_bench import imp_util
 from .graph_compiler_backend import GraphCompilerBackend
 from dataclasses import dataclass
 from typing import Any, List, Optional, Dict
@@ -376,7 +377,7 @@ def create_pass(pass_name, pass_rule):
     func.__qualname__ = pass_name
     return func
 
-def load_py_module(path, name='unamed'):
+def is_pass_source_valid(path):
     from graph_net_bench.ast_util import validate_pass_source
     with open(path, "r") as f:
         source = f.read()
@@ -387,8 +388,34 @@ def load_py_module(path, name='unamed'):
         for v in violations:
             print(f"  - {v}")
         print(f"[PassMgrBackend] Skipping loading of {name} due to validation failures.")
-        return None
+        return False
+    return True
 
+def is_pass_source_valid_by_customized_checker(path):
+    with open(path, "r") as f:
+        source = f.read()
+    pass_source_checker_paths = os.environ.get("AI4C_CUSTOM_PASS_SOURCE_CHECKER_PATH")
+    if pass_source_checker_paths is None:
+        return True
+    for checker_path in pass_source_checker_paths.split(':'):
+        if not Path(checker_path).is_file():
+            continue
+        module = imp_util.load_module(checker_path)
+        violations = module.validate_pass_source(source)
+        if violations:
+            print(f"[PassMgrBackend] Detected hacking behavior, forbidden torch API usage in replacement_func")
+            print(f"[PassMgrBackend] Pass source validation failed for {path}:")
+            for v in violations:
+                print(f"  - {v}")
+            print(f"[PassMgrBackend] Skipping loading of {name} due to validation failures.")
+            return False
+    return True
+
+def load_py_module(path, name='unamed'):
+    if not is_pass_source_valid(path):
+        return None
+    if not is_pass_source_valid_by_customized_checker(path):
+        return None
     spec = imp.spec_from_file_location(name, path)
     module = imp.module_from_spec(spec)
     module.__file__ = path
