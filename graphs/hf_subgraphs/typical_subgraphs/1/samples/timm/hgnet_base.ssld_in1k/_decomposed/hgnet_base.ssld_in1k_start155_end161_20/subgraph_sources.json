@@ -1,0 +1,28 @@
+{
+    "samples/timm/hgnet_base.ssld_in1k": [
+        [
+            94,
+            100
+        ],
+        [
+            155,
+            161
+        ],
+        [
+            185,
+            191
+        ]
+    ],
+    "samples/timm/hgnet_small.paddle_in1k": [
+        [
+            113,
+            119
+        ]
+    ],
+    "samples/timm/hgnet_tiny.paddle_in1k": [
+        [
+            101,
+            107
+        ]
+    ]
+}

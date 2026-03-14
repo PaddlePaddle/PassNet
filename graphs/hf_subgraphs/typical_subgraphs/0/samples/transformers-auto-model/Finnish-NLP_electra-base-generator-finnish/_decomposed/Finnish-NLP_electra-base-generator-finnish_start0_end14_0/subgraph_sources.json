@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish": [
+        [
+            0,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-small-uncased-tokenized": [
+        [
+            0,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_electra-base-swedish-cased-generator": [
+        [
+            0,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra_base_generator": [
+        [
+            0,
+            14
+        ]
+    ]
+}

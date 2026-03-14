@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/typical_subgraphs/2/samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K/_decomposed/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K_start0_end13_0
+graphs/hf_subgraphs/typical_subgraphs/2/samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K/_decomposed/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K_start0_end13_0

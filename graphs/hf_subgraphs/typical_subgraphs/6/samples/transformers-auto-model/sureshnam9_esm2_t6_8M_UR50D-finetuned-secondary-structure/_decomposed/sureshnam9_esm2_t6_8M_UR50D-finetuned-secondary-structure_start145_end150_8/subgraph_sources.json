@@ -1,0 +1,28 @@
+{
+    "samples/transformers-auto-model/sureshnam9_esm2_t6_8M_UR50D-finetuned-secondary-structure": [
+        [
+            80,
+            85
+        ],
+        [
+            145,
+            150
+        ],
+        [
+            210,
+            215
+        ],
+        [
+            275,
+            280
+        ],
+        [
+            340,
+            345
+        ],
+        [
+            405,
+            410
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/ethanyt_guwen-ner": [
+        [
+            0,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/inthedarkness_klue-roberta-small-cross-encoder": [
+        [
+            0,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/lst-nectec_HoogBERTa-POS-lst20": [
+        [
+            0,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/pongjin_roberta_with_kornli": [
+        [
+            0,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/tau_tavbert-he": [
+        [
+            0,
+            24
+        ]
+    ]
+}

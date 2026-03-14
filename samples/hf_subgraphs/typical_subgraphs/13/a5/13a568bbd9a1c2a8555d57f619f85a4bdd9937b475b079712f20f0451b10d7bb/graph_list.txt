@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/typical_subgraphs/0/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start315_end322_8
+graphs/hf_subgraphs/typical_subgraphs/7/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start315_end322_8

@@ -1,0 +1,8 @@
+{
+    "samples/timm/repvgg_d2se.rvgg_in1k": [
+        [
+            16,
+            25
+        ]
+    ]
+}

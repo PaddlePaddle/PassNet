@@ -1,0 +1,5 @@
+graphs/hf_subgraphs/typical_subgraphs/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DPTModel/_decomposed/hf-tiny-model-private_tiny-random-DPTModel_start103_end110_14
+graphs/hf_subgraphs/typical_subgraphs/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel/_decomposed/hf-tiny-model-private_tiny-random-DeiTModel_start122_end129_18
+graphs/hf_subgraphs/typical_subgraphs/2/samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224/_decomposed/facebook_deit-small-distilled-patch16-224_start122_end129_18
+graphs/hf_subgraphs/typical_subgraphs/7/samples/transformers-auto-model/hustvl_yolos-tiny/_decomposed/hustvl_yolos-tiny_start106_end113_14
+graphs/hf_subgraphs/typical_subgraphs/5/samples/transformers-auto-model/Intel_dpt-large/_decomposed/Intel_dpt-large_start103_end110_14

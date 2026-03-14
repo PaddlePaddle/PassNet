@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CvtForImageClassification": [
+        [
+            172,
+            194
+        ],
+        [
+            219,
+            241
+        ],
+        [
+            266,
+            288
+        ],
+        [
+            313,
+            335
+        ],
+        [
+            360,
+            382
+        ],
+        [
+            407,
+            429
+        ],
+        [
+            454,
+            476
+        ],
+        [
+            501,
+            523
+        ],
+        [
+            548,
+            570
+        ],
+        [
+            595,
+            617
+        ]
+    ]
+}

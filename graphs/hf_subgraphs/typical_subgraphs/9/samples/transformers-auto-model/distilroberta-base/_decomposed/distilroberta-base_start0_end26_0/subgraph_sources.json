@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/distilroberta-base": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/roberta-base": [
+        [
+            0,
+            26
+        ]
+    ]
+}

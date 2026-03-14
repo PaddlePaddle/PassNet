@@ -1,0 +1,44 @@
+{
+    "samples/timm/legacy_seresnet101.in1k": [
+        [
+            53,
+            59
+        ],
+        [
+            119,
+            125
+        ],
+        [
+            489,
+            495
+        ]
+    ],
+    "samples/timm/legacy_seresnet152.in1k": [
+        [
+            53,
+            59
+        ],
+        [
+            183,
+            189
+        ],
+        [
+            761,
+            767
+        ]
+    ],
+    "samples/timm/legacy_seresnet50.in1k": [
+        [
+            53,
+            59
+        ],
+        [
+            119,
+            125
+        ],
+        [
+            217,
+            223
+        ]
+    ]
+}

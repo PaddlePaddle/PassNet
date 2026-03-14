@@ -1,0 +1,2 @@
+graphs/hf_subgraphs/typical_subgraphs/9/samples/transformers-auto-model/JackWong0911_vivit-b-16x2-kinetics400-finetuned-kinectic/_decomposed/JackWong0911_vivit-b-16x2-kinetics400-finetuned-kinectic_start0_end9_0
+graphs/hf_subgraphs/typical_subgraphs/8/samples/transformers-auto-model/prathameshdalal_vivit-b-16x2-kinetics400-UCF-Crime/_decomposed/prathameshdalal_vivit-b-16x2-kinetics400-UCF-Crime_start0_end9_0

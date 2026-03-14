@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            1496,
+            1553
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-mini": [
+        [
+            296,
+            353
+        ]
+    ],
+    "samples/transformers-auto-model/gsarti_it5-efficient-small-el32-wiki-summarization": [
+        [
+            446,
+            503
+        ]
+    ],
+    "samples/transformers-auto-model/t5-small": [
+        [
+            446,
+            503
+        ]
+    ]
+}

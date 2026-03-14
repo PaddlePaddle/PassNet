@@ -1,0 +1,1 @@
+graphs/hf_subgraphs/typical_subgraphs/3/samples/transformers-auto-model/bge-small-en/_decomposed/bge-small-en_start0_end19_0

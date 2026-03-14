@@ -1,0 +1,46 @@
+{
+    "samples/transformers-auto-model/IDEA-Research_dab-detr-resnet-50": [
+        [
+            930,
+            954
+        ],
+        [
+            966,
+            990
+        ],
+        [
+            1002,
+            1026
+        ],
+        [
+            1038,
+            1062
+        ],
+        [
+            1074,
+            1098
+        ]
+    ],
+    "samples/transformers-auto-model/davidhajdu_dab_detr_finetuned_cppe5": [
+        [
+            931,
+            955
+        ],
+        [
+            967,
+            991
+        ],
+        [
+            1003,
+            1027
+        ],
+        [
+            1039,
+            1063
+        ],
+        [
+            1075,
+            1099
+        ]
+    ]
+}

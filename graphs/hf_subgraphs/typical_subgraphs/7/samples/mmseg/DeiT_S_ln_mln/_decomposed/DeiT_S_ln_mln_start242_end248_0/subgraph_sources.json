@@ -1,0 +1,50 @@
+{
+    "samples/mmseg/DeiT_S_ln_mln": [
+        [
+            242,
+            248
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            1517,
+            1523
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            779,
+            785
+        ]
+    ],
+    "samples/mmseg/MAE": [
+        [
+            438,
+            444
+        ]
+    ],
+    "samples/mmseg/Swin-b": [
+        [
+            1517,
+            1523
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            1517,
+            1523
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            779,
+            785
+        ]
+    ],
+    "samples/mmseg/ViT_B_ln_mln": [
+        [
+            242,
+            248
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/andyluan_emotion-detection": [
+        [
+            1027,
+            1040
+        ]
+    ],
+    "samples/transformers-auto-model/bigscience/bloom-560m": [
+        [
+            1027,
+            1040
+        ]
+    ],
+    "samples/transformers-auto-model/cmarkea_bloomz-560m-nli": [
+        [
+            1027,
+            1040
+        ]
+    ],
+    "samples/transformers-auto-model/intelia-lab-uah_bloomz-560m_AE_SQAC": [
+        [
+            1028,
+            1041
+        ]
+    ],
+    "samples/transformers-auto-model/venishpatidar_wa-ad-mod": [
+        [
+            1027,
+            1040
+        ]
+    ]
+}

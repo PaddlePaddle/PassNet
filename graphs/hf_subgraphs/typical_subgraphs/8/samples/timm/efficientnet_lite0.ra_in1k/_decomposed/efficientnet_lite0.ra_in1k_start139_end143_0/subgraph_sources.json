@@ -1,0 +1,56 @@
+{
+    "samples/timm/efficientnet_lite0.ra_in1k": [
+        [
+            139,
+            143
+        ]
+    ],
+    "samples/timm/mobilenetv1_100.ra4_e3600_r224_in1k": [
+        [
+            80,
+            84
+        ]
+    ],
+    "samples/timm/mobilenetv1_100h.ra4_e3600_r224_in1k": [
+        [
+            83,
+            87
+        ]
+    ],
+    "samples/timm/mobilenetv1_125.ra4_e3600_r224_in1k": [
+        [
+            80,
+            84
+        ]
+    ],
+    "samples/timm/mobilenetv2_050.lamb_in1k": [
+        [
+            148,
+            152
+        ]
+    ],
+    "samples/timm/mobilenetv2_100.ra_in1k": [
+        [
+            148,
+            152
+        ]
+    ],
+    "samples/timm/mobilenetv2_110d.ra_in1k": [
+        [
+            193,
+            197
+        ]
+    ],
+    "samples/timm/mobilenetv2_120d.ra_in1k": [
+        [
+            229,
+            233
+        ]
+    ],
+    "samples/timm/mobilenetv2_140.ra_in1k": [
+        [
+            148,
+            152
+        ]
+    ]
+}

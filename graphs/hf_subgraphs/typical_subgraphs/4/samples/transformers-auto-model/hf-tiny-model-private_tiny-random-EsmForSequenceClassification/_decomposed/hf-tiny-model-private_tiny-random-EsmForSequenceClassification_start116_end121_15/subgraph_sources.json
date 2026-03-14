@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EsmForSequenceClassification": [
+        [
+            48,
+            53
+        ],
+        [
+            82,
+            87
+        ],
+        [
+            116,
+            121
+        ],
+        [
+            150,
+            155
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaPreLayerNormForSequenceClassification": [
+        [
+            47,
+            52
+        ],
+        [
+            76,
+            81
+        ],
+        [
+            105,
+            110
+        ],
+        [
+            134,
+            139
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/all-mpnet-base-v2": [
+        [
+            0,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-mpnet-base-v1": [
+        [
+            0,
+            45
+        ]
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "samples/mmpose/RTMO-l": [
+        [
+            45,
+            49
+        ]
+    ],
+    "samples/mmpose/RTMO-m": [
+        [
+            36,
+            40
+        ],
+        [
+            178,
+            182
+        ]
+    ],
+    "samples/mmpose/RTMO-s": [
+        [
+            27,
+            31
+        ]
+    ],
+    "samples/mmpose/yoloxpose_l": [
+        [
+            45,
+            49
+        ]
+    ],
+    "samples/mmpose/yoloxpose_m": [
+        [
+            36,
+            40
+        ],
+        [
+            178,
+            182
+        ]
+    ],
+    "samples/mmpose/yoloxpose_tiny": [
+        [
+            27,
+            31
+        ]
+    ]
+}

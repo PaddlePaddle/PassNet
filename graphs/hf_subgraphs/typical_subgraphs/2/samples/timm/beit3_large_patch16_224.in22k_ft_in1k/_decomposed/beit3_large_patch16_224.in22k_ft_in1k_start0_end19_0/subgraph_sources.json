@@ -1,0 +1,8 @@
+{
+    "samples/timm/beit3_large_patch16_224.in22k_ft_in1k": [
+        [
+            0,
+            19
+        ]
+    ]
+}

@@ -1,0 +1,4 @@
+graphs/hf_subgraphs/typical_subgraphs/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel/_decomposed/hf-tiny-model-private_tiny-random-DeiTModel_start0_end9_0
+graphs/hf_subgraphs/typical_subgraphs/2/samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224/_decomposed/facebook_deit-tiny-distilled-patch16-224_start0_end9_0
+graphs/hf_subgraphs/typical_subgraphs/2/samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224/_decomposed/facebook_deit-small-distilled-patch16-224_start0_end9_0
+graphs/hf_subgraphs/typical_subgraphs/5/samples/transformers-auto-model/facebook_deit-base-distilled-patch16-384/_decomposed/facebook_deit-base-distilled-patch16-384_start0_end9_0

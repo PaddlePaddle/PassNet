@@ -1,0 +1,44 @@
+{
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            810,
+            822
+        ]
+    ],
+    "samples/timm/legacy_seresnet101.in1k": [
+        [
+            532,
+            544
+        ]
+    ],
+    "samples/timm/legacy_seresnet152.in1k": [
+        [
+            804,
+            816
+        ]
+    ],
+    "samples/timm/legacy_seresnet50.in1k": [
+        [
+            260,
+            272
+        ]
+    ],
+    "samples/timm/legacy_seresnext101_32x4d.in1k": [
+        [
+            532,
+            544
+        ]
+    ],
+    "samples/timm/legacy_seresnext26_32x4d.in1k": [
+        [
+            132,
+            144
+        ]
+    ],
+    "samples/timm/legacy_seresnext50_32x4d.in1k": [
+        [
+            260,
+            272
+        ]
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "samples/timm/res2net101_26w_4s": [
+        [
+            798,
+            803
+        ]
+    ],
+    "samples/timm/res2net101d": [
+        [
+            807,
+            812
+        ]
+    ],
+    "samples/timm/res2net50_14w_8s.in1k": [
+        [
+            694,
+            699
+        ]
+    ],
+    "samples/timm/res2net50_26w_4s.in1k": [
+        [
+            390,
+            395
+        ]
+    ],
+    "samples/timm/res2net50_26w_6s.in1k": [
+        [
+            542,
+            547
+        ]
+    ],
+    "samples/timm/res2net50_26w_8s.in1k": [
+        [
+            694,
+            699
+        ]
+    ],
+    "samples/timm/res2net50_48w_2s.in1k": [
+        [
+            238,
+            243
+        ]
+    ],
+    "samples/timm/res2net50d.in1k": [
+        [
+            399,
+            404
+        ]
+    ],
+    "samples/timm/res2next50.in1k": [
+        [
+            390,
+            395
+        ]
+    ],
+    "samples/timm/resnest50d_1s4x24d.in1k": [
+        [
+            335,
+            340
+        ]
+    ],
+    "samples/timm/resnet101.a1_in1k": [
+        [
+            340,
+            345
+        ]
+    ],
+    "samples/timm/resnet101c.gluon_in1k": [
+        [
+            346,
+            351
+        ]
+    ],
+    "samples/timm/resnet101d.gluon_in1k": [
+        [
+            349,
+            354
+        ]
+    ],
+    "samples/timm/resnet14t.c3_in1k": [
+        [
+            59,
+            64
+        ]
+    ],
+    "samples/timm/resnet152.a1_in1k": [
+        [
+            510,
+            515
+        ]
+    ],
+    "samples/timm/resnet152c.gluon_in1k": [
+        [
+            516,
+            521
+        ]
+    ],
+    "samples/timm/resnet152d.gluon_in1k": [
+        [
+            519,
+            524
+        ]
+    ],
+    "samples/timm/resnet18": [
+        [
+            64,
+            69
+        ]
+    ],
+    "samples/timm/resnet18d.ra2_in1k": [
+        [
+            73,
+            78
+        ]
+    ],
+    "samples/timm/resnet200d.ra2_in1k": [
+        [
+            679,
+            684
+        ]
+    ],
+    "samples/timm/resnet26.bt_in1k": [
+        [
+            90,
+            95
+        ]
+    ],
+    "samples/timm/resnet26d.bt_in1k": [
+        [
+            99,
+            104
+        ]
+    ],
+    "samples/timm/resnet34.a1_in1k": [
+        [
+            120,
+            125
+        ]
+    ],
+    "samples/timm/resnet34d.ra2_in1k": [
+        [
+            129,
+            134
+        ]
+    ],
+    "samples/timm/resnet50.a1_in1k": [
+        [
+            170,
+            175
+        ]
+    ],
+    "samples/timm/resnet50c.gluon_in1k": [
+        [
+            176,
+            181
+        ]
+    ],
+    "samples/timm/resnet50d.a1_in1k": [
+        [
+            179,
+            184
+        ]
+    ],
+    "samples/timm/resnetaa101d.sw_in12k": [
+        [
+            352,
+            357
+        ]
+    ],
+    "samples/timm/resnetaa50.a1h_in1k": [
+        [
+            173,
+            178
+        ]
+    ],
+    "samples/timm/resnetaa50d.d_in12k": [
+        [
+            182,
+            187
+        ]
+    ],
+    "samples/timm/resnetblur50.bt_in1k": [
+        [
+            178,
+            183
+        ]
+    ],
+    "samples/timm/resnetblur50d": [
+        [
+            187,
+            192
+        ]
+    ],
+    "samples/timm/resnext101_32x4d.fb_ssl_yfcc100m_ft_in1k": [
+        [
+            340,
+            345
+        ]
+    ],
+    "samples/timm/resnext101_64x4d.c1_in1k": [
+        [
+            340,
+            345
+        ]
+    ],
+    "samples/timm/resnext50_32x4d.a1_in1k": [
+        [
+            170,
+            175
+        ]
+    ],
+    "samples/timm/resnext50d_32x4d.bt_in1k": [
+        [
+            179,
+            184
+        ]
+    ],
+    "samples/timm/skresnet18.ra_in1k": [
+        [
+            209,
+            214
+        ]
+    ],
+    "samples/timm/skresnet34.ra_in1k": [
+        [
+            401,
+            406
+        ]
+    ],
+    "samples/timm/skresnext50_32x4d.ra_in1k": [
+        [
+            403,
+            408
+        ]
+    ]
+}

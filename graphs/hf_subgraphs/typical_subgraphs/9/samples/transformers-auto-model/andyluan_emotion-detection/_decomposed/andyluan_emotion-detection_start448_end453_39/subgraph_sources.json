@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/andyluan_emotion-detection": [
+        [
+            448,
+            453
+        ]
+    ],
+    "samples/transformers-auto-model/bigscience/bloom-560m": [
+        [
+            448,
+            453
+        ]
+    ],
+    "samples/transformers-auto-model/bloom-560m": [
+        [
+            449,
+            454
+        ]
+    ],
+    "samples/transformers-auto-model/cmarkea_bloomz-560m-nli": [
+        [
+            448,
+            453
+        ]
+    ],
+    "samples/transformers-auto-model/intelia-lab-uah_bloomz-560m_AE_SQAC": [
+        [
+            449,
+            454
+        ]
+    ],
+    "samples/transformers-auto-model/venishpatidar_wa-ad-mod": [
+        [
+            448,
+            453
+        ]
+    ]
+}

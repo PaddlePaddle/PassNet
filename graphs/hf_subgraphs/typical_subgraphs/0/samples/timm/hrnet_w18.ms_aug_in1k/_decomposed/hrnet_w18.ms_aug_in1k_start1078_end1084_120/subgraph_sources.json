@@ -1,0 +1,26 @@
+{
+    "samples/timm/hrnet_w18.ms_aug_in1k": [
+        [
+            1078,
+            1084
+        ]
+    ],
+    "samples/timm/hrnet_w18_small.gluon_in1k": [
+        [
+            249,
+            255
+        ]
+    ],
+    "samples/timm/hrnet_w18_small_v2.gluon_in1k": [
+        [
+            511,
+            517
+        ]
+    ],
+    "samples/timm/hrnet_w18_ssld.paddle_in1k": [
+        [
+            1078,
+            1084
+        ]
+    ]
+}
