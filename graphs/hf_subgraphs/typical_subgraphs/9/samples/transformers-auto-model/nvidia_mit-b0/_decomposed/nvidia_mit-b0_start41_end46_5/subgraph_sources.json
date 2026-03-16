@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            41,
+            46
+        ]
+    ],
+    "samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512": [
+        [
+            41,
+            46
+        ]
+    ]
+}

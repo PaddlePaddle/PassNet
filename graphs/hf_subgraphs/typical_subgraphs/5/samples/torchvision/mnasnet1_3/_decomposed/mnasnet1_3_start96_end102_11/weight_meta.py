@@ -1,0 +1,110 @@
+class Program_weight_tensor_meta_L_self_modules_layers_modules_11_modules_1_modules_layers_modules_3_parameters_weight_:
+	name = "in_0"
+	original_name = "L_self_modules_layers_modules_11_modules_1_modules_layers_modules_3_parameters_weight_"
+	shape = [768, 1, 3, 3]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.009
+	std = 0.102
+
+
+class Program_weight_tensor_meta_L_self_modules_layers_modules_11_modules_1_modules_layers_modules_4_buffers_running_mean_:
+	name = "in_1"
+	original_name = "L_self_modules_layers_modules_11_modules_1_modules_layers_modules_4_buffers_running_mean_"
+	shape = [768]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.029
+	std = 0.184
+
+
+class Program_weight_tensor_meta_L_self_modules_layers_modules_11_modules_1_modules_layers_modules_4_buffers_running_var_:
+	name = "in_2"
+	original_name = "L_self_modules_layers_modules_11_modules_1_modules_layers_modules_4_buffers_running_var_"
+	shape = [768]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.038
+	std = 0.049
+	min_val = 0
+
+
+class Program_weight_tensor_meta_L_self_modules_layers_modules_11_modules_1_modules_layers_modules_4_parameters_bias_:
+	name = "in_3"
+	original_name = "L_self_modules_layers_modules_11_modules_1_modules_layers_modules_4_parameters_bias_"
+	shape = [768]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.745
+	std = 1.274
+
+
+class Program_weight_tensor_meta_L_self_modules_layers_modules_11_modules_1_modules_layers_modules_4_parameters_weight_:
+	name = "in_4"
+	original_name = "L_self_modules_layers_modules_11_modules_1_modules_layers_modules_4_parameters_weight_"
+	shape = [768]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.215
+	std = 0.591
+
+
+class Program_weight_tensor_meta_L_self_modules_layers_modules_11_modules_1_modules_layers_modules_6_parameters_weight_:
+	name = "in_5"
+	original_name = "L_self_modules_layers_modules_11_modules_1_modules_layers_modules_6_parameters_weight_"
+	shape = [128, 768, 1, 1]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.057
+
+
+class Program_weight_tensor_meta_L_self_modules_layers_modules_11_modules_1_modules_layers_modules_7_buffers_running_mean_:
+	name = "in_6"
+	original_name = "L_self_modules_layers_modules_11_modules_1_modules_layers_modules_7_buffers_running_mean_"
+	shape = [128]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.089
+	std = 1.045
+
+
+class Program_weight_tensor_meta_L_self_modules_layers_modules_11_modules_1_modules_layers_modules_7_buffers_running_var_:
+	name = "in_7"
+	original_name = "L_self_modules_layers_modules_11_modules_1_modules_layers_modules_7_buffers_running_var_"
+	shape = [128]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.889
+	std = 0.308
+	min_val = 0
+
+
+class Program_weight_tensor_meta_L_self_modules_layers_modules_11_modules_1_modules_layers_modules_7_parameters_bias_:
+	name = "in_8"
+	original_name = "L_self_modules_layers_modules_11_modules_1_modules_layers_modules_7_parameters_bias_"
+	shape = [128]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_layers_modules_11_modules_1_modules_layers_modules_7_parameters_weight_:
+	name = "in_9"
+	original_name = "L_self_modules_layers_modules_11_modules_1_modules_layers_modules_7_parameters_weight_"
+	shape = [128]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.793
+	std = 0.658
+
+
+class Program_weight_tensor_meta_input_96:
+	name = "in_10"
+	original_name = "input_96"
+	shape = [32, 768, 24, 24]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.264
+	std = 0.158

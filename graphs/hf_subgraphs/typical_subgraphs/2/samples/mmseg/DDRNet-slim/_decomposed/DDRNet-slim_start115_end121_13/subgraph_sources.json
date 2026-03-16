@@ -1,0 +1,62 @@
+{
+    "samples/mmseg/DDRNet-slim": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/PIDNet-l": [
+        [
+            224,
+            230
+        ],
+        [
+            236,
+            242
+        ]
+    ],
+    "samples/mmseg/PIDNet-s": [
+        [
+            137,
+            143
+        ],
+        [
+            189,
+            195
+        ],
+        [
+            201,
+            207
+        ]
+    ],
+    "samples/timm/regnetx_080.pycls_in1k": [
+        [
+            14,
+            20
+        ]
+    ],
+    "samples/timm/regnety_320.pycls_in1k": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/timm/regnety_320.seer": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/timm/regnety_640.seer": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/timm/regnety_640.seer_ft_in1k": [
+        [
+            20,
+            26
+        ]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-bort": [
+        [
+            107,
+            115
+        ]
+    ],
+    "samples/transformers-auto-model/all-mpnet-base-v2": [
+        [
+            400,
+            408
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_mpnet-base": [
+        [
+            400,
+            408
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-mpnet-base-v1": [
+        [
+            400,
+            408
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/AethiQs-Max_AethiQs_GemBERT_bertje_50k": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/GroNLP_bert-base-dutch-cased-frisian": [
+        [
+            0,
+            17
+        ]
+    ]
+}

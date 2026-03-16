@@ -1,0 +1,12 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, in_0):
+        tmp_0 = torch.nn.functional.silu(in_0, inplace=True)
+        tmp_1 = torch.nn.functional.max_pool2d(tmp_0, 5, 1, 2, 1, ceil_mode=False, return_indices=False)
+        tmp_2 = torch.nn.functional.max_pool2d(tmp_0, 9, 1, 4, 1, ceil_mode=False, return_indices=False)
+        tmp_3 = torch.nn.functional.max_pool2d(tmp_0, 13, 1, 6, 1, ceil_mode=False, return_indices=False)
+        tmp_4 = torch.cat([tmp_0, tmp_1, tmp_2, tmp_3], 1)
+        tmp_0 = tmp_1 = tmp_2 = tmp_3 = None
+        return (tmp_4,)

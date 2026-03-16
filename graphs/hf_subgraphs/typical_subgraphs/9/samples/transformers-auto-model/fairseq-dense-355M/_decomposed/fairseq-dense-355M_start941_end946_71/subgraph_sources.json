@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/fairseq-dense-355M": [
+        [
+            941,
+            946
+        ]
+    ],
+    "samples/transformers-auto-model/ru-bart-large": [
+        [
+            373,
+            378
+        ]
+    ]
+}

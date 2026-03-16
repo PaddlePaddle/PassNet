@@ -1,0 +1,21 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, w_0, w_1, in_0):
+        tmp_0 = w_0
+        tmp_1 = w_1
+        tmp_2 = in_0.transpose(1, 2)
+        tmp_3 = tmp_2.view(1, 128, 8, 8)
+        tmp_2 = None
+        tmp_4 = torch.conv2d(tmp_3, tmp_1, tmp_0, (1, 1), (1, 1), (1, 1), 128)
+        tmp_3 = tmp_1 = tmp_0 = None
+        tmp_5 = tmp_4.flatten(2)
+        tmp_4 = None
+        tmp_6 = tmp_5.transpose(1, 2)
+        tmp_5 = None
+        tmp_7 = torch.nn.functional.gelu(tmp_6)
+        tmp_6 = None
+        tmp_8 = torch.nn.functional.dropout(tmp_7, 0.1, False, False)
+        tmp_7 = None
+        return (tmp_8,)

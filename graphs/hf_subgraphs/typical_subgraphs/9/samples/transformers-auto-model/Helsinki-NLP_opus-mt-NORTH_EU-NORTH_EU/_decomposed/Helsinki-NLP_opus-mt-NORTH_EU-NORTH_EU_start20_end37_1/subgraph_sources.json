@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-NORTH_EU-NORTH_EU": [
+        [
+            20,
+            37
+        ]
+    ],
+    "samples/transformers-auto-model/sbulut_finetuned-kde4-en-to-tr": [
+        [
+            20,
+            37
+        ]
+    ]
+}

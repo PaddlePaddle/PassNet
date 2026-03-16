@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-UniSpeechSatForSequenceClassification": [
+        [
+            133,
+            138
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-WavLMForSequenceClassification": [
+        [
+            176,
+            181
+        ]
+    ]
+}

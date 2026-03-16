@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecAudioForSequenceClassification": [
+        [
+            128,
+            135
+        ],
+        [
+            157,
+            164
+        ],
+        [
+            186,
+            193
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-UniSpeechSatForSequenceClassification": [
+        [
+            44,
+            51
+        ],
+        [
+            73,
+            80
+        ],
+        [
+            102,
+            109
+        ]
+    ]
+}

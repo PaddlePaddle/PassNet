@@ -1,0 +1,8 @@
+{
+    "samples/torchvision/deeplabv3_mobilenet_v3_large": [
+        [
+            183,
+            189
+        ]
+    ]
+}

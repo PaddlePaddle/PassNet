@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2ForImageClassification": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2Model": [
+        [
+            12,
+            18
+        ]
+    ]
+}

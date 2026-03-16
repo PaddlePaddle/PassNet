@@ -1,0 +1,32 @@
+{
+    "samples/timm/deit_small_distilled_patch16_224.fb_in1k": [
+        [
+            215,
+            220
+        ]
+    ],
+    "samples/timm/deit_small_patch16_224.fb_in1k": [
+        [
+            214,
+            219
+        ]
+    ],
+    "samples/timm/vit_small_patch16_224.dino": [
+        [
+            214,
+            219
+        ]
+    ],
+    "samples/timm/vit_small_patch32_224.augreg_in21k": [
+        [
+            214,
+            219
+        ]
+    ],
+    "samples/timm/vit_small_patch8_224.dino": [
+        [
+            214,
+            219
+        ]
+    ]
+}

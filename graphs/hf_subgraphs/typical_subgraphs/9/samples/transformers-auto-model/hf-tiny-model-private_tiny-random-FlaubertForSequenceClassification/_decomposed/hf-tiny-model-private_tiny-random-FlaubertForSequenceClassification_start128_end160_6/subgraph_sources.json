@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-FlaubertForSequenceClassification": [
+        [
+            54,
+            86
+        ],
+        [
+            91,
+            123
+        ],
+        [
+            128,
+            160
+        ],
+        [
+            165,
+            197
+        ]
+    ]
+}

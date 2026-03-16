@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/bloom-tiny-random": [
+        [
+            57,
+            62
+        ],
+        [
+            99,
+            104
+        ]
+    ]
+}

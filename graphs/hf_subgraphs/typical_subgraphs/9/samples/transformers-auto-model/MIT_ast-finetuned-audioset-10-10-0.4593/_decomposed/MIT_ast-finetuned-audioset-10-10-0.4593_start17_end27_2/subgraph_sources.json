@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/MIT_ast-finetuned-audioset-10-10-0.4593": [
+        [
+            17,
+            27
+        ]
+    ],
+    "samples/transformers-auto-model/bookbot_distil-ast-audioset": [
+        [
+            17,
+            27
+        ]
+    ]
+}

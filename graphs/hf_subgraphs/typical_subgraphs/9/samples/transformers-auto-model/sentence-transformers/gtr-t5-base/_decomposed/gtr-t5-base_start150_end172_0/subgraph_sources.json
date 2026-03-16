@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/sentence-transformers/gtr-t5-base": [
+        [
+            150,
+            172
+        ],
+        [
+            236,
+            258
+        ],
+        [
+            322,
+            344
+        ],
+        [
+            408,
+            430
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/opt-tiny-random": [
+        [
+            32,
+            49
+        ],
+        [
+            63,
+            80
+        ]
+    ]
+}

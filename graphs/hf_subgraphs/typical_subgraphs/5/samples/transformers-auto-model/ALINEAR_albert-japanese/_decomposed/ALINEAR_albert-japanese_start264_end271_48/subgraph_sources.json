@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/ALINEAR_albert-japanese": [
+        [
+            264,
+            271
+        ]
+    ],
+    "samples/transformers-auto-model/ALINEAR_albert-japanese-v2": [
+        [
+            264,
+            271
+        ]
+    ],
+    "samples/transformers-auto-model/albert_albert-base-v1": [
+        [
+            264,
+            271
+        ]
+    ],
+    "samples/transformers-auto-model/anilguven_albert_tr_turkish_product_reviews": [
+        [
+            264,
+            271
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-10-spanish-distilled-ner": [
+        [
+            222,
+            229
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-4-spanish-distilled-ner": [
+        [
+            96,
+            103
+        ]
+    ],
+    "samples/transformers-auto-model/dccuchile_albert-base-6-spanish-finetuned-ner": [
+        [
+            138,
+            145
+        ]
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EsmForSequenceClassification": [
+        [
+            38,
+            43
+        ],
+        [
+            72,
+            77
+        ],
+        [
+            106,
+            111
+        ],
+        [
+            140,
+            145
+        ],
+        [
+            174,
+            179
+        ]
+    ]
+}

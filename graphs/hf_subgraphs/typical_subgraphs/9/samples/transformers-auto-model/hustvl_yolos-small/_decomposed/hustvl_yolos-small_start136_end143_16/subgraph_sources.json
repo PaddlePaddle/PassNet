@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hustvl_yolos-small": [
+        [
+            136,
+            143
+        ]
+    ],
+    "samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection": [
+        [
+            136,
+            143
+        ]
+    ]
+}

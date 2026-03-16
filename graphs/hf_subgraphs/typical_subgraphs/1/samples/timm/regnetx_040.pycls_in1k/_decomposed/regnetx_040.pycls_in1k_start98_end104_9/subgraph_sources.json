@@ -1,0 +1,14 @@
+{
+    "samples/timm/regnetx_040.pycls_in1k": [
+        [
+            98,
+            104
+        ]
+    ],
+    "samples/timm/regnetx_064.pycls_in1k": [
+        [
+            98,
+            104
+        ]
+    ]
+}

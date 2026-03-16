@@ -1,0 +1,20 @@
+{
+    "samples/timm/vit_base_patch16_224.dino": [
+        [
+            254,
+            262
+        ]
+    ],
+    "samples/timm/vit_base_patch32_224.orig_in21k": [
+        [
+            254,
+            262
+        ]
+    ],
+    "samples/timm/vit_base_patch8_224.dino": [
+        [
+            254,
+            262
+        ]
+    ]
+}

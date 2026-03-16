@@ -1,0 +1,32 @@
+{
+    "samples/timm/cs3darknet_focus_l.c2ns_in1k": [
+        [
+            42,
+            46
+        ]
+    ],
+    "samples/timm/cs3darknet_focus_s.ra4_e3600_r256_in1k": [
+        [
+            62,
+            66
+        ]
+    ],
+    "samples/timm/cs3darknet_l.c2ns_in1k": [
+        [
+            45,
+            49
+        ]
+    ],
+    "samples/timm/cs3darknet_s": [
+        [
+            65,
+            69
+        ]
+    ],
+    "samples/timm/cs3sedarknet_l.c2ns_in1k": [
+        [
+            63,
+            67
+        ]
+    ]
+}

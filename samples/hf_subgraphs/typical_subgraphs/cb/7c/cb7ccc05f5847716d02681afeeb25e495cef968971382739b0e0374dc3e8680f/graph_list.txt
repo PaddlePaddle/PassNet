@@ -1,0 +1,3 @@
+graphs/hf_subgraphs/typical_subgraphs/2/samples/timm/convit_tiny/_decomposed/convit_tiny_start0_end56_0
+graphs/hf_subgraphs/typical_subgraphs/2/samples/timm/convit_small/_decomposed/convit_small_start0_end56_0
+graphs/hf_subgraphs/typical_subgraphs/2/samples/timm/convit_base/_decomposed/convit_base_start0_end56_0

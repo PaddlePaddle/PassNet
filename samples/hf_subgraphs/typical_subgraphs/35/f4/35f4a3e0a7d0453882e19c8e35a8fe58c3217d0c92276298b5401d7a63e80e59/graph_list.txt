@@ -1,0 +1,12 @@
+graphs/hf_subgraphs/typical_subgraphs/0/samples/timm/dpn48b/_decomposed/dpn48b_start130_end137_18
+graphs/hf_subgraphs/typical_subgraphs/1/samples/timm/dpn48b/_decomposed/dpn48b_start130_end137_18
+graphs/hf_subgraphs/typical_subgraphs/0/samples/timm/dpn48b/_decomposed/dpn48b_start117_end124_16
+graphs/hf_subgraphs/typical_subgraphs/1/samples/timm/dpn48b/_decomposed/dpn48b_start117_end124_16
+graphs/hf_subgraphs/typical_subgraphs/3/samples/timm/dpn48b/_decomposed/dpn48b_start130_end137_18
+graphs/hf_subgraphs/typical_subgraphs/7/samples/timm/dpn48b/_decomposed/dpn48b_start130_end137_18
+graphs/hf_subgraphs/typical_subgraphs/3/samples/timm/dpn48b/_decomposed/dpn48b_start117_end124_16
+graphs/hf_subgraphs/typical_subgraphs/7/samples/timm/dpn48b/_decomposed/dpn48b_start117_end124_16
+graphs/hf_subgraphs/typical_subgraphs/0/samples/timm/dpn68b.mx_in1k/_decomposed/dpn68b.mx_in1k_start221_end228_32
+graphs/hf_subgraphs/typical_subgraphs/1/samples/timm/dpn68b.mx_in1k/_decomposed/dpn68b.mx_in1k_start221_end228_32
+graphs/hf_subgraphs/typical_subgraphs/3/samples/timm/dpn68b.mx_in1k/_decomposed/dpn68b.mx_in1k_start221_end228_32
+graphs/hf_subgraphs/typical_subgraphs/7/samples/timm/dpn68b.mx_in1k/_decomposed/dpn68b.mx_in1k_start221_end228_32
