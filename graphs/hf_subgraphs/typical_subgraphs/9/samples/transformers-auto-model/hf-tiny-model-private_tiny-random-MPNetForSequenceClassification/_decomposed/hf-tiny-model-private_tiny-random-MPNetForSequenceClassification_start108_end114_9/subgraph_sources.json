@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MPNetForSequenceClassification": [
+        [
+            78,
+            84
+        ],
+        [
+            108,
+            114
+        ],
+        [
+            138,
+            144
+        ],
+        [
+            168,
+            174
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification": [
+        [
+            102,
+            108
+        ],
+        [
+            131,
+            137
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification": [
+        [
+            190,
+            196
+        ],
+        [
+            230,
+            236
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerModel": [
+        [
+            190,
+            196
+        ],
+        [
+            230,
+            236
+        ]
+    ]
+}

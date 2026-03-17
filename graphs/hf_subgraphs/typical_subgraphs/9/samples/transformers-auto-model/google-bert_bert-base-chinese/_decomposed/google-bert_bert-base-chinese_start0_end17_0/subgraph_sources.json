@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google-bert_bert-base-chinese": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/xc2450_distilbert-portuguese-cased-finetuned-bec_classification": [
+        [
+            0,
+            17
+        ]
+    ]
+}

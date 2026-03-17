@@ -1,0 +1,42 @@
+{
+    "samples/timm/hrnet_w18.ms_aug_in1k": [
+        [
+            118,
+            124
+        ],
+        [
+            565,
+            571
+        ]
+    ],
+    "samples/timm/hrnet_w18_small.gluon_in1k": [
+        [
+            60,
+            66
+        ],
+        [
+            132,
+            138
+        ]
+    ],
+    "samples/timm/hrnet_w18_small_v2.gluon_in1k": [
+        [
+            70,
+            76
+        ],
+        [
+            280,
+            286
+        ]
+    ],
+    "samples/timm/hrnet_w18_ssld.paddle_in1k": [
+        [
+            118,
+            124
+        ],
+        [
+            565,
+            571
+        ]
+    ]
+}

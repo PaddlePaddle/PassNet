@@ -1,0 +1,14 @@
+{
+    "samples/timm/regnety_080.pycls_in1k": [
+        [
+            264,
+            270
+        ]
+    ],
+    "samples/timm/regnety_080_tv.tv2_in1k": [
+        [
+            264,
+            270
+        ]
+    ]
+}

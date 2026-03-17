@@ -1,0 +1,12 @@
+{
+    "samples/mmpose/pose_hrnetv2_w18_dark": [
+        [
+            1069,
+            1075
+        ],
+        [
+            1084,
+            1090
+        ]
+    ]
+}

@@ -1,0 +1,101 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, in_0, in_1, in_2, in_3, in_4, in_5, in_6, in_7, in_8, in_9, in_10, in_11, in_12, in_13, in_14, in_15, in_16, in_17, in_18, in_19, in_20, in_21, in_22, in_23, in_24, in_25, in_26):
+        tmp_0 = in_0
+        tmp_1 = in_1
+        tmp_2 = in_2
+        tmp_3 = in_3
+        tmp_4 = in_4
+        tmp_5 = in_5
+        tmp_6 = in_6
+        tmp_7 = in_7
+        tmp_8 = in_8
+        tmp_9 = in_9
+        tmp_10 = in_10
+        tmp_11 = in_11
+        tmp_12 = in_12
+        tmp_13 = in_13
+        tmp_14 = in_14
+        tmp_15 = in_15
+        tmp_16 = in_16
+        tmp_17 = in_17
+        tmp_18 = in_18
+        tmp_19 = in_19
+        tmp_20 = in_20
+        tmp_21 = in_21
+        tmp_22 = in_22
+        tmp_23 = in_23
+        tmp_24 = in_24
+        tmp_25 = in_25
+        tmp_26 = in_26
+        tmp_27 = torch.conv2d(tmp_26, tmp_7, tmp_6, (1, 1), (1, 1), (1, 1), 1)
+        tmp_26 = tmp_7 = tmp_6 = None
+        tmp_28 = torch.nn.functional.relu(tmp_27, inplace=True)
+        tmp_27 = None
+        tmp_29 = torch.conv2d(tmp_28, tmp_21, tmp_20, (1, 1), (1, 1), (1, 1), 1)
+        tmp_28 = tmp_21 = tmp_20 = None
+        tmp_30 = torch.nn.functional.relu(tmp_29, inplace=True)
+        tmp_29 = None
+        tmp_31 = torch.nn.functional.max_pool2d(tmp_30, 2, 2, 0, 1, ceil_mode=False, return_indices=False)
+        tmp_30 = None
+        tmp_32 = torch.conv2d(tmp_31, tmp_23, tmp_22, (1, 1), (1, 1), (1, 1), 1)
+        tmp_31 = tmp_23 = tmp_22 = None
+        tmp_33 = torch.nn.functional.relu(tmp_32, inplace=True)
+        tmp_32 = None
+        tmp_34 = torch.conv2d(tmp_33, tmp_25, tmp_24, (1, 1), (1, 1), (1, 1), 1)
+        tmp_33 = tmp_25 = tmp_24 = None
+        tmp_35 = torch.nn.functional.relu(tmp_34, inplace=True)
+        tmp_34 = None
+        tmp_36 = torch.nn.functional.max_pool2d(tmp_35, 2, 2, 0, 1, ceil_mode=False, return_indices=False)
+        tmp_35 = None
+        tmp_37 = torch.conv2d(tmp_36, tmp_9, tmp_8, (1, 1), (1, 1), (1, 1), 1)
+        tmp_36 = tmp_9 = tmp_8 = None
+        tmp_38 = torch.nn.functional.relu(tmp_37, inplace=True)
+        tmp_37 = None
+        tmp_39 = torch.conv2d(tmp_38, tmp_11, tmp_10, (1, 1), (1, 1), (1, 1), 1)
+        tmp_38 = tmp_11 = tmp_10 = None
+        tmp_40 = torch.nn.functional.relu(tmp_39, inplace=True)
+        tmp_39 = None
+        tmp_41 = torch.nn.functional.max_pool2d(tmp_40, 2, 2, 0, 1, ceil_mode=False, return_indices=False)
+        tmp_40 = None
+        tmp_42 = torch.conv2d(tmp_41, tmp_13, tmp_12, (1, 1), (1, 1), (1, 1), 1)
+        tmp_41 = tmp_13 = tmp_12 = None
+        tmp_43 = torch.nn.functional.relu(tmp_42, inplace=True)
+        tmp_42 = None
+        tmp_44 = torch.conv2d(tmp_43, tmp_15, tmp_14, (1, 1), (1, 1), (1, 1), 1)
+        tmp_43 = tmp_15 = tmp_14 = None
+        tmp_45 = torch.nn.functional.relu(tmp_44, inplace=True)
+        tmp_44 = None
+        tmp_46 = torch.nn.functional.max_pool2d(tmp_45, 2, 2, 0, 1, ceil_mode=False, return_indices=False)
+        tmp_45 = None
+        tmp_47 = torch.conv2d(tmp_46, tmp_17, tmp_16, (1, 1), (1, 1), (1, 1), 1)
+        tmp_46 = tmp_17 = tmp_16 = None
+        tmp_48 = torch.nn.functional.relu(tmp_47, inplace=True)
+        tmp_47 = None
+        tmp_49 = torch.conv2d(tmp_48, tmp_19, tmp_18, (1, 1), (1, 1), (1, 1), 1)
+        tmp_48 = tmp_19 = tmp_18 = None
+        tmp_50 = torch.nn.functional.relu(tmp_49, inplace=True)
+        tmp_49 = None
+        tmp_51 = torch.nn.functional.max_pool2d(tmp_50, 2, 2, 0, 1, ceil_mode=False, return_indices=False)
+        tmp_50 = None
+        tmp_52 = torch.nn.functional.adaptive_avg_pool2d(tmp_51, (7, 7))
+        tmp_51 = None
+        tmp_53 = torch.flatten(tmp_52, 1)
+        tmp_52 = None
+        tmp_54 = torch.nn.functional.linear(tmp_53, tmp_1, tmp_0)
+        tmp_53 = tmp_1 = tmp_0 = None
+        tmp_55 = torch.nn.functional.relu(tmp_54, inplace=True)
+        tmp_54 = None
+        tmp_56 = torch.nn.functional.dropout(tmp_55, 0.5, False, False)
+        tmp_55 = None
+        tmp_57 = torch.nn.functional.linear(tmp_56, tmp_3, tmp_2)
+        tmp_56 = tmp_3 = tmp_2 = None
+        tmp_58 = torch.nn.functional.relu(tmp_57, inplace=True)
+        tmp_57 = None
+        tmp_59 = torch.nn.functional.dropout(tmp_58, 0.5, False, False)
+        tmp_58 = None
+        tmp_60 = torch.nn.functional.linear(tmp_59, tmp_5, tmp_4)
+        tmp_59 = tmp_5 = tmp_4 = None
+        return (tmp_60,)

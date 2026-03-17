@@ -1,0 +1,14 @@
+{
+    "samples/timm/gernet_l.idstcv_in1k": [
+        [
+            89,
+            95
+        ]
+    ],
+    "samples/timm/gernet_m.idstcv_in1k": [
+        [
+            89,
+            95
+        ]
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "samples/timm/eca_vovnet39b": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/timm/ese_vovnet39b.ra_in1k": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/timm/ese_vovnet57b.ra4_e3600_r256_in1k": [
+        [
+            8,
+            14
+        ],
+        [
+            104,
+            110
+        ]
+    ]
+}

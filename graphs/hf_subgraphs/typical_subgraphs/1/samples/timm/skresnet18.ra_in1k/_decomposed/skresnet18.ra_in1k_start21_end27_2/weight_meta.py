@@ -1,0 +1,29 @@
+class Program_weight_tensor_meta_L_self_modules_layer1_modules_0_modules_conv1_modules_attn_modules_fc_select_parameters_weight_:
+	name = "in_0"
+	original_name = "L_self_modules_layer1_modules_0_modules_conv1_modules_attn_modules_fc_select_parameters_weight_"
+	shape = [128, 16, 1, 1]
+	dtype = "torch.float32"
+	device = "cpu"
+	mean = 0.001
+	std = 0.124
+
+
+class Program_weight_tensor_meta_stack:
+	name = "in_1"
+	original_name = "stack"
+	shape = [1, 2, 64, 48, 48]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.001
+	std = 0.002
+
+
+class Program_weight_tensor_meta_x_12:
+	name = "in_2"
+	original_name = "x_12"
+	shape = [1, 16, 1, 1]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.002
+	std = 0.002
+	data = [0.002988, 0.003696, 0.000988, -0.001218, 0.002371, 0.003722, 0.001959, 0.003701, 0.000684, 0.002492, 0.004855, 0.003812, 0.003271, -0.000052, 0.004032, 0.001583]

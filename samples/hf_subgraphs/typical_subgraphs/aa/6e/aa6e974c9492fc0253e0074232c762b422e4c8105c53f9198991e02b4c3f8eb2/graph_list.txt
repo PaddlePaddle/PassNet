@@ -1,0 +1,11 @@
+graphs/hf_subgraphs/typical_subgraphs/9/samples/transformers-auto-model/google_electra-small-discriminator/_decomposed/google_electra-small-discriminator_start0_end14_0
+graphs/hf_subgraphs/typical_subgraphs/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RemBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-RemBertForSequenceClassification_start0_end14_0
+graphs/hf_subgraphs/typical_subgraphs/9/samples/transformers-auto-model/GKLMIP_electra-khmer-small-uncased-tokenized/_decomposed/GKLMIP_electra-khmer-small-uncased-tokenized_start0_end14_0
+graphs/hf_subgraphs/typical_subgraphs/9/samples/transformers-auto-model/google_rembert/_decomposed/google_rembert_start0_end14_0
+graphs/hf_subgraphs/typical_subgraphs/0/samples/transformers-auto-model/pszemraj_electra-small-discriminator-zeroshot-v1.1/_decomposed/pszemraj_electra-small-discriminator-zeroshot-v1.1_start0_end14_0
+graphs/hf_subgraphs/typical_subgraphs/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification_start0_end14_0
+graphs/hf_subgraphs/typical_subgraphs/0/samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish/_decomposed/Finnish-NLP_electra-base-generator-finnish_start0_end14_0
+graphs/hf_subgraphs/typical_subgraphs/5/samples/transformers-auto-model/pszemraj_electra-small-discriminator-zeroshot-v1.1/_decomposed/pszemraj_electra-small-discriminator-zeroshot-v1.1_start0_end14_0
+graphs/hf_subgraphs/typical_subgraphs/5/samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish/_decomposed/Finnish-NLP_electra-base-generator-finnish_start0_end14_0
+graphs/hf_subgraphs/typical_subgraphs/7/samples/transformers-auto-model/pszemraj_electra-small-discriminator-zeroshot-v1.1/_decomposed/pszemraj_electra-small-discriminator-zeroshot-v1.1_start0_end14_0
+graphs/hf_subgraphs/typical_subgraphs/7/samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish/_decomposed/Finnish-NLP_electra-base-generator-finnish_start0_end14_0

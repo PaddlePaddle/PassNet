@@ -1,0 +1,8 @@
+{
+    "samples/timm/vit_base_patch16_224_miil.in21k": [
+        [
+            214,
+            219
+        ]
+    ]
+}

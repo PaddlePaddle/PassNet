@@ -1,0 +1,26 @@
+{
+    "samples/timm/fbnetv3_b.ra2_in1k": [
+        [
+            362,
+            368
+        ]
+    ],
+    "samples/timm/fbnetv3_d.ra2_in1k": [
+        [
+            394,
+            400
+        ]
+    ],
+    "samples/timm/fbnetv3_g.ra2_in1k": [
+        [
+            451,
+            457
+        ]
+    ],
+    "samples/timm/mobilenetv3_rw.rmsp_in1k": [
+        [
+            179,
+            185
+        ]
+    ]
+}

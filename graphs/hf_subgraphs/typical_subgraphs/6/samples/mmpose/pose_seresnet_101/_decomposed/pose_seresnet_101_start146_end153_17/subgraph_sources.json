@@ -1,0 +1,20 @@
+{
+    "samples/mmpose/pose_seresnet_101": [
+        [
+            146,
+            153
+        ]
+    ],
+    "samples/mmpose/pose_seresnet_152": [
+        [
+            144,
+            151
+        ]
+    ],
+    "samples/mmpose/pose_seresnet_50": [
+        [
+            146,
+            153
+        ]
+    ]
+}

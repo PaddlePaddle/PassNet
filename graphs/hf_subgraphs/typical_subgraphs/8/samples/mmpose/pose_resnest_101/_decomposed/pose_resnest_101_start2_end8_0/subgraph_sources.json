@@ -1,0 +1,86 @@
+{
+    "samples/mmpose/pose_resnest_101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmpose/pose_resnest_200": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmpose/pose_resnest_269": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmpose/pose_resnest_50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_152": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/BiSeNetV2": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/mmseg/UNet_fcn": [
+        [
+            74,
+            80
+        ]
+    ],
+    "samples/timm/resnet101_clip_gap.openai": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/resnet50_clip_gap.cc12m": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/resnet50x16_clip_gap.openai": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/resnet50x4_clip_gap.openai": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/resnet50x64_clip_gap.openai": [
+        [
+            2,
+            8
+        ]
+    ]
+}

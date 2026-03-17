@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting": [
+        [
+            741,
+            746
+        ]
+    ],
+    "samples/transformers-auto-model/xbgoose_hubert-large-speech-emotion-recognition-russian-dusha-finetuned": [
+        [
+            741,
+            746
+        ]
+    ]
+}

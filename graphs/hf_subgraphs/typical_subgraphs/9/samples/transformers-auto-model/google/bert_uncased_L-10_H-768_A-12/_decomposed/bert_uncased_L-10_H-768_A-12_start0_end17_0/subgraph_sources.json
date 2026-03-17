@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-768_A-12": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-4_H-768_A-12": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-6_H-768_A-12": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-768_A-12": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/yiyanghkust_finbert-tone": [
+        [
+            0,
+            17
+        ]
+    ]
+}

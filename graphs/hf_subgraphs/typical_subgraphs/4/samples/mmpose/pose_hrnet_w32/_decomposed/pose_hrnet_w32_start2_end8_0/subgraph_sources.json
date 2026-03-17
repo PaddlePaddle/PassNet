@@ -1,0 +1,38 @@
+{
+    "samples/mmpose/pose_hrnet_w32": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmpose/pose_hrnetv2_w18_dark": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18-Small": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            2,
+            8
+        ]
+    ]
+}

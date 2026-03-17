@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/ALINEAR_albert-japanese": [
+        [
+            0,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/albert_albert-base-v1": [
+        [
+            0,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/albert_albert-large-v1": [
+        [
+            0,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/albert_albert-xlarge-v1": [
+        [
+            0,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/anilguven_albert_tr_turkish_product_reviews": [
+        [
+            0,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification": [
+        [
+            0,
+            16
+        ]
+    ]
+}

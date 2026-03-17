@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/SenseTime_deformable-detr-single-scale": [
+        [
+            837,
+            882
+        ],
+        [
+            887,
+            932
+        ],
+        [
+            937,
+            982
+        ],
+        [
+            987,
+            1032
+        ],
+        [
+            1037,
+            1082
+        ]
+    ]
+}

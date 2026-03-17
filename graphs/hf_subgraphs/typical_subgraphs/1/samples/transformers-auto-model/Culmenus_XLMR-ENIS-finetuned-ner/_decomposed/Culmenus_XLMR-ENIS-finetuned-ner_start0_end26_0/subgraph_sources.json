@@ -1,0 +1,122 @@
+{
+    "samples/transformers-auto-model/Culmenus_XLMR-ENIS-finetuned-ner": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-merged": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_est-roberta": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_litlat-bert": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/Jodsa_camembert_mlm": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/aimarsg_prueba5": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/almanach_camembert-base": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/axotion_polish-reranker-base-ranknet": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/cmarkea_distilcamembert-base-nli": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/distilroberta-base": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/huggingface_CodeBERTa-small-v1": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/mahwizzzz_UrduClassification": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xlm-align-base": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/nli-MiniLM2-L6-H768": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/nli-roberta-base": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/roberta-base": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-distilroberta-v1": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/msmarco-roberta-base-ance-firstp": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-distilroberta-base-v1": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/ukr-models_xlm-roberta-base-uk": [
+        [
+            0,
+            26
+        ]
+    ]
+}

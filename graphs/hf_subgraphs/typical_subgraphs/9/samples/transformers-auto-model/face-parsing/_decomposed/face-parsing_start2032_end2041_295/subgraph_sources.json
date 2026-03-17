@@ -1,0 +1,68 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            2032,
+            2041
+        ],
+        [
+            2066,
+            2075
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            312,
+            321
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b2": [
+        [
+            592,
+            601
+        ],
+        [
+            626,
+            635
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b3": [
+        [
+            1072,
+            1081
+        ],
+        [
+            1106,
+            1115
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b4": [
+        [
+            1592,
+            1601
+        ],
+        [
+            1626,
+            1635
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b5": [
+        [
+            2032,
+            2041
+        ],
+        [
+            2066,
+            2075
+        ]
+    ],
+    "samples/transformers-auto-model/segformer_b2_clothes": [
+        [
+            592,
+            601
+        ],
+        [
+            626,
+            635
+        ]
+    ]
+}

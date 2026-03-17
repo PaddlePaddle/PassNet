@@ -1,0 +1,122 @@
+{
+    "samples/mmpose/pose_resnext_101": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/mmpose/pose_resnext_152": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/mmpose/pose_resnext_50": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/timm/legacy_seresnext101_32x4d.in1k": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/timm/legacy_seresnext26_32x4d.in1k": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/timm/legacy_seresnext50_32x4d.in1k": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/resnext101_32x4d.fb_ssl_yfcc100m_ft_in1k": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/timm/resnext50_32x4d.a1_in1k": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/timm/resnext50d_32x4d.bt_in1k": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/timm/semnasnet_100.rmsp_in1k": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/seresnext101_32x4d.gluon_in1k": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/timm/seresnext101d_32x8d.ah_in1k": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/timm/seresnext26d_32x4d.bt_in1k": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/timm/seresnext50_32x4d.gluon_in1k": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/timm/seresnextaa101d_32x8d.ah_in1k": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/timm/seresnextaa201d_32x8d.sw_in12k": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/timm/spnasnet_100.rmsp_in1k": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/torchvision/resnext101_32x8d": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/torchvision/resnext50_32x4d": [
+        [
+            6,
+            12
+        ]
+    ]
+}

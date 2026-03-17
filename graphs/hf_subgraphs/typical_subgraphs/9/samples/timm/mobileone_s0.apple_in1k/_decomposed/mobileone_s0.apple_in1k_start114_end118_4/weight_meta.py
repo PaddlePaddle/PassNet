@@ -1,0 +1,69 @@
+class Program_weight_tensor_meta_L_self_modules_stages_modules_1_modules_3_modules_identity_buffers_running_mean_:
+	name = "w_0"
+	original_name = "L_self_modules_stages_modules_1_modules_3_modules_identity_buffers_running_mean_"
+	shape = [128]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_stages_modules_1_modules_3_modules_identity_buffers_running_var_:
+	name = "w_1"
+	original_name = "L_self_modules_stages_modules_1_modules_3_modules_identity_buffers_running_var_"
+	shape = [128]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+	min_val = 0
+
+
+class Program_weight_tensor_meta_L_self_modules_stages_modules_1_modules_3_modules_identity_parameters_bias_:
+	name = "w_2"
+	original_name = "L_self_modules_stages_modules_1_modules_3_modules_identity_parameters_bias_"
+	shape = [128]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_stages_modules_1_modules_3_modules_identity_parameters_weight_:
+	name = "w_3"
+	original_name = "L_self_modules_stages_modules_1_modules_3_modules_identity_parameters_weight_"
+	shape = [128]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_out_33:
+	name = "in_0"
+	original_name = "out_33"
+	shape = [1, 128, 28, 28]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_x_66:
+	name = "in_1"
+	original_name = "x_66"
+	shape = [1, 128, 28, 28]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.001
+
+
+class Program_weight_tensor_meta_x_77:
+	name = "in_2"
+	original_name = "x_77"
+	shape = [1, 128, 28, 28]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000

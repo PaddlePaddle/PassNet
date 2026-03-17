@@ -1,0 +1,46 @@
+{
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gmw-en": [
+        [
+            39,
+            66
+        ],
+        [
+            68,
+            95
+        ],
+        [
+            97,
+            124
+        ],
+        [
+            126,
+            153
+        ],
+        [
+            155,
+            182
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-ine-deu_eng_nld": [
+        [
+            39,
+            66
+        ],
+        [
+            68,
+            95
+        ],
+        [
+            97,
+            124
+        ],
+        [
+            126,
+            153
+        ],
+        [
+            155,
+            182
+        ]
+    ]
+}

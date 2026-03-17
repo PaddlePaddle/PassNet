@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/MobileNetV3": [
+        [
+            21,
+            27
+        ]
+    ]
+}

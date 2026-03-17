@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/microsoft_cvt-13-384": [
+        [
+            98,
+            105
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-21-384-22k": [
+        [
+            98,
+            105
+        ],
+        [
+            139,
+            146
+        ],
+        [
+            180,
+            187
+        ]
+    ]
+}

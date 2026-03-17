@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/rice-rice_detr-resnet-50_finetuned_dataset": [
+        [
+            910,
+            945
+        ],
+        [
+            950,
+            985
+        ],
+        [
+            990,
+            1025
+        ],
+        [
+            1030,
+            1065
+        ],
+        [
+            1070,
+            1105
+        ]
+    ]
+}

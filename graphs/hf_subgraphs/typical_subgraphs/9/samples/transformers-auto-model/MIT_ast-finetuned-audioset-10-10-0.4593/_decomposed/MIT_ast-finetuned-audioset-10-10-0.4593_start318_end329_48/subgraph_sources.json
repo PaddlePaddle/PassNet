@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/MIT_ast-finetuned-audioset-10-10-0.4593": [
+        [
+            318,
+            329
+        ]
+    ],
+    "samples/transformers-auto-model/MIT_ast-finetuned-audioset-14-14-0.443": [
+        [
+            318,
+            329
+        ]
+    ],
+    "samples/transformers-auto-model/MIT_ast-finetuned-speech-commands-v2": [
+        [
+            318,
+            329
+        ]
+    ],
+    "samples/transformers-auto-model/bookbot_distil-ast-audioset": [
+        [
+            162,
+            173
+        ]
+    ]
+}

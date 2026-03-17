@@ -1,0 +1,8 @@
+{
+    "samples/torchaudio/wav2vec2_xlsr_300m": [
+        [
+            0,
+            50
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "samples/mmseg/ResNeSt_deeplabv3": [
+        [
+            828,
+            834
+        ],
+        [
+            854,
+            860
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3plus": [
+        [
+            828,
+            834
+        ],
+        [
+            854,
+            860
+        ]
+    ],
+    "samples/mmseg/ResNeSt_fcn": [
+        [
+            828,
+            834
+        ],
+        [
+            854,
+            860
+        ]
+    ],
+    "samples/mmseg/ResNeSt_pspnet": [
+        [
+            828,
+            834
+        ],
+        [
+            854,
+            860
+        ]
+    ]
+}

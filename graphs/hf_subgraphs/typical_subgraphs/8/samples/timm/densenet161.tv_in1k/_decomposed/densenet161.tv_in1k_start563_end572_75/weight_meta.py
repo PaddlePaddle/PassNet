@@ -1,0 +1,319 @@
+class Program_weight_tensor_meta_L_self_modules_classifier_parameters_bias_:
+	name = "in_0"
+	original_name = "L_self_modules_classifier_parameters_bias_"
+	shape = [1000]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_classifier_parameters_weight_:
+	name = "in_1"
+	original_name = "L_self_modules_classifier_parameters_weight_"
+	shape = [1000, 2208]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.012
+
+
+class Program_weight_tensor_meta_L_self_modules_features_modules_denseblock4_modules_denselayer24_modules_conv2_parameters_weight_:
+	name = "in_2"
+	original_name = "L_self_modules_features_modules_denseblock4_modules_denselayer24_modules_conv2_parameters_weight_"
+	shape = [48, 192, 3, 3]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.034
+
+
+class Program_weight_tensor_meta_L_self_modules_features_modules_norm5_buffers_running_mean_:
+	name = "in_3"
+	original_name = "L_self_modules_features_modules_norm5_buffers_running_mean_"
+	shape = [2208]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_features_modules_norm5_buffers_running_var_:
+	name = "in_4"
+	original_name = "L_self_modules_features_modules_norm5_buffers_running_var_"
+	shape = [2208]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+	min_val = 0
+
+
+class Program_weight_tensor_meta_L_self_modules_features_modules_norm5_parameters_bias_:
+	name = "in_5"
+	original_name = "L_self_modules_features_modules_norm5_parameters_bias_"
+	shape = [2208]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_features_modules_norm5_parameters_weight_:
+	name = "in_6"
+	original_name = "L_self_modules_features_modules_norm5_parameters_weight_"
+	shape = [2208]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_input_11:
+	name = "in_7"
+	original_name = "input_11"
+	shape = [128, 1056, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_54:
+	name = "in_8"
+	original_name = "new_features_54"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_55:
+	name = "in_9"
+	original_name = "new_features_55"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_56:
+	name = "in_10"
+	original_name = "new_features_56"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_57:
+	name = "in_11"
+	original_name = "new_features_57"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_58:
+	name = "in_12"
+	original_name = "new_features_58"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_59:
+	name = "in_13"
+	original_name = "new_features_59"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_60:
+	name = "in_14"
+	original_name = "new_features_60"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_61:
+	name = "in_15"
+	original_name = "new_features_61"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_62:
+	name = "in_16"
+	original_name = "new_features_62"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_63:
+	name = "in_17"
+	original_name = "new_features_63"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_64:
+	name = "in_18"
+	original_name = "new_features_64"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_65:
+	name = "in_19"
+	original_name = "new_features_65"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_66:
+	name = "in_20"
+	original_name = "new_features_66"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_67:
+	name = "in_21"
+	original_name = "new_features_67"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_68:
+	name = "in_22"
+	original_name = "new_features_68"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_69:
+	name = "in_23"
+	original_name = "new_features_69"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_70:
+	name = "in_24"
+	original_name = "new_features_70"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_71:
+	name = "in_25"
+	original_name = "new_features_71"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_72:
+	name = "in_26"
+	original_name = "new_features_72"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_73:
+	name = "in_27"
+	original_name = "new_features_73"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_74:
+	name = "in_28"
+	original_name = "new_features_74"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_75:
+	name = "in_29"
+	original_name = "new_features_75"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_76:
+	name = "in_30"
+	original_name = "new_features_76"
+	shape = [128, 48, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_x_318:
+	name = "in_31"
+	original_name = "x_318"
+	shape = [128, 192, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
