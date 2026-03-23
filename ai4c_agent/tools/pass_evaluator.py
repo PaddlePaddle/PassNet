@@ -26,6 +26,27 @@ if hasattr(sys.stderr, 'buffer'):
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='ignore')
 
 
+def _remove_useless_lines(result_stdout, result_stderr):
+    """Remove noisy lines from stdout/stderr based on fixed markers."""
+    remove_markers = (
+        "[Correctness][all_close",
+        "Trial",
+        "[Profiling]",
+    )
+
+    def _filter_lines(text):
+        kept = []
+        for line in text.splitlines():
+            if any(marker in line for marker in remove_markers):
+                continue
+            kept.append(line)
+        return kept
+
+    filtered_stdout = _filter_lines(result_stdout)
+    filtered_stderr = _filter_lines(result_stderr)
+    return filtered_stdout, filtered_stderr
+
+
 def run_evaluation():
     """
     Run the AI4C evaluation script (entry.sh) and parse results.
@@ -52,8 +73,6 @@ def run_evaluation():
 
     # Run entry.sh
     print(f"Running evaluation for problem: {problem_path}")
-    print(f"Evaluation script: {entry_script}")
-    print("-" * 80)
 
     try:
         # Execute entry.sh
@@ -67,11 +86,13 @@ def run_evaluation():
             timeout=600  # 10 minute timeout
         )
 
+        filtered_stdout, filtered_stderr = _remove_useless_lines(result.stdout, result.stderr)
         print("[STDOUT]")
-        print(result.stdout)
-        print("\n[STDERR]")
-        print(result.stderr)
-        print("-" * 80)
+        for line in filtered_stdout:
+            print(line)
+        
+        for line in filtered_stderr:
+            print(line)
 
         # Parse the aggregated score
         output_path = Path("/tmp/workspace_graph_net_bench_test")
