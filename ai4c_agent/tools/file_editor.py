@@ -28,6 +28,7 @@ Allowed values: [`view`, `create`, `str_replace`, `insert`, `undo_edit`]
 
 import argparse
 import json
+import re
 import subprocess
 from pathlib import Path
 from collections import defaultdict
@@ -343,7 +344,7 @@ class StrReplaceEditor:
         output_str_list = []
         for i, text in sliced_lines:
             # i is 0-based
-            output_str_list.append(f"{i+1:6d} {text}")
+            output_str_list.append(f"{i+1:6d} {self._filter_context_heavy_line(text)}")
 
         final_output += "\n".join(output_str_list)
         final_output = maybe_truncate(final_output)
@@ -443,6 +444,12 @@ class StrReplaceEditor:
         combined.sort(key=lambda x: x[0])
 
         return combined
+
+    def _filter_context_heavy_line(self, line: str) -> str:
+        # Drop data payload lines entirely to keep context compact.
+        if re.match(r"^(\s*data\s*=\s*)\[(.*)\](\s*)$", line):
+            return ""
+        return line
 
     def create(self, path: Path, file_text: str) -> EditorResult:
         if file_text is None:
@@ -597,7 +604,7 @@ class StrReplaceEditor:
         if expand_tabs:
             file_content = file_content.expandtabs()
 
-        lines = file_content.split("\n")
+        lines = [self._filter_context_heavy_line(line) for line in file_content.split("\n")]
         numbered = "\n".join(
             f"{i + init_line:6}\t{line}" for i, line in enumerate(lines)
         )
