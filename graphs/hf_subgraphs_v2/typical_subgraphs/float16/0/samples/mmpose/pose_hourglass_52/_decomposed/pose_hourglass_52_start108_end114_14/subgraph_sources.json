@@ -1,0 +1,106 @@
+{
+    "samples/mmpose/pose_hourglass_52": [
+        [
+            11,
+            17
+        ],
+        [
+            108,
+            114
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R18": [
+        [
+            10,
+            16
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            16,
+            22
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18-Small": [
+        [
+            158,
+            164
+        ]
+    ],
+    "samples/mmseg/ICNet_R18": [
+        [
+            26,
+            32
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            158,
+            164
+        ]
+    ],
+    "samples/mmseg/PSPNet_R18": [
+        [
+            16,
+            22
+        ]
+    ],
+    "samples/timm/dla34.in1k": [
+        [
+            18,
+            24
+        ],
+        [
+            51,
+            57
+        ],
+        [
+            91,
+            97
+        ]
+    ],
+    "samples/timm/legacy_seresnet18.in1k": [
+        [
+            17,
+            23
+        ]
+    ],
+    "samples/timm/legacy_seresnet34.in1k": [
+        [
+            17,
+            23
+        ],
+        [
+            175,
+            181
+        ]
+    ],
+    "samples/timm/resnet18d.ra2_in1k": [
+        [
+            16,
+            22
+        ]
+    ],
+    "samples/timm/resnet34d.ra2_in1k": [
+        [
+            16,
+            22
+        ]
+    ],
+    "samples/torchvision/resnet18": [
+        [
+            10,
+            16
+        ]
+    ],
+    "samples/torchvision/resnet34": [
+        [
+            10,
+            16
+        ],
+        [
+            107,
+            113
+        ]
+    ]
+}

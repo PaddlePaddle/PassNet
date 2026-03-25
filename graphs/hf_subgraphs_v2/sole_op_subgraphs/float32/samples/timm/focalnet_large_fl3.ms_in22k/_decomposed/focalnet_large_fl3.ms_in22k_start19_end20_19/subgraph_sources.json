@@ -1,0 +1,40 @@
+{
+    "samples/timm/focalnet_large_fl3.ms_in22k": [
+        [
+            19,
+            20
+        ],
+        [
+            65,
+            66
+        ]
+    ],
+    "samples/timm/focalnet_large_fl4.ms_in22k": [
+        [
+            24,
+            25
+        ],
+        [
+            75,
+            76
+        ]
+    ],
+    "samples/timm/mixnet_xl.ra_in1k": [
+        [
+            233,
+            234
+        ],
+        [
+            267,
+            268
+        ],
+        [
+            301,
+            302
+        ],
+        [
+            335,
+            336
+        ]
+    ]
+}

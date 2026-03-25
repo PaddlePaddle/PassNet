@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/sentence-transformers/clip-ViT-B-32-multilingual-v1": [
+        [
+            132,
+            145
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/distiluse-base-multilingual-cased-v2": [
+        [
+            132,
+            145
+        ]
+    ]
+}

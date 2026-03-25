@@ -1,0 +1,5094 @@
+{
+    "samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Aira-OPT-125M": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/CLAck_en-vi": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/ELiRF_NASCA": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/ELiRF_mbart-large-cc25-dacsa-ca": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/EleutherAI_pythia-1b": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Fafadalilian_lora-adapter-t5_small_model_California_state_bill": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Farid59_nllb-darija-fr_eng": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/FinOPT-Lincoln": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-NORTH_EU-NORTH_EU": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-aed-es": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-af-es": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-en-zh": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-zh-en": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/IMISLab_GreekWiki-umt5-base": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/IS-LM-3B": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_fid_flan_t5_base_nq": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-1.3B": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-125M": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-355M": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K": [
+        [
+            623,
+            624
+        ]
+    ],
+    "samples/transformers-auto-model/Michielo_mt5-small_nl-en_translation": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/MohamedZaitoon_bart-fine-tune": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/NYTK_summarization-hi-bart-base-1024-hungarian": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/NeNeDataScientist_NeNeAI007_fr-kiluba-translation": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-heb-eng": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-hye-eng": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-ron-eng": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-tur-eng": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-zho-eng": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Nextcloud-AI_opus-mt-ar-es": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_bart-large-finetuned-eLife": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_long-t5-tfg": [
+        [
+            114,
+            115
+        ],
+        [
+            369,
+            370
+        ],
+        [
+            521,
+            522
+        ],
+        [
+            673,
+            674
+        ],
+        [
+            825,
+            826
+        ],
+        [
+            977,
+            978
+        ],
+        [
+            1129,
+            1130
+        ],
+        [
+            1281,
+            1282
+        ],
+        [
+            1433,
+            1434
+        ],
+        [
+            1585,
+            1586
+        ],
+        [
+            1737,
+            1738
+        ],
+        [
+            1889,
+            1890
+        ],
+        [
+            1948,
+            1949
+        ]
+    ],
+    "samples/transformers-auto-model/Q-MM_clip-vit-large-patch14-336": [
+        [
+            671,
+            672
+        ]
+    ],
+    "samples/transformers-auto-model/SpaceCowboy03_finetuned-kde4-es-to-fr": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Thomasboosinger_owlvit-base-patch32": [
+        [
+            443,
+            444
+        ]
+    ],
+    "samples/transformers-auto-model/TinyLlama/TinyLlama-1.1B-Chat-v0.4": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/allegro_plt5-large": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/amurienne_kellag-m2m100-v0.2": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/andyluan_emotion-detection": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-224-lit": [
+        [
+            930,
+            931
+        ],
+        [
+            985,
+            986
+        ],
+        [
+            1040,
+            1041
+        ],
+        [
+            1095,
+            1096
+        ],
+        [
+            1150,
+            1151
+        ],
+        [
+            1205,
+            1206
+        ],
+        [
+            1260,
+            1261
+        ],
+        [
+            1315,
+            1316
+        ],
+        [
+            1370,
+            1371
+        ],
+        [
+            1425,
+            1426
+        ],
+        [
+            1480,
+            1481
+        ],
+        [
+            1535,
+            1536
+        ]
+    ],
+    "samples/transformers-auto-model/aurelio-ai_sr-test-clip": [
+        [
+            158,
+            159
+        ]
+    ],
+    "samples/transformers-auto-model/baidu/ERNIE-4.5-0.3B-PT": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/bigscience/bloom-560m": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/bloom-560m": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/bloom-tiny-random": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/bloomz-1b1": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/bloomz-1b7": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/breadlicker45_autotrain-blender-50601120822": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/cmarkea_bloomz-560m-nli": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/cointegrated_rut5-base-absum": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/csebuetnlp_mT5_multilingual_XLSum": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/deepseek-ai/deepseek-coder-1.3b-base": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/echarlaix_bart-base-cnn-r2-18.7-d23-hybrid": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_bart-large-cnn": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_esm2_t33_650M_UR50D": [
+        [
+            45,
+            46
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            110,
+            111
+        ],
+        [
+            112,
+            113
+        ],
+        [
+            175,
+            176
+        ],
+        [
+            177,
+            178
+        ],
+        [
+            240,
+            241
+        ],
+        [
+            242,
+            243
+        ],
+        [
+            305,
+            306
+        ],
+        [
+            307,
+            308
+        ],
+        [
+            370,
+            371
+        ],
+        [
+            372,
+            373
+        ],
+        [
+            435,
+            436
+        ],
+        [
+            437,
+            438
+        ],
+        [
+            500,
+            501
+        ],
+        [
+            502,
+            503
+        ],
+        [
+            565,
+            566
+        ],
+        [
+            567,
+            568
+        ],
+        [
+            630,
+            631
+        ],
+        [
+            632,
+            633
+        ],
+        [
+            695,
+            696
+        ],
+        [
+            697,
+            698
+        ],
+        [
+            760,
+            761
+        ],
+        [
+            762,
+            763
+        ],
+        [
+            825,
+            826
+        ],
+        [
+            827,
+            828
+        ],
+        [
+            890,
+            891
+        ],
+        [
+            892,
+            893
+        ],
+        [
+            955,
+            956
+        ],
+        [
+            957,
+            958
+        ],
+        [
+            1020,
+            1021
+        ],
+        [
+            1022,
+            1023
+        ],
+        [
+            1085,
+            1086
+        ],
+        [
+            1087,
+            1088
+        ],
+        [
+            1150,
+            1151
+        ],
+        [
+            1152,
+            1153
+        ],
+        [
+            1215,
+            1216
+        ],
+        [
+            1217,
+            1218
+        ],
+        [
+            1280,
+            1281
+        ],
+        [
+            1282,
+            1283
+        ],
+        [
+            1345,
+            1346
+        ],
+        [
+            1347,
+            1348
+        ],
+        [
+            1410,
+            1411
+        ],
+        [
+            1412,
+            1413
+        ],
+        [
+            1475,
+            1476
+        ],
+        [
+            1477,
+            1478
+        ],
+        [
+            1540,
+            1541
+        ],
+        [
+            1542,
+            1543
+        ],
+        [
+            1605,
+            1606
+        ],
+        [
+            1607,
+            1608
+        ],
+        [
+            1670,
+            1671
+        ],
+        [
+            1672,
+            1673
+        ],
+        [
+            1735,
+            1736
+        ],
+        [
+            1737,
+            1738
+        ],
+        [
+            1800,
+            1801
+        ],
+        [
+            1802,
+            1803
+        ],
+        [
+            1865,
+            1866
+        ],
+        [
+            1867,
+            1868
+        ],
+        [
+            1930,
+            1931
+        ],
+        [
+            1932,
+            1933
+        ],
+        [
+            1995,
+            1996
+        ],
+        [
+            1997,
+            1998
+        ],
+        [
+            2060,
+            2061
+        ],
+        [
+            2062,
+            2063
+        ],
+        [
+            2125,
+            2126
+        ],
+        [
+            2127,
+            2128
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_metaclip-b16-400m": [
+        [
+            347,
+            348
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_metaclip-b32-400m": [
+        [
+            347,
+            348
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_xglm-564M": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/fairseq-dense-1.3B": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/fairseq-dense-355M": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/falcon-tiny-random": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/flutter-painter_nllb-fra-fuf-v2": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-base": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-1.1-2b-it": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-2b-it": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-1b-it": [
+        [
+            13,
+            14
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-270m": [
+        [
+            13,
+            14
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-base-patch16": [
+        [
+            443,
+            444
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-base-patch32": [
+        [
+            443,
+            444
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-large-patch14": [
+        [
+            863,
+            864
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5-small": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_base": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5_small": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_base": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_large": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google_flan_t5_small": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-base-patch16": [
+        [
+            443,
+            444
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14": [
+        [
+            863,
+            864
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14-finetuned": [
+        [
+            863,
+            864
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch16": [
+        [
+            443,
+            444
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch32": [
+        [
+            443,
+            444
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-large-patch14": [
+        [
+            863,
+            864
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-cnn_dailymail": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-xsum": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/google_pix2struct-base": [
+        [
+            762,
+            763
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-mini": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/gowitheflowlab_clip-base-10240-checkpoint350": [
+        [
+            347,
+            348
+        ]
+    ],
+    "samples/transformers-auto-model/gpssohi_distilbart-qgen-6-6": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/gsarti_it5-efficient-small-el32-wiki-summarization": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BartForSequenceClassification": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BloomForSequenceClassification": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CLIPSegModel": [
+        [
+            173,
+            174
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-GPTJForSequenceClassification": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MvpForSequenceClassification": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OPTForSequenceClassification": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            198,
+            199
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PLBartForSequenceClassification": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/hyesunyun_NonsenseUpdateDiffIntBart": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/igorktech_rut5-small-chit-chat-intelligent": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/intelia-lab-uah_bloomz-560m_AE_SQAC": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-base-translation-ja_zh": [
+        [
+            679,
+            680
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-small-translation-ja_zh": [
+        [
+            471,
+            472
+        ]
+    ],
+    "samples/transformers-auto-model/jackieliu930_bart-large-cnn-samsum": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/kanarya-750m": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/kannt-im_marian-finetuned-kde4-en-to-fr": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/laion_CLIP-ViT-H-14-laion2B-s32B-b79K": [
+        [
+            823,
+            824
+        ]
+    ],
+    "samples/transformers-auto-model/larryvrh_mt5-translation-ja_zh": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            313,
+            314
+        ]
+    ],
+    "samples/transformers-auto-model/miangoar_esm2_t12_35M_UR50D-finetuned-secondary-structure-classification": [
+        [
+            45,
+            46
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            110,
+            111
+        ],
+        [
+            112,
+            113
+        ],
+        [
+            175,
+            176
+        ],
+        [
+            177,
+            178
+        ],
+        [
+            240,
+            241
+        ],
+        [
+            242,
+            243
+        ],
+        [
+            305,
+            306
+        ],
+        [
+            307,
+            308
+        ],
+        [
+            370,
+            371
+        ],
+        [
+            372,
+            373
+        ],
+        [
+            435,
+            436
+        ],
+        [
+            437,
+            438
+        ],
+        [
+            500,
+            501
+        ],
+        [
+            502,
+            503
+        ],
+        [
+            565,
+            566
+        ],
+        [
+            567,
+            568
+        ],
+        [
+            630,
+            631
+        ],
+        [
+            632,
+            633
+        ],
+        [
+            695,
+            696
+        ],
+        [
+            697,
+            698
+        ],
+        [
+            760,
+            761
+        ],
+        [
+            762,
+            763
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/Phi-3-mini-4k-instruct": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1_5": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16": [
+        [
+            842,
+            843
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot": [
+        [
+            773,
+            774
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32": [
+        [
+            842,
+            843
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32-16-frames": [
+        [
+            773,
+            774
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-large-patch14": [
+        [
+            1610,
+            1611
+        ]
+    ],
+    "samples/transformers-auto-model/moska_plt5-seq-clf-with-entities-updated-finetuned": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/moussaKam_barthez-orangesum-abstract": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/navteca_bart-large-mnli": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/ncoop57_bart-base-code-summarizer-java-v0": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/noamr_bert-finetuned-ner": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/openai-community/gpt2": [
+        [
+            15,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/openai_clip-vit-base-patch32": [
+        [
+            347,
+            348
+        ]
+    ],
+    "samples/transformers-auto-model/openai_clip-vit-large-patch14": [
+        [
+            671,
+            672
+        ]
+    ],
+    "samples/transformers-auto-model/opt-350m-email-generation": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/opt-tiny-random": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-NORTH_EU-NORTH_EU": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ROMANCE-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-SCANDINAVIA-SCANDINAVIA": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-aav-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-aed-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-eo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-nl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-ru": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-afa-afa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-afa-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-alv-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-am-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-el": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-eo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-he": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-it": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-pl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-ru": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-tr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-art-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ase-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ase-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ase-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ase-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ase-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-az-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-az-tr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bat-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bcl-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bcl-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bcl-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bcl-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bcl-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bcl-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-be-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bem-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bem-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bem-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bem-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bem-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ber-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ber-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ber-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-eo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-it": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-ru": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-tr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bg-uk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bi-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bi-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bi-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bi-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bn-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bnt-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bzs-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bzs-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bzs-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bzs-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bzs-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ca-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ca-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ca-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ca-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ca-it": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ca-nl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ca-pt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ca-uk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cau-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ccs-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ceb-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ceb-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ceb-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ceb-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ceb-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cel-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-chk-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-chk-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-chk-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-chk-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cpf-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cpp-cpp": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cpp-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-crs-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-crs-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-crs-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-crs-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-crs-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-crs-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cs-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cs-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cs-eo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cs-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cs-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cs-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cs-uk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-csg-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-csn-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cy-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-da-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-da-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-da-eo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-da-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-da-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-da-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-da-no": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-da-ru": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ZH": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-af": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ar": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ase": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-bcl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-bg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-bi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-bzs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ca": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-crs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-cs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-da": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ee": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-efi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-el": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-eo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-et": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-eu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-fj": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-gaa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-gil": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-guw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ha": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-he": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-hil": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ho": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-hr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ht": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-hu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ig": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ilo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-is": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-iso": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-it": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-kg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ln": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-loz": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-lt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-lua": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ms": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-mt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-niu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-nl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-no": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-nso": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ny": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-pag": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-pap": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-pis": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-pl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-pon": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-tl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-uk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-vi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-dra-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ee-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ee-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ee-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ee-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ee-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-efi-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-efi-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-efi-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-efi-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-efi-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-el-ar": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-el-eo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-el-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-el-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-el-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-CELTIC": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ROMANCE": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-aav": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-af": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-afa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-alv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ar": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-az": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-bat": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-bcl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-bem": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ber": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-bg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-bi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-bnt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-bzs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ca": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ceb": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-cel": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-chk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-cpf": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-cpp": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-crs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-cs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-cy": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-da": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-dra": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ee": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-efi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-el": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-eo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-et": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-eu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-euq": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-fiu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-fj": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ga": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-gaa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-gem": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-gil": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-gl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-gmq": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-gmw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-guw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-gv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ha": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-he": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-hi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-hil": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ho": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ht": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-hu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-hy": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-id": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ig": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-iir": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ilo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-inc": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ine": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-is": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-iso": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-it": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-itc": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-jap": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-kg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-kj": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-kqn": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-kwn": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-kwy": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-lg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ln": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-loz": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-lu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-lua": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-lue": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-lun": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-luo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-lus": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-map": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-mfe": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-mg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-mh": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-mk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-mkh": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ml": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-mos": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-mr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-mt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-mul": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ng": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-nic": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-niu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-nl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-nso": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ny": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-nyk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-om": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-pag": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-pap": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-phi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-pis": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-pon": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-poz": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-pqe": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-pqw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-rn": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-rnd": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ro": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-roa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ru": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-run": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-rw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sal": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sem": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sit": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sla": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sm": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sn": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sq": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ss": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-st": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-sw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-swc": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-tdt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-tiv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-tl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-tn": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-to": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-toi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-tpi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ts": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-tut": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-tvl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-tw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ty": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-uk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-umb": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ur": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-urj": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-vi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-xh": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-zle": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-zls": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-zlw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-af": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-bg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-cs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-da": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-el": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-he": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-hu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-it": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-nl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-pl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-pt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-ro": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-ru": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-sh": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-NORWAY": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-af": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ar": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ase": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-bcl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ber": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-bg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-bi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-bzs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ca": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ceb": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-crs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-cs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-csg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-da": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ee": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-efi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-el": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-eo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-et": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-eu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-gaa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-gil": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-gl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-guw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ha": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-he": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-hil": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ho": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-hr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ht": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-id": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ig": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ilo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-is": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-iso": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-kg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ln": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-loz": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-lt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-lua": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-lus": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-mfs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-mk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-mt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-niu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-nl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-no": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-nso": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ny": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-pag": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-pap": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-pis": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-pl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-pon": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-prl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-rn": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ro": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ru": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-rw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-sg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-sl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-sm": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-sn": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-srn": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-st": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-swc": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-tl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-tll": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-tn": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-to": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-tpi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-tvl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-tw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ty": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-tzo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-uk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ve": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-vi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-war": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-wls": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-xh": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-yo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-yua": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-zai": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-et-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-et-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-et-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-et-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-et-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-et-ru": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-et-sv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eu-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eu-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eu-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eu-ru": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-euq-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-NORWAY": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-ZH": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-af": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-bcl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-bem": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-bg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-bzs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-ceb": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-crs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-cs": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-de": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-efi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-el": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-eo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-es": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-et": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-fi": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-fj": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-fr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-fse": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-gaa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-gil": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-guw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-ha": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-he": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-hil": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-ho": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-hr": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-ht": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-hu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-id": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-ig": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-ilo": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-is": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-iso": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-it": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-kg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-kqn": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-lg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-ln": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-lu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-lua": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-lue": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-lus": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-lv": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-mfe": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-mg": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-mh": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-mk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-mos": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-mt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-niu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-nl": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-nso": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-ny": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-aav-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-afa-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-afa-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-afa-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-afa-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-alv-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-bat-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-bat-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-bat-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-bnt-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-cel-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-aav": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-afa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-bat": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-bnt": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-fiu": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-gem": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-gmq": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-gmw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-iir": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-inc": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-ine": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-itc": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-mkh": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-mul": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-pqw": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-roa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-sem": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-sla": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-trk": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-urj": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-dra-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-dra-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-fiu-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-fiu-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-fiu-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gem-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gem-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gmq-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gmq-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gmw-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gmw-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gmw-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gmw-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-iir-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-iir-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-inc-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-inc-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-inc-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-ine-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-ine-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-ira-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-itc-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-itc-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-itc-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-map-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-map-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-mkh-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-mkh-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-mul-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-mul-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-mul-mul": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-phi-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-phi-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-poz-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-poz-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-poz-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-pqe-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-pqw-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-pqw-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-pqw-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-roa-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-roa-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-sem-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-sem-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-sem-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-sla-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-sla-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-tai-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-trk-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-urj-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-urj-deu_eng_nld": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-urj-fra_ita_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-zhx-deu_eng_fra_por_spa": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-zhx-en": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/transformers-auto-model/philschmid_bart-base-samsum": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/pix2struct-base": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_pegasus-large-book-summary": [
+        [
+            489,
+            490
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_tFINE-base-300m-samsum": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K": [
+        [
+            323,
+            324
+        ]
+    ],
+    "samples/transformers-auto-model/ru-bart-large": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/sbulut_finetuned-kde4-en-to-tr": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/shaunster_clip_14_model": [
+        [
+            347,
+            348
+        ]
+    ],
+    "samples/transformers-auto-model/sismetanin_mbart_ru_sum_gazeta-ru-sentiment-liniscrowd": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distilbart-cnn-12-6": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distill-pegasus-xsum-16-4": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/sureshnam9_esm2_t6_8M_UR50D-finetuned-secondary-structure": [
+        [
+            45,
+            46
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            110,
+            111
+        ],
+        [
+            112,
+            113
+        ],
+        [
+            175,
+            176
+        ],
+        [
+            177,
+            178
+        ],
+        [
+            240,
+            241
+        ],
+        [
+            242,
+            243
+        ],
+        [
+            305,
+            306
+        ],
+        [
+            307,
+            308
+        ],
+        [
+            370,
+            371
+        ],
+        [
+            372,
+            373
+        ]
+    ],
+    "samples/transformers-auto-model/t5-small": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/thuml_sundial-base-128m": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/thuml_timer-base-84m": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/upfeatmediainc_owlv2-base-patch16-ensemble": [
+        [
+            443,
+            444
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-1": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-3": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/venishpatidar_wa-ad-mod": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/voxreality_src_ctx_aware_nllb_1.3B": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/ydshieh_tiny-random-gptj-for-sequence-classification": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/yuvalkirstain_PickScore_v1": [
+        [
+            823,
+            824
+        ]
+    ]
+}

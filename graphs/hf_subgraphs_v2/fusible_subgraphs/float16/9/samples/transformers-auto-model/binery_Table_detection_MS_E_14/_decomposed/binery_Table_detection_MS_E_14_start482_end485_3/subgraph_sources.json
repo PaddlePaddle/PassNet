@@ -1,0 +1,98 @@
+{
+    "samples/transformers-auto-model/binery_Table_detection_MS_E_14": [
+        [
+            482,
+            485
+        ],
+        [
+            486,
+            489
+        ]
+    ],
+    "samples/transformers-auto-model/detr-resnet-101-panoptic": [
+        [
+            1599,
+            1602
+        ],
+        [
+            1603,
+            1606
+        ]
+    ],
+    "samples/transformers-auto-model/detr-resnet-50-dc5-panoptic": [
+        [
+            919,
+            922
+        ],
+        [
+            923,
+            926
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101-dc5": [
+        [
+            1598,
+            1601
+        ],
+        [
+            1602,
+            1605
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-detection": [
+        [
+            483,
+            486
+        ],
+        [
+            487,
+            490
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            269,
+            272
+        ],
+        [
+            272,
+            275
+        ],
+        [
+            306,
+            309
+        ],
+        [
+            309,
+            312
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            920,
+            923
+        ],
+        [
+            924,
+            927
+        ]
+    ],
+    "samples/transformers-auto-model/zuppif_maskformer-swin-small-ade": [
+        [
+            1751,
+            1754
+        ],
+        [
+            1755,
+            1758
+        ],
+        [
+            1781,
+            1784
+        ],
+        [
+            1785,
+            1788
+        ]
+    ]
+}

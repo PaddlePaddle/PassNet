@@ -1,0 +1,68 @@
+{
+    "samples/mmpose/pose_cspnext_l": [
+        [
+            215,
+            220
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_m": [
+        [
+            165,
+            170
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_s": [
+        [
+            115,
+            120
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_t": [
+        [
+            95,
+            100
+        ]
+    ],
+    "samples/mmpose/rtmpose-l": [
+        [
+            215,
+            220
+        ]
+    ],
+    "samples/mmpose/rtmpose-m": [
+        [
+            165,
+            170
+        ]
+    ],
+    "samples/mmpose/rtmpose-s": [
+        [
+            115,
+            120
+        ]
+    ],
+    "samples/mmpose/rtmpose-t": [
+        [
+            95,
+            100
+        ]
+    ],
+    "samples/mmpose/rtmw-l": [
+        [
+            215,
+            220
+        ]
+    ],
+    "samples/mmpose/rtmw-m": [
+        [
+            165,
+            170
+        ]
+    ],
+    "samples/mmpose/rtmw-x": [
+        [
+            265,
+            270
+        ]
+    ]
+}

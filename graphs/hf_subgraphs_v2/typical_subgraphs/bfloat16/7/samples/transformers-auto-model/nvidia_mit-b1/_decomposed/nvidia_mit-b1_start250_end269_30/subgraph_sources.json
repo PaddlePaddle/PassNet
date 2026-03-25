@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            250,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b2": [
+        [
+            530,
+            549
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b3": [
+        [
+            1010,
+            1029
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b4": [
+        [
+            1530,
+            1549
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b5": [
+        [
+            1970,
+            1989
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/facebook_deit_base_patch16_224": [
+        [
+            318,
+            321
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-electra-base": [
+        [
+            358,
+            361
+        ]
+    ]
+}

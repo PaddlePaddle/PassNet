@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            896,
+            953
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-base": [
+        [
+            896,
+            953
+        ]
+    ]
+}

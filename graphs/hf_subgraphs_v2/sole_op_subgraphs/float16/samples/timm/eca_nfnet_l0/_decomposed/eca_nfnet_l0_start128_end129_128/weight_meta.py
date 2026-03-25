@@ -1,0 +1,8 @@
+class Program_weight_tensor_meta_L_self_modules_stages_modules_1_modules_1_modules_conv2_parameters_gain_:
+	name = "w_0"
+	original_name = "L_self_modules_stages_modules_1_modules_1_modules_conv2_parameters_gain_"
+	shape = [128, 1, 1, 1]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = 1.000
+	std = 0.000

@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/BiSeNetV2": [
+        [
+            89,
+            95
+        ]
+    ]
+}

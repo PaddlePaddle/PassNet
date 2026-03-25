@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256": [
+        [
+            80,
+            82
+        ],
+        [
+            980,
+            982
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/BiSeNetV2": [
+        [
+            93,
+            95
+        ]
+    ],
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            63,
+            65
+        ]
+    ]
+}

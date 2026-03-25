@@ -1,0 +1,17 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, in_0 : torch.Tensor, in_1 : torch.Tensor, in_2 : torch.Tensor, in_3 : torch.Tensor, in_4 : torch.Tensor, in_5 : torch.Tensor, in_6 : torch.Tensor, in_7 : torch.Tensor, in_8 : torch.Tensor, in_9 : torch.Tensor, in_10 : torch.Tensor, in_11 : torch.Tensor, in_12 : torch.Tensor):
+        tmp_12 = torch.nn.functional.relu(in_12, inplace = True);  in_12 = None
+        to = tmp_12.to(torch.bfloat16)
+        conv2d = torch.conv2d(to, in_5, in_4, (1, 1), (4, 4), (4, 4), 1);  to = in_5 = in_4 = None
+        tmp_14 = torch.nn.functional.batch_norm(conv2d, in_0, in_1, in_3, in_2, False, 0.1, 1e-05);  conv2d = in_0 = in_1 = in_3 = in_2 = None
+        tmp_15 = torch.nn.functional.relu(tmp_14, inplace = True);  tmp_14 = None
+        to_1 = tmp_15.to(torch.bfloat16)
+        conv2d_1 = torch.conv2d(to_1, in_11, in_10, (1, 1), (8, 8), (8, 8), 1);  to_1 = in_11 = in_10 = None
+        tmp_17 = torch.nn.functional.batch_norm(conv2d_1, in_6, in_7, in_9, in_8, False, 0.1, 1e-05);  conv2d_1 = in_6 = in_7 = in_9 = in_8 = None
+        return (tmp_17, tmp_12, tmp_15)
+        

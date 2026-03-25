@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google_pegasus-cnn_dailymail": [
+        [
+            526,
+            553
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-xsum": [
+        [
+            509,
+            536
+        ]
+    ]
+}

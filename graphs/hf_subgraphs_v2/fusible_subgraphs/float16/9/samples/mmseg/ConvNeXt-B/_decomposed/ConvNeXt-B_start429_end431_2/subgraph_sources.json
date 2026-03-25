@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/ConvNeXt-B": [
+        [
+            429,
+            431
+        ]
+    ],
+    "samples/mmseg/DeiT_B": [
+        [
+            260,
+            262
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            378,
+            390
+        ]
+    ],
+    "samples/mmseg/K-Net_fcn": [
+        [
+            367,
+            379
+        ]
+    ],
+    "samples/mmseg/K-Net_pspnet": [
+        [
+            381,
+            393
+        ]
+    ]
+}

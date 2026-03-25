@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/DMNet_R101": [
+        [
+            364,
+            374
+        ]
+    ],
+    "samples/mmseg/DMNet_R50": [
+        [
+            194,
+            204
+        ]
+    ]
+}

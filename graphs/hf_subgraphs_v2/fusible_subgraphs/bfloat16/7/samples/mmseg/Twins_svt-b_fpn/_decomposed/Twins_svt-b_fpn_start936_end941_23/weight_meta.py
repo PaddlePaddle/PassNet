@@ -1,0 +1,38 @@
+class Program_weight_tensor_meta_L_self_modules_backbone_modules_norm_list_modules_3_parameters_bias_:
+	name = "in_0"
+	original_name = "L_self_modules_backbone_modules_norm_list_modules_3_parameters_bias_"
+	shape = [768]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.041
+
+
+class Program_weight_tensor_meta_L_self_modules_backbone_modules_norm_list_modules_3_parameters_weight_:
+	name = "in_1"
+	original_name = "L_self_modules_backbone_modules_norm_list_modules_3_parameters_weight_"
+	shape = [768]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.990
+	std = 0.067
+
+
+class Program_weight_tensor_meta_input_120:
+	name = "in_2"
+	original_name = "input_120"
+	shape = [1, 256, 768]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.002
+	std = 0.144
+
+
+class Program_weight_tensor_meta_x_172:
+	name = "in_3"
+	original_name = "x_172"
+	shape = [1, 256, 768]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.012
+	std = 1.508

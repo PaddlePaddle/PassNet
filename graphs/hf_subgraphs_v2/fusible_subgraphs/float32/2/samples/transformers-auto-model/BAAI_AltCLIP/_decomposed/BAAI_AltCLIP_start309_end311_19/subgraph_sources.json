@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/BAAI_AltCLIP": [
+        [
+            42,
+            44
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            309,
+            311
+        ]
+    ]
+}

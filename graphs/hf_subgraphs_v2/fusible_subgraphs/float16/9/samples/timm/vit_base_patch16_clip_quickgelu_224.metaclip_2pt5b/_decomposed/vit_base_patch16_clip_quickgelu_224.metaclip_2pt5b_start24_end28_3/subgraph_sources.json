@@ -1,0 +1,46 @@
+{
+    "samples/timm/vit_base_patch16_clip_quickgelu_224.metaclip_2pt5b": [
+        [
+            24,
+            28
+        ],
+        [
+            277,
+            281
+        ]
+    ],
+    "samples/timm/vit_gigantic_patch14_clip_quickgelu_224.metaclip_2pt5b": [
+        [
+            1105,
+            1109
+        ]
+    ],
+    "samples/timm/vit_huge_patch14_clip_quickgelu_224.dfn5b": [
+        [
+            737,
+            741
+        ]
+    ],
+    "samples/timm/vit_large_patch14_clip_quickgelu_224.dfn2b": [
+        [
+            553,
+            557
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot": [
+        [
+            1197,
+            1201
+        ],
+        [
+            1226,
+            1230
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32-16-frames": [
+        [
+            1197,
+            1201
+        ]
+    ]
+}

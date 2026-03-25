@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/facebook_data2vec-vision-large": [
+        [
+            42,
+            48
+        ],
+        [
+            108,
+            114
+        ],
+        [
+            174,
+            180
+        ],
+        [
+            702,
+            708
+        ]
+    ]
+}

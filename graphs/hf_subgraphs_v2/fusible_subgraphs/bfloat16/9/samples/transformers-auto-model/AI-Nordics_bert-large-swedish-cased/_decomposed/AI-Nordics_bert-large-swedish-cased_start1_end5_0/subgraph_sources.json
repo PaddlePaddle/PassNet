@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased": [
+        [
+            1,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_electra-base-swedish-cased-generator": [
+        [
+            1,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_electra-small-swedish-cased-generator": [
+        [
+            1,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k": [
+        [
+            1,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/Ketzu_koelectra-sts-v0.4": [
+        [
+            1,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/paulkm_autotrain-lottery_v2-2420075389": [
+        [
+            1,
+            5
+        ]
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "samples/mmpose/pose_hrformer_small": [
+        [
+            170,
+            172
+        ],
+        [
+            225,
+            227
+        ],
+        [
+            516,
+            518
+        ],
+        [
+            571,
+            573
+        ],
+        [
+            2101,
+            2103
+        ],
+        [
+            2156,
+            2158
+        ]
+    ],
+    "samples/timm/convit_base": [
+        [
+            53,
+            55
+        ],
+        [
+            113,
+            115
+        ],
+        [
+            173,
+            175
+        ],
+        [
+            533,
+            535
+        ]
+    ],
+    "samples/timm/convit_small": [
+        [
+            53,
+            55
+        ],
+        [
+            113,
+            115
+        ],
+        [
+            173,
+            175
+        ],
+        [
+            533,
+            535
+        ]
+    ],
+    "samples/timm/convit_tiny": [
+        [
+            53,
+            55
+        ],
+        [
+            113,
+            115
+        ],
+        [
+            173,
+            175
+        ],
+        [
+            533,
+            535
+        ]
+    ],
+    "samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/TinyLlama/TinyLlama-1.1B-Chat-v0.4": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/baidu/ERNIE-4.5-0.3B-PT": [
+        [
+            23,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/deepseek-ai/deepseek-coder-1.3b-base": [
+        [
+            23,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-1.1-2b-it": [
+        [
+            23,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1_5": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            24,
+            26
+        ]
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "samples/mmpose/pose_resnext_101": [
+        [
+            19,
+            21
+        ],
+        [
+            29,
+            31
+        ]
+    ],
+    "samples/mmseg/BiSeNetV2": [
+        [
+            57,
+            59
+        ]
+    ],
+    "samples/timm/skresnext50_32x4d.ra_in1k": [
+        [
+            36,
+            38
+        ]
+    ]
+}

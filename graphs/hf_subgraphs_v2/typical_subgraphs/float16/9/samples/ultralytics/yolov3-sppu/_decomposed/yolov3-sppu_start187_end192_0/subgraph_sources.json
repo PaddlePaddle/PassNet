@@ -1,0 +1,8 @@
+{
+    "samples/ultralytics/yolov3-sppu": [
+        [
+            187,
+            192
+        ]
+    ]
+}

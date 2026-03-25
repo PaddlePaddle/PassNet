@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/opus-mt-ROMANCE-en": [
+        [
+            189,
+            191
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-pl": [
+        [
+            189,
+            191
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-ROMANCE": [
+        [
+            189,
+            191
+        ]
+    ]
+}

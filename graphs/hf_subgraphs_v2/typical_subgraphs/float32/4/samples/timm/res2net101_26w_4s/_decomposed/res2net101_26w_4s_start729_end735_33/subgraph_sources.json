@@ -1,0 +1,26 @@
+{
+    "samples/timm/res2net101_26w_4s": [
+        [
+            729,
+            735
+        ]
+    ],
+    "samples/timm/res2net101d": [
+        [
+            737,
+            743
+        ]
+    ],
+    "samples/timm/res2net50_26w_4s.in1k": [
+        [
+            321,
+            327
+        ]
+    ],
+    "samples/timm/res2net50d.in1k": [
+        [
+            329,
+            335
+        ]
+    ]
+}

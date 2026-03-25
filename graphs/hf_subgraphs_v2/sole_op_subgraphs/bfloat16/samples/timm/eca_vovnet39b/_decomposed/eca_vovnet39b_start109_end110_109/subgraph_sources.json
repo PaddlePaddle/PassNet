@@ -1,0 +1,154 @@
+{
+    "samples/timm/eca_vovnet39b": [
+        [
+            35,
+            36
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            109,
+            110
+        ]
+    ],
+    "samples/timm/ese_vovnet19b_dw.ra_in1k": [
+        [
+            34,
+            35
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            82,
+            83
+        ]
+    ],
+    "samples/timm/ese_vovnet39b.ra_in1k": [
+        [
+            32,
+            33
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            100,
+            101
+        ]
+    ],
+    "samples/timm/ese_vovnet57b.ra4_e3600_r256_in1k": [
+        [
+            32,
+            33
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            140,
+            141
+        ]
+    ],
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/legacy_seresnet101.in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/legacy_seresnet152.in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/legacy_seresnet18.in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/legacy_seresnet34.in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/legacy_seresnet50.in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/legacy_seresnext101_32x4d.in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/legacy_seresnext26_32x4d.in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/legacy_seresnext50_32x4d.in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/torchvision/googlenet": [
+        [
+            16,
+            17
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            64,
+            65
+        ]
+    ],
+    "samples/torchvision/squeezenet1_0": [
+        [
+            2,
+            3
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/torchvision/squeezenet1_1": [
+        [
+            2,
+            3
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            32,
+            33
+        ]
+    ]
+}

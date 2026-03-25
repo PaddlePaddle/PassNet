@@ -1,0 +1,146 @@
+{
+    "samples/timm/cs3darknet_focus_l.c2ns_in1k": [
+        [
+            201,
+            206
+        ]
+    ],
+    "samples/timm/cs3darknet_focus_m.c2ns_in1k": [
+        [
+            152,
+            157
+        ]
+    ],
+    "samples/timm/cs3darknet_focus_s.ra4_e3600_r256_in1k": [
+        [
+            117,
+            122
+        ]
+    ],
+    "samples/timm/cs3darknet_focus_x": [
+        [
+            222,
+            227
+        ]
+    ],
+    "samples/timm/cs3darknet_l.c2ns_in1k": [
+        [
+            204,
+            209
+        ]
+    ],
+    "samples/timm/cs3darknet_m.c2ns_in1k": [
+        [
+            155,
+            160
+        ]
+    ],
+    "samples/timm/cs3darknet_s": [
+        [
+            120,
+            125
+        ]
+    ],
+    "samples/timm/cs3darknet_x.c2ns_in1k": [
+        [
+            225,
+            230
+        ]
+    ],
+    "samples/timm/cs3edgenet_x.c2_in1k": [
+        [
+            225,
+            230
+        ]
+    ],
+    "samples/timm/cs3se_edgenet_x.c2ns_in1k": [
+        [
+            369,
+            374
+        ]
+    ],
+    "samples/timm/cs3sedarknet_l.c2ns_in1k": [
+        [
+            330,
+            335
+        ]
+    ],
+    "samples/timm/cs3sedarknet_x.c2ns_in1k": [
+        [
+            369,
+            374
+        ]
+    ],
+    "samples/timm/cs3sedarknet_xdw": [
+        [
+            473,
+            478
+        ]
+    ],
+    "samples/timm/eca_resnet33ts.ra2_in1k": [
+        [
+            198,
+            203
+        ]
+    ],
+    "samples/timm/regnetz_040_h.ra3_in1k": [
+        [
+            421,
+            426
+        ]
+    ],
+    "samples/timm/regnetz_b16.ra3_in1k": [
+        [
+            331,
+            336
+        ]
+    ],
+    "samples/timm/regnetz_c16.ra3_in1k": [
+        [
+            331,
+            336
+        ]
+    ],
+    "samples/timm/regnetz_d32.ra3_in1k": [
+        [
+            368,
+            373
+        ]
+    ],
+    "samples/timm/regnetz_d8.ra3_in1k": [
+        [
+            368,
+            373
+        ]
+    ],
+    "samples/timm/regnetz_e8.ra3_in1k": [
+        [
+            457,
+            462
+        ]
+    ],
+    "samples/timm/resnet33ts.ra2_in1k": [
+        [
+            119,
+            124
+        ]
+    ],
+    "samples/timm/resnet51q.ra2_in1k": [
+        [
+            178,
+            183
+        ]
+    ],
+    "samples/timm/resnet61q.ra2_in1k": [
+        [
+            211,
+            216
+        ]
+    ],
+    "samples/timm/seresnet33ts.ra2_in1k": [
+        [
+            179,
+            184
+        ]
+    ]
+}

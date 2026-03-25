@@ -1,0 +1,114 @@
+{
+    "samples/transformers-auto-model/opus-mt-ROMANCE-en": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ZH": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-de": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eo-fr": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-itc-deu_eng_fra_por_spa": [
+        [
+            283,
+            300
+        ],
+        [
+            334,
+            351
+        ],
+        [
+            385,
+            402
+        ],
+        [
+            436,
+            453
+        ],
+        [
+            487,
+            504
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-itc-deu_eng_nld": [
+        [
+            283,
+            300
+        ],
+        [
+            334,
+            351
+        ],
+        [
+            385,
+            402
+        ],
+        [
+            436,
+            453
+        ],
+        [
+            487,
+            504
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-mkh-deu_eng_nld": [
+        [
+            283,
+            300
+        ],
+        [
+            334,
+            351
+        ],
+        [
+            385,
+            402
+        ],
+        [
+            436,
+            453
+        ],
+        [
+            487,
+            504
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-roa-en": [
+        [
+            283,
+            300
+        ],
+        [
+            334,
+            351
+        ],
+        [
+            385,
+            402
+        ],
+        [
+            436,
+            453
+        ],
+        [
+            487,
+            504
+        ]
+    ]
+}

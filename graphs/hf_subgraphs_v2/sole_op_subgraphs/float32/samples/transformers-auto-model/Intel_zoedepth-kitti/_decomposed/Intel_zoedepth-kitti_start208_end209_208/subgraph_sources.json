@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/Intel_zoedepth-kitti": [
+        [
+            208,
+            209
+        ],
+        [
+            217,
+            218
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_zoedepth-nyu": [
+        [
+            378,
+            379
+        ],
+        [
+            384,
+            385
+        ]
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Hax_filipino-text-version1": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_electra-base-swedish-cased-generator": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Recognai_zeroshot_selectra_small": [
+        [
+            15,
+            18
+        ],
+        [
+            44,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/fgaim_tielectra-small-pos": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-256_A-4": [
+        [
+            213,
+            216
+        ],
+        [
+            216,
+            219
+        ],
+        [
+            219,
+            222
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-256_A-4": [
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            43
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-256_A-4": [
+        [
+            172,
+            175
+        ],
+        [
+            175,
+            178
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra-small-discriminator": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra_base_generator": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/monologg_koelectra-small-finetuned-naver-ner": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_mini-vanilla-target-tweet": [
+        [
+            87,
+            90
+        ]
+    ],
+    "samples/transformers-auto-model/splade-mini": [
+        [
+            89,
+            92
+        ]
+    ]
+}

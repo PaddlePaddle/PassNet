@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14": [
+        [
+            1331,
+            1336
+        ]
+    ],
+    "samples/transformers-auto-model/ashique_BanglaTraitBERT": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/dbmdz_electra-large-discriminator-finetuned-conll03-english": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/monoelectra-large": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/paulkm_autotrain-lottery_v2-2420075389": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/satyaalmasian_temporal_tagger_German_GELECTRA": [
+        [
+            298,
+            303
+        ]
+    ]
+}

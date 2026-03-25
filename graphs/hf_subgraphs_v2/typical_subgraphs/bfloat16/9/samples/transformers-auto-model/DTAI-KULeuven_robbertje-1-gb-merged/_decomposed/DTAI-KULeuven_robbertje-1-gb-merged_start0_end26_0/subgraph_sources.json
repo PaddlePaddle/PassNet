@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-merged": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xlm-align-base": [
+        [
+            0,
+            26
+        ]
+    ]
+}

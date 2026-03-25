@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/AVSilva_bertimbau-large-fine-tuned-md": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_bert-large-japanese-upos": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/Poulami_muril-large-cased-finetuned-sentiment-SST2": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/Sahajtomar_German_Zeroshot": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/emekaboris_autonlp-txc-17923129": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-large-uncased": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/hfl_chinese-macbert-large": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/bert-large-nli-cls-token": [
+        [
+            0,
+            17
+        ]
+    ]
+}

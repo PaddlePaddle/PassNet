@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/google_pegasus-cnn_dailymail": [
+        [
+            67,
+            94
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-xsum": [
+        [
+            59,
+            86
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distill-pegasus-xsum-16-4": [
+        [
+            67,
+            94
+        ]
+    ]
+}

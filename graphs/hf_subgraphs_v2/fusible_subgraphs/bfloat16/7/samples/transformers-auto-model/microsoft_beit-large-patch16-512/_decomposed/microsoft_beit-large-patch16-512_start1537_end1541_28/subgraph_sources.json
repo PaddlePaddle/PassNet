@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-512": [
+        [
+            19,
+            23
+        ],
+        [
+            85,
+            89
+        ],
+        [
+            613,
+            617
+        ],
+        [
+            1537,
+            1541
+        ]
+    ]
+}

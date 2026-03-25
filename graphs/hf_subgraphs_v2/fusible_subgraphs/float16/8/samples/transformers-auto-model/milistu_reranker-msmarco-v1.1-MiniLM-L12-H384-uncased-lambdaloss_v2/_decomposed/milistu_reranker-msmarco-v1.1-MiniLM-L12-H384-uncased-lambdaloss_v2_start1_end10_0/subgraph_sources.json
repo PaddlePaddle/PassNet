@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/milistu_reranker-msmarco-v1.1-MiniLM-L12-H384-uncased-lambdaloss_v2": [
+        [
+            1,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L12-v2": [
+        [
+            1,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L2-v2": [
+        [
+            1,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-MiniLM-L12-v1": [
+        [
+            1,
+            10
+        ]
+    ]
+}

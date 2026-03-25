@@ -1,0 +1,20 @@
+{
+    "samples/timm/convit_base": [
+        [
+            658,
+            661
+        ]
+    ],
+    "samples/timm/eva02_base_patch16_clip_224.merged2b": [
+        [
+            690,
+            693
+        ]
+    ],
+    "samples/timm/vit_base_patch16_224.dino": [
+        [
+            258,
+            261
+        ]
+    ]
+}

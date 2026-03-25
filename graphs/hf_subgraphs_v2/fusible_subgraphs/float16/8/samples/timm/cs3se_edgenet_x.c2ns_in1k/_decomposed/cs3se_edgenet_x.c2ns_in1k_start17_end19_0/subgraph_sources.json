@@ -1,0 +1,20 @@
+{
+    "samples/timm/cs3se_edgenet_x.c2ns_in1k": [
+        [
+            17,
+            19
+        ]
+    ],
+    "samples/timm/efficientnet_b0.ra4_e3600_r224_in1k": [
+        [
+            5,
+            7
+        ]
+    ],
+    "samples/timm/regnetz_b16.ra3_in1k": [
+        [
+            8,
+            10
+        ]
+    ]
+}

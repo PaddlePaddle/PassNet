@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/opus-mt-NORTH_EU-NORTH_EU": [
+        [
+            18,
+            24
+        ],
+        [
+            47,
+            53
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-fiu-deu_eng_fra_por_spa": [
+        [
+            47,
+            53
+        ]
+    ]
+}

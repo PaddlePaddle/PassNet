@@ -1,0 +1,42 @@
+{
+    "samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish": [
+        [
+            24,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/Hax_filipino-text-version1": [
+        [
+            24,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_electra-base-swedish-cased-generator": [
+        [
+            24,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/Recognai_zeroshot_selectra_small": [
+        [
+            23,
+            31
+        ],
+        [
+            52,
+            60
+        ]
+    ],
+    "samples/transformers-auto-model/fgaim_tielectra-small-pos": [
+        [
+            24,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra-small-discriminator": [
+        [
+            24,
+            32
+        ]
+    ]
+}

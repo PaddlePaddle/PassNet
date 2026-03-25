@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            407,
+            409
+        ]
+    ],
+    "samples/transformers-auto-model/sureshnam9_esm2_t6_8M_UR50D-finetuned-secondary-structure": [
+        [
+            92,
+            94
+        ]
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "samples/timm/convit_base": [
+        [
+            53,
+            55
+        ],
+        [
+            113,
+            115
+        ],
+        [
+            173,
+            175
+        ],
+        [
+            533,
+            535
+        ]
+    ],
+    "samples/timm/convit_small": [
+        [
+            53,
+            55
+        ],
+        [
+            113,
+            115
+        ],
+        [
+            173,
+            175
+        ],
+        [
+            533,
+            535
+        ]
+    ],
+    "samples/timm/convit_tiny": [
+        [
+            53,
+            55
+        ],
+        [
+            113,
+            115
+        ],
+        [
+            173,
+            175
+        ],
+        [
+            533,
+            535
+        ]
+    ],
+    "samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/TinyLlama/TinyLlama-1.1B-Chat-v0.4": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            24,
+            26
+        ]
+    ]
+}

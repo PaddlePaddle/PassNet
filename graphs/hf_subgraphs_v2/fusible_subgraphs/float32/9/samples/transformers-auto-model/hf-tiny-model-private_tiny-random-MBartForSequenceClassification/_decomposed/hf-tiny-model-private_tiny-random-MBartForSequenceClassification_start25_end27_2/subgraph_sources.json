@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification": [
+        [
+            25,
+            27
+        ],
+        [
+            98,
+            100
+        ]
+    ]
+}

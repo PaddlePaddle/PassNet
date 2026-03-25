@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/Andrija_SRoBERTa-NER": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/DiegoRossini_flaubert-pouvoir-modality-detector": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/Lazaro97_results": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/distilbert_distilbert-base-multilingual-cased": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/gonchisi_roberta-base-bne-finetuned-new_or_used-title": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AltCLIPModel": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-FlaubertForSequenceClassification": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/ukr-models_xlm-roberta-base-uk": [
+        [
+            0,
+            1
+        ]
+    ]
+}

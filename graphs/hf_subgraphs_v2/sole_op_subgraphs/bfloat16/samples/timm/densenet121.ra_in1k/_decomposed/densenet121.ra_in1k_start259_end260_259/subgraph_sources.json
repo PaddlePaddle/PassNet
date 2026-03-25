@@ -1,0 +1,90 @@
+{
+    "samples/timm/densenet121.ra_in1k": [
+        [
+            259,
+            260
+        ]
+    ],
+    "samples/timm/densenet161.tv_in1k": [
+        [
+            259,
+            260
+        ],
+        [
+            516,
+            517
+        ]
+    ],
+    "samples/timm/densenet169.tv_in1k": [
+        [
+            259,
+            260
+        ],
+        [
+            488,
+            489
+        ]
+    ],
+    "samples/timm/densenet201.tv_in1k": [
+        [
+            259,
+            260
+        ],
+        [
+            600,
+            601
+        ]
+    ],
+    "samples/timm/densenet264d": [
+        [
+            265,
+            266
+        ],
+        [
+            718,
+            719
+        ]
+    ],
+    "samples/timm/densenetblur121d.ra_in1k": [
+        [
+            267,
+            268
+        ]
+    ],
+    "samples/torchvision/densenet121": [
+        [
+            259,
+            260
+        ]
+    ],
+    "samples/torchvision/densenet161": [
+        [
+            259,
+            260
+        ],
+        [
+            516,
+            517
+        ]
+    ],
+    "samples/torchvision/densenet169": [
+        [
+            259,
+            260
+        ],
+        [
+            488,
+            489
+        ]
+    ],
+    "samples/torchvision/densenet201": [
+        [
+            259,
+            260
+        ],
+        [
+            600,
+            601
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, in_0 : torch.Tensor, in_1 : torch.Tensor, in_2 : torch.Tensor, in_3 : torch.Tensor):
+        tmp_2 = torch.nn.functional.gelu(in_2, approximate = 'none');  in_2 = None
+        tmp_3 = tmp_2.flatten(2);  tmp_2 = None
+        tmp_4 = tmp_3.transpose(1, 2);  tmp_3 = None
+        tmp_5 = tmp_4.contiguous();  tmp_4 = None
+        tmp_6 = in_3 + tmp_5;  in_3 = tmp_5 = None
+        tmp_7 = tmp_6.permute(0, 2, 1);  tmp_6 = None
+        tmp_8 = tmp_7.view(1, 32, 64, 48);  tmp_7 = None
+        tmp_9 = tmp_8.view(1, 32, -1);  tmp_8 = None
+        tmp_10 = tmp_9.permute(0, 2, 1);  tmp_9 = None
+        tmp_11 = torch.nn.functional.layer_norm(tmp_10, (32,), in_1, in_0, 1e-06);  in_1 = in_0 = None
+        tmp_12 = tmp_11.view(1, 64, 48, 32);  tmp_11 = None
+        return (tmp_10, tmp_12)
+        

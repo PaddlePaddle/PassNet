@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/ResNeSt_deeplabv3": [
+        [
+            126,
+            128
+        ]
+    ]
+}

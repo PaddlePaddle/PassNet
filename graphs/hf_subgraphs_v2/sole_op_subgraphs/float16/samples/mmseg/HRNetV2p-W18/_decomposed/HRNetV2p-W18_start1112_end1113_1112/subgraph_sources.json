@@ -1,0 +1,116 @@
+{
+    "samples/mmseg/HRNetV2p-W18": [
+        [
+            752,
+            753
+        ],
+        [
+            932,
+            933
+        ],
+        [
+            1112,
+            1113
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18-Small": [
+        [
+            405,
+            406
+        ],
+        [
+            529,
+            530
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            752,
+            753
+        ],
+        [
+            932,
+            933
+        ],
+        [
+            1112,
+            1113
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            405,
+            406
+        ],
+        [
+            529,
+            530
+        ]
+    ],
+    "samples/mmseg/PoolFormer_m36": [
+        [
+            656,
+            657
+        ]
+    ],
+    "samples/mmseg/PoolFormer_m48": [
+        [
+            860,
+            861
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s12": [
+        [
+            248,
+            249
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s24": [
+        [
+            452,
+            453
+        ]
+    ],
+    "samples/mmseg/SemanticFPN_R50": [
+        [
+            214,
+            215
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_fpn": [
+        [
+            715,
+            716
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_fpn": [
+        [
+            1014,
+            1015
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_fpn": [
+        [
+            439,
+            440
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            977,
+            978
+        ]
+    ],
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            977,
+            978
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            748,
+            749
+        ]
+    ]
+}

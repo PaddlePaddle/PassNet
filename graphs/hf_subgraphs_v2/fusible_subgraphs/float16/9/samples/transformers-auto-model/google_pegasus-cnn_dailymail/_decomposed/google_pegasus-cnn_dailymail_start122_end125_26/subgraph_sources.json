@@ -1,0 +1,52 @@
+{
+    "samples/transformers-auto-model/google_pegasus-cnn_dailymail": [
+        [
+            42,
+            45
+        ],
+        [
+            71,
+            74
+        ],
+        [
+            122,
+            125
+        ],
+        [
+            530,
+            533
+        ]
+    ],
+    "samples/transformers-auto-model/noamr_bert-finetuned-ner": [
+        [
+            61,
+            64
+        ],
+        [
+            322,
+            325
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_pegasus-large-book-summary": [
+        [
+            44,
+            47
+        ],
+        [
+            305,
+            308
+        ],
+        [
+            524,
+            527
+        ],
+        [
+            553,
+            556
+        ],
+        [
+            1012,
+            1015
+        ]
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "samples/torchvision/alexnet": [
+        [
+            17,
+            19
+        ]
+    ],
+    "samples/torchvision/vgg11": [
+        [
+            24,
+            26
+        ],
+        [
+            27,
+            29
+        ]
+    ],
+    "samples/torchvision/vgg11_bn": [
+        [
+            32,
+            34
+        ],
+        [
+            35,
+            37
+        ]
+    ],
+    "samples/torchvision/vgg13": [
+        [
+            28,
+            30
+        ],
+        [
+            31,
+            33
+        ]
+    ],
+    "samples/torchvision/vgg13_bn": [
+        [
+            38,
+            40
+        ],
+        [
+            41,
+            43
+        ]
+    ],
+    "samples/torchvision/vgg16": [
+        [
+            34,
+            36
+        ],
+        [
+            37,
+            39
+        ]
+    ],
+    "samples/torchvision/vgg16_bn": [
+        [
+            47,
+            49
+        ],
+        [
+            50,
+            52
+        ]
+    ],
+    "samples/torchvision/vgg19": [
+        [
+            40,
+            42
+        ],
+        [
+            43,
+            45
+        ]
+    ],
+    "samples/torchvision/vgg19_bn": [
+        [
+            56,
+            58
+        ],
+        [
+            59,
+            61
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientNetForImageClassification": [
+        [
+            101,
+            102
+        ],
+        [
+            124,
+            125
+        ],
+        [
+            147,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientNetModel": [
+        [
+            101,
+            102
+        ],
+        [
+            124,
+            125
+        ],
+        [
+            147,
+            148
+        ]
+    ]
+}

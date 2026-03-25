@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/Aleksandar_distilbert-srb-ner-setimes": [
+        [
+            22,
+            26
+        ],
+        [
+            44,
+            48
+        ],
+        [
+            132,
+            136
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/clip-ViT-B-32-multilingual-v1": [
+        [
+            22,
+            26
+        ],
+        [
+            44,
+            48
+        ],
+        [
+            132,
+            136
+        ]
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "samples/timm/vgg11_bn.tv_in1k": [
+        [
+            0,
+            3
+        ]
+    ],
+    "samples/timm/vgg13_bn.tv_in1k": [
+        [
+            0,
+            3
+        ]
+    ],
+    "samples/timm/vgg16_bn.tv_in1k": [
+        [
+            0,
+            3
+        ]
+    ],
+    "samples/timm/vgg19_bn.tv_in1k": [
+        [
+            0,
+            3
+        ]
+    ],
+    "samples/torchvision/vgg11_bn": [
+        [
+            0,
+            3
+        ]
+    ],
+    "samples/torchvision/vgg13_bn": [
+        [
+            0,
+            3
+        ]
+    ],
+    "samples/torchvision/vgg16_bn": [
+        [
+            0,
+            3
+        ]
+    ],
+    "samples/torchvision/vgg19_bn": [
+        [
+            0,
+            3
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14": [
+        [
+            21,
+            31
+        ],
+        [
+            300,
+            310
+        ],
+        [
+            982,
+            992
+        ]
+    ],
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-large-patch14": [
+        [
+            21,
+            31
+        ],
+        [
+            300,
+            310
+        ],
+        [
+            734,
+            744
+        ]
+    ]
+}

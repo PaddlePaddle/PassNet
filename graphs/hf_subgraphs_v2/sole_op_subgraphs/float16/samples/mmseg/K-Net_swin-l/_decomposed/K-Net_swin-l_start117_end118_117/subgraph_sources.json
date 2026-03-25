@@ -1,0 +1,92 @@
+{
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            41,
+            42
+        ],
+        [
+            117,
+            118
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            41,
+            42
+        ],
+        [
+            117,
+            118
+        ]
+    ],
+    "samples/mmseg/Swin-b": [
+        [
+            41,
+            42
+        ],
+        [
+            117,
+            118
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            41,
+            42
+        ],
+        [
+            117,
+            118
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            41,
+            42
+        ],
+        [
+            117,
+            118
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_uperhead": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_uperhead": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/zuppif_maskformer-swin-small-ade": [
+        [
+            45,
+            46
+        ],
+        [
+            125,
+            126
+        ]
+    ]
+}

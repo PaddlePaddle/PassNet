@@ -1,0 +1,8 @@
+{
+    "samples/torchvision/resnet101": [
+        [
+            340,
+            344
+        ]
+    ]
+}

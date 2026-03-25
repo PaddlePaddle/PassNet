@@ -1,0 +1,22 @@
+{
+    "samples/timm/eva02_large_patch14_224.mim_in22k": [
+        [
+            22,
+            47
+        ],
+        [
+            78,
+            103
+        ]
+    ],
+    "samples/timm/eva02_large_patch14_clip_224.merged2b": [
+        [
+            22,
+            47
+        ],
+        [
+            79,
+            104
+        ]
+    ]
+}

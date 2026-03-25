@@ -1,0 +1,78 @@
+{
+    "samples/mmpose/ipr_resnet_50": [
+        [
+            184,
+            185
+        ]
+    ],
+    "samples/mmseg/EMANet_R101": [
+        [
+            355,
+            356
+        ],
+        [
+            360,
+            361
+        ],
+        [
+            365,
+            366
+        ]
+    ],
+    "samples/mmseg/EMANet_R50": [
+        [
+            185,
+            186
+        ],
+        [
+            190,
+            191
+        ],
+        [
+            195,
+            196
+        ]
+    ],
+    "samples/mmseg/EncNet_R101": [
+        [
+            365,
+            366
+        ]
+    ],
+    "samples/mmseg/EncNet_R50": [
+        [
+            195,
+            196
+        ]
+    ],
+    "samples/mmseg/FastFCN_enc": [
+        [
+            228,
+            229
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            360,
+            361
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            1157,
+            1158
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            574,
+            575
+        ]
+    ],
+    "samples/torchaudio/squim_subjective": [
+        [
+            616,
+            617
+        ]
+    ]
+}

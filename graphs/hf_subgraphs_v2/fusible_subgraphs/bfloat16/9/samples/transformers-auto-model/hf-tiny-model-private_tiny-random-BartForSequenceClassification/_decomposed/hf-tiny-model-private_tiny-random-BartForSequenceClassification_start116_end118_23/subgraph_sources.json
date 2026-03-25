@@ -1,0 +1,66 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BartForSequenceClassification": [
+        [
+            43,
+            45
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            94,
+            96
+        ],
+        [
+            116,
+            118
+        ],
+        [
+            123,
+            125
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecAudioForSequenceClassification": [
+        [
+            125,
+            127
+        ],
+        [
+            219,
+            221
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification": [
+        [
+            47,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification": [
+        [
+            124,
+            126
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PLBartForSequenceClassification": [
+        [
+            43,
+            45
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            94,
+            96
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-UniSpeechSatForSequenceClassification": [
+        [
+            135,
+            137
+        ]
+    ]
+}

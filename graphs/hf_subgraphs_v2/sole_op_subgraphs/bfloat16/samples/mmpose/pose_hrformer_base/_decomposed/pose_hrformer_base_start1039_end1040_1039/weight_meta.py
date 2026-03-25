@@ -1,0 +1,18 @@
+class Program_weight_tensor_meta_q_33:
+	name = "in_0"
+	original_name = "q_33"
+	shape = [70, 2, 49, 39]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.004
+	std = 0.059
+
+
+class Program_weight_tensor_meta_transpose_64:
+	name = "in_1"
+	original_name = "transpose_64"
+	shape = [70, 2, 39, 49]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.016
+	std = 0.155

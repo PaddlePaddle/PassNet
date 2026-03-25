@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/microsoft/phi-1": [
+        [
+            42,
+            92
+        ],
+        [
+            154,
+            204
+        ],
+        [
+            1162,
+            1212
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1_5": [
+        [
+            42,
+            92
+        ],
+        [
+            154,
+            204
+        ],
+        [
+            1162,
+            1212
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PoolFormerForImageClassification": [
+        [
+            19,
+            20
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            89,
+            90
+        ],
+        [
+            124,
+            125
+        ],
+        [
+            141,
+            142
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PoolFormerModel": [
+        [
+            19,
+            20
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            89,
+            90
+        ],
+        [
+            124,
+            125
+        ]
+    ]
+}

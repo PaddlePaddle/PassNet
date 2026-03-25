@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/nli-MiniLM2-L6-H768": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/quora-roberta-large": [
+        [
+            0,
+            2
+        ]
+    ]
+}

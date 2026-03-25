@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/MoritzLaurer_multilingual-MiniLMv2-L12-mnli-xnli": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_multilingual-MiniLMv2-L6-mnli-xnli": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1": [
+        [
+            0,
+            26
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/hustvl_yolos-tiny": [
+        [
+            31,
+            35
+        ],
+        [
+            57,
+            61
+        ]
+    ]
+}

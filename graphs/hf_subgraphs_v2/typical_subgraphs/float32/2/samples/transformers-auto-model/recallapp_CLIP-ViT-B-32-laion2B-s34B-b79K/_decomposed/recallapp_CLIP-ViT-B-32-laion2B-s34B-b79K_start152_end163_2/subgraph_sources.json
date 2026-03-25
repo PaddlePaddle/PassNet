@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K": [
+        [
+            77,
+            88
+        ],
+        [
+            152,
+            163
+        ],
+        [
+            227,
+            238
+        ]
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "samples/mmpose/pose_hrnet_w32": [
+        [
+            120,
+            126
+        ],
+        [
+            579,
+            585
+        ]
+    ],
+    "samples/mmpose/pose_hrnetv2_w18_dark": [
+        [
+            120,
+            126
+        ],
+        [
+            579,
+            585
+        ]
+    ]
+}

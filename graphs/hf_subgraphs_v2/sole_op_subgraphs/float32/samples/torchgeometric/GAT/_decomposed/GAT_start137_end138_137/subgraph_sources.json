@@ -1,0 +1,56 @@
+{
+    "samples/torchgeometric/GAT": [
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            137,
+            138
+        ],
+        [
+            138,
+            139
+        ],
+        [
+            194,
+            195
+        ],
+        [
+            195,
+            196
+        ],
+        [
+            251,
+            252
+        ],
+        [
+            252,
+            253
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-base-stage1": [
+        [
+            401,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-large-printed": [
+        [
+            773,
+            774
+        ]
+    ]
+}

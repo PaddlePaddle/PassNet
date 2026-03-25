@@ -1,0 +1,38 @@
+{
+    "samples/timm/efficientnet_em.ra2_in1k": [
+        [
+            167,
+            168
+        ],
+        [
+            176,
+            177
+        ]
+    ],
+    "samples/timm/efficientnet_es.ra_in1k": [
+        [
+            132,
+            133
+        ]
+    ],
+    "samples/timm/focalnet_large_fl3.ms_in22k": [
+        [
+            1033,
+            1034
+        ],
+        [
+            1079,
+            1080
+        ]
+    ],
+    "samples/timm/focalnet_large_fl4.ms_in22k": [
+        [
+            1148,
+            1149
+        ],
+        [
+            1199,
+            1200
+        ]
+    ]
+}

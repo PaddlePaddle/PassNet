@@ -1,0 +1,48 @@
+{
+    "samples/transformers-auto-model/Sayan01_L-4_H-128_A-2_Large_sst2": [
+        [
+            93,
+            98
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-128_A-2": [
+        [
+            225,
+            230
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-4_H-128_A-2": [
+        [
+            93,
+            98
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-128_A-2": [
+        [
+            159,
+            164
+        ],
+        [
+            165,
+            170
+        ],
+        [
+            181,
+            186
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-TinyBERT-L2": [
+        [
+            27,
+            32
+        ],
+        [
+            33,
+            38
+        ],
+        [
+            49,
+            54
+        ]
+    ]
+}

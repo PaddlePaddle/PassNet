@@ -1,0 +1,20 @@
+{
+    "samples/mmpose/2xmspn_50": [
+        [
+            171,
+            177
+        ]
+    ],
+    "samples/mmpose/3xmspn_50": [
+        [
+            171,
+            177
+        ]
+    ],
+    "samples/mmpose/4xmspn_50": [
+        [
+            171,
+            177
+        ]
+    ]
+}

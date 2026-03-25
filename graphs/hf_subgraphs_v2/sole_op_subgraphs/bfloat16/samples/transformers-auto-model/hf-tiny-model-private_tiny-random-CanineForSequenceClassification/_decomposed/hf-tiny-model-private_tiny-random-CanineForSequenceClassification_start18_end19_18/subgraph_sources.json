@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CanineForSequenceClassification": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/thuml_sundial-base-128m": [
+        [
+            4052,
+            4053
+        ]
+    ]
+}

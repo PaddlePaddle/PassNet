@@ -1,0 +1,40 @@
+{
+    "samples/transformers-auto-model/sismetanin_mbart_ru_sum_gazeta-ru-sentiment-liniscrowd": [
+        [
+            122,
+            149
+        ],
+        [
+            173,
+            200
+        ],
+        [
+            224,
+            251
+        ],
+        [
+            275,
+            302
+        ],
+        [
+            326,
+            353
+        ],
+        [
+            377,
+            404
+        ],
+        [
+            428,
+            455
+        ],
+        [
+            479,
+            506
+        ],
+        [
+            581,
+            608
+        ]
+    ]
+}

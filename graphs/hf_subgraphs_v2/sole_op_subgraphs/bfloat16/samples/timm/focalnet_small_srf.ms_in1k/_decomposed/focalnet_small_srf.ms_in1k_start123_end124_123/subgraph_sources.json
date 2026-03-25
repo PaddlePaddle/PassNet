@@ -1,0 +1,22 @@
+{
+    "samples/timm/focalnet_small_srf.ms_in1k": [
+        [
+            86,
+            87
+        ],
+        [
+            123,
+            124
+        ]
+    ],
+    "samples/timm/focalnet_tiny_srf.ms_in1k": [
+        [
+            86,
+            87
+        ],
+        [
+            123,
+            124
+        ]
+    ]
+}

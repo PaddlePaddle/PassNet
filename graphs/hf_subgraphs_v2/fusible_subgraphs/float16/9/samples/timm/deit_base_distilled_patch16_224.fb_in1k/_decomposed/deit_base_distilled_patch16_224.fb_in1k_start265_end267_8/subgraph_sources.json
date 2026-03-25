@@ -1,0 +1,50 @@
+{
+    "samples/timm/deit_base_distilled_patch16_224.fb_in1k": [
+        [
+            265,
+            267
+        ]
+    ],
+    "samples/timm/deit_small_distilled_patch16_224.fb_in1k": [
+        [
+            265,
+            267
+        ]
+    ],
+    "samples/timm/deit_tiny_distilled_patch16_224.fb_in1k": [
+        [
+            265,
+            267
+        ]
+    ],
+    "samples/timm/repvit_m0_9.dist_300e_in1k": [
+        [
+            378,
+            380
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_base_distilled_patch16_224": [
+        [
+            325,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_small_distilled_patch16_224": [
+        [
+            325,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_tiny_distilled_patch16_224": [
+        [
+            325,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerForImageClassificationWithTeacher": [
+        [
+            291,
+            293
+        ]
+    ]
+}

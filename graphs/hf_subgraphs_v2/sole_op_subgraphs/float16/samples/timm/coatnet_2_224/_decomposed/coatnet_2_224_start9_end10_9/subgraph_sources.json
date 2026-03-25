@@ -1,0 +1,154 @@
+{
+    "samples/timm/coatnet_2_224": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/coatnet_2_rw_224": [
+        [
+            10,
+            11
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_2_rw_224": [
+        [
+            10,
+            11
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_2_rw_384": [
+        [
+            10,
+            11
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/timm/cs3sedarknet_xdw": [
+        [
+            393,
+            394
+        ]
+    ],
+    "samples/timm/hgnet_small.paddle_in1k": [
+        [
+            64,
+            65
+        ]
+    ],
+    "samples/timm/hgnet_tiny.paddle_in1k": [
+        [
+            107,
+            108
+        ]
+    ],
+    "samples/timm/hgnetv2_b0.ssld_stage1_in22k_in1k": [
+        [
+            150,
+            151
+        ]
+    ],
+    "samples/timm/hgnetv2_b1.ssld_stage1_in22k_in1k": [
+        [
+            150,
+            151
+        ]
+    ],
+    "samples/timm/hgnetv2_b3.ssld_stage1_in22k_in1k": [
+        [
+            103,
+            104
+        ]
+    ],
+    "samples/timm/hgnetv2_b4.ssld_stage1_in22k_in1k": [
+        [
+            71,
+            72
+        ]
+    ],
+    "samples/timm/hgnetv2_b5.ssld_stage1_in22k_in1k": [
+        [
+            97,
+            98
+        ]
+    ],
+    "samples/timm/hgnetv2_b6.ssld_stage1_in22k_in1k": [
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/timm/mobilenetv1_100.ra4_e3600_r224_in1k": [
+        [
+            69,
+            70
+        ]
+    ],
+    "samples/timm/mobilenetv1_100h.ra4_e3600_r224_in1k": [
+        [
+            69,
+            70
+        ]
+    ],
+    "samples/timm/mobileone_s1.apple_in1k": [
+        [
+            283,
+            284
+        ]
+    ],
+    "samples/torchvision/maxvit_t": [
+        [
+            215,
+            216
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-small": [
+        [
+            270,
+            271
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256": [
+        [
+            94,
+            95
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel": [
+        [
+            270,
+            271
+        ]
+    ],
+    "samples/ultralytics/yolov10l": [
+        [
+            95,
+            96
+        ],
+        [
+            152,
+            153
+        ],
+        [
+            415,
+            416
+        ]
+    ],
+    "samples/ultralytics/yolov10s": [
+        [
+            82,
+            83
+        ]
+    ]
+}

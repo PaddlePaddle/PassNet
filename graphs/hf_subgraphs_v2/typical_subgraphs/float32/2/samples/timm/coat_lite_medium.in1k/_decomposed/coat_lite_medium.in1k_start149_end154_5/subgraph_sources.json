@@ -1,0 +1,64 @@
+{
+    "samples/timm/coat_lite_medium.in1k": [
+        [
+            47,
+            52
+        ],
+        [
+            98,
+            103
+        ],
+        [
+            149,
+            154
+        ]
+    ],
+    "samples/timm/coat_lite_mini.in1k": [
+        [
+            159,
+            164
+        ],
+        [
+            210,
+            215
+        ]
+    ],
+    "samples/timm/coat_lite_small.in1k": [
+        [
+            210,
+            215
+        ],
+        [
+            261,
+            266
+        ],
+        [
+            312,
+            317
+        ],
+        [
+            363,
+            368
+        ]
+    ],
+    "samples/timm/coat_lite_tiny.in1k": [
+        [
+            159,
+            164
+        ],
+        [
+            210,
+            215
+        ]
+    ],
+    "samples/timm/crossvit_9_240.in1k": [
+        [
+            180,
+            185
+        ],
+        [
+            334,
+            339
+        ]
+    ]
+}

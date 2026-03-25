@@ -1,0 +1,86 @@
+{
+    "samples/timm/hardcorenas_a.miil_green_in1k": [
+        [
+            143,
+            149
+        ]
+    ],
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            182,
+            188
+        ]
+    ],
+    "samples/timm/hardcorenas_c.miil_green_in1k": [
+        [
+            194,
+            200
+        ]
+    ],
+    "samples/timm/hardcorenas_d.miil_green_in1k": [
+        [
+            260,
+            266
+        ]
+    ],
+    "samples/timm/hardcorenas_e.miil_green_in1k": [
+        [
+            245,
+            251
+        ]
+    ],
+    "samples/timm/hardcorenas_f.miil_green_in1k": [
+        [
+            245,
+            251
+        ]
+    ],
+    "samples/timm/lcnet_050.ra2_in1k": [
+        [
+            92,
+            98
+        ]
+    ],
+    "samples/timm/lcnet_075.ra2_in1k": [
+        [
+            92,
+            98
+        ]
+    ],
+    "samples/timm/lcnet_100.ra2_in1k": [
+        [
+            92,
+            98
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_100.miil_in21k": [
+        [
+            180,
+            186
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_150d.ra4_e3600_r256_in1k": [
+        [
+            252,
+            258
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_050.lamb_in1k": [
+        [
+            151,
+            157
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_075.lamb_in1k": [
+        [
+            150,
+            156
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_100.lamb_in1k": [
+        [
+            150,
+            156
+        ]
+    ]
+}

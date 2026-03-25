@@ -1,0 +1,24 @@
+{
+    "samples/timm/inception_resnet_v2": [
+        [
+            653,
+            655
+        ]
+    ],
+    "samples/timm/inception_v3.gluon_in1k": [
+        [
+            254,
+            256
+        ],
+        [
+            267,
+            269
+        ]
+    ],
+    "samples/timm/inception_v4": [
+        [
+            407,
+            409
+        ]
+    ]
+}

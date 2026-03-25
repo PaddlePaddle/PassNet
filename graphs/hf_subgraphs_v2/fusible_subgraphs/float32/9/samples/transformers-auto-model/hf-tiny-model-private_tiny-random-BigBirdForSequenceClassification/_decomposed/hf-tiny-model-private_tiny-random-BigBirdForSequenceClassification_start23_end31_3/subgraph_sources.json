@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BigBirdForSequenceClassification": [
+        [
+            23,
+            31
+        ],
+        [
+            59,
+            67
+        ]
+    ]
+}

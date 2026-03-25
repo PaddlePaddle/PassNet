@@ -1,0 +1,62 @@
+{
+    "samples/timm/efficientnet_em.ra2_in1k": [
+        [
+            122,
+            128
+        ],
+        [
+            131,
+            137
+        ],
+        [
+            140,
+            146
+        ],
+        [
+            149,
+            155
+        ]
+    ],
+    "samples/timm/efficientnet_es.ra_in1k": [
+        [
+            96,
+            102
+        ],
+        [
+            105,
+            111
+        ],
+        [
+            114,
+            120
+        ]
+    ],
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            113,
+            119
+        ],
+        [
+            122,
+            128
+        ],
+        [
+            131,
+            137
+        ]
+    ],
+    "samples/timm/spnasnet_100.rmsp_in1k": [
+        [
+            149,
+            155
+        ],
+        [
+            158,
+            164
+        ],
+        [
+            167,
+            173
+        ]
+    ]
+}

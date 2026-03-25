@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            64,
+            70
+        ]
+    ],
+    "samples/mmseg/ICNet_R18": [
+        [
+            78,
+            84
+        ]
+    ],
+    "samples/mmseg/PSPNet_R18": [
+        [
+            64,
+            70
+        ]
+    ]
+}

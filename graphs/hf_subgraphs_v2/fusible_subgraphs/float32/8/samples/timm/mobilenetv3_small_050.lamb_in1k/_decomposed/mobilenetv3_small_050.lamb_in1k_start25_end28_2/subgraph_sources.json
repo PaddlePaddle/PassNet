@@ -1,0 +1,8 @@
+{
+    "samples/timm/mobilenetv3_small_050.lamb_in1k": [
+        [
+            25,
+            28
+        ]
+    ]
+}

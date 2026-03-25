@@ -1,0 +1,20 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, in_0, in_1, in_2, in_3, in_4):
+        tmp_0 = in_0
+        tmp_1 = in_1
+        tmp_2 = torch.conv2d(in_2, tmp_1, tmp_0, (1, 1), (0, 0), (1, 1), 1)
+        tmp_1 = tmp_0 = None
+        tmp_3 = tmp_2.view(4, 1, -1)
+        tmp_2 = None
+        tmp_4 = torch.cat([in_3, in_4, tmp_3], 2)
+        tmp_3 = None
+        tmp_5 = tmp_4.sigmoid()
+        tmp_4 = None
+        tmp_6 = tmp_5 - 0.25
+        tmp_5 = None
+        tmp_7 = tmp_6 * 3.141592653589793
+        tmp_6 = None
+        return (tmp_7,)

@@ -1,0 +1,200 @@
+{
+    "samples/mmseg/ANN_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/ANN_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/APCNet_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/APCNet_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/CCNet_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/CCNet_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/DANet_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/DANet_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/DMNet_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/DMNet_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/DNLNet_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/DNLNet_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/EMANet_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/EMANet_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/FCN_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/FCN_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/FastFCN_psp": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/GCNet_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/GCNet_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/ICNet_R101": [
+        [
+            129,
+            135
+        ]
+    ],
+    "samples/mmseg/ICNet_R50": [
+        [
+            129,
+            135
+        ]
+    ],
+    "samples/mmseg/K-Net_fcn": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/NonLocalNet_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/PSPNet_R101": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/PSPNet_R50": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet101": [
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet50": [
+        [
+            109,
+            115
+        ]
+    ]
+}

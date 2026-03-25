@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google/bigbird-roberta-base": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/google/bigbird-roberta-large": [
+        [
+            17,
+            18
+        ]
+    ]
+}

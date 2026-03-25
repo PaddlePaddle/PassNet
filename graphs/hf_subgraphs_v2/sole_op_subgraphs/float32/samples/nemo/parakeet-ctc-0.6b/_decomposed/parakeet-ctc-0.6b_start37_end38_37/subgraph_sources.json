@@ -1,0 +1,400 @@
+{
+    "samples/nemo/parakeet-ctc-0.6b": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/nemo/parakeet-ctc-1.1b": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/nemo/parakeet-tdt-0.6b-v3": [
+        [
+            36,
+            37
+        ]
+    ],
+    "samples/nemo/parakeet-tdt-1.1b": [
+        [
+            36,
+            37
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_large": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_medium": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/nemo/stt_en_conformer_ctc_small": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_large_pc": [
+        [
+            36,
+            37
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_large_streaming_multi": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_medium_streaming_80ms_pc": [
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_large_ls": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_medium_large_ls": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_medium_ls": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_small_ls": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_small_medium_ls": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_xsmall_ls": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/IS-LM-3B": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-1.3B": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-125M": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-355M": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K": [
+        [
+            620,
+            621
+        ]
+    ],
+    "samples/transformers-auto-model/Q-MM_clip-vit-large-patch14-336": [
+        [
+            668,
+            669
+        ]
+    ],
+    "samples/transformers-auto-model/Thomasboosinger_owlvit-base-patch32": [
+        [
+            440,
+            441
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-224-lit": [
+        [
+            927,
+            928
+        ],
+        [
+            982,
+            983
+        ],
+        [
+            1037,
+            1038
+        ],
+        [
+            1092,
+            1093
+        ],
+        [
+            1147,
+            1148
+        ],
+        [
+            1202,
+            1203
+        ],
+        [
+            1257,
+            1258
+        ],
+        [
+            1312,
+            1313
+        ],
+        [
+            1367,
+            1368
+        ],
+        [
+            1422,
+            1423
+        ],
+        [
+            1477,
+            1478
+        ],
+        [
+            1532,
+            1533
+        ]
+    ],
+    "samples/transformers-auto-model/aurelio-ai_sr-test-clip": [
+        [
+            155,
+            156
+        ]
+    ],
+    "samples/transformers-auto-model/canary-1b-v2": [
+        [
+            36,
+            37
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_metaclip-b16-400m": [
+        [
+            344,
+            345
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_metaclip-b32-400m": [
+        [
+            344,
+            345
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_xglm-564M": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/fairseq-dense-1.3B": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/fairseq-dense-355M": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-base-patch16": [
+        [
+            440,
+            441
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-base-patch32": [
+        [
+            440,
+            441
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-large-patch14": [
+        [
+            860,
+            861
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-base-patch16": [
+        [
+            440,
+            441
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14": [
+        [
+            860,
+            861
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14-finetuned": [
+        [
+            860,
+            861
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch16": [
+        [
+            440,
+            441
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch32": [
+        [
+            440,
+            441
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-large-patch14": [
+        [
+            860,
+            861
+        ]
+    ],
+    "samples/transformers-auto-model/gowitheflowlab_clip-base-10240-checkpoint350": [
+        [
+            344,
+            345
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CLIPSegModel": [
+        [
+            170,
+            171
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MvpForSequenceClassification": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            195,
+            196
+        ]
+    ],
+    "samples/transformers-auto-model/laion_CLIP-ViT-H-14-laion2B-s32B-b79K": [
+        [
+            820,
+            821
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16": [
+        [
+            839,
+            840
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot": [
+        [
+            770,
+            771
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32": [
+        [
+            839,
+            840
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32-16-frames": [
+        [
+            770,
+            771
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-large-patch14": [
+        [
+            1607,
+            1608
+        ]
+    ],
+    "samples/transformers-auto-model/openai_clip-vit-base-patch32": [
+        [
+            344,
+            345
+        ]
+    ],
+    "samples/transformers-auto-model/openai_clip-vit-large-patch14": [
+        [
+            668,
+            669
+        ]
+    ],
+    "samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K": [
+        [
+            320,
+            321
+        ]
+    ],
+    "samples/transformers-auto-model/shaunster_clip_14_model": [
+        [
+            344,
+            345
+        ]
+    ],
+    "samples/transformers-auto-model/thuml_sundial-base-128m": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/thuml_timer-base-84m": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/upfeatmediainc_owlv2-base-patch16-ensemble": [
+        [
+            440,
+            441
+        ]
+    ],
+    "samples/transformers-auto-model/yuvalkirstain_PickScore_v1": [
+        [
+            820,
+            821
+        ]
+    ]
+}

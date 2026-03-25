@@ -1,0 +1,136 @@
+{
+    "samples/mmseg/SegNeXt-b": [
+        [
+            838,
+            839
+        ],
+        [
+            967,
+            968
+        ],
+        [
+            971,
+            972
+        ]
+    ],
+    "samples/mmseg/SegNeXt-l": [
+        [
+            1484,
+            1485
+        ],
+        [
+            1613,
+            1614
+        ],
+        [
+            1617,
+            1618
+        ]
+    ],
+    "samples/mmseg/SegNeXt-s": [
+        [
+            420,
+            421
+        ],
+        [
+            549,
+            550
+        ],
+        [
+            553,
+            554
+        ]
+    ],
+    "samples/mmseg/SegNeXt-t": [
+        [
+            534,
+            535
+        ],
+        [
+            663,
+            664
+        ],
+        [
+            667,
+            668
+        ]
+    ],
+    "samples/transformers-auto-model/SenseTime_deformable-detr-single-scale": [
+        [
+            744,
+            745
+        ]
+    ],
+    "samples/transformers-auto-model/SenseTime_deformable-detr-single-scale-dc5": [
+        [
+            744,
+            745
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-UniSpeechSatForSequenceClassification": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Wav2Vec2ConformerForSequenceClassification": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-WavLMForSequenceClassification": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/tsime_detr_mapilary": [
+        [
+            826,
+            827
+        ],
+        [
+            828,
+            829
+        ],
+        [
+            830,
+            831
+        ],
+        [
+            832,
+            833
+        ]
+    ],
+    "samples/transformers-auto-model/zuppif_maskformer-swin-small-ade": [
+        [
+            1613,
+            1614
+        ],
+        [
+            1616,
+            1617
+        ],
+        [
+            1620,
+            1621
+        ],
+        [
+            1623,
+            1624
+        ],
+        [
+            1627,
+            1628
+        ],
+        [
+            1630,
+            1631
+        ],
+        [
+            1634,
+            1635
+        ]
+    ]
+}

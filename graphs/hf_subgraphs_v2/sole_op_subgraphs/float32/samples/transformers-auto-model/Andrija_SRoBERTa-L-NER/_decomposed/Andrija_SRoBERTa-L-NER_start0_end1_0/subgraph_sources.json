@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/Andrija_SRoBERTa-L-NER": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/HueyNemud_berties": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Qishuai_distilbert_punctuator_zh": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/almanach_camembert-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/cmarkea_distilcamembert-base-nli": [
+        [
+            0,
+            1
+        ]
+    ]
+}

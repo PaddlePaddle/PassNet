@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/sheshkar_cmon2": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/zuppif_maskformer-swin-small-ade": [
+        [
+            1744,
+            1746
+        ],
+        [
+            1773,
+            1775
+        ]
+    ]
+}

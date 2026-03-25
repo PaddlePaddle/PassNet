@@ -1,0 +1,78 @@
+{
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            1525,
+            1527
+        ]
+    ],
+    "samples/transformers-auto-model/IDEA-Research_dab-detr-resnet-50": [
+        [
+            950,
+            952
+        ],
+        [
+            1244,
+            1246
+        ],
+        [
+            1386,
+            1388
+        ]
+    ],
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14": [
+        [
+            1032,
+            1034
+        ],
+        [
+            1064,
+            1066
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            925,
+            927
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            1825,
+            1827
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            325,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerForImageClassificationWithTeacher": [
+        [
+            268,
+            270
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerModel": [
+        [
+            268,
+            270
+        ]
+    ],
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            781,
+            783
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_layoutlm-base-uncased": [
+        [
+            53,
+            55
+        ],
+        [
+            85,
+            87
+        ]
+    ]
+}

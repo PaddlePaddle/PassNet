@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileNetV2Model": [
+        [
+            311,
+            312
+        ],
+        [
+            333,
+            334
+        ],
+        [
+            355,
+            356
+        ]
+    ]
+}

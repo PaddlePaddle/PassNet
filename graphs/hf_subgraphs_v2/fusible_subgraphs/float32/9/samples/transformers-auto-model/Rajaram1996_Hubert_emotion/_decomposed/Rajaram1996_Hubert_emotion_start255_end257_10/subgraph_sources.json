@@ -1,0 +1,88 @@
+{
+    "samples/transformers-auto-model/Rajaram1996_Hubert_emotion": [
+        [
+            52,
+            54
+        ],
+        [
+            255,
+            257
+        ]
+    ],
+    "samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender": [
+        [
+            72,
+            74
+        ],
+        [
+            333,
+            335
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_wav2vec2-base-960h": [
+        [
+            371,
+            373
+        ]
+    ],
+    "samples/transformers-auto-model/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting": [
+        [
+            217,
+            219
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecAudioForSequenceClassification": [
+        [
+            128,
+            130
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerForImageClassificationWithTeacher": [
+        [
+            280,
+            282
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerModel": [
+        [
+            280,
+            282
+        ]
+    ],
+    "samples/transformers-auto-model/monoelectra-large": [
+        [
+            711,
+            713
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-electra-base": [
+        [
+            363,
+            365
+        ]
+    ],
+    "samples/transformers-auto-model/nli-deberta-v3-base": [
+        [
+            1125,
+            1127
+        ]
+    ],
+    "samples/transformers-auto-model/nli-deberta-v3-xsmall": [
+        [
+            1125,
+            1127
+        ]
+    ],
+    "samples/transformers-auto-model/optimum_hubert-base-superb-ks": [
+        [
+            371,
+            373
+        ]
+    ],
+    "samples/transformers-auto-model/reralle_wav2vec2_s-f-o_8batch_5sec_0.0001lr_unfrozen": [
+        [
+            52,
+            54
+        ]
+    ]
+}

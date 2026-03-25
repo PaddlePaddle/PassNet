@@ -1,0 +1,15 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, w_0 : torch.Tensor, w_1, w_2, w_3, w_4, in_0, in_1, in_2):
+        in_1 += in_2;  in_3 = in_1;  in_1 = in_2 = None
+        tmp_6 = torch.nn.functional.batch_norm(in_0, w_1, w_2, w_4, w_3, False, 0.1, 1e-05);  w_1 = w_2 = w_4 = w_3 = None
+        tmp_7 = 0 + tmp_6;  tmp_6 = None
+        tmp_8 = in_3 - tmp_7;  in_3 = tmp_7 = None
+        tmp_9 = tmp_8 * w_0;  tmp_8 = w_0 = None
+        tmp_10 = in_0 + tmp_9;  in_0 = tmp_9 = None
+        return (tmp_10,)
+        

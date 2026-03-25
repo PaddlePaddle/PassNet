@@ -1,0 +1,13 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, in_0 : torch.Tensor, in_1):
+        tmp_0 = in_1.mean((2, 3));  in_1 = None
+        tmp_1 = in_0 // 32;  in_0 = None
+        tmp_2 = torch.sym_sum([1, tmp_1]);  tmp_1 = tmp_2 = None
+        tmp_3 = tmp_0.view(1, 1, -1);  tmp_0 = None
+        return (tmp_3,)
+        

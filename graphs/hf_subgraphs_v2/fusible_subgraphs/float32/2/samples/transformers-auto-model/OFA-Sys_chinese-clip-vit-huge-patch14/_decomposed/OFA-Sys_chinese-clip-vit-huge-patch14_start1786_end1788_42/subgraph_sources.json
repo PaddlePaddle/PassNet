@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14": [
+        [
+            1786,
+            1788
+        ],
+        [
+            1788,
+            1790
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-224": [
+        [
+            627,
+            629
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "samples/timm/tinynet_c.in1k": [
+        [
+            177,
+            178
+        ],
+        [
+            192,
+            193
+        ]
+    ],
+    "samples/timm/tinynet_d.in1k": [
+        [
+            117,
+            118
+        ],
+        [
+            132,
+            133
+        ]
+    ],
+    "samples/torchvision/mnasnet1_3": [
+        [
+            71,
+            72
+        ],
+        [
+            80,
+            81
+        ]
+    ]
+}

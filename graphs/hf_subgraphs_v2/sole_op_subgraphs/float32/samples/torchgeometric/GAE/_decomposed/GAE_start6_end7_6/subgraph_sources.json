@@ -1,0 +1,58 @@
+{
+    "samples/torchgeometric/GAE": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/torchgeometric/GAT": [
+        [
+            9,
+            10
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            123,
+            124
+        ],
+        [
+            180,
+            181
+        ],
+        [
+            237,
+            238
+        ]
+    ],
+    "samples/torchgeometric/GCN": [
+        [
+            6,
+            7
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            92,
+            93
+        ],
+        [
+            135,
+            136
+        ],
+        [
+            178,
+            179
+        ]
+    ],
+    "samples/torchgeometric/RECT_L": [
+        [
+            6,
+            7
+        ]
+    ]
+}

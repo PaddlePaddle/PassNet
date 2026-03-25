@@ -1,0 +1,14 @@
+{
+    "samples/timm/rexnetr_200.sw_in12k": [
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/torchvision/efficientnet_b7": [
+        [
+            276,
+            277
+        ]
+    ]
+}

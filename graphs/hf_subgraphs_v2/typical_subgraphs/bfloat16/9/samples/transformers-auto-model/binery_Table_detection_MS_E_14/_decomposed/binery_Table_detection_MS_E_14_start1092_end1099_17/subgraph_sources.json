@@ -1,0 +1,68 @@
+{
+    "samples/transformers-auto-model/binery_Table_detection_MS_E_14": [
+        [
+            1092,
+            1099
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101": [
+        [
+            2208,
+            2215
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101-dc5": [
+        [
+            2208,
+            2215
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-50": [
+        [
+            1528,
+            1535
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_conditional-detr-resnet-50": [
+        [
+            1651,
+            1658
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            1687,
+            1694
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r101-cd45rb-8ah-6l-256d-4096ffn": [
+        [
+            2244,
+            2251
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r50-cd45rb-4ah-6l": [
+        [
+            1582,
+            1589
+        ]
+    ],
+    "samples/transformers-auto-model/prathmeshrmadhu_detr-finetuned-odorv3": [
+        [
+            1408,
+            1415
+        ]
+    ],
+    "samples/transformers-auto-model/rice-rice_detr-resnet-50_finetuned_dataset": [
+        [
+            1546,
+            1553
+        ]
+    ],
+    "samples/transformers-auto-model/zuppif_maskformer-swin-small-ade": [
+        [
+            2072,
+            2079
+        ]
+    ]
+}

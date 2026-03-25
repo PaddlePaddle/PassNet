@@ -1,0 +1,130 @@
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_buffers_running_mean_:
+	name = "in_0"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_buffers_running_mean_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -13.911
+	std = 20.936
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_buffers_running_var_:
+	name = "in_1"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_buffers_running_var_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = 1621.975
+	std = 959.293
+	min_val = 0
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_parameters_bias_:
+	name = "in_2"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_parameters_bias_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -0.690
+	std = 0.531
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_parameters_weight_:
+	name = "in_3"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_parameters_weight_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = 0.915
+	std = 0.453
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_conv_s1_parameters_bias_:
+	name = "in_4"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_conv_s1_parameters_bias_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -0.001
+	std = 0.012
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_conv_s1_parameters_weight_:
+	name = "in_5"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_conv_s1_parameters_weight_"
+	shape = [256, 256, 3, 3]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = 0.046
+	std = 0.676
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv4_modules_bn_s1_buffers_running_mean_:
+	name = "in_6"
+	original_name = "L_self_modules_stage5_modules_rebnconv4_modules_bn_s1_buffers_running_mean_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -33.927
+	std = 40.322
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv4_modules_bn_s1_buffers_running_var_:
+	name = "in_7"
+	original_name = "L_self_modules_stage5_modules_rebnconv4_modules_bn_s1_buffers_running_var_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = 3943.490
+	std = 1191.603
+	min_val = 0
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv4_modules_bn_s1_parameters_bias_:
+	name = "in_8"
+	original_name = "L_self_modules_stage5_modules_rebnconv4_modules_bn_s1_parameters_bias_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -0.509
+	std = 0.644
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv4_modules_bn_s1_parameters_weight_:
+	name = "in_9"
+	original_name = "L_self_modules_stage5_modules_rebnconv4_modules_bn_s1_parameters_weight_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = 1.283
+	std = 0.558
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv4_modules_conv_s1_parameters_bias_:
+	name = "in_10"
+	original_name = "L_self_modules_stage5_modules_rebnconv4_modules_conv_s1_parameters_bias_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -0.001
+	std = 0.012
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv4_modules_conv_s1_parameters_weight_:
+	name = "in_11"
+	original_name = "L_self_modules_stage5_modules_rebnconv4_modules_conv_s1_parameters_weight_"
+	shape = [256, 256, 3, 3]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -0.064
+	std = 0.613
+
+
+class Program_weight_tensor_meta_batch_norm_46:
+	name = "in_12"
+	original_name = "batch_norm_46"
+	shape = [1, 256, 20, 20]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -49.787
+	std = 11.891

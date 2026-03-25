@@ -1,0 +1,302 @@
+{
+    "samples/transformers-auto-model/AK_ak_nlp": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/AethiQs-Max_AethiQs_GemBERT_bertje_50k": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/Aleksandar_bert-srb-ner-setimes": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/CAMeL-Lab_text-editing-qalb14-nopnx": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/Culmenus_XLMR-ENIS-finetuned-ner": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-merged": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/Dr-BERT_CAS-Biomedical-POS-Tagging": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_est-roberta": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_finest-bert": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_litlat-bert": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/Film8844_wangchanberta-ner": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/Ghana-NLP_robako-base-akuapem-twi-cased": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/GroNLP_bert-base-dutch-cased-frisian": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/Hate-speech-CNERG_dehatebert-mono-arabic": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/Jodsa_camembert_mlm": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/Lazaro97_results": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/LeoFeng_ChineseSequenceClassification": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/OpenMed_OpenMed-NER-PharmaDetect-SuperMedical-125M": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/Recognai_bert-base-spanish-wwm-cased-xnli": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/WIC-Uchile_ene_phase4": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/aimarsg_prueba5": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/akdeniz27_bert-base-turkish-cased-ner": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/almanach_camembert-base": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/axotion_polish-reranker-base-ranknet": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/bert-base-uncased": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/bge-base-en-v1.5": [
+        [
+            17,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/cointegrated_rubert-base-cased-nli-threeway": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/disi-unibo-nlp_openbioner-base": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/distilroberta-base": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/eliza-dukim_para-kqc-sim": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/erica_krm_sa2": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/ethanyt_guwen-ner": [
+        [
+            22,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-base-chinese": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-base-multilingual-cased": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/hfl_chinese-roberta-wwm-ext": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/huggingface_CodeBERTa-small-v1": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/inthedarkness_klue-roberta-small-cross-encoder": [
+        [
+            22,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/klue_bert-base": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/lst-nectec_HoogBERTa-POS-lst20": [
+        [
+            22,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/mahwizzzz_UrduClassification": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-TinyBERT-L6": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/nli-MiniLM2-L6-H768": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/nlptown_bert_base_multilingual_uncased_sentiment": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/LaBSE": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-distilroberta-v1": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/simjo_dummy-model": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/simonmun_Eyse_SentenceClassification": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/tau_tavbert-he": [
+        [
+            22,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/truong1301_reranker_pho_BLAI": [
+        [
+            22,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/ukr-models_xlm-roberta-base-uk": [
+        [
+            24,
+            26
+        ]
+    ]
+}

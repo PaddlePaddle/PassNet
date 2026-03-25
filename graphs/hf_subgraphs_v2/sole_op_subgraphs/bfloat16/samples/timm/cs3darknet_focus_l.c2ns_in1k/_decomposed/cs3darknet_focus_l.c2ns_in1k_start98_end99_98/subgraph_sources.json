@@ -1,0 +1,62 @@
+{
+    "samples/timm/cs3darknet_focus_l.c2ns_in1k": [
+        [
+            98,
+            99
+        ]
+    ],
+    "samples/timm/cs3darknet_focus_s.ra4_e3600_r256_in1k": [
+        [
+            104,
+            105
+        ]
+    ],
+    "samples/timm/cs3darknet_l.c2ns_in1k": [
+        [
+            101,
+            102
+        ]
+    ],
+    "samples/timm/cs3darknet_s": [
+        [
+            107,
+            108
+        ]
+    ],
+    "samples/timm/cs3sedarknet_l.c2ns_in1k": [
+        [
+            155,
+            156
+        ]
+    ],
+    "samples/timm/cs3sedarknet_xdw": [
+        [
+            77,
+            78
+        ]
+    ],
+    "samples/timm/cspdarknet53.ra_in1k": [
+        [
+            137,
+            138
+        ]
+    ],
+    "samples/timm/cspresnet50.ra_in1k": [
+        [
+            52,
+            53
+        ]
+    ],
+    "samples/timm/cspresnet50d": [
+        [
+            58,
+            59
+        ]
+    ],
+    "samples/timm/cspresnext50.ra_in1k": [
+        [
+            52,
+            53
+        ]
+    ]
+}

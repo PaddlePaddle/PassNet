@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/opus-mt-de-af": [
+        [
+            189,
+            190
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-id": [
+        [
+            189,
+            190
+        ]
+    ]
+}

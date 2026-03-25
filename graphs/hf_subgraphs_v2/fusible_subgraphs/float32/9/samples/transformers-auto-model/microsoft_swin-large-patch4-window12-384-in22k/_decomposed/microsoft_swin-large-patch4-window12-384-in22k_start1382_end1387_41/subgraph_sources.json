@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/microsoft_swin-large-patch4-window12-384-in22k": [
+        [
+            382,
+            387
+        ],
+        [
+            882,
+            887
+        ],
+        [
+            1382,
+            1387
+        ]
+    ]
+}

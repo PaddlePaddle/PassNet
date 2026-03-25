@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/ANN_R101": [
+        [
+            356,
+            391
+        ]
+    ],
+    "samples/mmseg/ANN_R50": [
+        [
+            186,
+            221
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/timm/mobilenet_edgetpu_v2_m.ra4_e3600_r224_in1k": [
+        [
+            83,
+            86
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_aa_large.e230_r384_in12k": [
+        [
+            47,
+            50
+        ]
+    ]
+}

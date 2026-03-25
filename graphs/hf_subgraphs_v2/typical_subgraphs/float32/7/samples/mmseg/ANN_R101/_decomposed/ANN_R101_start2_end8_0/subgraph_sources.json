@@ -1,0 +1,254 @@
+{
+    "samples/mmseg/ANN_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/ANN_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/APCNet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/APCNet_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/CCNet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/CCNet_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DANet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DANet_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DMNet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DMNet_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DNLNet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DNLNet_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/EMANet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/EMANet_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/FCN_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/FCN_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/FastFCN_psp": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/GCNet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/GCNet_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/ICNet_R101": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/mmseg/ICNet_R18": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/mmseg/ICNet_R50": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/mmseg/K-Net_fcn": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/NonLocalNet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/PIDNet-l": [
+        [
+            302,
+            308
+        ]
+    ],
+    "samples/mmseg/PSPNet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/PSPNet_R18": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/PSPNet_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3plus": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/ResNeSt_fcn": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/ResNeSt_pspnet": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/SemanticFPN_R50": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/UPerNet_R101": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/mmseg/UPerNet_R50": [
+        [
+            2,
+            8
+        ]
+    ]
+}

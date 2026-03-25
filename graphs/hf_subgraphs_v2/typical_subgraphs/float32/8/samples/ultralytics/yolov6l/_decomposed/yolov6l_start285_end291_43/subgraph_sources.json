@@ -1,0 +1,14 @@
+{
+    "samples/ultralytics/yolov6l": [
+        [
+            285,
+            291
+        ]
+    ],
+    "samples/ultralytics/yolov6n": [
+        [
+            129,
+            135
+        ]
+    ]
+}

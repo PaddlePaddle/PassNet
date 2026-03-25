@@ -1,0 +1,12 @@
+{
+    "samples/timm/cspdarknet53.ra_in1k": [
+        [
+            8,
+            12
+        ],
+        [
+            32,
+            36
+        ]
+    ]
+}

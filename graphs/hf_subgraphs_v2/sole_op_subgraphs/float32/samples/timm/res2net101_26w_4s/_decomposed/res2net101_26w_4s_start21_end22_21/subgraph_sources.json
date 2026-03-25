@@ -1,0 +1,56 @@
+{
+    "samples/timm/res2net101_26w_4s": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/timm/res2net101d": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/timm/res2net50_14w_8s.in1k": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/timm/res2net50_26w_4s.in1k": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/timm/res2net50_26w_6s.in1k": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/timm/res2net50_26w_8s.in1k": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/timm/res2net50_48w_2s.in1k": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/timm/res2net50d.in1k": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/timm/res2next50.in1k": [
+        [
+            21,
+            22
+        ]
+    ]
+}

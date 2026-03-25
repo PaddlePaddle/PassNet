@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/Aleksandar_distilbert-srb-ner-setimes": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_est-roberta": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Ghana-NLP_robako-base-akuapem-twi-cased": [
+        [
+            0,
+            1
+        ]
+    ]
+}

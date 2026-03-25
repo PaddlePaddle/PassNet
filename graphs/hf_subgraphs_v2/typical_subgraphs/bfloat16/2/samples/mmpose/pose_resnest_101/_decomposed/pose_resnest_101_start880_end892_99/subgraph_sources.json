@@ -1,0 +1,92 @@
+{
+    "samples/mmpose/pose_resnest_101": [
+        [
+            880,
+            892
+        ]
+    ],
+    "samples/mmpose/pose_resnest_200": [
+        [
+            1738,
+            1750
+        ]
+    ],
+    "samples/mmpose/pose_resnest_269": [
+        [
+            2336,
+            2348
+        ]
+    ],
+    "samples/mmpose/pose_resnest_50": [
+        [
+            438,
+            450
+        ]
+    ],
+    "samples/mmpose/pose_resnet_101": [
+        [
+            340,
+            352
+        ]
+    ],
+    "samples/mmpose/pose_resnet_152": [
+        [
+            510,
+            522
+        ]
+    ],
+    "samples/mmpose/pose_resnet_50": [
+        [
+            170,
+            182
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_101": [
+        [
+            349,
+            361
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_152": [
+        [
+            519,
+            531
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_50": [
+        [
+            179,
+            191
+        ]
+    ],
+    "samples/mmpose/pose_resnext_101": [
+        [
+            340,
+            352
+        ]
+    ],
+    "samples/mmpose/pose_resnext_152": [
+        [
+            510,
+            522
+        ]
+    ],
+    "samples/mmpose/pose_resnext_50": [
+        [
+            170,
+            182
+        ]
+    ],
+    "samples/mmpose/pose_scnet_101": [
+        [
+            868,
+            880
+        ]
+    ],
+    "samples/mmpose/pose_scnet_50": [
+        [
+            426,
+            438
+        ]
+    ]
+}

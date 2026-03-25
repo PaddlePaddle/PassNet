@@ -1,0 +1,12 @@
+{
+    "samples/timm/focalnet_xlarge_fl3.ms_in22k": [
+        [
+            1029,
+            1030
+        ],
+        [
+            1075,
+            1076
+        ]
+    ]
+}

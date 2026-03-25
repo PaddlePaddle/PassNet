@@ -1,0 +1,30 @@
+{
+    "samples/timm/mambaout_base_plus_rw.sw_e150_in12k": [
+        [
+            574,
+            575
+        ],
+        [
+            589,
+            590
+        ],
+        [
+            604,
+            605
+        ]
+    ],
+    "samples/timm/mambaout_base_wide_rw.sw_e500_in1k": [
+        [
+            529,
+            530
+        ],
+        [
+            544,
+            545
+        ],
+        [
+            559,
+            560
+        ]
+    ]
+}

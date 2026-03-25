@@ -1,0 +1,122 @@
+{
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            1531,
+            1539
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            931,
+            939
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            1831,
+            1839
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-el16": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-kv128": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-kv16": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-kv256": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-kv32": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nh16": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nh32": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nh8": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-kv16": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-kv256": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nh2": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            331,
+            339
+        ]
+    ],
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            787,
+            795
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/gtr-t5-base": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/gtr-t5-large": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/gtr-t5-xl": [
+        [
+            153,
+            161
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/gtr-t5-xxl": [
+        [
+            153,
+            161
+        ]
+    ]
+}

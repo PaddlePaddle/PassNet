@@ -1,0 +1,24 @@
+{
+    "samples/mmseg/DDRNet-slim": [
+        [
+            89,
+            95
+        ]
+    ],
+    "samples/mmseg/PIDNet-l": [
+        [
+            156,
+            162
+        ],
+        [
+            177,
+            183
+        ]
+    ],
+    "samples/mmseg/PIDNet-s": [
+        [
+            123,
+            129
+        ]
+    ]
+}

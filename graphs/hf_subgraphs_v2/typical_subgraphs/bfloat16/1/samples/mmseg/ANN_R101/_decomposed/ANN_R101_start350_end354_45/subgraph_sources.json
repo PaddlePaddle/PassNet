@@ -1,0 +1,40 @@
+{
+    "samples/mmseg/ANN_R101": [
+        [
+            350,
+            354
+        ],
+        [
+            399,
+            403
+        ]
+    ],
+    "samples/mmseg/ANN_R50": [
+        [
+            180,
+            184
+        ],
+        [
+            229,
+            233
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            370,
+            374
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            1167,
+            1171
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            584,
+            588
+        ]
+    ]
+}

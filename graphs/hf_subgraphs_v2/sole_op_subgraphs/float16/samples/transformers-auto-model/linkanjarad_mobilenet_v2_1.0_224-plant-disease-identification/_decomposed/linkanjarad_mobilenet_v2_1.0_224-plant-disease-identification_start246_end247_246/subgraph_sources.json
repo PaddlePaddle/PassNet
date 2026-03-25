@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/linkanjarad_mobilenet_v2_1.0_224-plant-disease-identification": [
+        [
+            246,
+            247
+        ],
+        [
+            268,
+            269
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Sayan01_L-2_H-768_A-12_Large_sst2": [
+        [
+            1,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/bert-base-uncased": [
+        [
+            1,
+            10
+        ]
+    ]
+}

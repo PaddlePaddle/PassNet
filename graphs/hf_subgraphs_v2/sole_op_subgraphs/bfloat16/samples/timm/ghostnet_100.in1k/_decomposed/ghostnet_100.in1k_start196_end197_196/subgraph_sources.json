@@ -1,0 +1,68 @@
+{
+    "samples/timm/ghostnet_100.in1k": [
+        [
+            196,
+            197
+        ],
+        [
+            217,
+            218
+        ]
+    ],
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            112,
+            113
+        ],
+        [
+            121,
+            122
+        ],
+        [
+            130,
+            131
+        ]
+    ],
+    "samples/timm/hardcorenas_c.miil_green_in1k": [
+        [
+            124,
+            125
+        ],
+        [
+            133,
+            134
+        ],
+        [
+            142,
+            143
+        ]
+    ],
+    "samples/timm/hardcorenas_d.miil_green_in1k": [
+        [
+            172,
+            173
+        ]
+    ],
+    "samples/timm/hardcorenas_f.miil_green_in1k": [
+        [
+            172,
+            173
+        ]
+    ],
+    "samples/timm/repghostnet_100.in1k": [
+        [
+            196,
+            197
+        ],
+        [
+            217,
+            218
+        ]
+    ],
+    "samples/timm/rexnetr_200.sw_in12k": [
+        [
+            19,
+            20
+        ]
+    ]
+}

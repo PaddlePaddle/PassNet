@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B": [
+        [
+            98,
+            107
+        ],
+        [
+            642,
+            651
+        ]
+    ],
+    "samples/transformers-auto-model/deepseek-ai/deepseek-coder-1.3b-base": [
+        [
+            91,
+            100
+        ]
+    ]
+}

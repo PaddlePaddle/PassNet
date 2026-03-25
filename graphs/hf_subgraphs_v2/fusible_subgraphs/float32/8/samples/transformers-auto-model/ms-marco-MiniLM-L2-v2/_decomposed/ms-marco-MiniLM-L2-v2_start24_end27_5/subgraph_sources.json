@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/ms-marco-MiniLM-L2-v2": [
+        [
+            24,
+            27
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L4-v2": [
+        [
+            90,
+            93
+        ]
+    ]
+}

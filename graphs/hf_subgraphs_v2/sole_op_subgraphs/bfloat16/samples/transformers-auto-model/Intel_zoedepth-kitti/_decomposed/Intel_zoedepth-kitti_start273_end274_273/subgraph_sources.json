@@ -1,0 +1,66 @@
+{
+    "samples/transformers-auto-model/Intel_zoedepth-kitti": [
+        [
+            273,
+            274
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_zoedepth-nyu": [
+        [
+            437,
+            438
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DebertaForSequenceClassification": [
+        [
+            13,
+            14
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            133,
+            134
+        ],
+        [
+            150,
+            151
+        ],
+        [
+            197,
+            198
+        ],
+        [
+            214,
+            215
+        ],
+        [
+            261,
+            262
+        ],
+        [
+            278,
+            279
+        ],
+        [
+            325,
+            326
+        ],
+        [
+            342,
+            343
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-base": [
+        [
+            11,
+            12
+        ]
+    ]
+}

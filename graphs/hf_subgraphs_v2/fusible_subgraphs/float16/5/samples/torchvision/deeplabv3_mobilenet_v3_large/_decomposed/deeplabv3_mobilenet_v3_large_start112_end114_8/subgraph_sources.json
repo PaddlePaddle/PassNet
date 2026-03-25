@@ -1,0 +1,18 @@
+{
+    "samples/torchvision/deeplabv3_mobilenet_v3_large": [
+        [
+            33,
+            35
+        ],
+        [
+            112,
+            114
+        ]
+    ],
+    "samples/torchvision/regnet_y_128gf": [
+        [
+            12,
+            14
+        ]
+    ]
+}

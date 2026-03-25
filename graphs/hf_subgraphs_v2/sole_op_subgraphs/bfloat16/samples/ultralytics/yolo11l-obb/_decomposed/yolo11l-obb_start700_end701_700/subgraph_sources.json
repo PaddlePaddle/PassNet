@@ -1,0 +1,50 @@
+{
+    "samples/ultralytics/yolo11l-obb": [
+        [
+            700,
+            701
+        ]
+    ],
+    "samples/ultralytics/yolo11m-obb": [
+        [
+            481,
+            482
+        ]
+    ],
+    "samples/ultralytics/yolo11n-obb": [
+        [
+            396,
+            397
+        ]
+    ],
+    "samples/ultralytics/yolo11s-obb": [
+        [
+            396,
+            397
+        ]
+    ],
+    "samples/ultralytics/yolo11x-obb": [
+        [
+            700,
+            701
+        ]
+    ],
+    "samples/ultralytics/yolov8l-obb": [
+        [
+            432,
+            433
+        ]
+    ],
+    "samples/ultralytics/yolov8m-obb": [
+        [
+            366,
+            367
+        ]
+    ],
+    "samples/ultralytics/yolov8n-obb": [
+        [
+            300,
+            301
+        ]
+    ]
+}

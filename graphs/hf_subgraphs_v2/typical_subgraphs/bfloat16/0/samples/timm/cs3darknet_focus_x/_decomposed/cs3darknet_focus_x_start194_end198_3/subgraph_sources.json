@@ -1,0 +1,32 @@
+{
+    "samples/timm/cs3darknet_focus_x": [
+        [
+            194,
+            198
+        ]
+    ],
+    "samples/timm/cs3darknet_x.c2ns_in1k": [
+        [
+            197,
+            201
+        ]
+    ],
+    "samples/timm/cs3edgenet_x.c2_in1k": [
+        [
+            197,
+            201
+        ]
+    ],
+    "samples/timm/cs3se_edgenet_x.c2ns_in1k": [
+        [
+            323,
+            327
+        ]
+    ],
+    "samples/timm/cs3sedarknet_x.c2ns_in1k": [
+        [
+            323,
+            327
+        ]
+    ]
+}

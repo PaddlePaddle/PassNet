@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/Data-Lab_ruRoberta-large_classification_v0.2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/axotion_polish-reranker-base-ranknet": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hossamamer12_BUS15100_MB2_20epoch_notweettokenizer_fp16": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/vpelloin_MEDIA_NLU-flaubert_oral_mixed": [
+        [
+            8,
+            9
+        ]
+    ]
+}

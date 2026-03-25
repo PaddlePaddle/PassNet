@@ -1,0 +1,20 @@
+{
+    "samples/timm/inception_resnet_v2": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/inception_v3.gluon_in1k": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/inception_v4": [
+        [
+            2,
+            8
+        ]
+    ]
+}

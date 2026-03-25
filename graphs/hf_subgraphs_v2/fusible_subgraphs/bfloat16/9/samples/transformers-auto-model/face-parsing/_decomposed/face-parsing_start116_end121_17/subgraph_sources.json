@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            36,
+            41
+        ],
+        [
+            116,
+            121
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            124,
+            129
+        ],
+        [
+            164,
+            169
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            76,
+            81
+        ]
+    ],
+    "samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512": [
+        [
+            164,
+            169
+        ]
+    ],
+    "samples/transformers-auto-model/vinvino02_glpn-nyu": [
+        [
+            36,
+            41
+        ],
+        [
+            116,
+            121
+        ]
+    ]
+}

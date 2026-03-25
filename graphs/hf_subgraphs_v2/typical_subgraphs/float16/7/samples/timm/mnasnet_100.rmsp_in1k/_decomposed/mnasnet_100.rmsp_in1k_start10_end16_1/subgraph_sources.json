@@ -1,0 +1,14 @@
+{
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            10,
+            16
+        ]
+    ],
+    "samples/timm/spnasnet_100.rmsp_in1k": [
+        [
+            10,
+            16
+        ]
+    ]
+}

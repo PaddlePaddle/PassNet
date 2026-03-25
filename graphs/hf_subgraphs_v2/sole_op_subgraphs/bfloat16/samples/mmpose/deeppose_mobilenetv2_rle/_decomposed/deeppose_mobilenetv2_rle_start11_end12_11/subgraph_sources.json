@@ -1,0 +1,320 @@
+{
+    "samples/mmpose/deeppose_mobilenetv2_rle": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/mmpose/pose_mobilenetv2": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/mmpose/simcc_mobilenetv2": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3+": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_FCN": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_PSPNet": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/efficientnet_b0.ra4_e3600_r224_in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/efficientnet_b1.ft_in1k": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/timm/efficientnet_b2.ra_in1k": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/timm/efficientnet_lite0.ra_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/fastvit_t8.apple_dist_in1k": [
+        [
+            117,
+            118
+        ]
+    ],
+    "samples/timm/fbnetc_100.rmsp_in1k": [
+        [
+            15,
+            16
+        ]
+    ],
+    "samples/timm/hgnetv2_b2.ssld_stage1_in22k_in1k": [
+        [
+            60,
+            61
+        ]
+    ],
+    "samples/timm/lcnet_075.ra2_in1k": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/timm/mixnet_s.ft_in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/mnasnet_small.lamb_in1k": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/timm/mobilenetv2_050.lamb_in1k": [
+        [
+            28,
+            29
+        ],
+        [
+            54,
+            55
+        ]
+    ],
+    "samples/timm/mobilenetv2_100.ra_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/mobilenetv2_110d.ra_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_150d.ra4_e3600_r256_in1k": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/timm/mobileone_s1.apple_in1k": [
+        [
+            35,
+            36
+        ]
+    ],
+    "samples/timm/mobileone_s2.apple_in1k": [
+        [
+            35,
+            36
+        ]
+    ],
+    "samples/timm/regnetz_e8.ra3_in1k": [
+        [
+            175,
+            176
+        ]
+    ],
+    "samples/timm/repghostnet_080.in1k": [
+        [
+            110,
+            111
+        ]
+    ],
+    "samples/timm/repvit_m0_9.dist_300e_in1k": [
+        [
+            99,
+            100
+        ]
+    ],
+    "samples/timm/repvit_m1.dist_in1k": [
+        [
+            99,
+            100
+        ]
+    ],
+    "samples/timm/rexnet_100.nav_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/semnasnet_075.rmsp_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/semnasnet_100.rmsp_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/tinynet_a.in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/tinynet_b.in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/torchvision/efficientnet_b0": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/torchvision/efficientnet_b1": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/torchvision/efficientnet_b2": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/torchvision/mobilenet_v2": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x0_5": [
+        [
+            200,
+            201
+        ],
+        [
+            208,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-xx-small": [
+        [
+            132,
+            133
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CvtForImageClassification": [
+        [
+            162,
+            163
+        ],
+        [
+            170,
+            171
+        ],
+        [
+            209,
+            210
+        ],
+        [
+            217,
+            218
+        ],
+        [
+            256,
+            257
+        ],
+        [
+            264,
+            265
+        ],
+        [
+            303,
+            304
+        ],
+        [
+            311,
+            312
+        ],
+        [
+            350,
+            351
+        ],
+        [
+            358,
+            359
+        ],
+        [
+            397,
+            398
+        ],
+        [
+            405,
+            406
+        ],
+        [
+            444,
+            445
+        ],
+        [
+            452,
+            453
+        ],
+        [
+            491,
+            492
+        ],
+        [
+            499,
+            500
+        ],
+        [
+            538,
+            539
+        ],
+        [
+            546,
+            547
+        ],
+        [
+            585,
+            586
+        ],
+        [
+            593,
+            594
+        ]
+    ]
+}

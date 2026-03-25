@@ -1,0 +1,14 @@
+{
+    "samples/timm/resnetv2_101.a1h_in1k": [
+        [
+            0,
+            5
+        ]
+    ],
+    "samples/timm/resnetv2_50.a1h_in1k": [
+        [
+            0,
+            5
+        ]
+    ]
+}

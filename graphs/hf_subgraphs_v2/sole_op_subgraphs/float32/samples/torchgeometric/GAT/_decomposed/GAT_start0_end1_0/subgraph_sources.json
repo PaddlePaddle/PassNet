@@ -1,0 +1,26 @@
+{
+    "samples/torchgeometric/GAT": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchgeometric/GCN": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/torchgeometric/GraphSAGE": [
+        [
+            15,
+            16
+        ]
+    ],
+    "samples/torchgeometric/RECT_L": [
+        [
+            30,
+            31
+        ]
+    ]
+}

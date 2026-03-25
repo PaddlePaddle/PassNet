@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-355M": [
+        [
+            912,
+            918
+        ]
+    ],
+    "samples/transformers-auto-model/noamr_bert-finetuned-ner": [
+        [
+            722,
+            728
+        ]
+    ],
+    "samples/transformers-auto-model/sismetanin_mbart_ru_sum_gazeta-ru-sentiment-liniscrowd": [
+        [
+            630,
+            636
+        ]
+    ]
+}

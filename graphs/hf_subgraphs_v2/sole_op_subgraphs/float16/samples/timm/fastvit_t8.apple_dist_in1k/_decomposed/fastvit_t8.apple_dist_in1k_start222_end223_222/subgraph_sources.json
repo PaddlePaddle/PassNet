@@ -1,0 +1,44 @@
+{
+    "samples/timm/fastvit_t8.apple_dist_in1k": [
+        [
+            222,
+            223
+        ],
+        [
+            243,
+            244
+        ],
+        [
+            263,
+            264
+        ]
+    ],
+    "samples/timm/repvit_m1.dist_in1k": [
+        [
+            343,
+            344
+        ],
+        [
+            361,
+            362
+        ]
+    ],
+    "samples/transformers-auto-model/linkanjarad_mobilenet_v2_1.0_224-plant-disease-identification": [
+        [
+            159,
+            160
+        ],
+        [
+            181,
+            182
+        ],
+        [
+            203,
+            204
+        ],
+        [
+            225,
+            226
+        ]
+    ]
+}

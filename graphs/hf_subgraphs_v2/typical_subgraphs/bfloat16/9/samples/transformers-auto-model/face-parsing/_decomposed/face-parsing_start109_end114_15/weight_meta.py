@@ -1,0 +1,78 @@
+class Program_weight_tensor_meta_L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_attention_modules_output_modules_dense_parameters_bias_:
+	name = "w_0"
+	original_name = "L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_attention_modules_output_modules_dense_parameters_bias_"
+	shape = [64]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -0.001
+	std = 0.028
+
+
+class Program_weight_tensor_meta_L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_attention_modules_output_modules_dense_parameters_weight_:
+	name = "w_1"
+	original_name = "L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_attention_modules_output_modules_dense_parameters_weight_"
+	shape = [64, 64]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -0.000
+	std = 0.025
+
+
+class Program_weight_tensor_meta_L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_layer_norm_2_parameters_bias_:
+	name = "w_2"
+	original_name = "L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_layer_norm_2_parameters_bias_"
+	shape = [64]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -0.021
+	std = 0.973
+
+
+class Program_weight_tensor_meta_L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_layer_norm_2_parameters_weight_:
+	name = "w_3"
+	original_name = "L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_layer_norm_2_parameters_weight_"
+	shape = [64]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = 4.940
+	std = 1.156
+
+
+class Program_weight_tensor_meta_L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_mlp_modules_dense1_parameters_bias_:
+	name = "w_4"
+	original_name = "L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_mlp_modules_dense1_parameters_bias_"
+	shape = [256]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -0.009
+	std = 0.644
+
+
+class Program_weight_tensor_meta_L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_mlp_modules_dense1_parameters_weight_:
+	name = "w_5"
+	original_name = "L_self_modules_segformer_modules_encoder_modules_block_modules_0_modules_2_modules_mlp_modules_dense1_parameters_weight_"
+	shape = [256, 64]
+	dtype = "torch.bfloat16"
+	device = "cpu"
+	mean = -0.000
+	std = 0.073
+
+
+class Program_weight_tensor_meta_context_layer_8:
+	name = "in_0"
+	original_name = "context_layer_8"
+	shape = [1, 16384, 64]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.001
+	std = 0.010
+
+
+class Program_weight_tensor_meta_layer_output_1:
+	name = "in_1"
+	original_name = "layer_output_1"
+	shape = [1, 16384, 64]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.046
+	std = 0.760

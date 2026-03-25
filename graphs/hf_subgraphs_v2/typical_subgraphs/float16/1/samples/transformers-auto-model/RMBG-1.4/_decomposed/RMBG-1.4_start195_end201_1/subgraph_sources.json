@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/RMBG-1.4": [
+        [
+            195,
+            201
+        ],
+        [
+            224,
+            230
+        ],
+        [
+            254,
+            260
+        ]
+    ]
+}

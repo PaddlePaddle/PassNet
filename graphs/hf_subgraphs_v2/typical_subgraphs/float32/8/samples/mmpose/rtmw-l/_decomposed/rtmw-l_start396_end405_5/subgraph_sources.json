@@ -1,0 +1,20 @@
+{
+    "samples/mmpose/rtmw-l": [
+        [
+            396,
+            405
+        ]
+    ],
+    "samples/mmpose/rtmw-m": [
+        [
+            337,
+            346
+        ]
+    ],
+    "samples/mmpose/rtmw-x": [
+        [
+            455,
+            464
+        ]
+    ]
+}

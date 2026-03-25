@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/depth-anything_prompt-depth-anything-vitl-hf": [
+        [
+            74,
+            75
+        ]
+    ],
+    "samples/transformers-auto-model/depth-anything_prompt-depth-anything-vits-hf": [
+        [
+            74,
+            75
+        ]
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/NonLocalNet_R101": [
+        [
+            187,
+            189
+        ]
+    ]
+}

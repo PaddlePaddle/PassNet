@@ -1,0 +1,52 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DPTModel": [
+        [
+            38,
+            43
+        ],
+        [
+            64,
+            69
+        ],
+        [
+            90,
+            95
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel": [
+        [
+            31,
+            36
+        ],
+        [
+            57,
+            62
+        ],
+        [
+            83,
+            88
+        ],
+        [
+            109,
+            114
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ViTModel": [
+        [
+            30,
+            35
+        ],
+        [
+            56,
+            61
+        ],
+        [
+            82,
+            87
+        ],
+        [
+            108,
+            113
+        ]
+    ]
+}

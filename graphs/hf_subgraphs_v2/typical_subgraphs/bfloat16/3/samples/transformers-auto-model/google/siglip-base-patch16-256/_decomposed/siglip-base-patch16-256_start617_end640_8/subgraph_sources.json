@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/google/siglip-base-patch16-256": [
+        [
+            617,
+            640
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-256": [
+        [
+            617,
+            640
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch32-256": [
+        [
+            617,
+            640
+        ]
+    ]
+}

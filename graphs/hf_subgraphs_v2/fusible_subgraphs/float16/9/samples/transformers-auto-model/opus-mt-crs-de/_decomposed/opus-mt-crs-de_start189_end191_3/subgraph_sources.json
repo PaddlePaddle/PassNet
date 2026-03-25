@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/opus-mt-crs-de": [
+        [
+            189,
+            191
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-crs": [
+        [
+            189,
+            191
+        ]
+    ]
+}

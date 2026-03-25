@@ -1,0 +1,180 @@
+{
+    "samples/mmpose/deeppose_mobilenetv2_rle": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/mmpose/pose_mobilenetv2": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/mmpose/simcc_mobilenetv2": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3+": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_FCN": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_PSPNet": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/timm/efficientnet_b0.ra4_e3600_r224_in1k": [
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/timm/efficientnet_b1.ft_in1k": [
+        [
+            43,
+            44
+        ],
+        [
+            58,
+            59
+        ]
+    ],
+    "samples/timm/efficientnet_b2.ra_in1k": [
+        [
+            43,
+            44
+        ],
+        [
+            58,
+            59
+        ]
+    ],
+    "samples/timm/efficientnet_lite0.ra_in1k": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/timm/mixnet_xl.ra_in1k": [
+        [
+            42,
+            43
+        ],
+        [
+            380,
+            381
+        ],
+        [
+            414,
+            415
+        ],
+        [
+            448,
+            449
+        ],
+        [
+            482,
+            483
+        ]
+    ],
+    "samples/timm/mobilenetv2_100.ra_in1k": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/timm/mobilenetv2_110d.ra_in1k": [
+        [
+            19,
+            20
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/timm/repghostnet_130.in1k": [
+        [
+            184,
+            185
+        ],
+        [
+            209,
+            210
+        ]
+    ],
+    "samples/timm/semnasnet_075.rmsp_in1k": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/timm/semnasnet_100.rmsp_in1k": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/timm/tinynet_a.in1k": [
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/timm/tinynet_b.in1k": [
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/torchvision/efficientnet_b0": [
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/torchvision/efficientnet_b1": [
+        [
+            44,
+            45
+        ],
+        [
+            60,
+            61
+        ]
+    ],
+    "samples/torchvision/efficientnet_b2": [
+        [
+            44,
+            45
+        ],
+        [
+            60,
+            61
+        ]
+    ],
+    "samples/torchvision/mobilenet_v2": [
+        [
+            19,
+            20
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google_pix2struct-base": [
+        [
+            858,
+            859
+        ]
+    ],
+    "samples/transformers-auto-model/pix2struct-base": [
+        [
+            104,
+            105
+        ]
+    ]
+}

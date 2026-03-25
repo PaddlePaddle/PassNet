@@ -1,0 +1,44 @@
+{
+    "samples/timm/vit_base_patch16_rope_mixed_224.naver_in1k": [
+        [
+            616,
+            617
+        ]
+    ],
+    "samples/timm/vit_base_patch16_rope_mixed_ape_224.naver_in1k": [
+        [
+            617,
+            618
+        ]
+    ],
+    "samples/timm/vit_large_patch16_rope_mixed_224.naver_in1k": [
+        [
+            616,
+            617
+        ]
+    ],
+    "samples/timm/vit_large_patch16_rope_mixed_ape_224.naver_in1k": [
+        [
+            617,
+            618
+        ]
+    ],
+    "samples/timm/vit_small_patch16_rope_mixed_224.naver_in1k": [
+        [
+            616,
+            617
+        ]
+    ],
+    "samples/timm/vit_small_patch16_rope_mixed_ape_224.naver_in1k": [
+        [
+            617,
+            618
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small-dwr": [
+        [
+            376,
+            377
+        ]
+    ]
+}

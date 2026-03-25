@@ -1,0 +1,26 @@
+{
+    "samples/timm/repvgg_a0.rvgg_in1k": [
+        [
+            164,
+            170
+        ]
+    ],
+    "samples/timm/repvgg_b0.rvgg_in1k": [
+        [
+            212,
+            218
+        ]
+    ],
+    "samples/timm/repvgg_b1g4.rvgg_in1k": [
+        [
+            212,
+            218
+        ]
+    ],
+    "samples/timm/test_byobnet.r160_in1k": [
+        [
+            68,
+            74
+        ]
+    ]
+}

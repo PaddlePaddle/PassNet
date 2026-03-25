@@ -1,0 +1,32 @@
+{
+    "samples/timm/dla60.in1k": [
+        [
+            87,
+            91
+        ]
+    ],
+    "samples/timm/dla60_res2net": [
+        [
+            169,
+            173
+        ]
+    ],
+    "samples/timm/dla60_res2next": [
+        [
+            169,
+            173
+        ]
+    ],
+    "samples/timm/dla60x.in1k": [
+        [
+            87,
+            91
+        ]
+    ],
+    "samples/timm/dla60x_c.in1k": [
+        [
+            85,
+            89
+        ]
+    ]
+}

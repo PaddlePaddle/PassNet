@@ -1,0 +1,88 @@
+{
+    "samples/transformers-auto-model/AkshatSurolia_DeiT-FaceMask-Finetuned": [
+        [
+            9,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/adhisetiawan_vit-resisc45": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_base_distilled_patch16_224": [
+        [
+            9,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_base_patch16_224": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dino-vitb8": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-base": [
+        [
+            19,
+            25
+        ],
+        [
+            46,
+            52
+        ],
+        [
+            73,
+            79
+        ],
+        [
+            100,
+            106
+        ],
+        [
+            127,
+            133
+        ],
+        [
+            154,
+            160
+        ],
+        [
+            181,
+            187
+        ],
+        [
+            208,
+            214
+        ],
+        [
+            235,
+            241
+        ],
+        [
+            262,
+            268
+        ],
+        [
+            289,
+            295
+        ],
+        [
+            316,
+            322
+        ]
+    ],
+    "samples/transformers-auto-model/owkin_phikon": [
+        [
+            8,
+            14
+        ]
+    ]
+}

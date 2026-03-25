@@ -1,0 +1,34 @@
+{
+    "samples/timm/beit3_base_patch16_224.in22k_ft_in1k": [
+        [
+            15,
+            18
+        ],
+        [
+            38,
+            41
+        ]
+    ],
+    "samples/timm/crossvit_base_240.in1k": [
+        [
+            44,
+            47
+        ]
+    ],
+    "samples/timm/eva02_base_patch16_clip_224.merged2b": [
+        [
+            47,
+            50
+        ],
+        [
+            104,
+            107
+        ]
+    ],
+    "samples/timm/vit_base_patch16_clip_quickgelu_224.metaclip_2pt5b": [
+        [
+            16,
+            19
+        ]
+    ]
+}

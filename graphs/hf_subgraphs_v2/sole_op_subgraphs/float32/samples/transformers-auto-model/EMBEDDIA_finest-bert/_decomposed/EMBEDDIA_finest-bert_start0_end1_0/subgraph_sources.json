@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/EMBEDDIA_finest-bert": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-base-uncased-tokenized": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-small-uncased-tokenized": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BlipModel": [
+        [
+            127,
+            128
+        ]
+    ]
+}

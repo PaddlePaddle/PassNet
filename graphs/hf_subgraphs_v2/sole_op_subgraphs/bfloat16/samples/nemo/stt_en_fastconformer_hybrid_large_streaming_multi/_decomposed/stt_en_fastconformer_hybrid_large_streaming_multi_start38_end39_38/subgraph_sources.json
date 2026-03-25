@@ -1,0 +1,14 @@
+{
+    "samples/nemo/stt_en_fastconformer_hybrid_large_streaming_multi": [
+        [
+            38,
+            39
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_medium_streaming_80ms_pc": [
+        [
+            38,
+            39
+        ]
+    ]
+}

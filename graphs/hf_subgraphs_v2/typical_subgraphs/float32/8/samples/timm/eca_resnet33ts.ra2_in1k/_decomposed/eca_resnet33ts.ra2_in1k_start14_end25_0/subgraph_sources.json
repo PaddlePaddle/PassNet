@@ -1,0 +1,14 @@
+{
+    "samples/timm/eca_resnet33ts.ra2_in1k": [
+        [
+            14,
+            25
+        ]
+    ],
+    "samples/timm/eca_resnext26ts.ch_in1k": [
+        [
+            15,
+            26
+        ]
+    ]
+}

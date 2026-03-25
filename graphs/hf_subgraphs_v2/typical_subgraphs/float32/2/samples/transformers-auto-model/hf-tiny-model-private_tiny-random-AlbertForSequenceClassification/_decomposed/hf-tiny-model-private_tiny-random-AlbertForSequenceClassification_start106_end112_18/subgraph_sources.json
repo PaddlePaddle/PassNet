@@ -1,0 +1,28 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification": [
+        [
+            22,
+            28
+        ],
+        [
+            43,
+            49
+        ],
+        [
+            64,
+            70
+        ],
+        [
+            85,
+            91
+        ],
+        [
+            106,
+            112
+        ],
+        [
+            127,
+            133
+        ]
+    ]
+}

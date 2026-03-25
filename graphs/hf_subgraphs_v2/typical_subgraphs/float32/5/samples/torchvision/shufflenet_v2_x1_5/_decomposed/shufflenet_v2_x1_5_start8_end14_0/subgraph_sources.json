@@ -1,0 +1,8 @@
+{
+    "samples/torchvision/shufflenet_v2_x1_5": [
+        [
+            8,
+            14
+        ]
+    ]
+}

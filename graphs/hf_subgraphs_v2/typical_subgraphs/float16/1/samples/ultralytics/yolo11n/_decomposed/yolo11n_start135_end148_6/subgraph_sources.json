@@ -1,0 +1,32 @@
+{
+    "samples/ultralytics/yolo11n": [
+        [
+            135,
+            148
+        ]
+    ],
+    "samples/ultralytics/yolo11n-obb": [
+        [
+            135,
+            148
+        ]
+    ],
+    "samples/ultralytics/yolo11n-pose": [
+        [
+            135,
+            148
+        ]
+    ],
+    "samples/ultralytics/yolo11n-seg": [
+        [
+            135,
+            148
+        ]
+    ],
+    "samples/ultralytics/yolov10n": [
+        [
+            119,
+            132
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "samples/timm/crossvit_15_dagger_240.in1k": [
+        [
+            14,
+            16
+        ]
+    ],
+    "samples/timm/crossvit_15_dagger_408.in1k": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/timm/crossvit_18_dagger_240.in1k": [
+        [
+            14,
+            16
+        ]
+    ],
+    "samples/timm/crossvit_18_dagger_408.in1k": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/timm/crossvit_9_dagger_240.in1k": [
+        [
+            14,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/apple_DepthPro-hf": [
+        [
+            2296,
+            2298
+        ],
+        [
+            2298,
+            2300
+        ]
+    ]
+}

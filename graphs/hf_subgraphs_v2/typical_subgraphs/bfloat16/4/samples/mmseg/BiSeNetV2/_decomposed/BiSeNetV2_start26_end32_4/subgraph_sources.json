@@ -1,0 +1,66 @@
+{
+    "samples/mmseg/BiSeNetV2": [
+        [
+            26,
+            32
+        ]
+    ],
+    "samples/timm/gernet_l.idstcv_in1k": [
+        [
+            27,
+            33
+        ]
+    ],
+    "samples/timm/gernet_m.idstcv_in1k": [
+        [
+            27,
+            33
+        ]
+    ],
+    "samples/timm/gernet_s.idstcv_in1k": [
+        [
+            34,
+            40
+        ]
+    ],
+    "samples/timm/regnetx_080.pycls_in1k": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/regnety_320.pycls_in1k": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/regnety_320.seer": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/regnety_640.seer": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/regnety_640.seer_ft_in1k": [
+        [
+            2,
+            8
+        ]
+    ],
+    "samples/timm/test_byobnet.r160_in1k": [
+        [
+            18,
+            24
+        ],
+        [
+            50,
+            56
+        ]
+    ]
+}

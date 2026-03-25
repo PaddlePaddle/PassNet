@@ -1,0 +1,150 @@
+{
+    "samples/mmpose/2xmspn_50": [
+        [
+            7,
+            10
+        ]
+    ],
+    "samples/mmpose/pose_hourglass_52": [
+        [
+            12,
+            15
+        ],
+        [
+            19,
+            22
+        ]
+    ],
+    "samples/mmpose/pose_hrnet_w32": [
+        [
+            54,
+            57
+        ]
+    ],
+    "samples/mmpose/pose_resnest_101": [
+        [
+            3,
+            6
+        ]
+    ],
+    "samples/mmseg/BiSeNetV2": [
+        [
+            3,
+            6
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            54,
+            57
+        ],
+        [
+            64,
+            67
+        ],
+        [
+            80,
+            83
+        ],
+        [
+            90,
+            93
+        ],
+        [
+            106,
+            109
+        ]
+    ],
+    "samples/mmseg/DDRNet-slim": [
+        [
+            13,
+            16
+        ],
+        [
+            90,
+            93
+        ]
+    ],
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            178,
+            181
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18": [
+        [
+            242,
+            245
+        ]
+    ],
+    "samples/mmseg/PIDNet-l": [
+        [
+            80,
+            83
+        ],
+        [
+            218,
+            221
+        ]
+    ],
+    "samples/timm/eca_vovnet39b": [
+        [
+            9,
+            12
+        ],
+        [
+            15,
+            18
+        ]
+    ],
+    "samples/timm/hrnet_w18_small.gluon_in1k": [
+        [
+            150,
+            153
+        ]
+    ],
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            3,
+            6
+        ]
+    ],
+    "samples/timm/res2net101_26w_4s": [
+        [
+            15,
+            18
+        ]
+    ],
+    "samples/timm/res2net50_14w_8s.in1k": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/timm/resnet10t.c3_in1k": [
+        [
+            6,
+            9
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "samples/timm/test_resnet.r160_in1k": [
+        [
+            6,
+            9
+        ],
+        [
+            10,
+            13
+        ]
+    ]
+}

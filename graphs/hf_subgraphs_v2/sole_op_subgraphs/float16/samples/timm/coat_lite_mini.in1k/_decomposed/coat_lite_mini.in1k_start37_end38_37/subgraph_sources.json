@@ -1,0 +1,60 @@
+{
+    "samples/timm/coat_lite_mini.in1k": [
+        [
+            37,
+            38
+        ],
+        [
+            88,
+            89
+        ]
+    ],
+    "samples/timm/coat_lite_small.in1k": [
+        [
+            37,
+            38
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            139,
+            140
+        ]
+    ],
+    "samples/timm/coat_lite_tiny.in1k": [
+        [
+            37,
+            38
+        ],
+        [
+            88,
+            89
+        ]
+    ],
+    "samples/timm/starnet_s1.in1k": [
+        [
+            5,
+            6
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/timm/test_convnext.r160_in1k": [
+        [
+            4,
+            5
+        ]
+    ]
+}

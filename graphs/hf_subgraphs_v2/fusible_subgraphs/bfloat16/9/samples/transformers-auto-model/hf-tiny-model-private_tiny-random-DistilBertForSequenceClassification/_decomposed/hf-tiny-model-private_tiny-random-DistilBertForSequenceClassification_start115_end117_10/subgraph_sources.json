@@ -1,0 +1,42 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification": [
+        [
+            27,
+            29
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            115,
+            117
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-FNetForSequenceClassification": [
+        [
+            11,
+            13
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            51,
+            53
+        ]
+    ]
+}

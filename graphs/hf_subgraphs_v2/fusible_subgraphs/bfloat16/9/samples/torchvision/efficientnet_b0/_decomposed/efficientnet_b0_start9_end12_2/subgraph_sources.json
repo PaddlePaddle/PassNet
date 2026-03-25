@@ -1,0 +1,14 @@
+{
+    "samples/torchvision/efficientnet_b0": [
+        [
+            9,
+            12
+        ]
+    ],
+    "samples/torchvision/regnet_y_128gf": [
+        [
+            14,
+            17
+        ]
+    ]
+}

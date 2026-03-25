@@ -1,0 +1,80 @@
+{
+    "samples/transformers-auto-model/Finnish-NLP_convbert-base-generator-finnish": [
+        [
+            519,
+            524
+        ]
+    ],
+    "samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish": [
+        [
+            299,
+            304
+        ]
+    ],
+    "samples/transformers-auto-model/Hax_filipino-text-version1": [
+        [
+            299,
+            304
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_electra-base-swedish-cased-generator": [
+        [
+            299,
+            304
+        ]
+    ],
+    "samples/transformers-auto-model/KBLab_electra-small-swedish-cased-generator": [
+        [
+            299,
+            304
+        ]
+    ],
+    "samples/transformers-auto-model/Recognai_zeroshot_selectra_small": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/emfa_l-lectra-danish-finetuned-hatespeech": [
+        [
+            299,
+            304
+        ]
+    ],
+    "samples/transformers-auto-model/fgaim_tielectra-small-pos": [
+        [
+            299,
+            304
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra-small-discriminator": [
+        [
+            299,
+            304
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra_base_generator": [
+        [
+            299,
+            304
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra_small_discriminator": [
+        [
+            299,
+            304
+        ]
+    ],
+    "samples/transformers-auto-model/monologg_koelectra-small-finetuned-naver-ner": [
+        [
+            299,
+            304
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_electra-small-discriminator-zeroshot-v1.1": [
+        [
+            299,
+            304
+        ]
+    ]
+}

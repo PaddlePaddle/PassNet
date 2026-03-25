@@ -1,0 +1,74 @@
+{
+    "samples/transformers-auto-model/Aleksandar_electra-srb-ner-setimes": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-base-uncased": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-base-uncased-tokenized": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/Ketzu_koelectra-sts-v0.4": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/anilguven_electra_tr_turkish_product_reviews": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/aubmindlab_aragpt2-mega-detector-long": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/celloscopeai_celloscope-ner-banglabert-finetuned": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/fabiod20_italian-legal-ner": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra-base-discriminator": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra_base_discriminator": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/monologg_kocharelectra-base-kmounlp-ner": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-electra-base": [
+        [
+            0,
+            13
+        ]
+    ]
+}

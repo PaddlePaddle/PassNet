@@ -1,0 +1,22 @@
+{
+    "samples/timm/inception_v3.gluon_in1k": [
+        [
+            98,
+            99
+        ],
+        [
+            246,
+            247
+        ]
+    ],
+    "samples/torchvision/inception_v3": [
+        [
+            111,
+            112
+        ],
+        [
+            259,
+            260
+        ]
+    ]
+}

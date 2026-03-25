@@ -1,0 +1,12 @@
+{
+    "samples/mmpose/pose_shufflenetv1": [
+        [
+            30,
+            36
+        ],
+        [
+            43,
+            49
+        ]
+    ]
+}

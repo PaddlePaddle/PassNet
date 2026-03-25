@@ -1,0 +1,8 @@
+{
+    "samples/timm/crossvit_18_240.in1k": [
+        [
+            8,
+            16
+        ]
+    ]
+}

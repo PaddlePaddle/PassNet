@@ -1,0 +1,672 @@
+{
+    "samples/mmseg/ANN_R101": [
+        [
+            393,
+            394
+        ],
+        [
+            443,
+            444
+        ]
+    ],
+    "samples/mmseg/ANN_R50": [
+        [
+            223,
+            224
+        ],
+        [
+            273,
+            274
+        ]
+    ],
+    "samples/mmseg/APCNet_R101": [
+        [
+            480,
+            481
+        ]
+    ],
+    "samples/mmseg/APCNet_R50": [
+        [
+            310,
+            311
+        ]
+    ],
+    "samples/mmseg/BEiT-B": [
+        [
+            514,
+            515
+        ]
+    ],
+    "samples/mmseg/BEiT-L": [
+        [
+            946,
+            947
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R18": [
+        [
+            122,
+            123
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R50": [
+        [
+            228,
+            229
+        ]
+    ],
+    "samples/mmseg/BiSeNetV2": [
+        [
+            169,
+            170
+        ]
+    ],
+    "samples/mmseg/CCNet_R101": [
+        [
+            400,
+            401
+        ]
+    ],
+    "samples/mmseg/CCNet_R50": [
+        [
+            230,
+            231
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-B": [
+        [
+            451,
+            452
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-L": [
+        [
+            451,
+            452
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-S": [
+        [
+            451,
+            452
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-T": [
+        [
+            271,
+            272
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-XL": [
+        [
+            451,
+            452
+        ]
+    ],
+    "samples/mmseg/DANet_R101": [
+        [
+            372,
+            373
+        ],
+        [
+            394,
+            395
+        ],
+        [
+            397,
+            398
+        ]
+    ],
+    "samples/mmseg/DANet_R50": [
+        [
+            202,
+            203
+        ],
+        [
+            224,
+            225
+        ],
+        [
+            227,
+            228
+        ]
+    ],
+    "samples/mmseg/DGT": [
+        [
+            357,
+            358
+        ]
+    ],
+    "samples/mmseg/DMNet_R101": [
+        [
+            400,
+            401
+        ]
+    ],
+    "samples/mmseg/DMNet_R50": [
+        [
+            230,
+            231
+        ]
+    ],
+    "samples/mmseg/DNLNet_R101": [
+        [
+            393,
+            394
+        ]
+    ],
+    "samples/mmseg/DNLNet_R50": [
+        [
+            223,
+            224
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R101": [
+        [
+            395,
+            396
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            119,
+            120
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R50": [
+        [
+            225,
+            226
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R101": [
+        [
+            369,
+            370
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R50": [
+        [
+            199,
+            200
+        ]
+    ],
+    "samples/mmseg/DeiT_B": [
+        [
+            282,
+            283
+        ]
+    ],
+    "samples/mmseg/DeiT_S": [
+        [
+            282,
+            283
+        ]
+    ],
+    "samples/mmseg/DeiT_S_ln_mln": [
+        [
+            295,
+            296
+        ]
+    ],
+    "samples/mmseg/DeiT_S_mln": [
+        [
+            294,
+            295
+        ]
+    ],
+    "samples/mmseg/EMANet_R101": [
+        [
+            383,
+            384
+        ]
+    ],
+    "samples/mmseg/EMANet_R50": [
+        [
+            213,
+            214
+        ]
+    ],
+    "samples/mmseg/ERFNet": [
+        [
+            231,
+            232
+        ]
+    ],
+    "samples/mmseg/EncNet_R101": [
+        [
+            382,
+            383
+        ]
+    ],
+    "samples/mmseg/EncNet_R50": [
+        [
+            212,
+            213
+        ]
+    ],
+    "samples/mmseg/FCN_R101": [
+        [
+            358,
+            359
+        ]
+    ],
+    "samples/mmseg/FCN_R50": [
+        [
+            188,
+            189
+        ]
+    ],
+    "samples/mmseg/Fast-SCNN": [
+        [
+            135,
+            136
+        ]
+    ],
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            232,
+            233
+        ]
+    ],
+    "samples/mmseg/FastFCN_enc": [
+        [
+            245,
+            246
+        ]
+    ],
+    "samples/mmseg/FastFCN_psp": [
+        [
+            235,
+            236
+        ]
+    ],
+    "samples/mmseg/GCNet_R101": [
+        [
+            371,
+            372
+        ]
+    ],
+    "samples/mmseg/GCNet_R50": [
+        [
+            201,
+            202
+        ]
+    ],
+    "samples/mmseg/ISANet_R101": [
+        [
+            424,
+            425
+        ]
+    ],
+    "samples/mmseg/ISANet_R50": [
+        [
+            254,
+            255
+        ]
+    ],
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            199,
+            200
+        ]
+    ],
+    "samples/mmseg/K-Net_fcn": [
+        [
+            188,
+            189
+        ]
+    ],
+    "samples/mmseg/K-Net_pspnet": [
+        [
+            202,
+            203
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            1570,
+            1571
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            832,
+            833
+        ]
+    ],
+    "samples/mmseg/K-Net_upernet": [
+        [
+            233,
+            234
+        ]
+    ],
+    "samples/mmseg/MAE": [
+        [
+            491,
+            492
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3": [
+        [
+            167,
+            168
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3+": [
+        [
+            193,
+            194
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_FCN": [
+        [
+            156,
+            157
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_PSPNet": [
+        [
+            170,
+            171
+        ]
+    ],
+    "samples/mmseg/MobileNetV3": [
+        [
+            223,
+            224
+        ]
+    ],
+    "samples/mmseg/MobileNetV3_s": [
+        [
+            195,
+            196
+        ]
+    ],
+    "samples/mmseg/NonLocalNet_R101": [
+        [
+            206,
+            207
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            351,
+            352
+        ],
+        [
+            401,
+            402
+        ]
+    ],
+    "samples/mmseg/PIDNet-l": [
+        [
+            309,
+            310
+        ]
+    ],
+    "samples/mmseg/PIDNet-s": [
+        [
+            269,
+            270
+        ]
+    ],
+    "samples/mmseg/PSPNet_R101": [
+        [
+            372,
+            373
+        ]
+    ],
+    "samples/mmseg/PSPNet_R18": [
+        [
+            96,
+            97
+        ]
+    ],
+    "samples/mmseg/PSPNet_R50": [
+        [
+            202,
+            203
+        ]
+    ],
+    "samples/mmseg/PoolFormer_m36": [
+        [
+            667,
+            668
+        ]
+    ],
+    "samples/mmseg/PoolFormer_m48": [
+        [
+            871,
+            872
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s12": [
+        [
+            259,
+            260
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s24": [
+        [
+            463,
+            464
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3": [
+        [
+            902,
+            903
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3plus": [
+        [
+            928,
+            929
+        ]
+    ],
+    "samples/mmseg/ResNeSt_fcn": [
+        [
+            891,
+            892
+        ]
+    ],
+    "samples/mmseg/ResNeSt_pspnet": [
+        [
+            905,
+            906
+        ]
+    ],
+    "samples/mmseg/SegFormer_B0": [
+        [
+            258,
+            259
+        ]
+    ],
+    "samples/mmseg/SegFormer_B1": [
+        [
+            258,
+            259
+        ]
+    ],
+    "samples/mmseg/SegFormer_B2": [
+        [
+            475,
+            476
+        ]
+    ],
+    "samples/mmseg/SegFormer_B3": [
+        [
+            811,
+            812
+        ]
+    ],
+    "samples/mmseg/SegFormer_B4": [
+        [
+            1175,
+            1176
+        ]
+    ],
+    "samples/mmseg/SegFormer_B5": [
+        [
+            1483,
+            1484
+        ]
+    ],
+    "samples/mmseg/SegNeXt-b": [
+        [
+            973,
+            974
+        ]
+    ],
+    "samples/mmseg/SegNeXt-l": [
+        [
+            1619,
+            1620
+        ]
+    ],
+    "samples/mmseg/SegNeXt-s": [
+        [
+            555,
+            556
+        ]
+    ],
+    "samples/mmseg/SegNeXt-t": [
+        [
+            669,
+            670
+        ]
+    ],
+    "samples/mmseg/SemanticFPN_R50": [
+        [
+            225,
+            226
+        ]
+    ],
+    "samples/mmseg/Swin-b": [
+        [
+            1570,
+            1571
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            1570,
+            1571
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            832,
+            833
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_fpn": [
+        [
+            726,
+            727
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_uperhead": [
+        [
+            734,
+            735
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_fpn": [
+        [
+            1025,
+            1026
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_uperhead": [
+        [
+            1033,
+            1034
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_fpn": [
+        [
+            450,
+            451
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_uperhead": [
+        [
+            458,
+            459
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            988,
+            989
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_uperhead": [
+        [
+            996,
+            997
+        ]
+    ],
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            988,
+            989
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            759,
+            760
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_uperhead": [
+        [
+            767,
+            768
+        ]
+    ],
+    "samples/mmseg/UNet_deeplabv3": [
+        [
+            99,
+            100
+        ]
+    ],
+    "samples/mmseg/UNet_fcn": [
+        [
+            81,
+            82
+        ]
+    ],
+    "samples/mmseg/UNet_pspnet": [
+        [
+            102,
+            103
+        ]
+    ],
+    "samples/mmseg/UPerNet_R101": [
+        [
+            403,
+            404
+        ]
+    ],
+    "samples/mmseg/UPerNet_R50": [
+        [
+            233,
+            234
+        ]
+    ],
+    "samples/mmseg/ViT_B_ln_mln": [
+        [
+            295,
+            296
+        ]
+    ],
+    "samples/mmseg/ViT_B_mln": [
+        [
+            294,
+            295
+        ]
+    ]
+}

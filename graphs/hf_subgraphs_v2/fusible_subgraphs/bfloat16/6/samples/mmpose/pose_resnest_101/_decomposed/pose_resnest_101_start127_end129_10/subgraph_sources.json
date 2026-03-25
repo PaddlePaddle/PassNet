@@ -1,0 +1,26 @@
+{
+    "samples/mmpose/pose_resnest_101": [
+        [
+            17,
+            19
+        ],
+        [
+            127,
+            129
+        ],
+        [
+            235,
+            237
+        ],
+        [
+            837,
+            839
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3": [
+        [
+            128,
+            130
+        ]
+    ]
+}

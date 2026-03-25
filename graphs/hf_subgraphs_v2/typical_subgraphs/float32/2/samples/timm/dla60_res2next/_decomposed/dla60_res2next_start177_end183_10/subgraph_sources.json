@@ -1,0 +1,14 @@
+{
+    "samples/timm/dla60_res2next": [
+        [
+            177,
+            183
+        ]
+    ],
+    "samples/timm/res2next50.in1k": [
+        [
+            176,
+            182
+        ]
+    ]
+}

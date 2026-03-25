@@ -1,0 +1,54 @@
+{
+    "samples/timm/fastvit_s12.apple_dist_in1k": [
+        [
+            21,
+            22
+        ],
+        [
+            42,
+            43
+        ]
+    ],
+    "samples/timm/repvit_m2.dist_in1k": [
+        [
+            7,
+            8
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/timm/repvit_m3.dist_in1k": [
+        [
+            7,
+            8
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            67,
+            68
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileNetV1Model": [
+        [
+            73,
+            74
+        ]
+    ]
+}

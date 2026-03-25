@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/S-ViPNAS-MobileNetV3": [
+        [
+            5,
+            7
+        ]
+    ],
+    "samples/mmseg/MobileNetV3": [
+        [
+            34,
+            36
+        ]
+    ]
+}

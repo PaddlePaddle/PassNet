@@ -1,0 +1,14 @@
+{
+    "samples/timm/xception41p.ra3_in1k": [
+        [
+            173,
+            181
+        ]
+    ],
+    "samples/timm/xception65p.ra3_in1k": [
+        [
+            277,
+            285
+        ]
+    ]
+}

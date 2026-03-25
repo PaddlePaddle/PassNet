@@ -1,0 +1,36 @@
+{
+    "samples/mmpose/pose_hrformer_base": [
+        [
+            2232,
+            2233
+        ],
+        [
+            2762,
+            2763
+        ]
+    ],
+    "samples/mmpose/pose_hrformer_small": [
+        [
+            2196,
+            2197
+        ],
+        [
+            2718,
+            2719
+        ]
+    ],
+    "samples/mmpose/pose_hrnetv2_w18_dark": [
+        [
+            706,
+            707
+        ],
+        [
+            880,
+            881
+        ],
+        [
+            1054,
+            1055
+        ]
+    ]
+}

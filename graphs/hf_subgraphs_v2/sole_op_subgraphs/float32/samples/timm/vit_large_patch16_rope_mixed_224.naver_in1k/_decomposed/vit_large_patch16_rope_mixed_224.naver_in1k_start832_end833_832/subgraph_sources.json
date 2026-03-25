@@ -1,0 +1,14 @@
+{
+    "samples/timm/vit_large_patch16_rope_mixed_224.naver_in1k": [
+        [
+            832,
+            833
+        ]
+    ],
+    "samples/timm/vit_large_patch16_rope_mixed_ape_224.naver_in1k": [
+        [
+            833,
+            834
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/facebook_data2vec-vision-base-ft1k": [
+        [
+            796,
+            798
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k": [
+        [
+            1588,
+            1590
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecVisionModel": [
+        [
+            104,
+            106
+        ]
+    ]
+}

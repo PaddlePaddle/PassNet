@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-albert-base-v2": [
+        [
+            0,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-albert-small-v2": [
+        [
+            0,
+            16
+        ]
+    ]
+}

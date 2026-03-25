@@ -1,0 +1,20 @@
+{
+    "samples/timm/repvgg_a0.rvgg_in1k": [
+        [
+            117,
+            121
+        ]
+    ],
+    "samples/timm/repvgg_b0.rvgg_in1k": [
+        [
+            117,
+            121
+        ]
+    ],
+    "samples/timm/repvgg_b1g4.rvgg_in1k": [
+        [
+            117,
+            121
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "samples/timm/inception_next_base.sail_in1k": [
+        [
+            2,
+            3
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            36,
+            37
+        ]
+    ]
+}

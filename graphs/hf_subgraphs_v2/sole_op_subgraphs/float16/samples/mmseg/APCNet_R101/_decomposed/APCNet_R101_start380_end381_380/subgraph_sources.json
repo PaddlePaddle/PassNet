@@ -1,0 +1,248 @@
+{
+    "samples/mmseg/APCNet_R101": [
+        [
+            380,
+            381
+        ]
+    ],
+    "samples/mmseg/APCNet_R50": [
+        [
+            210,
+            211
+        ]
+    ],
+    "samples/mmseg/BEiT-B": [
+        [
+            473,
+            474
+        ]
+    ],
+    "samples/mmseg/BEiT-L": [
+        [
+            905,
+            906
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-B": [
+        [
+            410,
+            411
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-L": [
+        [
+            410,
+            411
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-S": [
+        [
+            410,
+            411
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-T": [
+        [
+            230,
+            231
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-XL": [
+        [
+            410,
+            411
+        ]
+    ],
+    "samples/mmseg/DeiT_B": [
+        [
+            241,
+            242
+        ]
+    ],
+    "samples/mmseg/DeiT_S": [
+        [
+            241,
+            242
+        ]
+    ],
+    "samples/mmseg/DeiT_S_ln_mln": [
+        [
+            254,
+            255
+        ]
+    ],
+    "samples/mmseg/DeiT_S_mln": [
+        [
+            253,
+            254
+        ]
+    ],
+    "samples/mmseg/Fast-SCNN": [
+        [
+            96,
+            97
+        ]
+    ],
+    "samples/mmseg/FastFCN_psp": [
+        [
+            216,
+            217
+        ]
+    ],
+    "samples/mmseg/ICNet_R101": [
+        [
+            367,
+            368
+        ]
+    ],
+    "samples/mmseg/ICNet_R18": [
+        [
+            91,
+            92
+        ]
+    ],
+    "samples/mmseg/ICNet_R50": [
+        [
+            197,
+            198
+        ]
+    ],
+    "samples/mmseg/K-Net_pspnet": [
+        [
+            183,
+            184
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            1529,
+            1530
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            791,
+            792
+        ]
+    ],
+    "samples/mmseg/K-Net_upernet": [
+        [
+            192,
+            193
+        ]
+    ],
+    "samples/mmseg/MAE": [
+        [
+            450,
+            451
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_PSPNet": [
+        [
+            151,
+            152
+        ]
+    ],
+    "samples/mmseg/PSPNet_R101": [
+        [
+            353,
+            354
+        ]
+    ],
+    "samples/mmseg/PSPNet_R18": [
+        [
+            77,
+            78
+        ]
+    ],
+    "samples/mmseg/PSPNet_R50": [
+        [
+            183,
+            184
+        ]
+    ],
+    "samples/mmseg/ResNeSt_pspnet": [
+        [
+            886,
+            887
+        ]
+    ],
+    "samples/mmseg/Swin-b": [
+        [
+            1529,
+            1530
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            1529,
+            1530
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            791,
+            792
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_uperhead": [
+        [
+            693,
+            694
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_uperhead": [
+        [
+            992,
+            993
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_uperhead": [
+        [
+            417,
+            418
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_uperhead": [
+        [
+            955,
+            956
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_uperhead": [
+        [
+            726,
+            727
+        ]
+    ],
+    "samples/mmseg/UNet_pspnet": [
+        [
+            83,
+            84
+        ]
+    ],
+    "samples/mmseg/UPerNet_R101": [
+        [
+            362,
+            363
+        ]
+    ],
+    "samples/mmseg/UPerNet_R50": [
+        [
+            192,
+            193
+        ]
+    ],
+    "samples/mmseg/ViT_B_ln_mln": [
+        [
+            254,
+            255
+        ]
+    ],
+    "samples/mmseg/ViT_B_mln": [
+        [
+            253,
+            254
+        ]
+    ]
+}

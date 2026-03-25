@@ -1,0 +1,38 @@
+{
+    "samples/timm/densenet121.ra_in1k": [
+        [
+            126,
+            131
+        ]
+    ],
+    "samples/timm/densenet161.tv_in1k": [
+        [
+            126,
+            131
+        ]
+    ],
+    "samples/timm/densenet169.tv_in1k": [
+        [
+            126,
+            131
+        ]
+    ],
+    "samples/timm/densenet201.tv_in1k": [
+        [
+            126,
+            131
+        ]
+    ],
+    "samples/timm/densenet264d": [
+        [
+            132,
+            137
+        ]
+    ],
+    "samples/timm/densenetblur121d.ra_in1k": [
+        [
+            134,
+            139
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "samples/torchvision/googlenet": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/torchvision/inception_v3": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/IDEA-Research_grounding-dino-base": [
+        [
+            20,
+            21
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/transformers-auto-model/fushh7_llmdet_swin_tiny_hf": [
+        [
+            20,
+            21
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            37,
+            38
+        ]
+    ]
+}

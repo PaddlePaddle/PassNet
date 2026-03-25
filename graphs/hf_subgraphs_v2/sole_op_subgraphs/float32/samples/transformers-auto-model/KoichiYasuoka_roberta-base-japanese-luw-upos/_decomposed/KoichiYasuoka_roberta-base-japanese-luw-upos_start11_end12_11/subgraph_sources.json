@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/KoichiYasuoka_roberta-base-japanese-luw-upos": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_pegasus-large-book-summary": [
+        [
+            1,
+            2
+        ]
+    ]
+}

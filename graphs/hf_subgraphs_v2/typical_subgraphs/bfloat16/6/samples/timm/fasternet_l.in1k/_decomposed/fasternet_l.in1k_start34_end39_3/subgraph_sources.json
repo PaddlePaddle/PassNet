@@ -1,0 +1,14 @@
+{
+    "samples/timm/fasternet_l.in1k": [
+        [
+            34,
+            39
+        ]
+    ],
+    "samples/timm/fasternet_t2.in1k": [
+        [
+            36,
+            41
+        ]
+    ]
+}

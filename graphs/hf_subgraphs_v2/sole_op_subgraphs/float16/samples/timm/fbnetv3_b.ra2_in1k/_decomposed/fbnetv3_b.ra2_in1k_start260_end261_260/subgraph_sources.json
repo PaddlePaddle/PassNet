@@ -1,0 +1,14 @@
+{
+    "samples/timm/fbnetv3_b.ra2_in1k": [
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/timm/rexnetr_200.sw_in12k": [
+        [
+            65,
+            66
+        ]
+    ]
+}

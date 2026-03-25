@@ -1,0 +1,16 @@
+{
+    "samples/torchaudio/squim_objective": [
+        [
+            15,
+            16
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            65,
+            66
+        ]
+    ]
+}

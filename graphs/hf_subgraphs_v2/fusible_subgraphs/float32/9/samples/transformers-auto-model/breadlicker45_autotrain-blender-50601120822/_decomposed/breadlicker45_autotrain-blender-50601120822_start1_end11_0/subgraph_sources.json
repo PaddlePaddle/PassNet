@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/breadlicker45_autotrain-blender-50601120822": [
+        [
+            1,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification": [
+        [
+            1,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/sismetanin_mbart_ru_sum_gazeta-ru-sentiment-liniscrowd": [
+        [
+            1,
+            11
+        ]
+    ]
+}

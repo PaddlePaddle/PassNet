@@ -1,0 +1,14 @@
+{
+    "samples/timm/botnet26t_256.c1_in1k": [
+        [
+            192,
+            202
+        ]
+    ],
+    "samples/timm/eca_botnext26ts_256": [
+        [
+            227,
+            237
+        ]
+    ]
+}

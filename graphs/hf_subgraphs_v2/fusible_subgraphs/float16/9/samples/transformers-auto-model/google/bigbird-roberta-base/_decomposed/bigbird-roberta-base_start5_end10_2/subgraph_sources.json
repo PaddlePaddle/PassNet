@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/google/bigbird-roberta-base": [
+        [
+            5,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1": [
+        [
+            82,
+            87
+        ],
+        [
+            138,
+            143
+        ],
+        [
+            250,
+            255
+        ],
+        [
+            586,
+            591
+        ],
+        [
+            1370,
+            1375
+        ]
+    ]
+}

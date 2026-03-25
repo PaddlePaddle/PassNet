@@ -1,0 +1,96 @@
+{
+    "samples/transformers-auto-model/Aleksandar_distilbert-srb-ner-setimes": [
+        [
+            33,
+            35
+        ],
+        [
+            143,
+            145
+        ]
+    ],
+    "samples/transformers-auto-model/Aleksandar_electra-srb-ner-setimes": [
+        [
+            33,
+            35
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            300,
+            302
+        ],
+        [
+            358,
+            360
+        ]
+    ],
+    "samples/transformers-auto-model/DiegoRossini_flaubert-pouvoir-modality-detector": [
+        [
+            51,
+            53
+        ]
+    ],
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-large-patch14": [
+        [
+            1149,
+            1151
+        ]
+    ],
+    "samples/transformers-auto-model/Sayan01_L-2_H-768_A-12_Large_sst2": [
+        [
+            29,
+            31
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            51,
+            53
+        ]
+    ],
+    "samples/transformers-auto-model/YituTech_conv-bert-base": [
+        [
+            622,
+            624
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-768_A-12": [
+        [
+            29,
+            31
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            51,
+            53
+        ]
+    ],
+    "samples/transformers-auto-model/mooncakex_img2": [
+        [
+            310,
+            312
+        ],
+        [
+            316,
+            318
+        ],
+        [
+            595,
+            597
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/clip-ViT-B-32-multilingual-v1": [
+        [
+            143,
+            145
+        ]
+    ]
+}

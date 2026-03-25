@@ -1,0 +1,30 @@
+{
+    "samples/torchgeometric/PNA": [
+        [
+            76,
+            77
+        ],
+        [
+            156,
+            157
+        ],
+        [
+            236,
+            237
+        ],
+        [
+            316,
+            317
+        ],
+        [
+            396,
+            397
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CanineForSequenceClassification": [
+        [
+            96,
+            97
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/pose_cspnext_t": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/mmpose/rtmpose-t": [
+        [
+            21,
+            22
+        ]
+    ]
+}

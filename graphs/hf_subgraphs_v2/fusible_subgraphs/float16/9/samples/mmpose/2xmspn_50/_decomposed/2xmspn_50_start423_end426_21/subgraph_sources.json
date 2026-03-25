@@ -1,0 +1,88 @@
+{
+    "samples/mmpose/2xmspn_50": [
+        [
+            423,
+            426
+        ]
+    ],
+    "samples/mmpose/2xrsn_50": [
+        [
+            1667,
+            1670
+        ]
+    ],
+    "samples/mmseg/BEiT-B": [
+        [
+            462,
+            465
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-B": [
+        [
+            399,
+            402
+        ]
+    ],
+    "samples/mmseg/DeiT_B": [
+        [
+            230,
+            233
+        ]
+    ],
+    "samples/mmseg/K-Net_upernet": [
+        [
+            178,
+            181
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_uperhead": [
+        [
+            981,
+            984
+        ]
+    ],
+    "samples/mmseg/UPerNet_R101": [
+        [
+            348,
+            351
+        ]
+    ],
+    "samples/timm/hgnetv2_b4.ssld_stage1_in22k_in1k": [
+        [
+            16,
+            19
+        ],
+        [
+            41,
+            44
+        ],
+        [
+            68,
+            71
+        ],
+        [
+            107,
+            110
+        ]
+    ],
+    "samples/timm/hgnetv2_b5.ssld_stage1_in22k_in1k": [
+        [
+            68,
+            71
+        ]
+    ],
+    "samples/transformers-auto-model/upernet-convnext-tiny": [
+        [
+            15,
+            18
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            25,
+            28
+        ]
+    ]
+}

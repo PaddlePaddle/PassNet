@@ -1,0 +1,536 @@
+{
+    "samples/transformers-auto-model/AK_ak_nlp": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Andrija_SRoBERTa-L-NER": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Andrija_SRoBERTa-NER": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/BAAI_AltCLIP": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/BAAI_AltCLIP-m18": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/Culmenus_XLMR-ENIS-finetuned-ner": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-bort": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-merged": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Data-Lab_ruRoberta-large_classification_v0.2": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Davlan_afro-xlmr-large": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/DeepChem_ChemBERTa-10M-MLM": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Dr-BERT_CAS-Biomedical-POS-Tagging": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_est-roberta": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_litlat-bert": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/FacebookAI_roberta-large": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Film8844_wangchanberta-ner": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Ghana-NLP_robako-base-akuapem-twi-cased": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/HooshvareLab_roberta-fa-zwnj-base-ner": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/HueyNemud_berties": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/InstaDeepAI_nucleotide-transformer-500m-human-ref": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/Jean-Baptiste_roberta-large-ner-english": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Jodsa_camembert_mlm": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_deberta-base-ainu-ud-goeswith": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_deberta-base-japanese-aozora-ud-goeswith": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_roberta-base-thai-spm-upos": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_roberta-classical-chinese-base-sentence-segmentation": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_roberta-large-korean-upos": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/Lazaro97_results": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/LeoFeng_ChineseSequenceClassification": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_ernie-m-base_pytorch": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/Mizuiro-sakura_luke-japanese-large-finetuned-ner": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_multilingual-MiniLMv2-L12-mnli-xnli": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_multilingual-MiniLMv2-L6-mnli-xnli": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/OpenMed_OpenMed-NER-PharmaDetect-SuperMedical-125M": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/Recognai_bert-base-spanish-wwm-cased-xnli": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/TrustSafeAI_RADAR_Vicuna_7B": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/VitaliiVrublevskyi_ibert-roberta-base-finetuned-mrpc": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/WIC-Uchile_ene_phase4": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/aimarsg_prueba5": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/all-mpnet-base-v2": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/almanach_camembert-base": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/axotion_polish-reranker-base-ranknet": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/bge-reranker-large": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/cmarkea_distilcamembert-base-nli": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/distilroberta-base": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/ethanyt_guwen-ner": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_esm2_t33_650M_UR50D": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/fusersam_Sentiment-Analysis-Model": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/gonchisi_roberta-base-bne-finetuned-new_or_used-title": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AltCLIPModel": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieMForSequenceClassification": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EsmForSequenceClassification": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LukeForSequenceClassification": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MPNetForSequenceClassification": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegaForSequenceClassification": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaForSequenceClassification": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaPreLayerNormForSequenceClassification": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/huggingface_CodeBERTa-small-v1": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/inthedarkness_klue-roberta-small-cross-encoder": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/joeddav_xlm-roberta-large-xnli": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/lst-nectec_HoogBERTa-POS-lst20": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/mahwizzzz_UrduClassification": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/miangoar_esm2_t12_35M_UR50D-finetuned-secondary-structure-classification": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_mpnet-base": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xlm-align-base": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/multilingual-e5-large": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/nli-MiniLM2-L6-H768": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/nli-roberta-base": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/ogoshi2000_stance-nystromformer": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/pongjin_roberta_with_kornli": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/praramnine_isl-camembert-beauty-aspect-v2": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/quora-roberta-large": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/roberta-base": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/ru-bart-large": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/sdadas_polish-reranker-roberta-v2": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-distilroberta-v1": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-mpnet-base-v1": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-roberta-large-v1": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/msmarco-roberta-base-ance-firstp": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-distilroberta-base-v1": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/simonmun_Eyse_SentenceClassification": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/studio-ousia_luke-base": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/sureshnam9_esm2_t6_8M_UR50D-finetuned-secondary-structure": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/tau_tavbert-he": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/truong1301_reranker_pho_BLAI": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/ukr-models_xlm-roberta-base-uk": [
+        [
+            10,
+            11
+        ]
+    ]
+}

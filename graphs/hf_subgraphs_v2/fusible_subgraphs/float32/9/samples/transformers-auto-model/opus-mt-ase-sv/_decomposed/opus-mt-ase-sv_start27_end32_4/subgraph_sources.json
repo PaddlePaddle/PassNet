@@ -1,0 +1,28 @@
+{
+    "samples/transformers-auto-model/opus-mt-ase-sv": [
+        [
+            27,
+            32
+        ],
+        [
+            56,
+            61
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-mul-mul": [
+        [
+            56,
+            61
+        ]
+    ],
+    "samples/transformers-auto-model/ru-bart-large": [
+        [
+            71,
+            76
+        ],
+        [
+            332,
+            337
+        ]
+    ]
+}

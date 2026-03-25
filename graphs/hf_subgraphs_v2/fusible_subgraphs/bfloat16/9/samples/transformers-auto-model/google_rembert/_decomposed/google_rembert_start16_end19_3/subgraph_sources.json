@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/google_rembert": [
+        [
+            16,
+            19
+        ],
+        [
+            886,
+            889
+        ],
+        [
+            889,
+            892
+        ]
+    ]
+}

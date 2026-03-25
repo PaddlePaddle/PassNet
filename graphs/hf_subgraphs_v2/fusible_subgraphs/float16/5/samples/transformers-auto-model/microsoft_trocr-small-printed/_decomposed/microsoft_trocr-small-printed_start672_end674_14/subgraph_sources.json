@@ -1,0 +1,28 @@
+{
+    "samples/transformers-auto-model/microsoft_trocr-small-printed": [
+        [
+            672,
+            674
+        ]
+    ],
+    "samples/transformers-auto-model/sheshkar_cmon2": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/trocr-base-handwritten": [
+        [
+            386,
+            388
+        ],
+        [
+            899,
+            901
+        ],
+        [
+            1013,
+            1015
+        ]
+    ]
+}

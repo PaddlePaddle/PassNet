@@ -1,0 +1,42 @@
+{
+    "samples/mmseg/BEiT-B": [
+        [
+            501,
+            504
+        ]
+    ],
+    "samples/timm/hgnet_base.ssld_in1k": [
+        [
+            3,
+            6
+        ],
+        [
+            13,
+            16
+        ]
+    ],
+    "samples/timm/hgnet_small.paddle_in1k": [
+        [
+            101,
+            104
+        ]
+    ],
+    "samples/transformers-auto-model/upernet-convnext-tiny": [
+        [
+            39,
+            42
+        ],
+        [
+            42,
+            45
+        ],
+        [
+            45,
+            48
+        ],
+        [
+            52,
+            55
+        ]
+    ]
+}

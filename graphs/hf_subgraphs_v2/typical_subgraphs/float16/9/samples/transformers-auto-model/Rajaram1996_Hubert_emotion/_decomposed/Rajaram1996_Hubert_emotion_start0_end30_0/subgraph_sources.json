@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/Rajaram1996_Hubert_emotion": [
+        [
+            0,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/SHENMU007_neunit-ks-ertong-chengren": [
+        [
+            0,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/dima806_music_genres_classification": [
+        [
+            0,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/optimum_hubert-base-superb-ks": [
+        [
+            0,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/pipecat-ai_smart-turn-v2": [
+        [
+            0,
+            30
+        ]
+    ]
+}

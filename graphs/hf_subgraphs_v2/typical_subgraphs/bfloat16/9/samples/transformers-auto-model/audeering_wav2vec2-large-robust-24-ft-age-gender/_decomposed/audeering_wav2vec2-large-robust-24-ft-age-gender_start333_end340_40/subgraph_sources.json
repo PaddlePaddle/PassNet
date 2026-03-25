@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender": [
+        [
+            333,
+            340
+        ]
+    ],
+    "samples/transformers-auto-model/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting": [
+        [
+            333,
+            340
+        ]
+    ],
+    "samples/transformers-auto-model/xbgoose_hubert-large-speech-emotion-recognition-russian-dusha-finetuned": [
+        [
+            333,
+            340
+        ]
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "samples/transformers-auto-model/google/siglip-base-patch16-224": [
+        [
+            625,
+            626
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-256": [
+        [
+            625,
+            626
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-384": [
+        [
+            625,
+            626
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-512": [
+        [
+            625,
+            626
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-large-patch16-256": [
+        [
+            1225,
+            1226
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-large-patch16-384": [
+        [
+            1225,
+            1226
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-so400m-patch14-384": [
+        [
+            1375,
+            1376
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-so400m-patch16-256-i18n": [
+        [
+            1423,
+            1424
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-224": [
+        [
+            625,
+            626
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-256": [
+        [
+            625,
+            626
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-384": [
+        [
+            625,
+            626
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-512": [
+        [
+            625,
+            626
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-naflex": [
+        [
+            306,
+            307
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch32-256": [
+        [
+            625,
+            626
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256": [
+        [
+            1700,
+            1701
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-giant-opt-patch16-384": [
+        [
+            1700,
+            1701
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-256": [
+        [
+            1225,
+            1226
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-384": [
+        [
+            1225,
+            1226
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-512": [
+        [
+            1225,
+            1226
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch14-224": [
+        [
+            1375,
+            1376
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-256": [
+        [
+            1375,
+            1376
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-384": [
+        [
+            1375,
+            1376
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-512": [
+        [
+            1375,
+            1376
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-naflex": [
+        [
+            681,
+            682
+        ]
+    ],
+    "samples/transformers-auto-model/thuml_sundial-base-128m": [
+        [
+            564,
+            565
+        ]
+    ],
+    "samples/transformers-auto-model/thuml_timer-base-84m": [
+        [
+            375,
+            376
+        ]
+    ]
+}

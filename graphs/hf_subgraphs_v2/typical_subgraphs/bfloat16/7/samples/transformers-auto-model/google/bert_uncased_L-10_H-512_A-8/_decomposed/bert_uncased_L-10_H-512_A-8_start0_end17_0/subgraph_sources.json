@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-512_A-8": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-12_H-512_A-8": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-4_H-512_A-8": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-6_H-512_A-8": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-512_A-8": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_small-vanilla-target-tweet": [
+        [
+            0,
+            17
+        ]
+    ]
+}

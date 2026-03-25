@@ -1,0 +1,46 @@
+{
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-zh-en": [
+        [
+            66,
+            93
+        ],
+        [
+            117,
+            144
+        ],
+        [
+            168,
+            195
+        ],
+        [
+            219,
+            246
+        ],
+        [
+            270,
+            297
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-zho-eng": [
+        [
+            66,
+            93
+        ],
+        [
+            117,
+            144
+        ],
+        [
+            168,
+            195
+        ],
+        [
+            219,
+            246
+        ],
+        [
+            270,
+            297
+        ]
+    ]
+}

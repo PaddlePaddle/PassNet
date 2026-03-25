@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter": [
+        [
+            31,
+            37
+        ],
+        [
+            73,
+            79
+        ]
+    ]
+}

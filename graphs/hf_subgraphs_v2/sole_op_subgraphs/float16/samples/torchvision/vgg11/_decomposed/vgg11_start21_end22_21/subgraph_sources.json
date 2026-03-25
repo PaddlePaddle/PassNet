@@ -1,0 +1,50 @@
+{
+    "samples/torchvision/vgg11": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/torchvision/vgg11_bn": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/torchvision/vgg13": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/torchvision/vgg13_bn": [
+        [
+            35,
+            36
+        ]
+    ],
+    "samples/torchvision/vgg16": [
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/torchvision/vgg16_bn": [
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/torchvision/vgg19": [
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/torchvision/vgg19_bn": [
+        [
+            53,
+            54
+        ]
+    ]
+}

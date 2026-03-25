@@ -1,0 +1,42 @@
+{
+    "samples/mmpose/pose_hrnet_w32": [
+        [
+            230,
+            232
+        ]
+    ],
+    "samples/mmpose/pose_hrnetv2_w18_dark": [
+        [
+            1073,
+            1075
+        ]
+    ],
+    "samples/mmpose/pose_scnet_101": [
+        [
+            87,
+            89
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18": [
+        [
+            234,
+            236
+        ],
+        [
+            1103,
+            1105
+        ]
+    ],
+    "samples/timm/dla102.in1k": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/Ramos-Ramos_vicreg-resnet-50": [
+        [
+            39,
+            41
+        ]
+    ]
+}

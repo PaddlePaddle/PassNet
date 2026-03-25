@@ -1,0 +1,26 @@
+{
+    "samples/torchvision/mnasnet0_5": [
+        [
+            148,
+            152
+        ]
+    ],
+    "samples/torchvision/mnasnet0_75": [
+        [
+            148,
+            152
+        ]
+    ],
+    "samples/torchvision/mnasnet1_0": [
+        [
+            148,
+            152
+        ]
+    ],
+    "samples/torchvision/mnasnet1_3": [
+        [
+            148,
+            152
+        ]
+    ]
+}

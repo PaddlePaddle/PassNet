@@ -1,0 +1,14 @@
+{
+    "samples/torchgeometric/LINKX": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/torchgeometric/LightGCN": [
+        [
+            18,
+            19
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "samples/mmpose/pose_cspnext_s": [
+        [
+            26,
+            33
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_t": [
+        [
+            26,
+            33
+        ],
+        [
+            53,
+            60
+        ],
+        [
+            80,
+            87
+        ]
+    ],
+    "samples/mmpose/rtmpose-s": [
+        [
+            26,
+            33
+        ]
+    ],
+    "samples/mmpose/rtmpose-t": [
+        [
+            26,
+            33
+        ],
+        [
+            53,
+            60
+        ],
+        [
+            80,
+            87
+        ]
+    ]
+}

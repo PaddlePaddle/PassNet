@@ -1,0 +1,18 @@
+{
+    "samples/timm/eva02_base_patch14_224.mim_in22k": [
+        [
+            56,
+            60
+        ],
+        [
+            672,
+            676
+        ]
+    ],
+    "samples/timm/eva02_base_patch16_clip_224.merged2b": [
+        [
+            684,
+            688
+        ]
+    ]
+}

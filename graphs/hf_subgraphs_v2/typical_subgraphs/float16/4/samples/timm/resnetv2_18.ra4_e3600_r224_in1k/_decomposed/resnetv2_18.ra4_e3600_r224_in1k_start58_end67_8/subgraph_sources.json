@@ -1,0 +1,26 @@
+{
+    "samples/timm/resnetv2_18.ra4_e3600_r224_in1k": [
+        [
+            58,
+            67
+        ]
+    ],
+    "samples/timm/resnetv2_18d.ra4_e3600_r224_in1k": [
+        [
+            67,
+            76
+        ]
+    ],
+    "samples/timm/resnetv2_34.ra4_e3600_r224_in1k": [
+        [
+            114,
+            123
+        ]
+    ],
+    "samples/timm/resnetv2_34d.ra4_e3600_r224_in1k": [
+        [
+            123,
+            132
+        ]
+    ]
+}

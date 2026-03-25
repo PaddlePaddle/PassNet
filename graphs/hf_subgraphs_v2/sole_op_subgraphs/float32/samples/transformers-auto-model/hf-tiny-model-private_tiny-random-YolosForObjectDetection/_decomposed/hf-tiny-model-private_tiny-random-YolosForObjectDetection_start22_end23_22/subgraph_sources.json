@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosForObjectDetection": [
+        [
+            22,
+            23
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosModel": [
+        [
+            21,
+            22
+        ]
+    ]
+}

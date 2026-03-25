@@ -1,0 +1,86 @@
+{
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-small-uncased-tokenized": [
+        [
+            103,
+            109
+        ]
+    ],
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            2026,
+            2032
+        ],
+        [
+            2060,
+            2066
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-512_A-8": [
+        [
+            172,
+            178
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            172,
+            178
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            306,
+            312
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b2": [
+        [
+            586,
+            592
+        ],
+        [
+            620,
+            626
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b3": [
+        [
+            1066,
+            1072
+        ],
+        [
+            1100,
+            1106
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b4": [
+        [
+            1586,
+            1592
+        ],
+        [
+            1620,
+            1626
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b5": [
+        [
+            2026,
+            2032
+        ],
+        [
+            2060,
+            2066
+        ]
+    ],
+    "samples/transformers-auto-model/segformer_b2_clothes": [
+        [
+            586,
+            592
+        ],
+        [
+            620,
+            626
+        ]
+    ]
+}

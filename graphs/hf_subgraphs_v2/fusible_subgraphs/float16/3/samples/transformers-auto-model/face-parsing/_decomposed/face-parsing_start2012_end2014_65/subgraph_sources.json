@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            2012,
+            2014
+        ],
+        [
+            2080,
+            2082
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            326,
+            328
+        ]
+    ],
+    "samples/transformers-auto-model/segformer_b2_clothes": [
+        [
+            640,
+            642
+        ]
+    ]
+}

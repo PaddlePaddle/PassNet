@@ -1,0 +1,128 @@
+{
+    "samples/timm/selecsls42b.in1k": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/timm/selecsls60.in1k": [
+        [
+            18,
+            19
+        ],
+        [
+            113,
+            114
+        ]
+    ],
+    "samples/ultralytics/yolo12m": [
+        [
+            239,
+            240
+        ],
+        [
+            393,
+            394
+        ]
+    ],
+    "samples/ultralytics/yolo12m-cls": [
+        [
+            239,
+            240
+        ],
+        [
+            393,
+            394
+        ]
+    ],
+    "samples/ultralytics/yolo12m-obb": [
+        [
+            239,
+            240
+        ],
+        [
+            393,
+            394
+        ]
+    ],
+    "samples/ultralytics/yolo12m-pose": [
+        [
+            239,
+            240
+        ],
+        [
+            393,
+            394
+        ]
+    ],
+    "samples/ultralytics/yolo12m-seg": [
+        [
+            239,
+            240
+        ],
+        [
+            393,
+            394
+        ]
+    ],
+    "samples/ultralytics/yolo12n": [
+        [
+            359,
+            360
+        ]
+    ],
+    "samples/ultralytics/yolo12n-cls": [
+        [
+            471,
+            472
+        ]
+    ],
+    "samples/ultralytics/yolo12n-obb": [
+        [
+            359,
+            360
+        ]
+    ],
+    "samples/ultralytics/yolo12n-pose": [
+        [
+            359,
+            360
+        ]
+    ],
+    "samples/ultralytics/yolo12n-seg": [
+        [
+            359,
+            360
+        ]
+    ],
+    "samples/ultralytics/yolo12s": [
+        [
+            359,
+            360
+        ]
+    ],
+    "samples/ultralytics/yolo12s-cls": [
+        [
+            359,
+            360
+        ]
+    ],
+    "samples/ultralytics/yolo12s-obb": [
+        [
+            359,
+            360
+        ]
+    ],
+    "samples/ultralytics/yolo12s-pose": [
+        [
+            359,
+            360
+        ]
+    ],
+    "samples/ultralytics/yolo12s-seg": [
+        [
+            359,
+            360
+        ]
+    ]
+}

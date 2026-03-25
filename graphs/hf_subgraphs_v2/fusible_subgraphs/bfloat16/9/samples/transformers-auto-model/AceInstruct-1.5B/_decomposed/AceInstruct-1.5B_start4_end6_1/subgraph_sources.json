@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/AceInstruct-1.5B": [
+        [
+            4,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Biggie-SmoLlm-0.4B": [
+        [
+            4,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/EXAONE-4.0-1.2B": [
+        [
+            4,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/SmolLM3-3B": [
+        [
+            4,
+            6
+        ]
+    ]
+}

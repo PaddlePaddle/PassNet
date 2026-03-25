@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/google_pegasus-cnn_dailymail": [
+        [
+            46,
+            52
+        ],
+        [
+            97,
+            103
+        ]
+    ]
+}

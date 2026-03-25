@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/google/siglip2-large-patch16-256": [
+        [
+            599,
+            628
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-384": [
+        [
+            599,
+            628
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-512": [
+        [
+            599,
+            628
+        ]
+    ]
+}

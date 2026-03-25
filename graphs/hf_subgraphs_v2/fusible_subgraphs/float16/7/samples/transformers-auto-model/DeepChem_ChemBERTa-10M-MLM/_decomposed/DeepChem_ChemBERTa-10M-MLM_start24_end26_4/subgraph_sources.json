@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/DeepChem_ChemBERTa-10M-MLM": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_multilingual-MiniLMv2-L12-mnli-xnli": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-en": [
+        [
+            17,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/milistu_reranker-msmarco-v1.1-MiniLM-L12-H384-uncased-lambdaloss_v2": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L12-v2": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/msmarco-MiniLM-L12-en-de-v1": [
+        [
+            17,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-MiniLM-L12-v1": [
+        [
+            15,
+            17
+        ]
+    ]
+}

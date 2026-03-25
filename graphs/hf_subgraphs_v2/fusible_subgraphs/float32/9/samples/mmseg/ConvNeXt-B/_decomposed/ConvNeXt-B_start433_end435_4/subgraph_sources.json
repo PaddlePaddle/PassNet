@@ -1,0 +1,26 @@
+{
+    "samples/mmseg/ConvNeXt-B": [
+        [
+            433,
+            435
+        ]
+    ],
+    "samples/mmseg/K-Net_upernet": [
+        [
+            215,
+            217
+        ]
+    ],
+    "samples/mmseg/PoolFormer_m36": [
+        [
+            641,
+            643
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s12": [
+        [
+            233,
+            235
+        ]
+    ]
+}

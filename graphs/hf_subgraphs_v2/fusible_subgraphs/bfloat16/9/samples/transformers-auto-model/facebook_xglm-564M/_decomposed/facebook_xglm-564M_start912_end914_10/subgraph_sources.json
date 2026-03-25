@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/facebook_xglm-564M": [
+        [
+            912,
+            914
+        ]
+    ],
+    "samples/transformers-auto-model/navteca_bart-large-mnli": [
+        [
+            629,
+            631
+        ]
+    ]
+}

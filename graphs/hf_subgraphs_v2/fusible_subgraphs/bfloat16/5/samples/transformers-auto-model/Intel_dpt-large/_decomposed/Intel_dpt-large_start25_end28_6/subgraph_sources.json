@@ -1,0 +1,42 @@
+{
+    "samples/transformers-auto-model/Intel_dpt-large": [
+        [
+            25,
+            28
+        ],
+        [
+            51,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit-base-distilled-patch16-384": [
+        [
+            18,
+            21
+        ],
+        [
+            44,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-small-printed": [
+        [
+            18,
+            21
+        ],
+        [
+            44,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/trocr-base-handwritten": [
+        [
+            17,
+            20
+        ],
+        [
+            43,
+            46
+        ]
+    ]
+}

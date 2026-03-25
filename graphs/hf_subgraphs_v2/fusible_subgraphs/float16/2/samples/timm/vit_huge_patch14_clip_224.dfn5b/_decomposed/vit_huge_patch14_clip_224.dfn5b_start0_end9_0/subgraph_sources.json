@@ -1,0 +1,14 @@
+{
+    "samples/timm/vit_huge_patch14_clip_224.dfn5b": [
+        [
+            0,
+            9
+        ]
+    ],
+    "samples/timm/vit_huge_patch14_clip_quickgelu_224.dfn5b": [
+        [
+            0,
+            9
+        ]
+    ]
+}

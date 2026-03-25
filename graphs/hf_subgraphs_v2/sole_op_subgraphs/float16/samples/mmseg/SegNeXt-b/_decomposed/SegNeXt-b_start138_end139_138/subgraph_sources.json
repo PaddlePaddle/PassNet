@@ -1,0 +1,106 @@
+{
+    "samples/mmseg/SegNeXt-b": [
+        [
+            138,
+            139
+        ],
+        [
+            176,
+            177
+        ],
+        [
+            214,
+            215
+        ]
+    ],
+    "samples/mmseg/SegNeXt-l": [
+        [
+            138,
+            139
+        ],
+        [
+            176,
+            177
+        ],
+        [
+            214,
+            215
+        ],
+        [
+            252,
+            253
+        ],
+        [
+            290,
+            291
+        ]
+    ],
+    "samples/mmseg/SegNeXt-s": [
+        [
+            100,
+            101
+        ],
+        [
+            138,
+            139
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-base": [
+        [
+            84,
+            85
+        ],
+        [
+            108,
+            109
+        ],
+        [
+            132,
+            133
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-large": [
+        [
+            84,
+            85
+        ],
+        [
+            108,
+            109
+        ],
+        [
+            132,
+            133
+        ],
+        [
+            156,
+            157
+        ],
+        [
+            180,
+            181
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-small": [
+        [
+            60,
+            61
+        ],
+        [
+            84,
+            85
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanForImageClassification": [
+        [
+            98,
+            99
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanModel": [
+        [
+            98,
+            99
+        ]
+    ]
+}

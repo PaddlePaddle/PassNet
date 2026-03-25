@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BitModel": [
+        [
+            58,
+            59
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            143,
+            144
+        ]
+    ]
+}

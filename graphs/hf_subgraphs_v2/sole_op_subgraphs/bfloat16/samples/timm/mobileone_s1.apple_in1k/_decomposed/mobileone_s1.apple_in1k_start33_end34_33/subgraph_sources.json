@@ -1,0 +1,20 @@
+{
+    "samples/timm/mobileone_s1.apple_in1k": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/timm/mobileone_s2.apple_in1k": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/transformers-auto-model/linkanjarad_mobilenet_v2_1.0_224-plant-disease-identification": [
+        [
+            30,
+            31
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/facebook_data2vec-vision-base-ft1k": [
+        [
+            0,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-base-patch16-224-pt22k-ft22k": [
+        [
+            0,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-base-patch16-384": [
+        [
+            0,
+            7
+        ]
+    ]
+}

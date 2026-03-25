@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/kannt-im_marian-finetuned-kde4-en-to-fr": [
+        [
+            23,
+            29
+        ],
+        [
+            74,
+            80
+        ]
+    ]
+}

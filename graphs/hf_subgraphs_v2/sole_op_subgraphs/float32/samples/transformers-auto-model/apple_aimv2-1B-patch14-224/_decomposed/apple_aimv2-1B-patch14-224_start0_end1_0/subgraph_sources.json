@@ -1,0 +1,68 @@
+{
+    "samples/transformers-auto-model/apple_aimv2-1B-patch14-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-huge-patch14-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-huge-patch14-336": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-huge-patch14-448": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-224-lit": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-336": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-448": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-native": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_vit-huge-patch14-224-in21k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/internetoftim_dinov2-base": [
+        [
+            0,
+            1
+        ]
+    ]
+}

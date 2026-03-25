@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/google/siglip-base-patch16-224": [
+        [
+            0,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-256": [
+        [
+            0,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-384": [
+        [
+            0,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-512": [
+        [
+            0,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-224": [
+        [
+            0,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-256": [
+        [
+            0,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-384": [
+        [
+            0,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-512": [
+        [
+            0,
+            10
+        ]
+    ]
+}

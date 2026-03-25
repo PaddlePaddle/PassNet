@@ -1,0 +1,28 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            386,
+            390
+        ],
+        [
+            426,
+            430
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            186,
+            190
+        ]
+    ],
+    "samples/transformers-auto-model/vinvino02_glpn-nyu": [
+        [
+            466,
+            470
+        ],
+        [
+            506,
+            510
+        ]
+    ]
+}

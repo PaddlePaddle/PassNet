@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/facebook_convnext-base-384-22k-1k": [
+        [
+            19,
+            20
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            39,
+            40
+        ]
+    ]
+}

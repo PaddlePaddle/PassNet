@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            8,
+            25
+        ]
+    ]
+}

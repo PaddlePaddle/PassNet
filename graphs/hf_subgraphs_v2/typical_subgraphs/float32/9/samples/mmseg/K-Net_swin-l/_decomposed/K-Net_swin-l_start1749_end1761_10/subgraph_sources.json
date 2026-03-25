@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            1749,
+            1761
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            1011,
+            1023
+        ]
+    ],
+    "samples/mmseg/K-Net_upernet": [
+        [
+            412,
+            424
+        ]
+    ]
+}

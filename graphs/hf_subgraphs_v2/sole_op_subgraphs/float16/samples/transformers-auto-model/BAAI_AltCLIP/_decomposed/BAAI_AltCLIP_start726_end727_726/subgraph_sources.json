@@ -1,0 +1,332 @@
+{
+    "samples/transformers-auto-model/BAAI_AltCLIP": [
+        [
+            726,
+            727
+        ]
+    ],
+    "samples/transformers-auto-model/BAAI_AltCLIP-m18": [
+        [
+            726,
+            727
+        ]
+    ],
+    "samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-large-patch14": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/Q-MM_clip-vit-large-patch14-336": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/Thomasboosinger_owlvit-base-patch32": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/aurelio-ai_sr-test-clip": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_metaclip-b16-400m": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_metaclip-b32-400m": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-base-patch16": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-base-patch32": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-large-patch14": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-224": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-256": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-384": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-512": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-large-patch16-256": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-large-patch16-384": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-so400m-patch14-384": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-so400m-patch16-256-i18n": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-224": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-256": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-384": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-512": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch32-256": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-giant-opt-patch16-384": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-256": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-384": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-512": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch14-224": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-256": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-384": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-512": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-base-patch16": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-large-patch14-finetuned": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch16": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch32": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-large-patch14": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/gowitheflowlab_clip-base-10240-checkpoint350": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AltCLIPModel": [
+        [
+            175,
+            176
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CLIPSegModel": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OwlViTForObjectDetection": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/kaveh_rclip": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/laion_CLIP-ViT-H-14-laion2B-s32B-b79K": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32-16-frames": [
+        [
+            7,
+            8
+        ]
+    ],
+    "samples/transformers-auto-model/openai_clip-vit-base-patch32": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/openai_clip-vit-large-patch14": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/shaunster_clip_14_model": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/upfeatmediainc_owlv2-base-patch16-ensemble": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/transformers-auto-model/yuvalkirstain_PickScore_v1": [
+        [
+            6,
+            7
+        ]
+    ]
+}

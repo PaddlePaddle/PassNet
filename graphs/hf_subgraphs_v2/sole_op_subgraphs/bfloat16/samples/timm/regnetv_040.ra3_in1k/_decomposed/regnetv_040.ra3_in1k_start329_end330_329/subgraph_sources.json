@@ -1,0 +1,32 @@
+{
+    "samples/timm/regnetv_040.ra3_in1k": [
+        [
+            329,
+            330
+        ]
+    ],
+    "samples/timm/regnetx_016.pycls_in1k": [
+        [
+            70,
+            71
+        ]
+    ],
+    "samples/timm/regnety_040.pycls_in1k": [
+        [
+            332,
+            333
+        ]
+    ],
+    "samples/torchvision/regnet_x_1_6gf": [
+        [
+            72,
+            73
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_regnet-x-016": [
+        [
+            114,
+            115
+        ]
+    ]
+}

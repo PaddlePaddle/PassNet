@@ -1,0 +1,50 @@
+{
+    "samples/torchgeometric/GAE": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/torchgeometric/GCN": [
+        [
+            23,
+            24
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            109,
+            110
+        ],
+        [
+            152,
+            153
+        ],
+        [
+            195,
+            196
+        ]
+    ],
+    "samples/torchgeometric/LightGCN": [
+        [
+            9,
+            10
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            61,
+            62
+        ]
+    ],
+    "samples/torchgeometric/RECT_L": [
+        [
+            23,
+            24
+        ]
+    ]
+}

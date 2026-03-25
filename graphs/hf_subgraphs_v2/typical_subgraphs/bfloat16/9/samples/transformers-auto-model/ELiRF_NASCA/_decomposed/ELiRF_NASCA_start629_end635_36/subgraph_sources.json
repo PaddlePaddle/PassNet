@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/ELiRF_NASCA": [
+        [
+            629,
+            635
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_bart-large-cnn": [
+        [
+            629,
+            635
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distilbart-cnn-12-6": [
+        [
+            323,
+            329
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-1": [
+        [
+            68,
+            74
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-3": [
+        [
+            170,
+            176
+        ]
+    ]
+}

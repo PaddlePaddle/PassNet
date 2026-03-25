@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/sentence-transformers/gtr-t5-base": [
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/gtr-t5-large": [
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/gtr-t5-xl": [
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/gtr-t5-xxl": [
+        [
+            53,
+            54
+        ]
+    ]
+}

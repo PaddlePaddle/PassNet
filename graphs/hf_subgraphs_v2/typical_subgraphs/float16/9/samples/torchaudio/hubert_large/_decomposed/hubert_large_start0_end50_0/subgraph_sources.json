@@ -1,0 +1,8 @@
+{
+    "samples/torchaudio/hubert_large": [
+        [
+            0,
+            50
+        ]
+    ]
+}

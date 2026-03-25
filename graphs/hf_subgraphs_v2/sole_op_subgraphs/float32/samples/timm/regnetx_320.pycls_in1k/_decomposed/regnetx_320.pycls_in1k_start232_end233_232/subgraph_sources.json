@@ -1,0 +1,38 @@
+{
+    "samples/timm/regnetx_320.pycls_in1k": [
+        [
+            232,
+            233
+        ]
+    ],
+    "samples/timm/regnety_640.seer": [
+        [
+            316,
+            317
+        ]
+    ],
+    "samples/timm/regnety_640.seer_ft_in1k": [
+        [
+            316,
+            317
+        ]
+    ],
+    "samples/torchvision/regnet_x_32gf": [
+        [
+            234,
+            235
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_regnet-x-320": [
+        [
+            374,
+            375
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_regnet-y-640-seer": [
+        [
+            440,
+            441
+        ]
+    ]
+}

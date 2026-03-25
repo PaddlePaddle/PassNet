@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/BiSeNetV1_R18": [
+        [
+            76,
+            80
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R50": [
+        [
+            182,
+            186
+        ]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerForImageClassificationWithTeacher": [
+        [
+            280,
+            282
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerModel": [
+        [
+            280,
+            282
+        ]
+    ],
+    "samples/transformers-auto-model/monoelectra-large": [
+        [
+            711,
+            713
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-electra-base": [
+        [
+            363,
+            365
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/timm/hgnet_small.paddle_in1k": [
+        [
+            100,
+            106
+        ]
+    ],
+    "samples/timm/hgnetv2_b6.ssld_stage1_in22k_in1k": [
+        [
+            99,
+            105
+        ]
+    ]
+}

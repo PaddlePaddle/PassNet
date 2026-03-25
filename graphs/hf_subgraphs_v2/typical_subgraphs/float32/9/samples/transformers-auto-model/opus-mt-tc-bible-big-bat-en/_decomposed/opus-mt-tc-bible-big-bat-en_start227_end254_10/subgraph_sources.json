@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-bat-en": [
+        [
+            227,
+            254
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-fiu-en": [
+        [
+            227,
+            254
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gmq-en": [
+        [
+            227,
+            254
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-poz-en": [
+        [
+            227,
+            254
+        ]
+    ]
+}

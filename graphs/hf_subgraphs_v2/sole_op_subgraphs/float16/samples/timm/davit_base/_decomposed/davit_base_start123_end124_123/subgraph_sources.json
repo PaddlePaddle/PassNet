@@ -1,0 +1,102 @@
+{
+    "samples/timm/davit_base": [
+        [
+            123,
+            124
+        ]
+    ],
+    "samples/timm/davit_giant": [
+        [
+            123,
+            124
+        ]
+    ],
+    "samples/timm/davit_huge": [
+        [
+            123,
+            124
+        ]
+    ],
+    "samples/timm/davit_small": [
+        [
+            123,
+            124
+        ]
+    ],
+    "samples/timm/davit_tiny": [
+        [
+            123,
+            124
+        ]
+    ],
+    "samples/timm/swinv2_cr_small_224.sw_in1k": [
+        [
+            172,
+            173
+        ],
+        [
+            233,
+            234
+        ]
+    ],
+    "samples/timm/swinv2_cr_small_ns_224.sw_in1k": [
+        [
+            173,
+            174
+        ],
+        [
+            234,
+            235
+        ]
+    ],
+    "samples/timm/swinv2_cr_tiny_ns_224.sw_in1k": [
+        [
+            173,
+            174
+        ],
+        [
+            234,
+            235
+        ]
+    ],
+    "samples/torchvision/swin_b": [
+        [
+            152,
+            153
+        ],
+        [
+            221,
+            222
+        ]
+    ],
+    "samples/torchvision/swin_v2_b": [
+        [
+            190,
+            191
+        ],
+        [
+            272,
+            273
+        ]
+    ],
+    "samples/torchvision/swin_v2_s": [
+        [
+            190,
+            191
+        ],
+        [
+            272,
+            273
+        ]
+    ],
+    "samples/torchvision/swin_v2_t": [
+        [
+            190,
+            191
+        ],
+        [
+            272,
+            273
+        ]
+    ]
+}

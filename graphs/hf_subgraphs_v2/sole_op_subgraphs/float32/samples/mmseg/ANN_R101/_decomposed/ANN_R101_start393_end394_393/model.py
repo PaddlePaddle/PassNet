@@ -1,0 +1,7 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, in_0):
+        tmp_0 = torch.nn.functional.dropout2d(in_0, 0.1, False, False)
+        return (tmp_0,)

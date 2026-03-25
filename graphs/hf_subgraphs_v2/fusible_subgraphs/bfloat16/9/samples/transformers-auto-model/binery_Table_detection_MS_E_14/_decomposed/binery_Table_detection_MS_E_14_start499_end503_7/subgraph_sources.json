@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/binery_Table_detection_MS_E_14": [
+        [
+            499,
+            503
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-detection": [
+        [
+            500,
+            504
+        ]
+    ]
+}

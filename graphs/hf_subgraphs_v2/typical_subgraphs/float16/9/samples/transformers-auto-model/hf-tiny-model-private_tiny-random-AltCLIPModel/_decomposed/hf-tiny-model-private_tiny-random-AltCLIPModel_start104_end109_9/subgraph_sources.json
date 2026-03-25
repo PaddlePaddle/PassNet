@@ -1,0 +1,52 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AltCLIPModel": [
+        [
+            46,
+            51
+        ],
+        [
+            75,
+            80
+        ],
+        [
+            104,
+            109
+        ],
+        [
+            133,
+            138
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-NystromformerForSequenceClassification": [
+        [
+            39,
+            44
+        ],
+        [
+            70,
+            75
+        ],
+        [
+            101,
+            106
+        ],
+        [
+            132,
+            137
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SEWDForSequenceClassification": [
+        [
+            141,
+            146
+        ],
+        [
+            231,
+            236
+        ],
+        [
+            321,
+            326
+        ]
+    ]
+}

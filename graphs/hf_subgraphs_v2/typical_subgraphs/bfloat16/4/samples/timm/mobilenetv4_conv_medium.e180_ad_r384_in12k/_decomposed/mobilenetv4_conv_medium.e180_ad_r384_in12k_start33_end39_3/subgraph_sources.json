@@ -1,0 +1,8 @@
+{
+    "samples/timm/mobilenetv4_conv_medium.e180_ad_r384_in12k": [
+        [
+            33,
+            39
+        ]
+    ]
+}

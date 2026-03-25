@@ -1,0 +1,8 @@
+{
+    "samples/timm/res2net50_48w_2s.in1k": [
+        [
+            51,
+            55
+        ]
+    ]
+}

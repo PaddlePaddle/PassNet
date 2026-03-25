@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/GCNet_R101": [
+        [
+            360,
+            361
+        ]
+    ],
+    "samples/mmseg/GCNet_R50": [
+        [
+            190,
+            191
+        ]
+    ]
+}

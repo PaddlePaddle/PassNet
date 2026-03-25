@@ -1,0 +1,36 @@
+{
+    "samples/torchvision/deeplabv3_mobilenet_v3_large": [
+        [
+            31,
+            38
+        ],
+        [
+            45,
+            52
+        ],
+        [
+            60,
+            67
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_large": [
+        [
+            31,
+            38
+        ],
+        [
+            45,
+            52
+        ],
+        [
+            60,
+            67
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_small": [
+        [
+            5,
+            12
+        ]
+    ]
+}

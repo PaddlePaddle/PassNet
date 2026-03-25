@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/CGNet": [
+        [
+            28,
+            32
+        ]
+    ]
+}

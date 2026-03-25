@@ -1,0 +1,14 @@
+{
+    "samples/torchvision/deeplabv3_resnet101": [
+        [
+            341,
+            347
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet50": [
+        [
+            171,
+            177
+        ]
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "samples/timm/gernet_l.idstcv_in1k": [
+        [
+            2,
+            8
+        ],
+        [
+            11,
+            17
+        ]
+    ],
+    "samples/timm/gernet_m.idstcv_in1k": [
+        [
+            2,
+            8
+        ],
+        [
+            11,
+            17
+        ]
+    ],
+    "samples/timm/gernet_s.idstcv_in1k": [
+        [
+            2,
+            8
+        ],
+        [
+            11,
+            17
+        ]
+    ],
+    "samples/timm/test_byobnet.r160_in1k": [
+        [
+            34,
+            40
+        ]
+    ]
+}

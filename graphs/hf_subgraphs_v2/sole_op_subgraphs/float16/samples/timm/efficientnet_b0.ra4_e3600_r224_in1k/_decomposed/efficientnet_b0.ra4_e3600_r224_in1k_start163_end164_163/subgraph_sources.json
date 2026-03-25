@@ -1,0 +1,116 @@
+{
+    "samples/timm/efficientnet_b0.ra4_e3600_r224_in1k": [
+        [
+            163,
+            164
+        ]
+    ],
+    "samples/timm/efficientnet_b1.ft_in1k": [
+        [
+            235,
+            236
+        ]
+    ],
+    "samples/timm/efficientnet_lite0.ra_in1k": [
+        [
+            97,
+            98
+        ]
+    ],
+    "samples/timm/fbnetc_100.rmsp_in1k": [
+        [
+            146,
+            147
+        ]
+    ],
+    "samples/timm/ghostnet_100.in1k": [
+        [
+            222,
+            223
+        ]
+    ],
+    "samples/timm/hardcorenas_a.miil_green_in1k": [
+        [
+            115,
+            116
+        ]
+    ],
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            139,
+            140
+        ]
+    ],
+    "samples/timm/hardcorenas_c.miil_green_in1k": [
+        [
+            151,
+            152
+        ]
+    ],
+    "samples/timm/hardcorenas_d.miil_green_in1k": [
+        [
+            202,
+            203
+        ]
+    ],
+    "samples/timm/hardcorenas_e.miil_green_in1k": [
+        [
+            187,
+            188
+        ]
+    ],
+    "samples/timm/hardcorenas_f.miil_green_in1k": [
+        [
+            187,
+            188
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_100.miil_in21k": [
+        [
+            137,
+            138
+        ]
+    ],
+    "samples/timm/mobilenetv3_rw.rmsp_in1k": [
+        [
+            136,
+            137
+        ]
+    ],
+    "samples/timm/repghostnet_200.in1k": [
+        [
+            222,
+            223
+        ]
+    ],
+    "samples/timm/semnasnet_100.rmsp_in1k": [
+        [
+            136,
+            137
+        ]
+    ],
+    "samples/timm/tinynet_a.in1k": [
+        [
+            193,
+            194
+        ]
+    ],
+    "samples/torchvision/efficientnet_b0": [
+        [
+            169,
+            170
+        ]
+    ],
+    "samples/torchvision/efficientnet_b1": [
+        [
+            246,
+            247
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_large": [
+        [
+            137,
+            138
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/timm/densenet201.tv_in1k": [
+        [
+            418,
+            423
+        ]
+    ],
+    "samples/timm/densenet264d": [
+        [
+            424,
+            429
+        ]
+    ]
+}

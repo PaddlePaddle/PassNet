@@ -1,0 +1,72 @@
+{
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            59,
+            65
+        ],
+        [
+            189,
+            195
+        ],
+        [
+            767,
+            773
+        ]
+    ],
+    "samples/timm/resnext101_64x4d.c1_in1k": [
+        [
+            35,
+            41
+        ],
+        [
+            77,
+            83
+        ],
+        [
+            309,
+            315
+        ]
+    ],
+    "samples/timm/senet154.gluon_in1k": [
+        [
+            59,
+            65
+        ],
+        [
+            189,
+            195
+        ],
+        [
+            767,
+            773
+        ]
+    ],
+    "samples/timm/seresnext101_64x4d.gluon_in1k": [
+        [
+            53,
+            59
+        ],
+        [
+            119,
+            125
+        ],
+        [
+            489,
+            495
+        ]
+    ],
+    "samples/torchvision/resnext101_64x4d": [
+        [
+            35,
+            41
+        ],
+        [
+            77,
+            83
+        ],
+        [
+            309,
+            315
+        ]
+    ]
+}

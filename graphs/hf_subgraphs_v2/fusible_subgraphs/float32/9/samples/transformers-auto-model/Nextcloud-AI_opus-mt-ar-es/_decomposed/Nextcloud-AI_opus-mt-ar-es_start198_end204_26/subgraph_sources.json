@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/Nextcloud-AI_opus-mt-ar-es": [
+        [
+            45,
+            51
+        ],
+        [
+            96,
+            102
+        ],
+        [
+            198,
+            204
+        ]
+    ]
+}

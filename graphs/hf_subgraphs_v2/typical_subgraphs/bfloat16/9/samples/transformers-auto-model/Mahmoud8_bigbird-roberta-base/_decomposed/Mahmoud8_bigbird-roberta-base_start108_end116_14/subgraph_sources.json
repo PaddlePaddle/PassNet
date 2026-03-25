@@ -1,0 +1,54 @@
+{
+    "samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base": [
+        [
+            36,
+            44
+        ],
+        [
+            72,
+            80
+        ],
+        [
+            108,
+            116
+        ],
+        [
+            144,
+            152
+        ],
+        [
+            180,
+            188
+        ],
+        [
+            216,
+            224
+        ],
+        [
+            252,
+            260
+        ],
+        [
+            288,
+            296
+        ],
+        [
+            324,
+            332
+        ],
+        [
+            360,
+            368
+        ],
+        [
+            396,
+            404
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BigBirdForSequenceClassification": [
+        [
+            36,
+            44
+        ]
+    ]
+}

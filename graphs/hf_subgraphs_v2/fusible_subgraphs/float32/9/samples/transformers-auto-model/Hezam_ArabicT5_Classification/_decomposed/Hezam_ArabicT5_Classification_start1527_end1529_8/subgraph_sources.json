@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            1527,
+            1529
+        ]
+    ],
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            783,
+            785
+        ]
+    ]
+}
