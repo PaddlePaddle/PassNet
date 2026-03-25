@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/mmseg/DANet_R101/_decomposed/DANet_R101_start395_end398_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmseg/DANet_R101/_decomposed/DANet_R101_start395_end398_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/mmseg/DANet_R101/_decomposed/DANet_R101_start395_end398_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/mmseg/DANet_R101/_decomposed/DANet_R101_start395_end398_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/mmseg/DANet_R101/_decomposed/DANet_R101_start395_end398_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/mmseg/DANet_R101/_decomposed/DANet_R101_start395_end398_9

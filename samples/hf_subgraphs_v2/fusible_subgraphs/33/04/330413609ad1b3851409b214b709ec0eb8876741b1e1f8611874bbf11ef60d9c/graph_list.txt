@@ -1,0 +1,9 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start7_end9_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/8/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start7_end9_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/AlphaMaze-v0.2-1.5B/_decomposed/AlphaMaze-v0.2-1.5B_start4_end6_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start7_end9_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start7_end9_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/AceInstruct-1.5B/_decomposed/AceInstruct-1.5B_start4_end6_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/jinaai_jina-reranker-m0/_decomposed/jinaai_jina-reranker-m0_start17_end19_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/AceInstruct-1.5B/_decomposed/AceInstruct-1.5B_start4_end6_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start7_end9_2

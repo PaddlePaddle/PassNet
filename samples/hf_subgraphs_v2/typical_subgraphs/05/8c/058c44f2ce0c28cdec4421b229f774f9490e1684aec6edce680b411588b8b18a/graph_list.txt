@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/gagan3012_swin_arocr_tiny/_decomposed/gagan3012_swin_arocr_tiny_start416_end477_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/gagan3012_swin_arocr_tiny/_decomposed/gagan3012_swin_arocr_tiny_start416_end477_7

@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start153_end156_23
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start66_end69_5

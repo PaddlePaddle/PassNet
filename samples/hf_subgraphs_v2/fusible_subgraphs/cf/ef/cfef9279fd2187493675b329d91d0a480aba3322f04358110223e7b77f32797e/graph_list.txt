@@ -1,0 +1,5 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/torchvision/densenet161/_decomposed/densenet161_start565_end570_14
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/torchvision/densenet121/_decomposed/densenet121_start425_end430_35
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/torchvision/densenet161/_decomposed/densenet161_start565_end570_14
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/torchvision/densenet121/_decomposed/densenet121_start425_end430_35
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/torchvision/densenet161/_decomposed/densenet161_start565_end570_14

@@ -1,0 +1,10 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MBartForSequenceClassification_start101_end107_20
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/amurienne_kellag-m2m100-v0.2/_decomposed/amurienne_kellag-m2m100-v0.2_start60_end66_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BartForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-BartForSequenceClassification_start100_end106_20
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Nextcloud-AI_opus-mt-ar-es/_decomposed/Nextcloud-AI_opus-mt-ar-es_start198_end204_26
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PLBartForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-PLBartForSequenceClassification_start27_end33_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MBartForSequenceClassification_start28_end34_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BartForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-BartForSequenceClassification_start27_end33_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32/_decomposed/DatologyAI_cls-opt-vit-b-32_start37_end43_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/amurienne_kellag-m2m100-v0.2/_decomposed/amurienne_kellag-m2m100-v0.2_start38_end44_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Nextcloud-AI_opus-mt-ar-es/_decomposed/Nextcloud-AI_opus-mt-ar-es_start23_end29_3

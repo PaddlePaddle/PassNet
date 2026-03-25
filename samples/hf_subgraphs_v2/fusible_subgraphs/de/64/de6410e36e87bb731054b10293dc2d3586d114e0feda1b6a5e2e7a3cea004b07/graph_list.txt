@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/timm/vgg11.tv_in1k/_decomposed/vgg11.tv_in1k_start21_end24_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/timm/vgg11.tv_in1k/_decomposed/vgg11.tv_in1k_start21_end24_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/vgg11.tv_in1k/_decomposed/vgg11.tv_in1k_start21_end24_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/timm/vgg11.tv_in1k/_decomposed/vgg11.tv_in1k_start21_end24_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/timm/vgg11.tv_in1k/_decomposed/vgg11.tv_in1k_start21_end24_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/timm/vgg11.tv_in1k/_decomposed/vgg11.tv_in1k_start21_end24_8

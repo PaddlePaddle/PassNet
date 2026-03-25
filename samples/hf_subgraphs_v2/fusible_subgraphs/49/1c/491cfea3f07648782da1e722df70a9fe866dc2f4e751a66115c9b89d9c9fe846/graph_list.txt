@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start48_end50_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start48_end50_2

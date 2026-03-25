@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/opus-mt-es-ny/_decomposed/opus-mt-es-ny_start182_end210_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/opus-mt-en-to/_decomposed/opus-mt-en-to_start182_end210_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/opus-mt-en-uk/_decomposed/opus-mt-en-uk_start182_end210_8
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/opus-mt-en-he/_decomposed/opus-mt-en-he_start182_end210_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/opus-mt-en-it/_decomposed/opus-mt-en-it_start182_end210_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/opus-mt-en-it/_decomposed/opus-mt-en-it_start182_end210_8

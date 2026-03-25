@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start168_end172_21
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start168_end172_21
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start168_end172_21
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start168_end172_21
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start168_end172_21
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start168_end172_21

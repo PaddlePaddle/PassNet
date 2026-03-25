@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start1232_end1233_1232

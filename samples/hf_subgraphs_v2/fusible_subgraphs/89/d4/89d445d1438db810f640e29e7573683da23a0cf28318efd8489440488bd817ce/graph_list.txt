@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32/_decomposed/DatologyAI_cls-opt-vit-b-32_start22_end28_1

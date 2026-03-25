@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/google/siglip2-base-patch16-224/_decomposed/siglip2-base-patch16-224_start317_end321_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/google/siglip-base-patch16-224/_decomposed/siglip-base-patch16-224_start317_end321_7

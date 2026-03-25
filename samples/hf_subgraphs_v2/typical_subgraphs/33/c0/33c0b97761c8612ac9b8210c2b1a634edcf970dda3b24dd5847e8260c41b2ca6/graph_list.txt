@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/polejowska_detr-r50-cd45rb-4ah-6l/_decomposed/polejowska_detr-r50-cd45rb-4ah-6l_start1038_end1075_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/polejowska_detr-r50-cd45rb-4ah-6l/_decomposed/polejowska_detr-r50-cd45rb-4ah-6l_start1038_end1075_7

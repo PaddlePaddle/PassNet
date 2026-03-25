@@ -1,0 +1,16 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start175_end180_14
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start175_end180_14
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start175_end180_14
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start55_end60_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start345_end350_24
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start345_end350_24
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/mixnet_l.ft_in1k/_decomposed/mixnet_l.ft_in1k_start175_end180_14
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start190_end195_19
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/mixnet_l.ft_in1k/_decomposed/mixnet_l.ft_in1k_start175_end180_14
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start190_end195_19
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start345_end350_24
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start345_end350_24
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/mixnet_l.ft_in1k/_decomposed/mixnet_l.ft_in1k_start175_end180_14
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start190_end195_19
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/timm/mixnet_l.ft_in1k/_decomposed/mixnet_l.ft_in1k_start175_end180_14
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start190_end195_19

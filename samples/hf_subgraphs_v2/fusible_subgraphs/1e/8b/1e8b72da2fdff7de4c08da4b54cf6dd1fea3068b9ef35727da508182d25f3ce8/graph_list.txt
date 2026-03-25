@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/ultralytics/yolo11l/_decomposed/yolo11l_start272_end275_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/4/samples/ultralytics/yolo11l/_decomposed/yolo11l_start272_end275_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/ultralytics/yolo11l/_decomposed/yolo11l_start272_end275_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/ultralytics/yolo11l/_decomposed/yolo11l_start272_end275_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/ultralytics/yolo11l/_decomposed/yolo11l_start272_end275_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/ultralytics/yolo11l/_decomposed/yolo11l_start272_end275_4

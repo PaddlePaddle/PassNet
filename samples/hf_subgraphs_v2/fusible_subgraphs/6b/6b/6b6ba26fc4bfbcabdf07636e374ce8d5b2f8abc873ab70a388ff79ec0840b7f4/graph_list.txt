@@ -1,0 +1,4 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/timm/coatnet_0_224/_decomposed/coatnet_0_224_start16_end19_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/timm/coatnet_0_224/_decomposed/coatnet_0_224_start16_end19_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/timm/coatnet_0_224/_decomposed/coatnet_0_224_start16_end19_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/timm/coatnet_0_224/_decomposed/coatnet_0_224_start16_end19_2

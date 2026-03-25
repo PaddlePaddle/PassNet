@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/transformers-auto-model/trocr-base-handwritten/_decomposed/trocr-base-handwritten_start336_end347_16
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/KoboldAI_fairseq-dense-1.3B/_decomposed/KoboldAI_fairseq-dense-1.3B_start33_end44_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/transformers-auto-model/trocr-base-handwritten/_decomposed/trocr-base-handwritten_start361_end372_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/trocr-base-handwritten/_decomposed/trocr-base-handwritten_start361_end372_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/KoboldAI_fairseq-dense-355M/_decomposed/KoboldAI_fairseq-dense-355M_start33_end44_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/microsoft_trocr-small-printed/_decomposed/microsoft_trocr-small-printed_start362_end373_10

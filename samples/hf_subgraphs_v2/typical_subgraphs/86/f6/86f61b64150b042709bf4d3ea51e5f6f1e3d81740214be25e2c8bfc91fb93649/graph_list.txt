@@ -1,0 +1,12 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start704_end711_72
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start704_end711_72
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40/_decomposed/Mahmoud8_mah-efficient_mlm_m0.40_start714_end721_72
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40/_decomposed/Mahmoud8_mah-efficient_mlm_m0.40_start714_end721_72
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40/_decomposed/Mahmoud8_mah-efficient_mlm_m0.40_start714_end721_72
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start356_end363_36
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start356_end363_36
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/transformers-auto-model/nghuyong_ernie-2.0-base-en/_decomposed/nghuyong_ernie-2.0-base-en_start356_end363_36
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start356_end363_36
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/transformers-auto-model/nghuyong_ernie-2.0-base-en/_decomposed/nghuyong_ernie-2.0-base-en_start356_end363_36
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/nghuyong_ernie-2.0-base-en/_decomposed/nghuyong_ernie-2.0-base-en_start356_end363_36
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start704_end711_72

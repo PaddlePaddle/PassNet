@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/6/samples/timm/densenetblur121d.ra_in1k/_decomposed/densenetblur121d.ra_in1k_start8_end10_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/densenetblur121d.ra_in1k/_decomposed/densenetblur121d.ra_in1k_start8_end10_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/timm/densenetblur121d.ra_in1k/_decomposed/densenetblur121d.ra_in1k_start8_end10_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/timm/densenetblur121d.ra_in1k/_decomposed/densenetblur121d.ra_in1k_start8_end10_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/timm/densenetblur121d.ra_in1k/_decomposed/densenetblur121d.ra_in1k_start8_end10_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/timm/densenetblur121d.ra_in1k/_decomposed/densenetblur121d.ra_in1k_start8_end10_0

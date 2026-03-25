@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/1/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start334_end355_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start334_end355_7
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start334_end355_7

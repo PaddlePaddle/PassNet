@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/mmseg/BiSeNetV2/_decomposed/BiSeNetV2_start155_end163_14
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/mmseg/BiSeNetV2/_decomposed/BiSeNetV2_start155_end163_14
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/mmseg/BiSeNetV2/_decomposed/BiSeNetV2_start155_end163_14
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/6/samples/mmseg/BiSeNetV2/_decomposed/BiSeNetV2_start155_end163_14
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/mmseg/BiSeNetV2/_decomposed/BiSeNetV2_start155_end163_14
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/mmseg/BiSeNetV2/_decomposed/BiSeNetV2_start155_end163_14

@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/torchvision/r3d_18/_decomposed/r3d_18_start65_end66_65
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/torchvision/r3d_18/_decomposed/r3d_18_start65_end66_65

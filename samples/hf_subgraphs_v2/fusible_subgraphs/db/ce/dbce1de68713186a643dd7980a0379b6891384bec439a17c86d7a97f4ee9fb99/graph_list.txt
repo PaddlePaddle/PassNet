@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/google/siglip-large-patch16-256/_decomposed/siglip-large-patch16-256_start610_end613_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/mmseg/Twins_svt-l_fpn/_decomposed/Twins_svt-l_fpn_start924_end927_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/mmseg/Twins_svt-b_fpn/_decomposed/Twins_svt-b_fpn_start924_end927_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/google/siglip-so400m-patch14-384/_decomposed/siglip-so400m-patch14-384_start685_end688_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/transformers-auto-model/google/siglip2-so400m-patch14-224/_decomposed/siglip2-so400m-patch14-224_start685_end688_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-384/_decomposed/siglip2-giant-opt-patch16-384_start1010_end1013_7

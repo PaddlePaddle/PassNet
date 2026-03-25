@@ -1,0 +1,4 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/mmseg/K-Net_swin-l/_decomposed/K-Net_swin-l_start1756_end1761_13
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmseg/K-Net_deeplabv3/_decomposed/K-Net_deeplabv3_start261_end266_13
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/mmseg/K-Net_deeplabv3/_decomposed/K-Net_deeplabv3_start261_end266_13
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/mmseg/K-Net_swin-l/_decomposed/K-Net_swin-l_start1756_end1761_13

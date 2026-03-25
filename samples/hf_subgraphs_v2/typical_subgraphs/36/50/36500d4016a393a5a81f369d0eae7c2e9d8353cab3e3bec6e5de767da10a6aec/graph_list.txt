@@ -1,0 +1,12 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BigBirdForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-BigBirdForSequenceClassification_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BigBirdForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-BigBirdForSequenceClassification_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/6/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start18_end31_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start18_end31_2

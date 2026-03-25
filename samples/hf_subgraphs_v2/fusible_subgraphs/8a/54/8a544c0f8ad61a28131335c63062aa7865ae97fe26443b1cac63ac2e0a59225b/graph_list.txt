@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/mmseg/PIDNet-l/_decomposed/PIDNet-l_start293_end302_16
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/4/samples/mmseg/PIDNet-l/_decomposed/PIDNet-l_start293_end302_16
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/mmseg/PIDNet-l/_decomposed/PIDNet-l_start293_end302_16
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/4/samples/mmseg/PIDNet-l/_decomposed/PIDNet-l_start293_end302_16
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/mmseg/PIDNet-l/_decomposed/PIDNet-l_start293_end302_16
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/mmseg/PIDNet-l/_decomposed/PIDNet-l_start293_end302_16

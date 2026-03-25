@@ -1,0 +1,5 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel/_decomposed/hf-tiny-model-private_tiny-random-MobileViTModel_start114_end117_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start257_end260_37
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start114_end117_17
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start138_end141_19
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start51_end54_1

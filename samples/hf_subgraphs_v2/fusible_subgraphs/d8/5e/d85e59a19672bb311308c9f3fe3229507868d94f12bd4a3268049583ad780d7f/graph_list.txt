@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieMForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-ErnieMForSequenceClassification_start18_end24_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-NezhaForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-NezhaForSequenceClassification_start13_end19_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Mahmoud8_ernie-m-base_pytorch/_decomposed/Mahmoud8_ernie-m-base_pytorch_start18_end24_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start14_end20_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start14_end20_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start14_end20_3

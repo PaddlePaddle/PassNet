@@ -1,0 +1,17 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DPTModel/_decomposed/hf-tiny-model-private_tiny-random-DPTModel_start28_end32_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DPTModel/_decomposed/hf-tiny-model-private_tiny-random-DPTModel_start28_end32_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel/_decomposed/hf-tiny-model-private_tiny-random-DeiTModel_start21_end25_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosModel/_decomposed/hf-tiny-model-private_tiny-random-YolosModel_start43_end47_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ViTModel/_decomposed/hf-tiny-model-private_tiny-random-ViTModel_start20_end24_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224/_decomposed/facebook_deit-tiny-distilled-patch16-224_start21_end25_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224/_decomposed/facebook_deit-small-distilled-patch16-224_start21_end25_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/MIT_ast-finetuned-speech-commands-v2/_decomposed/MIT_ast-finetuned-speech-commands-v2_start23_end27_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/transformers-auto-model/facebook_dino-vitb8/_decomposed/facebook_dino-vitb8_start20_end24_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/transformers-auto-model/facebook_dino-vitb8/_decomposed/facebook_dino-vitb8_start20_end24_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/microsoft_trocr-small-printed/_decomposed/microsoft_trocr-small-printed_start21_end25_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/transformers-auto-model/owkin_phikon-v2/_decomposed/owkin_phikon-v2_start21_end25_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/owkin_phikon-v2/_decomposed/owkin_phikon-v2_start21_end25_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/owkin_phikon-v2/_decomposed/owkin_phikon-v2_start21_end25_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/transformers-auto-model/MCG-NJU_videomae-large/_decomposed/MCG-NJU_videomae-large_start22_end26_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/transformers-auto-model/MCG-NJU_videomae-large/_decomposed/MCG-NJU_videomae-large_start22_end26_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/transformers-auto-model/MCG-NJU_videomae-large/_decomposed/MCG-NJU_videomae-large_start22_end26_3

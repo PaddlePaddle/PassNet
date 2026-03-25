@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start2161_end2166_49
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start2161_end2166_49
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start2161_end2166_49
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start2161_end2166_49
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start2161_end2166_49
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start2161_end2166_49

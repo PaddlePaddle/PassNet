@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/all-MiniLM-L6-v2/_decomposed/all-MiniLM-L6-v2_start0_end1_0

@@ -1,0 +1,8 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/mmseg/BEiT-B/_decomposed/BEiT-B_start506_end511_3
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/mmseg/DeiT_B/_decomposed/DeiT_B_start274_end279_3
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/mmseg/ConvNeXt-B/_decomposed/ConvNeXt-B_start443_end448_3
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/mmseg/DeiT_S_ln_mln/_decomposed/DeiT_S_ln_mln_start287_end292_3
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/mmseg/UPerNet_R101/_decomposed/UPerNet_R101_start395_end400_48
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/1/samples/mmseg/UPerNet_R101/_decomposed/UPerNet_R101_start395_end400_48
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/mmseg/DeiT_S_ln_mln/_decomposed/DeiT_S_ln_mln_start287_end292_3
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/mmseg/ConvNeXt-B/_decomposed/ConvNeXt-B_start443_end448_3

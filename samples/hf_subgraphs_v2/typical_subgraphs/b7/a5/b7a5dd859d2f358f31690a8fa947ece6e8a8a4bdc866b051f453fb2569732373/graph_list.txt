@@ -1,0 +1,4 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/trocr-base-handwritten/_decomposed/trocr-base-handwritten_start391_end411_53
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/microsoft_trocr-small-printed/_decomposed/microsoft_trocr-small-printed_start392_end412_53
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/transformers-auto-model/microsoft_trocr-small-printed/_decomposed/microsoft_trocr-small-printed_start392_end412_53
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/transformers-auto-model/microsoft_trocr-small-printed/_decomposed/microsoft_trocr-small-printed_start360_end380_50

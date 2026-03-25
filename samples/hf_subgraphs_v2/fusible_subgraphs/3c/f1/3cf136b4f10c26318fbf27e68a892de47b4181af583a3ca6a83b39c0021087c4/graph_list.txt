@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/transformers-auto-model/microsoft_layoutlm-base-uncased/_decomposed/microsoft_layoutlm-base-uncased_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/transformers-auto-model/microsoft_layoutlm-base-uncased/_decomposed/microsoft_layoutlm-base-uncased_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/microsoft_layoutlm-base-uncased/_decomposed/microsoft_layoutlm-base-uncased_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/transformers-auto-model/microsoft_layoutlm-base-uncased/_decomposed/microsoft_layoutlm-base-uncased_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/4/samples/transformers-auto-model/microsoft_layoutlm-base-uncased/_decomposed/microsoft_layoutlm-base-uncased_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/transformers-auto-model/microsoft_layoutlm-base-uncased/_decomposed/microsoft_layoutlm-base-uncased_start0_end3_0

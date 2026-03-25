@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/torchvision/maxvit_t/_decomposed/maxvit_t_start1052_end1053_1052
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/torchvision/maxvit_t/_decomposed/maxvit_t_start1052_end1053_1052

@@ -1,0 +1,7 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/6/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start0_end3_0

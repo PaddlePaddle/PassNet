@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/transformers-auto-model/jinaai_jina-reranker-m0/_decomposed/jinaai_jina-reranker-m0_start0_end2_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/transformers-auto-model/jinaai_jina-reranker-m0/_decomposed/jinaai_jina-reranker-m0_start0_end2_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/transformers-auto-model/jinaai_jina-reranker-m0/_decomposed/jinaai_jina-reranker-m0_start0_end2_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/transformers-auto-model/jinaai_jina-reranker-m0/_decomposed/jinaai_jina-reranker-m0_start0_end2_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/jinaai_jina-reranker-m0/_decomposed/jinaai_jina-reranker-m0_start0_end2_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/transformers-auto-model/jinaai_jina-reranker-m0/_decomposed/jinaai_jina-reranker-m0_start0_end2_0

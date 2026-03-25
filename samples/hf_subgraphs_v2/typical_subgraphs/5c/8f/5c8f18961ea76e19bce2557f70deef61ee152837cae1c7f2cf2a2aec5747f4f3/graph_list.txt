@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/fastvit_s12.apple_dist_in1k/_decomposed/fastvit_s12.apple_dist_in1k_start140_end148_10
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/timm/fastvit_s12.apple_dist_in1k/_decomposed/fastvit_s12.apple_dist_in1k_start140_end148_10
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/timm/fastvit_s12.apple_dist_in1k/_decomposed/fastvit_s12.apple_dist_in1k_start140_end148_10

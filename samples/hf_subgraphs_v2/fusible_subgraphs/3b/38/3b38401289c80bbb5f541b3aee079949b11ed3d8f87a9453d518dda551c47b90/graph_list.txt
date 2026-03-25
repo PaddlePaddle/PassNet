@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/4/samples/torchvision/googlenet/_decomposed/googlenet_start2_end13_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/torchvision/googlenet/_decomposed/googlenet_start2_end13_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/torchvision/googlenet/_decomposed/googlenet_start2_end13_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/torchvision/googlenet/_decomposed/googlenet_start2_end13_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/torchvision/googlenet/_decomposed/googlenet_start2_end13_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/torchvision/googlenet/_decomposed/googlenet_start2_end13_1

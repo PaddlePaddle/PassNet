@@ -1,0 +1,4 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/dm_nfnet_f0/_decomposed/dm_nfnet_f0_start107_end108_107
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/timm/dm_nfnet_f0/_decomposed/dm_nfnet_f0_start107_end108_107
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/dm_nfnet_f0/_decomposed/dm_nfnet_f0_start129_end130_129
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/timm/dm_nfnet_f0/_decomposed/dm_nfnet_f0_start129_end130_129

@@ -1,0 +1,11 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel/_decomposed/hf-tiny-model-private_tiny-random-DeiTModel_start0_end9_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel/_decomposed/hf-tiny-model-private_tiny-random-DeiTModel_start0_end9_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224/_decomposed/facebook_deit-tiny-distilled-patch16-224_start0_end9_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224/_decomposed/facebook_deit-tiny-distilled-patch16-224_start0_end9_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224/_decomposed/facebook_deit-tiny-distilled-patch16-224_start0_end9_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/AkshatSurolia_DeiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_DeiT-FaceMask-Finetuned_start0_end9_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/transformers-auto-model/AkshatSurolia_DeiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_DeiT-FaceMask-Finetuned_start0_end9_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/AkshatSurolia_DeiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_DeiT-FaceMask-Finetuned_start0_end9_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/transformers-auto-model/microsoft_trocr-small-printed/_decomposed/microsoft_trocr-small-printed_start0_end9_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/facebook_deit-base-distilled-patch16-384/_decomposed/facebook_deit-base-distilled-patch16-384_start0_end9_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/transformers-auto-model/facebook_deit-base-distilled-patch16-384/_decomposed/facebook_deit-base-distilled-patch16-384_start0_end9_0

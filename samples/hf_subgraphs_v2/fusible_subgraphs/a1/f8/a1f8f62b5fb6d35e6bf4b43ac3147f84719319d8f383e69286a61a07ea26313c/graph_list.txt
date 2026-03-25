@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/timm/convit_small/_decomposed/convit_small_start605_end608_47
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/convit_base/_decomposed/convit_base_start605_end608_45
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/timm/convit_base/_decomposed/convit_base_start605_end608_45

@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/mmseg/DNLNet_R101/_decomposed/DNLNet_R101_start351_end354_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/3/samples/mmseg/DNLNet_R101/_decomposed/DNLNet_R101_start351_end354_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmseg/DNLNet_R101/_decomposed/DNLNet_R101_start351_end354_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/mmseg/DNLNet_R101/_decomposed/DNLNet_R101_start351_end354_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/mmseg/DNLNet_R101/_decomposed/DNLNet_R101_start351_end354_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/mmseg/DNLNet_R101/_decomposed/DNLNet_R101_start351_end354_0

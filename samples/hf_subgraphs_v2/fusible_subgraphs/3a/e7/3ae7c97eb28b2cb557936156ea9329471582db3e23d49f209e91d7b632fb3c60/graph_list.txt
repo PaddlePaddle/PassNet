@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/mmpose/S-ViPNAS-Res50/_decomposed/S-ViPNAS-Res50_start204_end207_23
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/mmpose/S-ViPNAS-Res50/_decomposed/S-ViPNAS-Res50_start204_end207_23
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/6/samples/mmpose/S-ViPNAS-Res50/_decomposed/S-ViPNAS-Res50_start204_end207_23
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/mmpose/S-ViPNAS-Res50/_decomposed/S-ViPNAS-Res50_start204_end207_23
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/mmpose/S-ViPNAS-Res50/_decomposed/S-ViPNAS-Res50_start204_end207_23
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/mmpose/S-ViPNAS-Res50/_decomposed/S-ViPNAS-Res50_start204_end207_23

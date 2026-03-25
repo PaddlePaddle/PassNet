@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start153_end161_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/4/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start153_end161_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start153_end161_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start153_end161_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start153_end161_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start153_end161_1

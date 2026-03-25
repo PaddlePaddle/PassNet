@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/JackWong0911_vivit-b-16x2-kinetics400-finetuned-kinectic/_decomposed/JackWong0911_vivit-b-16x2-kinetics400-finetuned-kinectic_start1_end9_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/JackWong0911_vivit-b-16x2-kinetics400-finetuned-kinectic/_decomposed/JackWong0911_vivit-b-16x2-kinetics400-finetuned-kinectic_start1_end9_0

@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/mmseg/K-Net_fcn/_decomposed/K-Net_fcn_start245_end250_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/mmseg/K-Net_fcn/_decomposed/K-Net_fcn_start245_end250_10

@@ -1,0 +1,12 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/Hax_filipino-text-version1/_decomposed/Hax_filipino-text-version1_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/KBLab_electra-base-swedish-cased-generator/_decomposed/KBLab_electra-base-swedish-cased-generator_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish/_decomposed/Finnish-NLP_electra-base-generator-finnish_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/Hax_filipino-text-version1/_decomposed/Hax_filipino-text-version1_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/KBLab_electra-base-swedish-cased-generator/_decomposed/KBLab_electra-base-swedish-cased-generator_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/emfa_l-lectra-danish-finetuned-hatespeech/_decomposed/emfa_l-lectra-danish-finetuned-hatespeech_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/transformers-auto-model/Hax_filipino-text-version1/_decomposed/Hax_filipino-text-version1_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/transformers-auto-model/Hax_filipino-text-version1/_decomposed/Hax_filipino-text-version1_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/transformers-auto-model/Hax_filipino-text-version1/_decomposed/Hax_filipino-text-version1_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/Hax_filipino-text-version1/_decomposed/Hax_filipino-text-version1_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish/_decomposed/Finnish-NLP_electra-base-generator-finnish_start0_end14_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/transformers-auto-model/Hax_filipino-text-version1/_decomposed/Hax_filipino-text-version1_start0_end14_0

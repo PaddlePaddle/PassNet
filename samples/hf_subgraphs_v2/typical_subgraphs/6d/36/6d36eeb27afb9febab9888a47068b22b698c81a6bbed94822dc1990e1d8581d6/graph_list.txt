@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/ecaresnet101d.miil_in1k/_decomposed/ecaresnet101d.miil_in1k_start18_end28_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/timm/ecaresnet101d.miil_in1k/_decomposed/ecaresnet101d.miil_in1k_start18_end28_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/timm/ecaresnet101d.miil_in1k/_decomposed/ecaresnet101d.miil_in1k_start18_end28_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/ecaresnet101d.miil_in1k/_decomposed/ecaresnet101d.miil_in1k_start18_end28_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/timm/ecaresnet101d.miil_in1k/_decomposed/ecaresnet101d.miil_in1k_start18_end28_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/timm/ecaresnet101d.miil_in1k/_decomposed/ecaresnet101d.miil_in1k_start18_end28_2

@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/mmseg/CGNet/_decomposed/CGNet_start411_end430_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/mmseg/CGNet/_decomposed/CGNet_start411_end430_24

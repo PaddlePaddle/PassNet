@@ -1,0 +1,9 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/convit_base/_decomposed/convit_base_start481_end536_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/convit_base/_decomposed/convit_base_start61_end116_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/convit_small/_decomposed/convit_small_start61_end116_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/convit_small/_decomposed/convit_small_start481_end536_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/convit_tiny/_decomposed/convit_tiny_start481_end536_16
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/convit_base/_decomposed/convit_base_start121_end176_4
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/convit_small/_decomposed/convit_small_start481_end536_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/convit_tiny/_decomposed/convit_tiny_start481_end536_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/convit_tiny/_decomposed/convit_tiny_start61_end116_2

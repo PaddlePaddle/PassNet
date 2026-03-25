@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection/_decomposed/nickmuchi_yolos-small-plant-disease-detection_start29_end31_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection/_decomposed/nickmuchi_yolos-small-plant-disease-detection_start29_end31_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/hustvl_yolos-small/_decomposed/hustvl_yolos-small_start29_end31_2

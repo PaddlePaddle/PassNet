@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/transformers-auto-model/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english/_decomposed/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english_start58_end60_15
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/transformers-auto-model/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english/_decomposed/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english_start58_end60_15
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english/_decomposed/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english_start58_end60_15
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-large-patch14/_decomposed/OFA-Sys_chinese-clip-vit-large-patch14_start754_end756_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english/_decomposed/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english_start58_end60_15
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14/_decomposed/OFA-Sys_chinese-clip-vit-huge-patch14_start1002_end1004_18

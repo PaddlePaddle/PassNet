@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/coatnet_nano_cc_224/_decomposed/coatnet_nano_cc_224_start2_end8_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/coatnet_nano_cc_224/_decomposed/coatnet_nano_cc_224_start2_end8_0

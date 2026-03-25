@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/timm/resnest50d_1s4x24d.in1k/_decomposed/resnest50d_1s4x24d.in1k_start106_end112_10
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/timm/resnest50d_1s4x24d.in1k/_decomposed/resnest50d_1s4x24d.in1k_start106_end112_10
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/resnest50d_1s4x24d.in1k/_decomposed/resnest50d_1s4x24d.in1k_start106_end112_10
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/timm/resnest50d_1s4x24d.in1k/_decomposed/resnest50d_1s4x24d.in1k_start106_end112_10
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/timm/resnest50d_1s4x24d.in1k/_decomposed/resnest50d_1s4x24d.in1k_start106_end112_10
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/resnest50d_1s4x24d.in1k/_decomposed/resnest50d_1s4x24d.in1k_start106_end112_10

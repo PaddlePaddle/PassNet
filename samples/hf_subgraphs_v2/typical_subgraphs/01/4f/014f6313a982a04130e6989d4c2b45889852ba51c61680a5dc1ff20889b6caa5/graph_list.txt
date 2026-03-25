@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5

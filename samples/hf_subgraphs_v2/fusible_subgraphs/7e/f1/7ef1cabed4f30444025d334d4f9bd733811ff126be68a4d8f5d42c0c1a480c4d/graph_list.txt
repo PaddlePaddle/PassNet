@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/transformers-auto-model/facebook_deit-base-distilled-patch16-384/_decomposed/facebook_deit-base-distilled-patch16-384_start15_end18_0

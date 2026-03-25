@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/coat_mini/_decomposed/coat_mini_start331_end335_57
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/timm/coat_mini/_decomposed/coat_mini_start331_end335_57
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/coat_mini/_decomposed/coat_mini_start331_end335_57
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/coat_mini/_decomposed/coat_mini_start219_end223_39
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/timm/coat_mini/_decomposed/coat_mini_start219_end223_39
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/coat_mini/_decomposed/coat_mini_start219_end223_39

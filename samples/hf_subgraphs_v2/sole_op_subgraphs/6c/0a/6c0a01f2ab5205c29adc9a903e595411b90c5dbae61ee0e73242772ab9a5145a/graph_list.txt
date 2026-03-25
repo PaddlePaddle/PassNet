@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter/_decomposed/neuralbioinfo_prokbert-mini-c-promoter_start109_end110_109
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter/_decomposed/neuralbioinfo_prokbert-mini-c-promoter_start109_end110_109
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/torchvision/googlenet/_decomposed/googlenet_start3_end4_3
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/torchvision/googlenet/_decomposed/googlenet_start7_end8_7
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/torchgeometric/GIN/_decomposed/GIN_start24_end25_24
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/torchvision/googlenet/_decomposed/googlenet_start11_end12_11

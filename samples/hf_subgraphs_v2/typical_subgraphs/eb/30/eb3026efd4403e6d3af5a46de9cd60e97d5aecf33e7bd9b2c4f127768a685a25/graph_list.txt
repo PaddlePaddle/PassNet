@@ -1,0 +1,11 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start19_end70_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start19_end70_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start19_end70_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SwinForImageClassification_start19_end70_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SwinForImageClassification_start19_end70_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start133_end184_6
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start133_end184_6
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start133_end184_6
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start76_end127_4
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start76_end127_4
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start76_end127_4

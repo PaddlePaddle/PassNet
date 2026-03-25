@@ -1,0 +1,9 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start140_end146_12
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start140_end146_12
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start140_end146_12
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/6/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start140_end146_12
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start140_end146_12
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start140_end146_12
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start140_end146_12
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start140_end146_12
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start140_end146_12

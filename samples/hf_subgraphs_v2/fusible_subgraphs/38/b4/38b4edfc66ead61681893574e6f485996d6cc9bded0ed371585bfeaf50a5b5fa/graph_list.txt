@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/KoboldAI_fairseq-dense-1.3B/_decomposed/KoboldAI_fairseq-dense-1.3B_start0_end19_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/KoboldAI_fairseq-dense-1.3B/_decomposed/KoboldAI_fairseq-dense-1.3B_start0_end19_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/facebook_xglm-564M/_decomposed/facebook_xglm-564M_start0_end19_0

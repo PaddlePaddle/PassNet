@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/mmpose/pose_shufflenetv1/_decomposed/pose_shufflenetv1_start64_end66_5

@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DPTModel/_decomposed/hf-tiny-model-private_tiny-random-DPTModel_start28_end32_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel/_decomposed/hf-tiny-model-private_tiny-random-DeiTModel_start21_end25_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/adhisetiawan_vit-resisc45/_decomposed/adhisetiawan_vit-resisc45_start20_end24_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/facebook_dino-vitb8/_decomposed/facebook_dino-vitb8_start20_end24_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/owkin_phikon-v2/_decomposed/owkin_phikon-v2_start21_end25_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Intel_dpt-large/_decomposed/Intel_dpt-large_start28_end32_7

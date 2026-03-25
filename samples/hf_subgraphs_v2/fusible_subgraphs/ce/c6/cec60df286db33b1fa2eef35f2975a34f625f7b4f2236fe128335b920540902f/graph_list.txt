@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/openai_whisper-base/_decomposed/openai_whisper-base_start0_end3_0

@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/hossamamer12_BUS15100_MB2_20epoch_notweettokenizer_fp16/_decomposed/hossamamer12_BUS15100_MB2_20epoch_notweettokenizer_fp16_start36_end44_6

@@ -1,0 +1,9 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start264_end271_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start264_end271_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start264_end271_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/4/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start264_end271_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/4/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start264_end271_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start264_end271_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/8/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start264_end271_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start264_end271_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start264_end271_0

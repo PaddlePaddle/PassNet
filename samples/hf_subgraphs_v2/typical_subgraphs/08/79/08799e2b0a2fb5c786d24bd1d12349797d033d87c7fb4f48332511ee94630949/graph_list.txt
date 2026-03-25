@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification_start0_end22_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification_start0_end22_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification_start0_end22_0

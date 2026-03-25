@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/1/samples/timm/regnetv_040.ra3_in1k/_decomposed/regnetv_040.ra3_in1k_start345_end362_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start397_end414_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/regnetv_040.ra3_in1k/_decomposed/regnetv_040.ra3_in1k_start345_end362_21
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start397_end414_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start397_end414_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/timm/regnetv_040.ra3_in1k/_decomposed/regnetv_040.ra3_in1k_start345_end362_21

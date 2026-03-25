@@ -1,0 +1,12 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/1/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/6/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start0_end50_0

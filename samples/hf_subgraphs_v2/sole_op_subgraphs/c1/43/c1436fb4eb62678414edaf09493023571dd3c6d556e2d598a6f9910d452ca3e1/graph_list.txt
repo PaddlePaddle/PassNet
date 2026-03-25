@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/torchvision/swin_v2_b/_decomposed/swin_v2_b_start1052_end1053_1052
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/MCG-NJU_videomae-base-finetuned-kinetics/_decomposed/MCG-NJU_videomae-base-finetuned-kinetics_start10_end11_10
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/beitv2_base_patch16_224/_decomposed/beitv2_base_patch16_224_start128_end129_128

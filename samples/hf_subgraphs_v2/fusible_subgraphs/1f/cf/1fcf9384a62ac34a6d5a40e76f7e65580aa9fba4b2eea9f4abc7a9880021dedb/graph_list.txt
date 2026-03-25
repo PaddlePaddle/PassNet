@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/AK_ak_nlp/_decomposed/AK_ak_nlp_start2_end10_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/transformers-auto-model/AK_ak_nlp/_decomposed/AK_ak_nlp_start2_end10_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/AK_ak_nlp/_decomposed/AK_ak_nlp_start2_end10_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/6/samples/transformers-auto-model/tau_tavbert-he/_decomposed/tau_tavbert-he_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/4/samples/transformers-auto-model/AK_ak_nlp/_decomposed/AK_ak_nlp_start2_end10_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/transformers-auto-model/AK_ak_nlp/_decomposed/AK_ak_nlp_start2_end10_1

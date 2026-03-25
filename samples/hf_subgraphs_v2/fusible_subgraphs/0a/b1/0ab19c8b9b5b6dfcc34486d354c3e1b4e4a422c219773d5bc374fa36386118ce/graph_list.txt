@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/timm/mobileone_s0.apple_in1k/_decomposed/mobileone_s0.apple_in1k_start669_end675_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/timm/mobileone_s0.apple_in1k/_decomposed/mobileone_s0.apple_in1k_start669_end675_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/6/samples/timm/mobileone_s0.apple_in1k/_decomposed/mobileone_s0.apple_in1k_start669_end675_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/timm/mobileone_s0.apple_in1k/_decomposed/mobileone_s0.apple_in1k_start669_end675_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/timm/mobileone_s0.apple_in1k/_decomposed/mobileone_s0.apple_in1k_start669_end675_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/timm/mobileone_s0.apple_in1k/_decomposed/mobileone_s0.apple_in1k_start669_end675_3

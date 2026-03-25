@@ -1,0 +1,10 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/transformers-auto-model/Visual-Attention-Network_van-tiny/_decomposed/Visual-Attention-Network_van-tiny_start287_end341_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start215_end269_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/transformers-auto-model/Visual-Attention-Network_van-tiny/_decomposed/Visual-Attention-Network_van-tiny_start287_end341_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start215_end269_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start215_end269_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/transformers-auto-model/Visual-Attention-Network_van-tiny/_decomposed/Visual-Attention-Network_van-tiny_start287_end341_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start215_end269_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/transformers-auto-model/Visual-Attention-Network_van-tiny/_decomposed/Visual-Attention-Network_van-tiny_start287_end341_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/transformers-auto-model/Visual-Attention-Network_van-tiny/_decomposed/Visual-Attention-Network_van-tiny_start287_end341_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/Visual-Attention-Network_van-tiny/_decomposed/Visual-Attention-Network_van-tiny_start287_end341_0

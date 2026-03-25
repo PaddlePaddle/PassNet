@@ -1,0 +1,9 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/crossvit_tiny_240.in1k/_decomposed/crossvit_tiny_240.in1k_start0_end17_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/crossvit_tiny_240.in1k/_decomposed/crossvit_tiny_240.in1k_start0_end17_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/crossvit_tiny_240.in1k/_decomposed/crossvit_tiny_240.in1k_start0_end17_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/crossvit_18_240.in1k/_decomposed/crossvit_18_240.in1k_start0_end17_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/crossvit_15_240.in1k/_decomposed/crossvit_15_240.in1k_start0_end17_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/crossvit_18_240.in1k/_decomposed/crossvit_18_240.in1k_start0_end17_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/crossvit_base_240.in1k/_decomposed/crossvit_base_240.in1k_start0_end17_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/crossvit_base_240.in1k/_decomposed/crossvit_base_240.in1k_start0_end17_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/crossvit_base_240.in1k/_decomposed/crossvit_base_240.in1k_start0_end17_0

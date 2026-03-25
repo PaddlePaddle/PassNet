@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-ConvBertForSequenceClassification_start31_end34_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-ConvBertForSequenceClassification_start31_end34_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/Finnish-NLP_convbert-base-generator-finnish/_decomposed/Finnish-NLP_convbert-base-generator-finnish_start31_end34_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/Finnish-NLP_convbert-base-generator-finnish/_decomposed/Finnish-NLP_convbert-base-generator-finnish_start31_end34_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/YituTech_conv-bert-base/_decomposed/YituTech_conv-bert-base_start30_end33_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/YituTech_conv-bert-base/_decomposed/YituTech_conv-bert-base_start30_end33_6

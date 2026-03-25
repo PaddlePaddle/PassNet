@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/hgnet_small.paddle_in1k/_decomposed/hgnet_small.paddle_in1k_start142_end153_15
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/timm/hgnet_small.paddle_in1k/_decomposed/hgnet_small.paddle_in1k_start142_end153_15
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/timm/hgnet_small.paddle_in1k/_decomposed/hgnet_small.paddle_in1k_start142_end153_15
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/timm/hgnet_small.paddle_in1k/_decomposed/hgnet_small.paddle_in1k_start142_end153_15
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/timm/hgnet_small.paddle_in1k/_decomposed/hgnet_small.paddle_in1k_start142_end153_15
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/timm/hgnet_small.paddle_in1k/_decomposed/hgnet_small.paddle_in1k_start142_end153_15

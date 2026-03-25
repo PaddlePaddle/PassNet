@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/timm/starnet_s1.in1k/_decomposed/starnet_s1.in1k_start8_end11_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/timm/starnet_s1.in1k/_decomposed/starnet_s1.in1k_start8_end11_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/starnet_s1.in1k/_decomposed/starnet_s1.in1k_start8_end11_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/6/samples/timm/starnet_s1.in1k/_decomposed/starnet_s1.in1k_start8_end11_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/timm/starnet_s1.in1k/_decomposed/starnet_s1.in1k_start8_end11_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/timm/starnet_s1.in1k/_decomposed/starnet_s1.in1k_start8_end11_0

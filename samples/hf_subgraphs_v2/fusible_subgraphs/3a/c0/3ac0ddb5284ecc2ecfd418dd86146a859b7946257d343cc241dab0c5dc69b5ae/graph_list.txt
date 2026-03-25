@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/polejowska_cdetr-cd45rb-s/_decomposed/polejowska_cdetr-cd45rb-s_start1232_end1238_13
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/polejowska_cdetr-cd45rb-s/_decomposed/polejowska_cdetr-cd45rb-s_start1232_end1238_13
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/polejowska_cdetr-cd45rb-s/_decomposed/polejowska_cdetr-cd45rb-s_start937_end943_7

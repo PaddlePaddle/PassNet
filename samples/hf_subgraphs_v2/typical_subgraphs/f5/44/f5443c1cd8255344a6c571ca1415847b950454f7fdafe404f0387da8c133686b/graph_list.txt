@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/timm/fasternet_l.in1k/_decomposed/fasternet_l.in1k_start285_end293_28
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/timm/fasternet_l.in1k/_decomposed/fasternet_l.in1k_start285_end293_28
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/fasternet_l.in1k/_decomposed/fasternet_l.in1k_start285_end293_28
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/timm/fasternet_l.in1k/_decomposed/fasternet_l.in1k_start285_end293_28
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/timm/fasternet_l.in1k/_decomposed/fasternet_l.in1k_start285_end293_28
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/timm/fasternet_l.in1k/_decomposed/fasternet_l.in1k_start285_end293_28

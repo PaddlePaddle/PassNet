@@ -1,0 +1,4 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start136_end139_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/6/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start136_end139_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/6/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start136_end139_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en/_decomposed/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en_start136_end139_18

@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/mmseg/ANN_R101/_decomposed/ANN_R101_start350_end353_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/mmseg/ANN_R101/_decomposed/ANN_R101_start350_end353_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/mmseg/ANN_R101/_decomposed/ANN_R101_start350_end353_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/4/samples/mmseg/ANN_R101/_decomposed/ANN_R101_start350_end353_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/mmseg/ANN_R101/_decomposed/ANN_R101_start350_end353_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/mmseg/ANN_R101/_decomposed/ANN_R101_start350_end353_8

@@ -1,0 +1,17 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel/_decomposed/hf-tiny-model-private_tiny-random-MobileViTModel_start148_end160_11
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel/_decomposed/hf-tiny-model-private_tiny-random-MobileViTModel_start148_end160_11
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel/_decomposed/hf-tiny-model-private_tiny-random-MobileViTModel_start292_end304_28
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start148_end160_11
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start291_end303_28
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevit-small/_decomposed/apple_mobilevit-small_start291_end303_28
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/apple_mobilevit-small/_decomposed/apple_mobilevit-small_start61_end73_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start61_end73_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevit-small/_decomposed/apple_mobilevit-small_start61_end73_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/vinvino02_glpn-nyu/_decomposed/vinvino02_glpn-nyu_start1555_end1567_224
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/vinvino02_glpn-nyu/_decomposed/vinvino02_glpn-nyu_start1555_end1567_224
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start1995_end2007_290
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start1995_end2007_290
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start1995_end2007_290
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start275_end287_32
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start275_end287_32
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start275_end287_32

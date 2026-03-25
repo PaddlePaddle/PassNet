@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/AkshatSurolia_ConvNeXt-FaceMask-Finetuned/_decomposed/AkshatSurolia_ConvNeXt-FaceMask-Finetuned_start100_end101_100
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/AkshatSurolia_ConvNeXt-FaceMask-Finetuned/_decomposed/AkshatSurolia_ConvNeXt-FaceMask-Finetuned_start100_end101_100

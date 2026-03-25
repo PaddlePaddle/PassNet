@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/torchvision/vit_l_16/_decomposed/vit_l_16_start104_end105_104
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/torchvision/vit_h_14/_decomposed/vit_h_14_start104_end105_104

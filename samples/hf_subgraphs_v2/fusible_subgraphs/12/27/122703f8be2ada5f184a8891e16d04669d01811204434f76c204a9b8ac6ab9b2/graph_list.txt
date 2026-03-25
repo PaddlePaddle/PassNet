@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Hezam_ArabicT5_Classification/_decomposed/Hezam_ArabicT5_Classification_start1520_end1525_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/transformers-auto-model/google-t5_t5-large/_decomposed/google-t5_t5-large_start1820_end1825_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/google-t5_t5-large/_decomposed/google-t5_t5-large_start1820_end1825_6

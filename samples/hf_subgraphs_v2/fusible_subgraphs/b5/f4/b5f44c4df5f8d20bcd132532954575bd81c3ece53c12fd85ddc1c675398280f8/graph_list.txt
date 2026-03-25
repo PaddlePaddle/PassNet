@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/torchvision/alexnet/_decomposed/alexnet_start13_end16_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/torchvision/alexnet/_decomposed/alexnet_start13_end16_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/torchvision/alexnet/_decomposed/alexnet_start13_end16_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/torchvision/alexnet/_decomposed/alexnet_start13_end16_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/torchvision/alexnet/_decomposed/alexnet_start13_end16_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/torchvision/alexnet/_decomposed/alexnet_start13_end16_5

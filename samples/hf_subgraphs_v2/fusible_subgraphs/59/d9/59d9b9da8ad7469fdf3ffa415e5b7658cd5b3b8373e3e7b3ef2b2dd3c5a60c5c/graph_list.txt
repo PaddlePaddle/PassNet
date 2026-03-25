@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/mmseg/Twins_svt-s_fpn/_decomposed/Twins_svt-s_fpn_start40_end46_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/mmseg/Twins_svt-b_fpn/_decomposed/Twins_svt-b_fpn_start40_end46_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmseg/Twins_svt-l_fpn/_decomposed/Twins_svt-l_fpn_start40_end46_5

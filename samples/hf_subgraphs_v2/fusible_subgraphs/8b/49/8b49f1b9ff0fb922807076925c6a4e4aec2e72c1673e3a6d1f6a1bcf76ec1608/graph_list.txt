@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/mmpose/SimpleBaseline3D/_decomposed/SimpleBaseline3D_start19_end24_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/mmpose/SimpleBaseline3D/_decomposed/SimpleBaseline3D_start19_end24_4

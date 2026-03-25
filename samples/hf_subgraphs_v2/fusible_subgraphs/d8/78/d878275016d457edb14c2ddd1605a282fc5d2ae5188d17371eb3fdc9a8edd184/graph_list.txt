@@ -1,0 +1,11 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BigBirdForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-BigBirdForSequenceClassification_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start5_end12_1

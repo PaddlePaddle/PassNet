@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start155_end161_20
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start155_end161_20
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start155_end161_20

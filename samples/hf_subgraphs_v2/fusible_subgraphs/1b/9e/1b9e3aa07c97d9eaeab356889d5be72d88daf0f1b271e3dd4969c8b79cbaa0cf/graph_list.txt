@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_conditional-detr-resnet-50/_decomposed/microsoft_conditional-detr-resnet-50_start1194_end1208_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/microsoft_conditional-detr-resnet-50/_decomposed/microsoft_conditional-detr-resnet-50_start1194_end1208_1
