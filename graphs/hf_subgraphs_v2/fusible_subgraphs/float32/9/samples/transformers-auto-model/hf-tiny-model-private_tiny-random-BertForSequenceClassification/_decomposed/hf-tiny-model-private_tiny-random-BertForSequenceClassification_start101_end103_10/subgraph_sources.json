@@ -1,0 +1,58 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification": [
+        [
+            95,
+            97
+        ],
+        [
+            101,
+            103
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BlipModel": [
+        [
+            156,
+            158
+        ],
+        [
+            162,
+            164
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvBertForSequenceClassification": [
+        [
+            266,
+            268
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification": [
+        [
+            33,
+            35
+        ],
+        [
+            121,
+            123
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-FNetForSequenceClassification": [
+        [
+            17,
+            19
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            47,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-FlaubertForSequenceClassification": [
+        [
+            51,
+            53
+        ]
+    ]
+}

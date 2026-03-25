@@ -1,0 +1,74 @@
+{
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            1505,
+            1507
+        ]
+    ],
+    "samples/transformers-auto-model/gagan3012_swin_arocr_tiny": [
+        [
+            928,
+            930
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification": [
+        [
+            246,
+            248
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2ForImageClassification": [
+        [
+            290,
+            292
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2Model": [
+        [
+            290,
+            292
+        ]
+    ],
+    "samples/transformers-auto-model/ibombonato_swin-age-classifier": [
+        [
+            755,
+            757
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k": [
+        [
+            1505,
+            1507
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-large-patch4-window12-384-in22k": [
+        [
+            1505,
+            1507
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-large-patch4-window7-224-in22k": [
+        [
+            1505,
+            1507
+        ]
+    ],
+    "samples/transformers-auto-model/vuiseng9_tiny-random-SwinModel": [
+        [
+            246,
+            248
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-SwinModel": [
+        [
+            246,
+            248
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224": [
+        [
+            226,
+            228
+        ]
+    ]
+}

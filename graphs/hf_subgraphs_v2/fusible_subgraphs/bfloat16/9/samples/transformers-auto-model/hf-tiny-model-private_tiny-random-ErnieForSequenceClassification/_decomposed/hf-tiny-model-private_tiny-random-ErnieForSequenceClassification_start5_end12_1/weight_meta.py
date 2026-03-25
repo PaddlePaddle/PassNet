@@ -1,0 +1,83 @@
+class Program_weight_tensor_meta_L_input_ids_:
+	name = "in_0"
+	original_name = "L_input_ids_"
+	shape = [1, 45]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [1, 49, 804, 800, 807, 811, 798, 797, 799, 51, 792, 63, 792, 797, 795, 62, 790, 47, 818, 799, 804, 800, 801, 799, 45, 790, 791, 807, 794, 799, 800, 799, 796, 790, 798, 800, 805, 49, 804, 800, 807, 811, 792, 18, 2]
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_LayerNorm_parameters_bias_:
+	name = "in_1"
+	original_name = "L_self_modules_embeddings_modules_LayerNorm_parameters_bias_"
+	shape = [32]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+	data = [0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000]
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_LayerNorm_parameters_weight_:
+	name = "in_2"
+	original_name = "L_self_modules_embeddings_modules_LayerNorm_parameters_weight_"
+	shape = [32]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+	data = [1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000]
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_position_embeddings_parameters_weight_:
+	name = "in_3"
+	original_name = "L_self_modules_embeddings_modules_position_embeddings_parameters_weight_"
+	shape = [512, 32]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.020
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_token_type_embeddings_parameters_weight_:
+	name = "in_4"
+	original_name = "L_self_modules_embeddings_modules_token_type_embeddings_parameters_weight_"
+	shape = [16, 32]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.001
+	std = 0.018
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_word_embeddings_parameters_weight_:
+	name = "in_5"
+	original_name = "L_self_modules_embeddings_modules_word_embeddings_parameters_weight_"
+	shape = [1124, 32]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.020
+
+
+class Program_weight_tensor_meta_L_token_type_ids_:
+	name = "in_6"
+	original_name = "L_token_type_ids_"
+	shape = [1, 45]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+class Program_weight_tensor_meta_position_ids:
+	name = "in_7"
+	original_name = "position_ids"
+	shape = [1, 45]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [255, 409, 372, 407, 345, 248, 150, 81, 398, 203, 60, 434, 205, 323, 324, 217, 116, 168, 123, 303, 502, 15, 265, 361, 266, 484, 346, 157, 210, 461, 440, 207, 462, 434, 262, 393, 55, 20, 86, 223, 118, 341, 46, 73, 88]

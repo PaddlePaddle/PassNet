@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/apple_aimv2-huge-patch14-336": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-336": [
+        [
+            12,
+            13
+        ]
+    ]
+}

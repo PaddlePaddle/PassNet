@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/ibombonato_swin-age-classifier": [
+        [
+            363,
+            378
+        ],
+        [
+            613,
+            628
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-small-patch4-window7-224": [
+        [
+            863,
+            878
+        ]
+    ]
+}

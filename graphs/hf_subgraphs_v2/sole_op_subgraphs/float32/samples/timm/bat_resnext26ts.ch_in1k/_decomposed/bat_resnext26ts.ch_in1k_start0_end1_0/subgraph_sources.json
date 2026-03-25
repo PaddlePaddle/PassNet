@@ -1,0 +1,2268 @@
+{
+    "samples/timm/bat_resnext26ts.ch_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/botnet26t_256.c1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_0_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_0_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_1_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_1_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_2_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_2_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_3_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_4_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_5_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_bn_0_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_nano_cc_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_nano_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_pico_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_0_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_1_rw2_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_1_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_2_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_2_rw_384": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_3_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_nano_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/coatnext_nano_rw_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cs3darknet_l.c2ns_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cs3darknet_m.c2ns_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cs3darknet_s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cs3darknet_x.c2ns_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cs3edgenet_x.c2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cs3se_edgenet_x.c2ns_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cs3sedarknet_l.c2ns_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cs3sedarknet_x.c2ns_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cs3sedarknet_xdw": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cspresnet50d": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/densenet264d": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/densenetblur121d.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/dpn48b": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/dpn68.mx_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/dpn68b.mx_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eca_botnext26ts_256": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eca_halonext26ts": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eca_resnet33ts.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eca_resnext26ts.ch_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/eca_vovnet39b": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/ecaresnet101d.miil_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/ecaresnet269d.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/ecaresnet26t.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/ecaresnet50d.miil_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnet_b0.ra4_e3600_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnet_b1.ft_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnet_b2.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnet_b3.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnet_b4.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnet_b5.sw_in12k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnet_el.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnet_em.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnet_es.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnet_lite0.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnetv2_rw_m.agc_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnetv2_rw_s.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/efficientnetv2_rw_t.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/ese_vovnet19b_dw.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/ese_vovnet39b.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/ese_vovnet57b.ra4_e3600_r256_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/fastvit_s12.apple_dist_in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/fastvit_t8.apple_dist_in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/timm/fbnetc_100.rmsp_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/fbnetv3_b.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/fbnetv3_d.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/fbnetv3_g.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/gernet_l.idstcv_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/gernet_m.idstcv_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/gernet_s.idstcv_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/ghostnet_100.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hardcorenas_a.miil_green_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hardcorenas_c.miil_green_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hardcorenas_d.miil_green_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hardcorenas_e.miil_green_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hardcorenas_f.miil_green_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hgnet_base.ssld_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hgnet_small.paddle_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hgnet_tiny.paddle_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hgnetv2_b0.ssld_stage1_in22k_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hgnetv2_b1.ssld_stage1_in22k_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hgnetv2_b2.ssld_stage1_in22k_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hgnetv2_b3.ssld_stage1_in22k_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hgnetv2_b4.ssld_stage1_in22k_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hgnetv2_b5.ssld_stage1_in22k_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hgnetv2_b6.ssld_stage1_in22k_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hrnet_w18.ms_aug_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hrnet_w18_small.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hrnet_w18_small_v2.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/hrnet_w18_ssld.paddle_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/lcnet_050.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/lcnet_075.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/lcnet_100.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mixnet_l.ft_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mixnet_m.ft_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mixnet_s.ft_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mixnet_xl.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mnasnet_small.lamb_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv1_100.ra4_e3600_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv1_100h.ra4_e3600_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv1_125.ra4_e3600_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv2_050.lamb_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv2_100.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv2_110d.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv2_120d.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv2_140.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_100.miil_in21k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_150d.ra4_e3600_r256_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv3_rw.rmsp_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_050.lamb_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_075.lamb_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_100.lamb_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_aa_large.e230_r384_in12k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_blur_medium.e500_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_large.e500_r256_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_medium.e180_ad_r384_in12k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_small.e1200_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_small_050.e3000_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/mobileone_s0.apple_in1k": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/timm/mobileone_s1.apple_in1k": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/timm/mobileone_s2.apple_in1k": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/timm/mobileone_s3.apple_in1k": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/timm/mobileone_s4.apple_in1k": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/timm/regnetv_040.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetv_064.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_002.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_004.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_004_tv.tv2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_006.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_008.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_016.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_032.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_040.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_064.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_080.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_120.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_160.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetx_320.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_002.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_004.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_006.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_008.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_008_tv.tv2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_016.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_032.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_040.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_064.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_080.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_080_tv.tv2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_1280.seer": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_1280.seer_ft_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_160.deit_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_320.pycls_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_320.seer": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_640.seer": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnety_640.seer_ft_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetz_040.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetz_040_h.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetz_b16.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetz_c16.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetz_d32.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetz_d8.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/regnetz_e8.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repghostnet_050.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repghostnet_058.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repghostnet_080.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repghostnet_100.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repghostnet_111.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repghostnet_130.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repghostnet_200.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repvgg_a0.rvgg_in1k": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/timm/repvgg_b0.rvgg_in1k": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/timm/repvgg_b1g4.rvgg_in1k": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/timm/repvgg_d2se.rvgg_in1k": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/timm/repvit_m0_9.dist_300e_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repvit_m1.dist_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repvit_m1_0.dist_300e_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repvit_m1_1.dist_300e_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repvit_m1_5.dist_300e_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repvit_m2.dist_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repvit_m2_3.dist_300e_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/repvit_m3.dist_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/res2net101d": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/res2net50d.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnest50d_1s4x24d.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet101_clip_gap.openai": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet101c.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet101d.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet10t.c3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet14t.c3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet152c.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet152d.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet18d.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet200d.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet26d.bt_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet32ts.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet33ts.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet34d.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet50_clip_gap.cc12m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet50c.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet50d.a1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet50x16_clip_gap.openai": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet50x4_clip_gap.openai": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet50x64_clip_gap.openai": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet51q.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet61q.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetaa101d.sw_in12k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetaa50d.d_in12k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetblur50d": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetrs101.tf_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetrs152.tf_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetrs200.tf_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetrs270.tf_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetrs350.tf_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetrs420.tf_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetrs50.tf_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetv2_18d.ra4_e3600_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetv2_34d.ra4_e3600_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnext26ts.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnext50d_32x4d.bt_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/rexnet_100.nav_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/rexnet_130.nav_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/rexnet_150.nav_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/rexnet_200.nav_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/rexnet_300.nav_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/rexnetr_200.sw_in12k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/rexnetr_300.sw_in12k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/selecsls42b.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/selecsls60.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/semnasnet_075.rmsp_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/semnasnet_100.rmsp_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/senet154.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnet152d.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnet33ts.ra2_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnext101d_32x8d.ah_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnext26d_32x4d.bt_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnext26ts.ch_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnextaa101d_32x8d.ah_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnextaa201d_32x8d.sw_in12k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/spnasnet_100.rmsp_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/test_byobnet.r160_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/test_efficientnet.r160_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/test_efficientnet_ln.r160_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/test_resnet.r160_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/tinynet_a.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/tinynet_b.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/tinynet_c.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/tinynet_d.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/tinynet_e.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/xception41.tf_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/xception41p.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/xception65.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/xception65p.ra3_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/xception71.tf_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/deeplabv3_mobilenet_v3_large": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_b0": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_b1": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_b2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_b3": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_b4": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_b5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_b6": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_b7": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_v2_l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_v2_m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/efficientnet_v2_s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/maxvit_t": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/mnasnet0_5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/mnasnet0_75": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/mnasnet1_0": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/mnasnet1_3": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/mobilenet_v2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_large": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_small": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_x_16gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_x_1_6gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_x_32gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_x_3_2gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_x_400mf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_x_800mf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_x_8gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_y_128gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_y_16gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_y_1_6gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_y_32gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_y_3_2gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_y_400mf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_y_800mf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/regnet_y_8gf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x0_5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x1_0": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x1_5": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/shufflenet_v2_x2_0": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11l-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11l-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11l-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11l-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11m-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11m-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11m-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11m-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11n": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11n-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11n-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11n-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11n-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11s-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11s-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11s-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11s-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11x": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11x-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11x-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11x-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo11x-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12l-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12l-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12l-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12l-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12m-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12m-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12m-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12m-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12n": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12n-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12n-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12n-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12n-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12s-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12s-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12s-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12s-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12x": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12x-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12x-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12x-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolo12x-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov10l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov10m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov10n": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov10s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov10x": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov6l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov6m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov6n": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8l-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8l-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8l-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8l-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8m-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8m-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8m-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8m-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8n": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8n-cls": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8n-obb": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8n-pose": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov8n-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov9c": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov9c-seg": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov9e-seg": [
+        [
+            0,
+            1
+        ],
+        [
+            387,
+            388
+        ]
+    ],
+    "samples/ultralytics/yolov9m": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/ultralytics/yolov9t": [
+        [
+            0,
+            1
+        ]
+    ]
+}

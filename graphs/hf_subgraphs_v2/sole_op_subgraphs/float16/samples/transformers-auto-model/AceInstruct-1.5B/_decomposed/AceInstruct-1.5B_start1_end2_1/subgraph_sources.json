@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/AceInstruct-1.5B": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Biggie-SmoLlm-0.4B": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/EXAONE-4.0-1.2B": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/SmolLM3-3B": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/opt-350m-email-generation": [
+        [
+            2,
+            3
+        ]
+    ]
+}

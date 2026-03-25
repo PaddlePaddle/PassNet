@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BartForSequenceClassification": [
+        [
+            72,
+            74
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification": [
+        [
+            82,
+            84
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PLBartForSequenceClassification": [
+        [
+            72,
+            74
+        ]
+    ]
+}

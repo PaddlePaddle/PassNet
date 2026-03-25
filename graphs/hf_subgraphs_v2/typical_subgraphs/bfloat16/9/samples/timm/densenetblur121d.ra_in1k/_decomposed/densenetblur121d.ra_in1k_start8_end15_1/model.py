@@ -1,0 +1,16 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, w_0 : torch.Tensor, w_1 : torch.Tensor, w_2 : torch.Tensor, w_3 : torch.Tensor, w_4 : torch.Tensor, in_0 : torch.Tensor):
+        tmp_5 = torch.nn.functional.relu(in_0, inplace = True);  in_0 = None
+        tmp_6 = torch.nn.functional.max_pool2d(tmp_5, 3, 1, 1, 1, ceil_mode = False, return_indices = False);  tmp_5 = None
+        tmp_7 = torch.nn.functional.pad(tmp_6, [1, 1, 1, 1], 'reflect', None);  tmp_6 = None
+        conv2d = torch.conv2d(tmp_7, w_4, stride = 2, groups = 64);  tmp_7 = w_4 = None
+        tmp_9 = torch.cat([conv2d], 1)
+        tmp_10 = torch.nn.functional.batch_norm(tmp_9, w_0, w_1, w_3, w_2, False, 0.1, 1e-05);  tmp_9 = w_0 = w_1 = w_3 = w_2 = None
+        tmp_11 = torch.nn.functional.relu(tmp_10, inplace = True);  tmp_10 = None
+        return (conv2d, tmp_11)
+        

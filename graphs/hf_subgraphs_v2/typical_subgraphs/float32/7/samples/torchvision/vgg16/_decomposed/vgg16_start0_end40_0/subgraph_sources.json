@@ -1,0 +1,8 @@
+{
+    "samples/torchvision/vgg16": [
+        [
+            0,
+            40
+        ]
+    ]
+}

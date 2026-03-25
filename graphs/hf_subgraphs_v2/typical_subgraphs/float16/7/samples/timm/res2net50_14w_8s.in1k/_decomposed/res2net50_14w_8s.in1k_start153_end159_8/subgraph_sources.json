@@ -1,0 +1,14 @@
+{
+    "samples/timm/res2net50_14w_8s.in1k": [
+        [
+            153,
+            159
+        ]
+    ],
+    "samples/timm/res2net50_26w_8s.in1k": [
+        [
+            153,
+            159
+        ]
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "samples/mmpose/2xmspn_50": [
+        [
+            422,
+            428
+        ]
+    ],
+    "samples/mmpose/3xmspn_50": [
+        [
+            649,
+            655
+        ]
+    ],
+    "samples/mmpose/4xmspn_50": [
+        [
+            876,
+            882
+        ]
+    ],
+    "samples/mmpose/mspn_50": [
+        [
+            195,
+            201
+        ]
+    ],
+    "samples/mmpose/rsn_18": [
+        [
+            425,
+            431
+        ]
+    ],
+    "samples/mmpose/rsn_50": [
+        [
+            817,
+            823
+        ]
+    ]
+}

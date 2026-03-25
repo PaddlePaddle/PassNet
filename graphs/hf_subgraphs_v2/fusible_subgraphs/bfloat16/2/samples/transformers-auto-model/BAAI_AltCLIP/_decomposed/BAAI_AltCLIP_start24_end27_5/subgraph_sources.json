@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/BAAI_AltCLIP": [
+        [
+            24,
+            27
+        ],
+        [
+            53,
+            56
+        ]
+    ],
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14": [
+        [
+            1015,
+            1018
+        ],
+        [
+            1018,
+            1021
+        ],
+        [
+            1050,
+            1053
+        ],
+        [
+            1053,
+            1056
+        ]
+    ]
+}

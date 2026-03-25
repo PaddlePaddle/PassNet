@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224": [
+        [
+            265,
+            270
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_small_distilled_patch16_224": [
+        [
+            265,
+            270
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dino-vits8": [
+        [
+            264,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-small-printed": [
+        [
+            265,
+            270
+        ]
+    ]
+}

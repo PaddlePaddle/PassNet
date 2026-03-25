@@ -1,0 +1,26 @@
+{
+    "samples/timm/eva02_small_patch14_224.mim_in22k": [
+        [
+            57,
+            60
+        ],
+        [
+            561,
+            564
+        ],
+        [
+            673,
+            676
+        ]
+    ],
+    "samples/timm/eva02_tiny_patch14_224.mim_in22k": [
+        [
+            57,
+            60
+        ],
+        [
+            561,
+            564
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/laion_CLIP-ViT-H-14-laion2B-s32B-b79K": [
+        [
+            0,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/yuvalkirstain_PickScore_v1": [
+        [
+            0,
+            13
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            10,
+            14
+        ],
+        [
+            50,
+            54
+        ]
+    ]
+}

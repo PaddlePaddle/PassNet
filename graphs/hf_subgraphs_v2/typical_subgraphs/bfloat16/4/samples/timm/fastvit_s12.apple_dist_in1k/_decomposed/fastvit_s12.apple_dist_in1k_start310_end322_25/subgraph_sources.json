@@ -1,0 +1,14 @@
+{
+    "samples/timm/fastvit_s12.apple_dist_in1k": [
+        [
+            310,
+            322
+        ]
+    ],
+    "samples/timm/fastvit_t8.apple_dist_in1k": [
+        [
+            268,
+            280
+        ]
+    ]
+}

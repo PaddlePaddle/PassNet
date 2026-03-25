@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification": [
+        [
+            24,
+            32
+        ],
+        [
+            111,
+            119
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieForSequenceClassification": [
+        [
+            23,
+            31
+        ]
+    ]
+}

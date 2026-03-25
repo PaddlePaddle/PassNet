@@ -1,0 +1,12 @@
+{
+    "samples/timm/ecaresnet101d.miil_in1k": [
+        [
+            43,
+            48
+        ],
+        [
+            568,
+            573
+        ]
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "samples/timm/efficientnet_b0.ra4_e3600_r224_in1k": [
+        [
+            235,
+            239
+        ]
+    ],
+    "samples/timm/efficientnet_b1.ft_in1k": [
+        [
+            337,
+            341
+        ]
+    ],
+    "samples/timm/efficientnet_b2.ra_in1k": [
+        [
+            337,
+            341
+        ]
+    ],
+    "samples/timm/efficientnet_b3.ra2_in1k": [
+        [
+            382,
+            386
+        ]
+    ],
+    "samples/timm/efficientnet_b4.ra2_in1k": [
+        [
+            472,
+            476
+        ]
+    ],
+    "samples/timm/efficientnet_b5.sw_in12k": [
+        [
+            574,
+            578
+        ]
+    ],
+    "samples/timm/efficientnetv2_rw_m.agc_in1k": [
+        [
+            783,
+            787
+        ]
+    ],
+    "samples/timm/efficientnetv2_rw_s.ra2_in1k": [
+        [
+            510,
+            514
+        ]
+    ],
+    "samples/timm/efficientnetv2_rw_t.ra2_in1k": [
+        [
+            491,
+            495
+        ]
+    ],
+    "samples/timm/tinynet_a.in1k": [
+        [
+            280,
+            284
+        ]
+    ],
+    "samples/timm/tinynet_b.in1k": [
+        [
+            235,
+            239
+        ]
+    ],
+    "samples/timm/tinynet_c.in1k": [
+        [
+            220,
+            224
+        ]
+    ],
+    "samples/timm/tinynet_d.in1k": [
+        [
+            160,
+            164
+        ]
+    ],
+    "samples/timm/tinynet_e.in1k": [
+        [
+            145,
+            149
+        ]
+    ]
+}

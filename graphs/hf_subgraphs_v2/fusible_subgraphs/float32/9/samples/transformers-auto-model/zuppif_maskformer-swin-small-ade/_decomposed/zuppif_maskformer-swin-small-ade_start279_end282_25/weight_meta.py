@@ -1,0 +1,58 @@
+class Program_weight_tensor_meta_L_self_modules_pixel_level_module_modules_encoder_modules_model_modules_encoder_modules_layers_modules_1_modules_downsample_modules_norm_parameters_bias_:
+	name = "in_0"
+	original_name = "L_self_modules_pixel_level_module_modules_encoder_modules_model_modules_encoder_modules_layers_modules_1_modules_downsample_modules_norm_parameters_bias_"
+	shape = [768]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_pixel_level_module_modules_encoder_modules_model_modules_encoder_modules_layers_modules_1_modules_downsample_modules_norm_parameters_weight_:
+	name = "in_1"
+	original_name = "L_self_modules_pixel_level_module_modules_encoder_modules_model_modules_encoder_modules_layers_modules_1_modules_downsample_modules_norm_parameters_weight_"
+	shape = [768]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_input_feature_15:
+	name = "in_2"
+	original_name = "input_feature_15"
+	shape = [1, 32, 32, 192]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.007
+	std = 0.068
+
+
+class Program_weight_tensor_meta_input_feature_16:
+	name = "in_3"
+	original_name = "input_feature_16"
+	shape = [1, 32, 32, 192]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.007
+	std = 0.068
+
+
+class Program_weight_tensor_meta_input_feature_17:
+	name = "in_4"
+	original_name = "input_feature_17"
+	shape = [1, 32, 32, 192]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.007
+	std = 0.068
+
+
+class Program_weight_tensor_meta_input_feature_18:
+	name = "in_5"
+	original_name = "input_feature_18"
+	shape = [1, 32, 32, 192]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.007
+	std = 0.068

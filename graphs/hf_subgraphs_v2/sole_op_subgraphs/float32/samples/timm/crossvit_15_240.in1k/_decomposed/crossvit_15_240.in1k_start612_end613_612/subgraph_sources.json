@@ -1,0 +1,68 @@
+{
+    "samples/timm/crossvit_15_240.in1k": [
+        [
+            612,
+            613
+        ]
+    ],
+    "samples/timm/crossvit_15_dagger_240.in1k": [
+        [
+            620,
+            621
+        ]
+    ],
+    "samples/timm/crossvit_15_dagger_408.in1k": [
+        [
+            621,
+            622
+        ]
+    ],
+    "samples/timm/crossvit_18_240.in1k": [
+        [
+            675,
+            676
+        ]
+    ],
+    "samples/timm/crossvit_18_dagger_240.in1k": [
+        [
+            683,
+            684
+        ]
+    ],
+    "samples/timm/crossvit_18_dagger_408.in1k": [
+        [
+            684,
+            685
+        ]
+    ],
+    "samples/timm/crossvit_9_240.in1k": [
+        [
+            486,
+            487
+        ]
+    ],
+    "samples/timm/crossvit_9_dagger_240.in1k": [
+        [
+            494,
+            495
+        ]
+    ],
+    "samples/timm/crossvit_base_240.in1k": [
+        [
+            549,
+            550
+        ]
+    ],
+    "samples/timm/crossvit_small_240.in1k": [
+        [
+            549,
+            550
+        ]
+    ],
+    "samples/timm/crossvit_tiny_240.in1k": [
+        [
+            549,
+            550
+        ]
+    ]
+}

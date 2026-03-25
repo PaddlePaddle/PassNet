@@ -1,0 +1,32 @@
+{
+    "samples/torchvision/regnet_x_16gf": [
+        [
+            29,
+            35
+        ]
+    ],
+    "samples/torchvision/regnet_x_32gf": [
+        [
+            29,
+            35
+        ]
+    ],
+    "samples/torchvision/regnet_x_3_2gf": [
+        [
+            29,
+            35
+        ]
+    ],
+    "samples/torchvision/regnet_x_400mf": [
+        [
+            19,
+            25
+        ]
+    ],
+    "samples/torchvision/regnet_x_800mf": [
+        [
+            7,
+            13
+        ]
+    ]
+}

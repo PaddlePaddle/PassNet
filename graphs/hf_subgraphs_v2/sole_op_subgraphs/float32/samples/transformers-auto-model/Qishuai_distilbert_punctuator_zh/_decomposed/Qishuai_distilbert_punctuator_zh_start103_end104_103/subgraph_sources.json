@@ -1,0 +1,70 @@
+{
+    "samples/transformers-auto-model/Qishuai_distilbert_punctuator_zh": [
+        [
+            34,
+            35
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            103,
+            104
+        ],
+        [
+            126,
+            127
+        ],
+        [
+            149,
+            150
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CanineForSequenceClassification": [
+        [
+            308,
+            309
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientNetForImageClassification": [
+        [
+            337,
+            338
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16": [
+        [
+            1304,
+            1305
+        ],
+        [
+            1339,
+            1340
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32": [
+        [
+            1304,
+            1305
+        ],
+        [
+            1339,
+            1340
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-large-patch14": [
+        [
+            2072,
+            2073
+        ],
+        [
+            2107,
+            2108
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, in_0 : torch.Tensor, in_1 : torch.Tensor, in_2 : torch.Tensor):
+        tmp_2 = torch.nn.functional.gelu(in_2, approximate = 'none');  in_2 = None
+        tmp_3 = torch.nn.functional.dropout(tmp_2, 0.0, False, False);  tmp_2 = None
+        tmp_4 = torch.nn.functional.layer_norm(tmp_3, (3072,), in_1, in_0, 1e-05);  tmp_3 = in_1 = in_0 = None
+        return (tmp_4,)
+        

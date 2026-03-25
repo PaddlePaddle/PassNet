@@ -1,0 +1,68 @@
+{
+    "samples/timm/vit_huge_patch14_clip_224.dfn5b": [
+        [
+            28,
+            30
+        ],
+        [
+            217,
+            219
+        ]
+    ],
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14": [
+        [
+            39,
+            41
+        ],
+        [
+            318,
+            320
+        ]
+    ],
+    "samples/transformers-auto-model/breadlicker45_autotrain-blender-50601120822": [
+        [
+            40,
+            42
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            91,
+            93
+        ],
+        [
+            113,
+            115
+        ],
+        [
+            120,
+            122
+        ],
+        [
+            142,
+            144
+        ],
+        [
+            528,
+            530
+        ],
+        [
+            550,
+            552
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_esm2_t33_650M_UR50D": [
+        [
+            872,
+            874
+        ]
+    ],
+    "samples/transformers-auto-model/laion_CLIP-ViT-H-14-laion2B-s32B-b79K": [
+        [
+            83,
+            85
+        ]
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "samples/transformers-auto-model/microsoft_table-transformer-detection": [
+        [
+            744,
+            749
+        ],
+        [
+            813,
+            818
+        ],
+        [
+            882,
+            887
+        ],
+        [
+            951,
+            956
+        ],
+        [
+            1020,
+            1025
+        ],
+        [
+            1089,
+            1094
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-structure-recognition": [
+        [
+            744,
+            749
+        ],
+        [
+            813,
+            818
+        ],
+        [
+            882,
+            887
+        ],
+        [
+            951,
+            956
+        ],
+        [
+            1020,
+            1025
+        ],
+        [
+            1089,
+            1094
+        ]
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/nielsr_focalnet-small-lrf": [
+        [
+            10,
+            11
+        ],
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-tiny-lrf": [
+        [
+            10,
+            11
+        ],
+        [
+            57,
+            58
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification": [
+        [
+            250,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerModel": [
+        [
+            250,
+            269
+        ]
+    ]
+}

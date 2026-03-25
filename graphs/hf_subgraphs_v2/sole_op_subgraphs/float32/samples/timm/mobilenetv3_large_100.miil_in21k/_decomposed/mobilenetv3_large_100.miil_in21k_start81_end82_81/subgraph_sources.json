@@ -1,0 +1,32 @@
+{
+    "samples/timm/mobilenetv3_large_100.miil_in21k": [
+        [
+            81,
+            82
+        ]
+    ],
+    "samples/timm/mobilenetv3_rw.rmsp_in1k": [
+        [
+            80,
+            81
+        ]
+    ],
+    "samples/timm/repghostnet_200.in1k": [
+        [
+            126,
+            127
+        ]
+    ],
+    "samples/torchvision/deeplabv3_mobilenet_v3_large": [
+        [
+            81,
+            82
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_large": [
+        [
+            81,
+            82
+        ]
+    ]
+}

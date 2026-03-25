@@ -1,0 +1,12 @@
+{
+    "samples/mmpose/pose_hourglass_52": [
+        [
+            25,
+            31
+        ],
+        [
+            115,
+            121
+        ]
+    ]
+}

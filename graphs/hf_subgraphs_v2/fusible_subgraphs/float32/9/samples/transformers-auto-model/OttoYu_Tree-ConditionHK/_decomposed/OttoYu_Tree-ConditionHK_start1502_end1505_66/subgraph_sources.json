@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            1502,
+            1505
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k": [
+        [
+            1502,
+            1505
+        ]
+    ]
+}

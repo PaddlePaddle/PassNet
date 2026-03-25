@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/google_electra_base_discriminator": [
+        [
+            1,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra_base_generator": [
+        [
+            1,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra_small_discriminator": [
+        [
+            1,
+            5
+        ]
+    ]
+}

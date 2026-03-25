@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            17,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-512_A-8": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            15,
+            17
+        ]
+    ]
+}

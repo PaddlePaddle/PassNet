@@ -1,0 +1,108 @@
+{
+    "samples/mmseg/PoolFormer_m36": [
+        [
+            639,
+            643
+        ],
+        [
+            649,
+            653
+        ]
+    ],
+    "samples/mmseg/PoolFormer_m48": [
+        [
+            843,
+            847
+        ],
+        [
+            853,
+            857
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s12": [
+        [
+            241,
+            245
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s24": [
+        [
+            435,
+            439
+        ],
+        [
+            445,
+            449
+        ]
+    ],
+    "samples/mmseg/SemanticFPN_R50": [
+        [
+            197,
+            201
+        ],
+        [
+            207,
+            211
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_fpn": [
+        [
+            698,
+            702
+        ],
+        [
+            708,
+            712
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_fpn": [
+        [
+            997,
+            1001
+        ],
+        [
+            1007,
+            1011
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_fpn": [
+        [
+            422,
+            426
+        ],
+        [
+            432,
+            436
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            960,
+            964
+        ],
+        [
+            970,
+            974
+        ]
+    ],
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            960,
+            964
+        ],
+        [
+            970,
+            974
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            731,
+            735
+        ],
+        [
+            741,
+            745
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/inthedarkness_klue-roberta-small-cross-encoder": [
+        [
+            0,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/pongjin_roberta_with_kornli": [
+        [
+            0,
+            24
+        ]
+    ]
+}

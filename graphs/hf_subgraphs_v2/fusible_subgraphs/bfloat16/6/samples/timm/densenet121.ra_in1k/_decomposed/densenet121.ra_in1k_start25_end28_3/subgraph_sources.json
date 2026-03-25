@@ -1,0 +1,14 @@
+{
+    "samples/timm/densenet121.ra_in1k": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/torchvision/densenet121": [
+        [
+            25,
+            28
+        ]
+    ]
+}

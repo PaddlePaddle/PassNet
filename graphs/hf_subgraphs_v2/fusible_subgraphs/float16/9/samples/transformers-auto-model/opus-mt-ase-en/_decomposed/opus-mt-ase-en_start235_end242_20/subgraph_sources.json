@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/opus-mt-ase-en": [
+        [
+            235,
+            242
+        ],
+        [
+            286,
+            293
+        ],
+        [
+            388,
+            395
+        ],
+        [
+            439,
+            446
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-aav": [
+        [
+            235,
+            242
+        ]
+    ]
+}

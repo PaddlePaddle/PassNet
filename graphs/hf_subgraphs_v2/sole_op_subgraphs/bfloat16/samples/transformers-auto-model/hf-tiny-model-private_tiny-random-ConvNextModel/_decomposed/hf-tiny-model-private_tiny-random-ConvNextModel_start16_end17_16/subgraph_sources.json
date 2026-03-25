@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvNextModel": [
+        [
+            16,
+            17
+        ],
+        [
+            26,
+            27
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvNextV2Model": [
+        [
+            16,
+            17
+        ],
+        [
+            33,
+            34
+        ]
+    ]
+}

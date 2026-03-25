@@ -1,0 +1,8 @@
+{
+    "samples/timm/mnasnet_small.lamb_in1k": [
+        [
+            185,
+            188
+        ]
+    ]
+}

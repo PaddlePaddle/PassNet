@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/EleutherAI_pythia-1b": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-GPTJForSequenceClassification": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1_5": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_tFINE-base-300m-samsum": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/ydshieh_tiny-random-gptj-for-sequence-classification": [
+        [
+            19,
+            20
+        ]
+    ]
+}

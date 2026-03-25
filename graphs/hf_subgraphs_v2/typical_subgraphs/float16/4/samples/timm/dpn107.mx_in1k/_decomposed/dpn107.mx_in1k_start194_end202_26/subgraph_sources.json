@@ -1,0 +1,26 @@
+{
+    "samples/timm/dpn107.mx_in1k": [
+        [
+            194,
+            202
+        ]
+    ],
+    "samples/timm/dpn131.mx_in1k": [
+        [
+            194,
+            202
+        ]
+    ],
+    "samples/timm/dpn92.mx_in1k": [
+        [
+            124,
+            132
+        ]
+    ],
+    "samples/timm/dpn98.mx_in1k": [
+        [
+            152,
+            160
+        ]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "samples/timm/cspdarknet53.ra_in1k": [
+        [
+            248,
+            253
+        ]
+    ],
+    "samples/timm/cspresnet50.ra_in1k": [
+        [
+            194,
+            199
+        ]
+    ],
+    "samples/timm/cspresnet50d": [
+        [
+            200,
+            205
+        ]
+    ],
+    "samples/timm/cspresnext50.ra_in1k": [
+        [
+            194,
+            199
+        ]
+    ]
+}

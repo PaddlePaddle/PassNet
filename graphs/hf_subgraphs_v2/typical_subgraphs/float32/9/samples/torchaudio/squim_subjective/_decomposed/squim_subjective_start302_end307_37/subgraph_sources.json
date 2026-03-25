@@ -1,0 +1,36 @@
+{
+    "samples/torchaudio/squim_subjective": [
+        [
+            302,
+            307
+        ],
+        [
+            608,
+            613
+        ]
+    ],
+    "samples/transformers-auto-model/SHENMU007_neunit-ks-ertong-chengren": [
+        [
+            373,
+            378
+        ]
+    ],
+    "samples/transformers-auto-model/dima806_music_genres_classification": [
+        [
+            373,
+            378
+        ]
+    ],
+    "samples/transformers-auto-model/mazkooleg_0-9up-wavlm-base-plus-ft": [
+        [
+            448,
+            453
+        ]
+    ],
+    "samples/transformers-auto-model/pipecat-ai_smart-turn-v2": [
+        [
+            373,
+            378
+        ]
+    ]
+}

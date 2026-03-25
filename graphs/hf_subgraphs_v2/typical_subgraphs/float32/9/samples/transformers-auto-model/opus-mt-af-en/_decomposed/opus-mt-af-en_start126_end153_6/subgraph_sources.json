@@ -1,0 +1,46 @@
+{
+    "samples/transformers-auto-model/opus-mt-af-en": [
+        [
+            39,
+            66
+        ],
+        [
+            68,
+            95
+        ],
+        [
+            97,
+            124
+        ],
+        [
+            126,
+            153
+        ],
+        [
+            155,
+            182
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cpf-en": [
+        [
+            39,
+            66
+        ],
+        [
+            68,
+            95
+        ],
+        [
+            97,
+            124
+        ],
+        [
+            126,
+            153
+        ],
+        [
+            155,
+            182
+        ]
+    ]
+}

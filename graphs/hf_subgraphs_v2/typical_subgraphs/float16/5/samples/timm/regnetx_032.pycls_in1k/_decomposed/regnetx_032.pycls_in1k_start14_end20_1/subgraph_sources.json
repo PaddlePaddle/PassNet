@@ -1,0 +1,86 @@
+{
+    "samples/timm/regnetx_032.pycls_in1k": [
+        [
+            14,
+            20
+        ]
+    ],
+    "samples/timm/regnetx_040.pycls_in1k": [
+        [
+            14,
+            20
+        ]
+    ],
+    "samples/timm/regnetx_080.pycls_in1k": [
+        [
+            36,
+            42
+        ],
+        [
+            46,
+            52
+        ],
+        [
+            56,
+            62
+        ],
+        [
+            66,
+            72
+        ]
+    ],
+    "samples/timm/regnetx_120.pycls_in1k": [
+        [
+            14,
+            20
+        ]
+    ],
+    "samples/timm/regnetx_160.pycls_in1k": [
+        [
+            14,
+            20
+        ]
+    ],
+    "samples/timm/regnetx_320.pycls_in1k": [
+        [
+            14,
+            20
+        ]
+    ],
+    "samples/timm/regnety_016.pycls_in1k": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/timm/regnety_040.pycls_in1k": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/timm/regnety_064.pycls_in1k": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/timm/regnety_1280.seer": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/timm/regnety_1280.seer_ft_in1k": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/timm/regnety_160.deit_in1k": [
+        [
+            20,
+            26
+        ]
+    ]
+}

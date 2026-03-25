@@ -1,0 +1,56 @@
+{
+    "samples/transformers-auto-model/milistu_reranker-msmarco-v1.1-MiniLM-L12-H384-uncased-lambdaloss_v2": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L12-v2": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L4-v2": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-MiniLM-L6-v2": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/nreimers_MiniLM-L6-H384-uncased": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-MiniLM-L12-v1": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-MiniLM-L6-v1": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-MiniLM-L3-v2": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers_paraphrase-MiniLM-L3-v2": [
+        [
+            0,
+            17
+        ]
+    ]
+}

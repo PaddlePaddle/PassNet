@@ -1,0 +1,70 @@
+{
+    "samples/transformers-auto-model/google/gemma-1.1-2b-it": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-2b-it": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/transformers-auto-model/google/tapas-base-masklm": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/mambarim-110m": [
+        [
+            46,
+            47
+        ],
+        [
+            344,
+            345
+        ],
+        [
+            642,
+            643
+        ],
+        [
+            940,
+            941
+        ],
+        [
+            1238,
+            1239
+        ],
+        [
+            1536,
+            1537
+        ],
+        [
+            1834,
+            1835
+        ],
+        [
+            2132,
+            2133
+        ],
+        [
+            2430,
+            2431
+        ],
+        [
+            2728,
+            2729
+        ],
+        [
+            3026,
+            3027
+        ],
+        [
+            3324,
+            3325
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/AkshatSurolia_DeiT-FaceMask-Finetuned": [
+        [
+            0,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_base_distilled_patch16_224": [
+        [
+            0,
+            9
+        ]
+    ]
+}

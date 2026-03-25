@@ -1,0 +1,110 @@
+{
+    "samples/transformers-auto-model/opus-mt-bat-en": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ca-es": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cs-en": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cs-fi": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-af": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ca": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ht": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ig": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-kg": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-nso": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-vi": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ee-en": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-eu": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-fr": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-lt": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-mt": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-tl": [
+        [
+            3,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-et-de": [
+        [
+            3,
+            15
+        ]
+    ]
+}

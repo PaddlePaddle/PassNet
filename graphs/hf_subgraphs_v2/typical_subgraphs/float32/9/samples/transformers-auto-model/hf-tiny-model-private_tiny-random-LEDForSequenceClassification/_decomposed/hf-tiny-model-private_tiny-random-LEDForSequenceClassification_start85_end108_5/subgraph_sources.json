@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification": [
+        [
+            85,
+            108
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MvpForSequenceClassification": [
+        [
+            87,
+            110
+        ]
+    ]
+}

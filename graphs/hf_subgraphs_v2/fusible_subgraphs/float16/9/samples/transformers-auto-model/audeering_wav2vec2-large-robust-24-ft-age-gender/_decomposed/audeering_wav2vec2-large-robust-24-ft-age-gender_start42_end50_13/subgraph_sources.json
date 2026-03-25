@@ -1,0 +1,8 @@
+{
+    "samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender": [
+        [
+            42,
+            50
+        ]
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            385,
+            390
+        ]
+    ]
+}

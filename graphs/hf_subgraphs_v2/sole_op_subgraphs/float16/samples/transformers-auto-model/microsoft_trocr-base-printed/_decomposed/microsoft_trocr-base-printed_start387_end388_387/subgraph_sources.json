@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/microsoft_trocr-base-printed": [
+        [
+            387,
+            388
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-base-stage1": [
+        [
+            387,
+            388
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-large-printed": [
+        [
+            759,
+            760
+        ]
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "samples/mmpose/ViTPose-S": [
+        [
+            24,
+            26
+        ],
+        [
+            204,
+            206
+        ]
+    ],
+    "samples/timm/crossvit_15_240.in1k": [
+        [
+            49,
+            51
+        ]
+    ]
+}

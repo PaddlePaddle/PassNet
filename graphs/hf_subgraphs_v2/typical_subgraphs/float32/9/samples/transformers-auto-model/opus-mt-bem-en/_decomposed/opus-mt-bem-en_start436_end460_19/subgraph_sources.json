@@ -1,0 +1,92 @@
+{
+    "samples/transformers-auto-model/opus-mt-bem-en": [
+        [
+            436,
+            460
+        ],
+        [
+            487,
+            511
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bem-es": [
+        [
+            436,
+            460
+        ],
+        [
+            487,
+            511
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-crs": [
+        [
+            436,
+            460
+        ],
+        [
+            487,
+            511
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-gaa": [
+        [
+            436,
+            460
+        ],
+        [
+            487,
+            511
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-gil": [
+        [
+            436,
+            460
+        ],
+        [
+            487,
+            511
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-ho": [
+        [
+            436,
+            460
+        ],
+        [
+            487,
+            511
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-el-sv": [
+        [
+            436,
+            460
+        ],
+        [
+            487,
+            511
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-crs": [
+        [
+            436,
+            460
+        ],
+        [
+            487,
+            511
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-no": [
+        [
+            436,
+            460
+        ],
+        [
+            487,
+            511
+        ]
+    ]
+}

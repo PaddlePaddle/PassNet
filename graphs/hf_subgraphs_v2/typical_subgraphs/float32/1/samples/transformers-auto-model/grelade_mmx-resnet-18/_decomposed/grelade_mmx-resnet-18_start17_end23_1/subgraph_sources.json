@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/grelade_mmx-resnet-18": [
+        [
+            17,
+            23
+        ],
+        [
+            33,
+            39
+        ],
+        [
+            49,
+            55
+        ]
+    ]
+}

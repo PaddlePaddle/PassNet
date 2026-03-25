@@ -1,0 +1,196 @@
+{
+    "samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/Fafadalilian_lora-adapter-t5_small_model_California_state_bill": [
+        [
+            47,
+            48
+        ]
+    ],
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/IMISLab_GreekWiki-umt5-base": [
+        [
+            43,
+            44
+        ],
+        [
+            153,
+            154
+        ],
+        [
+            263,
+            264
+        ],
+        [
+            373,
+            374
+        ],
+        [
+            483,
+            484
+        ],
+        [
+            593,
+            594
+        ],
+        [
+            703,
+            704
+        ],
+        [
+            813,
+            814
+        ],
+        [
+            923,
+            924
+        ],
+        [
+            1033,
+            1034
+        ],
+        [
+            1143,
+            1144
+        ],
+        [
+            1253,
+            1254
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_fid_flan_t5_base_nq": [
+        [
+            47,
+            48
+        ]
+    ],
+    "samples/transformers-auto-model/Michielo_mt5-small_nl-en_translation": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_long-t5-tfg": [
+        [
+            1987,
+            1988
+        ]
+    ],
+    "samples/transformers-auto-model/allegro_plt5-large": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/cointegrated_rut5-base-absum": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/csebuetnlp_mT5_multilingual_XLSum": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-base": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/google_byt5-small": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-mini": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/gsarti_it5-efficient-small-el32-wiki-summarization": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/igorktech_rut5-small-chit-chat-intelligent": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-base-translation-ja_zh": [
+        [
+            718,
+            719
+        ]
+    ],
+    "samples/transformers-auto-model/iryneko571_mt5-small-translation-ja_zh": [
+        [
+            510,
+            511
+        ]
+    ],
+    "samples/transformers-auto-model/larryvrh_mt5-translation-ja_zh": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            352,
+            353
+        ]
+    ],
+    "samples/transformers-auto-model/moska_plt5-seq-clf-with-entities-updated-finetuned": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/pszemraj_tFINE-base-300m-samsum": [
+        [
+            46,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/t5-small": [
+        [
+            46,
+            47
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/RaphaelKalandadze_tmp_trainer": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-base": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small-dwr": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection": [
+        [
+            20,
+            21
+        ]
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "samples/transformers-auto-model/microsoft_table-transformer-detection": [
+        [
+            474,
+            508
+        ],
+        [
+            513,
+            547
+        ],
+        [
+            552,
+            586
+        ],
+        [
+            591,
+            625
+        ],
+        [
+            630,
+            664
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-structure-recognition": [
+        [
+            474,
+            508
+        ],
+        [
+            513,
+            547
+        ],
+        [
+            552,
+            586
+        ],
+        [
+            591,
+            625
+        ],
+        [
+            630,
+            664
+        ]
+    ]
+}

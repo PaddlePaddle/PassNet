@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/opus-mt-be-es": [
+        [
+            283,
+            307
+        ],
+        [
+            334,
+            358
+        ]
+    ]
+}

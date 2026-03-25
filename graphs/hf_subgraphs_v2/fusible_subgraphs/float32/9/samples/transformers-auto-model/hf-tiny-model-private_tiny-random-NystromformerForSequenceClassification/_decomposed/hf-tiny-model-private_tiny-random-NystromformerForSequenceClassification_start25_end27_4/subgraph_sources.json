@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-NystromformerForSequenceClassification": [
+        [
+            25,
+            27
+        ],
+        [
+            56,
+            58
+        ]
+    ],
+    "samples/transformers-auto-model/ogoshi2000_stance-nystromformer": [
+        [
+            27,
+            29
+        ],
+        [
+            58,
+            60
+        ]
+    ]
+}

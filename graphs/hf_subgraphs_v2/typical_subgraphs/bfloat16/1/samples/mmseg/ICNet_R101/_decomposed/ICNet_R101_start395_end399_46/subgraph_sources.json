@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/ICNet_R101": [
+        [
+            395,
+            399
+        ]
+    ],
+    "samples/mmseg/ICNet_R18": [
+        [
+            119,
+            123
+        ]
+    ],
+    "samples/mmseg/ICNet_R50": [
+        [
+            225,
+            229
+        ]
+    ]
+}

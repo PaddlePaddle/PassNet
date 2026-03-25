@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B": [
+        [
+            49,
+            54
+        ],
+        [
+            113,
+            118
+        ],
+        [
+            177,
+            182
+        ],
+        [
+            593,
+            598
+        ]
+    ]
+}

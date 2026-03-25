@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14": [
+        [
+            1,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/laion_CLIP-ViT-H-14-laion2B-s32B-b79K": [
+        [
+            1,
+            10
+        ]
+    ]
+}

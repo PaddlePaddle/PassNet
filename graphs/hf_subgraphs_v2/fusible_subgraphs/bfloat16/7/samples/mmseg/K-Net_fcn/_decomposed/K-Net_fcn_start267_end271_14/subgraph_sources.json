@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/K-Net_fcn": [
+        [
+            267,
+            271
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            1649,
+            1653
+        ]
+    ]
+}

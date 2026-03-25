@@ -1,0 +1,26 @@
+{
+    "samples/ultralytics/yolo12l": [
+        [
+            446,
+            450
+        ]
+    ],
+    "samples/ultralytics/yolo12l-obb": [
+        [
+            446,
+            450
+        ]
+    ],
+    "samples/ultralytics/yolo12l-pose": [
+        [
+            446,
+            450
+        ]
+    ],
+    "samples/ultralytics/yolo12l-seg": [
+        [
+            446,
+            450
+        ]
+    ]
+}

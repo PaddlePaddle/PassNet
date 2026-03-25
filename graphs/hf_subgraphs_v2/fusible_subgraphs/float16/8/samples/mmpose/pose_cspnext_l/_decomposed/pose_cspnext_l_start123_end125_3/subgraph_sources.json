@@ -1,0 +1,18 @@
+{
+    "samples/mmpose/pose_cspnext_l": [
+        [
+            46,
+            48
+        ],
+        [
+            123,
+            125
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_s": [
+        [
+            26,
+            28
+        ]
+    ]
+}

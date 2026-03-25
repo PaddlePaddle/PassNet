@@ -1,0 +1,56 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BartForSequenceClassification": [
+        [
+            36,
+            37
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            87,
+            88
+        ],
+        [
+            109,
+            110
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification": [
+        [
+            37,
+            38
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            110,
+            111
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PLBartForSequenceClassification": [
+        [
+            36,
+            37
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            87,
+            88
+        ],
+        [
+            109,
+            110
+        ]
+    ]
+}

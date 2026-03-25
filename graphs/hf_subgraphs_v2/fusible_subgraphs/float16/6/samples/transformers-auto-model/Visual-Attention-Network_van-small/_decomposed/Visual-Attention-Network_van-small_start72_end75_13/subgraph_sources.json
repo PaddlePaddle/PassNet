@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/Visual-Attention-Network_van-small": [
+        [
+            72,
+            75
+        ],
+        [
+            96,
+            99
+        ]
+    ],
+    "samples/transformers-auto-model/Visual-Attention-Network_van-tiny": [
+        [
+            302,
+            305
+        ],
+        [
+            326,
+            329
+        ]
+    ]
+}

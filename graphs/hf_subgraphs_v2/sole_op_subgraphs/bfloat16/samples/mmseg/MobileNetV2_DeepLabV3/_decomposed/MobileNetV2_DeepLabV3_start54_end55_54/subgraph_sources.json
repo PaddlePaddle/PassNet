@@ -1,0 +1,26 @@
+{
+    "samples/mmseg/MobileNetV2_DeepLabV3": [
+        [
+            54,
+            55
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3+": [
+        [
+            54,
+            55
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_FCN": [
+        [
+            54,
+            55
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_PSPNet": [
+        [
+            54,
+            55
+        ]
+    ]
+}

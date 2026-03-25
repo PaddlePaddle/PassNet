@@ -1,0 +1,92 @@
+{
+    "samples/timm/ghostnet_100.in1k": [
+        [
+            64,
+            70
+        ],
+        [
+            224,
+            230
+        ]
+    ],
+    "samples/timm/repghostnet_050.in1k": [
+        [
+            64,
+            70
+        ],
+        [
+            224,
+            230
+        ]
+    ],
+    "samples/timm/repghostnet_058.in1k": [
+        [
+            64,
+            70
+        ],
+        [
+            224,
+            230
+        ]
+    ],
+    "samples/timm/repghostnet_080.in1k": [
+        [
+            64,
+            70
+        ],
+        [
+            224,
+            230
+        ]
+    ],
+    "samples/timm/repghostnet_100.in1k": [
+        [
+            64,
+            70
+        ],
+        [
+            224,
+            230
+        ]
+    ],
+    "samples/timm/repghostnet_111.in1k": [
+        [
+            64,
+            70
+        ],
+        [
+            224,
+            230
+        ]
+    ],
+    "samples/timm/repghostnet_130.in1k": [
+        [
+            64,
+            70
+        ],
+        [
+            224,
+            230
+        ]
+    ],
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            64,
+            70
+        ],
+        [
+            224,
+            230
+        ]
+    ],
+    "samples/timm/repghostnet_200.in1k": [
+        [
+            64,
+            70
+        ],
+        [
+            224,
+            230
+        ]
+    ]
+}

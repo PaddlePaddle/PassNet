@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google_electra_base_generator": [
+        [
+            23,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/monologg_koelectra-small-finetuned-naver-ner": [
+        [
+            23,
+            32
+        ]
+    ]
+}

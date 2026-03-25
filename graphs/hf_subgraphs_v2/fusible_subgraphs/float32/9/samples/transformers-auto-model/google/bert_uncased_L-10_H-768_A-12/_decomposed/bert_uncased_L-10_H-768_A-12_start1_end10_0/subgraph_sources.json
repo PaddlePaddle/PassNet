@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-768_A-12": [
+        [
+            1,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-768_A-12": [
+        [
+            1,
+            10
+        ]
+    ]
+}

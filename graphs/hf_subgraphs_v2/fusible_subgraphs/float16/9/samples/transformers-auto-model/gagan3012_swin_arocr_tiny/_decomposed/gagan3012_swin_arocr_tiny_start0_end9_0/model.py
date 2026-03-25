@@ -1,0 +1,18 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, in_0 : torch.Tensor, in_1 : torch.Tensor, in_2 : torch.Tensor, in_3 : torch.Tensor, in_4 : torch.Tensor):
+        conv2d = torch.conv2d(in_0, in_4, in_3, (4, 4), (0, 0), (1, 1), 1);  in_0 = in_4 = in_3 = None
+        tmp_6 = conv2d.flatten(2);  conv2d = None
+        tmp_7 = tmp_6.transpose(1, 2);  tmp_6 = None
+        tmp_8 = torch.nn.functional.layer_norm(tmp_7, (96,), in_2, in_1, 1e-05);  tmp_7 = in_2 = in_1 = None
+        tmp_9 = torch.nn.functional.dropout(tmp_8, 0.0, False, False);  tmp_8 = None
+        tmp_10 = tmp_9.view(1, 256, 256, 96)
+        tmp_11 = torch.nn.functional.pad(tmp_10, (0, 0, 0, 0, 0, 0), 'constant', None);  tmp_10 = None
+        tmp_12 = tmp_11.view(1, 32, 8, 32, 8, 96);  tmp_11 = None
+        tmp_13 = tmp_12.permute(0, 1, 3, 2, 4, 5);  tmp_12 = None
+        return (tmp_9, tmp_13)
+        

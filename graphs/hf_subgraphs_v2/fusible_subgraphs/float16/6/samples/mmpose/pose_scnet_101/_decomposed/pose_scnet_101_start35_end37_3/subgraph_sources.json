@@ -1,0 +1,62 @@
+{
+    "samples/mmpose/pose_scnet_101": [
+        [
+            35,
+            37
+        ]
+    ],
+    "samples/mmseg/ANN_R101": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/timm/densenet264d": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/timm/resnetv2_101.a1h_in1k": [
+        [
+            18,
+            20
+        ]
+    ],
+    "samples/timm/selecsls42b.in1k": [
+        [
+            120,
+            122
+        ]
+    ],
+    "samples/torchvision/regnet_x_8gf": [
+        [
+            18,
+            20
+        ]
+    ],
+    "samples/transformers-auto-model/Ramos-Ramos_vicreg-resnet-50": [
+        [
+            19,
+            21
+        ],
+        [
+            103,
+            105
+        ]
+    ],
+    "samples/transformers-auto-model/grelade_mmx-resnet-18": [
+        [
+            14,
+            16
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            30,
+            32
+        ]
+    ]
+}

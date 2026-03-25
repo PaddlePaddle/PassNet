@@ -1,0 +1,60 @@
+{
+    "samples/mmpose/pose_hrformer_base": [
+        [
+            28,
+            31
+        ]
+    ],
+    "samples/mmpose/pose_scnet_101": [
+        [
+            7,
+            10
+        ]
+    ],
+    "samples/mmseg/ANN_R101": [
+        [
+            3,
+            6
+        ]
+    ],
+    "samples/timm/densenet264d": [
+        [
+            3,
+            6
+        ]
+    ],
+    "samples/timm/dla102.in1k": [
+        [
+            3,
+            6
+        ]
+    ],
+    "samples/timm/ecaresnet101d.miil_in1k": [
+        [
+            3,
+            6
+        ]
+    ],
+    "samples/timm/resnet10t.c3_in1k": [
+        [
+            3,
+            6
+        ]
+    ],
+    "samples/timm/selecsls42b.in1k": [
+        [
+            9,
+            12
+        ],
+        [
+            22,
+            25
+        ]
+    ],
+    "samples/timm/test_resnet.r160_in1k": [
+        [
+            3,
+            6
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-WavLMForSequenceClassification": [
+        [
+            68,
+            69
+        ],
+        [
+            101,
+            102
+        ],
+        [
+            134,
+            135
+        ],
+        [
+            167,
+            168
+        ]
+    ]
+}

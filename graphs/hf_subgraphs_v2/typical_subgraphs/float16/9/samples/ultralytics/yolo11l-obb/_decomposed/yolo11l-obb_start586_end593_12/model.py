@@ -1,0 +1,16 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, w_0 : torch.Tensor, w_1, in_0, in_1, in_2):
+        tmp_2 = torch.nn.functional.silu(in_0, inplace = True);  in_0 = None
+        conv2d = torch.conv2d(tmp_2, w_1, w_0, (1, 1), (0, 0), (1, 1), 1);  tmp_2 = w_1 = w_0 = None
+        tmp_4 = conv2d.view(1, 1, -1);  conv2d = None
+        tmp_5 = torch.cat([in_1, in_2, tmp_4], 2);  in_1 = in_2 = tmp_4 = None
+        tmp_6 = tmp_5.sigmoid();  tmp_5 = None
+        tmp_7 = tmp_6 - 0.25;  tmp_6 = None
+        tmp_8 = tmp_7 * 3.141592653589793;  tmp_7 = None
+        return (tmp_8,)
+        

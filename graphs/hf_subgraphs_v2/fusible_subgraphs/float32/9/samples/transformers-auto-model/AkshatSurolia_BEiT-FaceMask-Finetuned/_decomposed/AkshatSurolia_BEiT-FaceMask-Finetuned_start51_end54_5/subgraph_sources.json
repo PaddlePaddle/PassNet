@@ -1,0 +1,36 @@
+{
+    "samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned": [
+        [
+            51,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            909,
+            912
+        ]
+    ],
+    "samples/transformers-auto-model/trocr-base-handwritten": [
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            43
+        ]
+    ]
+}

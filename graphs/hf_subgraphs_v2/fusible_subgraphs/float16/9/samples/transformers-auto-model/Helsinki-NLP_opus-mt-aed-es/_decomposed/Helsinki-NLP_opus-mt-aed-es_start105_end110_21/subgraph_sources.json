@@ -1,0 +1,40 @@
+{
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-aed-es": [
+        [
+            32,
+            37
+        ],
+        [
+            54,
+            59
+        ],
+        [
+            83,
+            88
+        ],
+        [
+            105,
+            110
+        ],
+        [
+            207,
+            212
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ase-de": [
+        [
+            27,
+            32
+        ],
+        [
+            56,
+            61
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-deu_eng_fra_por_spa-bat": [
+        [
+            56,
+            61
+        ]
+    ]
+}

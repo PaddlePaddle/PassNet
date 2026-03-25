@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/yoloxpose_l": [
+        [
+            304,
+            308
+        ]
+    ],
+    "samples/mmpose/yoloxpose_m": [
+        [
+            233,
+            237
+        ]
+    ]
+}

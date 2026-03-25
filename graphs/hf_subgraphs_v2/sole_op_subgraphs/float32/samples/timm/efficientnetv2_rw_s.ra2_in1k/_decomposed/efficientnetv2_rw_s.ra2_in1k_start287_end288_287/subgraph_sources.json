@@ -1,0 +1,26 @@
+{
+    "samples/timm/efficientnetv2_rw_s.ra2_in1k": [
+        [
+            287,
+            288
+        ]
+    ],
+    "samples/timm/fbnetv3_g.ra2_in1k": [
+        [
+            319,
+            320
+        ]
+    ],
+    "samples/timm/hgnet_base.ssld_in1k": [
+        [
+            191,
+            192
+        ]
+    ],
+    "samples/torchvision/efficientnet_v2_s": [
+        [
+            304,
+            305
+        ]
+    ]
+}

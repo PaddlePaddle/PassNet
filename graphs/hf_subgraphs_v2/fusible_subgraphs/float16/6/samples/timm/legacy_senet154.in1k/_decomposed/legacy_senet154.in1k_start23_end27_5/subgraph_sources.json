@@ -1,0 +1,14 @@
+{
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            23,
+            27
+        ]
+    ],
+    "samples/timm/legacy_seresnet18.in1k": [
+        [
+            57,
+            61
+        ]
+    ]
+}

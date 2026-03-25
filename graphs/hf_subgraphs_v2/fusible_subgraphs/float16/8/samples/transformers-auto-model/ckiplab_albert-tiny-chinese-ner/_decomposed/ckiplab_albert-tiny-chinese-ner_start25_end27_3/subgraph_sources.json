@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/ckiplab_albert-tiny-chinese-ner": [
+        [
+            25,
+            27
+        ]
+    ],
+    "samples/transformers-auto-model/garNER_albert-tiny-spanish-es-LM": [
+        [
+            25,
+            27
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification": [
+        [
+            25,
+            27
+        ]
+    ]
+}

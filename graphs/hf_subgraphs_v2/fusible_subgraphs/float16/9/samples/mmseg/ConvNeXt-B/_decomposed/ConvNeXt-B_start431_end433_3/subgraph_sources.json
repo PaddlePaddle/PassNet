@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/ConvNeXt-B": [
+        [
+            431,
+            433
+        ]
+    ],
+    "samples/mmseg/K-Net_upernet": [
+        [
+            213,
+            215
+        ]
+    ]
+}

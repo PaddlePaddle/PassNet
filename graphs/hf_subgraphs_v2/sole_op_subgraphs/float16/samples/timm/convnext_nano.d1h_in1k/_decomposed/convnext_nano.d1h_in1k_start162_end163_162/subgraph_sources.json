@@ -1,0 +1,70 @@
+{
+    "samples/timm/convnext_nano.d1h_in1k": [
+        [
+            162,
+            163
+        ],
+        [
+            174,
+            175
+        ],
+        [
+            186,
+            187
+        ]
+    ],
+    "samples/timm/convnext_nano_ols.d1h_in1k": [
+        [
+            163,
+            164
+        ],
+        [
+            175,
+            176
+        ],
+        [
+            187,
+            188
+        ]
+    ],
+    "samples/timm/convnextv2_nano.fcmae": [
+        [
+            246,
+            247
+        ],
+        [
+            265,
+            266
+        ],
+        [
+            284,
+            285
+        ]
+    ],
+    "samples/timm/convnextv2_nano.fcmae_ft_in1k": [
+        [
+            246,
+            247
+        ],
+        [
+            265,
+            266
+        ],
+        [
+            284,
+            285
+        ]
+    ],
+    "samples/timm/rdnet_base.nv_in1k": [
+        [
+            232,
+            233
+        ]
+    ],
+    "samples/timm/rdnet_small.nv_in1k": [
+        [
+            118,
+            119
+        ]
+    ]
+}

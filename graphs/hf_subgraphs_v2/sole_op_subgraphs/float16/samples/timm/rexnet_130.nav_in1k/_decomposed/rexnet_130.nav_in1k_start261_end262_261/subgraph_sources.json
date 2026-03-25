@@ -1,0 +1,14 @@
+{
+    "samples/timm/rexnet_130.nav_in1k": [
+        [
+            261,
+            262
+        ]
+    ],
+    "samples/timm/rexnet_150.nav_in1k": [
+        [
+            223,
+            224
+        ]
+    ]
+}

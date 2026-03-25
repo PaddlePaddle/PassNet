@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            291,
+            293
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification": [
+        [
+            301,
+            303
+        ]
+    ]
+}

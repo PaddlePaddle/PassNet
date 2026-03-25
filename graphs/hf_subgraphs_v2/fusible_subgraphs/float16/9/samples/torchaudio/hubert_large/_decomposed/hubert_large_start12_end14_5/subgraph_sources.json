@@ -1,0 +1,54 @@
+{
+    "samples/torchaudio/hubert_large": [
+        [
+            7,
+            9
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            32,
+            34
+        ]
+    ],
+    "samples/transformers-auto-model/Aniemore_unispeech-sat-emotion-russian-resd": [
+        [
+            6,
+            8
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            31,
+            33
+        ]
+    ]
+}

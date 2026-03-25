@@ -1,0 +1,80 @@
+{
+    "samples/timm/gernet_l.idstcv_in1k": [
+        [
+            184,
+            189
+        ]
+    ],
+    "samples/timm/gernet_m.idstcv_in1k": [
+        [
+            144,
+            149
+        ]
+    ],
+    "samples/timm/gernet_s.idstcv_in1k": [
+        [
+            143,
+            148
+        ]
+    ],
+    "samples/timm/hrnet_w18.ms_aug_in1k": [
+        [
+            1141,
+            1146
+        ]
+    ],
+    "samples/timm/hrnet_w18_small.gluon_in1k": [
+        [
+            312,
+            317
+        ]
+    ],
+    "samples/timm/hrnet_w18_small_v2.gluon_in1k": [
+        [
+            574,
+            579
+        ]
+    ],
+    "samples/timm/hrnet_w18_ssld.paddle_in1k": [
+        [
+            1141,
+            1146
+        ]
+    ],
+    "samples/timm/inception_resnet_v2": [
+        [
+            818,
+            823
+        ]
+    ],
+    "samples/timm/selecsls42b.in1k": [
+        [
+            128,
+            133
+        ]
+    ],
+    "samples/timm/selecsls60.in1k": [
+        [
+            185,
+            190
+        ]
+    ],
+    "samples/timm/xception41.tf_in1k": [
+        [
+            223,
+            228
+        ]
+    ],
+    "samples/timm/xception65.ra3_in1k": [
+        [
+            351,
+            356
+        ]
+    ],
+    "samples/timm/xception71.tf_in1k": [
+        [
+            387,
+            392
+        ]
+    ]
+}

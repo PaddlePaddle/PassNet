@@ -1,0 +1,72 @@
+{
+    "samples/torchaudio/hubert_base": [
+        [
+            299,
+            301
+        ]
+    ],
+    "samples/torchaudio/hubert_large": [
+        [
+            596,
+            598
+        ]
+    ],
+    "samples/torchaudio/wav2vec2_large": [
+        [
+            575,
+            577
+        ]
+    ],
+    "samples/torchaudio/wavlm_base": [
+        [
+            92,
+            94
+        ],
+        [
+            461,
+            463
+        ]
+    ],
+    "samples/torchaudio/wavlm_large": [
+        [
+            113,
+            115
+        ],
+        [
+            482,
+            484
+        ],
+        [
+            1056,
+            1058
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_ernie-m-base_pytorch": [
+        [
+            368,
+            370
+        ]
+    ],
+    "samples/transformers-auto-model/SHENMU007_neunit-ks-ertong-chengren": [
+        [
+            52,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieMForSequenceClassification": [
+        [
+            158,
+            160
+        ]
+    ],
+    "samples/transformers-auto-model/snolyai_resultsfinal": [
+        [
+            72,
+            74
+        ],
+        [
+            333,
+            335
+        ]
+    ]
+}

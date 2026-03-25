@@ -1,0 +1,104 @@
+{
+    "samples/transformers-auto-model/opus-mt-SCANDINAVIA-SCANDINAVIA": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bi-es": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bi-sv": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ceb-en": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ceb-es": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ceb-fi": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ceb-sv": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cel-en": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-crs-es": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-crs-fr": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-efi-fr": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ru": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-xh": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eu-es": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-el": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-is": [
+        [
+            15,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-pqw-en": [
+        [
+            15,
+            32
+        ]
+    ]
+}

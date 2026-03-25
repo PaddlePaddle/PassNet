@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/opus-mt-ar-eo": [
+        [
+            235,
+            242
+        ],
+        [
+            286,
+            293
+        ],
+        [
+            388,
+            395
+        ],
+        [
+            439,
+            446
+        ]
+    ]
+}

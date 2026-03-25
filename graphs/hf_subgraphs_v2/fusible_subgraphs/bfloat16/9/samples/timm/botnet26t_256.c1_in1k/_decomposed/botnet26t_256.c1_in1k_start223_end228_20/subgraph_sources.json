@@ -1,0 +1,14 @@
+{
+    "samples/timm/botnet26t_256.c1_in1k": [
+        [
+            223,
+            228
+        ]
+    ],
+    "samples/timm/resnet101_clip_gap.openai": [
+        [
+            352,
+            357
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "samples/timm/beit3_base_patch16_224.in22k_ft_in1k": [
+        [
+            234,
+            239
+        ]
+    ],
+    "samples/timm/vit_base_patch16_clip_224.datacompxl": [
+        [
+            215,
+            220
+        ]
+    ],
+    "samples/timm/vit_base_patch16_clip_quickgelu_224.metaclip_2pt5b": [
+        [
+            235,
+            240
+        ]
+    ],
+    "samples/timm/vit_base_patch32_clip_224.datacompxl": [
+        [
+            215,
+            220
+        ]
+    ],
+    "samples/timm/vit_base_patch32_clip_quickgelu_224.laion400m_e32": [
+        [
+            235,
+            240
+        ]
+    ]
+}

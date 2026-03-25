@@ -1,0 +1,78 @@
+{
+    "samples/mmpose/rtmw-x": [
+        [
+            78,
+            79
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            98,
+            99
+        ],
+        [
+            108,
+            109
+        ],
+        [
+            118,
+            119
+        ],
+        [
+            128,
+            129
+        ],
+        [
+            138,
+            139
+        ],
+        [
+            148,
+            149
+        ],
+        [
+            370,
+            371
+        ],
+        [
+            379,
+            380
+        ]
+    ],
+    "samples/timm/hardcorenas_d.miil_green_in1k": [
+        [
+            54,
+            55
+        ]
+    ],
+    "samples/timm/hardcorenas_e.miil_green_in1k": [
+        [
+            54,
+            55
+        ],
+        [
+            69,
+            70
+        ]
+    ],
+    "samples/timm/mixnet_s.ft_in1k": [
+        [
+            246,
+            247
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_blur_medium.e500_r224_in1k": [
+        [
+            111,
+            112
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_medium.e180_ad_r384_in12k": [
+        [
+            105,
+            106
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            106,
+            107
+        ]
+    ],
+    "samples/timm/spnasnet_100.rmsp_in1k": [
+        [
+            142,
+            143
+        ]
+    ],
+    "samples/torchvision/mnasnet1_0": [
+        [
+            106,
+            107
+        ]
+    ]
+}

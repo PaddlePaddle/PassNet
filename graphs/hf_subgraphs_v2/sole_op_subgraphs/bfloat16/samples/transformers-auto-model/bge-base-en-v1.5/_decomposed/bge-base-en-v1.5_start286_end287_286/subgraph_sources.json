@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/bge-base-en-v1.5": [
+        [
+            286,
+            287
+        ]
+    ],
+    "samples/transformers-auto-model/bge-large-zh": [
+        [
+            550,
+            551
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-en": [
+        [
+            286,
+            287
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            110,
+            111
+        ]
+    ],
+    "samples/transformers-auto-model/multilingual-e5-large": [
+        [
+            564,
+            565
+        ]
+    ]
+}

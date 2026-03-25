@@ -1,0 +1,22 @@
+{
+    "samples/timm/mobilenet_edgetpu_v2_m.ra4_e3600_r224_in1k": [
+        [
+            117,
+            123
+        ],
+        [
+            126,
+            132
+        ],
+        [
+            135,
+            141
+        ]
+    ],
+    "samples/timm/semnasnet_100.rmsp_in1k": [
+        [
+            179,
+            185
+        ]
+    ]
+}

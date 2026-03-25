@@ -1,0 +1,90 @@
+{
+    "samples/timm/beit3_large_patch16_224.in22k_ft_in1k": [
+        [
+            21,
+            23
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40": [
+        [
+            43,
+            45
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            310,
+            312
+        ]
+    ],
+    "samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K": [
+        [
+            78,
+            80
+        ]
+    ],
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-large-patch14": [
+        [
+            32,
+            34
+        ],
+        [
+            311,
+            313
+        ],
+        [
+            745,
+            747
+        ]
+    ],
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            1448,
+            1450
+        ],
+        [
+            1496,
+            1498
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-cnn_dailymail": [
+        [
+            69,
+            71
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k": [
+        [
+            1448,
+            1450
+        ],
+        [
+            1496,
+            1498
+        ]
+    ],
+    "samples/transformers-auto-model/noamr_bert-finetuned-ner": [
+        [
+            59,
+            61
+        ],
+        [
+            320,
+            322
+        ]
+    ],
+    "samples/transformers-auto-model/ru-bart-large": [
+        [
+            56,
+            58
+        ]
+    ],
+    "samples/transformers-auto-model/sismetanin_mbart_ru_sum_gazeta-ru-sentiment-liniscrowd": [
+        [
+            73,
+            75
+        ]
+    ]
+}

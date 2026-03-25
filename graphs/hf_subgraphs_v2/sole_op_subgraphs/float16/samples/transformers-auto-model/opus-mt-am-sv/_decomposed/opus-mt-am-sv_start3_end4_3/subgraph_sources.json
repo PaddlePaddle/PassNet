@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/opus-mt-am-sv": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ar-it": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-az-tr": [
+        [
+            3,
+            4
+        ]
+    ]
+}

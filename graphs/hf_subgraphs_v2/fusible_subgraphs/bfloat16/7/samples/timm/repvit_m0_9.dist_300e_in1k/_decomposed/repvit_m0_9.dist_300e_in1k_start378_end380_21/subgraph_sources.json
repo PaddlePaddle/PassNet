@@ -1,0 +1,14 @@
+{
+    "samples/timm/repvit_m0_9.dist_300e_in1k": [
+        [
+            378,
+            380
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerForImageClassificationWithTeacher": [
+        [
+            291,
+            293
+        ]
+    ]
+}

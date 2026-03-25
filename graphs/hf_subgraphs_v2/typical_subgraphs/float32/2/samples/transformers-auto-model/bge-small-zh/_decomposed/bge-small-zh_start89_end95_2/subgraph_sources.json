@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            89,
+            95
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-512_A-8": [
+        [
+            219,
+            225
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-4_H-512_A-8": [
+        [
+            87,
+            93
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-512_A-8": [
+        [
+            153,
+            159
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            153,
+            159
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_small-vanilla-target-tweet": [
+        [
+            87,
+            93
+        ]
+    ]
+}

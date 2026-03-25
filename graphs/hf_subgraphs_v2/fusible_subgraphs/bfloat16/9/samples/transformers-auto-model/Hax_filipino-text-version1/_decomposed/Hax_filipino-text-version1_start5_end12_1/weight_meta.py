@@ -1,0 +1,81 @@
+class Program_weight_tensor_meta_L_input_ids_:
+	name = "in_0"
+	original_name = "L_input_ids_"
+	shape = [1, 18]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [2, 13240, 4786, 1161, 1666, 1624, 23714, 2290, 27535, 7568, 3909, 3902, 2670, 1598, 14563, 1009, 18, 3]
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_LayerNorm_parameters_bias_:
+	name = "in_1"
+	original_name = "L_self_modules_embeddings_modules_LayerNorm_parameters_bias_"
+	shape = [128]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_LayerNorm_parameters_weight_:
+	name = "in_2"
+	original_name = "L_self_modules_embeddings_modules_LayerNorm_parameters_weight_"
+	shape = [128]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_position_embeddings_parameters_weight_:
+	name = "in_3"
+	original_name = "L_self_modules_embeddings_modules_position_embeddings_parameters_weight_"
+	shape = [512, 128]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.020
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_token_type_embeddings_parameters_weight_:
+	name = "in_4"
+	original_name = "L_self_modules_embeddings_modules_token_type_embeddings_parameters_weight_"
+	shape = [2, 128]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.001
+	std = 0.019
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_word_embeddings_parameters_weight_:
+	name = "in_5"
+	original_name = "L_self_modules_embeddings_modules_word_embeddings_parameters_weight_"
+	shape = [32003, 128]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.020
+
+
+class Program_weight_tensor_meta_L_token_type_ids_:
+	name = "in_6"
+	original_name = "L_token_type_ids_"
+	shape = [1, 18]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+
+class Program_weight_tensor_meta_position_ids:
+	name = "in_7"
+	original_name = "position_ids"
+	shape = [1, 18]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]

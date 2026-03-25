@@ -1,0 +1,20 @@
+{
+    "samples/timm/regnetv_040.ra3_in1k": [
+        [
+            356,
+            361
+        ]
+    ],
+    "samples/timm/regnetv_064.ra3_in1k": [
+        [
+            408,
+            413
+        ]
+    ],
+    "samples/timm/regnetz_040.ra3_in1k": [
+        [
+            418,
+            423
+        ]
+    ]
+}

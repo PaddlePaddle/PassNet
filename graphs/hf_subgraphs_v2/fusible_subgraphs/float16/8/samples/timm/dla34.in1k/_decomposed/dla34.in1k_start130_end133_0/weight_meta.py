@@ -1,0 +1,8 @@
+class Program_weight_tensor_meta_x_16:
+	name = "in_0"
+	original_name = "x_16"
+	shape = [512, 512, 7, 7]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000

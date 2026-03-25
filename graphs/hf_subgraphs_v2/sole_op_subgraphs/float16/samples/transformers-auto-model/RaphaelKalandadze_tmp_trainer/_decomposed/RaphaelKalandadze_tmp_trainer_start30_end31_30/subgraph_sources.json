@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/RaphaelKalandadze_tmp_trainer": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosForObjectDetection": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosModel": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-base": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small-dwr": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection": [
+        [
+            29,
+            30
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/timm/resnext101_64x4d.c1_in1k": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/timm/senet154.gluon_in1k": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/timm/seresnext101_64x4d.gluon_in1k": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/torchvision/resnext101_64x4d": [
+        [
+            6,
+            12
+        ]
+    ]
+}

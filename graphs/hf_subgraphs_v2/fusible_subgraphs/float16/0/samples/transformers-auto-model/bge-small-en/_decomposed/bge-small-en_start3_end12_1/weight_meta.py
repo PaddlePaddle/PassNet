@@ -1,0 +1,94 @@
+class Program_weight_tensor_meta_L_input_attention_mask_:
+	name = "in_0"
+	original_name = "L_input_attention_mask_"
+	shape = [1, 64]
+	dtype = "torch.int64"
+	device = "cpu"
+	mean = None
+	std = None
+	data = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+
+class Program_weight_tensor_meta_L_input_input_ids_:
+	name = "in_1"
+	original_name = "L_input_input_ids_"
+	shape = [1, 64]
+	dtype = "torch.int64"
+	device = "cpu"
+	mean = None
+	std = None
+	data = [87, 46, 36, 78, 37, 2, 28, 20, 19, 70, 87, 46, 36, 78, 37, 2, 28, 20, 19, 70, 87, 46, 36, 78, 37, 2, 28, 20, 19, 70, 87, 46, 36, 78, 37, 2, 28, 20, 19, 70, 87, 46, 36, 78, 37, 2, 28, 20, 19, 70, 87, 46, 36, 78, 37, 2, 28, 20, 19, 70, 87, 46, 36, 78]
+
+
+class Program_weight_tensor_meta_L_self_modules_0_modules_auto_model_modules_embeddings_modules_LayerNorm_parameters_bias_:
+	name = "in_2"
+	original_name = "L_self_modules_0_modules_auto_model_modules_embeddings_modules_LayerNorm_parameters_bias_"
+	shape = [384]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = 0.014
+	std = 0.118
+
+
+class Program_weight_tensor_meta_L_self_modules_0_modules_auto_model_modules_embeddings_modules_LayerNorm_parameters_weight_:
+	name = "in_3"
+	original_name = "L_self_modules_0_modules_auto_model_modules_embeddings_modules_LayerNorm_parameters_weight_"
+	shape = [384]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = 0.609
+	std = 0.046
+
+
+class Program_weight_tensor_meta_L_self_modules_0_modules_auto_model_modules_embeddings_modules_position_embeddings_parameters_weight_:
+	name = "in_4"
+	original_name = "L_self_modules_0_modules_auto_model_modules_embeddings_modules_position_embeddings_parameters_weight_"
+	shape = [512, 384]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = 0.000
+	std = 0.026
+
+
+class Program_weight_tensor_meta_L_self_modules_0_modules_auto_model_modules_embeddings_modules_token_type_embeddings_parameters_weight_:
+	name = "in_5"
+	original_name = "L_self_modules_0_modules_auto_model_modules_embeddings_modules_token_type_embeddings_parameters_weight_"
+	shape = [2, 384]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = 0.001
+	std = 0.028
+
+
+class Program_weight_tensor_meta_L_self_modules_0_modules_auto_model_modules_embeddings_modules_word_embeddings_parameters_weight_:
+	name = "in_6"
+	original_name = "L_self_modules_0_modules_auto_model_modules_embeddings_modules_word_embeddings_parameters_weight_"
+	shape = [30522, 384]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = -0.000
+	std = 0.069
+
+
+class Program_weight_tensor_meta_expand:
+	name = "in_7"
+	original_name = "expand"
+	shape = [1, 64]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	max_val = 0
+	min_val = 0
+
+
+class Program_weight_tensor_meta_getitem_1:
+	name = "in_8"
+	original_name = "getitem_1"
+	shape = [1, 64]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	max_val = 63
+	min_val = 0

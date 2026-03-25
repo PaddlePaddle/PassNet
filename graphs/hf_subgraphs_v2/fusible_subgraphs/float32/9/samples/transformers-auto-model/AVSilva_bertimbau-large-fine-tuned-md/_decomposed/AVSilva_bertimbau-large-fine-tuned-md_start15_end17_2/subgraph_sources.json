@@ -1,0 +1,92 @@
+{
+    "samples/transformers-auto-model/AVSilva_bertimbau-large-fine-tuned-md": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/Data-Lab_ruRoberta-large_classification_v0.2": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/Davlan_afro-xlmr-large": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/FacebookAI_roberta-large": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_bert-large-japanese-upos": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/KoichiYasuoka_roberta-large-korean-upos": [
+        [
+            22,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/Onutoa_1_6e-3_5_0.5": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/Poulami_muril-large-cased-finetuned-sentiment-SST2": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/Sahajtomar_German_Zeroshot": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/TrustSafeAI_RADAR_Vicuna_7B": [
+        [
+            24,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/bge-large-zh": [
+        [
+            17,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/emekaboris_autonlp-txc-17923129": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-large-uncased": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/hfl_chinese-macbert-large": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/joeddav_xlm-roberta-large-xnli": [
+        [
+            24,
+            26
+        ]
+    ]
+}

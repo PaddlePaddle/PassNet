@@ -1,0 +1,30 @@
+{
+    "samples/timm/dla102.in1k": [
+        [
+            243,
+            244
+        ]
+    ],
+    "samples/timm/dla102x.in1k": [
+        [
+            243,
+            244
+        ]
+    ],
+    "samples/timm/dla102x2.in1k": [
+        [
+            243,
+            244
+        ]
+    ],
+    "samples/timm/dla169.in1k": [
+        [
+            270,
+            271
+        ],
+        [
+            470,
+            471
+        ]
+    ]
+}

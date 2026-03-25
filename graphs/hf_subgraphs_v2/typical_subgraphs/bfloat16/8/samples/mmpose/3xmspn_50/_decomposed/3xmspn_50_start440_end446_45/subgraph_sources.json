@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/3xmspn_50": [
+        [
+            440,
+            446
+        ]
+    ],
+    "samples/mmpose/4xmspn_50": [
+        [
+            440,
+            446
+        ]
+    ]
+}

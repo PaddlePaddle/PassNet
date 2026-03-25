@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanForImageClassification": [
+        [
+            2,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-VanModel": [
+        [
+            2,
+            31
+        ]
+    ]
+}

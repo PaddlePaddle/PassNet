@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/DeepChem_ChemBERTa-10M-MLM": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Dr-BERT_CAS-Biomedical-POS-Tagging": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_litlat-bert": [
+        [
+            0,
+            2
+        ]
+    ]
+}

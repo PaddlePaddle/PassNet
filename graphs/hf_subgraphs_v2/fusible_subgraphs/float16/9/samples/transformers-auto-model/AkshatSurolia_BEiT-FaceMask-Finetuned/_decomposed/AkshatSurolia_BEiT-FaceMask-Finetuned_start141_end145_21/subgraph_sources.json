@@ -1,0 +1,86 @@
+{
+    "samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned": [
+        [
+            9,
+            13
+        ],
+        [
+            75,
+            79
+        ],
+        [
+            141,
+            145
+        ],
+        [
+            669,
+            673
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-base-ft1k": [
+        [
+            19,
+            23
+        ],
+        [
+            85,
+            89
+        ],
+        [
+            613,
+            617
+        ],
+        [
+            745,
+            749
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-large": [
+        [
+            9,
+            13
+        ],
+        [
+            75,
+            79
+        ],
+        [
+            141,
+            145
+        ],
+        [
+            669,
+            673
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k": [
+        [
+            19,
+            23
+        ],
+        [
+            85,
+            89
+        ],
+        [
+            613,
+            617
+        ],
+        [
+            1537,
+            1541
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-base-patch16-224-pt22k-ft22k": [
+        [
+            745,
+            749
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-224": [
+        [
+            1537,
+            1541
+        ]
+    ]
+}

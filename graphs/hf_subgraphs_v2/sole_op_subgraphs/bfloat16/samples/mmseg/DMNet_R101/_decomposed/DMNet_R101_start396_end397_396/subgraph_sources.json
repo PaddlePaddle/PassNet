@@ -1,0 +1,32 @@
+{
+    "samples/mmseg/DMNet_R101": [
+        [
+            396,
+            397
+        ]
+    ],
+    "samples/mmseg/DMNet_R50": [
+        [
+            226,
+            227
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R101": [
+        [
+            365,
+            366
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R50": [
+        [
+            195,
+            196
+        ]
+    ],
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            195,
+            196
+        ]
+    ]
+}

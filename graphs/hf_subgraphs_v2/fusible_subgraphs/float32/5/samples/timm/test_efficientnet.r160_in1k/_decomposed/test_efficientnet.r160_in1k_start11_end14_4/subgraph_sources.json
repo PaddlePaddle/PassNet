@@ -1,0 +1,12 @@
+{
+    "samples/timm/test_efficientnet.r160_in1k": [
+        [
+            6,
+            9
+        ],
+        [
+            11,
+            14
+        ]
+    ]
+}

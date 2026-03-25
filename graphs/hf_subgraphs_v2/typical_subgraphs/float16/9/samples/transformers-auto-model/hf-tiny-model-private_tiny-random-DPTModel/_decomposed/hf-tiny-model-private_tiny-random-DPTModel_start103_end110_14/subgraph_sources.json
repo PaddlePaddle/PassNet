@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DPTModel": [
+        [
+            51,
+            58
+        ],
+        [
+            77,
+            84
+        ],
+        [
+            103,
+            110
+        ]
+    ]
+}

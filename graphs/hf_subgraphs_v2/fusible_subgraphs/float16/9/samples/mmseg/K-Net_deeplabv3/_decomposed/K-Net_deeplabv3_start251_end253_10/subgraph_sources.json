@@ -1,0 +1,110 @@
+{
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            251,
+            253
+        ]
+    ],
+    "samples/transformers-auto-model/CLAck_en-vi": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-NORTH_EU-NORTH_EU": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-aed-es": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-af-es": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-en-zh": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-zh-en": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/NeNeDataScientist_NeNeAI007_fr-kiluba-translation": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-heb-eng": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-hye-eng": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-tur-eng": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/Nextcloud-AI_opus-mt-ar-es": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/SpaceCowboy03_finetuned-kde4-es-to-fr": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/anton-l_sew-d-mid-400k-ft-keyword-spotting": [
+        [
+            157,
+            159
+        ],
+        [
+            163,
+            165
+        ],
+        [
+            973,
+            975
+        ],
+        [
+            2233,
+            2235
+        ]
+    ],
+    "samples/transformers-auto-model/kannt-im_marian-finetuned-kde4-en-to-fr": [
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-NORTH_EU-NORTH_EU": [
+        [
+            411,
+            413
+        ]
+    ]
+}

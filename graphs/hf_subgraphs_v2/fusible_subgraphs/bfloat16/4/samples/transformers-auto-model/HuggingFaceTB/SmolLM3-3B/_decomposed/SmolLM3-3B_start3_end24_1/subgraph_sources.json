@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B": [
+        [
+            3,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/TinyLlama/TinyLlama-1.1B-Chat-v0.4": [
+        [
+            3,
+            24
+        ]
+    ]
+}

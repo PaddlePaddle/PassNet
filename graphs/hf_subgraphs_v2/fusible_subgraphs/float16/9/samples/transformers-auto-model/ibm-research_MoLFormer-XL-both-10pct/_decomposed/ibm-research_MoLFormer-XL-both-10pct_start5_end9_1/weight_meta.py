@@ -1,0 +1,18 @@
+class Program_weight_tensor_meta_attention_mask:
+	name = "in_0"
+	original_name = "attention_mask"
+	shape = [1, 16, 768]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_mul:
+	name = "in_1"
+	original_name = "mul"
+	shape = [1, 16, 768]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 1.000

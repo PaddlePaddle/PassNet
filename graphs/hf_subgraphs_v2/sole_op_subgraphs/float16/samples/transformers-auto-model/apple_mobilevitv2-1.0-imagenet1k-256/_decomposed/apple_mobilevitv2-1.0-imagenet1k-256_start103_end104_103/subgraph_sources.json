@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256": [
+        [
+            40,
+            41
+        ],
+        [
+            103,
+            104
+        ],
+        [
+            210,
+            211
+        ]
+    ]
+}

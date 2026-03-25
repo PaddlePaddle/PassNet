@@ -1,0 +1,374 @@
+{
+    "samples/timm/cspresnet50.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/cspresnext50.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/densenet121.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/densenet161.tv_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/densenet169.tv_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/densenet201.tv_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/dpn107.mx_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/dpn131.mx_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/dpn92.mx_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/dpn98.mx_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/ecaresnetlight.miil_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/legacy_seresnet101.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/legacy_seresnet152.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/legacy_seresnet18.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/legacy_seresnet34.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/legacy_seresnet50.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/legacy_seresnext101_32x4d.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/legacy_seresnext26_32x4d.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/legacy_seresnext50_32x4d.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/res2net101_26w_4s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/res2net50_14w_8s.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/res2net50_26w_4s.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/res2net50_26w_6s.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/res2net50_26w_8s.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/res2net50_48w_2s.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/res2next50.in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet101.a1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet152.a1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet18": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet26.bt_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet34.a1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnet50.a1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetaa50.a1h_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetblur50.bt_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetv2_101.a1h_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetv2_18.ra4_e3600_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetv2_34.ra4_e3600_r224_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnetv2_50.a1h_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnext101_32x4d.fb_ssl_yfcc100m_ft_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnext101_64x4d.c1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/resnext50_32x4d.a1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnet50.a1_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnext101_32x4d.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnext101_64x4d.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/seresnext50_32x4d.gluon_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/skresnet18.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/skresnet34.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/timm/skresnext50_32x4d.ra_in1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/densenet121": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/densenet161": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/densenet169": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/densenet201": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/resnet101": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/resnet152": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/resnet18": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/resnet34": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/resnet50": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/resnext101_32x8d": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/resnext101_64x4d": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/torchvision/resnext50_32x4d": [
+        [
+            0,
+            1
+        ]
+    ]
+}

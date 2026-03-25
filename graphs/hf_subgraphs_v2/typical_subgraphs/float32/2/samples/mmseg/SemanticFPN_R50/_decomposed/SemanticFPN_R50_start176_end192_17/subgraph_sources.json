@@ -1,0 +1,8 @@
+{
+    "samples/mmseg/SemanticFPN_R50": [
+        [
+            176,
+            192
+        ]
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "samples/timm/repvit_m1.dist_in1k": [
+        [
+            61,
+            64
+        ]
+    ]
+}

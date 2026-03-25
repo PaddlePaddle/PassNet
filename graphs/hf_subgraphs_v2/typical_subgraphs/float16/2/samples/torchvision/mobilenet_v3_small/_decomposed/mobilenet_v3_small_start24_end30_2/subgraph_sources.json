@@ -1,0 +1,8 @@
+{
+    "samples/torchvision/mobilenet_v3_small": [
+        [
+            24,
+            30
+        ]
+    ]
+}

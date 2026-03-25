@@ -1,0 +1,52 @@
+{
+    "samples/transformers-auto-model/apple_DepthPro-hf": [
+        [
+            64,
+            67
+        ],
+        [
+            280,
+            283
+        ],
+        [
+            936,
+            939
+        ],
+        [
+            1152,
+            1155
+        ],
+        [
+            2278,
+            2281
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-large": [
+        [
+            64,
+            67
+        ],
+        [
+            280,
+            283
+        ],
+        [
+            658,
+            661
+        ]
+    ],
+    "samples/transformers-auto-model/owkin_phikon-v2": [
+        [
+            54,
+            57
+        ],
+        [
+            270,
+            273
+        ],
+        [
+            648,
+            651
+        ]
+    ]
+}

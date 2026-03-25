@@ -1,0 +1,146 @@
+{
+    "samples/mmseg/BiSeNetV1_R18": [
+        [
+            17,
+            23
+        ],
+        [
+            33,
+            39
+        ],
+        [
+            49,
+            55
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            23,
+            29
+        ]
+    ],
+    "samples/mmseg/ICNet_R18": [
+        [
+            33,
+            39
+        ]
+    ],
+    "samples/mmseg/PSPNet_R18": [
+        [
+            23,
+            29
+        ]
+    ],
+    "samples/timm/legacy_seresnet18.in1k": [
+        [
+            31,
+            37
+        ],
+        [
+            61,
+            67
+        ],
+        [
+            91,
+            97
+        ]
+    ],
+    "samples/timm/legacy_seresnet34.in1k": [
+        [
+            45,
+            51
+        ],
+        [
+            103,
+            109
+        ],
+        [
+            189,
+            195
+        ]
+    ],
+    "samples/timm/resnet18": [
+        [
+            17,
+            23
+        ],
+        [
+            33,
+            39
+        ],
+        [
+            49,
+            55
+        ]
+    ],
+    "samples/timm/resnet18d.ra2_in1k": [
+        [
+            23,
+            29
+        ],
+        [
+            40,
+            46
+        ],
+        [
+            57,
+            63
+        ]
+    ],
+    "samples/timm/resnet34.a1_in1k": [
+        [
+            24,
+            30
+        ],
+        [
+            54,
+            60
+        ],
+        [
+            98,
+            104
+        ]
+    ],
+    "samples/timm/resnet34d.ra2_in1k": [
+        [
+            30,
+            36
+        ],
+        [
+            61,
+            67
+        ],
+        [
+            106,
+            112
+        ]
+    ],
+    "samples/torchvision/resnet18": [
+        [
+            17,
+            23
+        ],
+        [
+            33,
+            39
+        ],
+        [
+            49,
+            55
+        ]
+    ],
+    "samples/torchvision/resnet34": [
+        [
+            24,
+            30
+        ],
+        [
+            54,
+            60
+        ],
+        [
+            98,
+            104
+        ]
+    ]
+}

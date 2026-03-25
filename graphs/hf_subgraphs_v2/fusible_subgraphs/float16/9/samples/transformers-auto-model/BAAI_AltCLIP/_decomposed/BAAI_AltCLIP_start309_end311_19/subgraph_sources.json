@@ -1,0 +1,40 @@
+{
+    "samples/transformers-auto-model/BAAI_AltCLIP": [
+        [
+            42,
+            44
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            309,
+            311
+        ]
+    ],
+    "samples/transformers-auto-model/ELiRF_NASCA": [
+        [
+            72,
+            74
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_bart-large-finetuned-eLife": [
+        [
+            72,
+            74
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-aav-fra_ita_por_spa": [
+        [
+            411,
+            413
+        ]
+    ],
+    "samples/transformers-auto-model/sbulut_finetuned-kde4-en-to-tr": [
+        [
+            68,
+            70
+        ]
+    ]
+}

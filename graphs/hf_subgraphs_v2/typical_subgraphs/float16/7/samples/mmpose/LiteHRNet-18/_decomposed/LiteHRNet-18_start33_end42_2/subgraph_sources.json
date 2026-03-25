@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/LiteHRNet-18": [
+        [
+            33,
+            42
+        ]
+    ],
+    "samples/mmpose/LiteHRNet-30": [
+        [
+            33,
+            42
+        ]
+    ]
+}

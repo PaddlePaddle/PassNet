@@ -1,0 +1,22 @@
+{
+    "samples/torchvision/deeplabv3_resnet101": [
+        [
+            342,
+            345
+        ]
+    ],
+    "samples/transformers-auto-model/Ramos-Ramos_vicreg-resnet-50": [
+        [
+            16,
+            19
+        ],
+        [
+            36,
+            39
+        ],
+        [
+            100,
+            103
+        ]
+    ]
+}

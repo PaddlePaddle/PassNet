@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/ELiRF_mbart-large-cc25-dacsa-ca": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/amurienne_kellag-m2m100-v0.2": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/breadlicker45_autotrain-blender-50601120822": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/gsarti_it5-efficient-small-el32-wiki-summarization": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/sismetanin_mbart_ru_sum_gazeta-ru-sentiment-liniscrowd": [
+        [
+            0,
+            1
+        ]
+    ]
+}

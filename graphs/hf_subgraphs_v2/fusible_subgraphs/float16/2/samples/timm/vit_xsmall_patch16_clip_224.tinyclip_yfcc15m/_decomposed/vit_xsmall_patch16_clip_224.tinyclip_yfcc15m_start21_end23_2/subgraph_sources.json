@@ -1,0 +1,14 @@
+{
+    "samples/timm/vit_xsmall_patch16_clip_224.tinyclip_yfcc15m": [
+        [
+            21,
+            23
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            289,
+            291
+        ]
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "samples/transformers-auto-model/google_mobilebert-uncased": [
+        [
+            69,
+            72
+        ],
+        [
+            128,
+            131
+        ],
+        [
+            187,
+            190
+        ],
+        [
+            600,
+            603
+        ],
+        [
+            1426,
+            1429
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileBertForSequenceClassification": [
+        [
+            69,
+            72
+        ],
+        [
+            128,
+            131
+        ],
+        [
+            187,
+            190
+        ],
+        [
+            305,
+            308
+        ]
+    ],
+    "samples/transformers-auto-model/hossamamer12_BUS15100_MB2_20epoch_notweettokenizer_fp16": [
+        [
+            69,
+            72
+        ],
+        [
+            128,
+            131
+        ]
+    ]
+}

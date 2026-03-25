@@ -1,0 +1,70 @@
+{
+    "samples/transformers-auto-model/facebook_data2vec-vision-large": [
+        [
+            129,
+            132
+        ],
+        [
+            657,
+            660
+        ],
+        [
+            1581,
+            1584
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k": [
+        [
+            129,
+            132
+        ],
+        [
+            657,
+            660
+        ],
+        [
+            1581,
+            1584
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-224": [
+        [
+            1581,
+            1584
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-224-pt22k": [
+        [
+            1581,
+            1584
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-384": [
+        [
+            129,
+            132
+        ],
+        [
+            657,
+            660
+        ],
+        [
+            1581,
+            1584
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-512": [
+        [
+            129,
+            132
+        ],
+        [
+            657,
+            660
+        ],
+        [
+            1581,
+            1584
+        ]
+    ]
+}

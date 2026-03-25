@@ -1,0 +1,46 @@
+{
+    "samples/mmseg/BiSeNetV1_R18": [
+        [
+            101,
+            107
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R50": [
+        [
+            207,
+            213
+        ]
+    ],
+    "samples/mmseg/PIDNet-l": [
+        [
+            206,
+            212
+        ]
+    ],
+    "samples/mmseg/PIDNet-s": [
+        [
+            171,
+            177
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_small.e1200_r224_in1k": [
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_small_050.e3000_r224_in1k": [
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            14
+        ]
+    ]
+}

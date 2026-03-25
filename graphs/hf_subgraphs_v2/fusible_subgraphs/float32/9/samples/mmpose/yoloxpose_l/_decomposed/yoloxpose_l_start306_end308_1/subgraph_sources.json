@@ -1,0 +1,20 @@
+{
+    "samples/mmpose/yoloxpose_l": [
+        [
+            306,
+            308
+        ]
+    ],
+    "samples/ultralytics/yolo12l": [
+        [
+            751,
+            753
+        ]
+    ],
+    "samples/ultralytics/yolo12x": [
+        [
+            751,
+            753
+        ]
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "samples/timm/caformer_m36": [
+        [
+            12,
+            13
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            58,
+            59
+        ]
+    ],
+    "samples/timm/convformer_m36": [
+        [
+            12,
+            13
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            58,
+            59
+        ]
+    ],
+    "samples/timm/fastvit_t8.apple_dist_in1k": [
+        [
+            138,
+            139
+        ],
+        [
+            159,
+            160
+        ],
+        [
+            180,
+            181
+        ],
+        [
+            201,
+            202
+        ]
+    ],
+    "samples/timm/focalnet_large_fl3.ms_in22k": [
+        [
+            14,
+            15
+        ],
+        [
+            60,
+            61
+        ]
+    ],
+    "samples/timm/focalnet_large_fl4.ms_in22k": [
+        [
+            19,
+            20
+        ],
+        [
+            70,
+            71
+        ]
+    ],
+    "samples/timm/focalnet_small_lrf.ms_in1k": [
+        [
+            110,
+            111
+        ],
+        [
+            152,
+            153
+        ]
+    ],
+    "samples/timm/focalnet_tiny_lrf.ms_in1k": [
+        [
+            110,
+            111
+        ],
+        [
+            152,
+            153
+        ]
+    ],
+    "samples/timm/mixnet_xl.ra_in1k": [
+        [
+            232,
+            233
+        ],
+        [
+            266,
+            267
+        ],
+        [
+            300,
+            301
+        ],
+        [
+            334,
+            335
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-small-lrf": [
+        [
+            124,
+            125
+        ],
+        [
+            171,
+            172
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-tiny-lrf": [
+        [
+            124,
+            125
+        ],
+        [
+            171,
+            172
+        ]
+    ]
+}

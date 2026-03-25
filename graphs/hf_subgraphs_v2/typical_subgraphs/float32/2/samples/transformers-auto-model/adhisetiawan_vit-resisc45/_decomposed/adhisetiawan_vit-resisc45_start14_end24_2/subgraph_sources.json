@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/adhisetiawan_vit-resisc45": [
+        [
+            14,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_base_patch16_224": [
+        [
+            14,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/owkin_phikon": [
+        [
+            14,
+            24
+        ]
+    ]
+}

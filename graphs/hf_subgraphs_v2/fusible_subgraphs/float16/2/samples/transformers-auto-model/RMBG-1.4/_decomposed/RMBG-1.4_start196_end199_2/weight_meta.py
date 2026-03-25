@@ -1,0 +1,69 @@
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_buffers_running_mean_:
+	name = "in_0"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_buffers_running_mean_"
+	shape = [256]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = -13.911
+	std = 20.936
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_buffers_running_var_:
+	name = "in_1"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_buffers_running_var_"
+	shape = [256]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = 1621.975
+	std = 959.293
+	min_val = 0
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_parameters_bias_:
+	name = "in_2"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_parameters_bias_"
+	shape = [256]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = -0.690
+	std = 0.531
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_parameters_weight_:
+	name = "in_3"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_bn_s1_parameters_weight_"
+	shape = [256]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = 0.915
+	std = 0.453
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_conv_s1_parameters_bias_:
+	name = "in_4"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_conv_s1_parameters_bias_"
+	shape = [256]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = -0.001
+	std = 0.012
+
+
+class Program_weight_tensor_meta_L_self_modules_stage5_modules_rebnconv3_modules_conv_s1_parameters_weight_:
+	name = "in_5"
+	original_name = "L_self_modules_stage5_modules_rebnconv3_modules_conv_s1_parameters_weight_"
+	shape = [256, 256, 3, 3]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = 0.046
+	std = 0.676
+
+
+class Program_weight_tensor_meta_xout_46:
+	name = "in_6"
+	original_name = "xout_46"
+	shape = [4, 256, 20, 20]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 3.660
+	std = 1.205

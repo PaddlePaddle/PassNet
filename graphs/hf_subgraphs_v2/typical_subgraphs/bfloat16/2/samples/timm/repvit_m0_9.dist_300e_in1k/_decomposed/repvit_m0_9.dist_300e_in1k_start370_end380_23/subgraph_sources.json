@@ -1,0 +1,50 @@
+{
+    "samples/timm/repvit_m0_9.dist_300e_in1k": [
+        [
+            370,
+            380
+        ]
+    ],
+    "samples/timm/repvit_m1.dist_in1k": [
+        [
+            370,
+            380
+        ]
+    ],
+    "samples/timm/repvit_m1_0.dist_300e_in1k": [
+        [
+            370,
+            380
+        ]
+    ],
+    "samples/timm/repvit_m1_1.dist_300e_in1k": [
+        [
+            340,
+            350
+        ]
+    ],
+    "samples/timm/repvit_m1_5.dist_300e_in1k": [
+        [
+            610,
+            620
+        ]
+    ],
+    "samples/timm/repvit_m2.dist_in1k": [
+        [
+            340,
+            350
+        ]
+    ],
+    "samples/timm/repvit_m2_3.dist_300e_in1k": [
+        [
+            790,
+            800
+        ]
+    ],
+    "samples/timm/repvit_m3.dist_in1k": [
+        [
+            490,
+            500
+        ]
+    ]
+}

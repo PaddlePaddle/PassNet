@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/facebook_data2vec-vision-large": [
+        [
+            51,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            1809,
+            1812
+        ]
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "samples/timm/res2net50_14w_8s.in1k": [
+        [
+            24,
+            30
+        ],
+        [
+            30,
+            36
+        ]
+    ],
+    "samples/timm/res2net50_26w_6s.in1k": [
+        [
+            22,
+            28
+        ]
+    ],
+    "samples/timm/res2net50_26w_8s.in1k": [
+        [
+            24,
+            30
+        ],
+        [
+            30,
+            36
+        ]
+    ]
+}

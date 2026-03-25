@@ -1,0 +1,64 @@
+{
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-small-uncased-tokenized": [
+        [
+            16,
+            19
+        ],
+        [
+            103,
+            106
+        ],
+        [
+            106,
+            109
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            83,
+            86
+        ],
+        [
+            86,
+            89
+        ],
+        [
+            89,
+            92
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-512_A-8": [
+        [
+            219,
+            222
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-512_A-8": [
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            43
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            153,
+            156
+        ]
+    ]
+}

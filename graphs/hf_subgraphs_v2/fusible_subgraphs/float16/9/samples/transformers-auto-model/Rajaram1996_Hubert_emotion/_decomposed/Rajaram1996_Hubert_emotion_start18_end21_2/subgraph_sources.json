@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/Rajaram1996_Hubert_emotion": [
+        [
+            18,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender": [
+        [
+            38,
+            41
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_wav2vec2-base-960h": [
+        [
+            18,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/reralle_wav2vec2_s-f-o_8batch_5sec_0.0001lr_unfrozen": [
+        [
+            18,
+            21
+        ]
+    ]
+}

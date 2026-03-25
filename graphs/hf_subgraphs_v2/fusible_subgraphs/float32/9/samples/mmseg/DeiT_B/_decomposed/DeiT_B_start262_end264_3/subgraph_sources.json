@@ -1,0 +1,18 @@
+{
+    "samples/mmseg/DeiT_B": [
+        [
+            262,
+            264
+        ],
+        [
+            264,
+            266
+        ]
+    ],
+    "samples/mmseg/K-Net_upernet": [
+        [
+            211,
+            213
+        ]
+    ]
+}

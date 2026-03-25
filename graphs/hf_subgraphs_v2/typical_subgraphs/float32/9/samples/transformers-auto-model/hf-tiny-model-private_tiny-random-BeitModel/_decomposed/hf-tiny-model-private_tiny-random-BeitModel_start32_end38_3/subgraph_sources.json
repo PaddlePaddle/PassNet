@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel": [
+        [
+            7,
+            13
+        ],
+        [
+            32,
+            38
+        ],
+        [
+            57,
+            63
+        ],
+        [
+            82,
+            88
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecVisionModel": [
+        [
+            7,
+            13
+        ],
+        [
+            32,
+            38
+        ],
+        [
+            57,
+            63
+        ],
+        [
+            82,
+            88
+        ]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14": [
+        [
+            1039,
+            1041
+        ],
+        [
+            1045,
+            1047
+        ],
+        [
+            1333,
+            1335
+        ],
+        [
+            1781,
+            1783
+        ]
+    ],
+    "samples/transformers-auto-model/ashique_BanglaTraitBERT": [
+        [
+            706,
+            708
+        ]
+    ]
+}

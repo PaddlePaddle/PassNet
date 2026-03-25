@@ -1,0 +1,14 @@
+{
+    "samples/timm/eva_giant_patch14_224.clip_ft_in1k": [
+        [
+            222,
+            239
+        ]
+    ],
+    "samples/timm/eva_giant_patch14_clip_224.laion400m": [
+        [
+            222,
+            239
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/JackWong0911_vivit-b-16x2-kinetics400-finetuned-kinectic": [
+        [
+            21,
+            25
+        ],
+        [
+            56,
+            60
+        ]
+    ]
+}

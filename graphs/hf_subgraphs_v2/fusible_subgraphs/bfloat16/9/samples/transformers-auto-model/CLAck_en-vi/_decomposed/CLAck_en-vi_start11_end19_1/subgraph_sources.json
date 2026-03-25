@@ -1,0 +1,62 @@
+{
+    "samples/transformers-auto-model/CLAck_en-vi": [
+        [
+            11,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-NORTH_EU-NORTH_EU": [
+        [
+            11,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-aed-es": [
+        [
+            11,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-af-es": [
+        [
+            11,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-en-zh": [
+        [
+            11,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-zh-en": [
+        [
+            11,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/NeNeDataScientist_NeNeAI007_fr-kiluba-translation": [
+        [
+            11,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Nextcloud-AI_opus-mt-ar-es": [
+        [
+            11,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/SpaceCowboy03_finetuned-kde4-es-to-fr": [
+        [
+            11,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/kannt-im_marian-finetuned-kde4-en-to-fr": [
+        [
+            11,
+            19
+        ]
+    ]
+}

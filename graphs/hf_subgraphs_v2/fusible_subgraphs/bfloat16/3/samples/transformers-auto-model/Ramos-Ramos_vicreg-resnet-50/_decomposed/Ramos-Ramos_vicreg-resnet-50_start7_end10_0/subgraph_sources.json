@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/Ramos-Ramos_vicreg-resnet-50": [
+        [
+            7,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/grelade_mmx-resnet-18": [
+        [
+            11,
+            14
+        ],
+        [
+            27,
+            30
+        ]
+    ]
+}

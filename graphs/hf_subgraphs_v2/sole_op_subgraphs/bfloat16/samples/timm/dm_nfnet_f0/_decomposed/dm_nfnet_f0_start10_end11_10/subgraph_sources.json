@@ -1,0 +1,38 @@
+{
+    "samples/timm/dm_nfnet_f0": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/timm/dm_nfnet_f2": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/timm/dm_nfnet_f3": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/timm/dm_nfnet_f4": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/timm/dm_nfnet_f5": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/timm/dm_nfnet_f6": [
+        [
+            10,
+            11
+        ]
+    ]
+}

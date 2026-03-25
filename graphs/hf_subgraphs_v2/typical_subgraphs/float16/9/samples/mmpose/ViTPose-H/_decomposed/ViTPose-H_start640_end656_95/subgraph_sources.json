@@ -1,0 +1,8 @@
+{
+    "samples/mmpose/ViTPose-H": [
+        [
+            640,
+            656
+        ]
+    ]
+}

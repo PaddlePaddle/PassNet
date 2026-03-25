@@ -1,0 +1,56 @@
+{
+    "samples/timm/fastvit_t8.apple_dist_in1k": [
+        [
+            74,
+            75
+        ],
+        [
+            95,
+            96
+        ]
+    ],
+    "samples/timm/mobileone_s1.apple_in1k": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/timm/mobileone_s2.apple_in1k": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/timm/repvit_m1.dist_in1k": [
+        [
+            59,
+            60
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            89,
+            90
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileNetV2Model": [
+        [
+            159,
+            160
+        ],
+        [
+            181,
+            182
+        ],
+        [
+            203,
+            204
+        ],
+        [
+            225,
+            226
+        ]
+    ]
+}

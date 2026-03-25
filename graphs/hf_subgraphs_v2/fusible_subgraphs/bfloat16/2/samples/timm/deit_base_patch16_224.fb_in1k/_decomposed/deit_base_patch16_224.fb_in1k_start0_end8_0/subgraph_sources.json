@@ -1,0 +1,20 @@
+{
+    "samples/timm/deit_base_patch16_224.fb_in1k": [
+        [
+            0,
+            8
+        ]
+    ],
+    "samples/timm/eva02_base_patch16_clip_224.merged2b": [
+        [
+            0,
+            8
+        ]
+    ],
+    "samples/timm/vit_base_patch16_224_miil.in21k": [
+        [
+            0,
+            8
+        ]
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/ckiplab_albert-tiny-chinese-ner": [
+        [
+            30,
+            32
+        ],
+        [
+            35,
+            37
+        ]
+    ],
+    "samples/transformers-auto-model/garNER_albert-tiny-spanish-es-LM": [
+        [
+            30,
+            32
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            145,
+            151
+        ]
+    ],
+    "samples/mmseg/FastFCN_enc": [
+        [
+            145,
+            151
+        ]
+    ],
+    "samples/mmseg/FastFCN_psp": [
+        [
+            145,
+            151
+        ]
+    ]
+}

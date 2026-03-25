@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224": [
+        [
+            0,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_small_distilled_patch16_224": [
+        [
+            0,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-small-printed": [
+        [
+            0,
+            9
+        ]
+    ]
+}

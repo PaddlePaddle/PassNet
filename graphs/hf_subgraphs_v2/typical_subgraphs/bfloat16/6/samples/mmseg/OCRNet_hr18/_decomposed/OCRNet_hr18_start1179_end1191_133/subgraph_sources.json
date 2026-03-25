@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            1179,
+            1191
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            596,
+            608
+        ]
+    ]
+}

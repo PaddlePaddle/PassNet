@@ -1,0 +1,14 @@
+{
+    "samples/timm/efficientnet_em.ra2_in1k": [
+        [
+            70,
+            73
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_aa_large.e230_r384_in12k": [
+        [
+            80,
+            83
+        ]
+    ]
+}

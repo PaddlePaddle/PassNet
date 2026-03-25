@@ -1,0 +1,16 @@
+{
+    "samples/timm/mobilenet_edgetpu_v2_m.ra4_e3600_r224_in1k": [
+        [
+            82,
+            88
+        ],
+        [
+            91,
+            97
+        ],
+        [
+            100,
+            106
+        ]
+    ]
+}

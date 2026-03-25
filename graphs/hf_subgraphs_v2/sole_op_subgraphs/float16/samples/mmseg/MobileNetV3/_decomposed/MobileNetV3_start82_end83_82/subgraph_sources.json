@@ -1,0 +1,22 @@
+{
+    "samples/mmseg/MobileNetV3": [
+        [
+            82,
+            83
+        ]
+    ],
+    "samples/timm/eca_halonext26ts": [
+        [
+            110,
+            111
+        ],
+        [
+            170,
+            171
+        ],
+        [
+            232,
+            233
+        ]
+    ]
+}

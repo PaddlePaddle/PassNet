@@ -1,0 +1,22 @@
+{
+    "samples/timm/hgnet_base.ssld_in1k": [
+        [
+            34,
+            36
+        ],
+        [
+            94,
+            96
+        ],
+        [
+            246,
+            248
+        ]
+    ],
+    "samples/timm/hgnet_small.paddle_in1k": [
+        [
+            142,
+            144
+        ]
+    ]
+}

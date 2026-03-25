@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/SemanticFPN_R50": [
+        [
+            221,
+            227
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            984,
+            990
+        ]
+    ]
+}

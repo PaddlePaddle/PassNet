@@ -1,0 +1,20 @@
+{
+    "samples/timm/hardcorenas_a.miil_green_in1k": [
+        [
+            10,
+            16
+        ]
+    ],
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            10,
+            16
+        ]
+    ],
+    "samples/timm/hardcorenas_c.miil_green_in1k": [
+        [
+            10,
+            16
+        ]
+    ]
+}

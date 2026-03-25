@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/TinyLlama/TinyLlama-1.1B-Chat-v0.4": [
+        [
+            54,
+            61
+        ],
+        [
+            118,
+            125
+        ],
+        [
+            182,
+            189
+        ],
+        [
+            630,
+            637
+        ],
+        [
+            1398,
+            1405
+        ]
+    ]
+}

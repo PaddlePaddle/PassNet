@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-bort": [
+        [
+            110,
+            113
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_ernie-m-base_pytorch": [
+        [
+            372,
+            375
+        ]
+    ],
+    "samples/transformers-auto-model/nghuyong_ernie-2.0-base-en": [
+        [
+            358,
+            361
+        ]
+    ]
+}

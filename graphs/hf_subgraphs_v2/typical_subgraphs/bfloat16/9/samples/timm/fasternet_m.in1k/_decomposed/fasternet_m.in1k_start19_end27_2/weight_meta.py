@@ -1,0 +1,38 @@
+class Program_weight_tensor_meta_L_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_3_parameters_weight_:
+	name = "w_0"
+	original_name = "L_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_3_parameters_weight_"
+	shape = [144, 288, 1, 1]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.020
+
+
+class Program_weight_tensor_meta_L_self_modules_stages_modules_0_modules_blocks_modules_2_modules_spatial_mixing_modules_partial_conv3_parameters_weight_:
+	name = "w_1"
+	original_name = "L_self_modules_stages_modules_0_modules_blocks_modules_2_modules_spatial_mixing_modules_partial_conv3_parameters_weight_"
+	shape = [36, 36, 3, 3]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.020
+
+
+class Program_weight_tensor_meta_input_6:
+	name = "in_0"
+	original_name = "input_6"
+	shape = [1, 288, 56, 56]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.001
+
+
+class Program_weight_tensor_meta_x_2:
+	name = "in_1"
+	original_name = "x_2"
+	shape = [1, 144, 56, 56]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.010
+	std = 0.009

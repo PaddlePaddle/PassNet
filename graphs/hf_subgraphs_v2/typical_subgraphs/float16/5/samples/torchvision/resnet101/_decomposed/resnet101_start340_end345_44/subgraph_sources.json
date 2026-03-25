@@ -1,0 +1,50 @@
+{
+    "samples/torchvision/resnet101": [
+        [
+            340,
+            345
+        ]
+    ],
+    "samples/torchvision/resnet152": [
+        [
+            510,
+            515
+        ]
+    ],
+    "samples/torchvision/resnet18": [
+        [
+            64,
+            69
+        ]
+    ],
+    "samples/torchvision/resnet34": [
+        [
+            120,
+            125
+        ]
+    ],
+    "samples/torchvision/resnet50": [
+        [
+            170,
+            175
+        ]
+    ],
+    "samples/torchvision/resnext101_32x8d": [
+        [
+            340,
+            345
+        ]
+    ],
+    "samples/torchvision/resnext101_64x4d": [
+        [
+            340,
+            345
+        ]
+    ],
+    "samples/torchvision/resnext50_32x4d": [
+        [
+            170,
+            175
+        ]
+    ]
+}

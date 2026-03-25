@@ -1,0 +1,18 @@
+class Program_weight_tensor_meta_input_45:
+	name = "in_0"
+	original_name = "input_45"
+	shape = [1, 176, 24, 24]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 0.494
+	std = 0.346
+
+
+class Program_weight_tensor_meta_input_52:
+	name = "in_1"
+	original_name = "input_52"
+	shape = [1, 176, 24, 24]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 0.519
+	std = 0.490

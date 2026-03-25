@@ -1,0 +1,26 @@
+{
+    "samples/timm/repvit_m1_1.dist_300e_in1k": [
+        [
+            25,
+            29
+        ],
+        [
+            37,
+            41
+        ]
+    ],
+    "samples/timm/repvit_m1_5.dist_300e_in1k": [
+        [
+            25,
+            29
+        ],
+        [
+            55,
+            59
+        ],
+        [
+            67,
+            71
+        ]
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "samples/timm/eca_botnext26ts_256": [
+        [
+            18,
+            19
+        ],
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/timm/eca_halonext26ts": [
+        [
+            18,
+            19
+        ],
+        [
+            37,
+            38
+        ]
+    ],
+    "samples/timm/eca_resnet33ts.ra2_in1k": [
+        [
+            20,
+            21
+        ],
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/timm/eca_resnext26ts.ch_in1k": [
+        [
+            21,
+            22
+        ],
+        [
+            40,
+            41
+        ]
+    ]
+}

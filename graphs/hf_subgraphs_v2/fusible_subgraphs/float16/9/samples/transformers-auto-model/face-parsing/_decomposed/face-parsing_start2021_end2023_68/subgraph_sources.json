@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            2021,
+            2023
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot": [
+        [
+            1202,
+            1204
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32-16-frames": [
+        [
+            1202,
+            1204
+        ]
+    ]
+}

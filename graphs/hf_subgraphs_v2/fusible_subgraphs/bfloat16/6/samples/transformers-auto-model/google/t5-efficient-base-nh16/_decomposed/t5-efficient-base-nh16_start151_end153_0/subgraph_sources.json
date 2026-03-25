@@ -1,0 +1,80 @@
+{
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            222,
+            224
+        ],
+        [
+            1797,
+            1799
+        ],
+        [
+            1829,
+            1831
+        ],
+        [
+            1842,
+            1844
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nh16": [
+        [
+            151,
+            153
+        ],
+        [
+            164,
+            166
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nh32": [
+        [
+            151,
+            153
+        ],
+        [
+            164,
+            166
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-base-nh8": [
+        [
+            151,
+            153
+        ],
+        [
+            164,
+            166
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-kv16": [
+        [
+            151,
+            153
+        ],
+        [
+            164,
+            166
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-kv256": [
+        [
+            151,
+            153
+        ],
+        [
+            164,
+            166
+        ]
+    ],
+    "samples/transformers-auto-model/google/t5-efficient-large-nh2": [
+        [
+            151,
+            153
+        ],
+        [
+            164,
+            166
+        ]
+    ]
+}

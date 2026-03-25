@@ -1,0 +1,10 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, w_0 : torch.Tensor, in_0 : torch.Tensor, in_1 : torch.Tensor):
+        conv2d = torch.conv2d(in_1, in_0, w_0, (2, 2), (0, 0), (1, 1), 6);  in_1 = in_0 = w_0 = None
+        return (conv2d,)
+        

@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosModel": [
+        [
+            37,
+            47
+        ],
+        [
+            65,
+            75
+        ],
+        [
+            93,
+            103
+        ],
+        [
+            121,
+            131
+        ],
+        [
+            149,
+            159
+        ]
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/echarlaix_bart-base-cnn-r2-18.7-d23-hybrid": [
+        [
+            121,
+            148
+        ],
+        [
+            172,
+            199
+        ],
+        [
+            223,
+            250
+        ],
+        [
+            274,
+            301
+        ]
+    ],
+    "samples/transformers-auto-model/ncoop57_bart-base-code-summarizer-java-v0": [
+        [
+            121,
+            148
+        ],
+        [
+            172,
+            199
+        ],
+        [
+            223,
+            250
+        ],
+        [
+            274,
+            301
+        ]
+    ]
+}

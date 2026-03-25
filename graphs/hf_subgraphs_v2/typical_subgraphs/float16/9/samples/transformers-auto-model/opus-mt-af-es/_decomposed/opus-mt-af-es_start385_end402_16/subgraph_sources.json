@@ -1,0 +1,168 @@
+{
+    "samples/transformers-auto-model/opus-mt-af-es": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-nl": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-af-ru": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ceb-fr": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-crs-fi": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-da-no": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-da-ru": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-NORWAY": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-eo": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-et": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ha": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-NORWAY": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-mg": [
+        [
+            385,
+            402
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-bat-en": [
+        [
+            283,
+            300
+        ],
+        [
+            334,
+            351
+        ],
+        [
+            385,
+            402
+        ],
+        [
+            436,
+            453
+        ],
+        [
+            487,
+            504
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-fiu-en": [
+        [
+            283,
+            300
+        ],
+        [
+            334,
+            351
+        ],
+        [
+            385,
+            402
+        ],
+        [
+            436,
+            453
+        ],
+        [
+            487,
+            504
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-gmq-en": [
+        [
+            283,
+            300
+        ],
+        [
+            334,
+            351
+        ],
+        [
+            385,
+            402
+        ],
+        [
+            436,
+            453
+        ],
+        [
+            487,
+            504
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-poz-en": [
+        [
+            283,
+            300
+        ],
+        [
+            334,
+            351
+        ],
+        [
+            385,
+            402
+        ],
+        [
+            436,
+            453
+        ],
+        [
+            487,
+            504
+        ]
+    ]
+}

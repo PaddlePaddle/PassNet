@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/MobileNetV3": [
+        [
+            151,
+            152
+        ]
+    ],
+    "samples/mmseg/MobileNetV3_s": [
+        [
+            123,
+            124
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-base-uncased": [
+        [
+            23,
+            31
+        ],
+        [
+            52,
+            60
+        ]
+    ]
+}

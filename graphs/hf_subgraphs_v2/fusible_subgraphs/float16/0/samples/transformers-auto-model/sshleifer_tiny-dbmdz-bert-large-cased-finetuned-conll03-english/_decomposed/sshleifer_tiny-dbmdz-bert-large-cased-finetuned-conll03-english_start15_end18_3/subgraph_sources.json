@@ -1,0 +1,28 @@
+{
+    "samples/transformers-auto-model/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english": [
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            43
+        ],
+        [
+            43,
+            46
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/timm/starnet_s2.in1k": [
+        [
+            119,
+            125
+        ]
+    ],
+    "samples/timm/starnet_s3.in1k": [
+        [
+            169,
+            175
+        ]
+    ],
+    "samples/timm/starnet_s4.in1k": [
+        [
+            239,
+            245
+        ]
+    ]
+}

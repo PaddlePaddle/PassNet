@@ -1,0 +1,50 @@
+{
+    "samples/timm/vgg11.tv_in1k": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/timm/vgg13.tv_in1k": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/timm/vgg16.tv_in1k": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/timm/vgg19.tv_in1k": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/torchvision/vgg11": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/torchvision/vgg13": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/torchvision/vgg16": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/torchvision/vgg19": [
+        [
+            0,
+            2
+        ]
+    ]
+}

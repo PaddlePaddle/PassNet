@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/Ramos-Ramos_vicreg-resnet-50": [
+        [
+            35,
+            41
+        ],
+        [
+            77,
+            83
+        ],
+        [
+            139,
+            145
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_resnet-50": [
+        [
+            35,
+            41
+        ],
+        [
+            77,
+            83
+        ],
+        [
+            139,
+            145
+        ]
+    ]
+}

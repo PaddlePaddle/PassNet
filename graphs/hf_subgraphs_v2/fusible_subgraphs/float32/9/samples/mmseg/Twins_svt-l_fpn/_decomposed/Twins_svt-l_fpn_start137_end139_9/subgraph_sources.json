@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            137,
+            139
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            301,
+            303
+        ]
+    ]
+}

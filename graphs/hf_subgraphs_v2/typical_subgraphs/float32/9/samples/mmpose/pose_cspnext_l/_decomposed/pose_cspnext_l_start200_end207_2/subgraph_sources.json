@@ -1,0 +1,92 @@
+{
+    "samples/mmpose/pose_cspnext_l": [
+        [
+            46,
+            53
+        ],
+        [
+            200,
+            207
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_m": [
+        [
+            36,
+            43
+        ],
+        [
+            93,
+            100
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_s": [
+        [
+            63,
+            70
+        ],
+        [
+            100,
+            107
+        ]
+    ],
+    "samples/mmpose/rtmpose-l": [
+        [
+            46,
+            53
+        ],
+        [
+            200,
+            207
+        ]
+    ],
+    "samples/mmpose/rtmpose-m": [
+        [
+            36,
+            43
+        ],
+        [
+            93,
+            100
+        ]
+    ],
+    "samples/mmpose/rtmpose-s": [
+        [
+            63,
+            70
+        ],
+        [
+            100,
+            107
+        ]
+    ],
+    "samples/mmpose/rtmw-l": [
+        [
+            46,
+            53
+        ],
+        [
+            200,
+            207
+        ]
+    ],
+    "samples/mmpose/rtmw-m": [
+        [
+            36,
+            43
+        ],
+        [
+            93,
+            100
+        ]
+    ],
+    "samples/mmpose/rtmw-x": [
+        [
+            56,
+            63
+        ],
+        [
+            250,
+            257
+        ]
+    ]
+}

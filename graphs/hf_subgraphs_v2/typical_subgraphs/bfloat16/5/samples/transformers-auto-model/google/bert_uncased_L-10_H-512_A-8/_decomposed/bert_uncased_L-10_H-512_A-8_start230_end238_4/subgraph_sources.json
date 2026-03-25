@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-512_A-8": [
+        [
+            230,
+            238
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-4_H-512_A-8": [
+        [
+            98,
+            106
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-512_A-8": [
+        [
+            186,
+            194
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            186,
+            194
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_small-vanilla-target-tweet": [
+        [
+            98,
+            106
+        ]
+    ]
+}

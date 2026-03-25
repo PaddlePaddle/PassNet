@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224": [
+        [
+            15,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_small_distilled_patch16_224": [
+        [
+            15,
+            25
+        ]
+    ]
+}

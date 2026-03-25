@@ -1,0 +1,8 @@
+class Program_weight_tensor_meta_x_35:
+	name = "in_0"
+	original_name = "x_35"
+	shape = [64, 256, 12, 12]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.456
+	std = 0.310

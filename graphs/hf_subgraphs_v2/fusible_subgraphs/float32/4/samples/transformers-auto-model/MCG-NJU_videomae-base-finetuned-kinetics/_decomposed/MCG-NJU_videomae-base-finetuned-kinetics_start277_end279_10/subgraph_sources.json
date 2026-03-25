@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/MCG-NJU_videomae-base-finetuned-kinetics": [
+        [
+            34,
+            36
+        ],
+        [
+            277,
+            279
+        ]
+    ]
+}

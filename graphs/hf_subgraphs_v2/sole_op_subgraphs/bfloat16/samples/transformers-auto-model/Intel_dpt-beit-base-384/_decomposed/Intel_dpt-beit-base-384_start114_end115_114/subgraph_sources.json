@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/Intel_dpt-beit-base-384": [
+        [
+            114,
+            115
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_dpt-beit-large-384": [
+        [
+            114,
+            115
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_dpt-beit-large-512": [
+        [
+            114,
+            115
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_dpt-large": [
+        [
+            754,
+            755
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_zoedepth-kitti": [
+        [
+            90,
+            91
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_zoedepth-nyu": [
+        [
+            90,
+            91
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dpt-dinov2-giant-nyu": [
+        [
+            117,
+            118
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dpt-dinov2-small-kitti": [
+        [
+            117,
+            118
+        ]
+    ]
+}

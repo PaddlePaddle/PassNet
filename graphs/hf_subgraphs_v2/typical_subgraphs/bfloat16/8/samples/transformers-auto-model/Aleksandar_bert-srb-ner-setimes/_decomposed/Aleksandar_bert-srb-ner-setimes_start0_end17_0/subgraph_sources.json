@@ -1,0 +1,134 @@
+{
+    "samples/transformers-auto-model/Aleksandar_bert-srb-ner-setimes": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/CAMeL-Lab_text-editing-qalb14-nopnx": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_finest-bert": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/akdeniz27_bert-base-turkish-cased-ner": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/bert-base-uncased": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/cointegrated_rubert-base-cased-nli-threeway": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/disi-unibo-nlp_openbioner-base": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/eliza-dukim_para-kqc-sim": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/erica_krm_sa2": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dpr-ctx_encoder-single-nq-base": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-base-cased": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-base-chinese": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/google-bert_bert-base-multilingual-cased": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/hfl_chinese-roberta-wwm-ext": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/klue_bert-base": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-TinyBERT-L6": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/nlptown_bert_base_multilingual_uncased_sentiment": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/LaBSE": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-TinyBERT-L6-v2": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/simjo_dummy-model": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/xc2450_distilbert-portuguese-cased-finetuned-bec_classification": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/yiyanghkust_finbert-tone": [
+        [
+            0,
+            17
+        ]
+    ]
+}

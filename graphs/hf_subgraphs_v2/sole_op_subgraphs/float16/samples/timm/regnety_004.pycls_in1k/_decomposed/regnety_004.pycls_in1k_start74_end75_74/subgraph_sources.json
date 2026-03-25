@@ -1,0 +1,14 @@
+{
+    "samples/timm/regnety_004.pycls_in1k": [
+        [
+            74,
+            75
+        ]
+    ],
+    "samples/torchvision/regnet_y_400mf": [
+        [
+            76,
+            77
+        ]
+    ]
+}

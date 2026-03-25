@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/facebook_data2vec-vision-base-ft1k": [
+        [
+            57,
+            61
+        ],
+        [
+            123,
+            127
+        ],
+        [
+            651,
+            655
+        ],
+        [
+            783,
+            787
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-base-patch16-224-pt22k-ft22k": [
+        [
+            783,
+            787
+        ]
+    ]
+}

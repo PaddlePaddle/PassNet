@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/akdeniz27_bert-base-turkish-cased-ner": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/anilguven_electra_tr_turkish_product_reviews": [
+        [
+            4,
+            5
+        ]
+    ]
+}

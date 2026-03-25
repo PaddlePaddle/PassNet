@@ -1,0 +1,18 @@
+{
+    "samples/timm/efficientnet_em.ra2_in1k": [
+        [
+            166,
+            172
+        ],
+        [
+            175,
+            181
+        ]
+    ],
+    "samples/timm/efficientnet_es.ra_in1k": [
+        [
+            131,
+            137
+        ]
+    ]
+}

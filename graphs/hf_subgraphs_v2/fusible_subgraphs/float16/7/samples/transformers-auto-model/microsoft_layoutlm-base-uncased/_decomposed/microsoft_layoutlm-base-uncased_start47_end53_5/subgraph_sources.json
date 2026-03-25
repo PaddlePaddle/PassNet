@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/microsoft_layoutlm-base-uncased": [
+        [
+            47,
+            53
+        ],
+        [
+            79,
+            85
+        ]
+    ]
+}

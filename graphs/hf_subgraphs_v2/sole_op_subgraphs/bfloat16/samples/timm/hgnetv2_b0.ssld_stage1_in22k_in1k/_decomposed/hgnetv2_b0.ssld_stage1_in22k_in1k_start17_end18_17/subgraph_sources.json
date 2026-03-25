@@ -1,0 +1,44 @@
+{
+    "samples/timm/hgnetv2_b0.ssld_stage1_in22k_in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/hgnetv2_b1.ssld_stage1_in22k_in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/hgnetv2_b2.ssld_stage1_in22k_in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/hgnetv2_b3.ssld_stage1_in22k_in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/hgnetv2_b4.ssld_stage1_in22k_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/hgnetv2_b5.ssld_stage1_in22k_in1k": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/hgnetv2_b6.ssld_stage1_in22k_in1k": [
+        [
+            11,
+            12
+        ]
+    ]
+}

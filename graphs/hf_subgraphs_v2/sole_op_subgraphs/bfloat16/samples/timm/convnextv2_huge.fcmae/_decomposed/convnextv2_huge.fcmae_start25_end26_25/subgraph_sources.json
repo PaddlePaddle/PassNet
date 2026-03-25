@@ -1,0 +1,52 @@
+{
+    "samples/timm/convnextv2_huge.fcmae": [
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            62,
+            63
+        ]
+    ],
+    "samples/timm/convnextv2_huge.fcmae_ft_in1k": [
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            62,
+            63
+        ]
+    ],
+    "samples/timm/rdnet_small.nv_in1k": [
+        [
+            171,
+            172
+        ]
+    ]
+}

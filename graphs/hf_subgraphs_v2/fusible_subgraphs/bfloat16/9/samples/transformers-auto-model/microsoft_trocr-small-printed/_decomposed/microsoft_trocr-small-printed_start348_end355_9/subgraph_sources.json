@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/microsoft_trocr-small-printed": [
+        [
+            348,
+            355
+        ],
+        [
+            373,
+            380
+        ],
+        [
+            405,
+            412
+        ]
+    ]
+}

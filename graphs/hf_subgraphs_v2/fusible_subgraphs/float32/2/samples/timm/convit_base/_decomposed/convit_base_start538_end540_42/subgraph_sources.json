@@ -1,0 +1,28 @@
+{
+    "samples/timm/convit_base": [
+        [
+            538,
+            540
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-224": [
+        [
+            75,
+            77
+        ],
+        [
+            300,
+            302
+        ],
+        [
+            618,
+            620
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-224": [
+        [
+            300,
+            302
+        ]
+    ]
+}

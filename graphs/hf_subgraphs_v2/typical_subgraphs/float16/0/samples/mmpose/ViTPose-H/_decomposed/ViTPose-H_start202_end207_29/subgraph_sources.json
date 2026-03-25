@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/ViTPose-H": [
+        [
+            202,
+            207
+        ]
+    ],
+    "samples/mmpose/ViTPose-H-simple": [
+        [
+            202,
+            207
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/pose_scnet_101": [
+        [
+            6,
+            12
+        ]
+    ],
+    "samples/mmpose/pose_scnet_50": [
+        [
+            6,
+            12
+        ]
+    ]
+}

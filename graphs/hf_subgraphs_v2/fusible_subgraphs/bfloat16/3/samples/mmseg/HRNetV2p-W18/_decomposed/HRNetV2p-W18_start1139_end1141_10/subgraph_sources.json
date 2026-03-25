@@ -1,0 +1,18 @@
+{
+    "samples/mmseg/HRNetV2p-W18": [
+        [
+            1139,
+            1141
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            1139,
+            1141
+        ],
+        [
+            1148,
+            1150
+        ]
+    ]
+}

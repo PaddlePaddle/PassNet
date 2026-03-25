@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/microsoft_conditional-detr-resnet-50": [
+        [
+            1247,
+            1254
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            1263,
+            1270
+        ]
+    ]
+}

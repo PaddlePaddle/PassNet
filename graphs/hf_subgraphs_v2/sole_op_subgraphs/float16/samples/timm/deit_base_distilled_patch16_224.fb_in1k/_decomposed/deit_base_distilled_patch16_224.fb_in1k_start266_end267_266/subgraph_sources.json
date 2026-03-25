@@ -1,0 +1,548 @@
+{
+    "samples/timm/deit_base_distilled_patch16_224.fb_in1k": [
+        [
+            266,
+            267
+        ]
+    ],
+    "samples/timm/deit_base_distilled_patch16_384": [
+        [
+            266,
+            267
+        ]
+    ],
+    "samples/timm/deit_small_distilled_patch16_224.fb_in1k": [
+        [
+            266,
+            267
+        ]
+    ],
+    "samples/timm/deit_tiny_distilled_patch16_224.fb_in1k": [
+        [
+            266,
+            267
+        ]
+    ],
+    "samples/timm/repvit_m0_9.dist_300e_in1k": [
+        [
+            379,
+            380
+        ]
+    ],
+    "samples/timm/repvit_m1.dist_in1k": [
+        [
+            379,
+            380
+        ]
+    ],
+    "samples/timm/repvit_m1_0.dist_300e_in1k": [
+        [
+            379,
+            380
+        ]
+    ],
+    "samples/timm/repvit_m1_1.dist_300e_in1k": [
+        [
+            349,
+            350
+        ]
+    ],
+    "samples/timm/repvit_m1_5.dist_300e_in1k": [
+        [
+            619,
+            620
+        ]
+    ],
+    "samples/timm/repvit_m2.dist_in1k": [
+        [
+            349,
+            350
+        ]
+    ],
+    "samples/timm/repvit_m2_3.dist_300e_in1k": [
+        [
+            799,
+            800
+        ]
+    ],
+    "samples/timm/repvit_m3.dist_in1k": [
+        [
+            499,
+            500
+        ]
+    ],
+    "samples/transformers-auto-model/MIT_ast-finetuned-audioset-10-10-0.4593": [
+        [
+            326,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/MIT_ast-finetuned-audioset-14-14-0.443": [
+        [
+            326,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/MIT_ast-finetuned-speech-commands-v2": [
+        [
+            326,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/bookbot_distil-ast-audioset": [
+        [
+            170,
+            171
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_base_distilled_patch16_224": [
+        [
+            326,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_small_distilled_patch16_224": [
+        [
+            326,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_tiny_distilled_patch16_224": [
+        [
+            326,
+            327
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerForImageClassificationWithTeacher": [
+        [
+            292,
+            293
+        ]
+    ],
+    "samples/ultralytics/yolo11l": [
+        [
+            687,
+            688
+        ]
+    ],
+    "samples/ultralytics/yolo11l-obb": [
+        [
+            715,
+            716
+        ]
+    ],
+    "samples/ultralytics/yolo11l-pose": [
+        [
+            712,
+            713
+        ]
+    ],
+    "samples/ultralytics/yolo11l-seg": [
+        [
+            722,
+            723
+        ]
+    ],
+    "samples/ultralytics/yolo11m": [
+        [
+            468,
+            469
+        ]
+    ],
+    "samples/ultralytics/yolo11m-obb": [
+        [
+            496,
+            497
+        ]
+    ],
+    "samples/ultralytics/yolo11m-pose": [
+        [
+            493,
+            494
+        ]
+    ],
+    "samples/ultralytics/yolo11m-seg": [
+        [
+            503,
+            504
+        ]
+    ],
+    "samples/ultralytics/yolo11n": [
+        [
+            383,
+            384
+        ]
+    ],
+    "samples/ultralytics/yolo11n-obb": [
+        [
+            411,
+            412
+        ]
+    ],
+    "samples/ultralytics/yolo11n-pose": [
+        [
+            408,
+            409
+        ]
+    ],
+    "samples/ultralytics/yolo11n-seg": [
+        [
+            418,
+            419
+        ]
+    ],
+    "samples/ultralytics/yolo11s": [
+        [
+            383,
+            384
+        ]
+    ],
+    "samples/ultralytics/yolo11s-obb": [
+        [
+            411,
+            412
+        ]
+    ],
+    "samples/ultralytics/yolo11s-pose": [
+        [
+            408,
+            409
+        ]
+    ],
+    "samples/ultralytics/yolo11s-seg": [
+        [
+            418,
+            419
+        ]
+    ],
+    "samples/ultralytics/yolo11x": [
+        [
+            687,
+            688
+        ]
+    ],
+    "samples/ultralytics/yolo11x-obb": [
+        [
+            715,
+            716
+        ]
+    ],
+    "samples/ultralytics/yolo11x-pose": [
+        [
+            712,
+            713
+        ]
+    ],
+    "samples/ultralytics/yolo11x-seg": [
+        [
+            722,
+            723
+        ]
+    ],
+    "samples/ultralytics/yolo12l": [
+        [
+            1108,
+            1109
+        ]
+    ],
+    "samples/ultralytics/yolo12l-obb": [
+        [
+            1136,
+            1137
+        ]
+    ],
+    "samples/ultralytics/yolo12l-pose": [
+        [
+            1133,
+            1134
+        ]
+    ],
+    "samples/ultralytics/yolo12l-seg": [
+        [
+            1143,
+            1144
+        ]
+    ],
+    "samples/ultralytics/yolo12m": [
+        [
+            658,
+            659
+        ]
+    ],
+    "samples/ultralytics/yolo12m-obb": [
+        [
+            686,
+            687
+        ]
+    ],
+    "samples/ultralytics/yolo12m-pose": [
+        [
+            683,
+            684
+        ]
+    ],
+    "samples/ultralytics/yolo12m-seg": [
+        [
+            693,
+            694
+        ]
+    ],
+    "samples/ultralytics/yolo12n": [
+        [
+            624,
+            625
+        ]
+    ],
+    "samples/ultralytics/yolo12n-obb": [
+        [
+            652,
+            653
+        ]
+    ],
+    "samples/ultralytics/yolo12n-pose": [
+        [
+            649,
+            650
+        ]
+    ],
+    "samples/ultralytics/yolo12n-seg": [
+        [
+            659,
+            660
+        ]
+    ],
+    "samples/ultralytics/yolo12s": [
+        [
+            624,
+            625
+        ]
+    ],
+    "samples/ultralytics/yolo12s-obb": [
+        [
+            652,
+            653
+        ]
+    ],
+    "samples/ultralytics/yolo12s-pose": [
+        [
+            649,
+            650
+        ]
+    ],
+    "samples/ultralytics/yolo12s-seg": [
+        [
+            659,
+            660
+        ]
+    ],
+    "samples/ultralytics/yolo12x": [
+        [
+            1108,
+            1109
+        ]
+    ],
+    "samples/ultralytics/yolo12x-obb": [
+        [
+            1136,
+            1137
+        ]
+    ],
+    "samples/ultralytics/yolo12x-pose": [
+        [
+            1133,
+            1134
+        ]
+    ],
+    "samples/ultralytics/yolo12x-seg": [
+        [
+            1143,
+            1144
+        ]
+    ],
+    "samples/ultralytics/yolov3-sppu": [
+        [
+            354,
+            355
+        ]
+    ],
+    "samples/ultralytics/yolov3-tinyu": [
+        [
+            118,
+            119
+        ]
+    ],
+    "samples/ultralytics/yolov3u": [
+        [
+            347,
+            348
+        ]
+    ],
+    "samples/ultralytics/yolov5l6u": [
+        [
+            573,
+            574
+        ]
+    ],
+    "samples/ultralytics/yolov5lu": [
+        [
+            446,
+            447
+        ]
+    ],
+    "samples/ultralytics/yolov5m6u": [
+        [
+            481,
+            482
+        ]
+    ],
+    "samples/ultralytics/yolov5mu": [
+        [
+            373,
+            374
+        ]
+    ],
+    "samples/ultralytics/yolov5n6u": [
+        [
+            389,
+            390
+        ]
+    ],
+    "samples/ultralytics/yolov5nu": [
+        [
+            300,
+            301
+        ]
+    ],
+    "samples/ultralytics/yolov5x6u": [
+        [
+            665,
+            666
+        ]
+    ],
+    "samples/ultralytics/yolov5xu": [
+        [
+            519,
+            520
+        ]
+    ],
+    "samples/ultralytics/yolov6l": [
+        [
+            393,
+            394
+        ]
+    ],
+    "samples/ultralytics/yolov6m": [
+        [
+            315,
+            316
+        ]
+    ],
+    "samples/ultralytics/yolov6n": [
+        [
+            237,
+            238
+        ]
+    ],
+    "samples/ultralytics/yolov8l": [
+        [
+            419,
+            420
+        ]
+    ],
+    "samples/ultralytics/yolov8l-obb": [
+        [
+            447,
+            448
+        ]
+    ],
+    "samples/ultralytics/yolov8l-pose": [
+        [
+            444,
+            445
+        ]
+    ],
+    "samples/ultralytics/yolov8l-seg": [
+        [
+            454,
+            455
+        ]
+    ],
+    "samples/ultralytics/yolov8m": [
+        [
+            353,
+            354
+        ]
+    ],
+    "samples/ultralytics/yolov8m-obb": [
+        [
+            381,
+            382
+        ]
+    ],
+    "samples/ultralytics/yolov8m-pose": [
+        [
+            378,
+            379
+        ]
+    ],
+    "samples/ultralytics/yolov8m-seg": [
+        [
+            388,
+            389
+        ]
+    ],
+    "samples/ultralytics/yolov8n": [
+        [
+            287,
+            288
+        ]
+    ],
+    "samples/ultralytics/yolov8n-obb": [
+        [
+            315,
+            316
+        ]
+    ],
+    "samples/ultralytics/yolov8n-pose": [
+        [
+            312,
+            313
+        ]
+    ],
+    "samples/ultralytics/yolov8n-seg": [
+        [
+            322,
+            323
+        ]
+    ],
+    "samples/ultralytics/yolov9c": [
+        [
+            650,
+            651
+        ]
+    ],
+    "samples/ultralytics/yolov9c-seg": [
+        [
+            685,
+            686
+        ]
+    ],
+    "samples/ultralytics/yolov9e-seg": [
+        [
+            1273,
+            1274
+        ]
+    ],
+    "samples/ultralytics/yolov9m": [
+        [
+            610,
+            611
+        ]
+    ],
+    "samples/ultralytics/yolov9t": [
+        [
+            876,
+            877
+        ]
+    ]
+}

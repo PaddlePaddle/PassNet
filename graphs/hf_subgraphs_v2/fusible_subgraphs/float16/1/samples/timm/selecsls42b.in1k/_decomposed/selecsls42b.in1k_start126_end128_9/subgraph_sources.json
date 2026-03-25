@@ -1,0 +1,50 @@
+{
+    "samples/timm/selecsls42b.in1k": [
+        [
+            6,
+            8
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            126,
+            128
+        ]
+    ],
+    "samples/torchvision/regnet_x_1_6gf": [
+        [
+            177,
+            179
+        ]
+    ],
+    "samples/torchvision/regnet_x_3_2gf": [
+        [
+            247,
+            249
+        ]
+    ],
+    "samples/torchvision/regnet_x_400mf": [
+        [
+            117,
+            119
+        ]
+    ],
+    "samples/torchvision/regnet_x_800mf": [
+        [
+            127,
+            129
+        ]
+    ],
+    "samples/transformers-auto-model/Ramos-Ramos_vicreg-resnet-50": [
+        [
+            10,
+            12
+        ]
+    ]
+}

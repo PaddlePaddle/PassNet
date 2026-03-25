@@ -1,0 +1,78 @@
+{
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            58,
+            59
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_uperhead": [
+        [
+            58,
+            59
+        ]
+    ],
+    "samples/timm/davit_small": [
+        [
+            5,
+            6
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            77,
+            78
+        ]
+    ],
+    "samples/timm/davit_tiny": [
+        [
+            5,
+            6
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            77,
+            78
+        ]
+    ],
+    "samples/timm/inception_next_small.sail_in1k": [
+        [
+            574,
+            575
+        ],
+        [
+            591,
+            592
+        ],
+        [
+            608,
+            609
+        ]
+    ],
+    "samples/timm/inception_next_tiny.sail_in1k": [
+        [
+            268,
+            269
+        ],
+        [
+            285,
+            286
+        ],
+        [
+            302,
+            303
+        ]
+    ]
+}

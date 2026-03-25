@@ -1,0 +1,40 @@
+{
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-small-uncased-tokenized": [
+        [
+            34,
+            36
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            127,
+            129
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-512_A-8": [
+        [
+            29,
+            31
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            51,
+            53
+        ]
+    ],
+    "samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en": [
+        [
+            32,
+            34
+        ],
+        [
+            41,
+            43
+        ]
+    ]
+}

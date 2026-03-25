@@ -1,0 +1,20 @@
+{
+    "samples/timm/vit_base_patch16_siglip_gap_224.v2_webli": [
+        [
+            256,
+            258
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-base-patch16-224": [
+        [
+            305,
+            307
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-224": [
+        [
+            305,
+            307
+        ]
+    ]
+}

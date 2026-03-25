@@ -1,0 +1,8 @@
+{
+    "samples/timm/repghostnet_050.in1k": [
+        [
+            6,
+            8
+        ]
+    ]
+}

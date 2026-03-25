@@ -1,0 +1,8 @@
+{
+    "samples/transformers-auto-model/milistu_reranker-msmarco-v1.1-MiniLM-L12-H384-uncased-lambdaloss_v2": [
+        [
+            1,
+            10
+        ]
+    ]
+}

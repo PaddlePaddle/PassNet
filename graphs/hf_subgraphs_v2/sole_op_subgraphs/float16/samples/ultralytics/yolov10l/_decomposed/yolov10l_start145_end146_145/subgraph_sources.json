@@ -1,0 +1,44 @@
+{
+    "samples/ultralytics/yolov10l": [
+        [
+            145,
+            146
+        ]
+    ],
+    "samples/ultralytics/yolov10x": [
+        [
+            199,
+            200
+        ]
+    ],
+    "samples/ultralytics/yolov8l": [
+        [
+            143,
+            144
+        ]
+    ],
+    "samples/ultralytics/yolov8l-cls": [
+        [
+            221,
+            222
+        ]
+    ],
+    "samples/ultralytics/yolov8l-obb": [
+        [
+            143,
+            144
+        ]
+    ],
+    "samples/ultralytics/yolov8l-pose": [
+        [
+            143,
+            144
+        ]
+    ],
+    "samples/ultralytics/yolov8l-seg": [
+        [
+            143,
+            144
+        ]
+    ]
+}

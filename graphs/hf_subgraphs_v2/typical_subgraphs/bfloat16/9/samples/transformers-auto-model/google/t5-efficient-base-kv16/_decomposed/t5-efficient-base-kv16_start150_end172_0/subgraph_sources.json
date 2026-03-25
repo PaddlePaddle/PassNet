@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/google/t5-efficient-base-kv16": [
+        [
+            150,
+            172
+        ],
+        [
+            236,
+            258
+        ],
+        [
+            322,
+            344
+        ],
+        [
+            408,
+            430
+        ]
+    ]
+}

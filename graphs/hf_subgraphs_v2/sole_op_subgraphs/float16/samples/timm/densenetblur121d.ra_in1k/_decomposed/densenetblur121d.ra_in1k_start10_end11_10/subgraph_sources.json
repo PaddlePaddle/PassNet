@@ -1,0 +1,44 @@
+{
+    "samples/timm/densenetblur121d.ra_in1k": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/timm/resnetblur50.bt_in1k": [
+        [
+            4,
+            5
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            152,
+            153
+        ]
+    ],
+    "samples/timm/resnetblur50d": [
+        [
+            10,
+            11
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            95,
+            96
+        ],
+        [
+            160,
+            161
+        ]
+    ]
+}

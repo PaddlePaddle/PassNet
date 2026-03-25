@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/Geotrend_distilbert-base-bg-cased": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DebertaForSequenceClassification": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegaForSequenceClassification": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaForSequenceClassification": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaPreLayerNormForSequenceClassification": [
+        [
+            0,
+            1
+        ]
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base": [
+        [
+            440,
+            442
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerForImageClassificationWithTeacher": [
+        [
+            282,
+            284
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerModel": [
+        [
+            282,
+            284
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            76,
+            78
+        ],
+        [
+            87,
+            89
+        ],
+        [
+            132,
+            134
+        ],
+        [
+            143,
+            145
+        ],
+        [
+            244,
+            246
+        ],
+        [
+            255,
+            257
+        ],
+        [
+            580,
+            582
+        ],
+        [
+            591,
+            593
+        ],
+        [
+            1812,
+            1814
+        ],
+        [
+            1823,
+            1825
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_deberta-base": [
+        [
+            2,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en": [
+        [
+            30,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter": [
+        [
+            41,
+            43
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            257,
+            259
+        ]
+    ]
+}

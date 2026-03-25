@@ -1,0 +1,26 @@
+{
+    "samples/mmseg/DeepLabV3+_R101": [
+        [
+            385,
+            391
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R50": [
+        [
+            215,
+            221
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3+": [
+        [
+            183,
+            189
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3plus": [
+        [
+            918,
+            924
+        ]
+    ]
+}

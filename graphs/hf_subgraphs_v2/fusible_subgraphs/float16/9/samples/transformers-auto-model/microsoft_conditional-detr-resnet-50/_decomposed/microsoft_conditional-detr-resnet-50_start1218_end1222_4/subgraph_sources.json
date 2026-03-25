@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/microsoft_conditional-detr-resnet-50": [
+        [
+            1218,
+            1222
+        ],
+        [
+            1302,
+            1306
+        ]
+    ]
+}

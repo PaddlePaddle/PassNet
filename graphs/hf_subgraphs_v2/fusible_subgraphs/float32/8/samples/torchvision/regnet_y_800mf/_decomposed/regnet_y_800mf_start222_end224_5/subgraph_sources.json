@@ -1,0 +1,8 @@
+{
+    "samples/torchvision/regnet_y_800mf": [
+        [
+            222,
+            224
+        ]
+    ]
+}

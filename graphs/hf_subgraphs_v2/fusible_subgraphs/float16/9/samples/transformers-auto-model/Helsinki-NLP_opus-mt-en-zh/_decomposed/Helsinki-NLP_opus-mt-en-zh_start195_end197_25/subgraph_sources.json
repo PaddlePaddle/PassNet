@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-en-zh": [
+        [
+            20,
+            22
+        ],
+        [
+            93,
+            95
+        ],
+        [
+            195,
+            197
+        ]
+    ]
+}

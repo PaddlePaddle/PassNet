@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-small-uncased-tokenized": [
+        [
+            14,
+            32
+        ],
+        [
+            43,
+            61
+        ],
+        [
+            72,
+            90
+        ]
+    ]
+}

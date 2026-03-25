@@ -1,0 +1,110 @@
+{
+    "samples/transformers-auto-model/opus-mt-bem-fi": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-bem-fr": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-ber-fr": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-guw": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-iso": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-de-pon": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-bi": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-efi": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ilo": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-loz": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-srn": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-tvl": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-ty": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-es-wls": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-fi-ln": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-afa-fra_ita_por_spa": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-dra-deu_eng_nld": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-dra-en": [
+        [
+            192,
+            209
+        ]
+    ]
+}

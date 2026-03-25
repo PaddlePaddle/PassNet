@@ -1,0 +1,12 @@
+{
+    "samples/timm/inception_resnet_v2": [
+        [
+            59,
+            62
+        ],
+        [
+            128,
+            131
+        ]
+    ]
+}

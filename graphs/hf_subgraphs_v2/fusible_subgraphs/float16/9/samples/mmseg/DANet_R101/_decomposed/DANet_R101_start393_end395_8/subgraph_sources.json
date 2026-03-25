@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/DANet_R101": [
+        [
+            393,
+            395
+        ]
+    ],
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            198,
+            200
+        ]
+    ],
+    "samples/mmseg/K-Net_fcn": [
+        [
+            187,
+            189
+        ]
+    ]
+}

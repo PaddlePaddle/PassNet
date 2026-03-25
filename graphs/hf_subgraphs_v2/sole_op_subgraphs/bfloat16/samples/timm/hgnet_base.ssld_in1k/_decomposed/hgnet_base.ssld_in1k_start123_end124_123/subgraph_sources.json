@@ -1,0 +1,12 @@
+{
+    "samples/timm/hgnet_base.ssld_in1k": [
+        [
+            31,
+            32
+        ],
+        [
+            123,
+            124
+        ]
+    ]
+}

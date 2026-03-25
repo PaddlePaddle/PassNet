@@ -1,0 +1,12 @@
+{
+    "samples/ultralytics/yolo12x-cls": [
+        [
+            446,
+            450
+        ],
+        [
+            747,
+            751
+        ]
+    ]
+}

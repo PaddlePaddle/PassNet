@@ -1,0 +1,14 @@
+{
+    "samples/torchvision/regnet_x_8gf": [
+        [
+            14,
+            20
+        ]
+    ],
+    "samples/torchvision/regnet_y_32gf": [
+        [
+            20,
+            26
+        ]
+    ]
+}

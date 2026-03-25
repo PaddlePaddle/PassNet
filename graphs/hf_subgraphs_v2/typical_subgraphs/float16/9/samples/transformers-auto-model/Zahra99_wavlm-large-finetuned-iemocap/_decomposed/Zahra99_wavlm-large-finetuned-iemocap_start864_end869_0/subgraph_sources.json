@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/Zahra99_wavlm-large-finetuned-iemocap": [
+        [
+            864,
+            869
+        ]
+    ],
+    "samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender": [
+        [
+            741,
+            746
+        ]
+    ],
+    "samples/transformers-auto-model/snolyai_resultsfinal": [
+        [
+            741,
+            746
+        ]
+    ]
+}

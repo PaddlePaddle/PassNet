@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google/siglip-so400m-patch14-384": [
+        [
+            1373,
+            1376
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-naflex": [
+        [
+            679,
+            682
+        ]
+    ]
+}

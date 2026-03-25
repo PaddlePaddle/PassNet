@@ -1,0 +1,36 @@
+{
+    "samples/timm/coat_lite_mini.in1k": [
+        [
+            43,
+            44
+        ],
+        [
+            94,
+            95
+        ]
+    ],
+    "samples/timm/coat_lite_small.in1k": [
+        [
+            43,
+            44
+        ],
+        [
+            94,
+            95
+        ],
+        [
+            145,
+            146
+        ]
+    ],
+    "samples/timm/coat_lite_tiny.in1k": [
+        [
+            43,
+            44
+        ],
+        [
+            94,
+            95
+        ]
+    ]
+}

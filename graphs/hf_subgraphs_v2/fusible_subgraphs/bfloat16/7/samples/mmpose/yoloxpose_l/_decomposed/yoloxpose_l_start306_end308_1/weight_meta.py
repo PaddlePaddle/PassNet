@@ -1,0 +1,18 @@
+class Program_weight_tensor_meta_x_165:
+	name = "in_0"
+	original_name = "x_165"
+	shape = [256, 512, 16, 16]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.217
+	std = 0.093
+
+
+class Program_weight_tensor_meta_x_204:
+	name = "in_1"
+	original_name = "x_204"
+	shape = [256, 512, 8, 8]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.066
+	std = 0.256

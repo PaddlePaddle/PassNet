@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-1.3B": [
+        [
+            916,
+            918
+        ]
+    ],
+    "samples/transformers-auto-model/bloomz-1b7": [
+        [
+            1039,
+            1041
+        ]
+    ],
+    "samples/transformers-auto-model/fairseq-dense-1.3B": [
+        [
+            943,
+            945
+        ]
+    ]
+}

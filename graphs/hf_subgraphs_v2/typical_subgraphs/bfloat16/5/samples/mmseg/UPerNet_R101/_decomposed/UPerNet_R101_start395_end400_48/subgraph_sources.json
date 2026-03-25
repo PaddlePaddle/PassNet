@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/UPerNet_R101": [
+        [
+            395,
+            400
+        ]
+    ],
+    "samples/mmseg/UPerNet_R50": [
+        [
+            225,
+            230
+        ]
+    ]
+}

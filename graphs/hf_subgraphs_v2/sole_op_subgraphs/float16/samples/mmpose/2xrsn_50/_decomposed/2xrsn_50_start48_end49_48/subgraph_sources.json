@@ -1,0 +1,32 @@
+{
+    "samples/mmpose/2xrsn_50": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/mmpose/3xrsn_50": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/mmpose/rsn_18": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/mmpose/rsn_50": [
+        [
+            48,
+            49
+        ]
+    ],
+    "samples/timm/inception_v4": [
+        [
+            129,
+            130
+        ]
+    ]
+}

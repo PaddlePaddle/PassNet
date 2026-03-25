@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/PeterBanning71_bart-large-finetuned-eLife": [
+        [
+            70,
+            97
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_bart-large-cnn": [
+        [
+            70,
+            97
+        ]
+    ],
+    "samples/transformers-auto-model/navteca_bart-large-mnli": [
+        [
+            70,
+            97
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distilbart-cnn-12-6": [
+        [
+            70,
+            97
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-3": [
+        [
+            70,
+            97
+        ]
+    ]
+}

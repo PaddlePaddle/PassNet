@@ -1,0 +1,18 @@
+class Program_weight_tensor_meta_transpose_1:
+	name = "in_0"
+	original_name = "transpose_1"
+	shape = [32, 4, 400, 400]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.003
+	std = 0.000
+
+
+class Program_weight_tensor_meta_v:
+	name = "in_1"
+	original_name = "v"
+	shape = [32, 4, 64, 400]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.041
+	std = 0.238

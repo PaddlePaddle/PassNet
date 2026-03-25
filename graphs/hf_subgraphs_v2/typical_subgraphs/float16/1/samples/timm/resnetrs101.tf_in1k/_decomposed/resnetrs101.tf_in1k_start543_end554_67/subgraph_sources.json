@@ -1,0 +1,104 @@
+{
+    "samples/timm/resnetrs101.tf_in1k": [
+        [
+            543,
+            554
+        ]
+    ],
+    "samples/timm/resnetrs152.tf_in1k": [
+        [
+            815,
+            826
+        ]
+    ],
+    "samples/timm/resnetrs200.tf_in1k": [
+        [
+            1071,
+            1082
+        ]
+    ],
+    "samples/timm/resnetrs270.tf_in1k": [
+        [
+            1455,
+            1466
+        ]
+    ],
+    "samples/timm/resnetrs350.tf_in1k": [
+        [
+            1871,
+            1882
+        ]
+    ],
+    "samples/timm/resnetrs420.tf_in1k": [
+        [
+            2239,
+            2250
+        ]
+    ],
+    "samples/timm/resnetrs50.tf_in1k": [
+        [
+            271,
+            282
+        ]
+    ],
+    "samples/timm/senet154.gluon_in1k": [
+        [
+            810,
+            821
+        ]
+    ],
+    "samples/timm/seresnet152d.ra2_in1k": [
+        [
+            813,
+            824
+        ]
+    ],
+    "samples/timm/seresnet50.a1_in1k": [
+        [
+            260,
+            271
+        ]
+    ],
+    "samples/timm/seresnext101_32x4d.gluon_in1k": [
+        [
+            532,
+            543
+        ]
+    ],
+    "samples/timm/seresnext101_64x4d.gluon_in1k": [
+        [
+            532,
+            543
+        ]
+    ],
+    "samples/timm/seresnext101d_32x8d.ah_in1k": [
+        [
+            541,
+            552
+        ]
+    ],
+    "samples/timm/seresnext26d_32x4d.bt_in1k": [
+        [
+            141,
+            152
+        ]
+    ],
+    "samples/timm/seresnext50_32x4d.gluon_in1k": [
+        [
+            260,
+            271
+        ]
+    ],
+    "samples/timm/seresnextaa101d_32x8d.ah_in1k": [
+        [
+            544,
+            555
+        ]
+    ],
+    "samples/timm/seresnextaa201d_32x8d.sw_in12k": [
+        [
+            1088,
+            1099
+        ]
+    ]
+}

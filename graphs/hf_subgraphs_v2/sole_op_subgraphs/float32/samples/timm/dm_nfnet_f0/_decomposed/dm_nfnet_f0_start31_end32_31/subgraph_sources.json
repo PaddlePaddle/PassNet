@@ -1,0 +1,62 @@
+{
+    "samples/timm/dm_nfnet_f0": [
+        [
+            6,
+            7
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/timm/dm_nfnet_f2": [
+        [
+            6,
+            7
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/timm/dm_nfnet_f3": [
+        [
+            6,
+            7
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/timm/dm_nfnet_f4": [
+        [
+            6,
+            7
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/timm/dm_nfnet_f5": [
+        [
+            6,
+            7
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/timm/dm_nfnet_f6": [
+        [
+            6,
+            7
+        ],
+        [
+            31,
+            32
+        ]
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileNetV1Model": [
+        [
+            24,
+            25
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            184,
+            185
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileNetV2Model": [
+        [
+            29,
+            30
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            137,
+            138
+        ],
+        [
+            289,
+            290
+        ]
+    ],
+    "samples/transformers-auto-model/linkanjarad_mobilenet_v2_1.0_224-plant-disease-identification": [
+        [
+            29,
+            30
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            137,
+            138
+        ],
+        [
+            289,
+            290
+        ]
+    ],
+    "samples/ultralytics/yolov3-tinyu": [
+        [
+            23,
+            24
+        ]
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned": [
+        [
+            48,
+            51
+        ],
+        [
+            54,
+            57
+        ],
+        [
+            120,
+            123
+        ],
+        [
+            648,
+            651
+        ],
+        [
+            780,
+            783
+        ]
+    ],
+    "samples/transformers-auto-model/AkshatSurolia_DeiT-FaceMask-Finetuned": [
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/adhisetiawan_vit-resisc45": [
+        [
+            14,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/arxyzan_data2vec-beit-base": [
+        [
+            780,
+            783
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-base": [
+        [
+            780,
+            783
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dino-vitb8": [
+        [
+            14,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-base": [
+        [
+            25,
+            28
+        ],
+        [
+            52,
+            55
+        ],
+        [
+            268,
+            271
+        ],
+        [
+            322,
+            325
+        ]
+    ]
+}

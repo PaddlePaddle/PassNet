@@ -1,0 +1,30 @@
+{
+    "samples/mmpose/S-ViPNAS-MobileNetV3": [
+        [
+            138,
+            139
+        ],
+        [
+            155,
+            156
+        ],
+        [
+            172,
+            173
+        ]
+    ],
+    "samples/mmpose/simcc_S-ViPNAS-MobileNetV3": [
+        [
+            138,
+            139
+        ],
+        [
+            155,
+            156
+        ],
+        [
+            172,
+            173
+        ]
+    ]
+}

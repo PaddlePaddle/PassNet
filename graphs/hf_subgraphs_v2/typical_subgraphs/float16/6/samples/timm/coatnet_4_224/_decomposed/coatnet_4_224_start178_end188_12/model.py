@@ -1,0 +1,19 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, in_0 : torch.Tensor, in_1, in_2, in_3, in_4, in_5, in_6, in_7, in_8, in_9, in_10, in_11):
+        tmp_10 = torch.nn.functional.gelu(in_11);  in_11 = None
+        tmp_11 = tmp_10.mean((2, 3), keepdim = True)
+        conv2d = torch.conv2d(tmp_11, in_7, in_6, (1, 1), (0, 0), (1, 1), 1);  tmp_11 = in_7 = in_6 = None
+        tmp_13 = torch.nn.functional.silu(conv2d, inplace = True);  conv2d = None
+        conv2d_1 = torch.conv2d(tmp_13, in_9, in_8, (1, 1), (0, 0), (1, 1), 1);  tmp_13 = in_9 = in_8 = None
+        tmp_15 = conv2d_1.sigmoid();  conv2d_1 = None
+        tmp_16 = tmp_10 * tmp_15;  tmp_10 = tmp_15 = None
+        conv2d_2 = torch.conv2d(tmp_16, in_5, in_4, (1, 1), (0, 0), (1, 1), 1);  tmp_16 = in_5 = in_4 = None
+        tmp_18 = conv2d_2 + in_10;  conv2d_2 = in_10 = None
+        tmp_19 = torch.nn.functional.batch_norm(tmp_18, in_0, in_1, in_3, in_2, False, 0.1, 1e-05);  in_0 = in_1 = in_3 = in_2 = None
+        return (tmp_18, tmp_19)
+        

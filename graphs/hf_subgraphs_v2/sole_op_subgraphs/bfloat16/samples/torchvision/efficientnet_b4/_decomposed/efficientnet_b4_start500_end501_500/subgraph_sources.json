@@ -1,0 +1,20 @@
+{
+    "samples/torchvision/efficientnet_b4": [
+        [
+            500,
+            501
+        ]
+    ],
+    "samples/torchvision/efficientnet_b5": [
+        [
+            609,
+            610
+        ]
+    ],
+    "samples/torchvision/efficientnet_v2_l": [
+        [
+            1090,
+            1091
+        ]
+    ]
+}

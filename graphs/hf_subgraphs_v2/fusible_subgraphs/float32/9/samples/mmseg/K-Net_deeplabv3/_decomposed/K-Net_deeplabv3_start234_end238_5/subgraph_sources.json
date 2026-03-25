@@ -1,0 +1,28 @@
+{
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            234,
+            238
+        ],
+        [
+            296,
+            300
+        ]
+    ],
+    "samples/mmseg/K-Net_fcn": [
+        [
+            223,
+            227
+        ],
+        [
+            285,
+            289
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            1667,
+            1671
+        ]
+    ]
+}

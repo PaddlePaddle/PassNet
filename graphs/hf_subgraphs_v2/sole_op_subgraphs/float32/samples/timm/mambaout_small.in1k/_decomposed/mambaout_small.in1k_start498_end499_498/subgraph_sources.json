@@ -1,0 +1,44 @@
+{
+    "samples/timm/mambaout_small.in1k": [
+        [
+            498,
+            499
+        ],
+        [
+            512,
+            513
+        ],
+        [
+            526,
+            527
+        ]
+    ],
+    "samples/timm/mambaout_small_rw.sw_e450_in1k": [
+        [
+            529,
+            530
+        ],
+        [
+            544,
+            545
+        ],
+        [
+            559,
+            560
+        ]
+    ],
+    "samples/timm/mambaout_tiny.in1k": [
+        [
+            232,
+            233
+        ],
+        [
+            246,
+            247
+        ],
+        [
+            260,
+            261
+        ]
+    ]
+}

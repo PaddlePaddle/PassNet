@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel": [
+        [
+            296,
+            304
+        ],
+        [
+            324,
+            332
+        ]
+    ]
+}

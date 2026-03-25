@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/TrustSafeAI_RADAR_Vicuna_7B": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/bge-reranker-large": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/multilingual-e5-large": [
+        [
+            0,
+            26
+        ]
+    ]
+}

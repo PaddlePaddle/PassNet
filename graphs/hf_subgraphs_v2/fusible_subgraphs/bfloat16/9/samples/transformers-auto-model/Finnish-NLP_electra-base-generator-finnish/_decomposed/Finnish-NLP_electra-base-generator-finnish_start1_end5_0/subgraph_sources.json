@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish": [
+        [
+            1,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/emfa_l-lectra-danish-finetuned-hatespeech": [
+        [
+            1,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/fabiod20_italian-legal-ner": [
+        [
+            1,
+            5
+        ]
+    ]
+}

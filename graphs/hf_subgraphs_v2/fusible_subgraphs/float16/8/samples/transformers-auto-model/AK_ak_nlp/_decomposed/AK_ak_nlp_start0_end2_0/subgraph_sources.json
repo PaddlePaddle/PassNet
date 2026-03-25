@@ -1,0 +1,164 @@
+{
+    "samples/transformers-auto-model/AK_ak_nlp": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Culmenus_XLMR-ENIS-finetuned-ner": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-bort": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-merged": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Data-Lab_ruRoberta-large_classification_v0.2": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Davlan_afro-xlmr-large": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/DeepChem_ChemBERTa-10M-MLM": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Dr-BERT_CAS-Biomedical-POS-Tagging": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_est-roberta": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_litlat-bert": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/FacebookAI_roberta-large": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Film8844_wangchanberta-ner": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Ghana-NLP_robako-base-akuapem-twi-cased": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Jodsa_camembert_mlm": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/Lazaro97_results": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/MoritzLaurer_multilingual-MiniLMv2-L12-mnli-xnli": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/OpenMed_OpenMed-NER-PharmaDetect-SuperMedical-125M": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/TrustSafeAI_RADAR_Vicuna_7B": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/aimarsg_prueba5": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/almanach_camembert-base": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/axotion_polish-reranker-base-ranknet": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/distilroberta-base": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaForSequenceClassification": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/huggingface_CodeBERTa-small-v1": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/joeddav_xlm-roberta-large-xnli": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/mahwizzzz_UrduClassification": [
+        [
+            0,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/ukr-models_xlm-roberta-base-uk": [
+        [
+            0,
+            2
+        ]
+    ]
+}

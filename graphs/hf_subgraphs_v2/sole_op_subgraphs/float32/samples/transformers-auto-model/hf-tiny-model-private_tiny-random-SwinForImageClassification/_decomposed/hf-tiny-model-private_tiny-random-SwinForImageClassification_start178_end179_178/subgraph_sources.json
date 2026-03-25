@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification": [
+        [
+            178,
+            179
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2ForImageClassification": [
+        [
+            211,
+            212
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2Model": [
+        [
+            211,
+            212
+        ]
+    ],
+    "samples/transformers-auto-model/vuiseng9_tiny-random-SwinModel": [
+        [
+            178,
+            179
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-SwinModel": [
+        [
+            178,
+            179
+        ]
+    ]
+}

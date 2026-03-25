@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-256": [
+        [
+            0,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-384": [
+        [
+            0,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch16-512": [
+        [
+            0,
+            10
+        ]
+    ]
+}

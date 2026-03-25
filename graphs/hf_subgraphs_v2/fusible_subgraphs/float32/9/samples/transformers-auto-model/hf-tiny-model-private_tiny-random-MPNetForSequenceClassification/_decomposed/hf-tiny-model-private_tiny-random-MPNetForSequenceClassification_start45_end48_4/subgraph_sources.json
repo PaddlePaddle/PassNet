@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MPNetForSequenceClassification": [
+        [
+            45,
+            48
+        ],
+        [
+            48,
+            51
+        ],
+        [
+            78,
+            81
+        ],
+        [
+            81,
+            84
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification": [
+        [
+            15,
+            18
+        ]
+    ]
+}

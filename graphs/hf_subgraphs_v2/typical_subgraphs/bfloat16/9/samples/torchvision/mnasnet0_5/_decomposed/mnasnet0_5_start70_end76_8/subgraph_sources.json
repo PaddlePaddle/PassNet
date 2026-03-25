@@ -1,0 +1,12 @@
+{
+    "samples/torchvision/mnasnet0_5": [
+        [
+            70,
+            76
+        ],
+        [
+            79,
+            85
+        ]
+    ]
+}

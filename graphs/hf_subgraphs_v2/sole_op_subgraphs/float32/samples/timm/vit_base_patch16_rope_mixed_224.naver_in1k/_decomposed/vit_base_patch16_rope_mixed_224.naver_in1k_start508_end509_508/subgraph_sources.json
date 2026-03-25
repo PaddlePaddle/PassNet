@@ -1,0 +1,68 @@
+{
+    "samples/timm/vit_base_patch16_rope_mixed_224.naver_in1k": [
+        [
+            508,
+            509
+        ]
+    ],
+    "samples/timm/vit_base_patch16_rope_mixed_ape_224.naver_in1k": [
+        [
+            509,
+            510
+        ]
+    ],
+    "samples/timm/vit_large_patch16_rope_mixed_224.naver_in1k": [
+        [
+            508,
+            509
+        ]
+    ],
+    "samples/timm/vit_large_patch16_rope_mixed_ape_224.naver_in1k": [
+        [
+            509,
+            510
+        ]
+    ],
+    "samples/timm/vit_small_patch16_rope_mixed_224.naver_in1k": [
+        [
+            508,
+            509
+        ]
+    ],
+    "samples/timm/vit_small_patch16_rope_mixed_ape_224.naver_in1k": [
+        [
+            509,
+            510
+        ]
+    ],
+    "samples/transformers-auto-model/RaphaelKalandadze_tmp_trainer": [
+        [
+            324,
+            325
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-base": [
+        [
+            308,
+            309
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small": [
+        [
+            308,
+            309
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small-dwr": [
+        [
+            318,
+            319
+        ]
+    ],
+    "samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection": [
+        [
+            308,
+            309
+        ]
+    ]
+}

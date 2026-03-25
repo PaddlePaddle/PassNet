@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/BiSeNetV2": [
+        [
+            109,
+            111
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            113,
+            115
+        ]
+    ]
+}

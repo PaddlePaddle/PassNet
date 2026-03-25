@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/all-mpnet-base-v2": [
+        [
+            51,
+            55
+        ]
+    ],
+    "samples/transformers-auto-model/mooncakex_img2": [
+        [
+            293,
+            297
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-electra-base": [
+        [
+            18,
+            22
+        ],
+        [
+            47,
+            51
+        ]
+    ]
+}

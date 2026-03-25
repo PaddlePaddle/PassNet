@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/Nextcloud-AI_opus-mt-ar-es": [
+        [
+            41,
+            44
+        ],
+        [
+            70,
+            73
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-cy-en": [
+        [
+            43,
+            46
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-mul-deu_eng_fra_por_spa": [
+        [
+            43,
+            46
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/apple_DepthPro-hf": [
+        [
+            685,
+            686
+        ],
+        [
+            710,
+            711
+        ],
+        [
+            770,
+            771
+        ],
+        [
+            830,
+            831
+        ]
+    ]
+}

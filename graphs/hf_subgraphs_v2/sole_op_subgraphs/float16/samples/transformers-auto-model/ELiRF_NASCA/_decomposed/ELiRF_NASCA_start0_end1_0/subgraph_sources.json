@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/ELiRF_NASCA": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/NeNeDataScientist_NeNeAI007_fr-kiluba-translation": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-ron-eng": [
+        [
+            0,
+            1
+        ]
+    ]
+}

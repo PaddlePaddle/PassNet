@@ -1,0 +1,14 @@
+{
+    "samples/timm/crossvit_15_240.in1k": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/timm/crossvit_small_240.in1k": [
+        [
+            0,
+            17
+        ]
+    ]
+}

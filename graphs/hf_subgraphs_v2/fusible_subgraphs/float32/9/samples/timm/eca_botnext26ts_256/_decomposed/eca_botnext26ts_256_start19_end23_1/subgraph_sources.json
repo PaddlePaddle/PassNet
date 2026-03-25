@@ -1,0 +1,54 @@
+{
+    "samples/timm/eca_botnext26ts_256": [
+        [
+            19,
+            23
+        ],
+        [
+            55,
+            59
+        ]
+    ],
+    "samples/timm/eca_resnet33ts.ra2_in1k": [
+        [
+            21,
+            25
+        ],
+        [
+            59,
+            63
+        ],
+        [
+            114,
+            118
+        ],
+        [
+            169,
+            173
+        ]
+    ],
+    "samples/timm/eca_vovnet39b": [
+        [
+            31,
+            35
+        ]
+    ],
+    "samples/timm/ecaresnet101d.miil_in1k": [
+        [
+            24,
+            28
+        ],
+        [
+            79,
+            83
+        ],
+        [
+            152,
+            156
+        ],
+        [
+            548,
+            552
+        ]
+    ]
+}

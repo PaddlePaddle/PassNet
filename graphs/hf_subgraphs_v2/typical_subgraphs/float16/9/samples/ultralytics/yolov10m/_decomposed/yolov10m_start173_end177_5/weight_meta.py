@@ -1,0 +1,8 @@
+class Program_weight_tensor_meta_batch_norm_47:
+	name = "in_0"
+	original_name = "batch_norm_47"
+	shape = [1, 576, 20, 20]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 0.024
+	std = 0.078

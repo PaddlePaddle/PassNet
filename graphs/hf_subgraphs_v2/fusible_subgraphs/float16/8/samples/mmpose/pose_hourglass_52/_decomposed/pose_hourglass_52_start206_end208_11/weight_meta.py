@@ -1,0 +1,18 @@
+class Program_weight_tensor_meta_out_132:
+	name = "in_0"
+	original_name = "out_132"
+	shape = [512, 384, 4, 4]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 0.077
+	std = 0.144
+
+
+class Program_weight_tensor_meta_out_188:
+	name = "in_1"
+	original_name = "out_188"
+	shape = [512, 384, 2, 2]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 0.020
+	std = 0.038

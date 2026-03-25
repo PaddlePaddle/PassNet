@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/napsternxg_nyt-ingredient-tagger-jina-embeddings-v2-small-en": [
+        [
+            1,
+            4
+        ]
+    ],
+    "samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter": [
+        [
+            1,
+            4
+        ]
+    ]
+}

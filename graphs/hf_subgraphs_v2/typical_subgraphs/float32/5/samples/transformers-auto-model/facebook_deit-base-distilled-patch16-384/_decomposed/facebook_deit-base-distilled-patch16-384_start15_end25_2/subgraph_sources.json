@@ -1,0 +1,8 @@
+{
+    "samples/transformers-auto-model/facebook_deit-base-distilled-patch16-384": [
+        [
+            15,
+            25
+        ]
+    ]
+}

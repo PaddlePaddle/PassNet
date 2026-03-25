@@ -1,0 +1,46 @@
+{
+    "samples/timm/inception_resnet_v2": [
+        [
+            66,
+            68
+        ],
+        [
+            72,
+            74
+        ],
+        [
+            273,
+            275
+        ]
+    ],
+    "samples/timm/inception_v3.gluon_in1k": [
+        [
+            112,
+            114
+        ],
+        [
+            144,
+            146
+        ],
+        [
+            234,
+            236
+        ]
+    ],
+    "samples/timm/inception_v4": [
+        [
+            20,
+            22
+        ]
+    ],
+    "samples/timm/mobilenetv3_rw.rmsp_in1k": [
+        [
+            14,
+            16
+        ],
+        [
+            22,
+            24
+        ]
+    ]
+}

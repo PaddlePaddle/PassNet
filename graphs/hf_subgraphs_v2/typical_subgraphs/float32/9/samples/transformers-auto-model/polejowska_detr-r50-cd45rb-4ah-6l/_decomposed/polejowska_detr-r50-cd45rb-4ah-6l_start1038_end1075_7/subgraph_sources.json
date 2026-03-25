@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/polejowska_detr-r50-cd45rb-4ah-6l": [
+        [
+            912,
+            949
+        ],
+        [
+            954,
+            991
+        ],
+        [
+            996,
+            1033
+        ],
+        [
+            1038,
+            1075
+        ],
+        [
+            1080,
+            1117
+        ]
+    ]
+}

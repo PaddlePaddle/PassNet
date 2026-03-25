@@ -1,0 +1,20 @@
+{
+    "samples/timm/fbnetv3_b.ra2_in1k": [
+        [
+            171,
+            172
+        ]
+    ],
+    "samples/timm/fbnetv3_d.ra2_in1k": [
+        [
+            188,
+            189
+        ]
+    ],
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            171,
+            172
+        ]
+    ]
+}

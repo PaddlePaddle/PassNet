@@ -1,0 +1,14 @@
+{
+    "samples/timm/vit_huge_patch14_gap_224.in1k_ijepa": [
+        [
+            0,
+            5
+        ]
+    ],
+    "samples/timm/vit_so400m_patch14_siglip_gap_224.pali2_3b_pt": [
+        [
+            0,
+            5
+        ]
+    ]
+}

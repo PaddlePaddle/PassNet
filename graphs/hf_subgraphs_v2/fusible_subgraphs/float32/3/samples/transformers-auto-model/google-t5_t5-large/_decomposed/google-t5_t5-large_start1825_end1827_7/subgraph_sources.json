@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            1825,
+            1827
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerForImageClassificationWithTeacher": [
+        [
+            268,
+            270
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-EfficientFormerModel": [
+        [
+            268,
+            270
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_layoutlm-base-uncased": [
+        [
+            53,
+            55
+        ],
+        [
+            85,
+            87
+        ]
+    ]
+}

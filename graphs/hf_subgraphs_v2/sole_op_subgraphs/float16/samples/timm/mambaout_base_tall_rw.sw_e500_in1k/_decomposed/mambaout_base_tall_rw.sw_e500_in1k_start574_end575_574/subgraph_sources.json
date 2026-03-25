@@ -1,0 +1,16 @@
+{
+    "samples/timm/mambaout_base_tall_rw.sw_e500_in1k": [
+        [
+            574,
+            575
+        ],
+        [
+            589,
+            590
+        ],
+        [
+            604,
+            605
+        ]
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-bat-deu_eng_fra_por_spa": [
+        [
+            227,
+            254
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-bnt-deu_eng_fra_por_spa": [
+        [
+            227,
+            254
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-iir-deu_eng_fra_por_spa": [
+        [
+            227,
+            254
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-inc-en": [
+        [
+            227,
+            254
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-sem-en": [
+        [
+            227,
+            254
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-urj-deu_eng_nld": [
+        [
+            227,
+            254
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-zhx-en": [
+        [
+            227,
+            254
+        ]
+    ]
+}

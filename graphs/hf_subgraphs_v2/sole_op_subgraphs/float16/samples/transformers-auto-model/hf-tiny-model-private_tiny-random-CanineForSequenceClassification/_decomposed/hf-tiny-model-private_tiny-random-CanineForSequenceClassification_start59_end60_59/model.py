@@ -1,0 +1,10 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, w_0 : torch.Tensor, in_0 : torch.Tensor, in_1 : torch.Tensor):
+        tmp_1 = torch.nn.functional.embedding(in_1, w_0, None, None, in_0, False, False);  in_1 = w_0 = in_0 = None
+        return (tmp_1,)
+        

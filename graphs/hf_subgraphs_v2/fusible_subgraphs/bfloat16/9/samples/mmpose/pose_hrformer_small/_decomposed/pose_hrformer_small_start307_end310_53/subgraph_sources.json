@@ -1,0 +1,16 @@
+{
+    "samples/mmpose/pose_hrformer_small": [
+        [
+            71,
+            74
+        ],
+        [
+            307,
+            310
+        ],
+        [
+            675,
+            678
+        ]
+    ]
+}

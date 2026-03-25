@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/opus-mt-cy-en": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-en-rn": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-eu-en": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-mul-deu_eng_fra_por_spa": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-mul-deu_eng_nld": [
+        [
+            192,
+            209
+        ]
+    ]
+}

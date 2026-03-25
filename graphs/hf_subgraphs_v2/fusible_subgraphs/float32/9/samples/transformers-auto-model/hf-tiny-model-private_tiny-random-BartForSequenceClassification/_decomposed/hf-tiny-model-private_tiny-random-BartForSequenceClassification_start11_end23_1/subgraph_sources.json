@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BartForSequenceClassification": [
+        [
+            11,
+            23
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PLBartForSequenceClassification": [
+        [
+            11,
+            23
+        ]
+    ]
+}

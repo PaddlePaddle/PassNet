@@ -1,0 +1,40 @@
+class Program_weight_tensor_meta_L_attention_mask_:
+	name = "in_0"
+	original_name = "L_attention_mask_"
+	shape = [1, 64]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+
+class Program_weight_tensor_meta_L_input_ids_:
+	name = "in_1"
+	original_name = "L_input_ids_"
+	shape = [1, 64]
+	dtype = "torch.int64"
+	device = "cuda:0"
+	mean = None
+	std = None
+	data = [50281, 15499, 8695, 310, 908, 281, 4908, 15180, 14580, 15, 50281, 15499, 8695, 310, 908, 281, 4908, 15180, 14580, 15, 50281, 15499, 8695, 310, 908, 281, 4908, 15180, 14580, 15, 50281, 15499, 8695, 310, 908, 281, 4908, 15180, 14580, 15, 50281, 15499, 8695, 310, 908, 281, 4908, 15180, 14580, 15, 50281, 15499, 8695, 310, 908, 281, 4908, 15180, 14580, 15, 50281, 15499, 8695, 310]
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_norm_parameters_weight_:
+	name = "in_2"
+	original_name = "L_self_modules_embeddings_modules_norm_parameters_weight_"
+	shape = [768]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 1.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_embeddings_modules_tok_embeddings_parameters_weight_:
+	name = "in_3"
+	original_name = "L_self_modules_embeddings_modules_tok_embeddings_parameters_weight_"
+	shape = [50368, 768]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.018

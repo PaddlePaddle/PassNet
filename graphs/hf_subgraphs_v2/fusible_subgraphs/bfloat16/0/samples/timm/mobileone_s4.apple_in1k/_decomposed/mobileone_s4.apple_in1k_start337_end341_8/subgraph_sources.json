@@ -1,0 +1,22 @@
+{
+    "samples/timm/mobileone_s4.apple_in1k": [
+        [
+            337,
+            341
+        ],
+        [
+            350,
+            354
+        ]
+    ],
+    "samples/timm/repvgg_d2se.rvgg_in1k": [
+        [
+            8,
+            12
+        ],
+        [
+            118,
+            122
+        ]
+    ]
+}

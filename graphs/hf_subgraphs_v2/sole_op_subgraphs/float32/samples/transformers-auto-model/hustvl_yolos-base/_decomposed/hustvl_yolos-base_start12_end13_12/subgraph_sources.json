@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/hustvl_yolos-base": [
+        [
+            12,
+            13
+        ],
+        [
+            24,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small": [
+        [
+            12,
+            13
+        ],
+        [
+            24,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small-dwr": [
+        [
+            12,
+            13
+        ],
+        [
+            24,
+            25
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/apple_mobilevit-small": [
+        [
+            291,
+            295
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel": [
+        [
+            292,
+            296
+        ]
+    ]
+}

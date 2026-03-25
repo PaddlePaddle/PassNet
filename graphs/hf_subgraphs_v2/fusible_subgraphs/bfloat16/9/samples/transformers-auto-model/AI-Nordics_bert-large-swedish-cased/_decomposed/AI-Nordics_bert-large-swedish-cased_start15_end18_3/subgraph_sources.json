@@ -1,0 +1,156 @@
+{
+    "samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased": [
+        [
+            15,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Intel_dpt-large": [
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            45,
+            48
+        ],
+        [
+            48,
+            51
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/albert_albert-large-v1": [
+        [
+            22,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/apple_DepthPro-hf": [
+        [
+            897,
+            900
+        ],
+        [
+            924,
+            927
+        ],
+        [
+            1140,
+            1143
+        ],
+        [
+            2266,
+            2269
+        ]
+    ],
+    "samples/transformers-auto-model/ashique_BanglaTraitBERT": [
+        [
+            15,
+            18
+        ],
+        [
+            44,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/dbmdz_electra-large-discriminator-finetuned-conll03-english": [
+        [
+            15,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-large": [
+        [
+            48,
+            51
+        ],
+        [
+            54,
+            57
+        ],
+        [
+            120,
+            123
+        ],
+        [
+            648,
+            651
+        ],
+        [
+            1572,
+            1575
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-large": [
+        [
+            25,
+            28
+        ],
+        [
+            52,
+            55
+        ],
+        [
+            268,
+            271
+        ],
+        [
+            646,
+            649
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_beit-large-patch16-224-pt22k": [
+        [
+            1572,
+            1575
+        ]
+    ],
+    "samples/transformers-auto-model/owkin_phikon-v2": [
+        [
+            15,
+            18
+        ],
+        [
+            42,
+            45
+        ],
+        [
+            258,
+            261
+        ],
+        [
+            636,
+            639
+        ]
+    ],
+    "samples/transformers-auto-model/paulkm_autotrain-lottery_v2-2420075389": [
+        [
+            15,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/satyaalmasian_temporal_tagger_German_GELECTRA": [
+        [
+            15,
+            18
+        ],
+        [
+            44,
+            47
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ViTModel": [
+        [
+            43,
+            50
+        ],
+        [
+            69,
+            76
+        ],
+        [
+            95,
+            102
+        ],
+        [
+            121,
+            128
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel": [
+        [
+            44,
+            51
+        ],
+        [
+            70,
+            77
+        ],
+        [
+            96,
+            103
+        ],
+        [
+            122,
+            129
+        ]
+    ]
+}

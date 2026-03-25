@@ -1,0 +1,86 @@
+{
+    "samples/transformers-auto-model/Aleksandar_electra-srb-ner-setimes": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-base-uncased": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-base-uncased-tokenized": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/Ketzu_koelectra-sts-v0.4": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base": [
+        [
+            368,
+            373
+        ]
+    ],
+    "samples/transformers-auto-model/anilguven_electra_tr_turkish_product_reviews": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/aubmindlab_aragpt2-mega-detector-long": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/celloscopeai_celloscope-ner-banglabert-finetuned": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/fabiod20_italian-legal-ner": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra-base-discriminator": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/google_electra_base_discriminator": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_layoutlm-base-uncased": [
+        [
+            352,
+            357
+        ]
+    ],
+    "samples/transformers-auto-model/monologg_kocharelectra-base-kmounlp-ner": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-electra-base": [
+        [
+            298,
+            303
+        ]
+    ]
+}

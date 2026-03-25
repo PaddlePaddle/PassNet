@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/ELiRF_NASCA": [
+        [
+            11,
+            23
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_bart-large-finetuned-eLife": [
+        [
+            11,
+            23
+        ]
+    ]
+}

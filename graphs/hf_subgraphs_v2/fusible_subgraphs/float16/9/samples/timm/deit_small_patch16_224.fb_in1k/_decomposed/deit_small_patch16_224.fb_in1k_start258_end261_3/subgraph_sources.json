@@ -1,0 +1,14 @@
+{
+    "samples/timm/deit_small_patch16_224.fb_in1k": [
+        [
+            258,
+            261
+        ]
+    ],
+    "samples/timm/vit_small_patch16_224.dino": [
+        [
+            258,
+            261
+        ]
+    ]
+}
