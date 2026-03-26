@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/torchvision/mnasnet0_5/_decomposed/mnasnet0_5_start148_end151_24
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/torchvision/mnasnet0_5/_decomposed/mnasnet0_5_start148_end151_24
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/torchvision/mnasnet0_5/_decomposed/mnasnet0_5_start148_end151_24

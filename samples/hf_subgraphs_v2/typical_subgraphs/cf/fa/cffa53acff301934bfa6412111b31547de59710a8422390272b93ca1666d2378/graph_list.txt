@@ -1,10 +1,10 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft/phi-1/_decomposed/phi-1_start546_end596_20
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/microsoft/phi-1/_decomposed/phi-1_start546_end596_20
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/microsoft/phi-1/_decomposed/phi-1_start1330_end1380_48
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/1/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start1106_end1156_40
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start1778_end1828_64
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start1106_end1156_40
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start1050_end1100_38
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/microsoft/phi-1/_decomposed/phi-1_start546_end596_20
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start1778_end1828_64
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft/phi-1/_decomposed/phi-1_start1162_end1212_42
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start1106_end1156_40
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/microsoft/phi-1/_decomposed/phi-1_start1330_end1380_48
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/microsoft/phi-1/_decomposed/phi-1_start1162_end1212_42
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/1/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start1106_end1156_40
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start1050_end1100_38
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft/phi-1/_decomposed/phi-1_start546_end596_20

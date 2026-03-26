@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/timm/mixnet_s.ft_in1k/_decomposed/mixnet_s.ft_in1k_start19_end35_2

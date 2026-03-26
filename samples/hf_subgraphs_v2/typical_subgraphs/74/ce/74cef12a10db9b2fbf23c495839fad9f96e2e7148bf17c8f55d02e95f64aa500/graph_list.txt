@@ -1,4 +1,4 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dpn68.mx_in1k/_decomposed/dpn68.mx_in1k_start2_end10_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/dpn68.mx_in1k/_decomposed/dpn68.mx_in1k_start2_end10_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start2_end10_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dpn68.mx_in1k/_decomposed/dpn68.mx_in1k_start2_end10_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start2_end10_0

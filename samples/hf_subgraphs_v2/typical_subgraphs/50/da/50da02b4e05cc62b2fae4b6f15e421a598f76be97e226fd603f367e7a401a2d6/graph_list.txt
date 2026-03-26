@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/timm/dpn48b/_decomposed/dpn48b_start226_end237_32
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/timm/dpn48b/_decomposed/dpn48b_start226_end237_32
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/dpn48b/_decomposed/dpn48b_start226_end237_32
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/dpn48b/_decomposed/dpn48b_start226_end237_32
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/timm/dpn48b/_decomposed/dpn48b_start226_end237_32
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/timm/dpn48b/_decomposed/dpn48b_start226_end237_32
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/timm/dpn48b/_decomposed/dpn48b_start226_end237_32
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/timm/dpn48b/_decomposed/dpn48b_start226_end237_32

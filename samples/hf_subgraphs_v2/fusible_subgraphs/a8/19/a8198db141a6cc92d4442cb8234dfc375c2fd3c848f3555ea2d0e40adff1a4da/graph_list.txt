@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256/_decomposed/siglip2-giant-opt-patch16-256_start1017_end1021_11
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/3/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256/_decomposed/siglip2-giant-opt-patch16-256_start1017_end1021_11
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256/_decomposed/siglip2-giant-opt-patch16-256_start1017_end1021_11
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/transformers-auto-model/google/siglip-base-patch16-224/_decomposed/siglip-base-patch16-224_start317_end321_7
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256/_decomposed/siglip2-giant-opt-patch16-256_start1017_end1021_11
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256/_decomposed/siglip2-giant-opt-patch16-256_start1017_end1021_11
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/google/siglip-base-patch16-224/_decomposed/siglip-base-patch16-224_start317_end321_7
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/3/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256/_decomposed/siglip2-giant-opt-patch16-256_start1017_end1021_11
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/google/siglip-so400m-patch14-384/_decomposed/siglip-so400m-patch14-384_start692_end696_7

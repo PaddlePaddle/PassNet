@@ -1,10 +1,10 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start298_end300_10
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/torchgeometric/LINKX/_decomposed/LINKX_start32_end34_9
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Hezam_ArabicT5_Classification/_decomposed/Hezam_ArabicT5_Classification_start1497_end1499_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start6_end8_2
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start151_end153_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/google/t5-efficient-base-nh16/_decomposed/t5-efficient-base-nh16_start151_end153_0
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start6_end8_2
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start6_end8_2
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/6/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start440_end442_7
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Aniemore_unispeech-sat-emotion-russian-resd/_decomposed/Aniemore_unispeech-sat-emotion-russian-resd_start335_end337_26
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start298_end300_10
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start298_end300_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/transformers-auto-model/sheshkar_cmon2/_decomposed/sheshkar_cmon2_start6_end8_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Hezam_ArabicT5_Classification/_decomposed/Hezam_ArabicT5_Classification_start1497_end1499_2

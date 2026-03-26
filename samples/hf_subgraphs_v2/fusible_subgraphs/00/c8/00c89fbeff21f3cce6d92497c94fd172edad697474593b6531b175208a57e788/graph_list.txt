@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot/_decomposed/microsoft_xclip-base-patch16-zero-shot_start1240_end1242_9
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot/_decomposed/microsoft_xclip-base-patch16-zero-shot_start1240_end1242_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot/_decomposed/microsoft_xclip-base-patch16-zero-shot_start1240_end1242_9

@@ -1,3 +1,3 @@
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SwinForImageClassification_start113_end114_113
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmpose/pose_swin_b/_decomposed/pose_swin_b_start1051_end1052_1051
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SwinForImageClassification_start113_end114_113
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start1074_end1075_1074

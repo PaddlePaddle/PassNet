@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/convit_tiny/_decomposed/convit_tiny_start601_end623_20
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/convit_small/_decomposed/convit_small_start601_end623_20
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/convit_tiny/_decomposed/convit_tiny_start601_end623_20

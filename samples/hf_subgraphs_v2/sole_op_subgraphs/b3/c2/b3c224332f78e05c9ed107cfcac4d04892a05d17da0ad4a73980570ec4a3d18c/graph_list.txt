@@ -1,7 +1,7 @@
-graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1063_end1064_1063
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1070_end1071_1070
-graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1032_end1033_1032
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/falcon-tiny-random/_decomposed/falcon-tiny-random_start35_end36_35
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1032_end1033_1032
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1032_end1033_1032
 graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/falcon-tiny-random/_decomposed/falcon-tiny-random_start35_end36_35
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/falcon-tiny-random/_decomposed/falcon-tiny-random_start35_end36_35
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1063_end1064_1063
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1032_end1033_1032

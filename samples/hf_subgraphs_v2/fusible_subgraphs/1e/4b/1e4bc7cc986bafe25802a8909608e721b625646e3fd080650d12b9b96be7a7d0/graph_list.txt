@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/transformers-auto-model/microsoft_swin-large-patch4-window12-384-in22k/_decomposed/microsoft_swin-large-patch4-window12-384-in22k_start1454_end1463_52
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/transformers-auto-model/microsoft_swin-large-patch4-window12-384-in22k/_decomposed/microsoft_swin-large-patch4-window12-384-in22k_start1454_end1463_52
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/OttoYu_Tree-ConditionHK/_decomposed/OttoYu_Tree-ConditionHK_start397_end406_34
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start397_end406_34
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/transformers-auto-model/microsoft_swin-large-patch4-window12-384-in22k/_decomposed/microsoft_swin-large-patch4-window12-384-in22k_start1454_end1463_52
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start397_end406_34
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start397_end406_34

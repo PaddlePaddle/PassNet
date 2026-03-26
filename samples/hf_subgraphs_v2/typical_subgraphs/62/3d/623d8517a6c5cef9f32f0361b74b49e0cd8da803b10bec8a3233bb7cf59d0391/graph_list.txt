@@ -1,8 +1,8 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender/_decomposed/audeering_wav2vec2-large-robust-24-ft-age-gender_start101_end108_8
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/snolyai_resultsfinal/_decomposed/snolyai_resultsfinal_start101_end108_8
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/snolyai_resultsfinal/_decomposed/snolyai_resultsfinal_start101_end108_8
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting/_decomposed/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting_start217_end224_24
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting/_decomposed/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting_start217_end224_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/snolyai_resultsfinal/_decomposed/snolyai_resultsfinal_start101_end108_8
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/Aniemore_unispeech-sat-emotion-russian-resd/_decomposed/Aniemore_unispeech-sat-emotion-russian-resd_start333_end340_40
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/snolyai_resultsfinal/_decomposed/snolyai_resultsfinal_start101_end108_8
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender/_decomposed/audeering_wav2vec2-large-robust-24-ft-age-gender_start101_end108_8
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender/_decomposed/audeering_wav2vec2-large-robust-24-ft-age-gender_start333_end340_40
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender/_decomposed/audeering_wav2vec2-large-robust-24-ft-age-gender_start333_end340_40
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting/_decomposed/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting_start217_end224_24

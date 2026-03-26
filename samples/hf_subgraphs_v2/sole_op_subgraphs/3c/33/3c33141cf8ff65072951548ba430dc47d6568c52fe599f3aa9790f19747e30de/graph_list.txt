@@ -1,4 +1,4 @@
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/timm/coat_lite_medium.in1k/_decomposed/coat_lite_medium.in1k_start1022_end1023_1022
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/BEiT-B/_decomposed/BEiT-B_start132_end133_132
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/ultralytics/yolo11l/_decomposed/yolo11l_start677_end678_677
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/K-Net_deeplabv3/_decomposed/K-Net_deeplabv3_start205_end206_205
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/ultralytics/yolo11l/_decomposed/yolo11l_start677_end678_677
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/BEiT-B/_decomposed/BEiT-B_start132_end133_132

@@ -1,8 +1,8 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start88_end109_8
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start88_end109_8
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start780_end801_24
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start780_end801_24
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start780_end801_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/microsoft_beit-large-patch16-224-pt22k/_decomposed/microsoft_beit-large-patch16-224-pt22k_start1572_end1593_48
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_beit-large-patch16-224-pt22k/_decomposed/microsoft_beit-large-patch16-224-pt22k_start1572_end1593_48
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/microsoft_beit-large-patch16-224-pt22k/_decomposed/microsoft_beit-large-patch16-224-pt22k_start1572_end1593_48
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/microsoft_beit-large-patch16-224-pt22k/_decomposed/microsoft_beit-large-patch16-224-pt22k_start1572_end1593_48
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start780_end801_24
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start780_end801_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start780_end801_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start88_end109_8
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start88_end109_8

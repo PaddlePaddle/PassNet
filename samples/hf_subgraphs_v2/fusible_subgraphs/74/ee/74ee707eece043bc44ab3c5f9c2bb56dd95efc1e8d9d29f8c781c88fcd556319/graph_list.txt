@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/KoboldAI_fairseq-dense-125M/_decomposed/KoboldAI_fairseq-dense-125M_start44_end46_3
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-LEDForSequenceClassification_start35_end37_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/binery_Table_detection_MS_E_14/_decomposed/binery_Table_detection_MS_E_14_start497_end499_6
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/mmseg/DANet_R101/_decomposed/DANet_R101_start387_end389_6
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/facebook_xglm-564M/_decomposed/facebook_xglm-564M_start44_end46_3
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/mmseg/DANet_R101/_decomposed/DANet_R101_start387_end389_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-LEDForSequenceClassification_start35_end37_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/KoboldAI_fairseq-dense-125M/_decomposed/KoboldAI_fairseq-dense-125M_start44_end46_3

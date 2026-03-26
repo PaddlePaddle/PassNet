@@ -1,4 +1,4 @@
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ViTModel/_decomposed/hf-tiny-model-private_tiny-random-ViTModel_start0_end8_0
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/facebook_dino-vitb8/_decomposed/facebook_dino-vitb8_start0_end8_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/owkin_phikon/_decomposed/owkin_phikon_start0_end8_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/transformers-auto-model/trocr-base-handwritten/_decomposed/trocr-base-handwritten_start0_end8_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/facebook_dino-vitb8/_decomposed/facebook_dino-vitb8_start0_end8_0

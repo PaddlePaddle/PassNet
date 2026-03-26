@@ -1,6 +1,6 @@
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/mmseg/HRNetV2p-W18/_decomposed/HRNetV2p-W18_start114_end117_0
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/mmseg/HRNetV2p-W18/_decomposed/HRNetV2p-W18_start114_end117_0
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmseg/HRNetV2p-W18/_decomposed/HRNetV2p-W18_start114_end117_0
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/8/samples/mmseg/HRNetV2p-W18/_decomposed/HRNetV2p-W18_start114_end117_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/mmseg/HRNetV2p-W18/_decomposed/HRNetV2p-W18_start114_end117_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/mmseg/HRNetV2p-W18/_decomposed/HRNetV2p-W18_start114_end117_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmseg/HRNetV2p-W18/_decomposed/HRNetV2p-W18_start114_end117_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/mmseg/HRNetV2p-W18/_decomposed/HRNetV2p-W18_start114_end117_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/8/samples/mmseg/HRNetV2p-W18/_decomposed/HRNetV2p-W18_start114_end117_0

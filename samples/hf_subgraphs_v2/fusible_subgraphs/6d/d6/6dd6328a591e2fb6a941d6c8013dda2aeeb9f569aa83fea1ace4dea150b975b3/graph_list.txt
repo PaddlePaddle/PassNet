@@ -1,5 +1,5 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SegformerForImageClassification_start138_end142_31
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start186_end190_34
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start186_end190_34
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start386_end390_42
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start186_end190_34
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start386_end390_42
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SegformerForImageClassification_start138_end142_31
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start386_end390_42

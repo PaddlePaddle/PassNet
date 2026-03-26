@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/mmpose/pose_hrformer_small/_decomposed/pose_hrformer_small_start107_end115_16
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/mmpose/pose_hrformer_small/_decomposed/pose_hrformer_small_start107_end115_16
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/mmpose/pose_hrformer_small/_decomposed/pose_hrformer_small_start107_end115_16

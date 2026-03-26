@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/mmseg/ERFNet/_decomposed/ERFNet_start111_end116_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/mmseg/ERFNet/_decomposed/ERFNet_start123_end128_9
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/mmseg/ERFNet/_decomposed/ERFNet_start123_end128_9
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/mmseg/ERFNet/_decomposed/ERFNet_start186_end191_14
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/mmseg/ERFNet/_decomposed/ERFNet_start111_end116_8
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/mmseg/ERFNet/_decomposed/ERFNet_start123_end128_9
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/mmseg/ERFNet/_decomposed/ERFNet_start111_end116_8
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/mmseg/ERFNet/_decomposed/ERFNet_start111_end116_8
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/mmseg/ERFNet/_decomposed/ERFNet_start111_end116_8

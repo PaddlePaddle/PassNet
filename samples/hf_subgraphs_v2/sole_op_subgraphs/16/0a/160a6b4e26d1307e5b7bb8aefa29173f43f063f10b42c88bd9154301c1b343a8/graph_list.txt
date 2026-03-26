@@ -1,7 +1,7 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmpose/ViTPose-B-simple/_decomposed/ViTPose-B-simple_start249_end250_249
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmpose/ViTPose-B-simple/_decomposed/ViTPose-B-simple_start249_end250_249
 graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/sadhaklal_mlp-california-housing/_decomposed/sadhaklal_mlp-california-housing_start1_end2_1
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/sadhaklal_mlp-california-housing/_decomposed/sadhaklal_mlp-california-housing_start1_end2_1
-graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmpose/2xmspn_50/_decomposed/2xmspn_50_start425_end426_425
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmpose/2xmspn_50/_decomposed/2xmspn_50_start425_end426_425
-graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmpose/ViTPose-B-simple/_decomposed/ViTPose-B-simple_start249_end250_249
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmpose/ViTPose-B-simple/_decomposed/ViTPose-B-simple_start249_end250_249
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmpose/2xmspn_50/_decomposed/2xmspn_50_start102_end103_102
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmpose/2xmspn_50/_decomposed/2xmspn_50_start425_end426_425
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmpose/2xmspn_50/_decomposed/2xmspn_50_start425_end426_425

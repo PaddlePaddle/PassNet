@@ -1,10 +1,10 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SegformerForImageClassification_start279_end287_56
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SegformerForImageClassification_start109_end117_23
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start323_end331_44
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SegformerForImageClassification_start21_end29_5
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/vinvino02_glpn-nyu/_decomposed/vinvino02_glpn-nyu_start149_end157_15
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start279_end287_54
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/vinvino02_glpn-nyu/_decomposed/vinvino02_glpn-nyu_start21_end29_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevit-x-small/_decomposed/apple_mobilevit-x-small_start323_end331_44
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start109_end117_23
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SegformerForImageClassification_start109_end117_23
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start279_end287_54
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start109_end117_23
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SegformerForImageClassification_start21_end29_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/vinvino02_glpn-nyu/_decomposed/vinvino02_glpn-nyu_start21_end29_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SegformerForImageClassification_start279_end287_56

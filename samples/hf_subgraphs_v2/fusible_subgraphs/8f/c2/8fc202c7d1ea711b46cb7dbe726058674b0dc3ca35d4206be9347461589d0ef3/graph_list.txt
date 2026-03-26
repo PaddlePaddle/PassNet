@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/all-mpnet-base-v2/_decomposed/all-mpnet-base-v2_start59_end61_8
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start48_end50_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/all-mpnet-base-v2/_decomposed/all-mpnet-base-v2_start59_end61_8

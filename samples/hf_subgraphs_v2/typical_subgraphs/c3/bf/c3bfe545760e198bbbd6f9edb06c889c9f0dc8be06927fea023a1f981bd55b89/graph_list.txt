@@ -1,9 +1,9 @@
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/mmpose/rtmw-l/_decomposed/rtmw-l_start396_end405_5

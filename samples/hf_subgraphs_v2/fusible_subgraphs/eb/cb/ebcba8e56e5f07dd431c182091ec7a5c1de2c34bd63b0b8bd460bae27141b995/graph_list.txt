@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start317_end321_17
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start317_end321_17
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start317_end321_17
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start317_end321_17
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start317_end321_17
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start317_end321_17
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start317_end321_17
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start317_end321_17
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/ghostnet_100.in1k/_decomposed/ghostnet_100.in1k_start317_end321_17

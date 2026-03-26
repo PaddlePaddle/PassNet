@@ -1,3 +1,3 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end135_9
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end135_9
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end135_9
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end135_9

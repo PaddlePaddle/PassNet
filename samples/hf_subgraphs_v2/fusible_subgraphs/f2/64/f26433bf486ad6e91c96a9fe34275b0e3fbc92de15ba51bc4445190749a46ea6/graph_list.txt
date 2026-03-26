@@ -1,3 +1,3 @@
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/convit_tiny/_decomposed/convit_tiny_start110_end113_19
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot/_decomposed/microsoft_xclip-base-patch16-zero-shot_start1204_end1207_2
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/convit_small/_decomposed/convit_small_start110_end113_19
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot/_decomposed/microsoft_xclip-base-patch16-zero-shot_start1204_end1207_2

@@ -1,4 +1,4 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/torchaudio/wavlm_base/_decomposed/wavlm_base_start112_end114_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/torchaudio/wavlm_base/_decomposed/wavlm_base_start112_end114_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/torchaudio/wavlm_base/_decomposed/wavlm_base_start112_end114_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/torchaudio/wavlm_large/_decomposed/wavlm_large_start133_end135_6
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/torchaudio/wavlm_large/_decomposed/wavlm_large_start133_end135_6

@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/torchaudio/squim_subjective/_decomposed/squim_subjective_start0_end30_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/torchaudio/squim_subjective/_decomposed/squim_subjective_start0_end30_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/torchaudio/squim_subjective/_decomposed/squim_subjective_start0_end30_0

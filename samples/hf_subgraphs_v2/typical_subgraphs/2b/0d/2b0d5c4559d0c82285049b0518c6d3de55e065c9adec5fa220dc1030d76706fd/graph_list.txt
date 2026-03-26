@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/legacy_senet154.in1k/_decomposed/legacy_senet154.in1k_start810_end822_100
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/legacy_senet154.in1k/_decomposed/legacy_senet154.in1k_start810_end822_100
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/legacy_senet154.in1k/_decomposed/legacy_senet154.in1k_start810_end822_100
