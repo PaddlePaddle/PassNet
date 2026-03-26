@@ -21,6 +21,13 @@ import argparse
 import sys
 from typing import Set, List
 
+
+def sort_sample_uids(sample_uids_str):
+    sample_uids_list = sample_uids_str.split(',')
+    sample_uids_list.sort(key=lambda x: x)
+    return ','.join(sample_uids_list)
+
+
 def read_selected_uuids(file_path: str) -> Set[str]:
     """Read UUIDs from a file (one per line) and return a set."""
     selected = set()
@@ -29,8 +36,9 @@ def read_selected_uuids(file_path: str) -> Set[str]:
             line = line.strip()
             if not line:
                 continue
-            selected.add(line)
+            selected.add(sort_sample_uids(line))
     return selected
+
 
 def filter_relative_paths(mapping_file: str, selected_uuids: Set[str]) -> List[str]:
     """
@@ -49,9 +57,10 @@ def filter_relative_paths(mapping_file: str, selected_uuids: Set[str]) -> List[s
                       file=sys.stderr)
                 continue
             uuid, rel_path = parts
-            if uuid in selected_uuids:
+            if sort_sample_uids(uuid) in selected_uuids:
                 result.append(rel_path)
     return result
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -65,6 +74,7 @@ def main():
 
     selected = read_selected_uuids(args.selected_uuid_file)
     output_paths = filter_relative_paths(args.mapping_file, selected)
+    assert len(selected) == len(output_paths), f"{len(selected)} != {len(output_paths)}"
 
     # Print each relative path on its own line
     for path in output_paths:
