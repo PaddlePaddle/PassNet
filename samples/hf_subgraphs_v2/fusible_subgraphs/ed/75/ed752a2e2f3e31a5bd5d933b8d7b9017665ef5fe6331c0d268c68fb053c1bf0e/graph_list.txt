@@ -1,5 +1,5 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_DepthPro-hf/_decomposed/apple_DepthPro-hf_start1148_end1150_42
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/mmseg/OCRNet_hr18/_decomposed/OCRNet_hr18_start1189_end1191_8
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_DepthPro-hf/_decomposed/apple_DepthPro-hf_start276_end278_21
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmseg/ISANet_R101/_decomposed/ISANet_R101_start379_end381_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_DepthPro-hf/_decomposed/apple_DepthPro-hf_start276_end278_21
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/mmseg/OCRNet_hr18/_decomposed/OCRNet_hr18_start1189_end1191_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/mmseg/OCRNet_hr18/_decomposed/OCRNet_hr18_start1189_end1191_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_DepthPro-hf/_decomposed/apple_DepthPro-hf_start1148_end1150_42

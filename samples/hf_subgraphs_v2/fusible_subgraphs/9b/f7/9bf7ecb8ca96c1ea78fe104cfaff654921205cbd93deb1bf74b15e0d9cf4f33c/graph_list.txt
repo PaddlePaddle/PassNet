@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/eca_halonext26ts/_decomposed/eca_halonext26ts_start234_end237_18
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/timm/eca_halonext26ts/_decomposed/eca_halonext26ts_start234_end237_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/eca_halonext26ts/_decomposed/eca_halonext26ts_start234_end237_18

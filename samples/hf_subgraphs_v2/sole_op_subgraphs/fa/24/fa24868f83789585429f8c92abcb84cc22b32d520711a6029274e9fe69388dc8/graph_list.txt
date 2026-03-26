@@ -1,3 +1,3 @@
-graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/bat_resnext26ts.ch_in1k/_decomposed/bat_resnext26ts.ch_in1k_start121_end122_121
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/timm/bat_resnext26ts.ch_in1k/_decomposed/bat_resnext26ts.ch_in1k_start120_end121_120
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/bat_resnext26ts.ch_in1k/_decomposed/bat_resnext26ts.ch_in1k_start121_end122_121
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/timm/bat_resnext26ts.ch_in1k/_decomposed/bat_resnext26ts.ch_in1k_start120_end121_120

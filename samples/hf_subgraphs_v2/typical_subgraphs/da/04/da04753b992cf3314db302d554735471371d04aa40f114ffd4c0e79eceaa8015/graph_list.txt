@@ -1,4 +1,4 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/vgg19_bn.tv_in1k/_decomposed/vgg19_bn.tv_in1k_start0_end62_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/vgg19_bn.tv_in1k/_decomposed/vgg19_bn.tv_in1k_start0_end62_0
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/vgg19_bn.tv_in1k/_decomposed/vgg19_bn.tv_in1k_start0_end62_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/timm/vgg19_bn.tv_in1k/_decomposed/vgg19_bn.tv_in1k_start0_end62_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/vgg19_bn.tv_in1k/_decomposed/vgg19_bn.tv_in1k_start0_end62_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/vgg19_bn.tv_in1k/_decomposed/vgg19_bn.tv_in1k_start0_end62_0

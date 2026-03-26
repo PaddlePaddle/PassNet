@@ -1,4 +1,4 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/legacy_senet154.in1k/_decomposed/legacy_senet154.in1k_start23_end27_5
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/legacy_senet154.in1k/_decomposed/legacy_senet154.in1k_start23_end27_5
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start96_end100_7
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start96_end100_7
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/legacy_senet154.in1k/_decomposed/legacy_senet154.in1k_start23_end27_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/legacy_senet154.in1k/_decomposed/legacy_senet154.in1k_start23_end27_5

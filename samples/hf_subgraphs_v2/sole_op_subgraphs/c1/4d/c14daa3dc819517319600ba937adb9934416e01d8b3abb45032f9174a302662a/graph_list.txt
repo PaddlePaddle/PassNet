@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/ultralytics/yolov10l/_decomposed/yolov10l_start685_end686_685
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/timm/eca_resnet33ts.ra2_in1k/_decomposed/eca_resnet33ts.ra2_in1k_start110_end111_110
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/ultralytics/yolov10l/_decomposed/yolov10l_start685_end686_685

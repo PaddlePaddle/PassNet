@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64/_decomposed/ARTeLab_it5-summarization-fanpage-64_start2_end3_2
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64/_decomposed/ARTeLab_it5-summarization-fanpage-64_start2_end3_2
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64/_decomposed/ARTeLab_it5-summarization-fanpage-64_start2_end3_2

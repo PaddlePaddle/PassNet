@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/3/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/6/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0

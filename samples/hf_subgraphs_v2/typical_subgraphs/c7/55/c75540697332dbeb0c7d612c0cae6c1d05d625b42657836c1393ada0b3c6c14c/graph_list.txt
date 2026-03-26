@@ -1,6 +1,6 @@
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/densenet169.tv_in1k/_decomposed/densenet169.tv_in1k_start596_end600_79
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/densenet169.tv_in1k/_decomposed/densenet169.tv_in1k_start596_end600_79
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/densenet169.tv_in1k/_decomposed/densenet169.tv_in1k_start596_end600_79
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/densenet169.tv_in1k/_decomposed/densenet169.tv_in1k_start596_end600_79
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/timm/densenet169.tv_in1k/_decomposed/densenet169.tv_in1k_start596_end600_79
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/densenet169.tv_in1k/_decomposed/densenet169.tv_in1k_start596_end600_79
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/densenet169.tv_in1k/_decomposed/densenet169.tv_in1k_start596_end600_79
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/timm/densenet169.tv_in1k/_decomposed/densenet169.tv_in1k_start596_end600_79
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/densenet169.tv_in1k/_decomposed/densenet169.tv_in1k_start596_end600_79

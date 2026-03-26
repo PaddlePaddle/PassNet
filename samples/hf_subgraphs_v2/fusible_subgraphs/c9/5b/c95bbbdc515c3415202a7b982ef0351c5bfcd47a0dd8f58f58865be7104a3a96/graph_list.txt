@@ -1,8 +1,8 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot/_decomposed/microsoft_xclip-base-patch16-zero-shot_start1214_end1221_5
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot/_decomposed/microsoft_xclip-base-patch16-zero-shot_start1214_end1221_5
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/timm/convit_small/_decomposed/convit_small_start616_end623_49
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/timm/convit_small/_decomposed/convit_small_start616_end623_49
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/convit_small/_decomposed/convit_small_start616_end623_49
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/timm/convit_base/_decomposed/convit_base_start616_end623_47
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/timm/convit_base/_decomposed/convit_base_start616_end623_47
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/timm/convit_small/_decomposed/convit_small_start616_end623_49
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot/_decomposed/microsoft_xclip-base-patch16-zero-shot_start1214_end1221_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/convit_small/_decomposed/convit_small_start616_end623_49
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/timm/convit_small/_decomposed/convit_small_start616_end623_49
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot/_decomposed/microsoft_xclip-base-patch16-zero-shot_start1214_end1221_5
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/convit_base/_decomposed/convit_base_start616_end623_47
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/timm/convit_base/_decomposed/convit_base_start616_end623_47

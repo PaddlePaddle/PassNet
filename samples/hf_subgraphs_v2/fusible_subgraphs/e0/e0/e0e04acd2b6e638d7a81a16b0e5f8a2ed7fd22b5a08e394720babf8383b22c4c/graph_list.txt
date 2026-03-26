@@ -1,9 +1,9 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/8/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/timm/dla34.in1k/_decomposed/dla34.in1k_start130_end133_0

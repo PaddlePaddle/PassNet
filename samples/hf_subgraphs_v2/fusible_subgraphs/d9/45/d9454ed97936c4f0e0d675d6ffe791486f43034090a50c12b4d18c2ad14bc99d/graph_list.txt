@@ -1,8 +1,8 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/test_resnet.r160_in1k/_decomposed/test_resnet.r160_in1k_start33_end36_10
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/test_resnet.r160_in1k/_decomposed/test_resnet.r160_in1k_start33_end36_10
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/test_resnet.r160_in1k/_decomposed/test_resnet.r160_in1k_start33_end36_10
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start20_end23_6
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start30_end33_9
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start30_end33_9
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start30_end33_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/test_resnet.r160_in1k/_decomposed/test_resnet.r160_in1k_start33_end36_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start30_end33_9
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start30_end33_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/test_resnet.r160_in1k/_decomposed/test_resnet.r160_in1k_start33_end36_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start30_end33_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/resnet10t.c3_in1k/_decomposed/resnet10t.c3_in1k_start20_end23_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/test_resnet.r160_in1k/_decomposed/test_resnet.r160_in1k_start33_end36_10

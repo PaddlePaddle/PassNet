@@ -1,6 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/timm/cspdarknet53.ra_in1k/_decomposed/cspdarknet53.ra_in1k_start248_end253_5
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/cspdarknet53.ra_in1k/_decomposed/cspdarknet53.ra_in1k_start248_end253_5
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/cspdarknet53.ra_in1k/_decomposed/cspdarknet53.ra_in1k_start248_end253_5
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/timm/cspdarknet53.ra_in1k/_decomposed/cspdarknet53.ra_in1k_start248_end253_5
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/timm/cspdarknet53.ra_in1k/_decomposed/cspdarknet53.ra_in1k_start248_end253_5
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/cspdarknet53.ra_in1k/_decomposed/cspdarknet53.ra_in1k_start248_end253_5
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/cspdarknet53.ra_in1k/_decomposed/cspdarknet53.ra_in1k_start248_end253_5
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/timm/cspdarknet53.ra_in1k/_decomposed/cspdarknet53.ra_in1k_start248_end253_5
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/timm/cspdarknet53.ra_in1k/_decomposed/cspdarknet53.ra_in1k_start248_end253_5

@@ -1,4 +1,4 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/timm/darknet17/_decomposed/darknet17_start0_end57_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/darknet17/_decomposed/darknet17_start0_end57_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/darknet17/_decomposed/darknet17_start0_end57_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/timm/darknet17/_decomposed/darknet17_start0_end57_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/timm/darknet17/_decomposed/darknet17_start0_end57_0

@@ -1,8 +1,8 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerModel/_decomposed/hf-tiny-model-private_tiny-random-SegformerModel_start326_end340_39
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerModel/_decomposed/hf-tiny-model-private_tiny-random-SegformerModel_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerModel/_decomposed/hf-tiny-model-private_tiny-random-SegformerModel_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerModel/_decomposed/hf-tiny-model-private_tiny-random-SegformerModel_start326_end340_39

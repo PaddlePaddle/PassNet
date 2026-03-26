@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/repvgg_a0.rvgg_in1k/_decomposed/repvgg_a0.rvgg_in1k_start164_end170_14
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/regnetx_002.pycls_in1k/_decomposed/regnetx_002.pycls_in1k_start139_end145_13
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/botnet26t_256.c1_in1k/_decomposed/botnet26t_256.c1_in1k_start223_end229_9
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/timm/regnetx_002.pycls_in1k/_decomposed/regnetx_002.pycls_in1k_start139_end145_13
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/repvgg_a0.rvgg_in1k/_decomposed/repvgg_a0.rvgg_in1k_start164_end170_14
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/timm/regnetx_002.pycls_in1k/_decomposed/regnetx_002.pycls_in1k_start139_end145_13
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/timm/regnetx_002.pycls_in1k/_decomposed/regnetx_002.pycls_in1k_start139_end145_13
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/botnet26t_256.c1_in1k/_decomposed/botnet26t_256.c1_in1k_start223_end229_9
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/regnetx_002.pycls_in1k/_decomposed/regnetx_002.pycls_in1k_start139_end145_13

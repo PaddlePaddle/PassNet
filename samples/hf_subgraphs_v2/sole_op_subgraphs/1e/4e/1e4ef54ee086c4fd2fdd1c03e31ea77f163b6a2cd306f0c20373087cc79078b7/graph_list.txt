@@ -1,3 +1,3 @@
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/timm/cspdarknet53.ra_in1k/_decomposed/cspdarknet53.ra_in1k_start100_end101_100
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/timm/cspresnet50.ra_in1k/_decomposed/cspresnet50.ra_in1k_start110_end111_110
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/torchgeometric/GAT/_decomposed/GAT_start141_end142_141
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/timm/cspresnet50.ra_in1k/_decomposed/cspresnet50.ra_in1k_start110_end111_110

@@ -1,4 +1,4 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/Aniemore_unispeech-sat-emotion-russian-resd/_decomposed/Aniemore_unispeech-sat-emotion-russian-resd_start337_end340_27
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/Aniemore_unispeech-sat-emotion-russian-resd/_decomposed/Aniemore_unispeech-sat-emotion-russian-resd_start337_end340_27
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting/_decomposed/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting_start221_end224_6
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting/_decomposed/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting_start221_end224_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting/_decomposed/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting_start221_end224_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/Aniemore_unispeech-sat-emotion-russian-resd/_decomposed/Aniemore_unispeech-sat-emotion-russian-resd_start337_end340_27

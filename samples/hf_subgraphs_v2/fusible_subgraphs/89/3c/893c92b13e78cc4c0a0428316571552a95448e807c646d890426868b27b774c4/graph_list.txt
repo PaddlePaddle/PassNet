@@ -1,4 +1,4 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1746_end1749_63
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1746_end1749_63
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_table-transformer-detection/_decomposed/microsoft_table-transformer-detection_start478_end481_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/microsoft_table-transformer-detection/_decomposed/microsoft_table-transformer-detection_start478_end481_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1746_end1749_63
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1746_end1749_63
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_table-transformer-detection/_decomposed/microsoft_table-transformer-detection_start478_end481_4

@@ -1,5 +1,5 @@
-graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start195_end196_195
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start280_end281_280
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start280_end281_280
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start195_end196_195
 graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start88_end89_88
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start88_end89_88
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256/_decomposed/apple_mobilevitv2-1.0-imagenet1k-256_start280_end281_280

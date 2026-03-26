@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/opus-mt-cs-de/_decomposed/opus-mt-cs-de_start189_end191_3
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/opus-mt-en-zlw/_decomposed/opus-mt-en-zlw_start189_end191_3
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/opus-mt-fi-ho/_decomposed/opus-mt-fi-ho_start189_end191_3
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/opus-mt-en-nl/_decomposed/opus-mt-en-nl_start189_end191_3
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/opus-mt-es-fr/_decomposed/opus-mt-es-fr_start189_end191_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/opus-mt-en-zlw/_decomposed/opus-mt-en-zlw_start189_end191_3
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/opus-mt-es-fr/_decomposed/opus-mt-es-fr_start189_end191_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/opus-mt-cs-de/_decomposed/opus-mt-cs-de_start189_end191_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/opus-mt-es-fr/_decomposed/opus-mt-es-fr_start189_end191_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/opus-mt-en-nl/_decomposed/opus-mt-en-nl_start189_end191_3

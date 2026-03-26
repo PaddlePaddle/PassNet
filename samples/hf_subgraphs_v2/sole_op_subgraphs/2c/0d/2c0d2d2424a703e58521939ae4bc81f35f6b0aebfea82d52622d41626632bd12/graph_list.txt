@@ -1,5 +1,5 @@
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32/_decomposed/DatologyAI_cls-opt-vit-b-32_start18_end19_18
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/google_pix2struct-base/_decomposed/google_pix2struct-base_start101_end102_101
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/Mahmoud8_ernie-m-base_pytorch/_decomposed/Mahmoud8_ernie-m-base_pytorch_start0_end1_0
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1045_end1046_1045
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/torchgeometric/GAE/_decomposed/GAE_start24_end25_24
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32/_decomposed/DatologyAI_cls-opt-vit-b-32_start18_end19_18
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1045_end1046_1045
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/Mahmoud8_ernie-m-base_pytorch/_decomposed/Mahmoud8_ernie-m-base_pytorch_start0_end1_0
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/google_pix2struct-base/_decomposed/google_pix2struct-base_start101_end102_101

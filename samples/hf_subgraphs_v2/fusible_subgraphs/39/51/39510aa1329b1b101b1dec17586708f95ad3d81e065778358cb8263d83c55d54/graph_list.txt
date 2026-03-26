@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1758_end1766_66
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1758_end1766_66
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1758_end1766_66
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/facebook_detr-resnet-101-dc5/_decomposed/facebook_detr-resnet-101-dc5_start1605_end1613_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1758_end1766_66
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/facebook_detr-resnet-101-dc5/_decomposed/facebook_detr-resnet-101-dc5_start1605_end1613_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1758_end1766_66
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/transformers-auto-model/zuppif_maskformer-swin-small-ade/_decomposed/zuppif_maskformer-swin-small-ade_start1758_end1766_66
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/microsoft_conditional-detr-resnet-50/_decomposed/microsoft_conditional-detr-resnet-50_start1254_end1262_7

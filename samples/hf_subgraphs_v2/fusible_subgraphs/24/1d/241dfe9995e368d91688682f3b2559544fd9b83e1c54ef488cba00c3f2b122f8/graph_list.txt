@@ -1,9 +1,9 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/8/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/4/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/8/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/4/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start292_end295_4

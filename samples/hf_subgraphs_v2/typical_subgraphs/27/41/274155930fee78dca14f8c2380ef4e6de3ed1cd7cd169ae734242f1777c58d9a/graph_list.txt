@@ -1,10 +1,10 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dpn68.mx_in1k/_decomposed/dpn68.mx_in1k_start44_end57_6
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/dpn68.mx_in1k/_decomposed/dpn68.mx_in1k_start44_end57_6
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dpn68.mx_in1k/_decomposed/dpn68.mx_in1k_start105_end118_14
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dpn68.mx_in1k/_decomposed/dpn68.mx_in1k_start44_end57_6
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/dpn68.mx_in1k/_decomposed/dpn68.mx_in1k_start105_end118_14
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start58_end71_8
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start58_end71_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start460_end473_64
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start460_end473_64
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start460_end473_64
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start460_end473_64
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/dpn68.mx_in1k/_decomposed/dpn68.mx_in1k_start44_end57_6
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start175_end188_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/dpn107.mx_in1k/_decomposed/dpn107.mx_in1k_start58_end71_8

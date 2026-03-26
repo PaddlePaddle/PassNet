@@ -1,8 +1,8 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification_start140_end143_7
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224/_decomposed/facebook_deit-tiny-distilled-patch16-224_start319_end322_17
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification_start140_end143_7
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification_start140_end143_7
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40/_decomposed/Mahmoud8_mah-efficient_mlm_m0.40_start716_end719_15
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/owkin_phikon/_decomposed/owkin_phikon_start318_end321_2
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/vit_huge_patch14_224.mae/_decomposed/vit_huge_patch14_224.mae_start678_end681_9
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/monoelectra-large/_decomposed/monoelectra-large_start706_end709_11
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40/_decomposed/Mahmoud8_mah-efficient_mlm_m0.40_start716_end719_15
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/facebook_deit-tiny-distilled-patch16-224/_decomposed/facebook_deit-tiny-distilled-patch16-224_start319_end322_17
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-AlbertForSequenceClassification_start140_end143_7
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/vit_huge_patch14_224.mae/_decomposed/vit_huge_patch14_224.mae_start678_end681_9

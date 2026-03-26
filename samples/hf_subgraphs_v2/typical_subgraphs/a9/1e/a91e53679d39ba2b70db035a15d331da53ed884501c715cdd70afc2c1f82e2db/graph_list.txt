@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/ms-marco-TinyBERT-L2/_decomposed/ms-marco-TinyBERT-L2_start54_end64_7
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/transformers-auto-model/ms-marco-TinyBERT-L2/_decomposed/ms-marco-TinyBERT-L2_start54_end64_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/ms-marco-TinyBERT-L4/_decomposed/ms-marco-TinyBERT-L4_start98_end108_4
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/ms-marco-TinyBERT-L2/_decomposed/ms-marco-TinyBERT-L2_start54_end64_7
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/ms-marco-TinyBERT-L4/_decomposed/ms-marco-TinyBERT-L4_start98_end108_4
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/ms-marco-TinyBERT-L2/_decomposed/ms-marco-TinyBERT-L2_start54_end64_7
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/transformers-auto-model/ms-marco-TinyBERT-L4/_decomposed/ms-marco-TinyBERT-L4_start98_end108_4
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/ms-marco-TinyBERT-L4/_decomposed/ms-marco-TinyBERT-L4_start98_end108_4
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/transformers-auto-model/ms-marco-TinyBERT-L2/_decomposed/ms-marco-TinyBERT-L2_start54_end64_7

@@ -1,4 +1,4 @@
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start54_end57_14
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k/_decomposed/facebook_data2vec-vision-large-ft1k_start70_end73_9
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_DepthPro-hf/_decomposed/apple_DepthPro-hf_start1152_end1155_44
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_DepthPro-hf/_decomposed/apple_DepthPro-hf_start37_end40_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/apple_DepthPro-hf/_decomposed/apple_DepthPro-hf_start1152_end1155_44

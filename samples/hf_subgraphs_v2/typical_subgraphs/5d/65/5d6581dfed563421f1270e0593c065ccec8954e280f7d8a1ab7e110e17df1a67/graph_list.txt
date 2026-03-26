@@ -1,4 +1,4 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/mobileone_s1.apple_in1k/_decomposed/mobileone_s1.apple_in1k_start106_end110_11
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/mobileone_s0.apple_in1k/_decomposed/mobileone_s0.apple_in1k_start20_end24_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/mobileone_s0.apple_in1k/_decomposed/mobileone_s0.apple_in1k_start20_end24_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/mobileone_s1.apple_in1k/_decomposed/mobileone_s1.apple_in1k_start106_end110_11
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/mobileone_s0.apple_in1k/_decomposed/mobileone_s0.apple_in1k_start20_end24_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/mobileone_s1.apple_in1k/_decomposed/mobileone_s1.apple_in1k_start106_end110_11

@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/botnet26t_256.c1_in1k/_decomposed/botnet26t_256.c1_in1k_start120_end167_7
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/botnet26t_256.c1_in1k/_decomposed/botnet26t_256.c1_in1k_start120_end167_7
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/botnet26t_256.c1_in1k/_decomposed/botnet26t_256.c1_in1k_start120_end167_7

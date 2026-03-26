@@ -1,8 +1,8 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start5_end21_0
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start5_end21_0
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start39_end55_2
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start39_end55_2
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start379_end395_23
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start153_end169_9
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start39_end55_2
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start379_end395_23
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start153_end169_9
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start153_end169_9
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start379_end395_23
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start5_end21_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/regnetv_064.ra3_in1k/_decomposed/regnetv_064.ra3_in1k_start5_end21_0

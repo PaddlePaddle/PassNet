@@ -1,8 +1,8 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MBartForSequenceClassification_start25_end27_2
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/BAAI_AltCLIP/_decomposed/BAAI_AltCLIP_start22_end24_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/Aleksandar_electra-srb-ner-setimes/_decomposed/Aleksandar_electra-srb-ner-setimes_start13_end15_2
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-AltCLIPModel/_decomposed/hf-tiny-model-private_tiny-random-AltCLIPModel_start22_end24_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MBartForSequenceClassification_start25_end27_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start13_end15_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/Aleksandar_electra-srb-ner-setimes/_decomposed/Aleksandar_electra-srb-ner-setimes_start13_end15_2
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/Nextcloud-AI_opus-mt-ar-es/_decomposed/Nextcloud-AI_opus-mt-ar-es_start195_end197_25
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification_start14_end16_2
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/Aleksandar_electra-srb-ner-setimes/_decomposed/Aleksandar_electra-srb-ner-setimes_start13_end15_2
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start13_end15_2
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/Aleksandar_electra-srb-ner-setimes/_decomposed/Aleksandar_electra-srb-ner-setimes_start13_end15_2

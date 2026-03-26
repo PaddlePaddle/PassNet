@@ -1,9 +1,9 @@
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft/phi-1/_decomposed/phi-1_start26_end36_4
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft/phi-1_5/_decomposed/phi-1_5_start26_end36_4
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/microsoft/phi-1_5/_decomposed/phi-1_5_start26_end36_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start26_end36_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/4/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start26_end36_4
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start26_end36_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/8/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start26_end36_4
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start26_end36_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start26_end36_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft/phi-1_5/_decomposed/phi-1_5_start26_end36_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/microsoft/phi-1_5/_decomposed/phi-1_5_start26_end36_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start26_end36_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start26_end36_4

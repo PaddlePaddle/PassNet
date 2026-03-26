@@ -1,5 +1,5 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/google/siglip-base-patch16-224/_decomposed/siglip-base-patch16-224_start0_end10_0
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/google/siglip2-so400m-patch14-224/_decomposed/siglip2-so400m-patch14-224_start0_end10_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/google/siglip2-base-patch32-256/_decomposed/siglip2-base-patch32-256_start0_end10_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/google/siglip2-so400m-patch14-224/_decomposed/siglip2-so400m-patch14-224_start0_end10_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/google/siglip-so400m-patch14-384/_decomposed/siglip-so400m-patch14-384_start0_end10_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/google/siglip-base-patch16-224/_decomposed/siglip-base-patch16-224_start0_end10_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/google/siglip2-so400m-patch16-256/_decomposed/siglip2-so400m-patch16-256_start0_end10_0

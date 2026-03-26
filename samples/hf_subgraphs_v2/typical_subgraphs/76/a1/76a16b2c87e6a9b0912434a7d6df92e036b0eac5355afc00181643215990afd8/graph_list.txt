@@ -1,3 +1,3 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/crossvit_9_240.in1k/_decomposed/crossvit_9_240.in1k_start0_end26_0
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/crossvit_9_240.in1k/_decomposed/crossvit_9_240.in1k_start0_end26_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/crossvit_9_240.in1k/_decomposed/crossvit_9_240.in1k_start0_end26_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/crossvit_9_240.in1k/_decomposed/crossvit_9_240.in1k_start0_end26_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/crossvit_9_240.in1k/_decomposed/crossvit_9_240.in1k_start0_end26_0

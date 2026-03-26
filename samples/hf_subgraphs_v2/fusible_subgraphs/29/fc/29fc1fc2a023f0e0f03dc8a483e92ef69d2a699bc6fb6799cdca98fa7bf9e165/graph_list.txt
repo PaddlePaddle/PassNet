@@ -1,10 +1,10 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-LEDForSequenceClassification_start52_end63_9
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-LEDForSequenceClassification_start52_end63_9
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-LEDForSequenceClassification_start24_end35_3
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-LEDForSequenceClassification_start24_end35_3
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/trocr-base-handwritten/_decomposed/trocr-base-handwritten_start336_end347_16
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/facebook_xglm-564M/_decomposed/facebook_xglm-564M_start33_end44_2
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/KoboldAI_fairseq-dense-125M/_decomposed/KoboldAI_fairseq-dense-125M_start33_end44_2
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_trocr-small-printed/_decomposed/microsoft_trocr-small-printed_start362_end373_10
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/microsoft_trocr-small-printed/_decomposed/microsoft_trocr-small-printed_start362_end373_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/facebook_xglm-564M/_decomposed/facebook_xglm-564M_start33_end44_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/trocr-base-handwritten/_decomposed/trocr-base-handwritten_start336_end347_16
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/trocr-base-handwritten/_decomposed/trocr-base-handwritten_start361_end372_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/microsoft_trocr-small-printed/_decomposed/microsoft_trocr-small-printed_start362_end373_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-LEDForSequenceClassification_start52_end63_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-LEDForSequenceClassification_start24_end35_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-LEDForSequenceClassification_start24_end35_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-LEDForSequenceClassification_start52_end63_9

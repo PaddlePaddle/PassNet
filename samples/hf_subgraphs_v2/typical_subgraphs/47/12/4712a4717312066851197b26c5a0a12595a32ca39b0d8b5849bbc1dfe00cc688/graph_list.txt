@@ -1,2 +1,2 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/resnetrs101.tf_in1k/_decomposed/resnetrs101.tf_in1k_start20_end26_3
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/3/samples/timm/resnetrs101.tf_in1k/_decomposed/resnetrs101.tf_in1k_start20_end26_3
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/timm/resnetrs101.tf_in1k/_decomposed/resnetrs101.tf_in1k_start20_end26_3

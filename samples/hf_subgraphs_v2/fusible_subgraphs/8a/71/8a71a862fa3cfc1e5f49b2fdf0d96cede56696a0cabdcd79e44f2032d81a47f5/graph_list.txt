@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1/_decomposed/mmarco-mMiniLMv2-L12-H384-v1_start291_end293_5
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1/_decomposed/mmarco-mMiniLMv2-L12-H384-v1_start291_end293_5
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1/_decomposed/mmarco-mMiniLMv2-L12-H384-v1_start291_end293_5
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1/_decomposed/mmarco-mMiniLMv2-L12-H384-v1_start291_end293_5
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1/_decomposed/mmarco-mMiniLMv2-L12-H384-v1_start291_end293_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1/_decomposed/mmarco-mMiniLMv2-L12-H384-v1_start291_end293_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1/_decomposed/mmarco-mMiniLMv2-L12-H384-v1_start291_end293_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1/_decomposed/mmarco-mMiniLMv2-L12-H384-v1_start291_end293_5
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1/_decomposed/mmarco-mMiniLMv2-L12-H384-v1_start291_end293_5

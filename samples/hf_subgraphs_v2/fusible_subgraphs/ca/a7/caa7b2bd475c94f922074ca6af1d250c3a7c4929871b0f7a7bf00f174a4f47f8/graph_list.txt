@@ -1,3 +1,3 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start0_end13_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/ibombonato_swin-age-classifier/_decomposed/ibombonato_swin-age-classifier_start0_end13_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/microsoft_swin-large-patch4-window12-384-in22k/_decomposed/microsoft_swin-large-patch4-window12-384-in22k_start0_end13_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224/_decomposed/yujiepan_tiny-random-swin-patch4-window7-224_start0_end13_0

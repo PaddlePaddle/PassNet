@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K/_decomposed/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K_start1_end10_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K/_decomposed/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K_start1_end10_0
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K/_decomposed/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K_start1_end10_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K/_decomposed/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K_start1_end10_0
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K/_decomposed/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K_start1_end10_0
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/OFA-Sys_chinese-clip-vit-huge-patch14/_decomposed/OFA-Sys_chinese-clip-vit-huge-patch14_start1_end10_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K/_decomposed/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K_start1_end10_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K/_decomposed/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K_start1_end10_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K/_decomposed/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K_start1_end10_0

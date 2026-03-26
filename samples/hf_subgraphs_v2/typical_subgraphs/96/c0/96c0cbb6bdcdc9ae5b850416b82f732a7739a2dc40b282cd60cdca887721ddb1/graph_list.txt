@@ -1,6 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/timm/xception41p.ra3_in1k/_decomposed/xception41p.ra3_in1k_start173_end181_12
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/timm/xception41p.ra3_in1k/_decomposed/xception41p.ra3_in1k_start173_end181_12
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/xception41p.ra3_in1k/_decomposed/xception41p.ra3_in1k_start173_end181_12
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/timm/xception41p.ra3_in1k/_decomposed/xception41p.ra3_in1k_start173_end181_12
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/timm/xception41p.ra3_in1k/_decomposed/xception41p.ra3_in1k_start173_end181_12
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/timm/xception41p.ra3_in1k/_decomposed/xception41p.ra3_in1k_start173_end181_12
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/xception41p.ra3_in1k/_decomposed/xception41p.ra3_in1k_start173_end181_12
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/timm/xception41p.ra3_in1k/_decomposed/xception41p.ra3_in1k_start173_end181_12
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/timm/xception41p.ra3_in1k/_decomposed/xception41p.ra3_in1k_start173_end181_12

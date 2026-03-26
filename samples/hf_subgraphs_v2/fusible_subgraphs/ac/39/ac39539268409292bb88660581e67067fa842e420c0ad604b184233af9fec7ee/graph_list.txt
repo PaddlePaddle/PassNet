@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start13_end42_2
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/microsoft_beit-base-patch16-384/_decomposed/microsoft_beit-base-patch16-384_start23_end52_2
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/microsoft_beit-base-patch16-384/_decomposed/microsoft_beit-base-patch16-384_start23_end52_2
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/transformers-auto-model/microsoft_beit-large-patch16-512/_decomposed/microsoft_beit-large-patch16-512_start1541_end1570_29
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/transformers-auto-model/microsoft_beit-large-patch16-512/_decomposed/microsoft_beit-large-patch16-512_start1541_end1570_29
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start13_end42_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/microsoft_beit-base-patch16-384/_decomposed/microsoft_beit-base-patch16-384_start23_end52_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/microsoft_beit-base-patch16-384/_decomposed/microsoft_beit-base-patch16-384_start23_end52_2
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/microsoft_beit-large-patch16-512/_decomposed/microsoft_beit-large-patch16-512_start1541_end1570_29

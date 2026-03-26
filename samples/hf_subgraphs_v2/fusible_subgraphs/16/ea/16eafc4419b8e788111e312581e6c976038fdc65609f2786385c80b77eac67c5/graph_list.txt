@@ -1,5 +1,5 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/opus-mt-am-sv/_decomposed/opus-mt-am-sv_start235_end242_20
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/opus-mt-af-es/_decomposed/opus-mt-af-es_start235_end242_20
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/opus-mt-bg-es/_decomposed/opus-mt-bg-es_start235_end242_20
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/opus-mt-am-sv/_decomposed/opus-mt-am-sv_start235_end242_20
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/opus-mt-tc-bible-big-gmw-en/_decomposed/opus-mt-tc-bible-big-gmw-en_start235_end242_20
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/opus-mt-tc-bible-big-gmw-en/_decomposed/opus-mt-tc-bible-big-gmw-en_start235_end242_20

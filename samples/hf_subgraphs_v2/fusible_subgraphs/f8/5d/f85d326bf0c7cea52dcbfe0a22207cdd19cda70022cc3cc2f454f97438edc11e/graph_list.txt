@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/RMBG-1.4/_decomposed/RMBG-1.4_start242_end244_4
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/transformers-auto-model/RMBG-1.4/_decomposed/RMBG-1.4_start242_end244_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/RMBG-1.4/_decomposed/RMBG-1.4_start242_end244_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/transformers-auto-model/RMBG-1.4/_decomposed/RMBG-1.4_start242_end244_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/transformers-auto-model/RMBG-1.4/_decomposed/RMBG-1.4_start242_end244_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/RMBG-1.4/_decomposed/RMBG-1.4_start242_end244_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/6/samples/transformers-auto-model/RMBG-1.4/_decomposed/RMBG-1.4_start242_end244_4
 graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/transformers-auto-model/RMBG-1.4/_decomposed/RMBG-1.4_start242_end244_4
-graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/transformers-auto-model/RMBG-1.4/_decomposed/RMBG-1.4_start242_end244_4

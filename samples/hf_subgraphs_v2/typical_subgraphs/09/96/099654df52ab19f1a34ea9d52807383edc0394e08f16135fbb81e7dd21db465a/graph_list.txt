@@ -1,8 +1,8 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/transformers-auto-model/microsoft_beit-large-patch16-384/_decomposed/microsoft_beit-large-patch16-384_start0_end7_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/transformers-auto-model/microsoft_beit-base-patch16-384/_decomposed/microsoft_beit-base-patch16-384_start0_end7_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k/_decomposed/facebook_data2vec-vision-large-ft1k_start0_end7_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k/_decomposed/facebook_data2vec-vision-large-ft1k_start0_end7_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/microsoft_beit-large-patch16-384/_decomposed/microsoft_beit-large-patch16-384_start0_end7_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k/_decomposed/facebook_data2vec-vision-large-ft1k_start0_end7_0
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start0_end7_0
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start0_end7_0
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k/_decomposed/facebook_data2vec-vision-large-ft1k_start0_end7_0
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k/_decomposed/facebook_data2vec-vision-large-ft1k_start0_end7_0
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/facebook_data2vec-vision-large-ft1k/_decomposed/facebook_data2vec-vision-large-ft1k_start0_end7_0
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/transformers-auto-model/microsoft_beit-large-patch16-384/_decomposed/microsoft_beit-large-patch16-384_start0_end7_0
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/microsoft_beit-large-patch16-384/_decomposed/microsoft_beit-large-patch16-384_start0_end7_0
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/transformers-auto-model/microsoft_beit-base-patch16-384/_decomposed/microsoft_beit-base-patch16-384_start0_end7_0

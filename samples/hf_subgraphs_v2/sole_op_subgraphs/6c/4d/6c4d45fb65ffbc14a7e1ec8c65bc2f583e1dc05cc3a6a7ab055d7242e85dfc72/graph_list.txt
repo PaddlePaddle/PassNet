@@ -1,5 +1,5 @@
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/timm/swinv2_cr_small_224.sw_in1k/_decomposed/swinv2_cr_small_224.sw_in1k_start1026_end1027_1026
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/SegNeXt-b/_decomposed/SegNeXt-b_start845_end846_845
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/Segmenter-b/_decomposed/Segmenter-b_start261_end262_261
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/bge-base-en-v1.5/_decomposed/bge-base-en-v1.5_start286_end287_286
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/EMANet_R101/_decomposed/EMANet_R101_start356_end357_356
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/bge-base-en-v1.5/_decomposed/bge-base-en-v1.5_start286_end287_286

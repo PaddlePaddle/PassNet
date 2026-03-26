@@ -1,3 +1,3 @@
 graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter/_decomposed/neuralbioinfo_prokbert-mini-c-promoter_start20_end29_3
-graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter/_decomposed/neuralbioinfo_prokbert-mini-c-promoter_start20_end29_3
 graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter/_decomposed/neuralbioinfo_prokbert-mini-c-promoter_start20_end29_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/neuralbioinfo_prokbert-mini-c-promoter/_decomposed/neuralbioinfo_prokbert-mini-c-promoter_start20_end29_3

@@ -1,5 +1,5 @@
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1053_end1054_1053
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/all-mpnet-base-v2/_decomposed/all-mpnet-base-v2_start22_end23_22
-graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/nemo/parakeet-ctc-0.6b/_decomposed/parakeet-ctc-0.6b_start37_end38_37
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64/_decomposed/ARTeLab_it5-summarization-fanpage-64_start42_end43_42
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/all-mpnet-base-v2/_decomposed/all-mpnet-base-v2_start22_end23_22
 graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start131_end132_131
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/nemo/parakeet-ctc-0.6b/_decomposed/parakeet-ctc-0.6b_start37_end38_37
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1053_end1054_1053

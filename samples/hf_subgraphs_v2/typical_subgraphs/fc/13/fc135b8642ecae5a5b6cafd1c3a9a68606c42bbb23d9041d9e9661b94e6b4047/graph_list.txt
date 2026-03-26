@@ -1,6 +1,6 @@
-graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/regnetz_b16.ra3_in1k/_decomposed/regnetz_b16.ra3_in1k_start111_end118_7
-graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/regnetz_b16.ra3_in1k/_decomposed/regnetz_b16.ra3_in1k_start111_end118_7
 graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/timm/regnetz_b16.ra3_in1k/_decomposed/regnetz_b16.ra3_in1k_start111_end118_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/timm/regnetz_b16.ra3_in1k/_decomposed/regnetz_b16.ra3_in1k_start111_end118_7
 graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/timm/regnetz_b16.ra3_in1k/_decomposed/regnetz_b16.ra3_in1k_start111_end118_7
 graphs/hf_subgraphs_v2/typical_subgraphs/float16/6/samples/timm/regnetz_b16.ra3_in1k/_decomposed/regnetz_b16.ra3_in1k_start111_end118_7
-graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/timm/regnetz_b16.ra3_in1k/_decomposed/regnetz_b16.ra3_in1k_start111_end118_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/regnetz_b16.ra3_in1k/_decomposed/regnetz_b16.ra3_in1k_start111_end118_7
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/timm/regnetz_b16.ra3_in1k/_decomposed/regnetz_b16.ra3_in1k_start111_end118_7
