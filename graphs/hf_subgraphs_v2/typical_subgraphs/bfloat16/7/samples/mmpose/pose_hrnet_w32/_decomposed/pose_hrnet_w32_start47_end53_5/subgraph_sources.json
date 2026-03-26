@@ -1,0 +1,62 @@
+{
+    "samples/mmpose/pose_hrnet_w32": [
+        [
+            47,
+            53
+        ]
+    ],
+    "samples/mmpose/pose_hrnetv2_w18_dark": [
+        [
+            47,
+            53
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18": [
+        [
+            47,
+            53
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18-Small": [
+        [
+            27,
+            33
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            47,
+            53
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            27,
+            33
+        ]
+    ],
+    "samples/timm/hrnet_w18.ms_aug_in1k": [
+        [
+            47,
+            53
+        ]
+    ],
+    "samples/timm/hrnet_w18_small.gluon_in1k": [
+        [
+            17,
+            23
+        ]
+    ],
+    "samples/timm/hrnet_w18_small_v2.gluon_in1k": [
+        [
+            27,
+            33
+        ]
+    ],
+    "samples/timm/hrnet_w18_ssld.paddle_in1k": [
+        [
+            47,
+            53
+        ]
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            50,
+            56
+        ],
+        [
+            59,
+            65
+        ]
+    ],
+    "samples/timm/hardcorenas_c.miil_green_in1k": [
+        [
+            41,
+            47
+        ],
+        [
+            50,
+            56
+        ],
+        [
+            59,
+            65
+        ]
+    ],
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            44,
+            50
+        ],
+        [
+            53,
+            59
+        ]
+    ]
+}

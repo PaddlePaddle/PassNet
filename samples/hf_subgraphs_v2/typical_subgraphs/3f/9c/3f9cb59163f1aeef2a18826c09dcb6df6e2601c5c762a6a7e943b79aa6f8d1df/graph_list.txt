@@ -1,0 +1,9 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/transformers-auto-model/ms-marco-MiniLM-L12-v2/_decomposed/ms-marco-MiniLM-L12-v2_start279_end284_1
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/transformers-auto-model/ms-marco-MiniLM-L12-v2/_decomposed/ms-marco-MiniLM-L12-v2_start279_end284_1
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/transformers-auto-model/ms-marco-MiniLM-L12-v2/_decomposed/ms-marco-MiniLM-L12-v2_start279_end284_1
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/transformers-auto-model/ms-marco-MiniLM-L12-v2/_decomposed/ms-marco-MiniLM-L12-v2_start279_end284_1
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/ms-marco-MiniLM-L12-v2/_decomposed/ms-marco-MiniLM-L12-v2_start279_end284_1
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/transformers-auto-model/ms-marco-MiniLM-L12-v2/_decomposed/ms-marco-MiniLM-L12-v2_start279_end284_1
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/transformers-auto-model/ms-marco-MiniLM-L12-v2/_decomposed/ms-marco-MiniLM-L12-v2_start279_end284_1
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/transformers-auto-model/ms-marco-MiniLM-L12-v2/_decomposed/ms-marco-MiniLM-L12-v2_start279_end284_1
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/transformers-auto-model/ms-marco-MiniLM-L12-v2/_decomposed/ms-marco-MiniLM-L12-v2_start279_end284_1

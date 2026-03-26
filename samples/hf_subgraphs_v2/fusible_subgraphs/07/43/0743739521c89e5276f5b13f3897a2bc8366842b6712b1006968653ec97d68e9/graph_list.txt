@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/microsoft/phi-1_5/_decomposed/phi-1_5_start26_end36_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start26_end36_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/microsoft/phi-2/_decomposed/phi-2_start26_end36_4

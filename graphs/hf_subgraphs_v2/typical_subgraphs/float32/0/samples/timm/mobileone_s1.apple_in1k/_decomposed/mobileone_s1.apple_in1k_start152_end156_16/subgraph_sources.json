@@ -1,0 +1,58 @@
+{
+    "samples/timm/mobileone_s1.apple_in1k": [
+        [
+            16,
+            20
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            152,
+            156
+        ]
+    ],
+    "samples/timm/mobileone_s2.apple_in1k": [
+        [
+            16,
+            20
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            152,
+            156
+        ]
+    ],
+    "samples/timm/mobileone_s3.apple_in1k": [
+        [
+            16,
+            20
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            152,
+            156
+        ]
+    ],
+    "samples/timm/mobileone_s4.apple_in1k": [
+        [
+            16,
+            20
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            152,
+            156
+        ]
+    ]
+}

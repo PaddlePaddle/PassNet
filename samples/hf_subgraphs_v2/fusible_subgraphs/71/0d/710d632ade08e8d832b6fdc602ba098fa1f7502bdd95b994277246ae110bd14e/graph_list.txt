@@ -1,0 +1,12 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/transformers-auto-model/Aleksandar_distilbert-srb-ner-setimes/_decomposed/Aleksandar_distilbert-srb-ner-setimes_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/debabrata-ai_NepNER/_decomposed/debabrata-ai_NepNER_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/transformers-auto-model/Aleksandar_distilbert-srb-ner-setimes/_decomposed/Aleksandar_distilbert-srb-ner-setimes_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/transformers-auto-model/Aleksandar_distilbert-srb-ner-setimes/_decomposed/Aleksandar_distilbert-srb-ner-setimes_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/transformers-auto-model/Aleksandar_distilbert-srb-ner-setimes/_decomposed/Aleksandar_distilbert-srb-ner-setimes_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/Aleksandar_distilbert-srb-ner-setimes/_decomposed/Aleksandar_distilbert-srb-ner-setimes_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/medicalai_ClinicalBERT/_decomposed/medicalai_ClinicalBERT_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/Geotrend_distilbert-base-da-cased/_decomposed/Geotrend_distilbert-base-da-cased_start0_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/transformers-auto-model/Aleksandar_distilbert-srb-ner-setimes/_decomposed/Aleksandar_distilbert-srb-ner-setimes_start0_end8_0

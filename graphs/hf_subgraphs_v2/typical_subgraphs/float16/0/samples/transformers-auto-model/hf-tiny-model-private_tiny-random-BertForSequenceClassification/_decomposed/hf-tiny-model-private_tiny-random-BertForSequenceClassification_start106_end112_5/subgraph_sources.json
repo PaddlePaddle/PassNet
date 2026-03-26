@@ -1,0 +1,90 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification": [
+        [
+            106,
+            112
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification": [
+        [
+            111,
+            117
+        ],
+        [
+            140,
+            146
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification": [
+        [
+            38,
+            44
+        ],
+        [
+            60,
+            66
+        ],
+        [
+            82,
+            88
+        ],
+        [
+            104,
+            110
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification": [
+        [
+            103,
+            109
+        ],
+        [
+            132,
+            138
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieForSequenceClassification": [
+        [
+            102,
+            108
+        ],
+        [
+            131,
+            137
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-NystromformerForSequenceClassification": [
+        [
+            46,
+            52
+        ],
+        [
+            77,
+            83
+        ],
+        [
+            108,
+            114
+        ],
+        [
+            139,
+            145
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaForSequenceClassification": [
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaPreLayerNormForSequenceClassification": [
+        [
+            112,
+            118
+        ],
+        [
+            141,
+            147
+        ]
+    ]
+}

@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/ultralytics/yolo12l-cls/_decomposed/yolo12l-cls_start753_end759_20
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/ultralytics/yolo12l-cls/_decomposed/yolo12l-cls_start753_end759_20

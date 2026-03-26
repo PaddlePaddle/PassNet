@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/binery_Table_detection_MS_E_14": [
+        [
+            489,
+            497
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-detection": [
+        [
+            490,
+            498
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            927,
+            935
+        ]
+    ]
+}

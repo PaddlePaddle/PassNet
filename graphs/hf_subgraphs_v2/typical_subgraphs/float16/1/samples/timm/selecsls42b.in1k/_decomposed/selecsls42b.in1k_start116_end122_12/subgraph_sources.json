@@ -1,0 +1,14 @@
+{
+    "samples/timm/selecsls42b.in1k": [
+        [
+            116,
+            122
+        ]
+    ],
+    "samples/timm/selecsls60.in1k": [
+        [
+            173,
+            179
+        ]
+    ]
+}

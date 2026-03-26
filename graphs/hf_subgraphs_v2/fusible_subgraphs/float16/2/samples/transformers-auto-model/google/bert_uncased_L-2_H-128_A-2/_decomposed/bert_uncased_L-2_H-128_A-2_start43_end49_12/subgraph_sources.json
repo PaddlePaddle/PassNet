@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-128_A-2": [
+        [
+            43,
+            49
+        ]
+    ],
+    "samples/transformers-auto-model/prajjwal1_bert-tiny": [
+        [
+            43,
+            49
+        ]
+    ]
+}

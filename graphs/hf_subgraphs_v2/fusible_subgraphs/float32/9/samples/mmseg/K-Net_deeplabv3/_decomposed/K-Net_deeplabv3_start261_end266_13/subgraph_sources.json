@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            261,
+            266
+        ]
+    ],
+    "samples/mmseg/K-Net_fcn": [
+        [
+            250,
+            255
+        ]
+    ]
+}

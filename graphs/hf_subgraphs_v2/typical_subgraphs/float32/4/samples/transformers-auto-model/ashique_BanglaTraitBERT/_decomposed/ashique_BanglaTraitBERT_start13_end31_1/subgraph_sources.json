@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/ashique_BanglaTraitBERT": [
+        [
+            13,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/dbmdz_electra-large-discriminator-finetuned-conll03-english": [
+        [
+            13,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/monoelectra-large": [
+        [
+            13,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/paulkm_autotrain-lottery_v2-2420075389": [
+        [
+            13,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/satyaalmasian_temporal_tagger_German_GELECTRA": [
+        [
+            13,
+            31
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/timm/repvit_m1_1.dist_300e_in1k": [
+        [
+            313,
+            323
+        ]
+    ],
+    "samples/timm/repvit_m1_5.dist_300e_in1k": [
+        [
+            553,
+            563
+        ]
+    ]
+}

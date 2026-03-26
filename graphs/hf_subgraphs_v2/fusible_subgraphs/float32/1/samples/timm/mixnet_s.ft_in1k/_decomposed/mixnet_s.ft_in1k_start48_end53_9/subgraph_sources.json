@@ -1,0 +1,8 @@
+{
+    "samples/timm/mixnet_s.ft_in1k": [
+        [
+            48,
+            53
+        ]
+    ]
+}

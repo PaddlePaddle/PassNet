@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/google_vit-base-patch32-224-in21k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_vit-base-patch32-384": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_vit-large-patch32-224-in21k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_vit-large-patch32-384": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_vit_base_patch32_224_in21k": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/google_vit_large_patch32_224_in21k": [
+        [
+            1,
+            2
+        ]
+    ]
+}

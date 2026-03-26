@@ -1,0 +1,110 @@
+{
+    "samples/mmseg/K-Net_deeplabv3": [
+        [
+            211,
+            212
+        ],
+        [
+            273,
+            274
+        ],
+        [
+            335,
+            336
+        ]
+    ],
+    "samples/mmseg/K-Net_fcn": [
+        [
+            200,
+            201
+        ],
+        [
+            262,
+            263
+        ],
+        [
+            324,
+            325
+        ]
+    ],
+    "samples/mmseg/K-Net_pspnet": [
+        [
+            214,
+            215
+        ],
+        [
+            276,
+            277
+        ],
+        [
+            338,
+            339
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            1582,
+            1583
+        ],
+        [
+            1644,
+            1645
+        ],
+        [
+            1706,
+            1707
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            844,
+            845
+        ],
+        [
+            906,
+            907
+        ],
+        [
+            968,
+            969
+        ]
+    ],
+    "samples/mmseg/K-Net_upernet": [
+        [
+            245,
+            246
+        ],
+        [
+            307,
+            308
+        ],
+        [
+            369,
+            370
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-1B-patch14-224": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-huge-patch14-224": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-224": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/apple_aimv2-large-patch14-224-lit": [
+        [
+            12,
+            13
+        ]
+    ]
+}

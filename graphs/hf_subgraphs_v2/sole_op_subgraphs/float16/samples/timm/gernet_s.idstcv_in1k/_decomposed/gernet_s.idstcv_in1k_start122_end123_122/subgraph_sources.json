@@ -1,0 +1,20 @@
+{
+    "samples/timm/gernet_s.idstcv_in1k": [
+        [
+            122,
+            123
+        ]
+    ],
+    "samples/timm/rexnet_200.nav_in1k": [
+        [
+            190,
+            191
+        ]
+    ],
+    "samples/timm/rexnetr_200.sw_in12k": [
+        [
+            190,
+            191
+        ]
+    ]
+}

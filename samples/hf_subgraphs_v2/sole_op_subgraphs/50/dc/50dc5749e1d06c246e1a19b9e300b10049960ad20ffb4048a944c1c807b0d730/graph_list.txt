@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmseg/DNLNet_R101/_decomposed/DNLNet_R101_start360_end361_360
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmseg/DNLNet_R101/_decomposed/DNLNet_R101_start360_end361_360

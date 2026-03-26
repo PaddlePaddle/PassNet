@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/1/samples/mmpose/pose_cspnext_s/_decomposed/pose_cspnext_s_start26_end33_0

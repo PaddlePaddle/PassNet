@@ -1,0 +1,102 @@
+{
+    "samples/torchaudio/hubert_base": [
+        [
+            43,
+            45
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            257,
+            259
+        ],
+        [
+            303,
+            305
+        ]
+    ],
+    "samples/torchaudio/squim_subjective": [
+        [
+            304,
+            306
+        ]
+    ],
+    "samples/transformers-auto-model/907508196l_wavlm-libri-clean-100h-base-plus-finetuned-ks": [
+        [
+            450,
+            452
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-125M": [
+        [
+            472,
+            474
+        ]
+    ],
+    "samples/transformers-auto-model/Rajaram1996_Hubert_emotion": [
+        [
+            252,
+            254
+        ],
+        [
+            375,
+            377
+        ]
+    ],
+    "samples/transformers-auto-model/echarlaix_bart-base-cnn-r2-18.7-d23-hybrid": [
+        [
+            43,
+            45
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            94,
+            96
+        ],
+        [
+            116,
+            118
+        ],
+        [
+            123,
+            125
+        ],
+        [
+            145,
+            147
+        ],
+        [
+            327,
+            329
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_wav2vec2-base-960h": [
+        [
+            375,
+            377
+        ]
+    ],
+    "samples/transformers-auto-model/moussaKam_barthez-orangesum-abstract": [
+        [
+            328,
+            330
+        ]
+    ],
+    "samples/transformers-auto-model/ncoop57_bart-base-code-summarizer-java-v0": [
+        [
+            327,
+            329
+        ]
+    ],
+    "samples/transformers-auto-model/optimum_hubert-base-superb-ks": [
+        [
+            375,
+            377
+        ]
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "samples/timm/regnetx_008.pycls_in1k": [
+        [
+            134,
+            135
+        ],
+        [
+            144,
+            145
+        ],
+        [
+            154,
+            155
+        ],
+        [
+            164,
+            165
+        ]
+    ],
+    "samples/timm/rexnet_130.nav_in1k": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/torchvision/regnet_x_800mf": [
+        [
+            134,
+            135
+        ],
+        [
+            144,
+            145
+        ],
+        [
+            154,
+            155
+        ],
+        [
+            164,
+            165
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_regnet-x-008": [
+        [
+            218,
+            219
+        ],
+        [
+            234,
+            235
+        ],
+        [
+            250,
+            251
+        ],
+        [
+            266,
+            267
+        ]
+    ]
+}

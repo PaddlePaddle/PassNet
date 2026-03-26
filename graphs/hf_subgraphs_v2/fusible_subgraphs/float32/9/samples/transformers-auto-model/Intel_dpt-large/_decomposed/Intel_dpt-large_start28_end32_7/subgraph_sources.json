@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/Intel_dpt-large": [
+        [
+            28,
+            32
+        ],
+        [
+            54,
+            58
+        ]
+    ]
+}

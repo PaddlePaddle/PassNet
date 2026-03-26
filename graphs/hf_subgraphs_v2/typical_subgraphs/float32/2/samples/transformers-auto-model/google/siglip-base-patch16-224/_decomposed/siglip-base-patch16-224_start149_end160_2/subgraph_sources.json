@@ -1,0 +1,54 @@
+{
+    "samples/transformers-auto-model/google/siglip-base-patch16-224": [
+        [
+            74,
+            85
+        ],
+        [
+            149,
+            160
+        ],
+        [
+            224,
+            235
+        ],
+        [
+            392,
+            403
+        ],
+        [
+            467,
+            478
+        ],
+        [
+            542,
+            553
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-224": [
+        [
+            74,
+            85
+        ],
+        [
+            149,
+            160
+        ],
+        [
+            224,
+            235
+        ],
+        [
+            392,
+            403
+        ],
+        [
+            467,
+            478
+        ],
+        [
+            542,
+            553
+        ]
+    ]
+}

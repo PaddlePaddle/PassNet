@@ -1,0 +1,4 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/bat_resnext26ts.ch_in1k/_decomposed/bat_resnext26ts.ch_in1k_start100_end101_100
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/timm/bat_resnext26ts.ch_in1k/_decomposed/bat_resnext26ts.ch_in1k_start100_end101_100
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmseg/ANN_R101/_decomposed/ANN_R101_start393_end394_393
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmseg/ANN_R101/_decomposed/ANN_R101_start393_end394_393

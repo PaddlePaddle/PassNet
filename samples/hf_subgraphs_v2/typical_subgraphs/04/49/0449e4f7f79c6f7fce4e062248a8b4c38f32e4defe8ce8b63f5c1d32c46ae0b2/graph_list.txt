@@ -1,0 +1,10 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start38_end57_4
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start38_end57_4
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start13_end32_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel/_decomposed/hf-tiny-model-private_tiny-random-BeitModel_start13_end32_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/facebook_data2vec-vision-base/_decomposed/facebook_data2vec-vision-base_start780_end799_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/transformers-auto-model/facebook_data2vec-vision-base/_decomposed/facebook_data2vec-vision-base_start780_end799_24
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/facebook_data2vec-vision-base/_decomposed/facebook_data2vec-vision-base_start780_end799_24
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/facebook_data2vec-vision-large/_decomposed/facebook_data2vec-vision-large_start1572_end1591_48
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/facebook_data2vec-vision-large/_decomposed/facebook_data2vec-vision-large_start1572_end1591_48
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/facebook_data2vec-vision-large/_decomposed/facebook_data2vec-vision-large_start1572_end1591_48

@@ -1,0 +1,62 @@
+{
+    "samples/mmpose/2xmspn_50": [
+        [
+            39,
+            41
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R18": [
+        [
+            99,
+            101
+        ]
+    ],
+    "samples/mmseg/BiSeNetV2": [
+        [
+            6,
+            8
+        ],
+        [
+            30,
+            32
+        ]
+    ],
+    "samples/mmseg/DDRNet-slim": [
+        [
+            68,
+            70
+        ],
+        [
+            131,
+            133
+        ]
+    ],
+    "samples/mmseg/ICNet_R101": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/timm/dla60_res2net": [
+        [
+            26,
+            28
+        ],
+        [
+            81,
+            83
+        ]
+    ],
+    "samples/timm/mobilenet_edgetpu_v2_m.ra4_e3600_r224_in1k": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/timm/res2net50_14w_8s.in1k": [
+        [
+            157,
+            159
+        ]
+    ]
+}

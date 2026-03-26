@@ -1,0 +1,22 @@
+{
+    "samples/timm/focalnet_small_lrf.ms_in1k": [
+        [
+            8,
+            9
+        ],
+        [
+            50,
+            51
+        ]
+    ],
+    "samples/timm/focalnet_tiny_lrf.ms_in1k": [
+        [
+            8,
+            9
+        ],
+        [
+            50,
+            51
+        ]
+    ]
+}

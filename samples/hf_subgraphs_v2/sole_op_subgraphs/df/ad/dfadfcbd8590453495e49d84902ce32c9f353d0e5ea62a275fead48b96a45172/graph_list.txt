@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/nemo/parakeet-ctc-0.6b/_decomposed/parakeet-ctc-0.6b_start1021_end1022_1021
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/JUNGWJ_w2v2c_ko_emotion/_decomposed/JUNGWJ_w2v2c_ko_emotion_start160_end161_160

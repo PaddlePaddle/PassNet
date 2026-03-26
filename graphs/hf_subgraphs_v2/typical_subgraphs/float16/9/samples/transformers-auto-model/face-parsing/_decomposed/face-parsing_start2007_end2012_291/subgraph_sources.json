@@ -1,0 +1,110 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            2007,
+            2012
+        ],
+        [
+            2041,
+            2046
+        ],
+        [
+            2075,
+            2080
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            287,
+            292
+        ],
+        [
+            321,
+            326
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b2": [
+        [
+            567,
+            572
+        ],
+        [
+            601,
+            606
+        ],
+        [
+            635,
+            640
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b3": [
+        [
+            1047,
+            1052
+        ],
+        [
+            1081,
+            1086
+        ],
+        [
+            1115,
+            1120
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b4": [
+        [
+            1567,
+            1572
+        ],
+        [
+            1601,
+            1606
+        ],
+        [
+            1635,
+            1640
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b5": [
+        [
+            2007,
+            2012
+        ],
+        [
+            2041,
+            2046
+        ],
+        [
+            2075,
+            2080
+        ]
+    ],
+    "samples/transformers-auto-model/segformer_b2_clothes": [
+        [
+            567,
+            572
+        ],
+        [
+            601,
+            606
+        ],
+        [
+            635,
+            640
+        ]
+    ],
+    "samples/transformers-auto-model/vinvino02_glpn-nyu": [
+        [
+            1567,
+            1572
+        ],
+        [
+            1601,
+            1606
+        ],
+        [
+            1635,
+            1640
+        ]
+    ]
+}

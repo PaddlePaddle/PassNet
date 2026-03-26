@@ -1,0 +1,44 @@
+{
+    "samples/timm/resnetrs101.tf_in1k": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/timm/resnetrs152.tf_in1k": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/timm/resnetrs200.tf_in1k": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/timm/resnetrs270.tf_in1k": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/timm/resnetrs350.tf_in1k": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/timm/resnetrs420.tf_in1k": [
+        [
+            8,
+            14
+        ]
+    ],
+    "samples/timm/resnetrs50.tf_in1k": [
+        [
+            8,
+            14
+        ]
+    ]
+}

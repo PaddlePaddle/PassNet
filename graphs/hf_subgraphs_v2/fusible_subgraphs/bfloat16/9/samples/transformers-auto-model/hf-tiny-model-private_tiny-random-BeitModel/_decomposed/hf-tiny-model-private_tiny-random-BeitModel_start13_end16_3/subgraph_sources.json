@@ -1,0 +1,128 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BeitModel": [
+        [
+            7,
+            10
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            88,
+            91
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification": [
+        [
+            81,
+            84
+        ],
+        [
+            84,
+            87
+        ],
+        [
+            87,
+            90
+        ],
+        [
+            106,
+            109
+        ],
+        [
+            109,
+            112
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DPTModel": [
+        [
+            22,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification": [
+        [
+            24,
+            27
+        ],
+        [
+            53,
+            56
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecVisionModel": [
+        [
+            88,
+            91
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel": [
+        [
+            15,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification": [
+        [
+            19,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ElectraForSequenceClassification": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieForSequenceClassification": [
+        [
+            15,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-FlaubertForSequenceClassification": [
+        [
+            25,
+            28
+        ],
+        [
+            62,
+            65
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-NystromformerForSequenceClassification": [
+        [
+            18,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RemBertForSequenceClassification": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaForSequenceClassification": [
+        [
+            96,
+            99
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ViTModel": [
+        [
+            14,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosModel": [
+        [
+            37,
+            40
+        ]
+    ]
+}

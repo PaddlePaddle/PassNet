@@ -1,0 +1,12 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start326_end340_39
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start326_end340_39

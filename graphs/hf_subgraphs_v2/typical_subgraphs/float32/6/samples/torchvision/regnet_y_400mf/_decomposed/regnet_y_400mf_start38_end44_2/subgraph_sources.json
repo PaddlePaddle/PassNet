@@ -1,0 +1,12 @@
+{
+    "samples/torchvision/regnet_y_400mf": [
+        [
+            38,
+            44
+        ],
+        [
+            54,
+            60
+        ]
+    ]
+}

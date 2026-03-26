@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google_electra-base-discriminator": [
+        [
+            13,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/nghuyong_ernie-2.0-base-en": [
+        [
+            13,
+            31
+        ]
+    ]
+}

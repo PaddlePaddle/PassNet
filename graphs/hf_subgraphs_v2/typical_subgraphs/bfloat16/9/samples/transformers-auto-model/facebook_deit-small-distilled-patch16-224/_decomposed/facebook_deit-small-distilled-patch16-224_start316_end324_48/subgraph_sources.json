@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224": [
+        [
+            316,
+            324
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dino-vits8": [
+        [
+            315,
+            323
+        ]
+    ],
+    "samples/transformers-auto-model/hustvl_yolos-small": [
+        [
+            360,
+            368
+        ]
+    ],
+    "samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection": [
+        [
+            360,
+            368
+        ]
+    ]
+}

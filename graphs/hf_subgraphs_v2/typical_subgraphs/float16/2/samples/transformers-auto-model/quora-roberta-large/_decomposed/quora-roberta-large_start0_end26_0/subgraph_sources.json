@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/quora-roberta-large": [
+        [
+            0,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-roberta-large-v1": [
+        [
+            0,
+            26
+        ]
+    ]
+}

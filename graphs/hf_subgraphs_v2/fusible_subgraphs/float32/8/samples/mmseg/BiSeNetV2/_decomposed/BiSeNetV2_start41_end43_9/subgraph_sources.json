@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/BiSeNetV2": [
+        [
+            41,
+            43
+        ]
+    ],
+    "samples/timm/regnetx_080.pycls_in1k": [
+        [
+            232,
+            234
+        ]
+    ]
+}

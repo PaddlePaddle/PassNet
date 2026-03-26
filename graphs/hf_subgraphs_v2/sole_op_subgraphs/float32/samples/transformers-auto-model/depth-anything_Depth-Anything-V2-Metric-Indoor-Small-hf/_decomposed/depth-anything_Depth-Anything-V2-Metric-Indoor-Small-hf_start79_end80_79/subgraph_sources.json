@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/depth-anything_Depth-Anything-V2-Metric-Indoor-Small-hf": [
+        [
+            79,
+            80
+        ]
+    ],
+    "samples/transformers-auto-model/thuml_sundial-base-128m": [
+        [
+            2189,
+            2190
+        ]
+    ]
+}

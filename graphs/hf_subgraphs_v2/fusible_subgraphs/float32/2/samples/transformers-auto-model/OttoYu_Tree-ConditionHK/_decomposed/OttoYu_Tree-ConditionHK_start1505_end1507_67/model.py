@@ -1,0 +1,9 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+
+    def forward(self, in_0):
+        tmp_0 = torch.adaptive_avg_pool1d(in_0, 1)
+        tmp_1 = torch.flatten(tmp_0, 1)
+        tmp_0 = None
+        return (tmp_1,)

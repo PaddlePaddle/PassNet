@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/torchvision/mnasnet0_5/_decomposed/mnasnet0_5_start148_end151_24
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/torchvision/mnasnet0_5/_decomposed/mnasnet0_5_start148_end151_24
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/torchvision/mnasnet0_5/_decomposed/mnasnet0_5_start148_end151_24
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/4/samples/torchvision/mnasnet0_5/_decomposed/mnasnet0_5_start148_end151_24
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/torchvision/mnasnet0_5/_decomposed/mnasnet0_5_start148_end151_24
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/6/samples/torchvision/mnasnet0_5/_decomposed/mnasnet0_5_start148_end151_24

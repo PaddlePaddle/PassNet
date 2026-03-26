@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/LeoFeng_ChineseSequenceClassification": [
+        [
+            1,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/Recognai_bert-base-spanish-wwm-cased-xnli": [
+        [
+            1,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/WIC-Uchile_ene_phase4": [
+        [
+            1,
+            10
+        ]
+    ],
+    "samples/transformers-auto-model/simonmun_Eyse_SentenceClassification": [
+        [
+            1,
+            10
+        ]
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-GPTJForSequenceClassification": [
+        [
+            37,
+            38
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            114,
+            115
+        ],
+        [
+            116,
+            117
+        ],
+        [
+            191,
+            192
+        ],
+        [
+            193,
+            194
+        ],
+        [
+            268,
+            269
+        ],
+        [
+            270,
+            271
+        ],
+        [
+            345,
+            346
+        ],
+        [
+            347,
+            348
+        ]
+    ]
+}

@@ -1,0 +1,17 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-WavLMForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-WavLMForSequenceClassification_start101_end102_101
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmpose/pose_pvtv2-b2/_decomposed/pose_pvtv2-b2_start15_end16_15
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/SegFormer_B0/_decomposed/SegFormer_B0_start14_end15_14
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmpose/pose_pvtv2-b2/_decomposed/pose_pvtv2-b2_start113_end114_113
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/Segmenter-t/_decomposed/Segmenter-t_start113_end114_113
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/SegFormer_B0/_decomposed/SegFormer_B0_start140_end141_140
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/Twins_svt-b_fpn/_decomposed/Twins_svt-b_fpn_start161_end162_161
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/907508196l_wavlm-libri-clean-100h-base-plus-finetuned-ks/_decomposed/907508196l_wavlm-libri-clean-100h-base-plus-finetuned-ks_start109_end110_109
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/Zahra99_wavlm-large-finetuned-iemocap/_decomposed/Zahra99_wavlm-large-finetuned-iemocap_start129_end130_129
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/google/siglip-base-patch16-224/_decomposed/siglip-base-patch16-224_start310_end311_310
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmpose/pose_pvtv2-b2/_decomposed/pose_pvtv2-b2_start241_end242_241
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/K-Net_deeplabv3/_decomposed/K-Net_deeplabv3_start238_end239_238
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/google/siglip-large-patch16-256/_decomposed/siglip-large-patch16-256_start610_end611_610
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/DGT/_decomposed/DGT_start110_end111_110
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/Twins_svt-b_fpn/_decomposed/Twins_svt-b_fpn_start250_end251_250
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/torchaudio/squim_objective/_decomposed/squim_objective_start1_end2_1
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256/_decomposed/siglip2-giant-opt-patch16-256_start1010_end1011_1010

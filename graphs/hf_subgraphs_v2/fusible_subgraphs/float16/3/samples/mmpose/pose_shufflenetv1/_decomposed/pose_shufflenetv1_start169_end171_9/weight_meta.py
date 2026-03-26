@@ -1,0 +1,8 @@
+class Program_weight_tensor_meta_transpose_12:
+	name = "in_0"
+	original_name = "transpose_12"
+	shape = [32, 80, 3, 7, 7]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = -0.012
+	std = 0.302

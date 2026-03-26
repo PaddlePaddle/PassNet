@@ -1,0 +1,14 @@
+{
+    "samples/timm/fbnetc_100.rmsp_in1k": [
+        [
+            76,
+            79
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_large.e500_r256_in1k": [
+        [
+            13,
+            16
+        ]
+    ]
+}

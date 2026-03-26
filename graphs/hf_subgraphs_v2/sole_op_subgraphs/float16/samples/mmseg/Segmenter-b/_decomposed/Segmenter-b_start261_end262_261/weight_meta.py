@@ -1,0 +1,8 @@
+class Program_weight_tensor_meta_patches:
+	name = "in_0"
+	original_name = "patches"
+	shape = [1, 1024, 768]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = -0.001
+	std = 0.110

@@ -1,0 +1,14 @@
+{
+    "samples/timm/hgnetv2_b4.ssld_stage1_in22k_in1k": [
+        [
+            40,
+            46
+        ]
+    ],
+    "samples/timm/hgnetv2_b5.ssld_stage1_in22k_in1k": [
+        [
+            40,
+            46
+        ]
+    ]
+}

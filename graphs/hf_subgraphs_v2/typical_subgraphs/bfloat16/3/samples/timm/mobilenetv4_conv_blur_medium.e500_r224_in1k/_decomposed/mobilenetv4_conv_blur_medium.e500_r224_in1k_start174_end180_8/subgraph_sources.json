@@ -1,0 +1,24 @@
+{
+    "samples/timm/mobilenetv4_conv_blur_medium.e500_r224_in1k": [
+        [
+            174,
+            180
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_medium.e180_ad_r384_in12k": [
+        [
+            166,
+            172
+        ]
+    ],
+    "samples/timm/mobilenetv4_conv_small.e1200_r224_in1k": [
+        [
+            83,
+            89
+        ],
+        [
+            92,
+            98
+        ]
+    ]
+}

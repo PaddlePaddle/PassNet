@@ -1,0 +1,74 @@
+{
+    "samples/mmseg/DeiT_S_ln_mln": [
+        [
+            287,
+            292
+        ]
+    ],
+    "samples/mmseg/DeiT_S_mln": [
+        [
+            286,
+            291
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            1562,
+            1567
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            824,
+            829
+        ]
+    ],
+    "samples/mmseg/MAE": [
+        [
+            483,
+            488
+        ]
+    ],
+    "samples/mmseg/Swin-b": [
+        [
+            1562,
+            1567
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            1562,
+            1567
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            824,
+            829
+        ]
+    ],
+    "samples/mmseg/UPerNet_R101": [
+        [
+            395,
+            400
+        ]
+    ],
+    "samples/mmseg/UPerNet_R50": [
+        [
+            225,
+            230
+        ]
+    ],
+    "samples/mmseg/ViT_B_ln_mln": [
+        [
+            287,
+            292
+        ]
+    ],
+    "samples/mmseg/ViT_B_mln": [
+        [
+            286,
+            291
+        ]
+    ]
+}

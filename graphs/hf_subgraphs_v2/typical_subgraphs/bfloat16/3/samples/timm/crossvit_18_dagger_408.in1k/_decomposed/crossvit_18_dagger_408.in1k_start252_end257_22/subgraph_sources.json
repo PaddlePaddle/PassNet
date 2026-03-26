@@ -1,0 +1,12 @@
+{
+    "samples/timm/crossvit_18_dagger_408.in1k": [
+        [
+            252,
+            257
+        ],
+        [
+            469,
+            474
+        ]
+    ]
+}

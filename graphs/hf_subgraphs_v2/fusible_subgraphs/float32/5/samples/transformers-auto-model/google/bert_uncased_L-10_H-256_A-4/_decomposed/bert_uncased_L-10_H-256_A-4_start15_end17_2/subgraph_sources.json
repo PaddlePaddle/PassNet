@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-256_A-4": [
+        [
+            15,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_mini-vanilla-target-tweet": [
+        [
+            15,
+            17
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/timm/vit_so400m_patch14_siglip_gap_224.pali2_3b_pt": [
+        [
+            25,
+            27
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-so400m-patch14-224": [
+        [
+            675,
+            677
+        ]
+    ]
+}

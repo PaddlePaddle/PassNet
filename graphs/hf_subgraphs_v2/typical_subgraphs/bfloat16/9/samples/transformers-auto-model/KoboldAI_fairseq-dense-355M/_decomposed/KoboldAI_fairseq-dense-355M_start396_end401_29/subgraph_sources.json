@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-355M": [
+        [
+            396,
+            401
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_xglm-564M": [
+        [
+            396,
+            401
+        ]
+    ],
+    "samples/transformers-auto-model/fairseq-dense-355M": [
+        [
+            409,
+            414
+        ]
+    ]
+}

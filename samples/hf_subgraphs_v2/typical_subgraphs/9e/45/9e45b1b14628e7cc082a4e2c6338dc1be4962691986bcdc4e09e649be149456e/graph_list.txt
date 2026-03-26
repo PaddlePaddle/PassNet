@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start158_end166_8
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start158_end166_8
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start158_end166_8
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start158_end166_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start158_end166_8
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/mmpose/LiteHRNet-18/_decomposed/LiteHRNet-18_start158_end166_8

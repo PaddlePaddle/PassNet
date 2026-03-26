@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/transformers-auto-model/Intel_dpt-large/_decomposed/Intel_dpt-large_start0_end16_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/Intel_dpt-large/_decomposed/Intel_dpt-large_start0_end16_0

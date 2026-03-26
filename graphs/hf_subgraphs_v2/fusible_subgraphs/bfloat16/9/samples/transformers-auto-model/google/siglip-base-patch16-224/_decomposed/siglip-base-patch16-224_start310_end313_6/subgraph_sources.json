@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/google/siglip-base-patch16-224": [
+        [
+            310,
+            313
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-base-patch16-224": [
+        [
+            310,
+            313
+        ]
+    ]
+}

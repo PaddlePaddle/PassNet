@@ -1,0 +1,14 @@
+{
+    "samples/torchgeometric/GAE": [
+        [
+            31,
+            34
+        ]
+    ],
+    "samples/torchgeometric/RECT_L": [
+        [
+            31,
+            34
+        ]
+    ]
+}

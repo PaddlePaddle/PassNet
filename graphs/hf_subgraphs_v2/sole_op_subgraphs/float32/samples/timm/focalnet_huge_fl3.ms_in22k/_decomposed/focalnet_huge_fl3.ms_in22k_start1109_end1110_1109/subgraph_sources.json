@@ -1,0 +1,22 @@
+{
+    "samples/timm/focalnet_huge_fl3.ms_in22k": [
+        [
+            1109,
+            1110
+        ],
+        [
+            1158,
+            1159
+        ]
+    ],
+    "samples/timm/focalnet_huge_fl4.ms_in22k": [
+        [
+            1219,
+            1220
+        ],
+        [
+            1273,
+            1274
+        ]
+    ]
+}

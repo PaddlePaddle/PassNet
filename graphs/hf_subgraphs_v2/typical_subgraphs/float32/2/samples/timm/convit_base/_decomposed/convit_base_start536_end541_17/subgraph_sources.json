@@ -1,0 +1,18 @@
+{
+    "samples/timm/convit_base": [
+        [
+            536,
+            541
+        ]
+    ],
+    "samples/timm/crossvit_base_240.in1k": [
+        [
+            47,
+            52
+        ],
+        [
+            264,
+            269
+        ]
+    ]
+}

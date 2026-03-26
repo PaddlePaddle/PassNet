@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/all-mpnet-base-v2": [
+        [
+            56,
+            59
+        ],
+        [
+            86,
+            89
+        ]
+    ]
+}

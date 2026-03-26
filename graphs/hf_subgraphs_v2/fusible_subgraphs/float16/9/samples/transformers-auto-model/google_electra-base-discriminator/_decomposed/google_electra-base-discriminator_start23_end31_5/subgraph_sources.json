@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/google_electra-base-discriminator": [
+        [
+            23,
+            31
+        ],
+        [
+            52,
+            60
+        ]
+    ]
+}

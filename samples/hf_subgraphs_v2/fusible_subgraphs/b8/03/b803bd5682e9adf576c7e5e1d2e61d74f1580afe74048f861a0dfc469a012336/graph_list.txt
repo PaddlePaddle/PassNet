@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/Sahajtomar_German_Zeroshot/_decomposed/Sahajtomar_German_Zeroshot_start1_end10_0

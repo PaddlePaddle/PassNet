@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/rsn_18": [
+        [
+            401,
+            407
+        ]
+    ],
+    "samples/mmpose/rsn_50": [
+        [
+            793,
+            799
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/bge-small-en": [
+        [
+            3,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/msmarco-MiniLM-L12-en-de-v1": [
+        [
+            3,
+            12
+        ]
+    ]
+}

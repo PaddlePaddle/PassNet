@@ -1,0 +1,22 @@
+{
+    "samples/mmpose/S-ViPNAS-Res50": [
+        [
+            101,
+            102
+        ],
+        [
+            163,
+            164
+        ],
+        [
+            326,
+            327
+        ]
+    ],
+    "samples/timm/repghostnet_058.in1k": [
+        [
+            76,
+            77
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvNextModel": [
+        [
+            91,
+            92
+        ],
+        [
+            101,
+            102
+        ],
+        [
+            111,
+            112
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvNextV2Model": [
+        [
+            119,
+            120
+        ],
+        [
+            136,
+            137
+        ],
+        [
+            153,
+            154
+        ]
+    ]
+}

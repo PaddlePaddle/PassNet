@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start378_end380_7
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/6/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start378_end380_7
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/3/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start378_end380_7
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/apple_DepthPro-hf/_decomposed/apple_DepthPro-hf_start2300_end2302_57
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start378_end380_7
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start378_end380_7

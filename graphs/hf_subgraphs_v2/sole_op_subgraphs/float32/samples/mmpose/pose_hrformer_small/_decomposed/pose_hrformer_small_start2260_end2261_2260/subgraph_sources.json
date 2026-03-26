@@ -1,0 +1,192 @@
+{
+    "samples/mmpose/pose_hrformer_small": [
+        [
+            2260,
+            2261
+        ]
+    ],
+    "samples/timm/fastvit_s12.apple_dist_in1k": [
+        [
+            117,
+            118
+        ]
+    ],
+    "samples/timm/hgnetv2_b3.ssld_stage1_in22k_in1k": [
+        [
+            65,
+            66
+        ]
+    ],
+    "samples/timm/hgnetv2_b4.ssld_stage1_in22k_in1k": [
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/timm/hgnetv2_b5.ssld_stage1_in22k_in1k": [
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/timm/lcnet_100.ra2_in1k": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/timm/mixnet_xl.ra_in1k": [
+        [
+            203,
+            204
+        ]
+    ],
+    "samples/timm/mobilenetv1_100.ra4_e3600_r224_in1k": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/timm/mobilenetv1_100h.ra4_e3600_r224_in1k": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/timm/mobileone_s0.apple_in1k": [
+        [
+            326,
+            327
+        ],
+        [
+            329,
+            330
+        ],
+        [
+            332,
+            333
+        ],
+        [
+            335,
+            336
+        ]
+    ],
+    "samples/timm/mobileone_s3.apple_in1k": [
+        [
+            35,
+            36
+        ]
+    ],
+    "samples/timm/regnetz_d8.ra3_in1k": [
+        [
+            325,
+            326
+        ]
+    ],
+    "samples/timm/repvit_m1_1.dist_300e_in1k": [
+        [
+            99,
+            100
+        ]
+    ],
+    "samples/timm/repvit_m1_5.dist_300e_in1k": [
+        [
+            159,
+            160
+        ]
+    ],
+    "samples/timm/repvit_m2.dist_in1k": [
+        [
+            99,
+            100
+        ]
+    ],
+    "samples/timm/repvit_m3.dist_in1k": [
+        [
+            159,
+            160
+        ]
+    ],
+    "samples/timm/test_efficientnet.r160_in1k": [
+        [
+            19,
+            20
+        ]
+    ],
+    "samples/timm/test_efficientnet_ln.r160_in1k": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/timm/xception41.tf_in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/xception41p.ra3_in1k": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/timm/xception65.ra3_in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/xception65p.ra3_in1k": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/timm/xception71.tf_in1k": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-small": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-x-small": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-xx-small": [
+        [
+            283,
+            284
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel": [
+        [
+            14,
+            15
+        ]
+    ],
+    "samples/ultralytics/yolov10n": [
+        [
+            53,
+            54
+        ],
+        [
+            207,
+            208
+        ]
+    ]
+}

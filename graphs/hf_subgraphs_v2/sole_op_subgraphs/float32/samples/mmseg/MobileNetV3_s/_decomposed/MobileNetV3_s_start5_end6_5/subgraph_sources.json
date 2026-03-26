@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/MobileNetV3_s": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileNetV1Model": [
+        [
+            25,
+            26
+        ]
+    ]
+}

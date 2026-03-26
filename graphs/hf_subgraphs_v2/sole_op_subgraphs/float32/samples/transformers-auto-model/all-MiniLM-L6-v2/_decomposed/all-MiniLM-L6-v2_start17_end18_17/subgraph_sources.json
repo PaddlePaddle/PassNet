@@ -1,0 +1,62 @@
+{
+    "samples/transformers-auto-model/all-MiniLM-L6-v2": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/distilbert-base-uncased": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_small_patch16_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_deit_tiny_patch16_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google/vit-base-patch16-224-in21k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google/vit-large-patch16-224-in21k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_vit-base-patch16-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_vit_base_patch32_224_in21k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_vit_large_patch16_224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google_vit_large_patch32_224_in21k": [
+        [
+            0,
+            1
+        ]
+    ]
+}

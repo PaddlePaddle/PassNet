@@ -1,0 +1,26 @@
+{
+    "samples/timm/rdnet_base.nv_in1k": [
+        [
+            243,
+            244
+        ]
+    ],
+    "samples/timm/rdnet_large.nv_in1k": [
+        [
+            243,
+            244
+        ]
+    ],
+    "samples/timm/rdnet_small.nv_in1k": [
+        [
+            243,
+            244
+        ]
+    ],
+    "samples/timm/rdnet_tiny.nv_in1k": [
+        [
+            243,
+            244
+        ]
+    ]
+}

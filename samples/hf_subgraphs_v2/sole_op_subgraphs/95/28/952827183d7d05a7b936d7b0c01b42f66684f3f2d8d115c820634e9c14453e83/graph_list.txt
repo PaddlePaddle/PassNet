@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmpose/2xmspn_50/_decomposed/2xmspn_50_start108_end109_108
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned/_decomposed/AkshatSurolia_BEiT-FaceMask-Finetuned_start159_end160_159
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/microsoft_beit-large-patch16-512/_decomposed/microsoft_beit-large-patch16-512_start1027_end1028_1027

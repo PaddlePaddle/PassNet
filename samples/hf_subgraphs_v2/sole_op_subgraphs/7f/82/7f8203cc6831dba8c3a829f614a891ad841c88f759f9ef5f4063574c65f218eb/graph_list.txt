@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/baidu/ERNIE-4.5-0.3B-PT/_decomposed/ERNIE-4.5-0.3B-PT_start1040_end1041_1040
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/baidu/ERNIE-4.5-0.3B-PT/_decomposed/ERNIE-4.5-0.3B-PT_start1040_end1041_1040
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/vit_base_patch16_rope_mixed_224.naver_in1k/_decomposed/vit_base_patch16_rope_mixed_224.naver_in1k_start14_end15_14
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/timm/vit_base_patch16_rope_mixed_224.naver_in1k/_decomposed/vit_base_patch16_rope_mixed_224.naver_in1k_start14_end15_14
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/convit_base/_decomposed/convit_base_start134_end135_134
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/convit_base/_decomposed/convit_base_start135_end136_135

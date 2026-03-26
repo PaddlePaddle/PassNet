@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/timm/eca_vovnet39b/_decomposed/eca_vovnet39b_start151_end159_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/timm/eca_vovnet39b/_decomposed/eca_vovnet39b_start151_end159_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/timm/eca_vovnet39b/_decomposed/eca_vovnet39b_start151_end159_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/timm/eca_vovnet39b/_decomposed/eca_vovnet39b_start151_end159_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/4/samples/timm/eca_vovnet39b/_decomposed/eca_vovnet39b_start151_end159_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/timm/eca_vovnet39b/_decomposed/eca_vovnet39b_start151_end159_9

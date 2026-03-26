@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/mmpose/yoloxpose_l/_decomposed/yoloxpose_l_start514_end521_7
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/mmpose/yoloxpose_l/_decomposed/yoloxpose_l_start514_end521_7
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/mmpose/yoloxpose_l/_decomposed/yoloxpose_l_start514_end521_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/mmpose/yoloxpose_l/_decomposed/yoloxpose_l_start514_end521_7
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/mmpose/yoloxpose_l/_decomposed/yoloxpose_l_start514_end521_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/6/samples/mmpose/yoloxpose_l/_decomposed/yoloxpose_l_start514_end521_7

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/Recognai_zeroshot_selectra_medium": [
+        [
+            33,
+            35
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            300,
+            302
+        ],
+        [
+            358,
+            360
+        ]
+    ]
+}

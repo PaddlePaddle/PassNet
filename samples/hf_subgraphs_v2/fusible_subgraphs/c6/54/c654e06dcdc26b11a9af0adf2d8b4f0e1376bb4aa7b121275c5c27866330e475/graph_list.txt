@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/mmpose/ViTPose-B/_decomposed/ViTPose-B_start244_end249_13
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/mmpose/ViTPose-H/_decomposed/ViTPose-H_start644_end649_13
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmpose/ViTPose-H/_decomposed/ViTPose-H_start644_end649_13
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/mmpose/ViTPose-H/_decomposed/ViTPose-H_start644_end649_13
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/mmpose/ViTPose-H/_decomposed/ViTPose-H_start644_end649_13
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/6/samples/mmpose/ViTPose-L/_decomposed/ViTPose-L_start484_end489_13

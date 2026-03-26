@@ -1,0 +1,226 @@
+{
+    "samples/mmpose/2xmspn_50": [
+        [
+            19,
+            21
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            426,
+            428
+        ]
+    ],
+    "samples/mmpose/2xrsn_50": [
+        [
+            1670,
+            1672
+        ]
+    ],
+    "samples/mmpose/pose_hourglass_52": [
+        [
+            6,
+            8
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            59,
+            61
+        ]
+    ],
+    "samples/mmpose/pose_hrnet_w32": [
+        [
+            57,
+            59
+        ],
+        [
+            124,
+            126
+        ]
+    ],
+    "samples/mmpose/pose_resnest_101": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/mmseg/BEiT-B": [
+        [
+            504,
+            506
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R18": [
+        [
+            21,
+            23
+        ]
+    ],
+    "samples/mmseg/BiSeNetV2": [
+        [
+            18,
+            20
+        ]
+    ],
+    "samples/mmseg/DDRNet-slim": [
+        [
+            6,
+            8
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            93,
+            95
+        ],
+        [
+            119,
+            121
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R18": [
+        [
+            52,
+            54
+        ],
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            181,
+            183
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18": [
+        [
+            125,
+            127
+        ],
+        [
+            245,
+            247
+        ]
+    ],
+    "samples/mmseg/PIDNet-l": [
+        [
+            83,
+            85
+        ]
+    ],
+    "samples/timm/eca_vovnet39b": [
+        [
+            12,
+            14
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "samples/timm/ecaresnet101d.miil_in1k": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/timm/gernet_l.idstcv_in1k": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/timm/hgnet_base.ssld_in1k": [
+        [
+            6,
+            8
+        ],
+        [
+            16,
+            18
+        ]
+    ],
+    "samples/timm/hgnet_small.paddle_in1k": [
+        [
+            104,
+            106
+        ]
+    ],
+    "samples/timm/hgnetv2_b4.ssld_stage1_in22k_in1k": [
+        [
+            19,
+            21
+        ]
+    ],
+    "samples/timm/hgnetv2_b5.ssld_stage1_in22k_in1k": [
+        [
+            71,
+            73
+        ]
+    ],
+    "samples/timm/hrnet_w18.ms_aug_in1k": [
+        [
+            122,
+            124
+        ],
+        [
+            1082,
+            1084
+        ],
+        [
+            1094,
+            1096
+        ]
+    ],
+    "samples/timm/hrnet_w18_small.gluon_in1k": [
+        [
+            153,
+            155
+        ]
+    ],
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            6,
+            8
+        ]
+    ],
+    "samples/timm/legacy_seresnet101.in1k": [
+        [
+            57,
+            59
+        ]
+    ],
+    "samples/timm/res2net101_26w_4s": [
+        [
+            18,
+            20
+        ]
+    ],
+    "samples/timm/res2net50_14w_8s.in1k": [
+        [
+            28,
+            30
+        ]
+    ]
+}

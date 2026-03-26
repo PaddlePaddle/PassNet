@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/Rajaram1996_Hubert_emotion": [
+        [
+            27,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/anton-l_distilhubert-ft-common-language": [
+        [
+            26,
+            29
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_wav2vec2-base-960h": [
+        [
+            27,
+            30
+        ]
+    ]
+}

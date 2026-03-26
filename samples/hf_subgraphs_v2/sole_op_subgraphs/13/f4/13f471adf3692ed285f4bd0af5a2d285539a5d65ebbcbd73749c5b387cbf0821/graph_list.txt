@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/falcon-tiny-random/_decomposed/falcon-tiny-random_start114_end115_114
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/AK_ak_nlp/_decomposed/AK_ak_nlp_start23_end24_23
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/cosyvoice/CosyVoice-300M/_decomposed/CosyVoice-300M_start142_end143_142

@@ -1,0 +1,46 @@
+{
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            911,
+            947
+        ],
+        [
+            952,
+            988
+        ],
+        [
+            993,
+            1029
+        ],
+        [
+            1034,
+            1070
+        ],
+        [
+            1075,
+            1111
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r101-cd45rb-8ah-6l-256d-4096ffn": [
+        [
+            1591,
+            1627
+        ],
+        [
+            1632,
+            1668
+        ],
+        [
+            1673,
+            1709
+        ],
+        [
+            1714,
+            1750
+        ],
+        [
+            1755,
+            1791
+        ]
+    ]
+}

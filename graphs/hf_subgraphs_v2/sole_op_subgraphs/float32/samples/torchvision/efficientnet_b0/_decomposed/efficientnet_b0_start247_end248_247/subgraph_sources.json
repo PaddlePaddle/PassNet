@@ -1,0 +1,56 @@
+{
+    "samples/torchvision/efficientnet_b0": [
+        [
+            247,
+            248
+        ]
+    ],
+    "samples/torchvision/efficientnet_b1": [
+        [
+            356,
+            357
+        ]
+    ],
+    "samples/torchvision/efficientnet_v2_s": [
+        [
+            544,
+            545
+        ]
+    ],
+    "samples/torchvision/mnasnet0_5": [
+        [
+            150,
+            151
+        ]
+    ],
+    "samples/torchvision/mnasnet0_75": [
+        [
+            150,
+            151
+        ]
+    ],
+    "samples/torchvision/mnasnet1_0": [
+        [
+            150,
+            151
+        ]
+    ],
+    "samples/torchvision/mnasnet1_3": [
+        [
+            150,
+            151
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_large": [
+        [
+            185,
+            186
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_small": [
+        [
+            155,
+            156
+        ]
+    ]
+}

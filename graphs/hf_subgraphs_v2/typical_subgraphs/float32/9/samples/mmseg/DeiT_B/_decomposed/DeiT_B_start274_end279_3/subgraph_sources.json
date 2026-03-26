@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/DeiT_B": [
+        [
+            274,
+            279
+        ]
+    ],
+    "samples/mmseg/DeiT_S": [
+        [
+            274,
+            279
+        ]
+    ]
+}

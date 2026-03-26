@@ -1,0 +1,20 @@
+{
+    "samples/timm/mobilenetv4_conv_blur_medium.e500_r224_in1k": [
+        [
+            6,
+            7
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            119,
+            120
+        ]
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "samples/timm/vit_large_patch14_clip_224.datacompxl": [
+        [
+            511,
+            514
+        ]
+    ],
+    "samples/timm/vit_large_patch14_clip_quickgelu_224.dfn2b": [
+        [
+            559,
+            562
+        ]
+    ]
+}

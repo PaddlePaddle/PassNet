@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/mmpose/ViTPose-B/_decomposed/ViTPose-B_start0_end5_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/timm/vit_huge_patch14_gap_224.in1k_ijepa/_decomposed/vit_huge_patch14_gap_224.in1k_ijepa_start0_end5_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/mmpose/ViTPose-B/_decomposed/ViTPose-B_start0_end5_0

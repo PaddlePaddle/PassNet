@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/torchvision/vgg16_bn/_decomposed/vgg16_bn_start0_end53_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/torchvision/vgg16_bn/_decomposed/vgg16_bn_start0_end53_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/torchvision/vgg16_bn/_decomposed/vgg16_bn_start0_end53_0

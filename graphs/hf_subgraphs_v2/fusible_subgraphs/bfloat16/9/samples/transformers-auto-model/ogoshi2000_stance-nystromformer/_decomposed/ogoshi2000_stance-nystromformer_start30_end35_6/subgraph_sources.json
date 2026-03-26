@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/ogoshi2000_stance-nystromformer": [
+        [
+            30,
+            35
+        ],
+        [
+            61,
+            66
+        ]
+    ]
+}

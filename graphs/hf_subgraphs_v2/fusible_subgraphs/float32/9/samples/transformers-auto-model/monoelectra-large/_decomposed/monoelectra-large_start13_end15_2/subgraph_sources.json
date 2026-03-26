@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/monoelectra-large": [
+        [
+            13,
+            15
+        ],
+        [
+            42,
+            44
+        ]
+    ]
+}

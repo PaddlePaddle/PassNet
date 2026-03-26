@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/falcon-tiny-random": [
+        [
+            40,
+            41
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            100,
+            101
+        ],
+        [
+            107,
+            108
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConditionalDetrForObjectDetection": [
+        [
+            971,
+            972
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_conditional-detr-resnet-50": [
+        [
+            1125,
+            1126
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            1137,
+            1138
+        ]
+    ]
+}

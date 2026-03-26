@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start1040_end1045_25
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start1040_end1045_25
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start485_end490_11
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start1040_end1045_25
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start1040_end1045_25
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start1040_end1045_25

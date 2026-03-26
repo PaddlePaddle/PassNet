@@ -1,0 +1,68 @@
+class Program_weight_tensor_meta_L_self_modules_stages_modules_2_modules_blocks_modules_2_modules_se_modules_fc1_parameters_bias_:
+	name = "in_0"
+	original_name = "L_self_modules_stages_modules_2_modules_blocks_modules_2_modules_se_modules_fc1_parameters_bias_"
+	shape = [48]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.006
+	std = 0.040
+
+
+class Program_weight_tensor_meta_L_self_modules_stages_modules_2_modules_blocks_modules_2_modules_se_modules_fc1_parameters_weight_:
+	name = "in_1"
+	original_name = "L_self_modules_stages_modules_2_modules_blocks_modules_2_modules_se_modules_fc1_parameters_weight_"
+	shape = [48, 192, 1, 1]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.041
+
+
+class Program_weight_tensor_meta_L_self_modules_stages_modules_2_modules_blocks_modules_2_modules_se_modules_fc2_parameters_bias_:
+	name = "in_2"
+	original_name = "L_self_modules_stages_modules_2_modules_blocks_modules_2_modules_se_modules_fc2_parameters_bias_"
+	shape = [192]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.007
+	std = 0.085
+
+
+class Program_weight_tensor_meta_L_self_modules_stages_modules_2_modules_blocks_modules_2_modules_se_modules_fc2_parameters_weight_:
+	name = "in_3"
+	original_name = "L_self_modules_stages_modules_2_modules_blocks_modules_2_modules_se_modules_fc2_parameters_weight_"
+	shape = [192, 48, 1, 1]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.001
+	std = 0.083
+
+
+class Program_weight_tensor_meta_input_90:
+	name = "in_4"
+	original_name = "input_90"
+	shape = [1, 192, 24, 24]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_input_92:
+	name = "in_5"
+	original_name = "input_92"
+	shape = [1, 192, 24, 24]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_input_94:
+	name = "in_6"
+	original_name = "input_94"
+	shape = [1, 192, 24, 24]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000

@@ -1,0 +1,13 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/transformers-auto-model/google/siglip-base-patch16-384/_decomposed/siglip-base-patch16-384_start617_end640_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/google/siglip-base-patch16-384/_decomposed/siglip-base-patch16-384_start617_end640_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/transformers-auto-model/google/siglip-base-patch16-512/_decomposed/siglip-base-patch16-512_start617_end640_8
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/google/siglip2-base-patch16-naflex/_decomposed/siglip2-base-patch16-naflex_start298_end321_4
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/google/siglip2-base-patch16-naflex/_decomposed/siglip2-base-patch16-naflex_start298_end321_4
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256/_decomposed/siglip2-giant-opt-patch16-256_start1692_end1715_22
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/transformers-auto-model/google/siglip2-so400m-patch14-224/_decomposed/siglip2-so400m-patch14-224_start1367_end1390_18
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/transformers-auto-model/google/siglip2-so400m-patch16-512/_decomposed/siglip2-so400m-patch16-512_start1367_end1390_18
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/transformers-auto-model/google/siglip-so400m-patch14-384/_decomposed/siglip-so400m-patch14-384_start1367_end1390_18
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/google/siglip-so400m-patch14-384/_decomposed/siglip-so400m-patch14-384_start1367_end1390_18
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/transformers-auto-model/google/siglip-large-patch16-384/_decomposed/siglip-large-patch16-384_start1217_end1240_16
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/google/siglip2-so400m-patch16-naflex/_decomposed/siglip2-so400m-patch16-naflex_start673_end696_9
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/google/siglip2-so400m-patch16-naflex/_decomposed/siglip2-so400m-patch16-naflex_start673_end696_9

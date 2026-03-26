@@ -1,0 +1,12 @@
+{
+    "samples/timm/focalnet_base_srf.ms_in1k": [
+        [
+            86,
+            87
+        ],
+        [
+            123,
+            124
+        ]
+    ]
+}

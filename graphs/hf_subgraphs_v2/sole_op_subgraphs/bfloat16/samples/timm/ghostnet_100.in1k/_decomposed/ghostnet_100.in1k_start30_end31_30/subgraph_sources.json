@@ -1,0 +1,124 @@
+{
+    "samples/timm/ghostnet_100.in1k": [
+        [
+            30,
+            31
+        ],
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/timm/regnetz_c16.ra3_in1k": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/timm/repghostnet_050.in1k": [
+        [
+            21,
+            22
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            49,
+            50
+        ]
+    ],
+    "samples/timm/repghostnet_058.in1k": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/timm/repghostnet_080.in1k": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/timm/repghostnet_130.in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            6,
+            7
+        ]
+    ],
+    "samples/timm/resnet51q.ra2_in1k": [
+        [
+            87,
+            88
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            107,
+            108
+        ],
+        [
+            117,
+            118
+        ],
+        [
+            127,
+            128
+        ]
+    ],
+    "samples/timm/resnet61q.ra2_in1k": [
+        [
+            81,
+            82
+        ],
+        [
+            93,
+            94
+        ],
+        [
+            96,
+            97
+        ],
+        [
+            106,
+            107
+        ],
+        [
+            109,
+            110
+        ],
+        [
+            119,
+            120
+        ],
+        [
+            122,
+            123
+        ],
+        [
+            132,
+            133
+        ],
+        [
+            135,
+            136
+        ],
+        [
+            145,
+            146
+        ],
+        [
+            148,
+            149
+        ]
+    ]
+}

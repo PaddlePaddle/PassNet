@@ -1,0 +1,50 @@
+{
+    "samples/timm/vgg11.tv_in1k": [
+        [
+            21,
+            24
+        ]
+    ],
+    "samples/timm/vgg11_bn.tv_in1k": [
+        [
+            29,
+            32
+        ]
+    ],
+    "samples/timm/vgg13.tv_in1k": [
+        [
+            25,
+            28
+        ]
+    ],
+    "samples/timm/vgg13_bn.tv_in1k": [
+        [
+            35,
+            38
+        ]
+    ],
+    "samples/timm/vgg16.tv_in1k": [
+        [
+            31,
+            34
+        ]
+    ],
+    "samples/timm/vgg16_bn.tv_in1k": [
+        [
+            44,
+            47
+        ]
+    ],
+    "samples/timm/vgg19.tv_in1k": [
+        [
+            37,
+            40
+        ]
+    ],
+    "samples/timm/vgg19_bn.tv_in1k": [
+        [
+            53,
+            56
+        ]
+    ]
+}

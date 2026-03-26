@@ -1,0 +1,15 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english/_decomposed/sshleifer_tiny-dbmdz-bert-large-cased-finetuned-conll03-english_start24_end27_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/muhtasham_mini-vanilla-target-tweet/_decomposed/muhtasham_mini-vanilla-target-tweet_start90_end93_4
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-BertForSequenceClassification_start90_end93_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/transformers-auto-model/ms-marco-TinyBERT-L2/_decomposed/ms-marco-TinyBERT-L2_start24_end27_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/deit_tiny_distilled_patch16_224.fb_in1k/_decomposed/deit_tiny_distilled_patch16_224.fb_in1k_start16_end19_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/crossvit_base_240.in1k/_decomposed/crossvit_base_240.in1k_start23_end26_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-BertForSequenceClassification_start90_end93_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-bort/_decomposed/DTAI-KULeuven_robbertje-1-gb-bort_start99_end102_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/torchaudio/wavlm_large/_decomposed/wavlm_large_start146_end149_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/vit_giant_patch16_gap_224.in22k_ijepa/_decomposed/vit_giant_patch16_gap_224.in22k_ijepa_start13_end16_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/vit_huge_patch14_224.mae/_decomposed/vit_huge_patch14_224.mae_start15_end18_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-BertForSequenceClassification_start90_end93_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/transformers-auto-model/DTAI-KULeuven_robbertje-1-gb-bort/_decomposed/DTAI-KULeuven_robbertje-1-gb-bort_start99_end102_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/mmpose/ViTPose-S/_decomposed/ViTPose-S_start12_end15_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/mmpose/ViTPose-L/_decomposed/ViTPose-L_start12_end15_2

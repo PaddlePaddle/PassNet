@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/facebook_metaclip-b16-400m": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-base-patch16": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlv2-base-patch16": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/google_owlvit-base-patch16": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/gowitheflowlab_clip-base-10240-checkpoint350": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/upfeatmediainc_owlv2-base-patch16-ensemble": [
+        [
+            1,
+            2
+        ]
+    ]
+}

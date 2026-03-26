@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/AK_ak_nlp": [
+        [
+            10,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Dr-BERT_CAS-Biomedical-POS-Tagging": [
+        [
+            10,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Film8844_wangchanberta-ner": [
+        [
+            10,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/Ghana-NLP_robako-base-akuapem-twi-cased": [
+        [
+            10,
+            19
+        ]
+    ]
+}

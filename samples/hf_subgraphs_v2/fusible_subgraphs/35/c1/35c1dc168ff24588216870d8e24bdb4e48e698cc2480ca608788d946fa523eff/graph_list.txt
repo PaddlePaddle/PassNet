@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start88_end90_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start88_end90_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start88_end90_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start88_end90_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start88_end90_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start88_end90_3

@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmseg/Twins_svt-b_fpn/_decomposed/Twins_svt-b_fpn_start924_end925_924
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmseg/Twins_svt-b_fpn/_decomposed/Twins_svt-b_fpn_start161_end162_161
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmseg/SegFormer_B0/_decomposed/SegFormer_B0_start14_end15_14
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmseg/SegFormer_B0/_decomposed/SegFormer_B0_start105_end106_105
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/Twins_svt-b_fpn/_decomposed/Twins_svt-b_fpn_start924_end925_924
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/mmseg/DeiT_S/_decomposed/DeiT_S_start100_end101_100

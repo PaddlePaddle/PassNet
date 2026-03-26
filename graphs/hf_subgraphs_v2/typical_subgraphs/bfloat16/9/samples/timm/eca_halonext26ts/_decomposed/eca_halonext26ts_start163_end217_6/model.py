@@ -1,0 +1,63 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, w_0 : torch.Tensor, w_1 : torch.Tensor, w_2 : torch.Tensor, w_3 : torch.Tensor, w_4 : torch.Tensor, w_5 : torch.Tensor, w_6 : torch.Tensor, w_7 : torch.Tensor, in_0 : torch.Tensor):
+        tmp_8 = torch.nn.functional.silu(in_0, inplace = True);  in_0 = None
+        conv2d = torch.conv2d(tmp_8, w_7, None, (2, 2), (0, 0), (1, 1), 1);  w_7 = None
+        tmp_10 = conv2d.reshape(-1, 16, 2, 4, 2, 4);  conv2d = None
+        tmp_11 = tmp_10.permute(0, 1, 3, 5, 2, 4);  tmp_10 = None
+        tmp_12 = tmp_11.reshape(8, 16, -1, 4);  tmp_11 = None
+        tmp_13 = tmp_12.transpose(1, 3);  tmp_12 = None
+        conv2d_1 = torch.conv2d(tmp_8, w_4, None, (1, 1), (0, 0), (1, 1), 1);  tmp_8 = w_4 = None
+        tmp_15 = torch.nn.functional.pad(conv2d_1, [2, 2, 2, 2], 'constant', None);  conv2d_1 = None
+        tmp_16 = tmp_15.unfold(2, 12, 8);  tmp_15 = None
+        tmp_17 = tmp_16.unfold(3, 12, 8);  tmp_16 = None
+        tmp_18 = tmp_17.reshape(8, 80, 4, -1);  tmp_17 = None
+        tmp_19 = tmp_18.permute(0, 2, 3, 1);  tmp_18 = None
+        split = torch.functional.split(tmp_19, [16, 64], dim = -1);  tmp_19 = None
+        tmp_21 = split[0]
+        tmp_22 = split[1];  split = None
+        tmp_23 = tmp_21.transpose(-1, -2);  tmp_21 = None
+        matmul = tmp_13 @ tmp_23;  tmp_23 = None
+        tmp_25 = matmul * 0.25;  matmul = None
+        tmp_26 = tmp_13.reshape(-1, 4, 4, 16);  tmp_13 = None
+        tmp_27 = w_6.transpose(-1, -2);  w_6 = None
+        matmul_1 = tmp_26 @ tmp_27;  tmp_27 = None
+        tmp_29 = matmul_1.reshape(-1, 4, 23);  matmul_1 = None
+        tmp_30 = torch.nn.functional.pad(tmp_29, [0, 1], 'constant', None);  tmp_29 = None
+        tmp_31 = tmp_30.flatten(1);  tmp_30 = None
+        tmp_32 = torch.nn.functional.pad(tmp_31, [0, 19], 'constant', None);  tmp_31 = None
+        tmp_33 = tmp_32.reshape(-1, 5, 23);  tmp_32 = None
+        tmp_34 = tmp_33[(slice(None, None, None), slice(None, 4, None), slice(11, None, None))];  tmp_33 = None
+        tmp_35 = tmp_34.reshape(32, 4, 1, 4, 12);  tmp_34 = None
+        tmp_36 = tmp_35.expand(-1, -1, 12, -1, -1);  tmp_35 = None
+        tmp_37 = tmp_36.permute((0, 1, 3, 2, 4));  tmp_36 = None
+        tmp_38 = tmp_26.transpose(1, 2);  tmp_26 = None
+        tmp_39 = w_5.transpose(-1, -2);  w_5 = None
+        matmul_2 = tmp_38 @ tmp_39;  tmp_38 = tmp_39 = None
+        tmp_41 = matmul_2.reshape(-1, 4, 23);  matmul_2 = None
+        tmp_42 = torch.nn.functional.pad(tmp_41, [0, 1], 'constant', None);  tmp_41 = None
+        tmp_43 = tmp_42.flatten(1);  tmp_42 = None
+        tmp_44 = torch.nn.functional.pad(tmp_43, [0, 19], 'constant', None);  tmp_43 = None
+        tmp_45 = tmp_44.reshape(-1, 5, 23);  tmp_44 = None
+        tmp_46 = tmp_45[(slice(None, None, None), slice(None, 4, None), slice(11, None, None))];  tmp_45 = None
+        tmp_47 = tmp_46.reshape(32, 4, 1, 4, 12);  tmp_46 = None
+        tmp_48 = tmp_47.expand(-1, -1, 12, -1, -1);  tmp_47 = None
+        tmp_49 = tmp_48.permute((0, 3, 1, 4, 2));  tmp_48 = None
+        tmp_50 = tmp_49 + tmp_37;  tmp_49 = tmp_37 = None
+        tmp_51 = tmp_50.reshape(8, 4, 16, -1);  tmp_50 = None
+        tmp_52 = tmp_25 + tmp_51;  tmp_25 = tmp_51 = None
+        tmp_53 = tmp_52.softmax(dim = -1);  tmp_52 = None
+        matmul_3 = tmp_53 @ tmp_22;  tmp_53 = tmp_22 = None
+        tmp_55 = matmul_3.transpose(1, 3);  matmul_3 = None
+        tmp_56 = tmp_55.reshape(-1, 4, 4, 2, 2);  tmp_55 = None
+        tmp_57 = tmp_56.permute(0, 3, 1, 4, 2);  tmp_56 = None
+        tmp_58 = tmp_57.contiguous();  tmp_57 = None
+        tmp_59 = tmp_58.view(1, 512, 8, 8);  tmp_58 = None
+        tmp_60 = torch.nn.functional.batch_norm(tmp_59, w_0, w_1, w_3, w_2, False, 0.1, 1e-05);  tmp_59 = w_0 = w_1 = w_3 = w_2 = None
+        tmp_61 = torch.nn.functional.silu(tmp_60, inplace = True);  tmp_60 = None
+        return (tmp_61,)
+        

@@ -1,0 +1,64 @@
+{
+    "samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256": [
+        [
+            48,
+            50
+        ],
+        [
+            70,
+            72
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CvtForImageClassification": [
+        [
+            188,
+            190
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SwinForImageClassification": [
+        [
+            32,
+            34
+        ],
+        [
+            165,
+            167
+        ],
+        [
+            223,
+            225
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2ForImageClassification": [
+        [
+            41,
+            43
+        ],
+        [
+            266,
+            268
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2Model": [
+        [
+            266,
+            268
+        ]
+    ],
+    "samples/transformers-auto-model/vuiseng9_tiny-random-SwinModel": [
+        [
+            223,
+            225
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-SwinModel": [
+        [
+            165,
+            167
+        ],
+        [
+            223,
+            225
+        ]
+    ]
+}

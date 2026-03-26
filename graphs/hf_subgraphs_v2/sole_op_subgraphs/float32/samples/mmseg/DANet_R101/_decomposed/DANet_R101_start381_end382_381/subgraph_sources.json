@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/DANet_R101": [
+        [
+            381,
+            382
+        ]
+    ],
+    "samples/mmseg/DANet_R50": [
+        [
+            211,
+            212
+        ]
+    ]
+}

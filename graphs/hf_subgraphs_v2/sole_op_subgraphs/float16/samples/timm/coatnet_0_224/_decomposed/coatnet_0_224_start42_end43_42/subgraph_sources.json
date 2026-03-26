@@ -1,0 +1,78 @@
+{
+    "samples/timm/coatnet_0_224": [
+        [
+            42,
+            43
+        ]
+    ],
+    "samples/timm/coatnet_1_224": [
+        [
+            42,
+            43
+        ]
+    ],
+    "samples/timm/coatnet_3_224": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/coatnet_4_224": [
+        [
+            9,
+            10
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_3_rw_224": [
+        [
+            10,
+            11
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/timm/efficientnetv2_rw_t.ra2_in1k": [
+        [
+            283,
+            284
+        ]
+    ],
+    "samples/timm/fbnetv3_d.ra2_in1k": [
+        [
+            292,
+            293
+        ]
+    ],
+    "samples/timm/hgnet_small.paddle_in1k": [
+        [
+            119,
+            120
+        ]
+    ],
+    "samples/timm/hgnetv2_b2.ssld_stage1_in22k_in1k": [
+        [
+            214,
+            215
+        ]
+    ],
+    "samples/timm/mobileone_s3.apple_in1k": [
+        [
+            283,
+            284
+        ]
+    ],
+    "samples/timm/rexnet_100.nav_in1k": [
+        [
+            175,
+            176
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256": [
+        [
+            201,
+            202
+        ]
+    ]
+}

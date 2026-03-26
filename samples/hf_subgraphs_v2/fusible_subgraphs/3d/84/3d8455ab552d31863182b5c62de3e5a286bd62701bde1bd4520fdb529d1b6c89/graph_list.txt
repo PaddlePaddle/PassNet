@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/4/samples/mmseg/ICNet_R101/_decomposed/ICNet_R101_start395_end398_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/mmseg/ICNet_R101/_decomposed/ICNet_R101_start395_end398_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/mmseg/ICNet_R101/_decomposed/ICNet_R101_start395_end398_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/mmseg/ICNet_R101/_decomposed/ICNet_R101_start395_end398_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/mmseg/ICNet_R101/_decomposed/ICNet_R101_start395_end398_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/mmseg/ICNet_R101/_decomposed/ICNet_R101_start395_end398_2

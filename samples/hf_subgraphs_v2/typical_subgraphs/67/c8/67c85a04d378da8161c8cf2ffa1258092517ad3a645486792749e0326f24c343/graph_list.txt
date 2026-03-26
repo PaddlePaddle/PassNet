@@ -1,0 +1,14 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SegformerForImageClassification_start250_end269_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification/_decomposed/hf-tiny-model-private_tiny-random-SegformerForImageClassification_start250_end269_30
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512/_decomposed/segformer-b0-finetuned-ade-512-512_start250_end269_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start250_end269_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/2/samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512/_decomposed/segformer-b0-finetuned-ade-512-512_start250_end269_30
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512/_decomposed/segformer-b0-finetuned-ade-512-512_start250_end269_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/nvidia_mit-b0/_decomposed/nvidia_mit-b0_start250_end269_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512/_decomposed/segformer-b0-finetuned-ade-512-512_start250_end269_30
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start1970_end1989_288
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start1970_end1989_288
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start250_end269_30
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start1970_end1989_288
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/transformers-auto-model/nvidia_mit-b1/_decomposed/nvidia_mit-b1_start250_end269_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start1970_end1989_288

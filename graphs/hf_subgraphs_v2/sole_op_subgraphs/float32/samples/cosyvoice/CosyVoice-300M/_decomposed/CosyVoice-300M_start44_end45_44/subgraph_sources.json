@@ -1,0 +1,412 @@
+{
+    "samples/cosyvoice/CosyVoice-300M": [
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/cosyvoice/CosyVoice2-0.5B": [
+        [
+            44,
+            45
+        ]
+    ],
+    "samples/torchaudio/squim_objective": [
+        [
+            5,
+            6
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            55,
+            56
+        ]
+    ],
+    "samples/transformers-auto-model/CLAck_en-vi": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/ELiRF_NASCA": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/ELiRF_mbart-large-cc25-dacsa-ca": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/Farid59_nllb-darija-fr_eng": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-NORTH_EU-NORTH_EU": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-aed-es": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-af-es": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-en-zh": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Helsinki-NLP_opus-mt-zh-en": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/IDEA-Research_grounding-dino-tiny": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-1.3B": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-125M": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-355M": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/MohamedZaitoon_bart-fine-tune": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/NYTK_summarization-hi-bart-base-1024-hungarian": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/NeNeDataScientist_NeNeAI007_fr-kiluba-translation": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-heb-eng": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-hye-eng": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-ron-eng": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-tur-eng": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Neurora_opus-tatoeba-zho-eng": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/Nextcloud-AI_opus-mt-ar-es": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_bart-large-finetuned-eLife": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/SpaceCowboy03_finetuned-kde4-es-to-fr": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/amurienne_kellag-m2m100-v0.2": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/baidu/ERNIE-4.5-0.3B-PT": [
+        [
+            93,
+            94
+        ]
+    ],
+    "samples/transformers-auto-model/breadlicker45_autotrain-blender-50601120822": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/deepseek-ai/deepseek-coder-1.3b-base": [
+        [
+            77,
+            78
+        ]
+    ],
+    "samples/transformers-auto-model/echarlaix_bart-base-cnn-r2-18.7-d23-hybrid": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_bart-large-cnn": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_xglm-564M": [
+        [
+            27,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/flutter-painter_nllb-fra-fuf-v2": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-1b-it": [
+        [
+            150,
+            151
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-270m": [
+        [
+            150,
+            151
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-cnn_dailymail": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/google_pegasus-xsum": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/gpssohi_distilbart-qgen-6-6": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BartForSequenceClassification": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-LEDForSequenceClassification": [
+        [
+            18,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MBartForSequenceClassification": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MvpForSequenceClassification": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OPTForSequenceClassification": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PLBartForSequenceClassification": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/hyesunyun_NonsenseUpdateDiffIntBart": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/jackieliu930_bart-large-cnn-samsum": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/kannt-im_marian-finetuned-kde4-en-to-fr": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/Phi-3-mini-4k-instruct": [
+        [
+            88,
+            89
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/Phi-3.5-mini-instruct": [
+        [
+            52,
+            53
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/Phi-4-mini-instruct": [
+        [
+            58,
+            59
+        ]
+    ],
+    "samples/transformers-auto-model/moussaKam_barthez-orangesum-abstract": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/navteca_bart-large-mnli": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/ncoop57_bart-base-code-summarizer-java-v0": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/noamr_bert-finetuned-ner": [
+        [
+            29,
+            30
+        ]
+    ],
+    "samples/transformers-auto-model/openai_whisper-base": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/philschmid_bart-base-samsum": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/sbulut_finetuned-kde4-en-to-tr": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/sheshkar_cmon2": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/sismetanin_mbart_ru_sum_gazeta-ru-sentiment-liniscrowd": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distilbart-cnn-12-6": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/sshleifer_distill-pegasus-xsum-16-4": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-1": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/valhalla_distilbart-mnli-12-3": [
+        [
+            20,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/voxreality_src_ctx_aware_nllb_1.3B": [
+        [
+            30,
+            31
+        ]
+    ]
+}

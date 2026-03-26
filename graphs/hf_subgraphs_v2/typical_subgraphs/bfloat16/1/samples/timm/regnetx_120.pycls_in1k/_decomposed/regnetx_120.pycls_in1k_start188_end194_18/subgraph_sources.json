@@ -1,0 +1,20 @@
+{
+    "samples/timm/regnetx_120.pycls_in1k": [
+        [
+            188,
+            194
+        ]
+    ],
+    "samples/timm/regnety_008.pycls_in1k": [
+        [
+            70,
+            76
+        ]
+    ],
+    "samples/timm/regnety_008_tv.tv2_in1k": [
+        [
+            70,
+            76
+        ]
+    ]
+}

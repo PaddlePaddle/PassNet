@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/resnetv2_101.a1h_in1k/_decomposed/resnetv2_101.a1h_in1k_start172_end176_31
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/timm/resnetv2_101.a1h_in1k/_decomposed/resnetv2_101.a1h_in1k_start172_end176_31
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/resnetv2_101.a1h_in1k/_decomposed/resnetv2_101.a1h_in1k_start102_end106_17
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/timm/resnetv2_101.a1h_in1k/_decomposed/resnetv2_101.a1h_in1k_start102_end106_17
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/timm/resnetv2_101.a1h_in1k/_decomposed/resnetv2_101.a1h_in1k_start172_end176_31
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/timm/resnetv2_101.a1h_in1k/_decomposed/resnetv2_101.a1h_in1k_start172_end176_31

@@ -1,0 +1,9 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/mmpose/2xrsn_50/_decomposed/2xrsn_50_start1190_end1194_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/mmpose/2xrsn_50/_decomposed/2xrsn_50_start1488_end1492_37
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/mmpose/2xrsn_50/_decomposed/2xrsn_50_start1190_end1194_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/mmpose/2xrsn_50/_decomposed/2xrsn_50_start1488_end1492_37
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/mmpose/2xrsn_50/_decomposed/2xrsn_50_start1190_end1194_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/mmpose/2xrsn_50/_decomposed/2xrsn_50_start1488_end1492_37
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/mmpose/2xrsn_50/_decomposed/2xrsn_50_start1190_end1194_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/mmpose/2xrsn_50/_decomposed/2xrsn_50_start1190_end1194_30
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/mmpose/2xrsn_50/_decomposed/2xrsn_50_start1190_end1194_30

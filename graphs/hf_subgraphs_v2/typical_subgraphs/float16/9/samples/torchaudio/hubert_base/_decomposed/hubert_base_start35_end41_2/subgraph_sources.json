@@ -1,0 +1,18 @@
+{
+    "samples/torchaudio/hubert_base": [
+        [
+            35,
+            41
+        ]
+    ],
+    "samples/torchaudio/squim_subjective": [
+        [
+            36,
+            42
+        ],
+        [
+            342,
+            348
+        ]
+    ]
+}

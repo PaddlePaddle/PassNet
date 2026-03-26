@@ -1,0 +1,8 @@
+{
+    "samples/timm/resnest50d_1s4x24d.in1k": [
+        [
+            160,
+            164
+        ]
+    ]
+}

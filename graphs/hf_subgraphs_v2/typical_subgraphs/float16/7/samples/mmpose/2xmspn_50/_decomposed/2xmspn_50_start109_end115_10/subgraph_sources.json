@@ -1,0 +1,716 @@
+{
+    "samples/mmpose/2xmspn_50": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/3xmspn_50": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/4xmspn_50": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_101": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_101_rle": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_152": [
+        [
+            15,
+            21
+        ],
+        [
+            107,
+            113
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_152_rle": [
+        [
+            15,
+            21
+        ],
+        [
+            107,
+            113
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_50": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_50_rle": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/ipr_resnet_50": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/mspn_50": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/pose_hrnet_w32": [
+        [
+            17,
+            23
+        ]
+    ],
+    "samples/mmpose/pose_hrnetv2_w18_dark": [
+        [
+            17,
+            23
+        ]
+    ],
+    "samples/mmpose/pose_resnet_101": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/pose_resnet_152": [
+        [
+            15,
+            21
+        ],
+        [
+            107,
+            113
+        ]
+    ],
+    "samples/mmpose/pose_resnet_50": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_101": [
+        [
+            21,
+            27
+        ],
+        [
+            117,
+            123
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_152": [
+        [
+            21,
+            27
+        ],
+        [
+            114,
+            120
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_50": [
+        [
+            21,
+            27
+        ],
+        [
+            117,
+            123
+        ]
+    ],
+    "samples/mmpose/pose_seresnet_101": [
+        [
+            137,
+            143
+        ]
+    ],
+    "samples/mmpose/pose_seresnet_152": [
+        [
+            135,
+            141
+        ]
+    ],
+    "samples/mmpose/pose_seresnet_50": [
+        [
+            137,
+            143
+        ]
+    ],
+    "samples/mmpose/simcc_resnet_50": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmseg/ANN_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/ANN_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/APCNet_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/APCNet_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R50": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/mmseg/CCNet_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/CCNet_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/DANet_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/DANet_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/DMNet_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/DMNet_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/DNLNet_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/DNLNet_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/EMANet_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/EMANet_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/FCN_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/FCN_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/FastFCN_psp": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/GCNet_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/GCNet_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18": [
+        [
+            17,
+            23
+        ]
+    ],
+    "samples/mmseg/HRNetV2p-W18-Small": [
+        [
+            17,
+            23
+        ]
+    ],
+    "samples/mmseg/ICNet_R101": [
+        [
+            31,
+            37
+        ]
+    ],
+    "samples/mmseg/ICNet_R50": [
+        [
+            31,
+            37
+        ]
+    ],
+    "samples/mmseg/K-Net_fcn": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/NonLocalNet_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            17,
+            23
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            17,
+            23
+        ]
+    ],
+    "samples/mmseg/PSPNet_R101": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/PSPNet_R50": [
+        [
+            21,
+            27
+        ]
+    ],
+    "samples/mmseg/SemanticFPN_R50": [
+        [
+            21,
+            27
+        ],
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/UPerNet_R101": [
+        [
+            21,
+            27
+        ],
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/mmseg/UPerNet_R50": [
+        [
+            21,
+            27
+        ],
+        [
+            115,
+            121
+        ]
+    ],
+    "samples/timm/dla102.in1k": [
+        [
+            21,
+            27
+        ],
+        [
+            66,
+            72
+        ],
+        [
+            91,
+            97
+        ],
+        [
+            116,
+            122
+        ],
+        [
+            172,
+            178
+        ],
+        [
+            197,
+            203
+        ],
+        [
+            222,
+            228
+        ],
+        [
+            247,
+            253
+        ],
+        [
+            272,
+            278
+        ],
+        [
+            297,
+            303
+        ],
+        [
+            322,
+            328
+        ]
+    ],
+    "samples/timm/dla169.in1k": [
+        [
+            22,
+            28
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            92,
+            98
+        ],
+        [
+            117,
+            123
+        ],
+        [
+            142,
+            148
+        ],
+        [
+            199,
+            205
+        ],
+        [
+            224,
+            230
+        ],
+        [
+            249,
+            255
+        ],
+        [
+            274,
+            280
+        ],
+        [
+            299,
+            305
+        ],
+        [
+            324,
+            330
+        ],
+        [
+            349,
+            355
+        ],
+        [
+            374,
+            380
+        ],
+        [
+            399,
+            405
+        ],
+        [
+            424,
+            430
+        ],
+        [
+            449,
+            455
+        ],
+        [
+            474,
+            480
+        ],
+        [
+            499,
+            505
+        ],
+        [
+            524,
+            530
+        ],
+        [
+            549,
+            555
+        ]
+    ],
+    "samples/timm/dla46_c.in1k": [
+        [
+            21,
+            27
+        ],
+        [
+            61,
+            67
+        ],
+        [
+            113,
+            119
+        ]
+    ],
+    "samples/timm/dla60.in1k": [
+        [
+            21,
+            27
+        ],
+        [
+            63,
+            69
+        ],
+        [
+            116,
+            122
+        ],
+        [
+            140,
+            146
+        ],
+        [
+            164,
+            170
+        ]
+    ],
+    "samples/timm/legacy_seresnet101.in1k": [
+        [
+            21,
+            27
+        ],
+        [
+            169,
+            175
+        ]
+    ],
+    "samples/timm/legacy_seresnet152.in1k": [
+        [
+            21,
+            27
+        ],
+        [
+            167,
+            173
+        ]
+    ],
+    "samples/timm/legacy_seresnet50.in1k": [
+        [
+            21,
+            27
+        ],
+        [
+            169,
+            175
+        ]
+    ],
+    "samples/timm/resnetaa50.a1h_in1k": [
+        [
+            101,
+            107
+        ]
+    ],
+    "samples/timm/resnetblur50.bt_in1k": [
+        [
+            105,
+            111
+        ]
+    ],
+    "samples/timm/resnetblur50d": [
+        [
+            113,
+            119
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet101": [
+        [
+            15,
+            21
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet50": [
+        [
+            15,
+            21
+        ]
+    ],
+    "samples/torchvision/resnet101": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ],
+    "samples/torchvision/resnet152": [
+        [
+            15,
+            21
+        ],
+        [
+            107,
+            113
+        ]
+    ],
+    "samples/torchvision/resnet50": [
+        [
+            15,
+            21
+        ],
+        [
+            109,
+            115
+        ]
+    ]
+}

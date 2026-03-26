@@ -1,0 +1,28 @@
+{
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-small-uncased-tokenized": [
+        [
+            38,
+            43
+        ],
+        [
+            67,
+            72
+        ],
+        [
+            96,
+            101
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-512_A-8": [
+        [
+            165,
+            170
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            165,
+            170
+        ]
+    ]
+}

@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64/_decomposed/ARTeLab_it5-summarization-fanpage-64_start1022_end1023_1022
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64/_decomposed/ARTeLab_it5-summarization-fanpage-64_start1022_end1023_1022
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/eva02_base_patch14_224.mim_in22k/_decomposed/eva02_base_patch14_224.mim_in22k_start102_end103_102
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/timm/eva02_base_patch14_224.mim_in22k/_decomposed/eva02_base_patch14_224.mim_in22k_start102_end103_102
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/google/gemma-3-1b-it/_decomposed/gemma-3-1b-it_start78_end79_78
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/google/gemma-3-1b-it/_decomposed/gemma-3-1b-it_start78_end79_78

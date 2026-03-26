@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256/_decomposed/siglip2-giant-opt-patch16-256_start974_end1028_13
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-384/_decomposed/siglip2-giant-opt-patch16-384_start974_end1028_13
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/google/siglip2-giant-opt-patch16-256/_decomposed/siglip2-giant-opt-patch16-256_start974_end1028_13

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/SpaceCowboy03_finetuned-kde4-es-to-fr": [
+        [
+            1,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/moussaKam_barthez-orangesum-abstract": [
+        [
+            1,
+            11
+        ]
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "samples/timm/dla102.in1k": [
+        [
+            378,
+            380
+        ]
+    ],
+    "samples/timm/dla34.in1k": [
+        [
+            133,
+            135
+        ]
+    ],
+    "samples/timm/dpn107.mx_in1k": [
+        [
+            517,
+            519
+        ]
+    ],
+    "samples/timm/dpn48b": [
+        [
+            235,
+            237
+        ]
+    ],
+    "samples/timm/dpn68.mx_in1k": [
+        [
+            335,
+            337
+        ]
+    ],
+    "samples/timm/dpn68b.mx_in1k": [
+        [
+            313,
+            315
+        ]
+    ],
+    "samples/timm/resnetv2_101.a1h_in1k": [
+        [
+            340,
+            342
+        ]
+    ],
+    "samples/timm/resnetv2_18.ra4_e3600_r224_in1k": [
+        [
+            65,
+            67
+        ]
+    ]
+}

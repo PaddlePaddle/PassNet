@@ -1,0 +1,56 @@
+{
+    "samples/torchvision/regnet_x_16gf": [
+        [
+            14,
+            20
+        ]
+    ],
+    "samples/torchvision/regnet_x_32gf": [
+        [
+            14,
+            20
+        ]
+    ],
+    "samples/torchvision/regnet_x_3_2gf": [
+        [
+            14,
+            20
+        ]
+    ],
+    "samples/torchvision/regnet_x_8gf": [
+        [
+            36,
+            42
+        ],
+        [
+            46,
+            52
+        ],
+        [
+            56,
+            62
+        ],
+        [
+            66,
+            72
+        ]
+    ],
+    "samples/torchvision/regnet_y_128gf": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/torchvision/regnet_y_16gf": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/torchvision/regnet_y_1_6gf": [
+        [
+            20,
+            26
+        ]
+    ]
+}

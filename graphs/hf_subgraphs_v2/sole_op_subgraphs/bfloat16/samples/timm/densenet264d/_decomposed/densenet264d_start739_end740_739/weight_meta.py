@@ -1,0 +1,208 @@
+class Program_weight_tensor_meta_input_13:
+	name = "in_0"
+	original_name = "input_13"
+	shape = [1, 1728, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_100:
+	name = "in_1"
+	original_name = "new_features_100"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_101:
+	name = "in_2"
+	original_name = "new_features_101"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_82:
+	name = "in_3"
+	original_name = "new_features_82"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_83:
+	name = "in_4"
+	original_name = "new_features_83"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_84:
+	name = "in_5"
+	original_name = "new_features_84"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_85:
+	name = "in_6"
+	original_name = "new_features_85"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_86:
+	name = "in_7"
+	original_name = "new_features_86"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_87:
+	name = "in_8"
+	original_name = "new_features_87"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_88:
+	name = "in_9"
+	original_name = "new_features_88"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_89:
+	name = "in_10"
+	original_name = "new_features_89"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_90:
+	name = "in_11"
+	original_name = "new_features_90"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_91:
+	name = "in_12"
+	original_name = "new_features_91"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_92:
+	name = "in_13"
+	original_name = "new_features_92"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_93:
+	name = "in_14"
+	original_name = "new_features_93"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_94:
+	name = "in_15"
+	original_name = "new_features_94"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_95:
+	name = "in_16"
+	original_name = "new_features_95"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_96:
+	name = "in_17"
+	original_name = "new_features_96"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_97:
+	name = "in_18"
+	original_name = "new_features_97"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_98:
+	name = "in_19"
+	original_name = "new_features_98"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_new_features_99:
+	name = "in_20"
+	original_name = "new_features_99"
+	shape = [1, 48, 7, 7]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000

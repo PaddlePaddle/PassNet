@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/opus-mt-bem-fi": [
+        [
+            43,
+            46
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-afa-fra_ita_por_spa": [
+        [
+            43,
+            46
+        ]
+    ]
+}

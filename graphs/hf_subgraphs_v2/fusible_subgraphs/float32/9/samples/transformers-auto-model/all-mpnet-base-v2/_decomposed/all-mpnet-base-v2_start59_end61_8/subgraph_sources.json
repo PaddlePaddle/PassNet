@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/all-mpnet-base-v2": [
+        [
+            59,
+            61
+        ],
+        [
+            89,
+            91
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel": [
+        [
+            67,
+            69
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/1/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/6/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start126_end131_16

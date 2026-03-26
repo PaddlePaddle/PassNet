@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/timm/efficientnet_el.ra_in1k/_decomposed/efficientnet_el.ra_in1k_start208_end211_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/timm/efficientnet_el.ra_in1k/_decomposed/efficientnet_el.ra_in1k_start208_end211_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/timm/efficientnet_el.ra_in1k/_decomposed/efficientnet_el.ra_in1k_start208_end211_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/timm/efficientnet_el.ra_in1k/_decomposed/efficientnet_el.ra_in1k_start208_end211_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/timm/efficientnet_el.ra_in1k/_decomposed/efficientnet_el.ra_in1k_start208_end211_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/timm/efficientnet_el.ra_in1k/_decomposed/efficientnet_el.ra_in1k_start208_end211_10

@@ -1,0 +1,54 @@
+{
+    "samples/transformers-auto-model/IDEA-Research_grounding-dino-base": [
+        [
+            2,
+            3
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            97,
+            98
+        ]
+    ],
+    "samples/transformers-auto-model/fushh7_llmdet_swin_tiny_hf": [
+        [
+            2,
+            3
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            97,
+            98
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification": [
+        [
+            108,
+            118
+        ],
+        [
+            137,
+            147
+        ]
+    ]
+}

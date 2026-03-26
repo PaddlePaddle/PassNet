@@ -1,0 +1,36 @@
+{
+    "samples/timm/mambaout_femto.in1k": [
+        [
+            237,
+            238
+        ],
+        [
+            251,
+            252
+        ],
+        [
+            265,
+            266
+        ]
+    ],
+    "samples/timm/mambaout_kobe.in1k": [
+        [
+            321,
+            322
+        ],
+        [
+            335,
+            336
+        ],
+        [
+            349,
+            350
+        ]
+    ],
+    "samples/timm/rdnet_base.nv_in1k": [
+        [
+            75,
+            76
+        ]
+    ]
+}

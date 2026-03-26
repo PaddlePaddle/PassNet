@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/mmarco-mMiniLMv2-L12-H384-v1": [
+        [
+            288,
+            294
+        ]
+    ],
+    "samples/transformers-auto-model/nli-MiniLM2-L6-H768": [
+        [
+            156,
+            162
+        ]
+    ],
+    "samples/transformers-auto-model/nli-roberta-base": [
+        [
+            288,
+            294
+        ]
+    ],
+    "samples/transformers-auto-model/quora-roberta-large": [
+        [
+            552,
+            558
+        ]
+    ]
+}

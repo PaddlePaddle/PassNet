@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/timm/resnetblur50.bt_in1k/_decomposed/resnetblur50.bt_in1k_start2_end6_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/resnetblur50.bt_in1k/_decomposed/resnetblur50.bt_in1k_start2_end6_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/timm/resnetblur50.bt_in1k/_decomposed/resnetblur50.bt_in1k_start2_end6_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/timm/resnetblur50.bt_in1k/_decomposed/resnetblur50.bt_in1k_start2_end6_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/timm/resnetblur50.bt_in1k/_decomposed/resnetblur50.bt_in1k_start2_end6_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/4/samples/timm/resnetblur50.bt_in1k/_decomposed/resnetblur50.bt_in1k_start2_end6_0

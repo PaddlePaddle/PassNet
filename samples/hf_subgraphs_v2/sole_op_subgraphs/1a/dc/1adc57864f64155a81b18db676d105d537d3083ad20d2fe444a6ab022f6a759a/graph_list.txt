@@ -1,0 +1,10 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32/_decomposed/DatologyAI_cls-opt-vit-b-32_start18_end19_18
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32/_decomposed/DatologyAI_cls-opt-vit-b-32_start14_end15_14
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32/_decomposed/DatologyAI_cls-opt-vit-b-32_start14_end15_14
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/google_pix2struct-base/_decomposed/google_pix2struct-base_start101_end102_101
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/google_pix2struct-base/_decomposed/google_pix2struct-base_start101_end102_101
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/Q-MM_clip-vit-large-patch14-336/_decomposed/Q-MM_clip-vit-large-patch14-336_start1031_end1032_1031
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/apple_aimv2-large-patch14-224-lit/_decomposed/apple_aimv2-large-patch14-224-lit_start902_end903_902
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/PeterBanning71_long-t5-tfg/_decomposed/PeterBanning71_long-t5-tfg_start1045_end1046_1045
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/torchgeometric/GAE/_decomposed/GAE_start24_end25_24
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/torchgeometric/GAE/_decomposed/GAE_start24_end25_24

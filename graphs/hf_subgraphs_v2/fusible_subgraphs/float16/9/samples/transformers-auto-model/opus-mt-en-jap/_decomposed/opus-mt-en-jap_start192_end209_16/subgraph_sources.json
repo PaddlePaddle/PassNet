@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/opus-mt-en-jap": [
+        [
+            192,
+            209
+        ]
+    ],
+    "samples/transformers-auto-model/opus-mt-tc-bible-big-cel-deu_eng_fra_por_spa": [
+        [
+            192,
+            209
+        ]
+    ]
+}

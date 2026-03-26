@@ -1,0 +1,32 @@
+{
+    "samples/timm/regnety_080.pycls_in1k": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/timm/regnety_080_tv.tv2_in1k": [
+        [
+            268,
+            269
+        ]
+    ],
+    "samples/timm/regnetz_b16.ra3_in1k": [
+        [
+            303,
+            304
+        ]
+    ],
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            26,
+            27
+        ]
+    ],
+    "samples/torchvision/regnet_y_8gf": [
+        [
+            270,
+            271
+        ]
+    ]
+}

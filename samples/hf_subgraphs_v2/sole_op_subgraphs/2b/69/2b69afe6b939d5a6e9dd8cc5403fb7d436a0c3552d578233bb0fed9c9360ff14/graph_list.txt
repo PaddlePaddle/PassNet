@@ -1,0 +1,7 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/eca_halonext26ts/_decomposed/eca_halonext26ts_start112_end113_112
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/timm/eca_halonext26ts/_decomposed/eca_halonext26ts_start112_end113_112
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/eca_halonext26ts/_decomposed/eca_halonext26ts_start111_end112_111
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/timm/eca_halonext26ts/_decomposed/eca_halonext26ts_start111_end112_111
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/thuml_timer-base-84m/_decomposed/thuml_timer-base-84m_start0_end1_0
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/thuml_sundial-base-128m/_decomposed/thuml_sundial-base-128m_start3_end4_3
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/thuml_sundial-base-128m/_decomposed/thuml_sundial-base-128m_start3_end4_3

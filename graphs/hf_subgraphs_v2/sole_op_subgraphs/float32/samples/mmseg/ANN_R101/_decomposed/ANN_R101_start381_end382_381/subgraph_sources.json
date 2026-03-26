@@ -1,0 +1,60 @@
+{
+    "samples/mmseg/ANN_R101": [
+        [
+            381,
+            382
+        ],
+        [
+            430,
+            431
+        ]
+    ],
+    "samples/mmseg/ANN_R50": [
+        [
+            211,
+            212
+        ],
+        [
+            260,
+            261
+        ]
+    ],
+    "samples/mmseg/ISANet_R101": [
+        [
+            375,
+            376
+        ],
+        [
+            408,
+            409
+        ]
+    ],
+    "samples/mmseg/ISANet_R50": [
+        [
+            205,
+            206
+        ],
+        [
+            238,
+            239
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            388,
+            389
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            1185,
+            1186
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            602,
+            603
+        ]
+    ]
+}

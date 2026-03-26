@@ -1,0 +1,18 @@
+class Program_weight_tensor_meta_cls_tokens_3:
+	name = "in_0"
+	original_name = "cls_tokens_3"
+	shape = [1, 1, 152]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.004
+
+
+class Program_weight_tensor_meta_x_110:
+	name = "in_1"
+	original_name = "x_110"
+	shape = [1, 49, 152]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.000
+	std = 1.000

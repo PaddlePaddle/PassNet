@@ -1,0 +1,9 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosModel/_decomposed/hf-tiny-model-private_tiny-random-YolosModel_start52_end59_4
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosModel/_decomposed/hf-tiny-model-private_tiny-random-YolosModel_start80_end87_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-YolosModel/_decomposed/hf-tiny-model-private_tiny-random-YolosModel_start52_end59_4
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection/_decomposed/nickmuchi_yolos-small-plant-disease-detection_start108_end115_12
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hustvl_yolos-small/_decomposed/hustvl_yolos-small_start80_end87_8
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection/_decomposed/nickmuchi_yolos-small-plant-disease-detection_start164_end171_20
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/transformers-auto-model/nickmuchi_yolos-small-plant-disease-detection/_decomposed/nickmuchi_yolos-small-plant-disease-detection_start304_end311_40
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/hustvl_yolos-base/_decomposed/hustvl_yolos-base_start304_end311_40
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/hustvl_yolos-small/_decomposed/hustvl_yolos-small_start304_end311_40

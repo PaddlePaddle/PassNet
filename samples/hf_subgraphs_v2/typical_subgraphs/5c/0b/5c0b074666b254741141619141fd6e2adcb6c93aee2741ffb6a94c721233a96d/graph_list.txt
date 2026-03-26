@@ -1,0 +1,10 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start0_end12_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start0_end12_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start0_end12_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start0_end12_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start0_end12_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/6/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start0_end12_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start0_end12_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start0_end12_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start0_end12_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/transformers-auto-model/jhu-clsp_ettin-decoder-150m/_decomposed/jhu-clsp_ettin-decoder-150m_start0_end12_0

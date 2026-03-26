@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/mmseg/PIDNet-s/_decomposed/PIDNet-s_start249_end257_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/mmseg/PIDNet-s/_decomposed/PIDNet-s_start249_end257_21
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/mmseg/PIDNet-s/_decomposed/PIDNet-s_start249_end257_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/mmseg/PIDNet-s/_decomposed/PIDNet-s_start249_end257_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/6/samples/mmseg/PIDNet-s/_decomposed/PIDNet-s_start249_end257_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/mmseg/PIDNet-s/_decomposed/PIDNet-s_start249_end257_21

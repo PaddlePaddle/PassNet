@@ -1,0 +1,14 @@
+{
+    "samples/timm/mixnet_m.ft_in1k": [
+        [
+            413,
+            414
+        ]
+    ],
+    "samples/timm/repghostnet_150.in1k": [
+        [
+            110,
+            111
+        ]
+    ]
+}

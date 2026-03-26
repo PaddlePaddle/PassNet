@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/torchvision/resnet101/_decomposed/resnet101_start340_end345_44
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/torchvision/resnet101/_decomposed/resnet101_start340_end345_44
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/torchvision/resnet101/_decomposed/resnet101_start340_end345_44
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/torchvision/resnet101/_decomposed/resnet101_start340_end345_44
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/torchvision/resnet101/_decomposed/resnet101_start340_end345_44
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/torchvision/resnet101/_decomposed/resnet101_start340_end345_44

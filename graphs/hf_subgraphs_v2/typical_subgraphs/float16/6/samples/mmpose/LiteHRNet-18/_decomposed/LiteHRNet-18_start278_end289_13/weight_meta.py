@@ -1,0 +1,38 @@
+class Program_weight_tensor_meta_s_28:
+	name = "in_0"
+	original_name = "s_28"
+	shape = [128, 20, 64, 48]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 1.088
+	std = 1.044
+
+
+class Program_weight_tensor_meta_s_29:
+	name = "in_1"
+	original_name = "s_29"
+	shape = [128, 40, 32, 24]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 0.511
+	std = 0.617
+
+
+class Program_weight_tensor_meta_s_30:
+	name = "in_2"
+	original_name = "s_30"
+	shape = [128, 80, 16, 12]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 0.204
+	std = 0.198
+
+
+class Program_weight_tensor_meta_x_121:
+	name = "in_3"
+	original_name = "x_121"
+	shape = [128, 140, 16, 12]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = -0.036
+	std = 1.003

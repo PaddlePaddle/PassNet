@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/transformers-auto-model/face-parsing/_decomposed/face-parsing_start2096_end2102_74

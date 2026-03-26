@@ -1,0 +1,44 @@
+{
+    "samples/mmpose/pose_cspnext_l": [
+        [
+            123,
+            130
+        ]
+    ],
+    "samples/mmpose/pose_cspnext_m": [
+        [
+            150,
+            157
+        ]
+    ],
+    "samples/mmpose/rtmpose-l": [
+        [
+            123,
+            130
+        ]
+    ],
+    "samples/mmpose/rtmpose-m": [
+        [
+            150,
+            157
+        ]
+    ],
+    "samples/mmpose/rtmw-l": [
+        [
+            123,
+            130
+        ]
+    ],
+    "samples/mmpose/rtmw-m": [
+        [
+            150,
+            157
+        ]
+    ],
+    "samples/mmpose/rtmw-x": [
+        [
+            153,
+            160
+        ]
+    ]
+}

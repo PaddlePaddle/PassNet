@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmpose/ipr_resnet_50/_decomposed/ipr_resnet_50_start186_end187_186
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmpose/ipr_resnet_50/_decomposed/ipr_resnet_50_start186_end187_186
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/rdnet_base.nv_in1k/_decomposed/rdnet_base.nv_in1k_start101_end102_101
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/timm/rdnet_base.nv_in1k/_decomposed/rdnet_base.nv_in1k_start101_end102_101
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmseg/ConvNeXt-B/_decomposed/ConvNeXt-B_start101_end102_101
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmseg/ConvNeXt-B/_decomposed/ConvNeXt-B_start101_end102_101

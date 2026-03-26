@@ -1,0 +1,34 @@
+{
+    "samples/timm/eva02_large_patch14_224.mim_in22k": [
+        [
+            47,
+            50
+        ],
+        [
+            103,
+            106
+        ]
+    ],
+    "samples/timm/eva02_large_patch14_clip_224.merged2b": [
+        [
+            47,
+            50
+        ],
+        [
+            104,
+            107
+        ]
+    ],
+    "samples/timm/vit_large_patch14_clip_224.datacompxl": [
+        [
+            16,
+            19
+        ]
+    ],
+    "samples/timm/vit_large_patch14_clip_quickgelu_224.dfn2b": [
+        [
+            16,
+            19
+        ]
+    ]
+}

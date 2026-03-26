@@ -1,0 +1,154 @@
+{
+    "samples/timm/hardcorenas_a.miil_green_in1k": [
+        [
+            21,
+            28
+        ],
+        [
+            44,
+            51
+        ]
+    ],
+    "samples/timm/hardcorenas_b.miil_green_in1k": [
+        [
+            21,
+            28
+        ]
+    ],
+    "samples/timm/hardcorenas_c.miil_green_in1k": [
+        [
+            21,
+            28
+        ]
+    ],
+    "samples/timm/hardcorenas_d.miil_green_in1k": [
+        [
+            13,
+            20
+        ],
+        [
+            27,
+            34
+        ],
+        [
+            42,
+            49
+        ],
+        [
+            56,
+            63
+        ],
+        [
+            71,
+            78
+        ]
+    ],
+    "samples/timm/hardcorenas_e.miil_green_in1k": [
+        [
+            13,
+            20
+        ],
+        [
+            27,
+            34
+        ],
+        [
+            42,
+            49
+        ],
+        [
+            56,
+            63
+        ],
+        [
+            71,
+            78
+        ],
+        [
+            86,
+            93
+        ]
+    ],
+    "samples/timm/hardcorenas_f.miil_green_in1k": [
+        [
+            13,
+            20
+        ],
+        [
+            27,
+            34
+        ],
+        [
+            42,
+            49
+        ],
+        [
+            56,
+            63
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_100.miil_in21k": [
+        [
+            31,
+            38
+        ],
+        [
+            45,
+            52
+        ],
+        [
+            60,
+            67
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_150d.ra4_e3600_r256_in1k": [
+        [
+            46,
+            53
+        ],
+        [
+            60,
+            67
+        ],
+        [
+            75,
+            82
+        ],
+        [
+            90,
+            97
+        ]
+    ],
+    "samples/timm/mobilenetv3_rw.rmsp_in1k": [
+        [
+            30,
+            37
+        ],
+        [
+            44,
+            51
+        ],
+        [
+            59,
+            66
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_050.lamb_in1k": [
+        [
+            5,
+            12
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_075.lamb_in1k": [
+        [
+            5,
+            12
+        ]
+    ],
+    "samples/timm/mobilenetv3_small_100.lamb_in1k": [
+        [
+            5,
+            12
+        ]
+    ]
+}

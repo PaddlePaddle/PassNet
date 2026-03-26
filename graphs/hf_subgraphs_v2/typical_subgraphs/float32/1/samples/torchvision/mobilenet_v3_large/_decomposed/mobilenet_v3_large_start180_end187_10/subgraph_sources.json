@@ -1,0 +1,14 @@
+{
+    "samples/torchvision/mobilenet_v3_large": [
+        [
+            180,
+            187
+        ]
+    ],
+    "samples/torchvision/mobilenet_v3_small": [
+        [
+            150,
+            157
+        ]
+    ]
+}

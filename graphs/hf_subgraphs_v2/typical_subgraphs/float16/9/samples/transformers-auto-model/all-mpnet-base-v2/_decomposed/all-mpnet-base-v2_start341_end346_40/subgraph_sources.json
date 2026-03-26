@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/all-mpnet-base-v2": [
+        [
+            341,
+            346
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_mpnet-base": [
+        [
+            341,
+            346
+        ]
+    ],
+    "samples/transformers-auto-model/nghuyong_ernie-2.0-base-en": [
+        [
+            298,
+            303
+        ]
+    ],
+    "samples/transformers-auto-model/ogoshi2000_stance-nystromformer": [
+        [
+            320,
+            325
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/all-mpnet-base-v1": [
+        [
+            341,
+            346
+        ]
+    ]
+}

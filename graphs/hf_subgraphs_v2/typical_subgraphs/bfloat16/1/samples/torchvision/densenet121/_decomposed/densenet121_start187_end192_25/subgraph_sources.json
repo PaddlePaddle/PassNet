@@ -1,0 +1,42 @@
+{
+    "samples/torchvision/densenet121": [
+        [
+            187,
+            192
+        ],
+        [
+            360,
+            365
+        ]
+    ],
+    "samples/torchvision/densenet161": [
+        [
+            187,
+            192
+        ],
+        [
+            444,
+            449
+        ]
+    ],
+    "samples/torchvision/densenet169": [
+        [
+            187,
+            192
+        ],
+        [
+            416,
+            421
+        ]
+    ],
+    "samples/torchvision/densenet201": [
+        [
+            187,
+            192
+        ],
+        [
+            528,
+            533
+        ]
+    ]
+}

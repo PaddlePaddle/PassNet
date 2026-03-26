@@ -1,0 +1,4 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmseg/SegNeXt-b/_decomposed/SegNeXt-b_start861_end862_861
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmseg/SegNeXt-b/_decomposed/SegNeXt-b_start861_end862_861
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmseg/SegNeXt-b/_decomposed/SegNeXt-b_start853_end854_853
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmseg/SegNeXt-b/_decomposed/SegNeXt-b_start853_end854_853

@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ErnieMForSequenceClassification": [
+        [
+            45,
+            63
+        ],
+        [
+            75,
+            93
+        ],
+        [
+            105,
+            123
+        ],
+        [
+            135,
+            153
+        ]
+    ]
+}

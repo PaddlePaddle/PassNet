@@ -1,0 +1,42 @@
+{
+    "samples/timm/mixnet_l.ft_in1k": [
+        [
+            34,
+            35
+        ]
+    ],
+    "samples/timm/mixnet_m.ft_in1k": [
+        [
+            76,
+            77
+        ],
+        [
+            106,
+            107
+        ],
+        [
+            136,
+            137
+        ]
+    ],
+    "samples/timm/mixnet_s.ft_in1k": [
+        [
+            67,
+            68
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            127,
+            128
+        ]
+    ],
+    "samples/timm/mixnet_xl.ra_in1k": [
+        [
+            9,
+            10
+        ]
+    ]
+}

@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/nemo/parakeet-ctc-0.6b/_decomposed/parakeet-ctc-0.6b_start39_end40_39
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/kanarya-750m/_decomposed/kanarya-750m_start107_end108_107
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/fcakyon_timesformer-large-finetuned-k400/_decomposed/fcakyon_timesformer-large-finetuned-k400_start113_end114_113
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/fcakyon_timesformer-large-finetuned-k400/_decomposed/fcakyon_timesformer-large-finetuned-k400_start113_end114_113
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float32/samples/transformers-auto-model/fcakyon_timesformer-hr-finetuned-k400/_decomposed/fcakyon_timesformer-hr-finetuned-k400_start113_end114_113
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/openai_whisper-base/_decomposed/openai_whisper-base_start2_end3_2

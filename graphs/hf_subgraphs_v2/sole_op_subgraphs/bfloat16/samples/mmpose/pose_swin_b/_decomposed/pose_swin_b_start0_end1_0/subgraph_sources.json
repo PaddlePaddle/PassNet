@@ -1,0 +1,290 @@
+{
+    "samples/mmpose/pose_swin_b": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_swin_l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmpose/pose_swin_t": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-B": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-L": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-S": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-T": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-XL": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Swin-b": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_fpn": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_uperhead": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_fpn": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_uperhead": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_fpn": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_uperhead": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_uperhead": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_uperhead": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/AkshatSurolia_ConvNeXt-FaceMask-Finetuned": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_convnext-base-384-22k-1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_convnext-large-224-22k-1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_convnext-small-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_convnext-xlarge-224-22k-1k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_vit-msn-base-4": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/gagan3012_swin_arocr_tiny": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvNextModel": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvNextV2Model": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/ibombonato_swin-age-classifier": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-large-patch4-window12-384-in22k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-large-patch4-window7-224-in22k": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-small-patch4-window7-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-tiny-patch4-window7-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-base": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-base-lrf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-small": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-small-lrf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-tiny": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/nielsr_focalnet-tiny-lrf": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/zuppif_maskformer-swin-small-ade": [
+        [
+            0,
+            1
+        ]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "samples/nemo/stt_en_conformer_ctc_medium": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/nemo/stt_en_fastconformer_hybrid_medium_streaming_80ms_pc": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/nemo/stt_en_squeezeformer_ctc_small_medium_ls": [
+        [
+            21,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-small-printed": [
+        [
+            326,
+            327
+        ]
+    ]
+}

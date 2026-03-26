@@ -1,0 +1,56 @@
+{
+    "samples/mmpose/ipr_resnet_50": [
+        [
+            170,
+            172
+        ]
+    ],
+    "samples/mmpose/pose_hourglass_52": [
+        [
+            204,
+            206
+        ],
+        [
+            220,
+            222
+        ],
+        [
+            236,
+            238
+        ]
+    ],
+    "samples/mmpose/pose_resnest_101": [
+        [
+            880,
+            882
+        ]
+    ],
+    "samples/mmpose/simcc_resnet_50": [
+        [
+            170,
+            172
+        ]
+    ],
+    "samples/mmseg/SemanticFPN_R50": [
+        [
+            176,
+            178
+        ]
+    ],
+    "samples/timm/dla102.in1k": [
+        [
+            35,
+            37
+        ],
+        [
+            140,
+            142
+        ]
+    ],
+    "samples/timm/dla169.in1k": [
+        [
+            166,
+            168
+        ]
+    ]
+}

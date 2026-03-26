@@ -1,0 +1,54 @@
+{
+    "samples/transformers-auto-model/DeepChem_ChemBERTa-10M-MLM": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/Dr-BERT_CAS-Biomedical-POS-Tagging": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/EMBEDDIA_litlat-bert": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/HooshvareLab_roberta-fa-zwnj-base-ner": [
+        [
+            0,
+            1
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-base-patch16": [
+        [
+            432,
+            433
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-base-patch32": [
+        [
+            432,
+            433
+        ]
+    ],
+    "samples/transformers-auto-model/google/owlvit-large-patch14": [
+        [
+            852,
+            853
+        ]
+    ],
+    "samples/transformers-auto-model/ogoshi2000_stance-nystromformer": [
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ]
+    ]
+}

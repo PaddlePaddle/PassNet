@@ -1,0 +1,92 @@
+{
+    "samples/timm/efficientnet_el.ra_in1k": [
+        [
+            208,
+            212
+        ]
+    ],
+    "samples/timm/efficientnet_em.ra2_in1k": [
+        [
+            184,
+            188
+        ]
+    ],
+    "samples/timm/efficientnet_es.ra_in1k": [
+        [
+            140,
+            144
+        ]
+    ],
+    "samples/timm/fbnetc_100.rmsp_in1k": [
+        [
+            188,
+            192
+        ]
+    ],
+    "samples/timm/legacy_xception.tf_in1k": [
+        [
+            164,
+            168
+        ]
+    ],
+    "samples/timm/mixnet_l.ft_in1k": [
+        [
+            517,
+            521
+        ]
+    ],
+    "samples/timm/mixnet_m.ft_in1k": [
+        [
+            517,
+            521
+        ]
+    ],
+    "samples/timm/mixnet_s.ft_in1k": [
+        [
+            417,
+            421
+        ]
+    ],
+    "samples/timm/mixnet_xl.ra_in1k": [
+        [
+            644,
+            648
+        ]
+    ],
+    "samples/timm/mnasnet_100.rmsp_in1k": [
+        [
+            148,
+            152
+        ]
+    ],
+    "samples/timm/mnasnet_small.lamb_in1k": [
+        [
+            192,
+            196
+        ]
+    ],
+    "samples/timm/mobilenet_edgetpu_v2_m.ra4_e3600_r224_in1k": [
+        [
+            152,
+            156
+        ]
+    ],
+    "samples/timm/semnasnet_075.rmsp_in1k": [
+        [
+            187,
+            191
+        ]
+    ],
+    "samples/timm/semnasnet_100.rmsp_in1k": [
+        [
+            187,
+            191
+        ]
+    ],
+    "samples/timm/spnasnet_100.rmsp_in1k": [
+        [
+            184,
+            188
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CanineForSequenceClassification": [
+        [
+            69,
+            70
+        ],
+        [
+            70,
+            71
+        ]
+    ]
+}

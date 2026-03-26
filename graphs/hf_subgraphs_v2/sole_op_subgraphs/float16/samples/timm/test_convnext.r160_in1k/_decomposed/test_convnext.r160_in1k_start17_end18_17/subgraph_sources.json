@@ -1,0 +1,26 @@
+{
+    "samples/timm/test_convnext.r160_in1k": [
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/timm/test_efficientnet_ln.r160_in1k": [
+        [
+            2,
+            3
+        ],
+        [
+            17,
+            18
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/timm/regnetx_002.pycls_in1k": [
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/timm/regnety_002.pycls_in1k": [
+        [
+            42,
+            43
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_regnet-x-002": [
+        [
+            50,
+            51
+        ]
+    ]
+}

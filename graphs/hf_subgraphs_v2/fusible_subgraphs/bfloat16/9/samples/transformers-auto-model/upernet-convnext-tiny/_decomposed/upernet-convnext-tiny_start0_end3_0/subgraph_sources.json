@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/upernet-convnext-tiny": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            9
+        ]
+    ]
+}

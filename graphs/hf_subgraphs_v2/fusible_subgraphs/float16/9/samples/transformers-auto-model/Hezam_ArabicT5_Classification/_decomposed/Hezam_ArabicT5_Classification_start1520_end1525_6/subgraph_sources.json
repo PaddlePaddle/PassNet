@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/Hezam_ArabicT5_Classification": [
+        [
+            1520,
+            1525
+        ]
+    ],
+    "samples/transformers-auto-model/cahya_t5-base-indonesian-summarization-cased": [
+        [
+            920,
+            925
+        ]
+    ],
+    "samples/transformers-auto-model/google-t5_t5-large": [
+        [
+            1820,
+            1825
+        ]
+    ],
+    "samples/transformers-auto-model/google_t5-efficient-tiny": [
+        [
+            320,
+            325
+        ]
+    ],
+    "samples/transformers-auto-model/mesolitica_ner-t5-small-standard-bahasa-cased": [
+        [
+            776,
+            781
+        ]
+    ]
+}

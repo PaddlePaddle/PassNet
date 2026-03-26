@@ -1,0 +1,412 @@
+{
+    "samples/transformers-auto-model/EleutherAI_pythia-1b": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/IDEA-Research_dab-detr-resnet-50": [
+        [
+            886,
+            887
+        ],
+        [
+            1111,
+            1112
+        ]
+    ],
+    "samples/transformers-auto-model/TinyLlama/TinyLlama-1.1B-Chat-v0.4": [
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/all-MiniLM-L6-v2": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/transformers-auto-model/andyluan_emotion-detection": [
+        [
+            24,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/baidu/ERNIE-4.5-0.3B-PT": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/bigscience/bloom-560m": [
+        [
+            24,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/binery_Table_detection_MS_E_14": [
+        [
+            433,
+            434
+        ],
+        [
+            677,
+            678
+        ]
+    ],
+    "samples/transformers-auto-model/bloom-560m": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/bloom-tiny-random": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/bloomz-1b1": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/bloomz-1b7": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/cmarkea_bloomz-560m-nli": [
+        [
+            24,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/davidhajdu_dab_detr_finetuned_cppe5": [
+        [
+            887,
+            888
+        ],
+        [
+            1112,
+            1113
+        ]
+    ],
+    "samples/transformers-auto-model/deepseek-ai/deepseek-coder-1.3b-base": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/detr-resnet-101-panoptic": [
+        [
+            1550,
+            1551
+        ],
+        [
+            1794,
+            1795
+        ]
+    ],
+    "samples/transformers-auto-model/detr-resnet-50-dc5-panoptic": [
+        [
+            870,
+            871
+        ],
+        [
+            1114,
+            1115
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101": [
+        [
+            1549,
+            1550
+        ],
+        [
+            1793,
+            1794
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-101-dc5": [
+        [
+            1549,
+            1550
+        ],
+        [
+            1793,
+            1794
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_detr-resnet-50": [
+        [
+            869,
+            870
+        ],
+        [
+            1113,
+            1114
+        ]
+    ],
+    "samples/transformers-auto-model/falcon-tiny-random": [
+        [
+            8,
+            9
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-1.1-2b-it": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-2b-it": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-1b-it": [
+        [
+            15,
+            16
+        ],
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/google/gemma-3-270m": [
+        [
+            15,
+            16
+        ],
+        [
+            30,
+            31
+        ]
+    ],
+    "samples/transformers-auto-model/google_pix2struct-base": [
+        [
+            36,
+            37
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            158,
+            159
+        ],
+        [
+            219,
+            220
+        ],
+        [
+            280,
+            281
+        ],
+        [
+            341,
+            342
+        ],
+        [
+            402,
+            403
+        ],
+        [
+            463,
+            464
+        ],
+        [
+            524,
+            525
+        ],
+        [
+            585,
+            586
+        ],
+        [
+            646,
+            647
+        ],
+        [
+            707,
+            708
+        ],
+        [
+            766,
+            767
+        ],
+        [
+            774,
+            775
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BloomForSequenceClassification": [
+        [
+            24,
+            25
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConditionalDetrForObjectDetection": [
+        [
+            869,
+            870
+        ],
+        [
+            959,
+            960
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PerceiverForImageClassificationConvProcessing": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PerceiverForImageClassificationFourier": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-PerceiverForImageClassificationLearned": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/intelia-lab-uah_bloomz-560m_AE_SQAC": [
+        [
+            25,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/Phi-3-mini-4k-instruct": [
+        [
+            15,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1_5": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            12,
+            13
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_conditional-detr-resnet-50": [
+        [
+            869,
+            870
+        ],
+        [
+            1113,
+            1114
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-detection": [
+        [
+            433,
+            434
+        ],
+        [
+            678,
+            679
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_table-transformer-structure-recognition": [
+        [
+            433,
+            434
+        ],
+        [
+            678,
+            679
+        ]
+    ],
+    "samples/transformers-auto-model/openai-community/gpt2": [
+        [
+            17,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_cdetr-cd45rb-s": [
+        [
+            869,
+            870
+        ],
+        [
+            1125,
+            1126
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r101-cd45rb-8ah-6l-256d-4096ffn": [
+        [
+            1549,
+            1550
+        ],
+        [
+            1805,
+            1806
+        ]
+    ],
+    "samples/transformers-auto-model/polejowska_detr-r50-cd45rb-4ah-6l": [
+        [
+            869,
+            870
+        ],
+        [
+            1131,
+            1132
+        ]
+    ],
+    "samples/transformers-auto-model/prathmeshrmadhu_detr-finetuned-odorv3": [
+        [
+            749,
+            750
+        ],
+        [
+            993,
+            994
+        ]
+    ],
+    "samples/transformers-auto-model/rice-rice_detr-resnet-50_finetuned_dataset": [
+        [
+            869,
+            870
+        ],
+        [
+            1119,
+            1120
+        ]
+    ],
+    "samples/transformers-auto-model/venishpatidar_wa-ad-mod": [
+        [
+            24,
+            25
+        ]
+    ]
+}

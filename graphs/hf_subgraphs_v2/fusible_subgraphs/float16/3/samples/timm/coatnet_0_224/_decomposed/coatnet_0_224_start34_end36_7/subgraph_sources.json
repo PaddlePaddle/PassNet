@@ -1,0 +1,14 @@
+{
+    "samples/timm/coatnet_0_224": [
+        [
+            34,
+            36
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256": [
+        [
+            77,
+            79
+        ]
+    ]
+}

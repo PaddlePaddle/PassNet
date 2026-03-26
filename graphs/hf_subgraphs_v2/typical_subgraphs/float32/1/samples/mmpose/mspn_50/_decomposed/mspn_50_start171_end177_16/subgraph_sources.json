@@ -1,0 +1,26 @@
+{
+    "samples/mmpose/mspn_50": [
+        [
+            171,
+            177
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            376,
+            382
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18": [
+        [
+            1173,
+            1179
+        ]
+    ],
+    "samples/mmseg/OCRNet_hr18s": [
+        [
+            590,
+            596
+        ]
+    ]
+}

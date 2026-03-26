@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/falcon-tiny-random": [
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            98,
+            99
+        ]
+    ]
+}

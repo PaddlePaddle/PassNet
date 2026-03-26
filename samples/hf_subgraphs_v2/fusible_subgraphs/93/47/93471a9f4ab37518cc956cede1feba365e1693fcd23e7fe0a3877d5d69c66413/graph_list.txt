@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/mmseg/DMNet_R101/_decomposed/DMNet_R101_start392_end397_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/mmseg/DMNet_R101/_decomposed/DMNet_R101_start392_end397_8
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/mmseg/DMNet_R101/_decomposed/DMNet_R101_start392_end397_8

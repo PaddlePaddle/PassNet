@@ -1,0 +1,32 @@
+{
+    "samples/timm/eva02_large_patch14_224.mim_in22k": [
+        [
+            52,
+            54
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            566,
+            568
+        ]
+    ],
+    "samples/timm/vit_large_patch16_224.augreg_in21k": [
+        [
+            20,
+            22
+        ],
+        [
+            216,
+            218
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-large-patch16-256": [
+        [
+            80,
+            82
+        ]
+    ]
+}

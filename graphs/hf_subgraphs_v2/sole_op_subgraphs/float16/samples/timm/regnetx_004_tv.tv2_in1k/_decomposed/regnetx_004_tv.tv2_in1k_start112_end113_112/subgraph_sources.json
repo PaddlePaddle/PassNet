@@ -1,0 +1,14 @@
+{
+    "samples/timm/regnetx_004_tv.tv2_in1k": [
+        [
+            112,
+            113
+        ]
+    ],
+    "samples/torchvision/regnet_x_400mf": [
+        [
+            114,
+            115
+        ]
+    ]
+}

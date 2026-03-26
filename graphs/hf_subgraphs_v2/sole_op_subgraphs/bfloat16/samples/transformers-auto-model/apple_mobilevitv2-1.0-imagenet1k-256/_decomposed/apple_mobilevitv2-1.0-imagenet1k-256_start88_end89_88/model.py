@@ -1,0 +1,10 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, in_0 : torch.Tensor):
+        tmp_0 = torch.nn.functional.fold(in_0, output_size = (32, 32), kernel_size = (2, 2), stride = (2, 2));  in_0 = None
+        return (tmp_0,)
+        

@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Sayan01_tiny-bert-sst2-distilled": [
+        [
+            0,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-TinyBERT-L4": [
+        [
+            0,
+            17
+        ]
+    ]
+}

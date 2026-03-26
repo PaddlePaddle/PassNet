@@ -1,0 +1,14 @@
+{
+    "samples/torchaudio/hubert_large": [
+        [
+            39,
+            42
+        ]
+    ],
+    "samples/torchaudio/wav2vec2_xlsr_300m": [
+        [
+            39,
+            42
+        ]
+    ]
+}

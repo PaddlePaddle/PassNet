@@ -1,0 +1,14 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start297_end299_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start297_end299_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start297_end299_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start297_end299_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start297_end299_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start297_end299_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start297_end299_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start297_end299_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/mmpose/rtmpose-l/_decomposed/rtmpose-l_start297_end299_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start159_end161_22
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/google/gemma-1.1-2b-it/_decomposed/gemma-1.1-2b-it_start100_end102_12
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start159_end161_22
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start159_end161_22
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/HuggingFaceTB/SmolLM3-3B/_decomposed/SmolLM3-3B_start159_end161_22

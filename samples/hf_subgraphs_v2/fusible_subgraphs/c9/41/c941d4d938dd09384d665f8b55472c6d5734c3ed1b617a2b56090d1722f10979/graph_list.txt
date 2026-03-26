@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start142_end146_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start142_end146_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start142_end146_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start142_end146_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start142_end146_5
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/timm/dla102.in1k/_decomposed/dla102.in1k_start142_end146_5

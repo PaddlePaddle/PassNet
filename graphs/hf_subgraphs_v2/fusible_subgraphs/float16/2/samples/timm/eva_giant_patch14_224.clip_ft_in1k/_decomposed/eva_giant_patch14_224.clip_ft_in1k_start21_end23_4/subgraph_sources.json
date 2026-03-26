@@ -1,0 +1,22 @@
+{
+    "samples/timm/eva_giant_patch14_224.clip_ft_in1k": [
+        [
+            21,
+            23
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            226,
+            228
+        ]
+    ],
+    "samples/timm/vit_giant_patch16_gap_224.in22k_ijepa": [
+        [
+            214,
+            216
+        ]
+    ]
+}

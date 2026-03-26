@@ -1,0 +1,8 @@
+class Program_weight_tensor_meta_reference_1:
+	name = "in_0"
+	original_name = "reference_1"
+	shape = [1, 900, 4]
+	dtype = "torch.bfloat16"
+	device = "cuda:0"
+	mean = 0.400
+	std = 0.058

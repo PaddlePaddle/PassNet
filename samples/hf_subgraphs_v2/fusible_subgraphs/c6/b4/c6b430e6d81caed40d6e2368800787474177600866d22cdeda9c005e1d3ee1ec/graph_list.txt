@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/6/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/timm/gmlp_s16_224.ra3_in1k/_decomposed/gmlp_s16_224.ra3_in1k_start0_end3_0

@@ -1,0 +1,42 @@
+{
+    "samples/transformers-auto-model/Finnish-NLP_convbert-base-generator-finnish": [
+        [
+            18,
+            20
+        ],
+        [
+            69,
+            71
+        ]
+    ],
+    "samples/transformers-auto-model/YituTech_conv-bert-base": [
+        [
+            17,
+            19
+        ],
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/emrecan_convbert-base-turkish-mc4-cased-allnli_tr": [
+        [
+            17,
+            19
+        ],
+        [
+            68,
+            70
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ConvBertForSequenceClassification": [
+        [
+            18,
+            20
+        ],
+        [
+            69,
+            71
+        ]
+    ]
+}

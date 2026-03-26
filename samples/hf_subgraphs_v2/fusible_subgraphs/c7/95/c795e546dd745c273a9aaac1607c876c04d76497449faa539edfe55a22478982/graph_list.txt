@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/timm/fbnetv3_b.ra2_in1k/_decomposed/fbnetv3_b.ra2_in1k_start55_end57_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/timm/fbnetv3_b.ra2_in1k/_decomposed/fbnetv3_b.ra2_in1k_start55_end57_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/timm/fbnetv3_b.ra2_in1k/_decomposed/fbnetv3_b.ra2_in1k_start55_end57_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/3/samples/timm/fbnetv3_b.ra2_in1k/_decomposed/fbnetv3_b.ra2_in1k_start55_end57_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/timm/fbnetv3_b.ra2_in1k/_decomposed/fbnetv3_b.ra2_in1k_start55_end57_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/0/samples/timm/fbnetv3_b.ra2_in1k/_decomposed/fbnetv3_b.ra2_in1k_start55_end57_0

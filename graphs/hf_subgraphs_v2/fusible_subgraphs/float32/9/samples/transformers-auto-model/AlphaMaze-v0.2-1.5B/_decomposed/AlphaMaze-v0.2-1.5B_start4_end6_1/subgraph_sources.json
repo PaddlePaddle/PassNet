@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/AlphaMaze-v0.2-1.5B": [
+        [
+            4,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/ZR1-1.5B": [
+        [
+            4,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/gemma-3-1b-pt": [
+        [
+            6,
+            8
+        ]
+    ]
+}

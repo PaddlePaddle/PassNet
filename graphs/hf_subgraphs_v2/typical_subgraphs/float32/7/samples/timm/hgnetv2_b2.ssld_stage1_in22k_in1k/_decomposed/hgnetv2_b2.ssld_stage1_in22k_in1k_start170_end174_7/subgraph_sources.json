@@ -1,0 +1,22 @@
+{
+    "samples/timm/hgnetv2_b2.ssld_stage1_in22k_in1k": [
+        [
+            170,
+            174
+        ],
+        [
+            210,
+            214
+        ]
+    ],
+    "samples/timm/hgnetv2_b3.ssld_stage1_in22k_in1k": [
+        [
+            194,
+            198
+        ],
+        [
+            241,
+            245
+        ]
+    ]
+}

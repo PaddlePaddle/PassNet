@@ -1,0 +1,28 @@
+{
+    "samples/transformers-auto-model/gagan3012_swin_arocr_tiny": [
+        [
+            420,
+            422
+        ],
+        [
+            876,
+            878
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2ForImageClassification": [
+        [
+            22,
+            24
+        ],
+        [
+            247,
+            249
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Swinv2Model": [
+        [
+            247,
+            249
+        ]
+    ]
+}

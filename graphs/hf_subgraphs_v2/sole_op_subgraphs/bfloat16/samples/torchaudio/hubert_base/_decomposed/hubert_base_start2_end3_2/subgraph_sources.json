@@ -1,0 +1,90 @@
+{
+    "samples/torchaudio/hubert_base": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/torchaudio/squim_subjective": [
+        [
+            3,
+            4
+        ],
+        [
+            309,
+            310
+        ]
+    ],
+    "samples/torchaudio/wav2vec2_large": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/torchaudio/wavlm_base": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/907508196l_wavlm-libri-clean-100h-base-plus-finetuned-ks": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/Rajaram1996_Hubert_emotion": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/SHENMU007_neunit-ks-ertong-chengren": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/anton-l_distilhubert-ft-common-language": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/dima806_music_genres_classification": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_wav2vec2-base-960h": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/mazkooleg_0-9up-wavlm-base-plus-ft": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/optimum_hubert-base-superb-ks": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/pipecat-ai_smart-turn-v2": [
+        [
+            2,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/reralle_wav2vec2_s-f-o_8batch_5sec_0.0001lr_unfrozen": [
+        [
+            2,
+            3
+        ]
+    ]
+}

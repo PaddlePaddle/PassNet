@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/OttoYu_Tree-ConditionHK": [
+        [
+            90,
+            94
+        ]
+    ],
+    "samples/transformers-auto-model/ibombonato_swin-age-classifier": [
+        [
+            90,
+            94
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_swin-large-patch4-window7-224-in22k": [
+        [
+            90,
+            94
+        ]
+    ]
+}

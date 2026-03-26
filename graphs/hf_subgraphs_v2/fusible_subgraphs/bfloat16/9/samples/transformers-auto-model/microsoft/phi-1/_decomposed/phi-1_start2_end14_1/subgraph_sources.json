@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/microsoft/phi-1": [
+        [
+            2,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-1_5": [
+        [
+            2,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft/phi-2": [
+        [
+            2,
+            14
+        ]
+    ]
+}

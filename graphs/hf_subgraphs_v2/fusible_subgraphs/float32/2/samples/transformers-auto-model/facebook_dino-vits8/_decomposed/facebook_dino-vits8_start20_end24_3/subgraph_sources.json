@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/facebook_dino-vits8": [
+        [
+            20,
+            24
+        ],
+        [
+            46,
+            50
+        ]
+    ]
+}

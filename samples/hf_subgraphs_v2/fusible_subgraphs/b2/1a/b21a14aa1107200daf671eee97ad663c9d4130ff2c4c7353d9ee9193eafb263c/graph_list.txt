@@ -1,0 +1,15 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/0/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k/_decomposed/KBLab_megatron-bert-base-swedish-cased-600k_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification/_decomposed/hf-tiny-model-private_tiny-random-MegatronBertForSequenceClassification_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/transformers-auto-model/AI-Nordics_bert-large-swedish-cased/_decomposed/AI-Nordics_bert-large-swedish-cased_start5_end12_1
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/transformers-auto-model/Mahmoud8_bigbird-roberta-base/_decomposed/Mahmoud8_bigbird-roberta-base_start5_end12_1

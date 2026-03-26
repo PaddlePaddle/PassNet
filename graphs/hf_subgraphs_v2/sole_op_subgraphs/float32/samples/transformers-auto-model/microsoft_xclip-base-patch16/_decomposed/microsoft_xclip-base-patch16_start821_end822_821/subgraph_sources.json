@@ -1,0 +1,52 @@
+{
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16": [
+        [
+            821,
+            822
+        ],
+        [
+            827,
+            828
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16-zero-shot": [
+        [
+            755,
+            756
+        ],
+        [
+            760,
+            761
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32": [
+        [
+            821,
+            822
+        ],
+        [
+            827,
+            828
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32-16-frames": [
+        [
+            755,
+            756
+        ],
+        [
+            760,
+            761
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-large-patch14": [
+        [
+            1589,
+            1590
+        ],
+        [
+            1595,
+            1596
+        ]
+    ]
+}

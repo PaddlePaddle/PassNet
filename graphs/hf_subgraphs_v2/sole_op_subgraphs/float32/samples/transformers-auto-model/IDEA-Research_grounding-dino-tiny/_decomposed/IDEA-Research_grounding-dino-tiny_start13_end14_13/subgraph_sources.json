@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/IDEA-Research_grounding-dino-tiny": [
+        [
+            4,
+            5
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_sam-vit-base": [
+        [
+            923,
+            924
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_sam-vit-huge": [
+        [
+            2383,
+            2384
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_sam-vit-large": [
+        [
+            1799,
+            1800
+        ]
+    ]
+}

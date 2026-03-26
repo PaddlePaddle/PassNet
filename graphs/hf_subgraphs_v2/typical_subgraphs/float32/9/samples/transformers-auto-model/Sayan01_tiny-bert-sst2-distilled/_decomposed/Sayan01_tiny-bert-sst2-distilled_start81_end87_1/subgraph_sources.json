@@ -1,0 +1,44 @@
+{
+    "samples/transformers-auto-model/Sayan01_tiny-bert-sst2-distilled": [
+        [
+            81,
+            87
+        ]
+    ],
+    "samples/transformers-auto-model/ckiplab_albert-tiny-chinese-ner": [
+        [
+            16,
+            22
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            58,
+            64
+        ],
+        [
+            79,
+            85
+        ]
+    ],
+    "samples/transformers-auto-model/garNER_albert-tiny-spanish-es-LM": [
+        [
+            16,
+            22
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            58,
+            64
+        ],
+        [
+            79,
+            85
+        ]
+    ]
+}

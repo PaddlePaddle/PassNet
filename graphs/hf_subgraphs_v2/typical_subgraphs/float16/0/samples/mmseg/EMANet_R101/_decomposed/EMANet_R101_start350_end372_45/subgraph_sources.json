@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/EMANet_R101": [
+        [
+            350,
+            372
+        ]
+    ],
+    "samples/mmseg/EMANet_R50": [
+        [
+            180,
+            202
+        ]
+    ]
+}

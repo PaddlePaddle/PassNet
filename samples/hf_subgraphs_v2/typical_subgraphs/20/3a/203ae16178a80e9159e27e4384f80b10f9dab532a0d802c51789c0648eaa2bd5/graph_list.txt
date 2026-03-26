@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/timm/dla60.in1k/_decomposed/dla60.in1k_start87_end91_7
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/timm/dla60.in1k/_decomposed/dla60.in1k_start87_end91_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/timm/dla60.in1k/_decomposed/dla60.in1k_start87_end91_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/timm/dla60.in1k/_decomposed/dla60.in1k_start87_end91_7
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/timm/dla60.in1k/_decomposed/dla60.in1k_start87_end91_7
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/timm/dla60.in1k/_decomposed/dla60.in1k_start87_end91_7

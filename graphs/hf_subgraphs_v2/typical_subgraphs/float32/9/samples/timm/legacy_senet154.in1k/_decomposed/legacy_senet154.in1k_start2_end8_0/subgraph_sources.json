@@ -1,0 +1,8 @@
+{
+    "samples/timm/legacy_senet154.in1k": [
+        [
+            2,
+            8
+        ]
+    ]
+}

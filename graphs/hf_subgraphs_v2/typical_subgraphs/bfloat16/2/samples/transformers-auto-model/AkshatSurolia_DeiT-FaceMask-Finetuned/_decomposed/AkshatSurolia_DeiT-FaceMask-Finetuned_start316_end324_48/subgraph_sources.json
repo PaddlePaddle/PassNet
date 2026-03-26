@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/AkshatSurolia_DeiT-FaceMask-Finetuned": [
+        [
+            316,
+            324
+        ]
+    ],
+    "samples/transformers-auto-model/adhisetiawan_vit-resisc45": [
+        [
+            315,
+            323
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dino-vitb8": [
+        [
+            315,
+            323
+        ]
+    ]
+}

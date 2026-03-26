@@ -1,0 +1,2 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/ultralytics/yolov10l/_decomposed/yolov10l_start672_end673_672
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/ultralytics/yolov10l/_decomposed/yolov10l_start672_end673_672

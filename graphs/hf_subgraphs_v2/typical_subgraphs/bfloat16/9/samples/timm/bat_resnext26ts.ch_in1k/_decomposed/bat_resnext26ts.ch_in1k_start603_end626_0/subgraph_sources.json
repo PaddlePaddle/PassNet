@@ -1,0 +1,12 @@
+{
+    "samples/timm/bat_resnext26ts.ch_in1k": [
+        [
+            603,
+            626
+        ],
+        [
+            651,
+            674
+        ]
+    ]
+}

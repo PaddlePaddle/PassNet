@@ -1,0 +1,79 @@
+class Program_weight_tensor_meta_L_self_modules_backbone_modules_layers_modules_23_modules_ffn_modules_layers_modules_1_parameters_bias_:
+	name = "w_0"
+	original_name = "L_self_modules_backbone_modules_layers_modules_23_modules_ffn_modules_layers_modules_1_parameters_bias_"
+	shape = [1024]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.355
+
+
+class Program_weight_tensor_meta_L_self_modules_backbone_modules_layers_modules_23_modules_ffn_modules_layers_modules_1_parameters_weight_:
+	name = "w_1"
+	original_name = "L_self_modules_backbone_modules_layers_modules_23_modules_ffn_modules_layers_modules_1_parameters_weight_"
+	shape = [1024, 4096]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.013
+
+
+class Program_weight_tensor_meta_L_self_modules_backbone_modules_ln1_parameters_bias_:
+	name = "w_2"
+	original_name = "L_self_modules_backbone_modules_ln1_parameters_bias_"
+	shape = [1024]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.455
+	std = 0.287
+
+
+class Program_weight_tensor_meta_L_self_modules_backbone_modules_ln1_parameters_weight_:
+	name = "w_3"
+	original_name = "L_self_modules_backbone_modules_ln1_parameters_weight_"
+	shape = [1024]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.235
+	std = 0.190
+
+
+class Program_weight_tensor_meta_L_self_modules_head_modules_final_layer_parameters_bias_:
+	name = "w_4"
+	original_name = "L_self_modules_head_modules_final_layer_parameters_bias_"
+	shape = [17]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+	data = [-0.000015, -0.000004, -0.000010, -0.000018, -0.000029, 0.000023, -0.000007, 0.000010, -0.000010, 0.000021, 0.000009, 0.000018, 0.000011, 0.000048, 0.000010, 0.000059, 0.000024]
+
+
+class Program_weight_tensor_meta_L_self_modules_head_modules_final_layer_parameters_weight_:
+	name = "w_5"
+	original_name = "L_self_modules_head_modules_final_layer_parameters_weight_"
+	shape = [17, 1024, 3, 3]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.011
+
+
+class Program_weight_tensor_meta_input_116:
+	name = "in_0"
+	original_name = "input_116"
+	shape = [1, 192, 4096]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -1.114
+	std = 0.170
+
+
+class Program_weight_tensor_meta_x_123:
+	name = "in_1"
+	original_name = "x_123"
+	shape = [1, 192, 1024]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.375
+	std = 0.587

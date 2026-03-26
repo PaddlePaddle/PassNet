@@ -1,0 +1,14 @@
+{
+    "samples/timm/ghostnet_100.in1k": [
+        [
+            76,
+            77
+        ]
+    ],
+    "samples/timm/repghostnet_100.in1k": [
+        [
+            76,
+            77
+        ]
+    ]
+}

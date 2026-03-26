@@ -1,0 +1,10 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start319_end330_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start319_end330_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/1/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start319_end330_21
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start319_end330_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/8/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start319_end330_21
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/4/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start319_end330_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start319_end330_21
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start319_end330_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start319_end330_21
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/5/samples/mmpose/S-ViPNAS-MobileNetV3/_decomposed/S-ViPNAS-MobileNetV3_start319_end330_21

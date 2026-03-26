@@ -1,0 +1,14 @@
+{
+    "samples/timm/resnetblur50.bt_in1k": [
+        [
+            153,
+            154
+        ]
+    ],
+    "samples/timm/resnetblur50d": [
+        [
+            161,
+            162
+        ]
+    ]
+}

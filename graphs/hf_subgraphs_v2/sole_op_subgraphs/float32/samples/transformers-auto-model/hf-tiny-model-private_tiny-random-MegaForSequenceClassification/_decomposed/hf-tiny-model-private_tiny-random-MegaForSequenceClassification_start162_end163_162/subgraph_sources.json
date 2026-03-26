@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MegaForSequenceClassification": [
+        [
+            31,
+            32
+        ],
+        [
+            162,
+            163
+        ],
+        [
+            293,
+            294
+        ],
+        [
+            424,
+            425
+        ],
+        [
+            555,
+            556
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/AkshatSurolia_ConvNeXt-FaceMask-Finetuned": [
+        [
+            19,
+            20
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            39,
+            40
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_convnext-small-224": [
+        [
+            19,
+            20
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            39,
+            40
+        ]
+    ]
+}

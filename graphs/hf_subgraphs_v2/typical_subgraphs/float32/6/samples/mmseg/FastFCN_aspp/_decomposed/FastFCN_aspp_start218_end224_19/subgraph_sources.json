@@ -1,0 +1,26 @@
+{
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            218,
+            224
+        ]
+    ],
+    "samples/mmseg/MobileNetV2_DeepLabV3": [
+        [
+            153,
+            159
+        ]
+    ],
+    "samples/mmseg/ResNeSt_deeplabv3": [
+        [
+            888,
+            894
+        ]
+    ],
+    "samples/mmseg/UNet_deeplabv3": [
+        [
+            85,
+            91
+        ]
+    ]
+}

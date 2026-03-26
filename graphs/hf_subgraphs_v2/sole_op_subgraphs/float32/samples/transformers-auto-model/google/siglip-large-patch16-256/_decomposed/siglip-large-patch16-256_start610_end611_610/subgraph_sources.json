@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/google/siglip-large-patch16-256": [
+        [
+            610,
+            611
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip-large-patch16-384": [
+        [
+            610,
+            611
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-256": [
+        [
+            610,
+            611
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-384": [
+        [
+            610,
+            611
+        ]
+    ],
+    "samples/transformers-auto-model/google/siglip2-large-patch16-512": [
+        [
+            610,
+            611
+        ]
+    ]
+}

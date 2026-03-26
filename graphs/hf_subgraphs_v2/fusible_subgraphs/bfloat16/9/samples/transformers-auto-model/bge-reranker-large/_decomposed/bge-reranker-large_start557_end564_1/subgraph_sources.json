@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/bge-reranker-large": [
+        [
+            557,
+            564
+        ]
+    ],
+    "samples/transformers-auto-model/multilingual-e5-large": [
+        [
+            557,
+            564
+        ]
+    ]
+}

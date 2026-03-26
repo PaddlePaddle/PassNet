@@ -1,0 +1,32 @@
+{
+    "samples/timm/ecaresnet101d.miil_in1k": [
+        [
+            147,
+            157
+        ]
+    ],
+    "samples/timm/ecaresnet269d.ra2_in1k": [
+        [
+            589,
+            599
+        ]
+    ],
+    "samples/timm/ecaresnet26t.ra2_in1k": [
+        [
+            96,
+            106
+        ]
+    ],
+    "samples/timm/ecaresnet50d.miil_in1k": [
+        [
+            147,
+            157
+        ]
+    ],
+    "samples/timm/ecaresnetlight.miil_in1k": [
+        [
+            56,
+            66
+        ]
+    ]
+}

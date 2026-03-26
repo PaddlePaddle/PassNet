@@ -1,0 +1,14 @@
+{
+    "samples/torchvision/googlenet": [
+        [
+            3,
+            4
+        ]
+    ],
+    "samples/torchvision/inception_v3": [
+        [
+            3,
+            4
+        ]
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "samples/transformers-auto-model/facebook_deit-small-distilled-patch16-224": [
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            41,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dino-vits8": [
+        [
+            14,
+            17
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_dinov2-small": [
+        [
+            25,
+            28
+        ],
+        [
+            52,
+            55
+        ],
+        [
+            268,
+            271
+        ],
+        [
+            322,
+            325
+        ]
+    ]
+}

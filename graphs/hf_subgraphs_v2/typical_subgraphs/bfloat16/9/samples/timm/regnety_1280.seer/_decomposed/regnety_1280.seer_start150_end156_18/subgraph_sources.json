@@ -1,0 +1,20 @@
+{
+    "samples/timm/regnety_1280.seer": [
+        [
+            150,
+            156
+        ]
+    ],
+    "samples/timm/regnety_1280.seer_ft_in1k": [
+        [
+            150,
+            156
+        ]
+    ],
+    "samples/timm/regnety_160.deit_in1k": [
+        [
+            102,
+            108
+        ]
+    ]
+}

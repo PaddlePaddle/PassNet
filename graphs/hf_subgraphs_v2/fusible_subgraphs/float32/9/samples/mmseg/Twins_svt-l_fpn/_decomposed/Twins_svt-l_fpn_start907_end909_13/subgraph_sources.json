@@ -1,0 +1,34 @@
+{
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            907,
+            909
+        ]
+    ],
+    "samples/torchaudio/hubert_large": [
+        [
+            64,
+            66
+        ]
+    ],
+    "samples/torchaudio/wavlm_large": [
+        [
+            110,
+            112
+        ]
+    ],
+    "samples/transformers-auto-model/andyluan_emotion-detection": [
+        [
+            58,
+            60
+        ],
+        [
+            72,
+            74
+        ],
+        [
+            450,
+            452
+        ]
+    ]
+}

@@ -1,0 +1,4 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/transformers-auto-model/kaveh_rclip/_decomposed/kaveh_rclip_start943_end945_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/3/samples/transformers-auto-model/google/siglip-large-patch16-256/_decomposed/siglip-large-patch16-256_start1227_end1229_11
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/google/siglip-so400m-patch14-384/_decomposed/siglip-so400m-patch14-384_start1377_end1379_11
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/transformers-auto-model/kaveh_rclip/_decomposed/kaveh_rclip_start943_end945_0

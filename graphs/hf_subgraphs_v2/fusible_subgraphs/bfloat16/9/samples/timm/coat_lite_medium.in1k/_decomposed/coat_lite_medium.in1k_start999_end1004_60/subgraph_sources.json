@@ -1,0 +1,14 @@
+{
+    "samples/timm/coat_lite_medium.in1k": [
+        [
+            999,
+            1004
+        ]
+    ],
+    "samples/timm/coat_lite_medium_384": [
+        [
+            999,
+            1004
+        ]
+    ]
+}

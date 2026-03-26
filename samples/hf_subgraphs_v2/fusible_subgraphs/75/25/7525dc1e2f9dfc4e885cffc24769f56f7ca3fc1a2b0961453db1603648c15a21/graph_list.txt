@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/timm/ese_vovnet19b_dw.ra_in1k/_decomposed/ese_vovnet19b_dw.ra_in1k_start103_end109_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/timm/ese_vovnet19b_dw.ra_in1k/_decomposed/ese_vovnet19b_dw.ra_in1k_start103_end109_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/4/samples/timm/ese_vovnet19b_dw.ra_in1k/_decomposed/ese_vovnet19b_dw.ra_in1k_start103_end109_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/timm/ese_vovnet19b_dw.ra_in1k/_decomposed/ese_vovnet19b_dw.ra_in1k_start103_end109_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/timm/ese_vovnet19b_dw.ra_in1k/_decomposed/ese_vovnet19b_dw.ra_in1k_start103_end109_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/timm/ese_vovnet19b_dw.ra_in1k/_decomposed/ese_vovnet19b_dw.ra_in1k_start103_end109_3

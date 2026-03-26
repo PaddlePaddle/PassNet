@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/timm/crossvit_15_240.in1k/_decomposed/crossvit_15_240.in1k_start1_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/timm/crossvit_15_240.in1k/_decomposed/crossvit_15_240.in1k_start1_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/crossvit_15_240.in1k/_decomposed/crossvit_15_240.in1k_start1_end8_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/timm/crossvit_15_dagger_408.in1k/_decomposed/crossvit_15_dagger_408.in1k_start5_end12_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/timm/crossvit_15_dagger_408.in1k/_decomposed/crossvit_15_dagger_408.in1k_start5_end12_2
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/timm/crossvit_15_dagger_408.in1k/_decomposed/crossvit_15_dagger_408.in1k_start5_end12_2

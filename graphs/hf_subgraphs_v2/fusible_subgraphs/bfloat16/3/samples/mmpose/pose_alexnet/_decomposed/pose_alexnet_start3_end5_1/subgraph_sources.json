@@ -1,0 +1,14 @@
+{
+    "samples/mmpose/pose_alexnet": [
+        [
+            3,
+            5
+        ]
+    ],
+    "samples/torchvision/alexnet": [
+        [
+            3,
+            5
+        ]
+    ]
+}

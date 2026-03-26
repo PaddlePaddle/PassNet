@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/microsoft_mpnet-base": [
+        [
+            63,
+            65
+        ],
+        [
+            93,
+            95
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/torchvision/deeplabv3_mobilenet_v3_large": [
+        [
+            210,
+            214
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet101": [
+        [
+            371,
+            375
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet50": [
+        [
+            201,
+            205
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/KBLab_megatron-bert-base-swedish-cased-600k": [
+        [
+            33,
+            35
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            300,
+            302
+        ]
+    ]
+}

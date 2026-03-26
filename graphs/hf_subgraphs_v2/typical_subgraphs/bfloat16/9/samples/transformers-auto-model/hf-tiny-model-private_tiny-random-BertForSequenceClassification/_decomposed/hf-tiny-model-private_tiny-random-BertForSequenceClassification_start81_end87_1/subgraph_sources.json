@@ -1,0 +1,82 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BertForSequenceClassification": [
+        [
+            81,
+            87
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-BigBirdForSequenceClassification": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DPTModel": [
+        [
+            45,
+            51
+        ],
+        [
+            71,
+            77
+        ],
+        [
+            97,
+            103
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DeiTModel": [
+        [
+            38,
+            44
+        ],
+        [
+            64,
+            70
+        ],
+        [
+            90,
+            96
+        ],
+        [
+            116,
+            122
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-DistilBertForSequenceClassification": [
+        [
+            13,
+            19
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-NystromformerForSequenceClassification": [
+        [
+            12,
+            18
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-RobertaForSequenceClassification": [
+        [
+            90,
+            96
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-ViTModel": [
+        [
+            37,
+            43
+        ],
+        [
+            63,
+            69
+        ],
+        [
+            89,
+            95
+        ],
+        [
+            115,
+            121
+        ]
+    ]
+}

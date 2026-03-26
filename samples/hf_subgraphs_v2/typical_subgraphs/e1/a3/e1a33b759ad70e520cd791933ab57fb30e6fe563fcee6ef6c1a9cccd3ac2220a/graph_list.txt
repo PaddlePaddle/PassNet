@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/6/samples/transformers-auto-model/MCG-NJU_videomae-base-finetuned-kinetics/_decomposed/MCG-NJU_videomae-base-finetuned-kinetics_start0_end26_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/6/samples/transformers-auto-model/MCG-NJU_videomae-base-finetuned-kinetics/_decomposed/MCG-NJU_videomae-base-finetuned-kinetics_start0_end26_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/6/samples/transformers-auto-model/MCG-NJU_videomae-large/_decomposed/MCG-NJU_videomae-large_start0_end26_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/transformers-auto-model/MCG-NJU_videomae-large/_decomposed/MCG-NJU_videomae-large_start0_end26_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/transformers-auto-model/MCG-NJU_videomae-base-finetuned-kinetics/_decomposed/MCG-NJU_videomae-base-finetuned-kinetics_start0_end26_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/transformers-auto-model/MCG-NJU_videomae-large/_decomposed/MCG-NJU_videomae-large_start0_end26_0

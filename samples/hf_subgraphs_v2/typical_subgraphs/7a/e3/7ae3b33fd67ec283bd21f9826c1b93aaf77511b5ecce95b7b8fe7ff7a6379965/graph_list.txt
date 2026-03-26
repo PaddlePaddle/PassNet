@@ -1,0 +1,4 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/mmpose/pose_resnest_101/_decomposed/pose_resnest_101_start880_end892_99
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/mmpose/pose_resnest_101/_decomposed/pose_resnest_101_start880_end892_99
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/3/samples/mmpose/pose_resnest_101/_decomposed/pose_resnest_101_start880_end892_99
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/mmpose/pose_resnest_101/_decomposed/pose_resnest_101_start880_end892_99

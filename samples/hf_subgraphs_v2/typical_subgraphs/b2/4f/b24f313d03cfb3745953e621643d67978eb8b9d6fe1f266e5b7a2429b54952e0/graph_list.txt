@@ -1,0 +1,9 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/mmseg/PIDNet-l/_decomposed/PIDNet-l_start247_end290_26
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/8/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start138_end181_15
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start138_end181_15
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start138_end181_15
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/mmseg/PIDNet-l/_decomposed/PIDNet-l_start247_end290_26
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/3/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start138_end181_15
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/9/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start138_end181_15
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/mmseg/PIDNet-l/_decomposed/PIDNet-l_start247_end290_26
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/2/samples/mmseg/DDRNet-slim/_decomposed/DDRNet-slim_start138_end181_15

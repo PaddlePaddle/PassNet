@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/DeepLabV3_R101": [
+        [
+            359,
+            361
+        ]
+    ],
+    "samples/mmseg/FastFCN_aspp": [
+        [
+            222,
+            224
+        ]
+    ]
+}

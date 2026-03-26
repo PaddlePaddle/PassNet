@@ -1,0 +1,26 @@
+{
+    "samples/timm/legacy_seresnet18.in1k": [
+        [
+            9,
+            17
+        ],
+        [
+            23,
+            31
+        ]
+    ],
+    "samples/timm/legacy_seresnet34.in1k": [
+        [
+            9,
+            17
+        ],
+        [
+            23,
+            31
+        ],
+        [
+            181,
+            189
+        ]
+    ]
+}

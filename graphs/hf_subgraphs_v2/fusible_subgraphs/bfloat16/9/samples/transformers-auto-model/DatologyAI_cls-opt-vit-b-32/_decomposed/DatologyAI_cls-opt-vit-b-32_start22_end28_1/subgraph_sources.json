@@ -1,0 +1,32 @@
+{
+    "samples/transformers-auto-model/DatologyAI_cls-opt-vit-b-32": [
+        [
+            22,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/FinOPT-Lincoln": [
+        [
+            20,
+            26
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-OPTForSequenceClassification": [
+        [
+            22,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/noamr_bert-finetuned-ner": [
+        [
+            22,
+            28
+        ]
+    ],
+    "samples/transformers-auto-model/opt-350m-email-generation": [
+        [
+            20,
+            26
+        ]
+    ]
+}

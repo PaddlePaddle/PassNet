@@ -1,0 +1,20 @@
+{
+    "samples/timm/efficientnet_el.ra_in1k": [
+        [
+            208,
+            211
+        ]
+    ],
+    "samples/timm/resnet10t.c3_in1k": [
+        [
+            46,
+            49
+        ]
+    ],
+    "samples/timm/test_resnet.r160_in1k": [
+        [
+            49,
+            52
+        ]
+    ]
+}

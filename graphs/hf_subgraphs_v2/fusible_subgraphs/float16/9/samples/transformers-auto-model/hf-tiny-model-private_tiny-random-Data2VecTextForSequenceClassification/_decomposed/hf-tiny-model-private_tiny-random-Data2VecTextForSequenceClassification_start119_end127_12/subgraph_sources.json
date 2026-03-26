@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-Data2VecTextForSequenceClassification": [
+        [
+            32,
+            40
+        ],
+        [
+            61,
+            69
+        ],
+        [
+            119,
+            127
+        ]
+    ]
+}

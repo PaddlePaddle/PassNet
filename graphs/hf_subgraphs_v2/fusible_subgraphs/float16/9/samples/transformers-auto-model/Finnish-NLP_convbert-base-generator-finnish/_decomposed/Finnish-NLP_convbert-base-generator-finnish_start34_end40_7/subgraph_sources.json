@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/Finnish-NLP_convbert-base-generator-finnish": [
+        [
+            34,
+            40
+        ],
+        [
+            85,
+            91
+        ]
+    ]
+}

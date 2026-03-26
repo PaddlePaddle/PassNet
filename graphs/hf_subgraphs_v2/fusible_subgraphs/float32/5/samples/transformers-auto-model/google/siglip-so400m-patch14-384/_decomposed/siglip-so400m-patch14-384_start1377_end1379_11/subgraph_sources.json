@@ -1,0 +1,18 @@
+{
+    "samples/transformers-auto-model/google/siglip-so400m-patch14-384": [
+        [
+            1377,
+            1379
+        ]
+    ],
+    "samples/transformers-auto-model/mooncakex_img2": [
+        [
+            664,
+            666
+        ],
+        [
+            666,
+            668
+        ]
+    ]
+}

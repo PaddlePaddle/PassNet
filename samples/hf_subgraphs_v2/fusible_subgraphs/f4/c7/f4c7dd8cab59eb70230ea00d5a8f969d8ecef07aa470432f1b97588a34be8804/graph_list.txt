@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/ultralytics/yolo12l/_decomposed/yolo12l_start133_end143_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/9/samples/ultralytics/yolo12s/_decomposed/yolo12s_start51_end61_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/ultralytics/yolo12s/_decomposed/yolo12s_start51_end61_0

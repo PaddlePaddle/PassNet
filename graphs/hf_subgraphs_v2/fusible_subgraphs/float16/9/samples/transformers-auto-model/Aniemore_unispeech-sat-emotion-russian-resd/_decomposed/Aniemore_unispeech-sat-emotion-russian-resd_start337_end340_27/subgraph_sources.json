@@ -1,0 +1,38 @@
+{
+    "samples/transformers-auto-model/Aniemore_unispeech-sat-emotion-russian-resd": [
+        [
+            76,
+            79
+        ],
+        [
+            337,
+            340
+        ]
+    ],
+    "samples/transformers-auto-model/Farid59_nllb-darija-fr_eng": [
+        [
+            551,
+            554
+        ]
+    ],
+    "samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender": [
+        [
+            76,
+            79
+        ],
+        [
+            337,
+            340
+        ]
+    ],
+    "samples/transformers-auto-model/snolyai_resultsfinal": [
+        [
+            76,
+            79
+        ],
+        [
+            337,
+            340
+        ]
+    ]
+}

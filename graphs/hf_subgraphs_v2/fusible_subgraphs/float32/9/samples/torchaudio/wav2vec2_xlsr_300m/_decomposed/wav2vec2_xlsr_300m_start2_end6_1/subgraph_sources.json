@@ -1,0 +1,20 @@
+{
+    "samples/torchaudio/wav2vec2_xlsr_300m": [
+        [
+            2,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/Ar4ikov_W2VFSC2": [
+        [
+            1,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender": [
+        [
+            1,
+            5
+        ]
+    ]
+}

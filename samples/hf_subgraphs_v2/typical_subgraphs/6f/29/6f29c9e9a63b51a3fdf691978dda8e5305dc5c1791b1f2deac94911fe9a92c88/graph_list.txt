@@ -1,0 +1,8 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/2/samples/mmseg/CGNet/_decomposed/CGNet_start11_end15_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/0/samples/mmseg/CGNet/_decomposed/CGNet_start11_end15_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/0/samples/mmseg/CGNet/_decomposed/CGNet_start11_end15_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/mmseg/CGNet/_decomposed/CGNet_start11_end15_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/9/samples/mmseg/CGNet/_decomposed/CGNet_start11_end15_0
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/5/samples/mmseg/CGNet/_decomposed/CGNet_start11_end15_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/5/samples/mmseg/CGNet/_decomposed/CGNet_start11_end15_0
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/8/samples/mmseg/CGNet/_decomposed/CGNet_start11_end15_0

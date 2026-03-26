@@ -1,0 +1,24 @@
+{
+    "samples/transformers-auto-model/deepseek-ai/deepseek-coder-1.3b-base": [
+        [
+            71,
+            76
+        ],
+        [
+            129,
+            134
+        ],
+        [
+            187,
+            192
+        ],
+        [
+            593,
+            598
+        ],
+        [
+            1405,
+            1410
+        ]
+    ]
+}

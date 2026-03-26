@@ -1,0 +1,8 @@
+{
+    "samples/torchvision/mobilenet_v2": [
+        [
+            148,
+            152
+        ]
+    ]
+}

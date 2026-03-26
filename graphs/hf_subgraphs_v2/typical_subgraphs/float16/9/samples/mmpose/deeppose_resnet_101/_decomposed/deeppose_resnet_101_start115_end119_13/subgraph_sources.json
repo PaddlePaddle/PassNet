@@ -1,0 +1,158 @@
+{
+    "samples/mmpose/deeppose_resnet_101": [
+        [
+            115,
+            119
+        ]
+    ],
+    "samples/mmpose/deeppose_resnet_101_rle": [
+        [
+            115,
+            119
+        ]
+    ],
+    "samples/mmpose/pose_resnet_101": [
+        [
+            115,
+            119
+        ]
+    ],
+    "samples/mmpose/pose_resnetv1d_101": [
+        [
+            123,
+            127
+        ]
+    ],
+    "samples/mmpose/pose_resnext_101": [
+        [
+            115,
+            119
+        ]
+    ],
+    "samples/mmseg/ANN_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/APCNet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/CCNet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/DANet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/DMNet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/DNLNet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/DeepLabV3+_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/DeepLabV3_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/EMANet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/EncNet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/FCN_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/GCNet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/ICNet_R101": [
+        [
+            135,
+            139
+        ]
+    ],
+    "samples/mmseg/ISANet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/OCRNet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/PSPNet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/mmseg/UPerNet_R101": [
+        [
+            121,
+            125
+        ]
+    ],
+    "samples/torchvision/deeplabv3_resnet101": [
+        [
+            115,
+            119
+        ]
+    ],
+    "samples/torchvision/resnet101": [
+        [
+            115,
+            119
+        ]
+    ],
+    "samples/torchvision/resnext101_32x8d": [
+        [
+            115,
+            119
+        ]
+    ],
+    "samples/torchvision/resnext101_64x4d": [
+        [
+            115,
+            119
+        ]
+    ]
+}

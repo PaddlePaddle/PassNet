@@ -1,0 +1,16 @@
+{
+    "samples/transformers-auto-model/CLAck_en-vi": [
+        [
+            45,
+            51
+        ],
+        [
+            96,
+            102
+        ],
+        [
+            198,
+            204
+        ]
+    ]
+}

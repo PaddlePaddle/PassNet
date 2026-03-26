@@ -1,0 +1,12 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K/_decomposed/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K_start965_end966_965
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K/_decomposed/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K_start965_end966_965
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64/_decomposed/ARTeLab_it5-summarization-fanpage-64_start1040_end1041_1040
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/ARTeLab_it5-summarization-fanpage-64/_decomposed/ARTeLab_it5-summarization-fanpage-64_start1040_end1041_1040
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/timm/caformer_b36/_decomposed/caformer_b36_start105_end106_105
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/timm/caformer_b36/_decomposed/caformer_b36_start105_end106_105
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K/_decomposed/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K_start963_end964_963
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K/_decomposed/Manojb_CLIP-ViT-L-14-DataComp.XL-s13B-b90K_start963_end964_963
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/kanak8278_xlnet-large-cased-ner-food-combined-weighted-v2/_decomposed/kanak8278_xlnet-large-cased-ner-food-combined-weighted-v2_start29_end30_29
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/kanak8278_xlnet-large-cased-ner-food-combined-weighted-v2/_decomposed/kanak8278_xlnet-large-cased-ner-food-combined-weighted-v2_start29_end30_29
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmseg/DNLNet_R101/_decomposed/DNLNet_R101_start366_end367_366
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmseg/DNLNet_R101/_decomposed/DNLNet_R101_start366_end367_366

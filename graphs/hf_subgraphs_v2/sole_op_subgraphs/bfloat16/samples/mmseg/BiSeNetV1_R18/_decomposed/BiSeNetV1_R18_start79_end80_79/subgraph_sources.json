@@ -1,0 +1,80 @@
+{
+    "samples/mmseg/BiSeNetV1_R18": [
+        [
+            79,
+            80
+        ]
+    ],
+    "samples/mmseg/BiSeNetV1_R50": [
+        [
+            185,
+            186
+        ]
+    ],
+    "samples/mmseg/PoolFormer_m36": [
+        [
+            624,
+            625
+        ]
+    ],
+    "samples/mmseg/PoolFormer_m48": [
+        [
+            828,
+            829
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s12": [
+        [
+            216,
+            217
+        ]
+    ],
+    "samples/mmseg/PoolFormer_s24": [
+        [
+            420,
+            421
+        ]
+    ],
+    "samples/mmseg/SemanticFPN_R50": [
+        [
+            182,
+            183
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-b_fpn": [
+        [
+            683,
+            684
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_fpn": [
+        [
+            982,
+            983
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_fpn": [
+        [
+            407,
+            408
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_fpn": [
+        [
+            945,
+            946
+        ]
+    ],
+    "samples/mmseg/Twins_svt-l_fpn": [
+        [
+            945,
+            946
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            716,
+            717
+        ]
+    ]
+}

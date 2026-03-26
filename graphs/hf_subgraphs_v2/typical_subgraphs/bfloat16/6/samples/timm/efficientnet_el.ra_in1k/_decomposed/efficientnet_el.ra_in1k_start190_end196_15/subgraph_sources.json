@@ -1,0 +1,12 @@
+{
+    "samples/timm/efficientnet_el.ra_in1k": [
+        [
+            190,
+            196
+        ],
+        [
+            199,
+            205
+        ]
+    ]
+}

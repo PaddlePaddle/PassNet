@@ -1,0 +1,26 @@
+{
+    "samples/timm/dla102x2.in1k": [
+        [
+            14,
+            20
+        ],
+        [
+            44,
+            50
+        ],
+        [
+            150,
+            156
+        ],
+        [
+            353,
+            359
+        ]
+    ],
+    "samples/timm/mobilenetv3_large_100.miil_in21k": [
+        [
+            11,
+            17
+        ]
+    ]
+}

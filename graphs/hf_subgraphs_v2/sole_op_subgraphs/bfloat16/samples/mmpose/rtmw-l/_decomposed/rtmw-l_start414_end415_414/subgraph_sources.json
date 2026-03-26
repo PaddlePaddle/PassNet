@@ -1,0 +1,76 @@
+{
+    "samples/mmpose/rtmw-l": [
+        [
+            414,
+            415
+        ]
+    ],
+    "samples/mmpose/rtmw-m": [
+        [
+            355,
+            356
+        ]
+    ],
+    "samples/mmpose/rtmw-x": [
+        [
+            473,
+            474
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-13": [
+        [
+            86,
+            87
+        ],
+        [
+            127,
+            128
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-13-384": [
+        [
+            86,
+            87
+        ],
+        [
+            127,
+            128
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-21": [
+        [
+            86,
+            87
+        ],
+        [
+            127,
+            128
+        ],
+        [
+            168,
+            169
+        ],
+        [
+            209,
+            210
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-21-384-22k": [
+        [
+            86,
+            87
+        ],
+        [
+            127,
+            128
+        ],
+        [
+            168,
+            169
+        ],
+        [
+            209,
+            210
+        ]
+    ]
+}

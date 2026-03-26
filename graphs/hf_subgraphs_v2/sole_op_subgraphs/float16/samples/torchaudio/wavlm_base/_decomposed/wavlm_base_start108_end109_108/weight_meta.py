@@ -1,0 +1,8 @@
+class Program_weight_tensor_meta_mul_5:
+	name = "in_0"
+	original_name = "mul_5"
+	shape = [1, 12, 199, 1]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = -0.135
+	std = 0.206

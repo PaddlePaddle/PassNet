@@ -1,0 +1,84 @@
+{
+    "samples/transformers-auto-model/GKLMIP_electra-khmer-small-uncased-tokenized": [
+        [
+            32,
+            37
+        ],
+        [
+            38,
+            43
+        ],
+        [
+            61,
+            66
+        ],
+        [
+            67,
+            72
+        ],
+        [
+            90,
+            95
+        ],
+        [
+            96,
+            101
+        ],
+        [
+            119,
+            124
+        ]
+    ],
+    "samples/transformers-auto-model/bge-small-zh": [
+        [
+            95,
+            100
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-10_H-512_A-8": [
+        [
+            225,
+            230
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-4_H-512_A-8": [
+        [
+            93,
+            98
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-8_H-512_A-8": [
+        [
+            159,
+            164
+        ],
+        [
+            165,
+            170
+        ],
+        [
+            181,
+            186
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_medium-vanilla-target-tweet": [
+        [
+            159,
+            164
+        ],
+        [
+            165,
+            170
+        ],
+        [
+            181,
+            186
+        ]
+    ],
+    "samples/transformers-auto-model/muhtasham_small-vanilla-target-tweet": [
+        [
+            93,
+            98
+        ]
+    ]
+}

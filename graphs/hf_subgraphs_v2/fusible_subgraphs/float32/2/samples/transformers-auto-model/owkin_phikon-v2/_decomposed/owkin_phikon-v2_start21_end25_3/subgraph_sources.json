@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/owkin_phikon-v2": [
+        [
+            21,
+            25
+        ],
+        [
+            48,
+            52
+        ],
+        [
+            264,
+            268
+        ],
+        [
+            642,
+            646
+        ]
+    ]
+}

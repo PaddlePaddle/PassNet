@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Mahmoud8_mah-efficient_mlm_m0.40": [
+        [
+            0,
+            3
+        ]
+    ],
+    "samples/transformers-auto-model/sdadas_polish-reranker-roberta-v2": [
+        [
+            0,
+            3
+        ]
+    ]
+}

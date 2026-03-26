@@ -1,0 +1,42 @@
+{
+    "samples/transformers-auto-model/all-mpnet-base-v2": [
+        [
+            45,
+            48
+        ],
+        [
+            48,
+            51
+        ],
+        [
+            78,
+            81
+        ],
+        [
+            81,
+            84
+        ]
+    ],
+    "samples/transformers-auto-model/ms-marco-electra-base": [
+        [
+            15,
+            18
+        ],
+        [
+            44,
+            47
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/clip-ViT-B-32-multilingual-v1": [
+        [
+            19,
+            22
+        ]
+    ],
+    "samples/transformers-auto-model/sentence-transformers/paraphrase-albert-base-v2": [
+        [
+            22,
+            25
+        ]
+    ]
+}

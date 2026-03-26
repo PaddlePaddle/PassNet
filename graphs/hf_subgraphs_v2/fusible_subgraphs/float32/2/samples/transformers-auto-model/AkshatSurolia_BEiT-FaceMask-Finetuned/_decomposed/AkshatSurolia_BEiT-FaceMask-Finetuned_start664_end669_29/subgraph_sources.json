@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/AkshatSurolia_BEiT-FaceMask-Finetuned": [
+        [
+            70,
+            75
+        ],
+        [
+            664,
+            669
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_data2vec-vision-large": [
+        [
+            70,
+            75
+        ],
+        [
+            664,
+            669
+        ]
+    ]
+}

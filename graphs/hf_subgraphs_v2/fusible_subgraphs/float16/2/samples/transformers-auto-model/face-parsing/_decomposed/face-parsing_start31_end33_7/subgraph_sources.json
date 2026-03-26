@@ -1,0 +1,20 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            31,
+            33
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_cvt-13": [
+        [
+            43,
+            45
+        ]
+    ],
+    "samples/transformers-auto-model/yujiepan_tiny-random-swin-patch4-window7-224": [
+        [
+            217,
+            219
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/PeterBanning71_bart-large-finetuned-eLife": [
+        [
+            27,
+            33
+        ],
+        [
+            78,
+            84
+        ],
+        [
+            129,
+            135
+        ],
+        [
+            537,
+            543
+        ]
+    ],
+    "samples/transformers-auto-model/echarlaix_bart-base-cnn-r2-18.7-d23-hybrid": [
+        [
+            78,
+            84
+        ],
+        [
+            129,
+            135
+        ]
+    ]
+}

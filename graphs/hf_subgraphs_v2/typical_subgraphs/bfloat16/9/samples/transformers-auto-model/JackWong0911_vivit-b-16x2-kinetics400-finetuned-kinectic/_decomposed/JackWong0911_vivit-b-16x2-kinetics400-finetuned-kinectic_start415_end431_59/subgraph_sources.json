@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/JackWong0911_vivit-b-16x2-kinetics400-finetuned-kinectic": [
+        [
+            415,
+            431
+        ]
+    ],
+    "samples/transformers-auto-model/prathameshdalal_vivit-b-16x2-kinetics400-UCF-Crime": [
+        [
+            415,
+            431
+        ]
+    ]
+}

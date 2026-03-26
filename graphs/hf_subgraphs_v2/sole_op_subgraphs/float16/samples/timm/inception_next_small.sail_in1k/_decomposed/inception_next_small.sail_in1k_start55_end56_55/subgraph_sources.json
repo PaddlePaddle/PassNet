@@ -1,0 +1,30 @@
+{
+    "samples/timm/inception_next_small.sail_in1k": [
+        [
+            55,
+            56
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            89,
+            90
+        ]
+    ],
+    "samples/timm/inception_next_tiny.sail_in1k": [
+        [
+            55,
+            56
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            89,
+            90
+        ]
+    ]
+}

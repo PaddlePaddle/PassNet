@@ -1,0 +1,50 @@
+{
+    "samples/transformers-auto-model/AceInstruct-1.5B": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/Biggie-SmoLlm-0.4B": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/EXAONE-4.0-1.2B": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/IS-LM-3B": [
+        [
+            5,
+            6
+        ]
+    ],
+    "samples/transformers-auto-model/SmolLM3-3B": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/fairseq-dense-1.3B": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/fairseq-dense-355M": [
+        [
+            4,
+            5
+        ]
+    ],
+    "samples/transformers-auto-model/opt-350m-email-generation": [
+        [
+            5,
+            6
+        ]
+    ]
+}

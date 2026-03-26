@@ -1,0 +1,34 @@
+{
+    "samples/torchgeometric/PNA": [
+        [
+            72,
+            73
+        ],
+        [
+            152,
+            153
+        ],
+        [
+            232,
+            233
+        ],
+        [
+            312,
+            313
+        ],
+        [
+            392,
+            393
+        ]
+    ],
+    "samples/transformers-auto-model/apple_DepthPro-hf": [
+        [
+            684,
+            685
+        ],
+        [
+            698,
+            699
+        ]
+    ]
+}

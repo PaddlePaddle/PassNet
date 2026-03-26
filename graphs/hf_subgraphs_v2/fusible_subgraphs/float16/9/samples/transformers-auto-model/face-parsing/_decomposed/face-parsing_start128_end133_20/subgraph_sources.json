@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            128,
+            133
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification": [
+        [
+            264,
+            269
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            88,
+            93
+        ]
+    ],
+    "samples/transformers-auto-model/vinvino02_glpn-nyu": [
+        [
+            128,
+            133
+        ]
+    ]
+}

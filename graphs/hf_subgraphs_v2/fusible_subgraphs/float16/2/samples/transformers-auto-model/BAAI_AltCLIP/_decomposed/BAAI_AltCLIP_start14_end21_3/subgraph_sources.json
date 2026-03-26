@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/BAAI_AltCLIP": [
+        [
+            14,
+            21
+        ]
+    ],
+    "samples/transformers-auto-model/sdadas_polish-reranker-roberta-v2": [
+        [
+            14,
+            21
+        ]
+    ]
+}

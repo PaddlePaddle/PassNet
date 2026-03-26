@@ -1,0 +1,54 @@
+{
+    "samples/timm/beit3_base_patch16_224.in22k_ft_in1k": [
+        [
+            236,
+            238
+        ]
+    ],
+    "samples/transformers-auto-model/KoboldAI_fairseq-dense-125M": [
+        [
+            58,
+            60
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            398,
+            400
+        ]
+    ],
+    "samples/transformers-auto-model/moussaKam_barthez-orangesum-abstract": [
+        [
+            44,
+            46
+        ],
+        [
+            66,
+            68
+        ],
+        [
+            95,
+            97
+        ],
+        [
+            117,
+            119
+        ],
+        [
+            124,
+            126
+        ],
+        [
+            146,
+            148
+        ]
+    ],
+    "samples/transformers-auto-model/recallapp_CLIP-ViT-B-32-laion2B-s34B-b79K": [
+        [
+            83,
+            85
+        ]
+    ]
+}

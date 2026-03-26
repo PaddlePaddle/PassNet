@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/ISANet_R101": [
+        [
+            368,
+            381
+        ]
+    ],
+    "samples/mmseg/ISANet_R50": [
+        [
+            198,
+            211
+        ]
+    ]
+}

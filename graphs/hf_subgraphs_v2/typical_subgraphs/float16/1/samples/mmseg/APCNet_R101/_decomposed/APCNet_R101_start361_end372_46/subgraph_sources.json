@@ -1,0 +1,14 @@
+{
+    "samples/mmseg/APCNet_R101": [
+        [
+            361,
+            372
+        ]
+    ],
+    "samples/mmseg/APCNet_R50": [
+        [
+            191,
+            202
+        ]
+    ]
+}

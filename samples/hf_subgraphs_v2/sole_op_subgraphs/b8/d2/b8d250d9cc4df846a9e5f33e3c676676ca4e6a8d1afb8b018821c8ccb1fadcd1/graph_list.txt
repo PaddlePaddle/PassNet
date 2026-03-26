@@ -1,0 +1,4 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/transformers-auto-model/KoboldAI_fairseq-dense-1.3B/_decomposed/KoboldAI_fairseq-dense-1.3B_start122_end123_122
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/KoboldAI_fairseq-dense-1.3B/_decomposed/KoboldAI_fairseq-dense-1.3B_start122_end123_122
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/mmseg/DANet_R101/_decomposed/DANet_R101_start381_end382_381
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/mmseg/DANet_R101/_decomposed/DANet_R101_start381_end382_381

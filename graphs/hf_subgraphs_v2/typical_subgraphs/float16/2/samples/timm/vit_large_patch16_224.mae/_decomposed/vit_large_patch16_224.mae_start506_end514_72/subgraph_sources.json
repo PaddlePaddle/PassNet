@@ -1,0 +1,14 @@
+{
+    "samples/timm/vit_large_patch16_224.mae": [
+        [
+            506,
+            514
+        ]
+    ],
+    "samples/timm/vit_large_patch32_224.orig_in21k": [
+        [
+            506,
+            514
+        ]
+    ]
+}

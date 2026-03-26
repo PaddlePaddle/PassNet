@@ -1,0 +1,28 @@
+class Program_weight_tensor_meta_L_self_modules_head_modules_fc_modules_norm_parameters_bias_:
+	name = "w_0"
+	original_name = "L_self_modules_head_modules_fc_modules_norm_parameters_bias_"
+	shape = [3072]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_L_self_modules_head_modules_fc_modules_norm_parameters_weight_:
+	name = "w_1"
+	original_name = "L_self_modules_head_modules_fc_modules_norm_parameters_weight_"
+	shape = [3072]
+	dtype = "torch.float16"
+	device = "cpu"
+	mean = 1.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_x_513:
+	name = "in_0"
+	original_name = "x_513"
+	shape = [1, 3072]
+	dtype = "torch.float16"
+	device = "cuda:0"
+	mean = 0.006
+	std = 0.013

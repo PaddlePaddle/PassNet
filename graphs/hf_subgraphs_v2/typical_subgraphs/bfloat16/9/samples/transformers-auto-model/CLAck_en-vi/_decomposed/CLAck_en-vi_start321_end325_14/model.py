@@ -1,0 +1,13 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, w_0 : torch.Tensor, w_1, w_2, w_3, in_0, in_1):
+        linear = torch.nn.functional.linear(in_1, w_1, w_0);  in_1 = w_1 = w_0 = None
+        tmp_5 = torch.nn.functional.dropout(linear, p = 0.1, training = False);  linear = None
+        tmp_6 = in_0 + tmp_5;  in_0 = tmp_5 = None
+        tmp_7 = torch.nn.functional.layer_norm(tmp_6, (512,), w_3, w_2, 1e-05);  tmp_6 = w_3 = w_2 = None
+        return (tmp_7,)
+        

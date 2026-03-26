@@ -1,0 +1,26 @@
+{
+    "samples/mmseg/BEiT-B": [
+        [
+            500,
+            506
+        ]
+    ],
+    "samples/mmseg/BEiT-L": [
+        [
+            932,
+            938
+        ]
+    ],
+    "samples/mmseg/UPerNet_R101": [
+        [
+            389,
+            395
+        ]
+    ],
+    "samples/mmseg/UPerNet_R50": [
+        [
+            219,
+            225
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "samples/timm/xception41.tf_in1k": [
+        [
+            208,
+            214
+        ],
+        [
+            214,
+            220
+        ]
+    ],
+    "samples/timm/xception65.ra3_in1k": [
+        [
+            336,
+            342
+        ],
+        [
+            342,
+            348
+        ]
+    ],
+    "samples/timm/xception71.tf_in1k": [
+        [
+            372,
+            378
+        ],
+        [
+            378,
+            384
+        ]
+    ]
+}

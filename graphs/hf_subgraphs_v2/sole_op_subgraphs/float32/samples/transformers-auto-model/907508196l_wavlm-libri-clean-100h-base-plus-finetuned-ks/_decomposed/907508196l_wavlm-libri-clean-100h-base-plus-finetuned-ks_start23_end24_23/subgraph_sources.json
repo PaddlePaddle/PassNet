@@ -1,0 +1,166 @@
+{
+    "samples/transformers-auto-model/907508196l_wavlm-libri-clean-100h-base-plus-finetuned-ks": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/Aniemore_unispeech-sat-emotion-russian-resd": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/Ar4ikov_W2VFSC2": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/PeterBanning71_long-t5-tfg": [
+        [
+            54,
+            55
+        ],
+        [
+            309,
+            310
+        ],
+        [
+            461,
+            462
+        ],
+        [
+            613,
+            614
+        ],
+        [
+            765,
+            766
+        ],
+        [
+            917,
+            918
+        ],
+        [
+            1069,
+            1070
+        ],
+        [
+            1221,
+            1222
+        ],
+        [
+            1373,
+            1374
+        ],
+        [
+            1525,
+            1526
+        ],
+        [
+            1677,
+            1678
+        ],
+        [
+            1829,
+            1830
+        ]
+    ],
+    "samples/transformers-auto-model/Rajaram1996_Hubert_emotion": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/SHENMU007_neunit-ks-ertong-chengren": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/Zahra99_wavlm-large-finetuned-iemocap": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/anton-l_distilhubert-ft-common-language": [
+        [
+            22,
+            23
+        ]
+    ],
+    "samples/transformers-auto-model/audeering_wav2vec2-large-robust-24-ft-age-gender": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/dima806_music_genres_classification": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/facebook_wav2vec2-base-960h": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/galsenai_hubert-large-ls960-ft-waxal-keyword-spotting": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-UniSpeechSatForSequenceClassification": [
+        [
+            15,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-WavLMForSequenceClassification": [
+        [
+            15,
+            16
+        ]
+    ],
+    "samples/transformers-auto-model/mazkooleg_0-9up-wavlm-base-plus-ft": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/optimum_hubert-base-superb-ks": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/pipecat-ai_smart-turn-v2": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/reralle_wav2vec2_s-f-o_8batch_5sec_0.0001lr_unfrozen": [
+        [
+            23,
+            24
+        ]
+    ],
+    "samples/transformers-auto-model/snolyai_resultsfinal": [
+        [
+            43,
+            44
+        ]
+    ],
+    "samples/transformers-auto-model/xbgoose_hubert-large-speech-emotion-recognition-russian-dusha-finetuned": [
+        [
+            43,
+            44
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            102,
+            105
+        ],
+        [
+            105,
+            108
+        ]
+    ]
+}

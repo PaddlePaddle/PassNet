@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/transformers-auto-model/google-t5_t5-large/_decomposed/google-t5_t5-large_start1820_end1825_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/transformers-auto-model/google-t5_t5-large/_decomposed/google-t5_t5-large_start1820_end1825_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/google-t5_t5-large/_decomposed/google-t5_t5-large_start1820_end1825_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/1/samples/transformers-auto-model/google-t5_t5-large/_decomposed/google-t5_t5-large_start1820_end1825_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/transformers-auto-model/google-t5_t5-large/_decomposed/google-t5_t5-large_start1820_end1825_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/transformers-auto-model/google-t5_t5-large/_decomposed/google-t5_t5-large_start1820_end1825_6

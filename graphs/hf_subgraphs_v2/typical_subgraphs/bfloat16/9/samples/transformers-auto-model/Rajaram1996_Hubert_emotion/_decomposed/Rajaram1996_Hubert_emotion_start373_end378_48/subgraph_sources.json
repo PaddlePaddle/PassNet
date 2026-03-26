@@ -1,0 +1,26 @@
+{
+    "samples/transformers-auto-model/Rajaram1996_Hubert_emotion": [
+        [
+            373,
+            378
+        ]
+    ],
+    "samples/transformers-auto-model/anton-l_distilhubert-ft-common-language": [
+        [
+            82,
+            87
+        ]
+    ],
+    "samples/transformers-auto-model/anton-l_sew-mid-100k-ft-common-language": [
+        [
+            735,
+            740
+        ]
+    ],
+    "samples/transformers-auto-model/mazkooleg_digit-mask-data2vec-audio-base-960h-ft": [
+        [
+            414,
+            419
+        ]
+    ]
+}

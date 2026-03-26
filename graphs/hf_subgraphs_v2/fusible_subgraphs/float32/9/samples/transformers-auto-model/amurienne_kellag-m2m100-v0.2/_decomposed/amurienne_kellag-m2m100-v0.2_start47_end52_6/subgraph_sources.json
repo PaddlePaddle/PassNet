@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/amurienne_kellag-m2m100-v0.2": [
+        [
+            47,
+            52
+        ],
+        [
+            69,
+            74
+        ]
+    ],
+    "samples/transformers-auto-model/sismetanin_mbart_ru_sum_gazeta-ru-sentiment-liniscrowd": [
+        [
+            88,
+            93
+        ],
+        [
+            110,
+            115
+        ],
+        [
+            139,
+            144
+        ],
+        [
+            547,
+            552
+        ]
+    ]
+}

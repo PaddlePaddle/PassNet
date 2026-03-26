@@ -1,0 +1,30 @@
+{
+    "samples/transformers-auto-model/ELiRF_NASCA": [
+        [
+            45,
+            48
+        ],
+        [
+            74,
+            77
+        ],
+        [
+            125,
+            128
+        ],
+        [
+            533,
+            536
+        ]
+    ],
+    "samples/transformers-auto-model/NeNeDataScientist_NeNeAI007_fr-kiluba-translation": [
+        [
+            41,
+            44
+        ],
+        [
+            70,
+            73
+        ]
+    ]
+}

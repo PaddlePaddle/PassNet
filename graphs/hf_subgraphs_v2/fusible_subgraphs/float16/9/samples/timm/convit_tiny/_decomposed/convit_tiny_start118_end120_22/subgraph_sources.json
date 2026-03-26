@@ -1,0 +1,32 @@
+{
+    "samples/timm/convit_tiny": [
+        [
+            58,
+            60
+        ],
+        [
+            118,
+            120
+        ],
+        [
+            632,
+            634
+        ]
+    ],
+    "samples/timm/deit_tiny_distilled_patch16_224.fb_in1k": [
+        [
+            217,
+            219
+        ]
+    ],
+    "samples/timm/eva02_tiny_patch14_224.mim_in22k": [
+        [
+            62,
+            64
+        ],
+        [
+            566,
+            568
+        ]
+    ]
+}

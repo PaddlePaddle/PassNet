@@ -1,0 +1,14 @@
+{
+    "samples/timm/dm_nfnet_f5": [
+        [
+            2335,
+            2336
+        ]
+    ],
+    "samples/timm/dm_nfnet_f6": [
+        [
+            2464,
+            2465
+        ]
+    ]
+}

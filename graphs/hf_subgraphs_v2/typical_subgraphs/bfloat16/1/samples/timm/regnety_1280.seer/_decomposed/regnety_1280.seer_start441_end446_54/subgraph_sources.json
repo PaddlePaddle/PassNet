@@ -1,0 +1,20 @@
+{
+    "samples/timm/regnety_1280.seer": [
+        [
+            441,
+            446
+        ]
+    ],
+    "samples/timm/regnety_320.seer": [
+        [
+            329,
+            334
+        ]
+    ],
+    "samples/timm/regnety_640.seer": [
+        [
+            329,
+            334
+        ]
+    ]
+}

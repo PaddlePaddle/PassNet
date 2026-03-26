@@ -1,0 +1,130 @@
+{
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            29,
+            34
+        ],
+        [
+            69,
+            74
+        ],
+        [
+            109,
+            114
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b0": [
+        [
+            117,
+            122
+        ],
+        [
+            157,
+            162
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b1": [
+        [
+            29,
+            34
+        ],
+        [
+            69,
+            74
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b2": [
+        [
+            29,
+            34
+        ],
+        [
+            69,
+            74
+        ],
+        [
+            109,
+            114
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b3": [
+        [
+            29,
+            34
+        ],
+        [
+            69,
+            74
+        ],
+        [
+            109,
+            114
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b4": [
+        [
+            29,
+            34
+        ],
+        [
+            69,
+            74
+        ],
+        [
+            109,
+            114
+        ]
+    ],
+    "samples/transformers-auto-model/nvidia_mit-b5": [
+        [
+            29,
+            34
+        ],
+        [
+            69,
+            74
+        ],
+        [
+            109,
+            114
+        ]
+    ],
+    "samples/transformers-auto-model/segformer-b0-finetuned-ade-512-512": [
+        [
+            117,
+            122
+        ],
+        [
+            157,
+            162
+        ]
+    ],
+    "samples/transformers-auto-model/segformer_b2_clothes": [
+        [
+            29,
+            34
+        ],
+        [
+            69,
+            74
+        ],
+        [
+            109,
+            114
+        ]
+    ],
+    "samples/transformers-auto-model/vinvino02_glpn-nyu": [
+        [
+            29,
+            34
+        ],
+        [
+            69,
+            74
+        ],
+        [
+            109,
+            114
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "samples/timm/selecsls42b.in1k": [
+        [
+            122,
+            128
+        ]
+    ],
+    "samples/timm/selecsls60.in1k": [
+        [
+            179,
+            185
+        ]
+    ],
+    "samples/torchvision/regnet_x_8gf": [
+        [
+            7,
+            13
+        ]
+    ]
+}

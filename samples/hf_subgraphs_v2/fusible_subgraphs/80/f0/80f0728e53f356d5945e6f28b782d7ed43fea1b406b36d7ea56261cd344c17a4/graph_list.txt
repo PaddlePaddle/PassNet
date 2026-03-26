@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start400_end405_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start400_end405_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start400_end405_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start400_end405_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/4/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start400_end405_6
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/ultralytics/yolov9e-seg/_decomposed/yolov9e-seg_start400_end405_6

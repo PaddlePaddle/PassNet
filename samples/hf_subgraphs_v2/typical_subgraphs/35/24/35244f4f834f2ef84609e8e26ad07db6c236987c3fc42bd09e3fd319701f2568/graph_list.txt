@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/7/samples/mmseg/K-Net_fcn/_decomposed/K-Net_fcn_start187_end238_18
+graphs/hf_subgraphs_v2/typical_subgraphs/float32/7/samples/mmseg/K-Net_fcn/_decomposed/K-Net_fcn_start187_end238_18
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/mmseg/K-Net_swin-l/_decomposed/K-Net_swin-l_start1569_end1620_4

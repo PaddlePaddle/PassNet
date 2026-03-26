@@ -1,0 +1,36 @@
+{
+    "samples/ultralytics/yolov6l": [
+        [
+            116,
+            122
+        ],
+        [
+            217,
+            223
+        ],
+        [
+            251,
+            257
+        ]
+    ],
+    "samples/ultralytics/yolov6m": [
+        [
+            80,
+            86
+        ]
+    ],
+    "samples/ultralytics/yolov6n": [
+        [
+            44,
+            50
+        ],
+        [
+            97,
+            103
+        ],
+        [
+            113,
+            119
+        ]
+    ]
+}

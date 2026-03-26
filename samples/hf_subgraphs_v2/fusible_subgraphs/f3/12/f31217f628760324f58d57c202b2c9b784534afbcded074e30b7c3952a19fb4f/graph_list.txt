@@ -1,0 +1,9 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start216_end218_20
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start216_end218_20
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/0/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start216_end218_20
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/3/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start216_end218_20
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start216_end218_20
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/5/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start216_end218_20
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/8/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start216_end218_20
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/7/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start216_end218_20
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/transformers-auto-model/Visual-Attention-Network_van-small/_decomposed/Visual-Attention-Network_van-small_start216_end218_20

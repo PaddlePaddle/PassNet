@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/allegro_plt5-large": [
+        [
+            57,
+            58
+        ]
+    ],
+    "samples/transformers-auto-model/moska_plt5-seq-clf-with-entities-updated-finetuned": [
+        [
+            57,
+            58
+        ]
+    ]
+}

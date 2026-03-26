@@ -1,0 +1,20 @@
+{
+    "samples/mmseg/Twins_svt-s_fpn": [
+        [
+            48,
+            50
+        ]
+    ],
+    "samples/transformers-auto-model/face-parsing": [
+        [
+            83,
+            85
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-SegformerForImageClassification": [
+        [
+            219,
+            221
+        ]
+    ]
+}

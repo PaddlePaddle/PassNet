@@ -1,0 +1,224 @@
+{
+    "samples/timm/coatnet_1_rw_224": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/coatnet_bn_0_rw_224": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/coatnet_pico_rw_224": [
+        [
+            9,
+            10
+        ],
+        [
+            41,
+            42
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_0_rw_224": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_1_rw2_224": [
+        [
+            11,
+            12
+        ]
+    ],
+    "samples/timm/coatnet_rmlp_nano_rw_224": [
+        [
+            9,
+            10
+        ],
+        [
+            56,
+            57
+        ]
+    ],
+    "samples/timm/cs3sedarknet_xdw": [
+        [
+            184,
+            185
+        ]
+    ],
+    "samples/timm/efficientnetv2_rw_s.ra2_in1k": [
+        [
+            64,
+            65
+        ]
+    ],
+    "samples/timm/fastvit_s12.apple_dist_in1k": [
+        [
+            254,
+            255
+        ]
+    ],
+    "samples/timm/hgnet_small.paddle_in1k": [
+        [
+            36,
+            37
+        ]
+    ],
+    "samples/timm/hgnetv2_b0.ssld_stage1_in22k_in1k": [
+        [
+            83,
+            84
+        ]
+    ],
+    "samples/timm/hgnetv2_b1.ssld_stage1_in22k_in1k": [
+        [
+            83,
+            84
+        ]
+    ],
+    "samples/timm/mobilenetv1_100.ra4_e3600_r224_in1k": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/timm/mobilenetv1_100h.ra4_e3600_r224_in1k": [
+        [
+            33,
+            34
+        ]
+    ],
+    "samples/timm/mobileone_s0.apple_in1k": [
+        [
+            644,
+            645
+        ],
+        [
+            647,
+            648
+        ],
+        [
+            650,
+            651
+        ],
+        [
+            653,
+            654
+        ]
+    ],
+    "samples/timm/mobileone_s2.apple_in1k": [
+        [
+            145,
+            146
+        ]
+    ],
+    "samples/timm/repvit_m1_1.dist_300e_in1k": [
+        [
+            301,
+            302
+        ]
+    ],
+    "samples/timm/repvit_m1_5.dist_300e_in1k": [
+        [
+            541,
+            542
+        ]
+    ],
+    "samples/timm/repvit_m2.dist_in1k": [
+        [
+            301,
+            302
+        ]
+    ],
+    "samples/timm/repvit_m3.dist_in1k": [
+        [
+            451,
+            452
+        ]
+    ],
+    "samples/timm/xception41.tf_in1k": [
+        [
+            35,
+            36
+        ]
+    ],
+    "samples/timm/xception41p.ra3_in1k": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/timm/xception65.ra3_in1k": [
+        [
+            35,
+            36
+        ]
+    ],
+    "samples/timm/xception65p.ra3_in1k": [
+        [
+            28,
+            29
+        ]
+    ],
+    "samples/timm/xception71.tf_in1k": [
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/torchvision/efficientnet_v2_s": [
+        [
+            68,
+            69
+        ]
+    ],
+    "samples/torchvision/maxvit_t": [
+        [
+            10,
+            11
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-small": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevit-x-small": [
+        [
+            127,
+            128
+        ]
+    ],
+    "samples/transformers-auto-model/apple_mobilevitv2-1.0-imagenet1k-256": [
+        [
+            31,
+            32
+        ]
+    ],
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-MobileViTModel": [
+        [
+            40,
+            41
+        ]
+    ],
+    "samples/ultralytics/yolov10n": [
+        [
+            82,
+            83
+        ]
+    ],
+    "samples/ultralytics/yolov10s": [
+        [
+            53,
+            54
+        ],
+        [
+            219,
+            220
+        ]
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "samples/transformers-auto-model/Finnish-NLP_electra-base-generator-finnish": [
+        [
+            359,
+            361
+        ]
+    ],
+    "samples/transformers-auto-model/google/bert_uncased_L-2_H-256_A-4": [
+        [
+            29,
+            31
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            51,
+            53
+        ]
+    ]
+}

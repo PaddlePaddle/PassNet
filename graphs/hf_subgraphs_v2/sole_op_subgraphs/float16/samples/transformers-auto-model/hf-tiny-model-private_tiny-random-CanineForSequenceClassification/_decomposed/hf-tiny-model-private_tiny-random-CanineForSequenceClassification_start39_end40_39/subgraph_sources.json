@@ -1,0 +1,60 @@
+{
+    "samples/transformers-auto-model/hf-tiny-model-private_tiny-random-CanineForSequenceClassification": [
+        [
+            39,
+            40
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_trocr-base-printed": [
+        [
+            394,
+            395
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch16": [
+        [
+            831,
+            832
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-base-patch32": [
+        [
+            831,
+            832
+        ]
+    ],
+    "samples/transformers-auto-model/microsoft_xclip-large-patch14": [
+        [
+            1599,
+            1600
+        ]
+    ]
+}

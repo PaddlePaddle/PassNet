@@ -1,0 +1,48 @@
+class Program_weight_tensor_meta_L_self_modules_fc_parameters_bias_:
+	name = "w_0"
+	original_name = "L_self_modules_fc_parameters_bias_"
+	shape = [1000]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.013
+
+
+class Program_weight_tensor_meta_L_self_modules_fc_parameters_weight_:
+	name = "w_1"
+	original_name = "L_self_modules_fc_parameters_weight_"
+	shape = [1000, 2048]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = -0.000
+	std = 0.013
+
+
+class Program_weight_tensor_meta_L_self_modules_layer4_modules_2_modules_se_modules_conv_parameters_weight_:
+	name = "w_2"
+	original_name = "L_self_modules_layer4_modules_2_modules_se_modules_conv_parameters_weight_"
+	shape = [1, 1, 7]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.006
+	std = 0.206
+
+
+class Program_weight_tensor_meta_x_354:
+	name = "in_0"
+	original_name = "x_354"
+	shape = [1, 2048, 7, 7]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000
+
+
+class Program_weight_tensor_meta_x_362:
+	name = "in_1"
+	original_name = "x_362"
+	shape = [1, 2048, 7, 7]
+	dtype = "torch.float32"
+	device = "cuda:0"
+	mean = 0.000
+	std = 0.000

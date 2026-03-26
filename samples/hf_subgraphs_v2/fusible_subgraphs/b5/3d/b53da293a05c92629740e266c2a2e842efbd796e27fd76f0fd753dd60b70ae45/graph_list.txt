@@ -1,0 +1,1 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/9/samples/transformers-auto-model/all-MiniLM-L6-v2/_decomposed/all-MiniLM-L6-v2_start3_end10_1

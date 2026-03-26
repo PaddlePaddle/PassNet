@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/2/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start248_end253_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/1/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start248_end253_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start248_end253_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/2/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start248_end253_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start248_end253_9
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/timm/hgnet_base.ssld_in1k/_decomposed/hgnet_base.ssld_in1k_start248_end253_9

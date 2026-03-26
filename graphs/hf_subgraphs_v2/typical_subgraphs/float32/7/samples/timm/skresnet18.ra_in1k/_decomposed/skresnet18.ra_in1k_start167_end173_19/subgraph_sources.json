@@ -1,0 +1,20 @@
+{
+    "samples/timm/skresnet18.ra_in1k": [
+        [
+            167,
+            173
+        ]
+    ],
+    "samples/timm/skresnet34.ra_in1k": [
+        [
+            335,
+            341
+        ]
+    ],
+    "samples/timm/skresnext50_32x4d.ra_in1k": [
+        [
+            337,
+            343
+        ]
+    ]
+}

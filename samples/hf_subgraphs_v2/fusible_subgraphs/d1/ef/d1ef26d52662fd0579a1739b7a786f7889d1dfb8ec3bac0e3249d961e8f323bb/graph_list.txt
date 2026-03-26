@@ -1,0 +1,12 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start61_end64_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/5/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start9_end12_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/6/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start9_end12_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/6/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start9_end12_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/1/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start61_end64_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/4/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start61_end64_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/5/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start61_end64_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start61_end64_3
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/4/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start9_end12_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/bfloat16/7/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start9_end12_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/8/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start9_end12_0
+graphs/hf_subgraphs_v2/fusible_subgraphs/float16/8/samples/timm/repvit_m1.dist_in1k/_decomposed/repvit_m1.dist_in1k_start9_end12_0

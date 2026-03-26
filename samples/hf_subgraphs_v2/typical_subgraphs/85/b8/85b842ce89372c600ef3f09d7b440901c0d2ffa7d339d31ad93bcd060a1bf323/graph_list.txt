@@ -1,0 +1,6 @@
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/1/samples/ultralytics/yolo11l/_decomposed/yolo11l_start130_end134_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/0/samples/ultralytics/yolo11l/_decomposed/yolo11l_start130_end134_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/6/samples/ultralytics/yolo11l/_decomposed/yolo11l_start130_end134_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/4/samples/ultralytics/yolo11l/_decomposed/yolo11l_start130_end134_2
+graphs/hf_subgraphs_v2/typical_subgraphs/float16/7/samples/ultralytics/yolo11l/_decomposed/yolo11l_start130_end134_2
+graphs/hf_subgraphs_v2/typical_subgraphs/bfloat16/9/samples/ultralytics/yolo12l-cls/_decomposed/yolo12l-cls_start69_end73_1

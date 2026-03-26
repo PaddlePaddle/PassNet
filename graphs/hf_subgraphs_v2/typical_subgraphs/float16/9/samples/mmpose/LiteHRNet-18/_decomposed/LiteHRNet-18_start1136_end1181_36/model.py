@@ -1,0 +1,54 @@
+import torch
+
+class GraphModule(torch.nn.Module):
+    
+    
+    
+    def forward(self, w_0 : torch.Tensor, w_1, w_2, w_3, w_4, w_5, w_6, w_7, w_8, w_9, w_10, w_11, w_12, w_13, w_14, w_15, in_0, in_1, in_2, in_3, in_4, in_5, in_6, in_7):
+        tmp_16 = torch.nn.functional.adaptive_avg_pool2d(in_4, 1)
+        conv2d = torch.conv2d(tmp_16, w_1, w_0, (1, 1), (0, 0), (1, 1), 1);  tmp_16 = w_1 = w_0 = None
+        tmp_18 = torch.nn.functional.relu(conv2d, inplace = True);  conv2d = None
+        conv2d_1 = torch.conv2d(tmp_18, w_3, w_2, (1, 1), (0, 0), (1, 1), 1);  tmp_18 = w_3 = w_2 = None
+        tmp_20 = torch.sigmoid(conv2d_1);  conv2d_1 = None
+        tmp_21 = in_4 * tmp_20;  in_4 = tmp_20 = None
+        tmp_22 = torch.nn.functional.adaptive_avg_pool2d(in_5, 1)
+        conv2d_2 = torch.conv2d(tmp_22, w_5, w_4, (1, 1), (0, 0), (1, 1), 1);  tmp_22 = w_5 = w_4 = None
+        tmp_24 = torch.nn.functional.relu(conv2d_2, inplace = True);  conv2d_2 = None
+        conv2d_3 = torch.conv2d(tmp_24, w_7, w_6, (1, 1), (0, 0), (1, 1), 1);  tmp_24 = w_7 = w_6 = None
+        tmp_26 = torch.sigmoid(conv2d_3);  conv2d_3 = None
+        tmp_27 = in_5 * tmp_26;  in_5 = tmp_26 = None
+        tmp_28 = torch.nn.functional.adaptive_avg_pool2d(in_6, 1)
+        conv2d_4 = torch.conv2d(tmp_28, w_9, w_8, (1, 1), (0, 0), (1, 1), 1);  tmp_28 = w_9 = w_8 = None
+        tmp_30 = torch.nn.functional.relu(conv2d_4, inplace = True);  conv2d_4 = None
+        conv2d_5 = torch.conv2d(tmp_30, w_11, w_10, (1, 1), (0, 0), (1, 1), 1);  tmp_30 = w_11 = w_10 = None
+        tmp_32 = torch.sigmoid(conv2d_5);  conv2d_5 = None
+        tmp_33 = in_6 * tmp_32;  in_6 = tmp_32 = None
+        tmp_34 = torch.nn.functional.adaptive_avg_pool2d(in_7, 1)
+        conv2d_6 = torch.conv2d(tmp_34, w_13, w_12, (1, 1), (0, 0), (1, 1), 1);  tmp_34 = w_13 = w_12 = None
+        tmp_36 = torch.nn.functional.relu(conv2d_6, inplace = True);  conv2d_6 = None
+        conv2d_7 = torch.conv2d(tmp_36, w_15, w_14, (1, 1), (0, 0), (1, 1), 1);  tmp_36 = w_15 = w_14 = None
+        tmp_38 = torch.sigmoid(conv2d_7);  conv2d_7 = None
+        tmp_39 = in_7 * tmp_38;  in_7 = tmp_38 = None
+        tmp_40 = torch.cat([in_0, tmp_21], dim = 1);  in_0 = tmp_21 = None
+        tmp_41 = torch.cat([in_1, tmp_27], dim = 1);  in_1 = tmp_27 = None
+        tmp_42 = torch.cat([in_2, tmp_33], dim = 1);  in_2 = tmp_33 = None
+        tmp_43 = torch.cat([in_3, tmp_39], dim = 1);  in_3 = tmp_39 = None
+        tmp_44 = tmp_40.view(1, 2, 20, 64, 48);  tmp_40 = None
+        tmp_45 = torch.transpose(tmp_44, 1, 2);  tmp_44 = None
+        tmp_46 = tmp_45.contiguous();  tmp_45 = None
+        tmp_47 = tmp_46.view(1, 40, 64, 48);  tmp_46 = None
+        tmp_48 = tmp_41.view(1, 2, 40, 32, 24);  tmp_41 = None
+        tmp_49 = torch.transpose(tmp_48, 1, 2);  tmp_48 = None
+        tmp_50 = tmp_49.contiguous();  tmp_49 = None
+        tmp_51 = tmp_50.view(1, 80, 32, 24);  tmp_50 = None
+        tmp_52 = tmp_42.view(1, 2, 80, 16, 12);  tmp_42 = None
+        tmp_53 = torch.transpose(tmp_52, 1, 2);  tmp_52 = None
+        tmp_54 = tmp_53.contiguous();  tmp_53 = None
+        tmp_55 = tmp_54.view(1, 160, 16, 12);  tmp_54 = None
+        tmp_56 = tmp_43.view(1, 2, 160, 8, 6);  tmp_43 = None
+        tmp_57 = torch.transpose(tmp_56, 1, 2);  tmp_56 = None
+        tmp_58 = tmp_57.contiguous();  tmp_57 = None
+        tmp_59 = tmp_58.view(1, 320, 8, 6);  tmp_58 = None
+        tmp_47 += tmp_47;  tmp_60 = tmp_47;  tmp_47 = None
+        return (tmp_51, tmp_55, tmp_59, tmp_60)
+        

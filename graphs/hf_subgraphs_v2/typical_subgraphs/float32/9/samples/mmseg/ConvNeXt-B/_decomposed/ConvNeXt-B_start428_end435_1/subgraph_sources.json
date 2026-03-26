@@ -1,0 +1,116 @@
+{
+    "samples/mmseg/ConvNeXt-B": [
+        [
+            428,
+            435
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-L": [
+        [
+            428,
+            435
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-S": [
+        [
+            428,
+            435
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-T": [
+        [
+            248,
+            255
+        ]
+    ],
+    "samples/mmseg/ConvNeXt-XL": [
+        [
+            428,
+            435
+        ]
+    ],
+    "samples/mmseg/DeiT_S_ln_mln": [
+        [
+            272,
+            279
+        ]
+    ],
+    "samples/mmseg/DeiT_S_mln": [
+        [
+            271,
+            278
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-l": [
+        [
+            1547,
+            1554
+        ]
+    ],
+    "samples/mmseg/K-Net_swin-t": [
+        [
+            809,
+            816
+        ]
+    ],
+    "samples/mmseg/MAE": [
+        [
+            468,
+            475
+        ]
+    ],
+    "samples/mmseg/Swin-b": [
+        [
+            1547,
+            1554
+        ]
+    ],
+    "samples/mmseg/Swin-s": [
+        [
+            1547,
+            1554
+        ]
+    ],
+    "samples/mmseg/Swin-t": [
+        [
+            809,
+            816
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-l_uperhead": [
+        [
+            1010,
+            1017
+        ]
+    ],
+    "samples/mmseg/Twins_pcpvt-s_uperhead": [
+        [
+            435,
+            442
+        ]
+    ],
+    "samples/mmseg/Twins_svt-b_uperhead": [
+        [
+            973,
+            980
+        ]
+    ],
+    "samples/mmseg/Twins_svt-s_uperhead": [
+        [
+            744,
+            751
+        ]
+    ],
+    "samples/mmseg/ViT_B_ln_mln": [
+        [
+            272,
+            279
+        ]
+    ],
+    "samples/mmseg/ViT_B_mln": [
+        [
+            271,
+            278
+        ]
+    ]
+}

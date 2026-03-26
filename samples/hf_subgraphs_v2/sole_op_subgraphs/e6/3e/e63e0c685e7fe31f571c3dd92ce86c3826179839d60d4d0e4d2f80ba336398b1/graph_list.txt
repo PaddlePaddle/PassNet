@@ -1,0 +1,3 @@
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/transformers-auto-model/microsoft_swin-base-patch4-window12-384-in22k/_decomposed/microsoft_swin-base-patch4-window12-384-in22k_start1014_end1015_1014
+graphs/hf_subgraphs_v2/sole_op_subgraphs/bfloat16/samples/torchvision/swin_v2_b/_decomposed/swin_v2_b_start1101_end1102_1101
+graphs/hf_subgraphs_v2/sole_op_subgraphs/float16/samples/torchvision/swin_v2_b/_decomposed/swin_v2_b_start1045_end1046_1045

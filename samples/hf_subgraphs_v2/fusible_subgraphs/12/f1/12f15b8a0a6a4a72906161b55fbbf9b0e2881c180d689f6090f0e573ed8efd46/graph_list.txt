@@ -1,0 +1,12 @@
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start63_end69_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start63_end69_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/9/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start415_end421_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start415_end421_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/mixnet_xl.ra_in1k/_decomposed/mixnet_xl.ra_in1k_start63_end69_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start415_end421_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start415_end421_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/mixnet_xl.ra_in1k/_decomposed/mixnet_xl.ra_in1k_start63_end69_10
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start438_end444_22
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/2/samples/timm/mixnet_xl.ra_in1k/_decomposed/mixnet_xl.ra_in1k_start513_end519_18
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/3/samples/timm/mixnet_m.ft_in1k/_decomposed/mixnet_m.ft_in1k_start438_end444_22
+graphs/hf_subgraphs_v2/fusible_subgraphs/float32/7/samples/timm/mixnet_xl.ra_in1k/_decomposed/mixnet_xl.ra_in1k_start513_end519_18

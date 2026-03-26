@@ -1,0 +1,14 @@
+{
+    "samples/transformers-auto-model/Geotrend_distilbert-base-ar-cased": [
+        [
+            1,
+            2
+        ]
+    ],
+    "samples/transformers-auto-model/emrecan_convbert-base-turkish-mc4-cased-allnli_tr": [
+        [
+            4,
+            5
+        ]
+    ]
+}

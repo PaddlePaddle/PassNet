@@ -1,0 +1,12 @@
+{
+    "samples/transformers-auto-model/YituTech_conv-bert-base": [
+        [
+            51,
+            53
+        ],
+        [
+            102,
+            104
+        ]
+    ]
+}
