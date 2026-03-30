@@ -387,7 +387,7 @@ def is_pass_source_valid(path):
         print(f"[PassMgrBackend] Pass source validation failed for {path}:")
         for v in violations:
             print(f"  - {v}")
-        print(f"[PassMgrBackend] Skipping loading of {name} due to validation failures.")
+        print(f"[PassMgrBackend] Skipping loading of {path} due to validation failures.")
         return False
     return True
 
@@ -407,7 +407,7 @@ def is_pass_source_valid_by_customized_checker(path):
             print(f"[PassMgrBackend] Pass source validation failed for {path}:")
             for v in violations:
                 print(f"  - {v}")
-            print(f"[PassMgrBackend] Skipping loading of {name} due to validation failures.")
+            print(f"[PassMgrBackend] Skipping loading of {path} due to validation failures.")
             return False
     return True
 
