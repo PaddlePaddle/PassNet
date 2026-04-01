@@ -90,7 +90,7 @@ class AI4CAgent(R2EGymAgent):
         max_steps: int = 10,
         max_steps_absolute: int = 50,
         max_token_limit: int = 65536,
-        max_exec_time: int = 90,
+        max_exec_time: int = 610,
         max_total_time: int = 50000,
         max_llm_time: int = 7200,
         temperature: float = 0,
