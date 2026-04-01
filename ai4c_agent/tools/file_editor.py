@@ -449,6 +449,8 @@ class StrReplaceEditor:
         # Drop data payload lines entirely to keep context compact.
         if re.match(r"^(\s*data\s*=\s*)\[(.*)\](\s*)$", line):
             return ""
+        if re.match(r"^(\s*device\s*=\s*)\[(.*)\](\s*)$", line):
+            return ""
         return line
 
     def create(self, path: Path, file_text: str) -> EditorResult:
