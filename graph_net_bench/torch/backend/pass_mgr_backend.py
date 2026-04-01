@@ -201,7 +201,7 @@ class PassMgrBackend(GraphCompilerBackend):
             tmp_file = Path(self.config['pass_match_result_file_path'])
             tmp_file.write_text(str(pass_result.modified))
         if not pass_result.modified:
-            print("[PassMgrBackend] Warning: No passes modified the graph. Returning original.")
+            print("[PassMgrBackend] Warning: No passes modified the graph. Returning original.", flush=True)
             # exit(-1)  <-- Removed to allow continued execution or fallback
         return pass_result.graph_module
 
@@ -216,7 +216,7 @@ class PassMgrBackend(GraphCompilerBackend):
             )
             for pass_name, pass_rule in self._get_named_pass_rules()
         ]
-        print(f"[PassMgrBackend] Loaded {len(passes)} passes: {[p.__name__ for p in passes]}")
+        print(f"[PassMgrBackend] Loaded {len(passes)} passes: {[p.__name__ for p in passes]}", flush=True)
         return passes
 
     def _get_named_pass_rules(self):
@@ -322,14 +322,14 @@ class PatternReplacementPass:
             matcher = DiagnosticMatcher(pattern_graph)
             matcher.match(gm.graph)
             if not matcher.failures:
-                print(f"[PassMgrBackend] No specific node failures recorded for {self.pass_name}.")
+                print(f"[PassMgrBackend] No specific node failures recorded for {self.pass_name}.", flush=True)
                 return
-            print(f"[PassMgrBackend] Diagnostic for {self.pass_name} (best-attempt):")
+            print(f"[PassMgrBackend] Diagnostic for {self.pass_name} (best-attempt):", flush=True)
             non_op = [f for f in matcher.failures if f.failure_type != FailureType.OP_MISMATCH]
             for f in (non_op or matcher.failures)[:10]:
                 print(f"  - {f}")
         except Exception as e:
-            print(f"[PassMgrBackend] Diagnostic failed: {e}")
+            print(f"[PassMgrBackend] Diagnostic failed: {e}", flush=True)
     
     @classmethod
     def reset_func_arg_names(cls, arg_names):
@@ -352,18 +352,18 @@ def {func_name}(f):
         try:
             matches = _replace_pattern(gm, self.pattern, self.replacement)
         except Exception as e:
-            print(f"[PassMgrBackend] Pass {self.pass_name} CRASHED with error: {e}")
+            print(f"[PassMgrBackend] Pass {self.pass_name} CRASHED with error: {e}", flush=True)
             raise e
         
         # Determine if the graph actually changed
         modified = len(matches) > 0
-        
+
         if modified:
             gm.recompile()
-            print(f"Applied {len(matches)} replacements.")
+            print(f"[PassMgrBackend] Applied {len(matches)} replacements with {self.pass_name}.", flush=True)
         else:
             # Diagnose pattern matching failure
-            print(f"[PassMgrBackend] Pass {self.pass_name} failed to match.")
+            print(f"[PassMgrBackend] Pass {self.pass_name} failed to match.", flush=True)
             self._print_diagnostic_report(gm)
 
         # Return the PassResult object
@@ -383,11 +383,11 @@ def is_pass_source_valid(path):
         source = f.read()
     violations = validate_pass_source(source)
     if violations:
-        print(f"[PassMgrBackend] Detected hacking behavior, forbidden torch API usage in replacement_func")
-        print(f"[PassMgrBackend] Pass source validation failed for {path}:")
+        print(f"[PassMgrBackend] Detected hacking behavior, forbidden torch API usage in replacement_func", flush=True)
+        print(f"[PassMgrBackend] Pass source validation failed for {path}:", flush=True)
         for v in violations:
-            print(f"  - {v}")
-        print(f"[PassMgrBackend] Skipping loading of {path} due to validation failures.")
+            print(f"  - {v}", flush=True)
+        print(f"[PassMgrBackend] Skipping loading of {path} due to validation failures.", flush=True)
         return False
     return True
 
@@ -403,11 +403,11 @@ def is_pass_source_valid_by_customized_checker(path):
         module = imp_util.load_module(checker_path)
         violations = module.validate_pass_source(source)
         if violations:
-            print(f"[PassMgrBackend] Detected hacking behavior, forbidden torch API usage in replacement_func")
-            print(f"[PassMgrBackend] Pass source validation failed for {path}:")
+            print(f"[PassMgrBackend] Detected hacking behavior, forbidden torch API usage in replacement_func", flush=True)
+            print(f"[PassMgrBackend] Pass source validation failed for {path}:", flush=True)
             for v in violations:
-                print(f"  - {v}")
-            print(f"[PassMgrBackend] Skipping loading of {path} due to validation failures.")
+                print(f"  - {v}", flush=True)
+            print(f"[PassMgrBackend] Skipping loading of {path} due to validation failures.", flush=True)
             return False
     return True
 
