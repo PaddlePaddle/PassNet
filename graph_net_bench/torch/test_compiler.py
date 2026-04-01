@@ -46,7 +46,7 @@ def get_hardward_name(args):
 
 
 def get_compile_framework_version(args):
-    if args.compiler in ["inductor", "nope", "unstable_to_stable"]:
+    if args.compiler in ["inductor", "nope", "unstable_to_stable", "pass_mgr"]:
         return torch.__version__
     elif args.compiler in ["tvm", "xla", "tensorrt", "bladedisc"]:
         # Assuming compiler object has a version attribute
@@ -364,8 +364,10 @@ def get_cmp_diff_count(expected_out, compiled_out, atol, rtol):
         results.append(str(diff_count))
     return " ".join(results)
 
+
 def get_sample_root(args):
     return args.model_path_prefix
+
 
 def test_multi_models(args):
     test_samples = test_compiler_util.get_allow_samples(args.allow_list, get_sample_root(args))
