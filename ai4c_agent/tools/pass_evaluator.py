@@ -13,6 +13,8 @@ Parameters:
 
 import argparse
 import subprocess
+import select
+import time
 import sys
 import os
 import json
@@ -47,6 +49,49 @@ def _remove_useless_lines(result_stdout, result_stderr):
     return filtered_stdout, filtered_stderr
 
 
+def run_with_timeout(cmd, cwd, timeout):
+    """Run a command, collecting stdout/stderr. On timeout, flush collected output before exit."""
+    proc = subprocess.Popen(
+        cmd, cwd=cwd,
+        stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+        text=True, encoding='utf-8', errors='ignore',
+    )
+
+    stdout_lines, stderr_lines = [], []
+    start_time = time.time()
+    readable_fds = [proc.stdout, proc.stderr]
+
+    while True:
+        elapsed = time.time() - start_time
+        if elapsed >= timeout:
+            proc.terminate()
+            proc.wait()
+            print(''.join(stdout_lines), end='')
+            print(''.join(stderr_lines), end='', file=sys.stderr)
+            print("\n❌ ERROR: Evaluation timed out after 10 minutes")
+            sys.exit(1)
+
+        readable, _, _ = select.select(readable_fds, [], [], timeout - elapsed)
+
+        if not readable:
+            if proc.poll() is not None:
+                break
+            continue
+
+        for stream in readable:
+            line = stream.readline()
+            if line:
+                (stdout_lines if stream is proc.stdout else stderr_lines).append(line)
+            else:
+                readable_fds.remove(stream)
+
+        if not readable_fds:
+            break
+
+    proc.wait()
+    return proc.returncode, ''.join(stdout_lines), ''.join(stderr_lines)
+
+
 def run_evaluation():
     """
     Run the AI4C evaluation script (entry.sh) and parse results.
@@ -75,71 +120,58 @@ def run_evaluation():
     print(f"Running evaluation for problem: {problem_path}")
 
     try:
-        # Execute entry.sh
-        result = subprocess.run(
-            ["bash", str(entry_script)],
-            cwd=str(sample_path),
-            capture_output=True,
-            text=True,
-            encoding='utf-8',
-            errors='ignore',
-            timeout=600  # 10 minute timeout
+        returncode, stdout_text, stderr_text = run_with_timeout(
+            ["bash", str(entry_script)], cwd=str(sample_path), timeout=600
         )
-
-        filtered_stdout, filtered_stderr = _remove_useless_lines(result.stdout, result.stderr)
-        print("[STDOUT]")
-        for line in filtered_stdout:
-            print(line)
-        
-        for line in filtered_stderr:
-            print(line)
-
-        # Parse the aggregated score
-        output_path = Path("/tmp/workspace_graph_net_bench_test")
-        score_file = output_path / "aggregated_score.json"
-
-        if score_file.exists():
-            with open(score_file, 'r') as f:
-                score_data = json.load(f)
-
-            print("\n✅ Evaluation completed successfully!")
-            print(f"Score data: {json.dumps(score_data, indent=2)}")
-
-            # Extract key metrics
-            if isinstance(score_data, dict):
-                speedup = score_data.get('speedup', 'N/A')
-                correctness = score_data.get('correctness', 'N/A')
-                print(f"\n📊 Performance Metrics:")
-                print(f"  - Speedup: {speedup}")
-                print(f"  - Correctness: {correctness}")
-        else:
-            print(f"\n⚠️  Warning: Score file not found at {score_file}")
-            print(f"Check if evaluation completed successfully.")
-
-        # Check if pass matched (look for "Has Any pass matched?" in output)
-        if "Has Any pass matched?" in result.stdout:
-            if "[False]" in result.stdout:
-                print("\n❌ FAIL: Pass did not match any pattern")
-                print("This means the pass optimization pattern was not triggered.")
-                sys.exit(1)
-            elif "[True]" in result.stdout:
-                print("\n✅ SUCCESS: Pass matched and was applied")
-
-        # Return code check
-        if result.returncode != 0:
-            print(f"\n❌ Evaluation failed with return code: {result.returncode}")
-            sys.exit(result.returncode)
-
-        return result.returncode
-
-    except subprocess.TimeoutExpired:
-        print("\n❌ ERROR: Evaluation timed out after 10 minutes")
-        sys.exit(1)
     except Exception as e:
         print(f"\n❌ ERROR: Unexpected error during evaluation: {e}")
         import traceback
         traceback.print_exc()
         sys.exit(1)
+
+    filtered_stdout, filtered_stderr = _remove_useless_lines(stdout_text, stderr_text)
+    print("[STDOUT]")
+    for line in filtered_stdout:
+        print(line)
+    for line in filtered_stderr:
+        print(line)
+
+    # Parse the aggregated score
+    output_path = Path("/tmp/workspace_graph_net_bench_test")
+    score_file = output_path / "aggregated_score.json"
+
+    if score_file.exists():
+        with open(score_file, 'r') as f:
+            score_data = json.load(f)
+
+        print("\n✅ Evaluation completed successfully!")
+        print(f"Score data: {json.dumps(score_data, indent=2)}")
+
+        if isinstance(score_data, dict):
+            speedup = score_data.get('speedup', 'N/A')
+            correctness = score_data.get('correctness', 'N/A')
+            print(f"\n📊 Performance Metrics:")
+            print(f"  - Speedup: {speedup}")
+            print(f"  - Correctness: {correctness}")
+    else:
+        print(f"\n⚠️  Warning: Score file not found at {score_file}")
+        print(f"Check if evaluation completed successfully.")
+
+    # Check if pass matched (look for "Has Any pass matched?" in output)
+    if "Has Any pass matched?" in stdout_text:
+        if "[False]" in stdout_text:
+            print("\n❌ FAIL: Pass did not match any pattern")
+            print("This means the pass optimization pattern was not triggered.")
+            sys.exit(1)
+        elif "[True]" in stdout_text:
+            print("\n✅ SUCCESS: Pass matched and was applied")
+
+    # Return code check
+    if returncode != 0:
+        print(f"\n❌ Evaluation failed with return code: {returncode}")
+        sys.exit(returncode)
+
+    return returncode
 
 
 def main():

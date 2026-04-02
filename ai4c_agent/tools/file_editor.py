@@ -160,7 +160,7 @@ class StrReplaceEditor:
         new_str: str = None,
         insert_line: int = None,
         concise: bool = False,
-        python_only: bool = True,
+        python_only: bool = False,
     ) -> EditorResult:
         path = Path(path_str)
         self.validate_path(command, path)
@@ -208,7 +208,7 @@ class StrReplaceEditor:
         path: Path,
         view_range: Optional[List[int]] = None,
         concise: bool = False,
-        python_only: bool = True,
+        python_only: bool = False,
     ) -> EditorResult:
         """
         If path is a directory, list contents (2 levels deep, excluding hidden).
@@ -448,6 +448,8 @@ class StrReplaceEditor:
     def _filter_context_heavy_line(self, line: str) -> str:
         # Drop data payload lines entirely to keep context compact.
         if re.match(r"^(\s*data\s*=\s*)\[(.*)\](\s*)$", line):
+            return ""
+        if re.match(r"^(\s*device\s*=\s*)\[(.*)\](\s*)$", line):
             return ""
         return line
 
@@ -702,7 +704,7 @@ def main():
     parser.add_argument(
         "--python_only",
         type=bool,
-        default=True,
+        default=False,
         help="If True, attempts to limit view (for both dir and file level) to Python files only.",
     )
 
