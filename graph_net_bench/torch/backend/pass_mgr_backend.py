@@ -266,14 +266,14 @@ class PassMgrBackend(GraphCompilerBackend):
         return [
             rule
             for rule in rules
-            if rule.replacement_func in allowed_replacement_funcs
+            if rule.replacement_func() in allowed_replacement_funcs
         ]
 
     def _get_allowed_replacement_funcs(self, rules):
         replacement_func_limit = self.config['output_pass_replacement_func_limit']
         replacement_func2none = OrderedDict([])
         for rule in rules:
-            replacement_func2none[rule.replacement_func] = None
+            replacement_func2none[rule.replacement_func()] = None
         replacement_funcs = list(replacement_func2none.keys())
         if len(replacement_funcs) <= replacement_func_limit:
             return set(replacement_funcs)
@@ -416,6 +416,8 @@ def load_py_module(path, name='unamed'):
         return None
     if not is_pass_source_valid_by_customized_checker(path):
         return None
+    import sys
+    sys.path.insert(0, str(Path(path).parent.parent))
     spec = imp.spec_from_file_location(name, path)
     module = imp.module_from_spec(spec)
     module.__file__ = path
