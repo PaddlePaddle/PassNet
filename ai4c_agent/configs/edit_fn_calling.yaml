@@ -246,6 +246,8 @@ instance_prompt: |-
   - Pattern matching is strict - only include actual operations, exclude `tmp_x = None` cleanup statements
   - Each pattern should match ONE specific operation or fusion opportunity
   - Each pattern should inculde at least one Triton kernel implementation
+  - Use one Pass with a parameterized pattern rather than separate files with hardcoded values when multiple Passes differ only in a scalar constant (e.g., a division scale)
+  - Extract shared optimized_kernel and kernel_wrapper into a separate file under pass_dir/ and import via `from pass_dir.your_kernel_file import your_func` when multiple Passes reuse the same Triton kernel and replacement logic
   - Pay attention to what the model returns - your pattern must return the same structure
   - ALWAYS create sorted_output_pass_rule_names.json listing all your pass files
   - When iterating, focus on optimizing the kernel implementation rather than changing pattern/replacement_args
