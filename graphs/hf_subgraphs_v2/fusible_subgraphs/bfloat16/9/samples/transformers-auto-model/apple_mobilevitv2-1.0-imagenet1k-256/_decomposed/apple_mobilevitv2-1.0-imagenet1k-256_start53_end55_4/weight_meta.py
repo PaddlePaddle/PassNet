@@ -5,7 +5,7 @@ class Program_weight_tensor_meta_context_vector_1:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_relu:
@@ -15,7 +15,7 @@ class Program_weight_tensor_meta_relu:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_value:
@@ -25,4 +25,4 @@ class Program_weight_tensor_meta_value:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100

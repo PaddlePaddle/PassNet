@@ -5,4 +5,4 @@ class Program_weight_tensor_meta_attention_scores_12:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100

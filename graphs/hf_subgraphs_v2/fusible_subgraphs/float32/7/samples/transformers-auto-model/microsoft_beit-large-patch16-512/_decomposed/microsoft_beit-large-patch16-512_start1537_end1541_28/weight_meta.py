@@ -5,7 +5,7 @@ class Program_weight_tensor_meta_L_self_modules_encoder_modules_layer_modules_23
 	dtype = "torch.float32"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_old_sub_table_47:
@@ -15,4 +15,4 @@ class Program_weight_tensor_meta_old_sub_table_47:
 	dtype = "torch.float32"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
