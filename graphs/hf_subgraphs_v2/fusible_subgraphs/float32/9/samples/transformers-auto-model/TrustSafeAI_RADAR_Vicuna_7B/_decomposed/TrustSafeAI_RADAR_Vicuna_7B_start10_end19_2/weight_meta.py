@@ -57,7 +57,7 @@ class Program_weight_tensor_meta_L_self_modules_embeddings_modules_token_type_em
 	dtype = "torch.float32"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.050
 
 
 class Program_weight_tensor_meta_L_self_modules_embeddings_modules_word_embeddings_parameters_weight_:

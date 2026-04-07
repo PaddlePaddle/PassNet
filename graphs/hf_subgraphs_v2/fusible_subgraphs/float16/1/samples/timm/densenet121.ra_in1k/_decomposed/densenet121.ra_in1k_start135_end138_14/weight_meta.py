@@ -56,7 +56,7 @@ class Program_weight_tensor_meta_new_features_10:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_11:
@@ -66,7 +66,7 @@ class Program_weight_tensor_meta_new_features_11:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_12:
@@ -86,7 +86,7 @@ class Program_weight_tensor_meta_new_features_13:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_14:
@@ -96,7 +96,7 @@ class Program_weight_tensor_meta_new_features_14:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_15:
@@ -106,7 +106,7 @@ class Program_weight_tensor_meta_new_features_15:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_16:
@@ -116,7 +116,7 @@ class Program_weight_tensor_meta_new_features_16:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_17:
@@ -126,7 +126,7 @@ class Program_weight_tensor_meta_new_features_17:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_6:
@@ -136,7 +136,7 @@ class Program_weight_tensor_meta_new_features_6:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_7:
@@ -146,7 +146,7 @@ class Program_weight_tensor_meta_new_features_7:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_8:
@@ -166,4 +166,4 @@ class Program_weight_tensor_meta_new_features_9:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100

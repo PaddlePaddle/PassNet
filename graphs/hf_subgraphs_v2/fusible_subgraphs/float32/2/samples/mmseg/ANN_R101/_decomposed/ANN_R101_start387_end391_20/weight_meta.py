@@ -15,7 +15,7 @@ class Program_weight_tensor_meta_L_self_modules_decode_head_modules_fusion_modul
 	dtype = "torch.float32"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.050
 
 
 class Program_weight_tensor_meta_out_329:

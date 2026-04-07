@@ -15,7 +15,7 @@ class Program_weight_tensor_meta_branch3x3_6:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_branch3x3dbl_17:
@@ -25,7 +25,7 @@ class Program_weight_tensor_meta_branch3x3dbl_17:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_branch_pool_19:

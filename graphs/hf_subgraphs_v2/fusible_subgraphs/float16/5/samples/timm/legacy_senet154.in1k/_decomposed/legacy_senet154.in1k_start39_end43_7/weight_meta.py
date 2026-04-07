@@ -25,7 +25,7 @@ class Program_weight_tensor_meta_out_17:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_out_9:
@@ -35,7 +35,7 @@ class Program_weight_tensor_meta_out_9:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_x_8:

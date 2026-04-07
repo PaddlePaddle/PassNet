@@ -56,7 +56,7 @@ class Program_weight_tensor_meta_dense_14:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_out1_15:
@@ -66,7 +66,7 @@ class Program_weight_tensor_meta_out1_15:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_resid_14:
@@ -76,7 +76,7 @@ class Program_weight_tensor_meta_resid_14:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_x_106:
@@ -86,4 +86,4 @@ class Program_weight_tensor_meta_x_106:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100

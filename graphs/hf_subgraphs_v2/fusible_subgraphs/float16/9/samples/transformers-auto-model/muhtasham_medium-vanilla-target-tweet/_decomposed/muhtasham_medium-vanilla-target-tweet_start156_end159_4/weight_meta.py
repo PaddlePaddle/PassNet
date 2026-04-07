@@ -5,7 +5,7 @@ class Program_weight_tensor_meta_extended_attention_mask:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_key_layer_6:

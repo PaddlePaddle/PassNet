@@ -46,7 +46,7 @@ class Program_weight_tensor_meta_input_13:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_100:
@@ -56,7 +56,7 @@ class Program_weight_tensor_meta_new_features_100:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_101:
@@ -66,7 +66,7 @@ class Program_weight_tensor_meta_new_features_101:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_102:
@@ -76,7 +76,7 @@ class Program_weight_tensor_meta_new_features_102:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_103:
@@ -86,7 +86,7 @@ class Program_weight_tensor_meta_new_features_103:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_104:
@@ -96,7 +96,7 @@ class Program_weight_tensor_meta_new_features_104:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_105:
@@ -106,7 +106,7 @@ class Program_weight_tensor_meta_new_features_105:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_106:
@@ -116,7 +116,7 @@ class Program_weight_tensor_meta_new_features_106:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_107:
@@ -126,7 +126,7 @@ class Program_weight_tensor_meta_new_features_107:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_108:
@@ -136,7 +136,7 @@ class Program_weight_tensor_meta_new_features_108:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_109:
@@ -146,7 +146,7 @@ class Program_weight_tensor_meta_new_features_109:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_110:
@@ -156,7 +156,7 @@ class Program_weight_tensor_meta_new_features_110:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_111:
@@ -166,7 +166,7 @@ class Program_weight_tensor_meta_new_features_111:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_112:
@@ -176,7 +176,7 @@ class Program_weight_tensor_meta_new_features_112:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_113:
@@ -186,7 +186,7 @@ class Program_weight_tensor_meta_new_features_113:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_114:
@@ -196,7 +196,7 @@ class Program_weight_tensor_meta_new_features_114:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_115:
@@ -206,7 +206,7 @@ class Program_weight_tensor_meta_new_features_115:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_116:
@@ -216,7 +216,7 @@ class Program_weight_tensor_meta_new_features_116:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_117:
@@ -226,7 +226,7 @@ class Program_weight_tensor_meta_new_features_117:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_118:
@@ -236,7 +236,7 @@ class Program_weight_tensor_meta_new_features_118:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_119:
@@ -246,7 +246,7 @@ class Program_weight_tensor_meta_new_features_119:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_120:
@@ -256,7 +256,7 @@ class Program_weight_tensor_meta_new_features_120:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_121:
@@ -266,7 +266,7 @@ class Program_weight_tensor_meta_new_features_121:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_122:
@@ -276,7 +276,7 @@ class Program_weight_tensor_meta_new_features_122:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_123:
@@ -286,7 +286,7 @@ class Program_weight_tensor_meta_new_features_123:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_124:
@@ -296,7 +296,7 @@ class Program_weight_tensor_meta_new_features_124:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_125:
@@ -306,7 +306,7 @@ class Program_weight_tensor_meta_new_features_125:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_126:
@@ -316,7 +316,7 @@ class Program_weight_tensor_meta_new_features_126:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_127:
@@ -326,7 +326,7 @@ class Program_weight_tensor_meta_new_features_127:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_128:
@@ -336,7 +336,7 @@ class Program_weight_tensor_meta_new_features_128:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_129:
@@ -346,7 +346,7 @@ class Program_weight_tensor_meta_new_features_129:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_82:
@@ -356,7 +356,7 @@ class Program_weight_tensor_meta_new_features_82:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_83:
@@ -366,7 +366,7 @@ class Program_weight_tensor_meta_new_features_83:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_84:
@@ -376,7 +376,7 @@ class Program_weight_tensor_meta_new_features_84:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_85:
@@ -386,7 +386,7 @@ class Program_weight_tensor_meta_new_features_85:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_86:
@@ -396,7 +396,7 @@ class Program_weight_tensor_meta_new_features_86:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_87:
@@ -406,7 +406,7 @@ class Program_weight_tensor_meta_new_features_87:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_88:
@@ -416,7 +416,7 @@ class Program_weight_tensor_meta_new_features_88:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_89:
@@ -426,7 +426,7 @@ class Program_weight_tensor_meta_new_features_89:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_90:
@@ -436,7 +436,7 @@ class Program_weight_tensor_meta_new_features_90:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_91:
@@ -446,7 +446,7 @@ class Program_weight_tensor_meta_new_features_91:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_92:
@@ -456,7 +456,7 @@ class Program_weight_tensor_meta_new_features_92:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_93:
@@ -466,7 +466,7 @@ class Program_weight_tensor_meta_new_features_93:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_94:
@@ -476,7 +476,7 @@ class Program_weight_tensor_meta_new_features_94:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_95:
@@ -486,7 +486,7 @@ class Program_weight_tensor_meta_new_features_95:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_96:
@@ -496,7 +496,7 @@ class Program_weight_tensor_meta_new_features_96:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_97:
@@ -506,7 +506,7 @@ class Program_weight_tensor_meta_new_features_97:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_98:
@@ -516,7 +516,7 @@ class Program_weight_tensor_meta_new_features_98:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_new_features_99:
@@ -526,4 +526,4 @@ class Program_weight_tensor_meta_new_features_99:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100

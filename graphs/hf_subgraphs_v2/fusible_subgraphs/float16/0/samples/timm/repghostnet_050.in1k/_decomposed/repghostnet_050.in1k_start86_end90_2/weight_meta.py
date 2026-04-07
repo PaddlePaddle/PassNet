@@ -46,7 +46,7 @@ class Program_weight_tensor_meta_input_47:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_input_49:
@@ -56,4 +56,4 @@ class Program_weight_tensor_meta_input_49:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100

@@ -25,4 +25,4 @@ class Program_weight_tensor_meta_layernorm_1_out:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
