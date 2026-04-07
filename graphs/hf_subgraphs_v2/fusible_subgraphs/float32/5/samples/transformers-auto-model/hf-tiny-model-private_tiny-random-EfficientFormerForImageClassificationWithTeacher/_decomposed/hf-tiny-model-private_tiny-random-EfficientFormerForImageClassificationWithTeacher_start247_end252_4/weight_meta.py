@@ -5,7 +5,7 @@ class Program_weight_tensor_meta_hidden_state_96:
 	dtype = "torch.float32"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_layer_output_26:
@@ -15,7 +15,7 @@ class Program_weight_tensor_meta_layer_output_26:
 	dtype = "torch.float32"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_unsqueeze_55:
@@ -25,4 +25,4 @@ class Program_weight_tensor_meta_unsqueeze_55:
 	dtype = "torch.float32"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100

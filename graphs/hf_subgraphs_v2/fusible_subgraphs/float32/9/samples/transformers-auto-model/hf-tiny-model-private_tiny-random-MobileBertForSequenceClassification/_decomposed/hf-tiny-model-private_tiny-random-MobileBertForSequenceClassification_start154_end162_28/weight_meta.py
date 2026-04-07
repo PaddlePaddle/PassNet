@@ -5,7 +5,7 @@ class Program_weight_tensor_meta_attention_scores_6:
 	dtype = "torch.float32"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_extended_attention_mask_2:
@@ -26,4 +26,4 @@ class Program_weight_tensor_meta_value_layer_2:
 	dtype = "torch.float32"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
