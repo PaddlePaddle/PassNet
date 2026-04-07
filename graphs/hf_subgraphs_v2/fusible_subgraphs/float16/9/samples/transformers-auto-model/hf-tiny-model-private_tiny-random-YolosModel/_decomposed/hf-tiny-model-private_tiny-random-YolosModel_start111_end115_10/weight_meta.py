@@ -37,7 +37,7 @@ class Program_weight_tensor_meta_hidden_states_24:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_scale_pos_embed_1:
@@ -47,4 +47,4 @@ class Program_weight_tensor_meta_scale_pos_embed_1:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100

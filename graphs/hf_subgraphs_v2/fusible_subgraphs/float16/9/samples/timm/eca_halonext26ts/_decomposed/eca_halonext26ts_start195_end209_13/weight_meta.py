@@ -5,7 +5,7 @@ class Program_weight_tensor_meta_mul_6:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_q_9:
@@ -15,7 +15,7 @@ class Program_weight_tensor_meta_q_9:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_rel_logits_w_1:
@@ -25,7 +25,7 @@ class Program_weight_tensor_meta_rel_logits_w_1:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_transpose_10:

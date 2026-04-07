@@ -5,7 +5,7 @@ class Program_weight_tensor_meta_L_self_modules_efficientformer_modules_encoder_
 	dtype = "torch.bfloat16"
 	device = "cpu"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_L_self_modules_efficientformer_modules_encoder_modules_last_stage_modules_meta3D_layers_modules_blocks_modules_0_modules_token_mixer_modules_qkv_parameters_bias_:

@@ -27,7 +27,7 @@ class Program_weight_tensor_meta_cls_pos_embed_3:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_det_pos_embed_1:
@@ -37,7 +37,7 @@ class Program_weight_tensor_meta_det_pos_embed_1:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_embeddings_3:
@@ -57,4 +57,4 @@ class Program_weight_tensor_meta_patch_pos_embed_9:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100

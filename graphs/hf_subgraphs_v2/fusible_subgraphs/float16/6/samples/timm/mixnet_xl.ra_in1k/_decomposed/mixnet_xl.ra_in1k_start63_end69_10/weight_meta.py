@@ -66,7 +66,7 @@ class Program_weight_tensor_meta_conv2d_16:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_conv2d_17:
@@ -76,7 +76,7 @@ class Program_weight_tensor_meta_conv2d_17:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_getitem_13:
@@ -86,7 +86,7 @@ class Program_weight_tensor_meta_getitem_13:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_getitem_14:
@@ -96,4 +96,4 @@ class Program_weight_tensor_meta_getitem_14:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100

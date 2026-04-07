@@ -36,7 +36,7 @@ class Program_weight_tensor_meta_L_self_modules_layer3_modules_0_modules_bn2_par
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.050
 
 
 class Program_weight_tensor_meta_L_self_modules_layer3_modules_0_modules_conv2_parameters_weight_:
@@ -56,7 +56,7 @@ class Program_weight_tensor_meta_x_16:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_x_19:
@@ -66,4 +66,4 @@ class Program_weight_tensor_meta_x_19:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100

@@ -15,7 +15,7 @@ class Program_weight_tensor_meta_L_self_modules_decode_head_modules_sep_bottlene
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.300
 	min_val = 0
 
 

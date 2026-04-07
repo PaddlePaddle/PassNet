@@ -5,7 +5,7 @@ class Program_weight_tensor_meta_new_relative_position_bias_table_1:
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_view_9:

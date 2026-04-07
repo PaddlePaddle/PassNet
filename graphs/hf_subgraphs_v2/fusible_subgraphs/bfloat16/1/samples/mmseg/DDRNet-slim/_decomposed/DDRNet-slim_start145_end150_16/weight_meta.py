@@ -15,7 +15,7 @@ class Program_weight_tensor_meta_L_self_modules_backbone_modules_spp_modules_pro
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.300
 	min_val = 0
 
 
@@ -56,7 +56,7 @@ class Program_weight_tensor_meta_x_109:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100
 
 
 class Program_weight_tensor_meta_x_111:
@@ -66,4 +66,4 @@ class Program_weight_tensor_meta_x_111:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.100

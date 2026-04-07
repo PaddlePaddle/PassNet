@@ -37,4 +37,4 @@ class Program_weight_tensor_meta_projected_context_layer_dropout:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100

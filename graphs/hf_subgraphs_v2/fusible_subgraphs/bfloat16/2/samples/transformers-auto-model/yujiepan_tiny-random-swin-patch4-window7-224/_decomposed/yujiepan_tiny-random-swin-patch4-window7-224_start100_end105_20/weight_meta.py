@@ -37,4 +37,4 @@ class Program_weight_tensor_meta_permute_7:
 	dtype = "torch.bfloat16"
 	device = "cuda:0"
 	mean = -0.000
-	std = 0.000
+	std = 0.100

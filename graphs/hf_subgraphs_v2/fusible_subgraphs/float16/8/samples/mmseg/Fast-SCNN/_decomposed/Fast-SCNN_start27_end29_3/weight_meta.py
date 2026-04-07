@@ -15,7 +15,7 @@ class Program_weight_tensor_meta_L_self_modules_backbone_modules_global_feature_
 	dtype = "torch.float16"
 	device = "cuda:0"
 	mean = 0.000
-	std = 0.000
+	std = 0.300
 	min_val = 0
 
 
