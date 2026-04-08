@@ -273,16 +273,20 @@ class PassMgrBackend(GraphCompilerBackend):
         replacement_func_limit = self.config['output_pass_replacement_func_limit']
         replacement_func2none = OrderedDict([])
         for rule in rules:
-            replacement_func2none[rule.replacement_func()] = None
+            func = rule.replacement_func()
+            if func is not rule.replacement_func():
+                raise ValueError(
+                    f"replacement_func() returns inconsistent function objects in rule {getattr(rule, '__name__', repr(rule))}. "
+                    f"Return a standalone module-level function, not a dynamically created nested function or lambda. "
+                    f"Example: define `def my_func(x): return x` at module level, then return `my_func`."
+                )
+            replacement_func2none[func] = None
         replacement_funcs = list(replacement_func2none.keys())
         if len(replacement_funcs) <= replacement_func_limit:
             return set(replacement_funcs)
         indices = random.sample(range(len(replacement_funcs)), replacement_func_limit)
         indices.sort()
-        return set(
-            replacement_funcs[index]
-            for index in indices
-        )
+        return set(replacement_funcs[i] for i in indices)
 
     def _bound_by_pattern_limit(self, rules):
         pattern_limit = self.config['output_pass_pattern_limit']
