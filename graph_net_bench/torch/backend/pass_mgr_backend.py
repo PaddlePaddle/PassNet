@@ -272,16 +272,29 @@ class PassMgrBackend(GraphCompilerBackend):
     def _get_allowed_replacement_funcs(self, rules):
         replacement_func_limit = self.config['output_pass_replacement_func_limit']
         replacement_func2none = OrderedDict([])
+        unstable_rules = []
         for rule in rules:
             func = rule.replacement_func()
             if func is not rule.replacement_func():
-                raise ValueError(
-                    f"replacement_func() returns inconsistent function objects in rule {getattr(rule, '__name__', repr(rule))}. "
-                    f"Return a standalone module-level function, not a dynamically created nested function or lambda. "
-                    f"Example: define `def my_func(x): return x` at module level, then return `my_func`."
-                )
+                rule_file = getattr(rule, '__file__', 'unknown')
+                rule_name = getattr(rule, '__name__', repr(rule))
+                unstable_rules.append((rule_name, rule_file))
+                continue
             replacement_func2none[func] = None
+        if unstable_rules:
+            error_msg = "The following pass rules have unstable replacement_func():\n"
+            for name, path in unstable_rules:
+                error_msg += f"  - {name} ({path})\n"
+            error_msg += (
+                "\nFix: Return a module-level function, not a nested def/lambda. "
+                "Example: define 'def f(x): return x' at top level, then return f."
+            )
+            raise ValueError(error_msg)
         replacement_funcs = list(replacement_func2none.keys())
+        if not replacement_funcs:
+            raise ValueError(
+                f"No replacement functions available after filtering {len(rules)} rules."
+            )
         if len(replacement_funcs) <= replacement_func_limit:
             return set(replacement_funcs)
         indices = random.sample(range(len(replacement_funcs)), replacement_func_limit)
