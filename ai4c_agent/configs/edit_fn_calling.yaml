@@ -83,7 +83,10 @@ instance_prompt: |-
     - Every pass you want applied MUST appear in this list, in the exact order you want them executed.
   - Pattern outputs MUST include every value that is observable outside the matched subgraph (e.g., any intermediate that appears in the model’s return).
   - replacement_func() MUST be a zero-argument function that returns a callable function object (DO NOT call it).
-  
+  - API Validation (enforced on all functions except `pattern()` and `replacement_args()`):
+    - Allowed: tensor allocation APIs only — `torch.empty`, `torch.empty_like`, `torch.zeros`, `torch.zeros_like`, `torch.ones`, `torch.ones_like`, `torch.full`, `torch.full_like`, `torch.as_tensor`.
+    - Blocked: all other `torch.*` calls and imports of `torch.nn`, `torch.ops`, `torch.autograd`. Use Triton kernels for computation.
+
   **Creating the Pass File:**
   Use the file_editor tool to create your pass file. The command MUST include both --path and --file_text:
   ```
@@ -254,7 +257,7 @@ instance_prompt: |-
   - For correctness failures, verify your kernel logic and data types
   - For speedup optimization, first analyze the performance bottlenecks of the Triton kernel, then progressively apply optimizations such as autotuning configurations, re-tile for better parallelism (e.g. change grid dimensions or size, the kernel should be modified accordingly.), and kernel fusion.
   - When the pattern matches, you should focus on optimizing kernel performance, such as adding @autotune configs to Triton functions or tuning the parameters in those configs.
-  - (Optional) If some Passes fail to match while others sharing similar logic succeed, consider consolidating them: use a parameterized pattern for Passes that differ only in a scalar constant (e.g., a division scale), or extract a shared Triton kernel into a separate file under pass_dir/ and import via `from pass_dir.your_kernel_file import your_func`
+  - (Optional) If some Passes fail to match while others sharing similar logic succeed, consider consolidating them: use a parameterized pattern for Passes that differ only in a scalar constant (e.g., a division scale), or extract a shared Triton kernel into a separate file under pass_dir/ and import via `from pass_dir.your_kernel_file import your_func`.
 
 command_files:
   - "./tools/file_editor.py"
