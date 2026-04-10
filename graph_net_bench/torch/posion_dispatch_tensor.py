@@ -7,7 +7,6 @@ aten = torch._ops.ops.aten
 
 def wrap_tensor(tensor):
     """Extract the underlying torch.Tensor from PosionDispatchTensor"""
-    print("Wrap to torch.Tensor")
     if isinstance(tensor, torch.Tensor):
         with no_dispatch():
             return tensor.as_subclass(PosionDispatchTensor)
@@ -16,7 +15,6 @@ def wrap_tensor(tensor):
 
 def unwrap_tensor(tensor):
     """Extract the underlying torch.Tensor from PosionDispatchTensor"""
-    print("Unwrap to torch.Tensor")
     if isinstance(tensor, PosionDispatchTensor):
         # Get the internal tensor storage
         # Use .as_subclass(torch.Tensor) to convert back
@@ -76,17 +74,35 @@ class PosionDispatchTensor(torch.Tensor):
             result = torch.empty(*size, **raw_kwargs)
             return result.as_subclass(cls)
 
+        if func == aten.zeros.default:
+            result = torch.zeros(*raw_args)
+            return result.as_subclass(cls)
+
         if func == aten.zeros_like.default:
             result = torch.zeros_like(raw_args[0])
             return result.as_subclass(cls)
         
+        if func == aten.ones.default:
+            result = torch.ones(*raw_args)
+            return result.as_subclass(cls)
+
         if func == aten.ones_like.default:
             result = torch.ones_like(raw_args[0])
             return result.as_subclass(cls)
-        
+
+        if func == aten.full.default:
+            # args[0] is size, args[1] is fill_value
+            result = torch.full(*raw_args, **raw_kwargs)
+            return result.as_subclass(cls)
+
         if func == aten.full_like.default:
             fill_value = raw_args[1] if len(raw_args) > 1 else 0
             result = torch.full_like(raw_args[0], fill_value)
+            return result.as_subclass(cls)
+
+        # Handle torch.as_tensor and internal aliasing/lifting
+        if func == aten.lift_fresh.default or func == aten.alias.default or func == aten._to_copy.default:
+            result = func(*raw_args, **raw_kwargs)
             return result.as_subclass(cls)
 
         # ============ Shape and Metadata Operators ============
@@ -103,12 +119,9 @@ class PosionDispatchTensor(torch.Tensor):
                 return raw_args[0].dim()
             else:
                 return raw_args[0].numel()
-        
-        if func == aten.is_contiguous.default:
-            return raw_args[0].is_contiguous()
 
         # ============ Tensor Property Accessors ============
-            
+  
         if func == aten.device.default:
             return raw_args[0].device
 
