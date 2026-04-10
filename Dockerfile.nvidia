@@ -1,6 +1,4 @@
 FROM nvidia/cuda:12.8.1-devel-ubuntu24.04
-# NOTE: Use the following image for Baidu internal environments
-# FROM iregistry.baidu-int.com/ai4c/ai4c:12.8.1-devel-ubuntu24.04
 
 # Set environment variables to avoid interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
