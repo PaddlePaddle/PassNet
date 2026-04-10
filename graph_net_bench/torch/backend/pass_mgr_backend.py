@@ -11,17 +11,20 @@ from collections import OrderedDict
 from pathlib import Path
 import importlib.util as imp
 from graph_net_bench import imp_util
-from .graph_compiler_backend import GraphCompilerBackend
+from graph_net_bench.torch.backend.graph_compiler_backend import GraphCompilerBackend
 from dataclasses import dataclass
 from typing import Any, List, Optional, Dict
 from enum import Enum, auto
-from ..custom_replacement import _replace_pattern
+from graph_net_bench.torch.custom_replacement import _replace_pattern
+from graph_net_bench.torch.posion_dispatch_tensor import wrap_args, unwrap_args, unwrap_tensor
+
 
 class FailureType(Enum):
     OP_MISMATCH = auto()
     TARGET_MISMATCH = auto()
     ATTR_MISMATCH = auto()
     NOT_CONTAINED = auto()
+
 
 @dataclass
 class MatchFailure:
@@ -35,6 +38,7 @@ class MatchFailure:
         return (f"MatchFailure(type={self.failure_type.name}, "
                 f"p={self.pattern_node.name}, t={self.target_node.name}, "
                 f"exp={self.expected}, act={self.actual})")
+
 
 class DiagnosticMatcher(SubgraphMatcher):
     def __init__(self, pattern_graph: torch.fx.Graph):
@@ -300,13 +304,43 @@ class PassMgrBackend(GraphCompilerBackend):
             torch.cuda.synchronize()
 
 
+g_replacement_func = None
+def set_g_replacement_func(f):
+    global g_replacement_func
+    if g_replacement_func is not None:
+        assert g_replacement_func is f
+    else:
+        g_replacement_func = f
+
+
+@torch.fx.wrap
+def with_dispatch_wrapper_run(*args):
+    args = wrap_args(args)
+    outs = g_replacement_func(*args)
+    outs = unwrap_args(outs) if isinstance(outs, (tuple, list)) else unwrap_tensor(outs)
+    return outs
+
+
+def replacement_core_decorator(override_dispatch: bool):
+    if not override_dispatch:
+        return g_replacement_func
+
+    def func(*args):
+        return with_dispatch_wrapper_run(*args)
+
+    return func
+
+
 class PatternReplacementPass:
-    def __init__(self, pass_rule, pass_name="unnamed_pass"):
+    def __init__(self, pass_rule, pass_name="unnamed_pass", override_dispatch=True):
         arg_names = list(inspect.signature(pass_rule.pattern).parameters.keys())
+        set_g_replacement_func(pass_rule.replacement_func())
+        f = replacement_core_decorator(override_dispatch)
         @self.reset_func_arg_names(arg_names)
         def replacement(*args):
-            return pass_rule.replacement_func()(*pass_rule.replacement_args(*args))
-            
+            outs = f(*pass_rule.replacement_args(*args))
+            return outs
+
         self.pattern = pass_rule.pattern
         self.replacement = replacement
         self.pass_name = pass_name
