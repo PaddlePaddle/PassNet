@@ -108,12 +108,46 @@ def get_device_utilization(device_id, device_count, synchronizer_func):
     return None, None
 
 
-def get_timing_stats(elapsed_times):
+def get_timing_stats(elapsed_times, iqr_threshold=0.5):
+    """Compute timing statistics with IQR/median stability check.
+
+    Uses the same metric as torch.utils.benchmark (IQR/median) to detect
+    environment jitter. If IQR/median exceeds the threshold, raises RuntimeError
+    instead of producing unreliable speedup numbers.
+
+    Thresholds reference (from torch.utils.benchmark):
+        - IQR/median < 10%: stable
+        - IQR/median 10%-25%: "could indicate system fluctuation"
+        - IQR/median >= 25%: "significant environmental influence"
+
+    Args:
+        elapsed_times: list of timing measurements (ms)
+        iqr_threshold: maximum allowed IQR/median ratio. Default 0.25 (25%),
+            matching torch.utils.benchmark's gross warning threshold.
+    Raises:
+        RuntimeError: if IQR/median exceeds iqr_threshold
+    """
+    arr = np.array(elapsed_times)
+    median = float(np.median(arr))
+    q1 = float(np.percentile(arr, 25))
+    q3 = float(np.percentile(arr, 75))
+    iqr = q3 - q1
+
+    if median > 0:
+        rel_iqr = iqr / median
+        if rel_iqr > iqr_threshold:
+            raise RuntimeError(
+                f"Environment jitter detected.\n"
+                f"  IQR/median = {rel_iqr:.1%} (threshold: {iqr_threshold:.0%})\n"
+                f"  Raw times (ms): {elapsed_times}\n"
+                f"Please re-run the evaluation."
+            )
+
     stats = {
-        "mean": float(f"{np.mean(elapsed_times):.6g}"),
-        "std": float(f"{np.std(elapsed_times):.6g}"),
-        "min": float(f"{np.min(elapsed_times):.6g}"),
-        "max": float(f"{np.max(elapsed_times):.6g}"),
+        "mean": float(f"{np.mean(arr):.6g}"),
+        "std": float(f"{np.std(arr):.6g}"),
+        "min": float(f"{np.min(arr):.6g}"),
+        "max": float(f"{np.max(arr):.6g}"),
     }
     return stats
 
