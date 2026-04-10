@@ -6,8 +6,8 @@
 
 Requirements:
 
-1. python>=3.10
-2. torch>=2.9.0
+1. python3.10
+2. torch2.9.1
 
 ```bash
 cd /path/to/ai4c/repo/root/dir
