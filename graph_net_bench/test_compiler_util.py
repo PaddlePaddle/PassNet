@@ -108,22 +108,15 @@ def get_device_utilization(device_id, device_count, synchronizer_func):
     return None, None
 
 
-def get_timing_stats(elapsed_times, rel_iqr_threshold=0.5):
+def get_timing_stats(elapsed_times, rel_iqr_threshold=0.2):
     """Compute timing statistics with IQR/median stability check.
 
-    Uses the same metric as torch.utils.benchmark (IQR/median) to detect
-    environment jitter. If IQR/median exceeds the threshold, raises RuntimeError
-    instead of producing unreliable speedup numbers.
-
-    Thresholds reference (from torch.utils.benchmark):
-        - IQR/median < 10%: stable
-        - IQR/median 10%-25%: "could indicate system fluctuation"
-        - IQR/median >= 25%: "significant environmental influence"
+    Uses IQR/median to detect environment fluctuation. If IQR/median exceeds the
+    threshold, raises RuntimeError instead of producing unreliable speedup numbers.
 
     Args:
         elapsed_times: list of timing measurements (ms)
-        rel_iqr_threshold: maximum allowed IQR/median ratio. Default 0.25 (25%),
-            matching torch.utils.benchmark's gross warning threshold.
+        rel_iqr_threshold: maximum allowed IQR/median ratio
     Raises:
         RuntimeError: if IQR/median exceeds rel_iqr_threshold
     """
@@ -137,7 +130,7 @@ def get_timing_stats(elapsed_times, rel_iqr_threshold=0.5):
         rel_iqr = iqr / median
         if rel_iqr > rel_iqr_threshold:
             raise RuntimeError(
-                f"Environment jitter detected.\n"
+                f"Environment fluctuation detected.\n"
                 f"  IQR/median = {rel_iqr:.1%} (threshold: {rel_iqr_threshold:.0%})\n"
                 f"  Raw times (ms): {elapsed_times}\n"
                 f"Please re-run the evaluation."
