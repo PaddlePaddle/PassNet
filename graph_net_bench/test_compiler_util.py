@@ -108,12 +108,41 @@ def get_device_utilization(device_id, device_count, synchronizer_func):
     return None, None
 
 
-def get_timing_stats(elapsed_times):
+def get_timing_stats(elapsed_times, rel_iqr_threshold=0.2):
+    """Compute timing statistics with IQR/median stability check.
+
+    Uses IQR/median to detect environment fluctuation. If IQR/median exceeds the
+    threshold, raises RuntimeError instead of producing unreliable speedup numbers.
+
+    Args:
+        elapsed_times: list of timing measurements (ms)
+        rel_iqr_threshold: maximum allowed IQR/median ratio
+    Raises:
+        RuntimeError: if IQR/median exceeds rel_iqr_threshold
+    """
+    arr = np.array(elapsed_times)
+    median = float(np.median(arr))
+    q1 = float(np.percentile(arr, 25))
+    q3 = float(np.percentile(arr, 75))
+    iqr = q3 - q1
+
+    if median > 0:
+        rel_iqr = iqr / median
+        if rel_iqr > rel_iqr_threshold:
+            raise RuntimeError(
+                f"Environment fluctuation detected.\n"
+                f"  IQR/median = {rel_iqr:.1%} (threshold: {rel_iqr_threshold:.0%})\n"
+                f"  Raw times (ms): {elapsed_times}\n"
+                f"Please re-run the evaluation."
+            )
+
     stats = {
-        "mean": float(f"{np.mean(elapsed_times):.6g}"),
-        "std": float(f"{np.std(elapsed_times):.6g}"),
-        "min": float(f"{np.min(elapsed_times):.6g}"),
-        "max": float(f"{np.max(elapsed_times):.6g}"),
+        "median": float(f"{median:.6g}"),
+        "iqr": float(f"{iqr:.6g}"),
+        "mean": float(f"{np.mean(arr):.6g}"),
+        "std": float(f"{np.std(arr):.6g}"),
+        "min": float(f"{np.min(arr):.6g}"),
+        "max": float(f"{np.max(arr):.6g}"),
     }
     return stats
 
@@ -189,15 +218,15 @@ def print_times_and_speedup(args, eager_stats, compiled_stats):
     e2e_speedup = 0
     gpu_speedup = 0
 
-    eager_e2e_time_ms = eager_stats.get("e2e", {}).get("mean", 0)
-    compiled_e2e_time_ms = compiled_stats.get("e2e", {}).get("mean", 0)
+    eager_e2e_time_ms = eager_stats.get("e2e", {}).get("median", 0)
+    compiled_e2e_time_ms = compiled_stats.get("e2e", {}).get("median", 0)
 
     if eager_e2e_time_ms > 0 and compiled_e2e_time_ms > 0:
         e2e_speedup = eager_e2e_time_ms / compiled_e2e_time_ms
 
     if is_gpu_device(args.device):
-        eager_gpu_time_ms = eager_stats.get("gpu", {}).get("mean", 0)
-        compiled_gpu_time_ms = compiled_stats.get("gpu", {}).get("mean", 0)
+        eager_gpu_time_ms = eager_stats.get("gpu", {}).get("median", 0)
+        compiled_gpu_time_ms = compiled_stats.get("gpu", {}).get("median", 0)
 
         if eager_gpu_time_ms > 0 and compiled_gpu_time_ms > 0:
             gpu_speedup = eager_gpu_time_ms / compiled_gpu_time_ms
