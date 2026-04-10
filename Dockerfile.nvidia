@@ -29,6 +29,7 @@ ENV PIP_PROGRESS_BAR=off
 ENV PIP_NO_INPUT=1
 
 # Upgrade pip
+RUN rm -f /usr/lib/python3.12/EXTERNALLY-MANAGED
 RUN python3 -m pip install --no-cache-dir --upgrade pip setuptools wheel
 
 # Copy requirements file
