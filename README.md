@@ -6,7 +6,7 @@
 
 Requirements:
 
-1. python3.10
+1. python3.12
 2. torch2.9.1
 
 ```bash
