@@ -108,18 +108,21 @@ def get_device_utilization(device_id, device_count, synchronizer_func):
     return None, None
 
 
-def get_timing_stats(elapsed_times, rel_iqr_threshold=0.2):
-    """Compute timing statistics with IQR/median stability check.
+def get_timing_stats(elapsed_times):
+    """Compute timing statistics and detect environment fluctuation via IQR/median.
 
-    Uses IQR/median to detect environment fluctuation. If IQR/median exceeds the
-    threshold, raises RuntimeError instead of producing unreliable speedup numbers.
+    If IQR/median exceeds the threshold, the environment is considered unstable and a
+    RuntimeError is raised to request re-evaluation. The threshold is configured via the
+    environment variable GRAPH_NET_FLUCTUATION_DETECT_THRESHOLD (default: 0.2).
 
     Args:
-        elapsed_times: list of timing measurements (ms)
-        rel_iqr_threshold: maximum allowed IQR/median ratio
+        elapsed_times: List of elapsed times in ms.
+    Returns:
+        dict: Statistics containing median, iqr, mean, std, min, max.
     Raises:
-        RuntimeError: if IQR/median exceeds rel_iqr_threshold
+        RuntimeError: If IQR/median exceeds the threshold, indicating excessive fluctuation.
     """
+    rel_iqr_threshold = float(os.getenv("GRAPH_NET_FLUCTUATION_DETECT_THRESHOLD", "0.2"))
     arr = np.array(elapsed_times)
     median = float(np.median(arr))
     q1 = float(np.percentile(arr, 25))
