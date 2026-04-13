@@ -17,6 +17,7 @@ import base64
 from graph_net_bench.torch.backend.graph_compiler_backend import GraphCompilerBackend
 from graph_net_bench.torch.backend.nope_backend import NopeBackend
 from graph_net_bench.torch.backend.pass_mgr_backend import PassMgrBackend
+from graph_net_bench.torch.override_dispatch_flag import global_override_dispatch
 from graph_net_bench import test_compiler_util
 from graph_net_bench import path_utils
 
@@ -113,72 +114,81 @@ def get_input_dict(args):
     }
 
 
-def measure_performance(model_call, args, compiler):
-    stats = {}
+class PerformanceMeasurer:
+    """Manages warmup, performance measurement trials, and CUDA memory cleanup."""
 
-    # Warmup runs
-    for _ in range(args.warmup):
-        model_call()
-    compiler.synchronize()
+    def __init__(self, model_call, args, compiler):
+        self.model_call = model_call
+        self.args = args
+        self.compiler = compiler
+        self.stats = {}
 
-    hardware_name = get_hardward_name(args)
-    print(
-        f"[Profiling] Using device: {args.device} {hardware_name}, warm up {args.warmup}, trials {args.trials}",
-        file=sys.stderr,
-        flush=True,
-    )
+    def warmup(self):
+        for _ in range(self.args.warmup):
+            self.model_call()
+        self.compiler.synchronize()
 
-    if "cuda" in args.device:
-        """
-        Acknowledgement: We evaluate the performance on both end-to-end and GPU-only timings,
-        With reference to methods only based on CUDA events from KernelBench in https://github.com/ScalingIntelligence/KernelBench
-        """
+    def exec(self):
+        """Run benchmark trials and return (output, stats)."""
+        hardware_name = get_hardward_name(self.args)
+        print(
+            f"[Profiling] Using device: {self.args.device} {hardware_name}, "
+            f"warm up {self.args.warmup}, trials {self.args.trials}",
+            file=sys.stderr,
+            flush=True,
+        )
 
-        e2e_times = []
-        gpu_times = []
+        if "cuda" in self.args.device:
+            # Ref: KernelBench https://github.com/ScalingIntelligence/KernelBench
+            e2e_times = []
+            gpu_times = []
 
-        for i in range(args.trials):
-            # End-to-end timing (naive_timer)
-            duration_box = test_compiler_util.DurationBox(-1)
-            with test_compiler_util.naive_timer(duration_box, compiler.synchronize):
-                # GPU-only timing (CUDA Events)
-                start_event = torch.cuda.Event(enable_timing=True)
-                end_event = torch.cuda.Event(enable_timing=True)
-                start_event.record()
+            for i in range(self.args.trials):
+                duration_box = test_compiler_util.DurationBox(-1)
+                with test_compiler_util.naive_timer(duration_box, self.compiler.synchronize):
+                    start_event = torch.cuda.Event(enable_timing=True)
+                    end_event = torch.cuda.Event(enable_timing=True)
+                    start_event.record()
 
-                model_call()
+                    self.model_call()
 
-                end_event.record()
-                compiler.synchronize()
+                    end_event.record()
+                    self.compiler.synchronize()
 
-            gpu_time_ms = start_event.elapsed_time(end_event)
-            e2e_times.append(duration_box.value)
-            gpu_times.append(gpu_time_ms)
-            print(
-                f"Trial {i + 1}: e2e={duration_box.value:.5f} ms, gpu={gpu_time_ms:.5f} ms",
-                file=sys.stderr,
-                flush=True,
-            )
+                gpu_time_ms = start_event.elapsed_time(end_event)
+                e2e_times.append(duration_box.value)
+                gpu_times.append(gpu_time_ms)
+                print(
+                    f"Trial {i + 1}: e2e={duration_box.value:.5f} ms, gpu={gpu_time_ms:.5f} ms",
+                    file=sys.stderr,
+                    flush=True,
+                )
 
-        stats["e2e"] = test_compiler_util.get_timing_stats(e2e_times)
-        stats["gpu"] = test_compiler_util.get_timing_stats(gpu_times)
+            self.stats["e2e"] = test_compiler_util.get_timing_stats(e2e_times)
+            self.stats["gpu"] = test_compiler_util.get_timing_stats(gpu_times)
 
-    else:  # CPU or other devices
-        e2e_times = []
-        for i in range(args.trials):
-            duration_box = test_compiler_util.DurationBox(-1)
-            with test_compiler_util.naive_timer(duration_box, compiler.synchronize):
-                model_call()
-            print(
-                f"Trial {i + 1}: e2e={duration_box.value:.5f} ms",
-                file=sys.stderr,
-                flush=True,
-            )
-            e2e_times.append(duration_box.value)
-        stats["e2e"] = test_compiler_util.get_timing_stats(e2e_times)
+        else:  # CPU or other devices
+            e2e_times = []
+            for i in range(self.args.trials):
+                duration_box = test_compiler_util.DurationBox(-1)
+                with test_compiler_util.naive_timer(duration_box, self.compiler.synchronize):
+                    self.model_call()
+                print(
+                    f"Trial {i + 1}: e2e={duration_box.value:.5f} ms",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                e2e_times.append(duration_box.value)
+            self.stats["e2e"] = test_compiler_util.get_timing_stats(e2e_times)
 
-    outs = model_call()
-    return outs, stats
+        outs = self.model_call()
+        return outs, self.stats
+
+    def cleanup(self):
+        import gc
+        gc.collect()
+        if "cuda" in self.args.device:
+            torch.cuda.empty_cache()
 
 
 def test_single_model(args):
@@ -194,25 +204,8 @@ def test_single_model(args):
     )
 
     runtime_seed = 1024
-    eager_failure = False
-    expected_out = None
-    eager_time_stats = {}
 
-    try:
-        def eager_model_call():
-            torch.manual_seed(runtime_seed)
-            return model(**input_dict)
-
-        expected_out, eager_time_stats = measure_performance(
-            eager_model_call, args, compiler
-        )
-
-        if not isinstance(expected_out, tuple):
-            expected_out = (expected_out,)
-    except (TypeError, RuntimeError) as e:
-        print(f"Eager model execution failed: {str(e)}", file=sys.stderr)
-        eager_failure = True
-
+    # --- Compiled ---
     compiled_failure = False
     compiled_model = None
     compiled_time_stats = {}
@@ -224,9 +217,12 @@ def test_single_model(args):
             torch.manual_seed(runtime_seed)
             return compiled_model(**input_dict)
 
-        compiled_out, compiled_time_stats = measure_performance(
-            compiled_model_call, args, compiler
-        )
+        compiled_bench = PerformanceMeasurer(compiled_model_call, args, compiler)
+        with global_override_dispatch(True):
+            compiled_bench.warmup()
+
+        with global_override_dispatch(False):
+            compiled_out, compiled_time_stats = compiled_bench.exec()
 
         if not isinstance(compiled_out, tuple):
             compiled_out = (compiled_out,)
@@ -244,6 +240,28 @@ def test_single_model(args):
         traceback.print_exc()
         print(f"debug-model-execution {type(e).__name__} {args.model_path}", flush=True)
 
+    # --- Eager ---
+    eager_failure = False
+    expected_out = None
+    eager_time_stats = {}
+
+    try:
+        def eager_model_call():
+            torch.manual_seed(runtime_seed)
+            return model(**input_dict)
+
+        eager_bench = PerformanceMeasurer(eager_model_call, args, compiler)
+        eager_bench.warmup()
+        expected_out, eager_time_stats = eager_bench.exec()
+        eager_bench.cleanup()
+
+        if not isinstance(expected_out, tuple):
+            expected_out = (expected_out,)
+    except (TypeError, RuntimeError) as e:
+        print(f"Eager model execution failed: {str(e)}", file=sys.stderr)
+        eager_failure = True
+
+    # --- Results ---
     if eager_failure:
         print(f"{args.log_prompt} [Result] status: failed", file=sys.stderr, flush=True)
         print(
