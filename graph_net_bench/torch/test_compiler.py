@@ -115,7 +115,6 @@ def get_input_dict(args):
 
 def measure_performance(model_call, args, compiler):
     stats = {}
-    outs = model_call()
 
     # Warmup runs
     for _ in range(args.warmup):
@@ -178,6 +177,7 @@ def measure_performance(model_call, args, compiler):
             e2e_times.append(duration_box.value)
         stats["e2e"] = test_compiler_util.get_timing_stats(e2e_times)
 
+    outs = model_call()
     return outs, stats
 
 
