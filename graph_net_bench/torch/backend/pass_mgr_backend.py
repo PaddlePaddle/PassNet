@@ -206,8 +206,7 @@ class PassMgrBackend(GraphCompilerBackend):
             tmp_file = Path(self.config['pass_match_result_file_path'])
             tmp_file.write_text(str(pass_result.modified))
         if not pass_result.modified:
-            print("[PassMgrBackend] Warning: No passes modified the graph. Returning original.", flush=True)
-            # exit(-1)  <-- Removed to allow continued execution or fallback
+            raise RuntimeError("[PassMgrBackend] No passes modified the graph.")
         return pass_result.graph_module
 
     def make_pass_manager(self):
@@ -294,10 +293,10 @@ class PassMgrBackend(GraphCompilerBackend):
                 "\nFix: Return a module-level function, not a nested def/lambda. "
                 "Example: define 'def f(x): return x' at top level, then return f."
             )
-            raise ValueError(error_msg)
+            raise RuntimeError(error_msg)
         replacement_funcs = list(replacement_func2none.keys())
         if not replacement_funcs:
-            raise ValueError(
+            raise RuntimeError(
                 f"No replacement functions available after filtering {len(rules)} rules."
             )
         if len(replacement_funcs) <= replacement_func_limit:
