@@ -17,6 +17,7 @@ from typing import Any, List, Optional, Dict
 from enum import Enum, auto
 from graph_net_bench.torch.custom_replacement import _replace_pattern
 from graph_net_bench.torch.posion_dispatch_tensor import wrap_args, unwrap_args, unwrap_tensor
+from graph_net_bench.torch.override_dispatch_flag import get_global_override_dispatch
 
 
 class FailureType(Enum):
@@ -305,7 +306,6 @@ class PassMgrBackend(GraphCompilerBackend):
 
 
 g_replacement_func = None
-g_override_dispatch = True
 
 def set_g_replacement_func(f):
     global g_replacement_func
@@ -315,14 +315,9 @@ def set_g_replacement_func(f):
         g_replacement_func = f
 
 
-def set_override_dispatch(enabled: bool):
-    global g_override_dispatch
-    g_override_dispatch = enabled
-
-
 @torch.fx.wrap
 def with_dispatch_wrapper_run(*args):
-    if g_override_dispatch:
+    if get_global_override_dispatch():
         args = wrap_args(args)
         outs = g_replacement_func(*args)
         outs = unwrap_args(outs) if isinstance(outs, (tuple, list)) else unwrap_tensor(outs)

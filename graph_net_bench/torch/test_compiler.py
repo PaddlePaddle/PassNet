@@ -17,6 +17,7 @@ import base64
 from graph_net_bench.torch.backend.graph_compiler_backend import GraphCompilerBackend
 from graph_net_bench.torch.backend.nope_backend import NopeBackend
 from graph_net_bench.torch.backend.pass_mgr_backend import PassMgrBackend
+from graph_net_bench.torch.override_dispatch_flag import global_override_dispatch
 from graph_net_bench import test_compiler_util
 from graph_net_bench import path_utils
 
@@ -90,13 +91,6 @@ def get_compiler_backend(args) -> GraphCompilerBackend:
     backend_class = compiler_backend_name2class[args.compiler]
     config = convert_to_dict(args.config) if args.config is not None else {}
     return backend_class(config)
-
-
-def switch_override_dispatch(args, override_dispatch: bool):
-    if args.compiler == "pass_mgr":
-        from graph_net_bench.torch.backend.pass_mgr_backend import set_override_dispatch
-
-        set_override_dispatch(override_dispatch)
 
 
 def get_model(args):
@@ -245,13 +239,11 @@ def test_single_model(args):
             return compiled_model(**input_dict)
 
         compiled_bench = PerformanceMeasurer(compiled_model_call, args, compiler)
-        # Warmup with dispatch override ON (PosionDispatchTensor validates ops)
-        switch_override_dispatch(args, override_dispatch=True)
-        compiled_bench.warmup()
+        with global_override_dispatch(True):
+            compiled_bench.warmup()
 
-        # Benchmark with dispatch override OFF (zero overhead)
-        switch_override_dispatch(args, override_dispatch=False)
-        compiled_out, compiled_time_stats = compiled_bench.exec()
+        with global_override_dispatch(False):
+            compiled_out, compiled_time_stats = compiled_bench.exec()
 
         if not isinstance(compiled_out, tuple):
             compiled_out = (compiled_out,)
