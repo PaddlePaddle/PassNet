@@ -199,15 +199,14 @@ def test_single_model(args):
     eager_time_stats = {}
 
     try:
-
         def eager_model_call():
+            torch.manual_seed(runtime_seed)
             return model(**input_dict)
 
         expected_out, eager_time_stats = measure_performance(
             eager_model_call, args, compiler
         )
 
-        torch.manual_seed(runtime_seed)
         if not isinstance(expected_out, tuple):
             expected_out = (expected_out,)
     except (TypeError, RuntimeError) as e:
@@ -220,9 +219,9 @@ def test_single_model(args):
 
     try:
         compiled_model = compiler(model)
-        torch.manual_seed(runtime_seed)
 
         def compiled_model_call():
+            torch.manual_seed(runtime_seed)
             return compiled_model(**input_dict)
 
         compiled_out, compiled_time_stats = measure_performance(
