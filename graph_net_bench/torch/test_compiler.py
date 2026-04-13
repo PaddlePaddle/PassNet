@@ -205,27 +205,6 @@ def test_single_model(args):
 
     runtime_seed = 1024
 
-    # --- Eager ---
-    eager_failure = False
-    expected_out = None
-    eager_time_stats = {}
-
-    try:
-        def eager_model_call():
-            torch.manual_seed(runtime_seed)
-            return model(**input_dict)
-
-        eager_bench = PerformanceMeasurer(eager_model_call, args, compiler)
-        eager_bench.warmup()
-        expected_out, eager_time_stats = eager_bench.exec()
-        eager_bench.cleanup()
-
-        if not isinstance(expected_out, tuple):
-            expected_out = (expected_out,)
-    except (TypeError, RuntimeError) as e:
-        print(f"Eager model execution failed: {str(e)}", file=sys.stderr)
-        eager_failure = True
-
     # --- Compiled ---
     compiled_failure = False
     compiled_model = None
@@ -260,6 +239,27 @@ def test_single_model(args):
         print("\n--- Full Traceback ---")
         traceback.print_exc()
         print(f"debug-model-execution {type(e).__name__} {args.model_path}", flush=True)
+
+    # --- Eager ---
+    eager_failure = False
+    expected_out = None
+    eager_time_stats = {}
+
+    try:
+        def eager_model_call():
+            torch.manual_seed(runtime_seed)
+            return model(**input_dict)
+
+        eager_bench = PerformanceMeasurer(eager_model_call, args, compiler)
+        eager_bench.warmup()
+        expected_out, eager_time_stats = eager_bench.exec()
+        eager_bench.cleanup()
+
+        if not isinstance(expected_out, tuple):
+            expected_out = (expected_out,)
+    except (TypeError, RuntimeError) as e:
+        print(f"Eager model execution failed: {str(e)}", file=sys.stderr)
+        eager_failure = True
 
     # --- Results ---
     if eager_failure:
