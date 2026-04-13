@@ -216,7 +216,7 @@ class PassMgrBackend(GraphCompilerBackend):
         passes = [
             create_pass(
                 pass_name=pass_name,
-                pass_rule=pass_rule
+                pass_rule=pass_rule,
             )
             for pass_name, pass_rule in self._get_named_pass_rules()
         ]
@@ -305,6 +305,8 @@ class PassMgrBackend(GraphCompilerBackend):
 
 
 g_replacement_func = None
+g_override_dispatch = True
+
 def set_g_replacement_func(f):
     global g_replacement_func
     if g_replacement_func is not None:
@@ -313,18 +315,23 @@ def set_g_replacement_func(f):
         g_replacement_func = f
 
 
+def set_override_dispatch(enabled: bool):
+    global g_override_dispatch
+    g_override_dispatch = enabled
+
+
 @torch.fx.wrap
 def with_dispatch_wrapper_run(*args):
-    args = wrap_args(args)
-    outs = g_replacement_func(*args)
-    outs = unwrap_args(outs) if isinstance(outs, (tuple, list)) else unwrap_tensor(outs)
+    if g_override_dispatch:
+        args = wrap_args(args)
+        outs = g_replacement_func(*args)
+        outs = unwrap_args(outs) if isinstance(outs, (tuple, list)) else unwrap_tensor(outs)
+    else:
+        outs = g_replacement_func(*args)
     return outs
 
 
-def replacement_core_decorator(override_dispatch: bool):
-    if not override_dispatch:
-        return g_replacement_func
-
+def replacement_core_decorator():
     def func(*args):
         return with_dispatch_wrapper_run(*args)
 
@@ -332,10 +339,10 @@ def replacement_core_decorator(override_dispatch: bool):
 
 
 class PatternReplacementPass:
-    def __init__(self, pass_rule, pass_name="unnamed_pass", override_dispatch=True):
+    def __init__(self, pass_rule, pass_name="unnamed_pass"):
         arg_names = list(inspect.signature(pass_rule.pattern).parameters.keys())
         set_g_replacement_func(pass_rule.replacement_func())
-        f = replacement_core_decorator(override_dispatch)
+        f = replacement_core_decorator()
         @self.reset_func_arg_names(arg_names)
         def replacement(*args):
             outs = f(*pass_rule.replacement_args(*args))
@@ -403,6 +410,7 @@ def {func_name}(f):
         # Return the PassResult object
         return PassResult(gm, modified)
 
+
 def create_pass(pass_name, pass_rule):
     gm_pass = PatternReplacementPass(pass_rule, pass_name)
     def func(gm):
@@ -410,6 +418,7 @@ def create_pass(pass_name, pass_rule):
     func.__name__ = pass_name
     func.__qualname__ = pass_name
     return func
+
 
 def is_pass_source_valid(path):
     from graph_net_bench.ast_util import validate_pass_source
@@ -424,6 +433,7 @@ def is_pass_source_valid(path):
         print(f"[PassMgrBackend] Skipping loading of {path} due to validation failures.", flush=True)
         return False
     return True
+
 
 def is_pass_source_valid_by_customized_checker(path):
     with open(path, "r") as f:
@@ -444,6 +454,7 @@ def is_pass_source_valid_by_customized_checker(path):
             print(f"[PassMgrBackend] Skipping loading of {path} due to validation failures.", flush=True)
             return False
     return True
+
 
 def load_py_module(path, name='unamed'):
     if not is_pass_source_valid(path):
