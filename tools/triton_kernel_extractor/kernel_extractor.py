@@ -42,7 +42,7 @@ def _collect_best_config_hashes(graph_dir: Path) -> set[str]:
             cache_hash = data.get("triton_cache_hash")
             if cache_hash:
                 hashes.add(cache_hash)
-        except (OSError, json.JSONDecodeError, KeyError):
+        except (OSError, json.JSONDecodeError):
             logger.debug("Skipping malformed .best_config: %s", bc_path)
     return hashes
 
@@ -84,12 +84,20 @@ def _find_best_ptx(
         return None
 
     if len(candidates) == 1:
-        return candidates[0].read_text(encoding="utf-8", errors="replace")
+        try:
+            return candidates[0].read_text(encoding="utf-8", errors="replace")
+        except OSError:
+            logger.warning("Cannot read PTX file: %s", candidates[0])
+            return None
 
     # Multiple candidates: pick the one whose parent dir matches a best_config hash.
     for ptx_path in candidates:
         if ptx_path.parent.name in best_hashes:
-            return ptx_path.read_text(encoding="utf-8", errors="replace")
+            try:
+                return ptx_path.read_text(encoding="utf-8", errors="replace")
+            except OSError:
+                logger.warning("Cannot read PTX file: %s", ptx_path)
+                return None
 
     # Fallback: no .best_config match (should not happen based on validation).
     logger.warning(
@@ -106,9 +114,14 @@ def extract_kernels_from_file(
     """Parse an ``output_code.py`` and return ``(name, source)`` pairs.
 
     The file is read entirely into memory (``output_code.py`` files produced by
-    TorchInductor are typically well under 1 MB).
+    TorchInductor are typically well under 1 MB).  Returns an empty list if the
+    file cannot be read.
     """
-    content = output_code_path.read_text(encoding="utf-8", errors="replace")
+    try:
+        content = output_code_path.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        logger.warning("Cannot read output_code.py: %s", output_code_path)
+        return []
     return _TRITON_KERNEL_PATTERN.findall(content)
 
 
@@ -185,6 +198,10 @@ def extract_triton_kernels(
         # Pre-collect autotuning best-config hashes once per sample.
         best_hashes = _collect_best_config_hashes(graph_dir)
 
+        # Track kernel names already written for this sample to detect
+        # duplicates across multiple output_code.py files.
+        seen_kernels: set[str] = set()
+
         # Find and process all output_code.py files within the sample.
         for output_code_path in sorted(graph_dir.rglob("output_code.py")):
             processed_files += 1
@@ -196,6 +213,12 @@ def extract_triton_kernels(
             triton_dir.mkdir(exist_ok=True)
 
             for name, source in kernels:
+                if name in seen_kernels:
+                    logger.debug(
+                        "Duplicate kernel %s in %s, skipping", name, graph_name
+                    )
+                    continue
+                seen_kernels.add(name)
                 # Strip trailing whitespace then add exactly one newline,
                 # matching the bash `printf '%s\n'` semantics.
                 (triton_dir / f"{name}.py").write_text(

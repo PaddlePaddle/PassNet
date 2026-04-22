@@ -100,6 +100,16 @@ rate.
         triton_poi_fused_yyy_1.ptx
 ```
 
+## Cache Analysis
+
+Analyzes an inductor cache directory post-hoc, available as the `analyze`
+subcommand or triggered automatically by passing `--enable-cache-analysis` to
+the `extract` subcommand.  Concatenates `test_compiler_log.log` files across
+all sample states (root, kept, discarded), computes kernel and end-to-end
+speedup distributions (mean, median, percentiles, threshold breakdowns), and
+generates histogram, CDF, and optionally violin/ES(t) plots.  Output defaults
+to `<cache_dir>_analysis/`.
+
 ## Usage
 
 ### Via the Bash Launcher
@@ -120,25 +130,31 @@ python3 -m tools.triton_kernel_extractor \
     --ai4c-base /opt/ai4c \
     --graphnet-hf-dir /opt/GraphNet_hf \
     --gpu-ids 0 2 5 7
+
+# Append --enable-cache-analysis to run cache analysis after extraction.
+
+# Cache analysis can also be run standalone:
+python3 -m tools.triton_kernel_extractor analyze <cache_dir> [--output-dir DIR]
 ```
 
 ### CLI Arguments
 
-| Argument             | Required | Description                                           |
-|----------------------|----------|-------------------------------------------------------|
-| `--source`           | Yes      | `list` (sample paths from text files) or `hf` (scan HuggingFace directories) |
-| `--dataset-base-dir` | Yes      | Root directory of the dataset collection               |
-| `--graphnet-dir`     | Yes      | Path to the GraphNet repository (for `PYTHONPATH`)     |
-| `--ai4c-base`        | Yes      | Root of the ai4c repository                            |
-| `--graphnet-hf-dir`  | Yes      | Root of the GraphNet HuggingFace data directory        |
-| `--gpu-ids`          | No       | GPU IDs for compilation; auto-detected when omitted    |
+| Argument                   | Required | Description                                           |
+|----------------------------|----------|-------------------------------------------------------|
+| `--source`                 | Yes      | `list` (sample paths from text files) or `hf` (scan HuggingFace directories) |
+| `--dataset-base-dir`       | Yes      | Root directory of the dataset collection               |
+| `--graphnet-dir`           | Yes      | Path to the GraphNet repository (for `PYTHONPATH`)     |
+| `--ai4c-base`              | Yes      | Root of the ai4c repository                            |
+| `--graphnet-hf-dir`        | Yes      | Root of the GraphNet HuggingFace data directory        |
+| `--gpu-ids`                | No       | GPU IDs for compilation; auto-detected when omitted    |
+| `--enable-cache-analysis`  | No       | Run cache analysis on each dataset after extraction    |
 
 ## Module Structure
 
 ```
 triton_kernel_extractor/
     __init__.py              # package marker
-    __main__.py              # CLI entry point (argparse + GPU detection)
+    __main__.py              # CLI entry point (subcommands: extract, analyze)
     config.py                # PipelineConfig, DatasetDescriptor, constants
     sample_enumerator.py     # enumerate samples from "list" or "hf" sources
     compiler.py              # Step 1: multi-GPU parallel compilation
@@ -147,6 +163,7 @@ triton_kernel_extractor/
     kernel_extractor.py      # Step 4: extract Triton kernels and PTX
     empty_sample_cleaner.py  # Step 5: remove samples without Triton kernels
     pipeline.py              # orchestrate Steps 1–5 for all datasets
+    cache_analyzer.py        # analyze cache: logs, statistics, plots
 ```
 
 ## Idempotency and Resume

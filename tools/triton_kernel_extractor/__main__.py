@@ -1,14 +1,22 @@
 """CLI entry point for the triton kernel extraction pipeline.
 
-Usage (via the bash wrapper)::
+Subcommands
+-----------
 
-    python3 -m tools.triton_kernel_extractor \\
+**extract** (default when no subcommand is given)::
+
+    python3 -m tools.triton_kernel_extractor [extract] \\
         --source list \\
         --dataset-base-dir /data/ai4c_dataset \\
         --graphnet-dir /opt/GraphNet \\
         --ai4c-base /opt/ai4c \\
         --graphnet-hf-dir /opt/GraphNet_hf \\
         [--gpu-ids 0 2 5 7]
+
+**analyze**::
+
+    python3 -m tools.triton_kernel_extractor analyze \\
+        <cache_dir> [--output-dir DIR]
 
 When ``--gpu-ids`` is omitted the script auto-detects all available GPUs
 by parsing the output of ``nvidia-smi -L``.
@@ -25,10 +33,13 @@ import sys
 from pathlib import Path
 
 from .config import PipelineConfig
-from .pipeline import run_pipeline
 
 logger = logging.getLogger(__name__)
 
+
+# ---------------------------------------------------------------------------
+# GPU detection (shared by the extract subcommand)
+# ---------------------------------------------------------------------------
 
 def _detect_gpu_ids() -> list[int]:
     """Auto-detect available GPU IDs.
@@ -67,10 +78,17 @@ def _detect_gpu_ids() -> list[int]:
     return ids
 
 
-def _parse_args(argv: list[str] | None = None) -> PipelineConfig:
-    parser = argparse.ArgumentParser(
+# ---------------------------------------------------------------------------
+# Subcommand: extract
+# ---------------------------------------------------------------------------
+
+def _add_extract_parser(subparsers: argparse._SubParsersAction) -> None:
+    parser = subparsers.add_parser(
+        "extract",
+        help="Run the full compilation and extraction pipeline.",
         description=(
-            "Compile graph datasets and extract (subgraph, triton_kernel) pairs."
+            "Compile graph datasets and extract "
+            "(subgraph, triton_kernel, ptx) triples."
         ),
     )
     parser.add_argument(
@@ -113,12 +131,24 @@ def _parse_args(argv: list[str] | None = None) -> PipelineConfig:
         required=True,
         help="Root of the GraphNet HuggingFace data directory.",
     )
+    parser.add_argument(
+        "--enable-cache-analysis",
+        action="store_true",
+        default=False,
+        help=(
+            "Run cache analysis (log concatenation, speedup statistics, plots) "
+            "on each dataset's cache directory after the extraction pipeline."
+        ),
+    )
+    parser.set_defaults(func=_run_extract)
 
-    args = parser.parse_args(argv)
+
+def _run_extract(args: argparse.Namespace) -> None:
+    from .pipeline import run_pipeline
 
     gpu_ids = args.gpu_ids if args.gpu_ids else _detect_gpu_ids()
 
-    return PipelineConfig(
+    config = PipelineConfig(
         source=args.source,
         gpu_ids=gpu_ids,
         dataset_base_dir=args.dataset_base_dir,
@@ -126,16 +156,6 @@ def _parse_args(argv: list[str] | None = None) -> PipelineConfig:
         ai4c_base=args.ai4c_base,
         graphnet_hf_dir=args.graphnet_hf_dir,
     )
-
-
-def main(argv: list[str] | None = None) -> None:
-    logging.basicConfig(
-        format="%(message)s",
-        level=logging.INFO,
-        stream=sys.stderr,
-    )
-
-    config = _parse_args(argv)
 
     logger.info("Source: %s", config.source)
     logger.info(
@@ -149,8 +169,107 @@ def main(argv: list[str] | None = None) -> None:
     # value assigned by compiler.py.  Matches the bash: `unset CUDA_VISIBLE_DEVICES`.
     os.environ.pop("CUDA_VISIBLE_DEVICES", None)
 
+    run_pipeline(config, enable_cache_analysis=args.enable_cache_analysis)
+
+
+# ---------------------------------------------------------------------------
+# Subcommand: analyze
+# ---------------------------------------------------------------------------
+
+def _add_analyze_parser(subparsers: argparse._SubParsersAction) -> None:
+    parser = subparsers.add_parser(
+        "analyze",
+        help="Analyze an inductor cache directory (logs, statistics, plots).",
+        description=(
+            "Concatenate compiler logs, compute speedup statistics, and "
+            "generate distribution plots for an inductor cache directory."
+        ),
+    )
+    parser.add_argument(
+        "cache_dir",
+        type=Path,
+        help="Inductor cache directory to analyze.",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=None,
+        help=(
+            "Directory for analysis output. "
+            "Defaults to <cache_dir>_analysis."
+        ),
+    )
+    parser.set_defaults(func=_run_analyze)
+
+
+def _run_analyze(args: argparse.Namespace) -> None:
+    from .cache_analyzer import analyze_cache
+
+    cache_dir: Path = args.cache_dir
+    output_dir: Path = args.output_dir or Path(f"{cache_dir}_analysis")
+    analyze_cache(cache_dir, output_dir)
+
+
+# ---------------------------------------------------------------------------
+# Backward-compatible argument detection
+# ---------------------------------------------------------------------------
+
+def _needs_implicit_extract(argv: list[str]) -> bool:
+    """Return True if *argv* looks like the old extract-only CLI.
+
+    The old CLI had no subcommand — it started directly with ``--source``.
+    If the first argument is not a known subcommand and not a help flag,
+    we prepend ``extract`` for backward compatibility.
+    """
+    if not argv:
+        return False
+    known_subcommands = {"extract", "analyze"}
+    first = argv[0]
+    if first in known_subcommands:
+        return False
+    # Do not intercept top-level --help / -h.
+    if first in ("-h", "--help"):
+        return False
+    return True
+
+
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
+
+def main(argv: list[str] | None = None) -> None:
+    logging.basicConfig(
+        format="%(message)s",
+        level=logging.INFO,
+        stream=sys.stderr,
+    )
+
+    if argv is None:
+        argv = sys.argv[1:]
+
+    # Backward compatibility: insert "extract" when no subcommand is given.
+    if _needs_implicit_extract(argv):
+        argv = ["extract"] + argv
+
+    parser = argparse.ArgumentParser(
+        prog="python3 -m tools.triton_kernel_extractor",
+        description=(
+            "Triton kernel extraction toolkit: compile, filter, extract, "
+            "and analyze TorchInductor compilation caches."
+        ),
+    )
+    subparsers = parser.add_subparsers(dest="command")
+    _add_extract_parser(subparsers)
+    _add_analyze_parser(subparsers)
+
+    args = parser.parse_args(argv)
+
+    if not hasattr(args, "func"):
+        parser.print_help()
+        sys.exit(1)
+
     try:
-        run_pipeline(config)
+        args.func(args)
     except KeyboardInterrupt:
         logger.info("")
         logger.info("Interrupted.")

@@ -26,7 +26,8 @@ def _load_samples(
 ) -> list[str]:
     """Load the sample list for a single dataset from the appropriate source."""
     if config.source == "list":
-        assert dataset.graph_list_file is not None
+        if dataset.graph_list_file is None:
+            raise ValueError("graph_list_file must be set for 'list' source")
         if not dataset.graph_list_file.is_file():
             logger.error(
                 "Graph list file not found: %s", dataset.graph_list_file
@@ -35,7 +36,8 @@ def _load_samples(
         return enumerate_list_samples(dataset.graph_list_file)
 
     # source == "hf"
-    assert dataset.hf_subdir is not None
+    if dataset.hf_subdir is None:
+        raise ValueError("hf_subdir must be set for 'hf' source")
     return enumerate_hf_samples(config.graphnet_hf_dir, dataset.hf_subdir)
 
 
@@ -100,13 +102,28 @@ def run_dataset_pipeline(
     clean_empty_kernel_samples(dataset.output_dir)
 
 
-def run_pipeline(config: PipelineConfig) -> None:
+def run_pipeline(
+    config: PipelineConfig,
+    *,
+    enable_cache_analysis: bool = False,
+) -> None:
     """Run the full pipeline across all three dataset categories."""
     descriptors = build_dataset_descriptors(config)
     total = len(descriptors)
 
     for idx, dataset in enumerate(descriptors, 1):
         run_dataset_pipeline(config, dataset, idx, total)
+
+    if enable_cache_analysis:
+        from .cache_analyzer import analyze_cache
+
+        for idx, dataset in enumerate(descriptors, 1):
+            logger.info("")
+            logger.info(
+                "=== Cache analysis [%d/%d]: %s ===", idx, total, dataset.name
+            )
+            analysis_dir = dataset.cache_dir.parent / f"{dataset.cache_dir.name}_analysis"
+            analyze_cache(dataset.cache_dir, analysis_dir)
 
     logger.info("")
     logger.info("All datasets processed.")

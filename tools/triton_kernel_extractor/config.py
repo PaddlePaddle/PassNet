@@ -29,6 +29,19 @@ RESERVED_DIR_PREFIX = "_"
 SPEEDUP_THRESHOLD = 1.0
 
 
+def is_sample_dir(name: str) -> bool:
+    """Return True if *name* is a real sample directory, not a reserved one.
+
+    Filters out ``kept``, ``discarded``, and directories starting with ``_``
+    (temporary pipeline artifacts such as chunk files and worker logs).
+    """
+    if name in RESERVED_DIR_NAMES:
+        return False
+    if name.startswith(RESERVED_DIR_PREFIX):
+        return False
+    return True
+
+
 @dataclasses.dataclass(frozen=True)
 class PipelineConfig:
     """Immutable top-level configuration for the entire pipeline run."""

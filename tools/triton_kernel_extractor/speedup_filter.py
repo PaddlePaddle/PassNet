@@ -8,10 +8,9 @@ import shutil
 from pathlib import Path
 
 from .config import (
-    RESERVED_DIR_NAMES,
-    RESERVED_DIR_PREFIX,
     SPEEDUP_KERNEL_PATTERN,
     SPEEDUP_THRESHOLD,
+    is_sample_dir,
 )
 
 logger = logging.getLogger(__name__)
@@ -44,13 +43,6 @@ def _parse_kernel_speedup(log_file: Path) -> float | None:
         return None
 
 
-def _is_sample_dir(name: str) -> bool:
-    """Return True if *name* is a real sample directory (not a reserved one)."""
-    return name not in RESERVED_DIR_NAMES and not name.startswith(
-        RESERVED_DIR_PREFIX
-    )
-
-
 def filter_samples_by_speedup(cache_dir: Path) -> tuple[int, int, int]:
     """Move compiled samples into ``kept/`` or ``discarded/`` sub-directories.
 
@@ -71,7 +63,7 @@ def filter_samples_by_speedup(cache_dir: Path) -> tuple[int, int, int]:
     candidates: list[Path] = [
         d
         for d in sorted(cache_dir.iterdir())
-        if d.is_dir() and _is_sample_dir(d.name)
+        if d.is_dir() and is_sample_dir(d.name)
     ]
     total = len(candidates)
 
