@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import base64
+import json
 import logging
 import os
 import shutil
@@ -57,6 +59,7 @@ def _compile_one_sample(
     cache_dir: Path,
     gpu_id: int,
     progress_label: str,
+    compiler_config: str | None = None,
 ) -> str:
     """Compile a single graph sample on a specific GPU.
 
@@ -93,6 +96,7 @@ def _compile_one_sample(
             "--model-path",
             full_model_path,
             "--kernel-time",
+            *(["--config", compiler_config] if compiler_config else []),
         ],
         env=env,
         stdout=subprocess.PIPE,
@@ -131,6 +135,7 @@ def _compile_chunk(
     graphnet_hf_dir: str,
     cache_dir: Path,
     gpu_id: int,
+    compiler_config: str | None = None,
 ) -> dict[str, int]:
     """Process a chunk of samples sequentially on one GPU.
 
@@ -150,6 +155,7 @@ def _compile_chunk(
             cache_dir=cache_dir,
             gpu_id=gpu_id,
             progress_label=label,
+            compiler_config=compiler_config,
         )
         stats[status] += 1
 
@@ -184,6 +190,14 @@ def compile_all_samples(
     gpu_ids = config.gpu_ids
     num_gpus = len(gpu_ids)
 
+    # Build base64-encoded config for test_compiler --config, if needed.
+    compiler_config: str | None = None
+    if config.max_autotune:
+        config_dict = {"graph_net_inductor_config_template": "max_autotune"}
+        compiler_config = base64.b64encode(
+            json.dumps(config_dict).encode()
+        ).decode()
+
     # Round-robin assignment (mirrors bash: gpu_id = GPU_IDS[local_idx % NUM_GPUS]).
     chunks: dict[int, list[str]] = {gid: [] for gid in gpu_ids}
     for idx, sample in enumerate(samples):
@@ -209,6 +223,7 @@ def compile_all_samples(
                 graphnet_hf_dir=str(config.graphnet_hf_dir),
                 cache_dir=dataset.cache_dir,
                 gpu_id=gid,
+                compiler_config=compiler_config,
             )
             future_to_gpu[future] = gid
             logger.info("  Launched worker GPU %d (%d samples)", gid, len(chunk))

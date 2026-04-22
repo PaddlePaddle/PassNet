@@ -39,7 +39,10 @@ Compiles each subgraph sample using `graph_net_bench.torch.test_compiler
 --kernel-time` in an isolated subprocess.  Samples are distributed across
 available GPUs in round-robin fashion, with one `ProcessPoolExecutor` worker per
 GPU.  Each subprocess receives a dedicated `CUDA_VISIBLE_DEVICES` and an
-isolated `TORCHINDUCTOR_CACHE_DIR`.
+isolated `TORCHINDUCTOR_CACHE_DIR`.  Pass `--max-autotune` to enable Inductor's
+`max_autotune` mode (via the GraphNet config template), which activates
+comprehensive autotuning including `max_autotune_gemm`,
+`coordinate_descent_tuning`, and `epilogue_fusion`.
 
 ### Step 2: Speedup Filtering
 
@@ -129,9 +132,9 @@ python3 -m tools.triton_kernel_extractor \
     --graphnet-dir /opt/GraphNet \
     --ai4c-base /opt/ai4c \
     --graphnet-hf-dir /opt/GraphNet_hf \
-    --gpu-ids 0 2 5 7
-
-# Append --enable-cache-analysis to run cache analysis after extraction.
+    --gpu-ids 0 2 5 7 \
+    --max-autotune \
+    --enable-cache-analysis
 
 # Cache analysis can also be run standalone:
 python3 -m tools.triton_kernel_extractor analyze <cache_dir> [--output-dir DIR]
@@ -147,6 +150,7 @@ python3 -m tools.triton_kernel_extractor analyze <cache_dir> [--output-dir DIR]
 | `--ai4c-base`              | Yes      | Root of the ai4c repository                            |
 | `--graphnet-hf-dir`        | Yes      | Root of the GraphNet HuggingFace data directory        |
 | `--gpu-ids`                | No       | GPU IDs for compilation; auto-detected when omitted    |
+| `--max-autotune`           | No       | Enable Inductor max_autotune mode during compilation   |
 | `--enable-cache-analysis`  | No       | Run cache analysis on each dataset after extraction    |
 
 ## Module Structure

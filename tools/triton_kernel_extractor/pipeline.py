@@ -67,6 +67,8 @@ def run_dataset_pipeline(
     logger.info(" Cache dir:  %s", dataset.cache_dir)
     logger.info(" Output dir: %s", dataset.output_dir)
     logger.info(" GPUs:       %s", " ".join(str(g) for g in config.gpu_ids))
+    if config.max_autotune:
+        logger.info(" Autotune:   max_autotune (via GraphNet inductor config template)")
     logger.info("======================================================")
 
     if not samples:

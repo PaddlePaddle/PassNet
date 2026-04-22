@@ -140,6 +140,17 @@ def _add_extract_parser(subparsers: argparse._SubParsersAction) -> None:
             "on each dataset's cache directory after the extraction pipeline."
         ),
     )
+    parser.add_argument(
+        "--max-autotune",
+        action="store_true",
+        default=False,
+        help=(
+            "Enable Inductor max_autotune mode during compilation. "
+            "This activates comprehensive autotuning across all backends "
+            "(max_autotune, max_autotune_gemm, coordinate_descent_tuning, "
+            "epilogue_fusion) via the GraphNet inductor config template."
+        ),
+    )
     parser.set_defaults(func=_run_extract)
 
 
@@ -155,6 +166,7 @@ def _run_extract(args: argparse.Namespace) -> None:
         graphnet_dir=args.graphnet_dir,
         ai4c_base=args.ai4c_base,
         graphnet_hf_dir=args.graphnet_hf_dir,
+        max_autotune=args.max_autotune,
     )
 
     logger.info("Source: %s", config.source)

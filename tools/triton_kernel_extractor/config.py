@@ -52,6 +52,7 @@ class PipelineConfig:
     graphnet_dir: Path
     ai4c_base: Path
     graphnet_hf_dir: Path
+    max_autotune: bool = False
 
 
 @dataclasses.dataclass(frozen=True)

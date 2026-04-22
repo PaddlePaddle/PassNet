@@ -54,6 +54,8 @@ PYTHON_ARGS=(
     --graphnet-dir "$GRAPHNET_DIR"
     --ai4c-base "$AI4C_BASE"
     --graphnet-hf-dir "$GRAPHNET_HF_DIR"
+    --max-autotune
+    --enable-cache-analysis
 )
 
 if [ -n "$GPU_ARG" ]; then
