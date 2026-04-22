@@ -91,7 +91,7 @@ def run_dataset_pipeline(
 
     # Step 4: Extract triton kernels.
     logger.info("")
-    logger.info("=== Step 4: Extract triton kernels ===")
+    logger.info("=== Step 4: Extract autotuning-selected triton kernels and corresponding PTX ===")
     extract_triton_kernels(dataset.cache_dir, dataset.output_dir)
 
     # Step 5: Clean samples without triton kernels.
