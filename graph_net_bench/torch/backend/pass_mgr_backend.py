@@ -10,6 +10,8 @@ import json
 from collections import OrderedDict
 from pathlib import Path
 import importlib.util as imp
+from torch._inductor.compile_fx import compile_fx
+
 from graph_net_bench import imp_util
 from graph_net_bench.torch.backend.graph_compiler_backend import GraphCompilerBackend
 from dataclasses import dataclass
@@ -320,19 +322,18 @@ class PassMgrBackend(GraphCompilerBackend):
         if torch.cuda.is_available():
             torch.cuda.synchronize()
 
+_DYNAMIC_WRAPPERS_REGISTRY = {}
 
-g_replacement_func = None
-
-def set_g_replacement_func(f):
-    global g_replacement_func
-    if g_replacement_func is not None:
-        assert g_replacement_func is f
-    else:
-        g_replacement_func = f
-
-
-@torch.fx.wrap
-def with_dispatch_wrapper_run(*args):
+def get_or_create_serializable_wrapper(pass_rule):
+    rule_id = id(pass_rule)
+    if rule_id in _DYNAMIC_WRAPPERS_REGISTRY:
+        return _DYNAMIC_WRAPPERS_REGISTRY[rule_id]
+    func_name = f"_fx_inline_wrapper_{pass_rule.__class__.__name__}_{rule_id}"
+    arg_names = list(inspect.signature(pass_rule.pattern).parameters.keys())
+    args_str = ", ".join(arg_names)
+    source = f"""
+def {func_name}({args_str}):
+    args = pass_rule.replacement_args({args_str})
     if get_global_override_dispatch():
         args = wrap_args(args)
         outs = g_replacement_func(*args)
@@ -340,28 +341,33 @@ def with_dispatch_wrapper_run(*args):
     else:
         outs = g_replacement_func(*args)
     return outs
+"""
+    namespace = {
+        'pass_rule': pass_rule,
+        'g_replacement_func': pass_rule.replacement_func(),
+        'get_global_override_dispatch': get_global_override_dispatch,
+        'wrap_args': wrap_args,
+        'unwrap_args': unwrap_args,
+        'unwrap_tensor': unwrap_tensor
+    }
+    
+    exec(source, namespace)
+    wrapper_func = namespace[func_name]
 
-
-def replacement_core_decorator():
-    def func(*args):
-        return with_dispatch_wrapper_run(*args)
-
-    return func
+    wrapper_func.__module__ = __name__
+    wrapper_func.__qualname__ = func_name
+    globals()[func_name] = wrapper_func  
+    
+    _DYNAMIC_WRAPPERS_REGISTRY[rule_id] = wrapper_func
+    return wrapper_func
 
 
 class PatternReplacementPass:
     def __init__(self, pass_rule, pass_name="unnamed_pass"):
-        arg_names = list(inspect.signature(pass_rule.pattern).parameters.keys())
-        set_g_replacement_func(pass_rule.replacement_func())
-        f = replacement_core_decorator()
-        @self.reset_func_arg_names(arg_names)
-        def replacement(*args):
-            outs = f(*pass_rule.replacement_args(*args))
-            return outs
-
         self.pattern = pass_rule.pattern
-        self.replacement = replacement
+        self.replacement = get_or_create_serializable_wrapper(pass_rule)
         self.pass_name = pass_name
+        self.pass_rule = pass_rule
 
     def _print_diagnostic_report(self, gm: torch.fx.GraphModule) -> None:
         try:
@@ -382,23 +388,6 @@ class PatternReplacementPass:
                 print(f"  - {f}")
         except Exception as e:
             print(f"[PassMgrBackend] Diagnostic failed: {e}", flush=True)
-    
-    @classmethod
-    def reset_func_arg_names(cls, arg_names):
-        # arg_names is a list like ['x', 'y', 'z']
-        args_str = ", ".join(arg_names)
-        
-        func_name = "dynamic_func_" + "".join(random.choices(string.ascii_lowercase, k=5))
-
-        source = f"""
-def {func_name}(f):
-    def func({args_str}):
-        return f({args_str})
-    return func
-    """
-        namespace = {}
-        exec(source, globals(), namespace)
-        return namespace[func_name]
 
     def __call__(self, gm: torch.fx.GraphModule):
         try:
