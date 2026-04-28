@@ -22,9 +22,134 @@ from graph_net_bench import test_compiler_util
 from graph_net_bench import path_utils
 
 
+class PassMgrFXSerializeBackend(GraphCompilerBackend):
+    """Pass manager backend that bypasses torch.compile wrapper overhead after warmup.
+
+    Usage:
+        python -m graph_net_bench.torch.test_compiler \
+            --model-path <hash_dir> \
+            --compiler pass_mgr_fx_serialize \
+            --device cuda
+
+    How it works:
+      1. Warmup phase: Normal torch.compile path. The backend applies pattern
+         replacements and saves the optimized GraphModule to self._optimized_gm.
+      2. Benchmark phase: test_single_model detects _optimized_gm and swaps
+         model_call to directly invoke opt_gm(*inputs), bypassing the
+         torch.compile OptimizedModule / CompiledFunction wrapper and restoring
+         eager-level dispatch performance.
+
+    When to use:
+      - Small-subgraph cases (graph execution time < 1ms)
+      - When torch.compile wrapper overhead (~60us) is significant
+      - Large graphs (>10ms) see near-zero benefit; use pass_mgr instead
+
+    Caveats:
+      - No multi-session cache (each hash runs in a separate subprocess)
+      - Raises RuntimeError if no passes match the graph
+    """
+
+    def __init__(self, config: dict):
+        super().__init__(config)
+        self._pass_mgr = PassMgrBackend(config)
+        self._optimized_gm = None
+        self._input_keys = None
+
+    def set_input_keys(self, keys: list):
+        """Record the keyword argument key order before torch.compile.
+
+        Dynamo converts kwargs to positional args in key iteration order.
+        By capturing the key order here (before compilation), we can
+        reconstruct the exact positional arg list at benchmark time
+        without reverse-engineering Dynamo's internal naming.
+
+        Args:
+            keys: Ordered list of input_dict keys as seen at the call site.
+        """
+        self._input_keys = list(keys)
+
+    def __call__(self, model):
+        # torch.compile pollutes the original model so eager baseline stays slow.
+        return torch.compile(model, backend=self.torch_compile_backend)
+
+    def torch_compile_backend(self, gm: torch.fx.GraphModule, sample_inputs: list):
+        pass_result = self._pass_mgr.pass_manager(gm)
+        if not pass_result.modified:
+            raise RuntimeError("[PassMgrFXSerializeBackend] No passes modified the graph.")
+        new_gm = self._build_optimized_graph(gm)
+        gm_to_return = new_gm if new_gm is not None else pass_result.graph_module
+        self._optimized_gm = gm_to_return
+        return gm_to_return
+
+    @staticmethod
+    def _build_optimized_graph(gm: torch.fx.GraphModule):
+        """Replace with_dispatch_wrapper_run calls with direct g_replacement_func calls.
+
+        After pass replacement, the FX graph has one or more
+        with_dispatch_wrapper_run call_function nodes. We replace each
+        with a direct g_replacement_func call, preserving all other nodes.
+        """
+        from graph_net_bench.torch.backend.pass_mgr_backend import (
+            g_replacement_func,
+            with_dispatch_wrapper_run,
+        )
+
+        if g_replacement_func is None:
+            return None
+
+        dispatch_nodes = [
+            node
+            for node in gm.graph.nodes
+            if node.op == "call_function" and node.target is with_dispatch_wrapper_run
+        ]
+        if not dispatch_nodes:
+            return None
+
+        for node in dispatch_nodes:
+            node.target = g_replacement_func
+
+        gm.recompile()
+        return gm
+
+    def get_cpu_optimized_model_caller(self, input_dict: dict, seed: int):
+        """Return a callable that invokes the optimized GraphModule directly.
+
+        This bypasses torch.compile's OptimizedModule / CompiledFunction wrapper
+        entirely, restoring eager-level dispatch performance during benchmark.
+
+        Args:
+            input_dict: Keyword arguments that the original model expects.
+            seed: Random seed to set before each forward call.
+
+        Returns:
+            A callable with signature () -> output, or None if swap is not
+            possible (e.g. passes did not modify the graph).
+        """
+        if self._optimized_gm is None:
+            return None
+
+        opt_gm = self._optimized_gm
+
+        # Reconstruct positional args in the exact order Dynamo observed.
+        if self._input_keys is None:
+            return None
+        positional_inputs = [input_dict[k] for k in self._input_keys]
+
+        def call():
+            torch.manual_seed(seed)
+            return opt_gm(*positional_inputs)
+
+        return call
+
+    def synchronize(self):
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
+
+
 compiler_backend_name2class = {
     "nope": NopeBackend,
     "pass_mgr": PassMgrBackend,
+    "pass_mgr_fx_serialize": PassMgrFXSerializeBackend,
 }
 
 
@@ -211,6 +336,8 @@ def test_single_model(args):
     compiled_time_stats = {}
 
     try:
+        if hasattr(compiler, 'set_input_keys'):
+            compiler.set_input_keys(list(input_dict.keys()))
         compiled_model = compiler(model)
 
         def compiled_model_call():
@@ -220,6 +347,9 @@ def test_single_model(args):
         compiled_bench = PerformanceMeasurer(compiled_model_call, args, compiler)
         with global_override_dispatch(True):
             compiled_bench.warmup()
+
+        if hasattr(compiler, 'get_cpu_optimized_model_caller'):
+            compiled_bench.model_call = compiler.get_cpu_optimized_model_caller(input_dict, runtime_seed) or compiled_bench.model_call
 
         with global_override_dispatch(False):
             compiled_out, compiled_time_stats = compiled_bench.exec()
