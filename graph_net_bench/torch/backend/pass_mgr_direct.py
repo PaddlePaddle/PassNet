@@ -9,7 +9,7 @@ from graph_net_bench.torch.backend.pass_mgr_backend import (
 import graph_net_bench.torch.backend.pass_mgr_backend as _pass_mgr_backend
 
 
-def _reorder_placeholders(gm, sample_inputs, param_names):
+def _reorder_placeholders(gm, sample_inputs, param_names, original_input_tensors):
     """Reorder GM placeholders to match the original calling order.
 
     Dynamo may reorder and rename placeholders (e.g., L_in_3_, L_in_1_).
@@ -29,11 +29,12 @@ def _reorder_placeholders(gm, sample_inputs, param_names):
     if len(ph_nodes) != len(sample_inputs):
         return  # can't reorder if counts don't match
 
-    # Build id(tensor) → placeholder node mapping
+    # Determine desired order: for each param_name, find its tensor in
+    # sample_inputs via the original_input_tensors list (which preserves
+    # the original forward calling order), then find its placeholder.
+    # original_input_tensors[i] corresponds to param_names[i].
     id_to_ph = {id(t): ph for t, ph in zip(sample_inputs, ph_nodes)}
-
-    # Determine desired order: for each sample_input, find its placeholder
-    reordered = [id_to_ph[id(t)] for t in sample_inputs if id(t) in id_to_ph]
+    reordered = [id_to_ph[id(t)] for t in original_input_tensors if id(t) in id_to_ph]
     if len(reordered) != len(ph_nodes):
         return  # can't reorder if some tensors not found
 
@@ -55,9 +56,9 @@ class PassMgrDirectBackend(GraphCompilerBackend):
     The approach:
       1. torch.compile captures FX graph via dynamo on first call
       2. Apply pattern-replacement passes (via PassMgrBackend)
-      3. Swap with_dispatch_wrapper_run → replacement_func in GM's forward globals
-      4. After dynamo is done, reorder GM placeholders to match positional args order
-      5. From the second call onward, GM is called directly — no dynamo overhead
+      3. After dynamo is done, replace with_dispatch_wrapper_run node targets
+         with g_replacement_func in the FX graph, then reorder placeholders
+      4. From the second call onward, GM is called directly — no dynamo overhead
 
     Note: The first forward call still goes through dynamo to capture the graph.
     From the second call onward, dynamo is bypassed entirely because the
@@ -70,28 +71,19 @@ class PassMgrDirectBackend(GraphCompilerBackend):
         self._optimized_gm = None
         self._sample_inputs = None
         self._param_names = None
+        self._original_input_tensors = None
 
     def __call__(self, model):
         self._optimized_gm = None
         self._sample_inputs = None
         self._param_names = None
+        self._original_input_tensors = None
         return _CompileOnceWrapper(self, model)
 
     def _torch_compile_backend(self, gm: torch.fx.GraphModule, sample_inputs: list):
         pass_result = self._pass_mgr.pass_manager(gm)
-        if not pass_result.modified:
-            raise RuntimeError("[PassMgrDirectBackend] No passes modified the graph.")
 
         optimized_gm = pass_result.graph_module
-
-        # Replace dispatch wrapper with the real kernel in GM's forward globals.
-        replacement_func = _pass_mgr_backend.g_replacement_func
-        if replacement_func is not None:
-            fwd_globals = optimized_gm.forward.__globals__
-            for name, obj in list(fwd_globals.items()):
-                if obj is with_dispatch_wrapper_run:
-                    fwd_globals[name] = replacement_func
-                    break
 
         # Save sample_inputs for placeholder reordering (done after dynamo finishes)
         self._sample_inputs = list(sample_inputs)
@@ -101,7 +93,15 @@ class PassMgrDirectBackend(GraphCompilerBackend):
     def _finalize_gm(self):
         """Reorder placeholders after dynamo is done with the GM."""
         if self._optimized_gm is not None and self._sample_inputs is not None:
-            _reorder_placeholders(self._optimized_gm, self._sample_inputs, self._param_names)
+            # Replace dispatch wrapper targets in FX graph before recompile,
+            # so that gm.recompile() inside _reorder_placeholders preserves
+            # the replacement (unlike swapping __globals__ which gets overwritten).
+            replacement_func = _pass_mgr_backend.g_replacement_func
+            if replacement_func is not None:
+                for node in self._optimized_gm.graph.nodes:
+                    if node.op == 'call_function' and node.target is with_dispatch_wrapper_run:
+                        node.target = replacement_func
+            _reorder_placeholders(self._optimized_gm, self._sample_inputs, self._param_names, self._original_input_tensors)
             self._sample_inputs = None  # only once
 
     def synchronize(self):
@@ -132,6 +132,12 @@ class _CompileOnceWrapper(torch.nn.Module):
 
     def forward(self, *args, **kwargs):
         # First call only: trigger compilation via dynamo.
+        # Save original input order for placeholder reordering.
+        if self._backend._original_input_tensors is None:
+            if args:
+                self._backend._original_input_tensors = list(args)
+            elif kwargs and self._backend._param_names:
+                self._backend._original_input_tensors = [kwargs[k] for k in self._backend._param_names if k in kwargs]
         result = self._compiled(*args, **kwargs)
 
         if self._backend._optimized_gm is not None:
