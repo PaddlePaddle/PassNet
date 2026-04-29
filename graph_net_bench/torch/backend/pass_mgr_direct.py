@@ -1,3 +1,4 @@
+import inspect
 import torch
 from graph_net_bench.torch.backend.graph_compiler_backend import GraphCompilerBackend
 from graph_net_bench.torch.backend.pass_mgr_backend import (
@@ -8,7 +9,7 @@ from graph_net_bench.torch.backend.pass_mgr_backend import (
 import graph_net_bench.torch.backend.pass_mgr_backend as _pass_mgr_backend
 
 
-def _reorder_placeholders(gm, sample_inputs):
+def _reorder_placeholders(gm, sample_inputs, param_names):
     """Reorder GM placeholders to match the original calling order.
 
     Dynamo may reorder and rename placeholders (e.g., L_in_3_, L_in_1_).
@@ -36,18 +37,11 @@ def _reorder_placeholders(gm, sample_inputs):
     if len(reordered) != len(ph_nodes):
         return  # can't reorder if some tensors not found
 
-    # Rename placeholders: L_in_3_ → in_3, etc.
-    def _original_name(gm_name):
-        if gm_name.startswith('L_') and gm_name.endswith('_'):
-            return gm_name[2:-1]
-        return gm_name
-
     # Insert new placeholders in the correct order at the beginning
     first_non_ph = next(n for n in gm.graph.nodes if n.op != 'placeholder')
     with gm.graph.inserting_before(first_non_ph):
-        for old_ph in reordered:
-            orig_name = _original_name(old_ph.target)
-            new_node = gm.graph.placeholder(orig_name)
+        for name, old_ph in zip(param_names, reordered):
+            new_node = gm.graph.placeholder(name)
             old_ph.replace_all_uses_with(new_node)
             gm.graph.erase_node(old_ph)
 
@@ -75,10 +69,12 @@ class PassMgrDirectBackend(GraphCompilerBackend):
         self._pass_mgr = PassMgrBackend(config)
         self._optimized_gm = None
         self._sample_inputs = None
+        self._param_names = None
 
     def __call__(self, model):
         self._optimized_gm = None
         self._sample_inputs = None
+        self._param_names = None
         return _CompileOnceWrapper(self, model)
 
     def _torch_compile_backend(self, gm: torch.fx.GraphModule, sample_inputs: list):
@@ -105,7 +101,7 @@ class PassMgrDirectBackend(GraphCompilerBackend):
     def _finalize_gm(self):
         """Reorder placeholders after dynamo is done with the GM."""
         if self._optimized_gm is not None and self._sample_inputs is not None:
-            _reorder_placeholders(self._optimized_gm, self._sample_inputs)
+            _reorder_placeholders(self._optimized_gm, self._sample_inputs, self._param_names)
             self._sample_inputs = None  # only once
 
     def synchronize(self):
@@ -125,6 +121,13 @@ class _CompileOnceWrapper(torch.nn.Module):
     def __init__(self, backend, model):
         super().__init__()
         self._backend = backend
+        self._backend._param_names = [
+            name for name, param in inspect.signature(model.forward).parameters.items()
+            if name != 'self' and param.kind in (
+                inspect.Parameter.POSITIONAL_ONLY,
+                inspect.Parameter.POSITIONAL_OR_KEYWORD,
+            )
+        ]
         self._compiled = torch.compile(model, backend=backend._torch_compile_backend)
 
     def forward(self, *args, **kwargs):

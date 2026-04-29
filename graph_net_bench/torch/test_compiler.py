@@ -117,6 +117,28 @@ def get_input_dict(args):
     }
 
 
+def make_model_call(model, input_dict, runtime_seed):
+    sig = inspect.signature(model.forward)
+    param_names = [
+        name for name, param in sig.parameters.items()
+        if name != 'self' and param.kind in (
+            inspect.Parameter.POSITIONAL_ONLY,
+            inspect.Parameter.POSITIONAL_OR_KEYWORD,
+        )
+    ]
+    if param_names:
+        positional_args = [input_dict[k] for k in param_names]
+
+        def model_call():
+            torch.manual_seed(runtime_seed)
+            return model(*positional_args)
+    else:
+        def model_call():
+            torch.manual_seed(runtime_seed)
+            return model(**input_dict)
+    return model_call
+
+
 class PerformanceMeasurer:
     """Manages warmup, performance measurement trials, and CUDA memory cleanup."""
 
@@ -216,27 +238,7 @@ def test_single_model(args):
     try:
         compiled_model = compiler(model)
 
-        # Use inspect.signature to convert **kwargs to positional args,
-        # eliminating per-call kwargs dict unpacking overhead.
-        compiled_sig = inspect.signature(compiled_model.forward)
-        compiled_param_names = [
-            name for name, param in compiled_sig.parameters.items()
-            if name != 'self' and param.kind in (
-                inspect.Parameter.POSITIONAL_ONLY,
-                inspect.Parameter.POSITIONAL_OR_KEYWORD,
-            )
-        ]
-        if compiled_param_names:
-            compiled_positional_args = [input_dict[k] for k in compiled_param_names]
-
-            def compiled_model_call():
-                torch.manual_seed(runtime_seed)
-                return compiled_model(*compiled_positional_args)
-        else:
-            # Fallback: forward uses *args/**kwargs (e.g. dynamo wrapper)
-            def compiled_model_call():
-                torch.manual_seed(runtime_seed)
-                return compiled_model(**input_dict)
+        compiled_model_call = make_model_call(compiled_model, input_dict, runtime_seed)
 
         compiled_bench = PerformanceMeasurer(compiled_model_call, args, compiler)
         with global_override_dispatch(True):
@@ -267,26 +269,7 @@ def test_single_model(args):
     eager_time_stats = {}
 
     try:
-        # Use inspect.signature to convert **kwargs to positional args
-        eager_sig = inspect.signature(model.forward)
-        eager_param_names = [
-            name for name, param in eager_sig.parameters.items()
-            if name != 'self' and param.kind in (
-                inspect.Parameter.POSITIONAL_ONLY,
-                inspect.Parameter.POSITIONAL_OR_KEYWORD,
-            )
-        ]
-        if eager_param_names:
-            eager_positional_args = [input_dict[k] for k in eager_param_names]
-
-            def eager_model_call():
-                torch.manual_seed(runtime_seed)
-                return model(*eager_positional_args)
-        else:
-            # Fallback: forward uses *args/**kwargs
-            def eager_model_call():
-                torch.manual_seed(runtime_seed)
-                return model(**input_dict)
+        eager_model_call = make_model_call(model, input_dict, runtime_seed)
 
         eager_bench = PerformanceMeasurer(eager_model_call, args, compiler)
         eager_bench.warmup()
