@@ -13,11 +13,12 @@ import json
 import random
 import numpy as np
 import platform
+import inspect
 import base64
 from graph_net_bench.torch.backend.graph_compiler_backend import GraphCompilerBackend
 from graph_net_bench.torch.backend.nope_backend import NopeBackend
 from graph_net_bench.torch.backend.pass_mgr_backend import PassMgrBackend
-from graph_net_bench.torch.backend.pass_mgr_fx_serialize import PassMgrFXSerializeBackend
+from graph_net_bench.torch.backend.pass_mgr_direct import PassMgrDirectBackend
 from graph_net_bench.torch.override_dispatch_flag import global_override_dispatch
 from graph_net_bench import test_compiler_util
 from graph_net_bench import path_utils
@@ -26,7 +27,7 @@ from graph_net_bench import path_utils
 compiler_backend_name2class = {
     "nope": NopeBackend,
     "pass_mgr": PassMgrBackend,
-    "pass_mgr_fx_serialize": PassMgrFXSerializeBackend,
+    "pass_mgr_direct": PassMgrDirectBackend,
 }
 
 
@@ -49,7 +50,7 @@ def get_hardward_name(args):
 
 
 def get_compile_framework_version(args):
-    if args.compiler in ["inductor", "nope", "unstable_to_stable", "pass_mgr", "pass_mgr_fx_serialize"]:
+    if args.compiler in ["inductor", "nope", "unstable_to_stable", "pass_mgr", "pass_mgr_direct"]:
         return torch.__version__
     elif args.compiler in ["tvm", "xla", "tensorrt", "bladedisc"]:
         # Assuming compiler object has a version attribute
@@ -215,9 +216,27 @@ def test_single_model(args):
     try:
         compiled_model = compiler(model)
 
-        def compiled_model_call():
-            torch.manual_seed(runtime_seed)
-            return compiled_model(**input_dict)
+        # Use inspect.signature to convert **kwargs to positional args,
+        # eliminating per-call kwargs dict unpacking overhead.
+        compiled_sig = inspect.signature(compiled_model.forward)
+        compiled_param_names = [
+            name for name, param in compiled_sig.parameters.items()
+            if name != 'self' and param.kind in (
+                inspect.Parameter.POSITIONAL_ONLY,
+                inspect.Parameter.POSITIONAL_OR_KEYWORD,
+            )
+        ]
+        if compiled_param_names:
+            compiled_positional_args = [input_dict[k] for k in compiled_param_names]
+
+            def compiled_model_call():
+                torch.manual_seed(runtime_seed)
+                return compiled_model(*compiled_positional_args)
+        else:
+            # Fallback: forward uses *args/**kwargs (e.g. dynamo wrapper)
+            def compiled_model_call():
+                torch.manual_seed(runtime_seed)
+                return compiled_model(**input_dict)
 
         compiled_bench = PerformanceMeasurer(compiled_model_call, args, compiler)
         with global_override_dispatch(True):
@@ -248,9 +267,26 @@ def test_single_model(args):
     eager_time_stats = {}
 
     try:
-        def eager_model_call():
-            torch.manual_seed(runtime_seed)
-            return model(**input_dict)
+        # Use inspect.signature to convert **kwargs to positional args
+        eager_sig = inspect.signature(model.forward)
+        eager_param_names = [
+            name for name, param in eager_sig.parameters.items()
+            if name != 'self' and param.kind in (
+                inspect.Parameter.POSITIONAL_ONLY,
+                inspect.Parameter.POSITIONAL_OR_KEYWORD,
+            )
+        ]
+        if eager_param_names:
+            eager_positional_args = [input_dict[k] for k in eager_param_names]
+
+            def eager_model_call():
+                torch.manual_seed(runtime_seed)
+                return model(*eager_positional_args)
+        else:
+            # Fallback: forward uses *args/**kwargs
+            def eager_model_call():
+                torch.manual_seed(runtime_seed)
+                return model(**input_dict)
 
         eager_bench = PerformanceMeasurer(eager_model_call, args, compiler)
         eager_bench.warmup()
