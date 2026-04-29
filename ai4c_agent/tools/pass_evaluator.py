@@ -3,7 +3,7 @@
 Description: AI4C Pass Evaluator - Runs evaluation on optimized pass and returns performance metrics.
 
 This tool executes the entry.sh script in the AI4C problem directory to validate and benchmark
-the optimized pass code. It returns performance metrics including speedup and correctness.
+the optimized pass code. The score is extracted from the evaluation output.
 
 The tool expects to be run from the problem directory (where entry.sh is located).
 
@@ -146,13 +146,6 @@ def run_evaluation():
 
         print("\n✅ Evaluation completed successfully!")
         print(f"Score data: {json.dumps(score_data, indent=2)}")
-
-        if isinstance(score_data, dict):
-            speedup = score_data.get('speedup', 'N/A')
-            correctness = score_data.get('correctness', 'N/A')
-            print(f"\n📊 Performance Metrics:")
-            print(f"  - Speedup: {speedup}")
-            print(f"  - Correctness: {correctness}")
     else:
         print(f"\n⚠️  Warning: Score file not found at {score_file}")
         print(f"Check if evaluation completed successfully.")
