@@ -13,10 +13,12 @@ import json
 import random
 import numpy as np
 import platform
+import inspect
 import base64
 from graph_net_bench.torch.backend.graph_compiler_backend import GraphCompilerBackend
 from graph_net_bench.torch.backend.nope_backend import NopeBackend
 from graph_net_bench.torch.backend.pass_mgr_backend import PassMgrBackend
+from graph_net_bench.torch.backend.pass_mgr_direct import PassMgrDirectBackend
 from graph_net_bench.torch.override_dispatch_flag import global_override_dispatch
 from graph_net_bench import test_compiler_util
 from graph_net_bench import path_utils
@@ -25,6 +27,7 @@ from graph_net_bench import path_utils
 compiler_backend_name2class = {
     "nope": NopeBackend,
     "pass_mgr": PassMgrBackend,
+    "pass_mgr_direct": PassMgrDirectBackend,
 }
 
 
@@ -47,7 +50,7 @@ def get_hardward_name(args):
 
 
 def get_compile_framework_version(args):
-    if args.compiler in ["inductor", "nope", "unstable_to_stable", "pass_mgr"]:
+    if args.compiler in ["inductor", "nope", "unstable_to_stable", "pass_mgr", "pass_mgr_direct"]:
         return torch.__version__
     elif args.compiler in ["tvm", "xla", "tensorrt", "bladedisc"]:
         # Assuming compiler object has a version attribute
@@ -112,6 +115,28 @@ def get_input_dict(args):
         k: utils.replay_tensor(v).to(torch.device(args.device))
         for k, v in params.items()
     }
+
+
+def make_model_call(model, input_dict, runtime_seed):
+    sig = inspect.signature(model.forward)
+    param_names = [
+        name for name, param in sig.parameters.items()
+        if name != 'self' and param.kind in (
+            inspect.Parameter.POSITIONAL_ONLY,
+            inspect.Parameter.POSITIONAL_OR_KEYWORD,
+        )
+    ]
+    if param_names:
+        positional_args = [input_dict[k] for k in param_names]
+
+        def model_call():
+            torch.manual_seed(runtime_seed)
+            return model(*positional_args)
+    else:
+        def model_call():
+            torch.manual_seed(runtime_seed)
+            return model(**input_dict)
+    return model_call
 
 
 class PerformanceMeasurer:
@@ -213,9 +238,7 @@ def test_single_model(args):
     try:
         compiled_model = compiler(model)
 
-        def compiled_model_call():
-            torch.manual_seed(runtime_seed)
-            return compiled_model(**input_dict)
+        compiled_model_call = make_model_call(compiled_model, input_dict, runtime_seed)
 
         compiled_bench = PerformanceMeasurer(compiled_model_call, args, compiler)
         with global_override_dispatch(True):
@@ -246,9 +269,7 @@ def test_single_model(args):
     eager_time_stats = {}
 
     try:
-        def eager_model_call():
-            torch.manual_seed(runtime_seed)
-            return model(**input_dict)
+        eager_model_call = make_model_call(model, input_dict, runtime_seed)
 
         eager_bench = PerformanceMeasurer(eager_model_call, args, compiler)
         eager_bench.warmup()
