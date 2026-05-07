@@ -1,8 +1,8 @@
 #!/root/.venv/bin/python
 """
-Description: AI4C Pass Evaluator - Runs evaluation on optimized pass and returns performance metrics.
+Description: PassNet Pass Evaluator - Runs evaluation on optimized pass and returns performance metrics.
 
-This tool executes the entry.sh script in the AI4C problem directory to validate and benchmark
+This tool executes the entry.sh script in the PassNet problem directory to validate and benchmark
 the optimized pass code. The score is extracted from the evaluation output.
 
 The tool expects to be run from the problem directory (where entry.sh is located).
@@ -94,7 +94,7 @@ def run_with_timeout(cmd, cwd, timeout):
 
 def run_evaluation():
     """
-    Run the AI4C evaluation script (entry.sh) and parse results.
+    Run the PassNet evaluation script (entry.sh) and parse results.
 
     Uses the current working directory as the problem directory.
 
@@ -169,7 +169,7 @@ def run_evaluation():
 
 def main():
     parser = argparse.ArgumentParser(
-        description="AI4C Pass Evaluator: Run evaluation on optimized pass code."
+        description="PassNet Pass Evaluator: Run evaluation on optimized pass code."
     )
     # No arguments needed - uses current working directory
 

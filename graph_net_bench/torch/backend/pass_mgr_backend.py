@@ -449,7 +449,7 @@ def is_pass_source_valid(path):
 def is_pass_source_valid_by_customized_checker(path):
     with open(path, "r") as f:
         source = f.read()
-    pass_source_checker_paths = os.environ.get("AI4C_CUSTOM_PASS_SOURCE_CHECKER_PATH")
+    pass_source_checker_paths = os.environ.get("PASSNET_CUSTOM_PASS_SOURCE_CHECKER_PATH")
     if pass_source_checker_paths is None:
         return True
     for checker_path in pass_source_checker_paths.split(':'):

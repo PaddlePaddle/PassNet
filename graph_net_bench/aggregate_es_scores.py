@@ -244,7 +244,7 @@ def main(args):
     print(f"Result is saved to {args.output_json_file_path}")
 
 def _get_weight_func():
-    custom_weight_func_path = os.environ.get("AI4C_CUSTOM_WEIGHT_FUNC_PATH")
+    custom_weight_func_path = os.environ.get("PASSNET_CUSTOM_WEIGHT_FUNC_PATH")
     if custom_weight_func_path is None:
         return get_weights
     module = imp_util.load_module(custom_weight_func_path)

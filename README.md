@@ -13,9 +13,9 @@ Requirements:
 cd /path/to/passnet/repo/root/dir
 
 export PYTHONPATH=$PYTHONPATH:/path/to/passnet/repo/root/dir
-export AI4C_BASE_URL='your llm base url'
-export AI4C_API_KEY='your llm api key'
-export AI4C_API_MODEL_NAME=' your llm api model name'
+export PASSNET_BASE_URL='your llm base url'
+export PASSNET_API_KEY='your llm api key'
+export PASSNET_API_MODEL_NAME='your llm api model name'
 
 # 运行实例样本
 python3 -m legacy_pass_agent.naive_pass_generate_agents --max-turn 1 --dsl triton  --model-dir samples/fusible_subgraphs/crossvit_15_dagger_240.in1k/crossvit_15_dagger_240.in1k_0_start14_end16_4
@@ -38,9 +38,9 @@ docker build . -t passnet:latest -f Dockerfile.nvidia
 docker run --gpus all --privileged \
           -v <path-to-local-passnet-project>:/workspace \
           -w /workspace \
-          -e AI4C_BASE_URL=<your-llm-base-url> \
-          -e AI4C_API_KEY=<your-llm-api-key> \
-          -e AI4C_API_MODEL_NAME=<your-llm-model-name> \
+          -e PASSNET_BASE_URL=<your-llm-base-url> \
+          -e PASSNET_API_KEY=<your-llm-api-key> \
+          -e PASSNET_API_MODEL_NAME=<your-llm-model-name> \
           passnet:latest \
           python3 -m legacy_pass_agent.naive_pass_generate_agents --max-turn 1 --dsl triton --model-dir samples/fusible_subgraphs/crossvit_15_dagger_240.in1k/crossvit_15_dagger_240.in1k_0_start14_end16_4
 

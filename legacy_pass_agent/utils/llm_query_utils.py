@@ -6,9 +6,9 @@ from dataclasses import dataclass
 
 @dataclass
 class LLMQueryConfig:
-    ai4c_base_url: str = None
-    ai4c_api_key: str = None
-    ai4c_api_model_name: str = None
+    passnet_base_url: str = None
+    passnet_api_key: str = None
+    passnet_api_model_name: str = None
 
     # default greedy sample
     temperature: float = 0.0
@@ -52,18 +52,18 @@ def backoffWrapper(
 def query_llm_service(queryConfig: LLMQueryConfig) -> callable:
     """The interface of querying LLM one shot"""
 
-    ai4c_base_url = queryConfig.ai4c_base_url or os.getenv("AI4C_BASE_URL")
-    ai4c_api_key = queryConfig.ai4c_api_key or os.getenv("AI4C_API_KEY")
-    ai4c_api_model_name = queryConfig.ai4c_api_model_name or os.getenv(
-        "AI4C_API_MODEL_NAME"
+    passnet_base_url = queryConfig.passnet_base_url or os.getenv("PASSNET_BASE_URL")
+    passnet_api_key = queryConfig.passnet_api_key or os.getenv("PASSNET_API_KEY")
+    passnet_api_model_name = queryConfig.passnet_api_model_name or os.getenv(
+        "PASSNET_API_MODEL_NAME"
     )
-    if not ai4c_base_url or not ai4c_api_key:
+    if not passnet_base_url or not passnet_api_key:
         raise ValueError(
-            "Both GRAPHNET_BASE_URL and GRAPHNET_API_KEY "
+            "Both PASSNET_BASE_URL and PASSNET_API_KEY "
             "must be provided either in the config or as environment variables."
         )
 
-    llm_client = openai.OpenAI(base_url=ai4c_base_url, api_key=ai4c_api_key)
+    llm_client = openai.OpenAI(base_url=passnet_base_url, api_key=passnet_api_key)
 
     def queryOneShot(user_prompt: str, system_prompt: str):
 
@@ -73,7 +73,7 @@ def query_llm_service(queryConfig: LLMQueryConfig) -> callable:
         ]
 
         llm_response = llm_client.chat.completions.create(
-            model=ai4c_api_model_name,
+            model=passnet_api_model_name,
             messages=query_message,
             max_tokens=queryConfig.max_tokens,
             temperature=queryConfig.temperature,

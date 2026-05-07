@@ -1,8 +1,8 @@
 """
-AI4C Agent - extends R2E-Gym Agent with AI4C-specific tool support.
+PassAgent - extends R2E-Gym Agent with PassNet-specific tool support.
 
 This agent always uses function calling (hardcoded) and only implements
-the minimal logic needed for AI4C tasks.
+the minimal logic needed for PassNet tasks.
 """
 
 import time
@@ -19,8 +19,8 @@ from r2egym.agenthub.trajectory import TrajectoryStep, Trajectory
 
 class PassAgent(R2EGymAgent):
     """
-    AI4C Agent that extends R2E-Gym Agent with:
-    - AI4C-specific tools (file_editor, pass_evaluator)
+    PassAgent that extends R2E-Gym Agent with:
+    - PassNet-specific tools (file_editor, pass_evaluator)
     - Hardcoded use_fn_calling=True (always uses function calling)
     """
 
@@ -106,7 +106,7 @@ class PassAgent(R2EGymAgent):
         # Hardcode use_fn_calling
         self.use_fn_calling = True
         self.llm_timeout = max_llm_time
-        self.logger.warning(f"Using fn calling: {self.use_fn_calling} (AI4C hardcoded)")
+        self.logger.warning(f"Using fn calling: {self.use_fn_calling} (PassAgent hardcoded)")
 
         # Log the environment and agent
         self.logger.info(f"Running agent {self.name} in environment {env}.")
@@ -270,7 +270,7 @@ class PassAgent(R2EGymAgent):
 
         self.logger.info(f"Agent run complete. Total steps: {step_count}")
 
-        # Get output patch (for AI4C, this would be the pass files)
+        # Get output patch (for PassNet, this would be the pass files)
         output_patch = ""
         try:
             if best_pass_snapshot:
@@ -312,7 +312,7 @@ class PassAgent(R2EGymAgent):
 
     def model_query(self, messages: List[Dict[str, str]], temperature: float = 0) -> Dict[str, Any]:
         """
-        Model query with AI4C tools (always uses function calling).
+        Model query with PassNet tools (always uses function calling).
         """
         from r2egym.agenthub.tools import file_editor
 
@@ -321,15 +321,15 @@ class PassAgent(R2EGymAgent):
             "type": "function",
             "function": {
                 "name": "pass_evaluator",
-                "description": """Evaluate your AI4C pass optimization implementation.
+                "description": """Evaluate your pass optimization implementation.
 
-This tool runs the AI4C evaluation pipeline to check your pass implementation:
+This tool runs the PassNet evaluation pipeline to check your pass implementation:
 1. Pass Matching: Verifies that your pass pattern matches the target computation
 2. Correctness: Ensures your optimized kernel produces correct outputs
 3. Performance: Measures the speedup achieved by your optimization
 
 The tool evaluates the pass files in the current problem directory (./pass_dir).
-The AI4C_PROBLEM_PATH environment variable is automatically set for you.
+The problem path environment variable is automatically set for you.
 
 If any stage fails, the tool reports the failure. If all stages pass, it reports the speedup.
 All output is printed to stdout for you to see.
@@ -343,7 +343,7 @@ No parameters are required - simply call this tool to evaluate your current pass
             },
         }
 
-        # Always use AI4C tools
+        # Always use PassNet tools
         tools = [file_editor, pass_evaluator_tool]
 
         # Add prompt caching
