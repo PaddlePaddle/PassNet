@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import List, Dict
 
 
-def get_ai4c_root():
+def get_passnet_root():
     return Path(__file__).resolve().parent.parent
 
 
@@ -52,9 +52,9 @@ def safe_relative_symlink(src: Path, dst: Path):
     dst.symlink_to(relative_src)
 
 
-def generate_sample(sample_uids: List[str], sample_uid2model_path: Dict[str, str], output_path: Path, graphs_path_in_ai4c: Path) -> str:
+def generate_sample(sample_uids: List[str], sample_uid2model_path: Dict[str, str], output_path: Path, graphs_path_in_passnet: Path) -> str:
     """
-    Generate a AI4C sample.
+    Generate a PassBench sample.
     """
     # Compute group hash
     hash_value = compute_hash(sample_uids)
@@ -69,20 +69,20 @@ def generate_sample(sample_uids: List[str], sample_uid2model_path: Dict[str, str
         print(f"Sample already generated at {sample_output_path}.")
         return None
 
-    ai4c_root = get_ai4c_root()
+    passnet_root = get_passnet_root()
 
     # Create required pass_dir directory and create .ignore
     (sample_output_path / "pass_dir").mkdir(parents=True, exist_ok=True)
     (sample_output_path / "pass_dir" / ".ignore").touch()
 
     # Create symbolic links
-    safe_relative_symlink(ai4c_root / "graphs", sample_output_path / "graphs")
+    safe_relative_symlink(passnet_root / "graphs", sample_output_path / "graphs")
     safe_relative_symlink(
-        ai4c_root / "entry_scripts/entry.sh",
+        passnet_root / "entry_scripts/entry.sh",
         sample_output_path / "entry.sh",
     )
     safe_relative_symlink(
-        ai4c_root / "graph_net_bench",
+        passnet_root / "graph_net_bench",
         sample_output_path / "graph_net_bench",
     )
 
@@ -94,7 +94,7 @@ def generate_sample(sample_uids: List[str], sample_uid2model_path: Dict[str, str
     with open(sample_output_path / "graph_list.txt", "w") as f:
         for uid in sample_uids:
             if uid in sample_uid2model_path:
-                rel_model_path = graphs_path_in_ai4c / sample_uid2model_path[uid]
+                rel_model_path = graphs_path_in_passnet / sample_uid2model_path[uid]
                 f.write(str(rel_model_path) + "\n")
             else:
                 raise ValueError(f"{uid} is missing from model_path.txt")
@@ -104,7 +104,7 @@ def generate_sample(sample_uids: List[str], sample_uid2model_path: Dict[str, str
 
 def evaluate_sample(sample_path: str) -> bool:
     """
-    Evaluate a AI4C sample.
+    Evaluate a PassBench sample.
     """
     validation_log_path = Path("/tmp/workspace_graph_net_bench_test/validation.log")
     aggregated_score_path = Path("/tmp/workspace_graph_net_bench_test/aggregated_score.json")
@@ -170,10 +170,10 @@ def evaluate_sample(sample_path: str) -> bool:
 
 
 def main(args):
-    ai4c_root = get_ai4c_root()
+    passnet_root = get_passnet_root()
     group_sample_uids_path = Path(args.grouped_sample_uids_list)
     model_path = Path(args.model_path_list)
-    graphs_path_in_ai4c = Path(os.path.relpath(Path(args.graphs_path_in_ai4c).resolve(), start=ai4c_root.resolve()))
+    graphs_path_in_passnet = Path(os.path.relpath(Path(args.graphs_path_in_passnet).resolve(), start=passnet_root.resolve()))
 
     output_path = Path(args.output_path)
 
@@ -189,8 +189,8 @@ def main(args):
                 continue
 
             sample_uids = line.split(",")
-            print(f"- [{idx}] Generate AI4C sample for uids {sample_uids}")
-            sample_output_path = generate_sample(sample_uids, sample_uid2model_path, output_path, graphs_path_in_ai4c)
+            print(f"- [{idx}] Generate PassBench sample for uids {sample_uids}")
+            sample_output_path = generate_sample(sample_uids, sample_uid2model_path, output_path, graphs_path_in_passnet)
             if sample_output_path is None:
                 continue
 
@@ -200,7 +200,7 @@ def main(args):
                     shutil.rmtree(Path(sample_output_path))
                     continue
 
-            sample_output_path = os.path.relpath(Path(sample_output_path).resolve(), start=ai4c_root.resolve())
+            sample_output_path = os.path.relpath(Path(sample_output_path).resolve(), start=passnet_root.resolve())
             generated_sample_list.append(sample_output_path)
             num_successed += 1
 
@@ -211,7 +211,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Generate AI4C samples for sample groups in GraphNet format."
+        description="Generate PassBench samples for sample groups in GraphNet format."
     )
     parser.add_argument(
         "--grouped-sample-uids-list",
@@ -224,9 +224,9 @@ if __name__ == "__main__":
         help="Path to model_path.txt",
     )
     parser.add_argument(
-        "--graphs-path-in-ai4c",
+        "--graphs-path-in-passnet",
         required=True,
-        help="Graphs root path in ai4c repo",
+        help="Graphs root path in PassNet repo",
     )
     parser.add_argument(
         "--output-path",
