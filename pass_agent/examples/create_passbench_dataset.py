@@ -56,8 +56,8 @@ def create_jsonl_dataset(sample_list_path: str, output_path: str, docker_image: 
 
 if __name__ == "__main__":
     # Paths
-    sample_list_path = "/ssd1/hesijun/passnet/sample_lists/demo_fusible_samples.txt"
-    output_path = "/ssd1/hesijun/baidu/personal-code/R2E-Gym/passbench_demo_dataset.jsonl"
+    sample_list_path = "/path/to/passnet/sample_lists/demo_fusible_samples.txt"
+    output_path = "/path/to/output/passbench_demo_dataset.jsonl"
 
     # Create dataset
     entries = create_jsonl_dataset(sample_list_path, output_path)

@@ -109,7 +109,7 @@ if args.anthropic_api_key:
 os.environ["MAX_WORKERS"] = str(args.max_workers)
 
 # Add pass_agent directory to path
-# sys.path.insert(0, "/ssd1/hesijun/passnet/pass_agent")
+# sys.path.insert(0, "/path/to/passnet/pass_agent")
 
 # Import PassNet docker runtime
 from runtime.passnet_docker import PassNetDocker
