@@ -37,7 +37,7 @@ COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Set working directory
-WORKDIR /workspace/ai4c
+WORKDIR /workspace/passnet
 
 # Copy project files (including .git directory to maintain git functionality)
 COPY . .
@@ -46,7 +46,7 @@ COPY . .
 RUN git reset --hard HEAD
 
 # Set PYTHONPATH
-ENV PYTHONPATH=/workspace/ai4c:$PYTHONPATH
+ENV PYTHONPATH=/workspace/passnet:$PYTHONPATH
 
 # Set environment variables for AI4C (these should be overridden at runtime)
 ENV AI4C_BASE_URL=""

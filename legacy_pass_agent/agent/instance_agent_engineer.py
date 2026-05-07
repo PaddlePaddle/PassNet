@@ -1,7 +1,7 @@
 import os
 import json
-from ai4c.agent.agent_base import BaseAgent, AgentMessage
-from ai4c.utils.common_string_utils import extract_code_blocks, write_file
+from legacy_pass_agent.agent.agent_base import BaseAgent, AgentMessage
+from legacy_pass_agent.utils.common_string_utils import extract_code_blocks, write_file
 
 register_reference = {"triton": ["agent_analysis_pass.j2"]}
 

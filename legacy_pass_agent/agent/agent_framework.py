@@ -1,5 +1,5 @@
 from typing import Dict
-from ai4c.agent.agent_base import AgentMessage, BaseAgent
+from legacy_pass_agent.agent.agent_base import AgentMessage, BaseAgent
 
 
 class AgentWorkflowEngine:

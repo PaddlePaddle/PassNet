@@ -1,8 +1,8 @@
 import argparse
-from ai4c.agent.agent_base import LLMQueryConfig, AgentMessage
-from ai4c.agent.agent_framework import AgentWorkflowEngine
-from ai4c.agent.instance_agent_analysis import AnalysisAgent
-from ai4c.agent.instance_agent_engineer import EngineerAgent
+from legacy_pass_agent.agent.agent_base import LLMQueryConfig, AgentMessage
+from legacy_pass_agent.agent.agent_framework import AgentWorkflowEngine
+from legacy_pass_agent.agent.instance_agent_analysis import AnalysisAgent
+from legacy_pass_agent.agent.instance_agent_engineer import EngineerAgent
 
 
 def construct_init_message(args):
@@ -72,7 +72,7 @@ if __name__ == "__main__":
         "--template-dir",
         type=str,
         required=False,
-        default="ai4c/agent/prompt/templates",
+        default="legacy_pass_agent/agent/prompt/templates",
         help="The path of prompt template dir.",
     )
     parser.add_argument(

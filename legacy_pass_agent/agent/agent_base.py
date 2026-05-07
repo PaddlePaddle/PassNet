@@ -2,8 +2,8 @@ from typing import Dict, Callable
 from dataclasses import dataclass
 from typing import Dict, Any
 from abc import ABC, abstractmethod
-from ai4c.agent.prompt.prompt_manager import PromptManager
-from ai4c.utils.llm_query_utils import (
+from legacy_pass_agent.agent.prompt.prompt_manager import PromptManager
+from legacy_pass_agent.utils.llm_query_utils import (
     LLMQueryConfig,
     query_llm_service,
     add_token_usage,

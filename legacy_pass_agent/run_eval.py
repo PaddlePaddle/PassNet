@@ -10,8 +10,8 @@ import argparse
 if platform.system() == "Linux":
     import resource
 from docker.types import DeviceRequest 
-from ai4c.docker.docker_utils import setup_logger, close_logger
-from ai4c.docker.docker_builder import build_image
+from legacy_pass_agent.docker.docker_utils import setup_logger, close_logger
+from legacy_pass_agent.docker.docker_builder import build_image
 
 
 BASE_IMAGE = "pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel"
