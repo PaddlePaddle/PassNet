@@ -1396,13 +1396,11 @@ class GraphModule(torch.nn.Module):
             0.1,
             1e-05,
         )
-        x = (
-            l_self_modules_stem_modules_bn_buffers_running_mean_
-        ) = (
+        x = l_self_modules_stem_modules_bn_buffers_running_mean_ = (
             l_self_modules_stem_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_stem_modules_bn_parameters_weight_
-        ) = l_self_modules_stem_modules_bn_parameters_bias_ = None
+        ) = l_self_modules_stem_modules_bn_parameters_weight_ = (
+            l_self_modules_stem_modules_bn_parameters_bias_
+        ) = None
         x_2 = torch.nn.functional.relu(x_1, inplace=True)
         x_1 = None
         x_3 = torch.conv2d(
@@ -1431,9 +1429,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s1_modules_b1_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s1_modules_b1_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s1_modules_b1_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s1_modules_b1_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s1_modules_b1_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_5 = torch.nn.functional.relu(x_4, inplace=True)
@@ -1464,9 +1460,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s1_modules_b1_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s1_modules_b1_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s1_modules_b1_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s1_modules_b1_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s1_modules_b1_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_8 = torch.nn.functional.relu(x_7, inplace=True)
@@ -1528,9 +1522,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s1_modules_b1_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s1_modules_b1_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s1_modules_b1_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s1_modules_b1_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s1_modules_b1_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_12 = torch.conv2d(
@@ -1542,7 +1534,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1,
         )
-        x_2 = l_self_modules_s1_modules_b1_modules_downsample_modules_conv_parameters_weight_ = (None)
+        x_2 = (
+            l_self_modules_s1_modules_b1_modules_downsample_modules_conv_parameters_weight_
+        ) = None
         x_13 = torch.nn.functional.batch_norm(
             x_12,
             l_self_modules_s1_modules_b1_modules_downsample_modules_bn_buffers_running_mean_,
@@ -1553,7 +1547,13 @@ class GraphModule(torch.nn.Module):
             0.1,
             1e-05,
         )
-        x_12 = l_self_modules_s1_modules_b1_modules_downsample_modules_bn_buffers_running_mean_ = l_self_modules_s1_modules_b1_modules_downsample_modules_bn_buffers_running_var_ = l_self_modules_s1_modules_b1_modules_downsample_modules_bn_parameters_weight_ = (
+        x_12 = (
+            l_self_modules_s1_modules_b1_modules_downsample_modules_bn_buffers_running_mean_
+        ) = (
+            l_self_modules_s1_modules_b1_modules_downsample_modules_bn_buffers_running_var_
+        ) = (
+            l_self_modules_s1_modules_b1_modules_downsample_modules_bn_parameters_weight_
+        ) = (
             l_self_modules_s1_modules_b1_modules_downsample_modules_bn_parameters_bias_
         ) = None
         x_14 = x_11 + x_13
@@ -1586,9 +1586,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s1_modules_b2_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s1_modules_b2_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s1_modules_b2_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s1_modules_b2_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s1_modules_b2_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_18 = torch.nn.functional.relu(x_17, inplace=True)
@@ -1619,9 +1617,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s1_modules_b2_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s1_modules_b2_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s1_modules_b2_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s1_modules_b2_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s1_modules_b2_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_21 = torch.nn.functional.relu(x_20, inplace=True)
@@ -1683,9 +1679,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s1_modules_b2_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s1_modules_b2_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s1_modules_b2_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s1_modules_b2_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s1_modules_b2_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_25 = x_24 + x_15
@@ -1718,9 +1712,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b1_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b1_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b1_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b1_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b1_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_29 = torch.nn.functional.relu(x_28, inplace=True)
@@ -1751,9 +1743,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b1_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b1_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b1_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b1_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b1_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_32 = torch.nn.functional.relu(x_31, inplace=True)
@@ -1815,9 +1805,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b1_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b1_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b1_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b1_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b1_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_36 = torch.conv2d(
@@ -1829,7 +1817,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1,
         )
-        x_26 = l_self_modules_s2_modules_b1_modules_downsample_modules_conv_parameters_weight_ = (None)
+        x_26 = (
+            l_self_modules_s2_modules_b1_modules_downsample_modules_conv_parameters_weight_
+        ) = None
         x_37 = torch.nn.functional.batch_norm(
             x_36,
             l_self_modules_s2_modules_b1_modules_downsample_modules_bn_buffers_running_mean_,
@@ -1840,7 +1830,13 @@ class GraphModule(torch.nn.Module):
             0.1,
             1e-05,
         )
-        x_36 = l_self_modules_s2_modules_b1_modules_downsample_modules_bn_buffers_running_mean_ = l_self_modules_s2_modules_b1_modules_downsample_modules_bn_buffers_running_var_ = l_self_modules_s2_modules_b1_modules_downsample_modules_bn_parameters_weight_ = (
+        x_36 = (
+            l_self_modules_s2_modules_b1_modules_downsample_modules_bn_buffers_running_mean_
+        ) = (
+            l_self_modules_s2_modules_b1_modules_downsample_modules_bn_buffers_running_var_
+        ) = (
+            l_self_modules_s2_modules_b1_modules_downsample_modules_bn_parameters_weight_
+        ) = (
             l_self_modules_s2_modules_b1_modules_downsample_modules_bn_parameters_bias_
         ) = None
         x_38 = x_35 + x_37
@@ -1873,9 +1869,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b2_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b2_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b2_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b2_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b2_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_42 = torch.nn.functional.relu(x_41, inplace=True)
@@ -1906,9 +1900,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b2_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b2_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b2_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b2_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b2_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_45 = torch.nn.functional.relu(x_44, inplace=True)
@@ -1970,9 +1962,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b2_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b2_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b2_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b2_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b2_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_49 = x_48 + x_39
@@ -2005,9 +1995,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b3_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b3_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b3_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b3_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b3_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_53 = torch.nn.functional.relu(x_52, inplace=True)
@@ -2038,9 +2026,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b3_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b3_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b3_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b3_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b3_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_56 = torch.nn.functional.relu(x_55, inplace=True)
@@ -2102,9 +2088,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b3_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b3_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b3_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b3_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b3_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_60 = x_59 + x_50
@@ -2137,9 +2121,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b4_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b4_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b4_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b4_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b4_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_64 = torch.nn.functional.relu(x_63, inplace=True)
@@ -2170,9 +2152,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b4_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b4_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b4_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b4_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b4_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_67 = torch.nn.functional.relu(x_66, inplace=True)
@@ -2234,9 +2214,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s2_modules_b4_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s2_modules_b4_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s2_modules_b4_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s2_modules_b4_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s2_modules_b4_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_71 = x_70 + x_61
@@ -2269,9 +2247,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b1_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b1_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b1_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b1_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b1_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_75 = torch.nn.functional.relu(x_74, inplace=True)
@@ -2302,9 +2278,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b1_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b1_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b1_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b1_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b1_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_78 = torch.nn.functional.relu(x_77, inplace=True)
@@ -2366,9 +2340,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b1_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b1_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b1_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b1_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b1_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_82 = torch.conv2d(
@@ -2380,7 +2352,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1,
         )
-        x_72 = l_self_modules_s3_modules_b1_modules_downsample_modules_conv_parameters_weight_ = (None)
+        x_72 = (
+            l_self_modules_s3_modules_b1_modules_downsample_modules_conv_parameters_weight_
+        ) = None
         x_83 = torch.nn.functional.batch_norm(
             x_82,
             l_self_modules_s3_modules_b1_modules_downsample_modules_bn_buffers_running_mean_,
@@ -2391,7 +2365,13 @@ class GraphModule(torch.nn.Module):
             0.1,
             1e-05,
         )
-        x_82 = l_self_modules_s3_modules_b1_modules_downsample_modules_bn_buffers_running_mean_ = l_self_modules_s3_modules_b1_modules_downsample_modules_bn_buffers_running_var_ = l_self_modules_s3_modules_b1_modules_downsample_modules_bn_parameters_weight_ = (
+        x_82 = (
+            l_self_modules_s3_modules_b1_modules_downsample_modules_bn_buffers_running_mean_
+        ) = (
+            l_self_modules_s3_modules_b1_modules_downsample_modules_bn_buffers_running_var_
+        ) = (
+            l_self_modules_s3_modules_b1_modules_downsample_modules_bn_parameters_weight_
+        ) = (
             l_self_modules_s3_modules_b1_modules_downsample_modules_bn_parameters_bias_
         ) = None
         x_84 = x_81 + x_83
@@ -2424,9 +2404,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b2_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b2_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b2_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b2_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b2_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_88 = torch.nn.functional.relu(x_87, inplace=True)
@@ -2457,9 +2435,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b2_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b2_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b2_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b2_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b2_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_91 = torch.nn.functional.relu(x_90, inplace=True)
@@ -2521,9 +2497,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b2_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b2_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b2_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b2_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b2_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_95 = x_94 + x_85
@@ -2556,9 +2530,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b3_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b3_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b3_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b3_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b3_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_99 = torch.nn.functional.relu(x_98, inplace=True)
@@ -2589,9 +2561,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b3_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b3_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b3_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b3_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b3_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_102 = torch.nn.functional.relu(x_101, inplace=True)
@@ -2653,9 +2623,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b3_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b3_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b3_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b3_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b3_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_106 = x_105 + x_96
@@ -2688,9 +2656,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b4_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b4_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b4_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b4_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b4_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_110 = torch.nn.functional.relu(x_109, inplace=True)
@@ -2721,9 +2687,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b4_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b4_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b4_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b4_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b4_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_113 = torch.nn.functional.relu(x_112, inplace=True)
@@ -2785,9 +2749,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b4_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b4_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b4_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b4_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b4_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_117 = x_116 + x_107
@@ -2820,9 +2782,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b5_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b5_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b5_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b5_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b5_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_121 = torch.nn.functional.relu(x_120, inplace=True)
@@ -2853,9 +2813,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b5_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b5_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b5_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b5_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b5_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_124 = torch.nn.functional.relu(x_123, inplace=True)
@@ -2917,9 +2875,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b5_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b5_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b5_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b5_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b5_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_128 = x_127 + x_118
@@ -2952,9 +2908,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b6_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b6_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b6_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b6_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b6_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_132 = torch.nn.functional.relu(x_131, inplace=True)
@@ -2985,9 +2939,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b6_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b6_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b6_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b6_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b6_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_135 = torch.nn.functional.relu(x_134, inplace=True)
@@ -3049,9 +3001,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b6_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b6_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b6_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b6_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b6_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_139 = x_138 + x_129
@@ -3084,9 +3034,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b7_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b7_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b7_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b7_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b7_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_143 = torch.nn.functional.relu(x_142, inplace=True)
@@ -3117,9 +3065,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b7_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b7_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b7_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b7_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b7_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_146 = torch.nn.functional.relu(x_145, inplace=True)
@@ -3181,9 +3127,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b7_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b7_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b7_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b7_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b7_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_150 = x_149 + x_140
@@ -3216,9 +3160,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b8_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b8_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b8_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b8_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b8_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_154 = torch.nn.functional.relu(x_153, inplace=True)
@@ -3249,9 +3191,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b8_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b8_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b8_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b8_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b8_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_157 = torch.nn.functional.relu(x_156, inplace=True)
@@ -3313,9 +3253,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b8_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b8_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b8_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b8_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b8_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_161 = x_160 + x_151
@@ -3348,9 +3286,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b9_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b9_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b9_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b9_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b9_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_165 = torch.nn.functional.relu(x_164, inplace=True)
@@ -3381,9 +3317,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b9_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b9_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b9_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b9_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b9_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_168 = torch.nn.functional.relu(x_167, inplace=True)
@@ -3445,9 +3379,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b9_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s3_modules_b9_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s3_modules_b9_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s3_modules_b9_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s3_modules_b9_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_172 = x_171 + x_162
@@ -3482,9 +3414,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b10_modules_conv1_modules_bn_buffers_running_var_
         ) = (
             l_self_modules_s3_modules_b10_modules_conv1_modules_bn_parameters_weight_
-        ) = (
-            l_self_modules_s3_modules_b10_modules_conv1_modules_bn_parameters_bias_
-        ) = None
+        ) = l_self_modules_s3_modules_b10_modules_conv1_modules_bn_parameters_bias_ = (
+            None
+        )
         x_176 = torch.nn.functional.relu(x_175, inplace=True)
         x_175 = None
         x_177 = torch.conv2d(
@@ -3515,9 +3447,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b10_modules_conv2_modules_bn_buffers_running_var_
         ) = (
             l_self_modules_s3_modules_b10_modules_conv2_modules_bn_parameters_weight_
-        ) = (
-            l_self_modules_s3_modules_b10_modules_conv2_modules_bn_parameters_bias_
-        ) = None
+        ) = l_self_modules_s3_modules_b10_modules_conv2_modules_bn_parameters_bias_ = (
+            None
+        )
         x_179 = torch.nn.functional.relu(x_178, inplace=True)
         x_178 = None
         x_se_60 = x_179.mean((2, 3), keepdim=True)
@@ -3579,9 +3511,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s3_modules_b10_modules_conv3_modules_bn_buffers_running_var_
         ) = (
             l_self_modules_s3_modules_b10_modules_conv3_modules_bn_parameters_weight_
-        ) = (
-            l_self_modules_s3_modules_b10_modules_conv3_modules_bn_parameters_bias_
-        ) = None
+        ) = l_self_modules_s3_modules_b10_modules_conv3_modules_bn_parameters_bias_ = (
+            None
+        )
         x_183 = x_182 + x_173
         x_182 = x_173 = None
         x_184 = torch.nn.functional.relu(x_183, inplace=False)
@@ -3612,9 +3544,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s4_modules_b1_modules_conv1_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s4_modules_b1_modules_conv1_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s4_modules_b1_modules_conv1_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s4_modules_b1_modules_conv1_modules_bn_parameters_weight_ = (
             l_self_modules_s4_modules_b1_modules_conv1_modules_bn_parameters_bias_
         ) = None
         x_187 = torch.nn.functional.relu(x_186, inplace=True)
@@ -3645,9 +3575,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s4_modules_b1_modules_conv2_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s4_modules_b1_modules_conv2_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s4_modules_b1_modules_conv2_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s4_modules_b1_modules_conv2_modules_bn_parameters_weight_ = (
             l_self_modules_s4_modules_b1_modules_conv2_modules_bn_parameters_bias_
         ) = None
         x_190 = torch.nn.functional.relu(x_189, inplace=True)
@@ -3709,9 +3637,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_s4_modules_b1_modules_conv3_modules_bn_buffers_running_mean_
         ) = (
             l_self_modules_s4_modules_b1_modules_conv3_modules_bn_buffers_running_var_
-        ) = (
-            l_self_modules_s4_modules_b1_modules_conv3_modules_bn_parameters_weight_
-        ) = (
+        ) = l_self_modules_s4_modules_b1_modules_conv3_modules_bn_parameters_weight_ = (
             l_self_modules_s4_modules_b1_modules_conv3_modules_bn_parameters_bias_
         ) = None
         x_194 = torch.conv2d(
@@ -3723,7 +3649,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1,
         )
-        x_184 = l_self_modules_s4_modules_b1_modules_downsample_modules_conv_parameters_weight_ = (None)
+        x_184 = (
+            l_self_modules_s4_modules_b1_modules_downsample_modules_conv_parameters_weight_
+        ) = None
         x_195 = torch.nn.functional.batch_norm(
             x_194,
             l_self_modules_s4_modules_b1_modules_downsample_modules_bn_buffers_running_mean_,
@@ -3734,7 +3662,13 @@ class GraphModule(torch.nn.Module):
             0.1,
             1e-05,
         )
-        x_194 = l_self_modules_s4_modules_b1_modules_downsample_modules_bn_buffers_running_mean_ = l_self_modules_s4_modules_b1_modules_downsample_modules_bn_buffers_running_var_ = l_self_modules_s4_modules_b1_modules_downsample_modules_bn_parameters_weight_ = (
+        x_194 = (
+            l_self_modules_s4_modules_b1_modules_downsample_modules_bn_buffers_running_mean_
+        ) = (
+            l_self_modules_s4_modules_b1_modules_downsample_modules_bn_buffers_running_var_
+        ) = (
+            l_self_modules_s4_modules_b1_modules_downsample_modules_bn_parameters_weight_
+        ) = (
             l_self_modules_s4_modules_b1_modules_downsample_modules_bn_parameters_bias_
         ) = None
         x_196 = x_193 + x_195
@@ -3752,7 +3686,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_head_modules_fc_parameters_weight_,
             l_self_modules_head_modules_fc_parameters_bias_,
         )
-        x_200 = (
-            l_self_modules_head_modules_fc_parameters_weight_
-        ) = l_self_modules_head_modules_fc_parameters_bias_ = None
+        x_200 = l_self_modules_head_modules_fc_parameters_weight_ = (
+            l_self_modules_head_modules_fc_parameters_bias_
+        ) = None
         return (x_201,)

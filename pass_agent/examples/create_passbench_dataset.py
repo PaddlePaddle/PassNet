@@ -7,7 +7,10 @@ import json
 import os
 from pathlib import Path
 
-def create_jsonl_dataset(sample_list_path: str, output_path: str, docker_image: str = "passnet:latest"):
+
+def create_jsonl_dataset(
+    sample_list_path: str, output_path: str, docker_image: str = "passnet:latest"
+):
     """
     Create a PassBench JSONL dataset from a sample list file.
 
@@ -18,7 +21,7 @@ def create_jsonl_dataset(sample_list_path: str, output_path: str, docker_image: 
     """
     dataset_entries = []
 
-    with open(sample_list_path, 'r') as f:
+    with open(sample_list_path, "r") as f:
         for line in f:
             line = line.strip()
             if not line:  # Skip empty lines
@@ -33,15 +36,15 @@ def create_jsonl_dataset(sample_list_path: str, output_path: str, docker_image: 
                 "sample_dir": line,
                 "repo": "passnet",
                 "docker_image": docker_image,
-                "instance_id": instance_id
+                "instance_id": instance_id,
             }
 
             dataset_entries.append(entry)
 
     # Write JSONL file
-    with open(output_path, 'w') as f:
+    with open(output_path, "w") as f:
         for entry in dataset_entries:
-            f.write(json.dumps(entry) + '\n')
+            f.write(json.dumps(entry) + "\n")
 
     print(f"Created dataset with {len(dataset_entries)} entries")
     print(f"Output: {output_path}")
@@ -53,6 +56,7 @@ def create_jsonl_dataset(sample_list_path: str, output_path: str, docker_image: 
         print(f"   Sample: {entry['sample_dir']}")
 
     return dataset_entries
+
 
 if __name__ == "__main__":
     # Paths

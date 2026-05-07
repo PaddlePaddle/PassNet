@@ -9,7 +9,7 @@ import argparse
 
 if platform.system() == "Linux":
     import resource
-from docker.types import DeviceRequest 
+from docker.types import DeviceRequest
 from legacy_pass_agent.docker.docker_utils import setup_logger, close_logger
 from legacy_pass_agent.docker.docker_builder import build_image
 
@@ -19,23 +19,24 @@ WORKDIR = "/workspace"
 
 
 class LocalTestSpec:
-    """ Local Test Specification """
+    """Local Test Specification"""
+
     def __init__(self, data: Dict, dataset_dir: Path):
         self.repo = data["repo"]
         self.instance_id = data["instance_id"]
         self.entry_point = data["entry"]
         self.graph_list = data["graph_list"]
         self.dataset_dir = dataset_dir
-        
+
         self.image_tag = f"{self.repo}:{self.instance_id}".replace("/", "_").lower()
-        
+
         self.local_repo_path = self.dataset_dir / self.repo / self.instance_id
         if not self.local_repo_path.exists():
             raise FileNotFoundError(f"Repository not found at {self.local_repo_path}")
 
     @property
     def dockerfile(self) -> str:
-        """ Generate Dockerfile for local code injection """
+        """Generate Dockerfile for local code injection"""
         return f"""
 FROM {BASE_IMAGE}
 
@@ -53,34 +54,37 @@ RUN if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
 
 def prepare_build_context(spec: LocalTestSpec, build_dir: Path):
-    """ prepare build context """
+    """prepare build context"""
     if build_dir.exists():
         shutil.rmtree(build_dir)
     build_dir.mkdir(parents=True, exist_ok=True)
-    
+
     # copy source code to build_dir/repo
     dest_repo_path = build_dir / "repo"
     shutil.copytree(spec.local_repo_path, dest_repo_path)
 
 
-def run_evaluation(client: docker.DockerClient, spec: LocalTestSpec, output_dir: Path, logger: logging.Logger):
-    """ Run Container to perform evaluation """
+def run_evaluation(
+    client: docker.DockerClient,
+    spec: LocalTestSpec,
+    output_dir: Path,
+    logger: logging.Logger,
+):
+    """Run Container to perform evaluation"""
 
     container = None
     try:
         logger.info(f"Starting container for {spec.image_tag}...")
 
-        gpu_requests = [
-            DeviceRequest(count=-1, capabilities=[["gpu"]])
-        ]
-        
+        gpu_requests = [DeviceRequest(count=-1, capabilities=[["gpu"]])]
+
         # start container
         container = client.containers.run(
             spec.image_tag,
-            command="tail -f /dev/null", # keep container running
+            command="tail -f /dev/null",  # keep container running
             detach=True,
             device_requests=gpu_requests,
-            working_dir=WORKDIR
+            working_dir=WORKDIR,
         )
 
         # run entry.sh
@@ -97,14 +101,16 @@ def run_evaluation(client: docker.DockerClient, spec: LocalTestSpec, output_dir:
             logger.info("Batch execution successful.")
             logger.info(f"Output:\n{output}")
         else:
-            logger.error(f"Batch execution failed (code {exit_code}). Output:\n{output}")
+            logger.error(
+                f"Batch execution failed (code {exit_code}). Output:\n{output}"
+            )
 
         results = {
             "instance_id": spec.instance_id,
             "cmd": eval_cmd,
             "graphs_evaluated": spec.graph_list,
             "exit_code": exit_code,
-            "raw_output": output
+            "raw_output": output,
         }
 
         result_file = output_dir / f"{spec.instance_id}_result.json"
@@ -129,15 +135,19 @@ def main(args):
     dataset_path = Path(args.dataset_dir)
     output_path = Path(args.output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
-    
+
     if platform.system() == "Linux":
-        resource.setrlimit(resource.RLIMIT_NOFILE, (args.open_file_limit, args.open_file_limit))
+        resource.setrlimit(
+            resource.RLIMIT_NOFILE, (args.open_file_limit, args.open_file_limit)
+        )
     else:
         print("Warning: Resource limits not set (non-Linux system).")
-    
+
     # Load dataset
     data_jsonl_file = Path(args.dataset_dir) / "data.jsonl"
-    dataset = [json.loads(line) for line in Path(data_jsonl_file).read_text().splitlines()]
+    dataset = [
+        json.loads(line) for line in Path(data_jsonl_file).read_text().splitlines()
+    ]
 
     # foreach instance to eval
     client = docker.from_env()
@@ -158,7 +168,7 @@ def main(args):
             platform=None,
             client=client,
             build_dir=build_context_dir,
-            nocache=args.clean
+            nocache=args.clean,
         )
 
         run_evaluation(client, spec, output_path, logger)
@@ -167,7 +177,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    
+
     parser.add_argument(
         "-d",
         "--dataset-dir",
@@ -202,4 +212,3 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     main(args=args)
-    

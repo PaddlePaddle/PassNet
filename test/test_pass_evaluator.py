@@ -44,8 +44,7 @@ def test_timeout_flushes_output():
         "mod.run_with_timeout(['bash','-c','echo before_timeout; sleep 10'], cwd='/tmp', timeout=2)\n"
     )
     result = subprocess.run(
-        [sys.executable, "-c", script],
-        capture_output=True, text=True
+        [sys.executable, "-c", script], capture_output=True, text=True
     )
     assert result.returncode == 1
     assert "before_timeout" in result.stdout

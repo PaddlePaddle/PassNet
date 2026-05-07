@@ -105,7 +105,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_lin_parameters_weight_,
             l_self_modules_lin_parameters_bias_,
         )
-        x_1 = (
-            l_self_modules_lin_parameters_weight_
-        ) = l_self_modules_lin_parameters_bias_ = None
+        x_1 = l_self_modules_lin_parameters_weight_ = (
+            l_self_modules_lin_parameters_bias_
+        ) = None
         return (linear_1,)

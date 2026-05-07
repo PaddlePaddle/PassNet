@@ -122,7 +122,9 @@ def get_timing_stats(elapsed_times):
     Raises:
         RuntimeError: If IQR/median exceeds the threshold, indicating excessive fluctuation.
     """
-    rel_iqr_threshold = float(os.getenv("GRAPH_NET_FLUCTUATION_DETECT_THRESHOLD", "0.2"))
+    rel_iqr_threshold = float(
+        os.getenv("GRAPH_NET_FLUCTUATION_DETECT_THRESHOLD", "0.2")
+    )
     arr = np.array(elapsed_times)
     median = float(np.median(arr))
     q1 = float(np.percentile(arr, 25))

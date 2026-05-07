@@ -1,6 +1,7 @@
 """
 Modify from https://github.com/SWE-bench/SWE-bench/blob/main/swebench/harness/docker_build.py
 """
+
 import docker
 from pathlib import Path
 from .docker_utils import run_threadpool, setup_logger, ansi_escape, close_logger

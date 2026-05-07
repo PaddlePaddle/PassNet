@@ -167,7 +167,6 @@ def get_verified_aggregated_es_values(es_scores: dict, folder_name: str) -> dict
     return verified_es_values
 
 
-
 def main(args):
     # 1. Scan folders to get data
     all_results = analysis_util.scan_all_folders(args.benchmark_path)
@@ -226,14 +225,14 @@ def main(args):
             all_es_scores[folder_name] = verified_es_values
     weight_func = _get_weight_func()
     weights = weight_func()
-    assert set(weights.keys()) == set(all_es_scores['validation'].keys())
+    assert set(weights.keys()) == set(all_es_scores["validation"].keys())
     weighted_sum = sum(
         weight * np.log(score) / np.log(10)
         for tolerance in weights.keys()
         for weight in [weights[tolerance]]
-        for score in [all_es_scores['validation'][tolerance]]
+        for score in [all_es_scores["validation"][tolerance]]
     )
-    aggregated_speedup = 10**float(weighted_sum)
+    aggregated_speedup = 10 ** float(weighted_sum)
     result = {
         "id": args.sample_id,
         "score": aggregated_speedup,
@@ -243,6 +242,7 @@ def main(args):
     print(f"{aggregated_speedup=}")
     print(f"Result is saved to {args.output_json_file_path}")
 
+
 def _get_weight_func():
     custom_weight_func_path = os.environ.get("PASSNET_CUSTOM_WEIGHT_FUNC_PATH")
     if custom_weight_func_path is None:
@@ -250,27 +250,29 @@ def _get_weight_func():
     module = imp_util.load_module(custom_weight_func_path)
     return module.get_weights
 
+
 def get_weights():
     # `weights` is derived from the NLP ES metrics of NVIDIA A100 relative to H20
     weights = {
         -10: np.float64(0.001),
-         -9: np.float64(0.001),
-         -8: np.float64(0.001),
-         -7: np.float64(0.001),
-         -6: np.float64(0.001),
-         -5: np.float64(1),
-         -4: np.float64(1),
-         -3: np.float64(1),
-         -2: np.float64(0.8),
-         -1: np.float64(0.64),
-          0: np.float64(0.512),
-          1: np.float64(0.4096),
-          2: np.float64(0.32768),
-          3: np.float64(0.262144),
-          4: np.float64(0.001),
+        -9: np.float64(0.001),
+        -8: np.float64(0.001),
+        -7: np.float64(0.001),
+        -6: np.float64(0.001),
+        -5: np.float64(1),
+        -4: np.float64(1),
+        -3: np.float64(1),
+        -2: np.float64(0.8),
+        -1: np.float64(0.64),
+        0: np.float64(0.512),
+        1: np.float64(0.4096),
+        2: np.float64(0.32768),
+        3: np.float64(0.262144),
+        4: np.float64(0.001),
     }
     sum_weights = sum(v for k, v in weights.items())
     return dict((k, v / sum_weights) for k, v in weights.items())
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(

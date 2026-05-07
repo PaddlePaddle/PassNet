@@ -1,6 +1,7 @@
 """
 Modify from https://github.com/SWE-bench/SWE-bench/blob/main/swebench/harness/docker_utils.py
 """
+
 import re
 import sys
 import docker
@@ -10,7 +11,13 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
-def setup_logger(instance_id: str, log_file: Path, mode="w", add_stdout: bool = False, encoding="utf-8"):
+def setup_logger(
+    instance_id: str,
+    log_file: Path,
+    mode="w",
+    add_stdout: bool = False,
+    encoding="utf-8",
+):
     """
     This logger is used for logging the build process of images and containers.
     It writes logs to the log file.

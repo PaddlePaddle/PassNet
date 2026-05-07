@@ -52,7 +52,12 @@ def safe_relative_symlink(src: Path, dst: Path):
     dst.symlink_to(relative_src)
 
 
-def generate_sample(sample_uids: List[str], sample_uid2model_path: Dict[str, str], output_path: Path, graphs_path_in_passnet: Path) -> str:
+def generate_sample(
+    sample_uids: List[str],
+    sample_uid2model_path: Dict[str, str],
+    output_path: Path,
+    graphs_path_in_passnet: Path,
+) -> str:
     """
     Generate a PassBench sample.
     """
@@ -107,7 +112,9 @@ def evaluate_sample(sample_path: str) -> bool:
     Evaluate a PassBench sample.
     """
     validation_log_path = Path("/tmp/workspace_graph_net_bench_test/validation.log")
-    aggregated_score_path = Path("/tmp/workspace_graph_net_bench_test/aggregated_score.json")
+    aggregated_score_path = Path(
+        "/tmp/workspace_graph_net_bench_test/aggregated_score.json"
+    )
 
     sample_dir = Path(sample_path).resolve()
     entry_script = sample_dir / "entry.sh"
@@ -157,7 +164,9 @@ def evaluate_sample(sample_path: str) -> bool:
             score = json.load(f)
 
         if score["score"] != rectified_speedup:
-            print(f"Score is not equal to rectified_speedup ({score['score']} != {rectified_speedup}).")
+            print(
+                f"Score is not equal to rectified_speedup ({score['score']} != {rectified_speedup})."
+            )
             return False
 
         return True
@@ -173,7 +182,11 @@ def main(args):
     passnet_root = get_passnet_root()
     group_sample_uids_path = Path(args.grouped_sample_uids_list)
     model_path = Path(args.model_path_list)
-    graphs_path_in_passnet = Path(os.path.relpath(Path(args.graphs_path_in_passnet).resolve(), start=passnet_root.resolve()))
+    graphs_path_in_passnet = Path(
+        os.path.relpath(
+            Path(args.graphs_path_in_passnet).resolve(), start=passnet_root.resolve()
+        )
+    )
 
     output_path = Path(args.output_path)
 
@@ -190,7 +203,9 @@ def main(args):
 
             sample_uids = line.split(",")
             print(f"- [{idx}] Generate PassBench sample for uids {sample_uids}")
-            sample_output_path = generate_sample(sample_uids, sample_uid2model_path, output_path, graphs_path_in_passnet)
+            sample_output_path = generate_sample(
+                sample_uids, sample_uid2model_path, output_path, graphs_path_in_passnet
+            )
             if sample_output_path is None:
                 continue
 
@@ -200,7 +215,9 @@ def main(args):
                     shutil.rmtree(Path(sample_output_path))
                     continue
 
-            sample_output_path = os.path.relpath(Path(sample_output_path).resolve(), start=passnet_root.resolve())
+            sample_output_path = os.path.relpath(
+                Path(sample_output_path).resolve(), start=passnet_root.resolve()
+            )
             generated_sample_list.append(sample_output_path)
             num_successed += 1
 
@@ -239,9 +256,7 @@ if __name__ == "__main__":
         help="Output sample list",
     )
     parser.add_argument(
-        "--do-eval",
-        action="store_true",
-        help="Run evaluation after generating samples"
+        "--do-eval", action="store_true", help="Run evaluation after generating samples"
     )
     args = parser.parse_args()
     main(args)

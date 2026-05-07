@@ -50,7 +50,13 @@ def get_hardward_name(args):
 
 
 def get_compile_framework_version(args):
-    if args.compiler in ["inductor", "nope", "unstable_to_stable", "pass_mgr", "pass_mgr_direct"]:
+    if args.compiler in [
+        "inductor",
+        "nope",
+        "unstable_to_stable",
+        "pass_mgr",
+        "pass_mgr_direct",
+    ]:
         return torch.__version__
     elif args.compiler in ["tvm", "xla", "tensorrt", "bladedisc"]:
         # Assuming compiler object has a version attribute
@@ -90,7 +96,9 @@ def convert_to_dict(config_str):
 
 
 def get_compiler_backend(args) -> GraphCompilerBackend:
-    assert args.compiler in compiler_backend_name2class, f"Unknown compiler: {args.compiler}"
+    assert (
+        args.compiler in compiler_backend_name2class
+    ), f"Unknown compiler: {args.compiler}"
     backend_class = compiler_backend_name2class[args.compiler]
     config = convert_to_dict(args.config) if args.config is not None else {}
     return backend_class(config)
@@ -120,8 +128,11 @@ def get_input_dict(args):
 def make_model_call(model, input_dict, runtime_seed):
     sig = inspect.signature(model.forward)
     param_names = [
-        name for name, param in sig.parameters.items()
-        if name != 'self' and param.kind in (
+        name
+        for name, param in sig.parameters.items()
+        if name != "self"
+        and param.kind
+        in (
             inspect.Parameter.POSITIONAL_ONLY,
             inspect.Parameter.POSITIONAL_OR_KEYWORD,
         )
@@ -132,10 +143,13 @@ def make_model_call(model, input_dict, runtime_seed):
         def model_call():
             torch.manual_seed(runtime_seed)
             return model(*positional_args)
+
     else:
+
         def model_call():
             torch.manual_seed(runtime_seed)
             return model(**input_dict)
+
     return model_call
 
 
@@ -170,7 +184,9 @@ class PerformanceMeasurer:
 
             for i in range(self.args.trials):
                 duration_box = test_compiler_util.DurationBox(-1)
-                with test_compiler_util.naive_timer(duration_box, self.compiler.synchronize):
+                with test_compiler_util.naive_timer(
+                    duration_box, self.compiler.synchronize
+                ):
                     start_event = torch.cuda.Event(enable_timing=True)
                     end_event = torch.cuda.Event(enable_timing=True)
                     start_event.record()
@@ -196,7 +212,9 @@ class PerformanceMeasurer:
             e2e_times = []
             for i in range(self.args.trials):
                 duration_box = test_compiler_util.DurationBox(-1)
-                with test_compiler_util.naive_timer(duration_box, self.compiler.synchronize):
+                with test_compiler_util.naive_timer(
+                    duration_box, self.compiler.synchronize
+                ):
                     self.model_call()
                 print(
                     f"Trial {i + 1}: e2e={duration_box.value:.5f} ms",
@@ -211,6 +229,7 @@ class PerformanceMeasurer:
 
     def cleanup(self):
         import gc
+
         gc.collect()
         if "cuda" in self.args.device:
             torch.cuda.empty_cache()
@@ -408,7 +427,9 @@ def get_sample_root(args):
 
 
 def test_multi_models(args):
-    test_samples = test_compiler_util.get_allow_samples(args.allow_list, get_sample_root(args))
+    test_samples = test_compiler_util.get_allow_samples(
+        args.allow_list, get_sample_root(args)
+    )
 
     sample_idx = 0
     failed_samples = []
@@ -458,7 +479,9 @@ def test_multi_models(args):
 def test_multi_models_with_prefix(args):
     assert os.path.isdir(args.model_path_prefix)
     assert os.path.isfile(args.allow_list)
-    test_samples = test_compiler_util.get_allow_samples(args.allow_list, get_sample_root(args))
+    test_samples = test_compiler_util.get_allow_samples(
+        args.allow_list, get_sample_root(args)
+    )
     py_module_name = os.path.splitext(os.path.basename(__file__))[0]
     for model_path in test_samples:
         if not os.path.exists(model_path):

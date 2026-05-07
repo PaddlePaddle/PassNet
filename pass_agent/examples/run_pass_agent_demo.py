@@ -13,89 +13,71 @@ from pathlib import Path
 from datetime import datetime
 import concurrent.futures
 
+
 def parse_args():
-    parser = argparse.ArgumentParser(
-        description="Run PassAgent on demo dataset"
-    )
+    parser = argparse.ArgumentParser(description="Run PassAgent on demo dataset")
     parser.add_argument(
         "--llm-base-url",
         type=str,
         default=os.getenv("LLM_BASE_URL"),
-        help="Base URL for LLM API"
+        help="Base URL for LLM API",
     )
     parser.add_argument(
         "--openai-api-key",
         type=str,
         default=os.getenv("OPENAI_API_KEY"),
-        help="OpenAI API key (default: from env var)"
+        help="OpenAI API key (default: from env var)",
     )
     parser.add_argument(
         "--anthropic-api-key",
         type=str,
         default=os.getenv("ANTHROPIC_API_KEY"),
-        help="Anthropic API key (default: from env var)"
+        help="Anthropic API key (default: from env var)",
     )
     parser.add_argument(
         "--llm-name",
         type=str,
         default="openai/glm-4.7",
-        help="LLM model name (default: openai/glm-4.7)"
+        help="LLM model name (default: openai/glm-4.7)",
     )
     parser.add_argument(
         "--dataset",
         type=str,
         default="./datasets/passbench_demo_dataset.jsonl",
-        help="Path to dataset JSONL file"
+        help="Path to dataset JSONL file",
     )
     parser.add_argument(
-        "--config",
-        type=str,
-        default="./configs",
-        help="Path to config directory"
+        "--config", type=str, default="./configs", help="Path to config directory"
     )
     parser.add_argument(
         "--traj-dir",
         type=str,
         default="./trajectories/pass_agent",
-        help="Directory to save trajectories"
+        help="Directory to save trajectories",
     )
     parser.add_argument(
         "--exp-name",
         type=str,
         default="pass_agent_full_trajectory",
-        help="Experiment name"
+        help="Experiment name",
     )
     parser.add_argument(
-        "--max-steps",
-        type=int,
-        default=100,
-        help="Maximum steps per task"
+        "--max-steps", type=int, default=100, help="Maximum steps per task"
     )
     parser.add_argument(
-        "--temperature",
-        type=float,
-        default=1.0,
-        help="Sampling temperature"
+        "--temperature", type=float, default=1.0, help="Sampling temperature"
     )
     parser.add_argument(
-        "--max-workers",
-        type=int,
-        default=1,
-        help="Number of parallel workers"
+        "--max-workers", type=int, default=1, help="Number of parallel workers"
     )
     parser.add_argument(
-        "--start-idx",
-        type=int,
-        default=0,
-        help="Starting index in dataset"
+        "--start-idx", type=int, default=0, help="Starting index in dataset"
     )
     parser.add_argument(
-        "--k",
-        type=int,
-        default=None,
-        help="Number of tasks to run (None = all)"
+        "--k", type=int, default=None, help="Number of tasks to run (None = all)"
     )
     return parser.parse_args()
+
 
 # Parse args early so we can set env vars before imports
 args = parse_args()
@@ -116,6 +98,7 @@ from runtime.passnet_docker import PassNetDocker
 
 # Monkey-patch: Replace DockerRuntime with PassNetDocker BEFORE importing r2e-gym
 import r2egym.agenthub.runtime.docker as docker_module
+
 docker_module.DockerRuntime = PassNetDocker
 
 # Import PassAgent
@@ -128,6 +111,7 @@ from pathlib import Path
 
 original_runagent = edit_module.runagent
 
+
 def patched_runagent(ds, scaffold="r2egym", **kwargs):
     """Patched runagent that accepts custom config paths"""
     # Check if scaffold is a custom path (contains "/" or is absolute)
@@ -139,12 +123,12 @@ def patched_runagent(ds, scaffold="r2egym", **kwargs):
         from r2egym.logging import setup_logging, INFO
         from datetime import datetime
 
-        exp_name = kwargs.get('exp_name')
-        llm_name = kwargs.get('llm_name', 'gpt-4o')
-        max_steps = kwargs.get('max_steps', 40)
-        use_fn_calling = kwargs.get('use_fn_calling', True)
-        backend = kwargs.get('backend', 'docker')
-        max_reward_calc_time = kwargs.get('max_reward_calc_time', 300)
+        exp_name = kwargs.get("exp_name")
+        llm_name = kwargs.get("llm_name", "gpt-4o")
+        max_steps = kwargs.get("max_steps", 40)
+        use_fn_calling = kwargs.get("use_fn_calling", True)
+        backend = kwargs.get("backend", "docker")
+        max_reward_calc_time = kwargs.get("max_reward_calc_time", 300)
 
         logger = setup_logging(
             name=ds["docker_image"].replace("/", "_"),
@@ -161,7 +145,11 @@ def patched_runagent(ds, scaffold="r2egym", **kwargs):
         env = RepoEnv(env_args, logger=logger, backend=backend)
 
         # Load our custom config
-        config_file = Path(scaffold) / "edit_fn_calling.yaml" if use_fn_calling else Path(scaffold) / "edit_non_fn_calling.yaml"
+        config_file = (
+            Path(scaffold) / "edit_fn_calling.yaml"
+            if use_fn_calling
+            else Path(scaffold) / "edit_non_fn_calling.yaml"
+        )
         agent_args = AgentArgs.from_yaml(config_file)
         agent_args.llm_name = llm_name
 
@@ -171,32 +159,37 @@ def patched_runagent(ds, scaffold="r2egym", **kwargs):
         # Run agent
         try:
             from r2egym.agenthub.run.edit import run_agent_with_restarts
+
             trajectory = run_agent_with_restarts(
-                agent, env,
+                agent,
+                env,
                 max_steps=max_steps,
-                num_restarts=kwargs.get('num_restarts', 1),
-                temperature=kwargs.get('temperature', 0),
-                max_steps_absolute=kwargs.get('max_steps_absolute', 50),
+                num_restarts=kwargs.get("num_restarts", 1),
+                temperature=kwargs.get("temperature", 0),
+                max_steps_absolute=kwargs.get("max_steps_absolute", 50),
                 use_fn_calling=use_fn_calling,
-                max_iterations=kwargs.get('max_iterations', 1),
+                max_iterations=kwargs.get("max_iterations", 1),
                 scaffold="r2egym",  # Use r2egym scaffold, PassNet tools detected via command_files
-                max_tokens=kwargs.get('max_tokens', 65536),
+                max_tokens=kwargs.get("max_tokens", 65536),
             )
             logger.info(f"Trajectory type: {type(trajectory)}")
 
             # Get history from agent instance (stored as final_history)
-            history = getattr(agent, 'final_history', None)
+            history = getattr(agent, "final_history", None)
             logger.info(f"History retrieved: {history is not None}")
         except Exception as e:
             logger.error(f"Error during agent run: {e}")
             import traceback
+
             logger.error(traceback.format_exc())
             env.close()
             return None
 
         # Calculate reward
         reward_calc_time = time.time()
-        reward, test_output = env.runtime._calculate_reward(get_test_output=True, timeout=max_reward_calc_time)
+        reward, test_output = env.runtime._calculate_reward(
+            get_test_output=True, timeout=max_reward_calc_time
+        )
         reward_calc_time = time.time() - reward_calc_time
 
         env.close()
@@ -212,6 +205,7 @@ def patched_runagent(ds, scaffold="r2egym", **kwargs):
     else:
         # Use original for standard scaffolds
         return original_runagent(ds=ds, scaffold=scaffold, **kwargs)
+
 
 edit_module.runagent = patched_runagent
 
@@ -254,16 +248,18 @@ def run_multiple_pass_agent(
     """
     # Load dataset from JSONL
     print(f"Loading dataset from {dataset_path}...")
-    with open(dataset_path, 'r') as f:
+    with open(dataset_path, "r") as f:
         dataset = [json.loads(line) for line in f]
 
     # Select subset
     if k is None:
         k = len(dataset)
-    ds_selected = dataset[start_idx:start_idx + k]
+    ds_selected = dataset[start_idx : start_idx + k]
 
     print(f"Loaded {len(dataset)} total tasks")
-    print(f"Running on {len(ds_selected)} tasks (index {start_idx} to {start_idx + len(ds_selected) - 1})")
+    print(
+        f"Running on {len(ds_selected)} tasks (index {start_idx} to {start_idx + len(ds_selected) - 1})"
+    )
     print(f"Max workers: {max_workers}")
     print("-" * 80)
 
@@ -283,7 +279,9 @@ def run_multiple_pass_agent(
 
     def run_single_task(ds_entry, idx):
         """Run agent on a single task"""
-        print(f"\n[Task {idx+1}/{len(ds_selected)}] Starting: {ds_entry.get('sample_dir', ds_entry.get('instance_id', 'unknown'))}")
+        print(
+            f"\n[Task {idx+1}/{len(ds_selected)}] Starting: {ds_entry.get('sample_dir', ds_entry.get('instance_id', 'unknown'))}"
+        )
 
         try:
             result = runagent(
@@ -311,18 +309,21 @@ def run_multiple_pass_agent(
                     history = None
 
                 # Write trajectory to JSONL file immediately
-                with open(jsonl_file, 'a') as f:
-                    f.write(trajectory_json + '\n')
+                with open(jsonl_file, "a") as f:
+                    f.write(trajectory_json + "\n")
 
                 # Write history (completions) to separate JSONL file
                 if history:
                     import json
+
                     history_entry = {
-                        "sample_dir": ds_entry.get('sample_dir', ds_entry.get('instance_id', 'unknown')),
+                        "sample_dir": ds_entry.get(
+                            "sample_dir", ds_entry.get("instance_id", "unknown")
+                        ),
                         "messages": history,
                     }
-                    with open(completions_file, 'a') as f:
-                        f.write(json.dumps(history_entry, ensure_ascii=False) + '\n')
+                    with open(completions_file, "a") as f:
+                        f.write(json.dumps(history_entry, ensure_ascii=False) + "\n")
 
                 print(f"[Task {idx+1}/{len(ds_selected)}] Completed successfully")
                 return trajectory_json
@@ -333,6 +334,7 @@ def run_multiple_pass_agent(
         except Exception as e:
             print(f"[Task {idx+1}/{len(ds_selected)}] Error: {e}")
             import traceback
+
             traceback.print_exc()
             return None
 
@@ -355,7 +357,9 @@ def run_multiple_pass_agent(
                 results.append(result)
 
     print("\n" + "=" * 80)
-    print(f"Completed {len([r for r in results if r])} / {len(ds_selected)} tasks successfully")
+    print(
+        f"Completed {len([r for r in results if r])} / {len(ds_selected)} tasks successfully"
+    )
     print(f"Trajectories saved to: {jsonl_file}")
     print(f"Completions saved to: {completions_file}")
     print("=" * 80)

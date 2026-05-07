@@ -226,7 +226,11 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1,
         )
-        l_pixel_values_ = l_self_modules_swinv2_modules_embeddings_modules_patch_embeddings_modules_projection_parameters_weight_ = l_self_modules_swinv2_modules_embeddings_modules_patch_embeddings_modules_projection_parameters_bias_ = (None)
+        l_pixel_values_ = (
+            l_self_modules_swinv2_modules_embeddings_modules_patch_embeddings_modules_projection_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_embeddings_modules_patch_embeddings_modules_projection_parameters_bias_
+        ) = None
         flatten = embeddings.flatten(2)
         embeddings = None
         embeddings_1 = flatten.transpose(1, 2)
@@ -240,9 +244,9 @@ class GraphModule(torch.nn.Module):
         )
         embeddings_1 = (
             l_self_modules_swinv2_modules_embeddings_modules_norm_parameters_weight_
-        ) = (
-            l_self_modules_swinv2_modules_embeddings_modules_norm_parameters_bias_
-        ) = None
+        ) = l_self_modules_swinv2_modules_embeddings_modules_norm_parameters_bias_ = (
+            None
+        )
         embeddings_3 = torch.nn.functional.dropout(embeddings_2, 0.0, False, False)
         embeddings_2 = None
         hidden_states = embeddings_3.view(1, 16, 16, 16)
@@ -265,7 +269,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_weight_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_bias_
+        ) = None
         view_4 = linear.view(64, -1, 2, 8)
         linear = None
         query_layer = view_4.transpose(1, 2)
@@ -287,7 +293,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_bias_,
         )
-        hidden_states_windows = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_bias_ = (None)
+        hidden_states_windows = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_bias_
+        ) = None
         view_6 = linear_2.view(64, -1, 2, 8)
         linear_2 = None
         value_layer = view_6.transpose(1, 2)
@@ -316,7 +326,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_buffers_relative_coords_table_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_buffers_relative_coords_table_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_
+        ) = None
         input_2 = torch.nn.functional.relu(input_1, inplace=True)
         input_1 = None
         input_3 = torch._C._nn.linear(
@@ -324,7 +338,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_,
             None,
         )
-        input_2 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_ = (None)
+        input_2 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_
+        ) = None
         relative_position_bias_table = input_3.view(-1, 2)
         input_3 = None
         view_8 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_self_buffers_relative_position_index_.view(
@@ -368,7 +384,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_2 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_2 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         hidden_states_3 = torch.nn.functional.dropout(
             hidden_states_2, 0.0, False, False
         )
@@ -392,7 +412,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_layernorm_before_parameters_bias_,
             1e-05,
         )
-        attention_windows_1 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_layernorm_before_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_layernorm_before_parameters_bias_ = (None)
+        attention_windows_1 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_layernorm_before_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_layernorm_before_parameters_bias_
+        ) = None
         hidden_states_5 = embeddings_3 + hidden_states_4
         embeddings_3 = hidden_states_4 = None
         hidden_states_6 = torch._C._nn.linear(
@@ -400,7 +424,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_weight_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_7 = torch._C._nn.gelu(hidden_states_6)
         hidden_states_6 = None
         hidden_states_8 = torch._C._nn.linear(
@@ -408,7 +434,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_output_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_7 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_output_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_7 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_output_modules_dense_parameters_bias_
+        ) = None
         hidden_states_9 = torch.nn.functional.dropout(
             hidden_states_8, 0.0, False, False
         )
@@ -420,7 +450,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_layernorm_after_parameters_bias_,
             1e-05,
         )
-        hidden_states_9 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_layernorm_after_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_layernorm_after_parameters_bias_ = (None)
+        hidden_states_9 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_layernorm_after_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_blocks_modules_0_modules_layernorm_after_parameters_bias_
+        ) = None
         layer_output = hidden_states_5 + layer_norm_2
         hidden_states_5 = layer_norm_2 = None
         input_feature_1 = layer_output.view(1, 16, 16, 16)
@@ -469,7 +503,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_downsample_modules_reduction_parameters_weight_,
             None,
         )
-        input_feature_6 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_downsample_modules_reduction_parameters_weight_ = (None)
+        input_feature_6 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_downsample_modules_reduction_parameters_weight_
+        ) = None
         input_feature_8 = torch.nn.functional.layer_norm(
             input_feature_7,
             (32,),
@@ -477,7 +513,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_downsample_modules_norm_parameters_bias_,
             1e-05,
         )
-        input_feature_7 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_downsample_modules_norm_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_downsample_modules_norm_parameters_bias_ = (None)
+        input_feature_7 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_downsample_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_0_modules_downsample_modules_norm_parameters_bias_
+        ) = None
         hidden_states_10 = input_feature_8.view(1, 8, 8, 32)
         hidden_states_11 = torch._C._nn.pad(
             hidden_states_10, (0, 0, 0, 0, 0, 0), "constant", None
@@ -498,7 +538,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_weight_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_bias_
+        ) = None
         view_21 = linear_9.view(16, -1, 2, 16)
         linear_9 = None
         query_layer_1 = view_21.transpose(1, 2)
@@ -520,7 +562,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_bias_,
         )
-        hidden_states_windows_1 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_bias_ = (None)
+        hidden_states_windows_1 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_bias_
+        ) = None
         view_23 = linear_11.view(16, -1, 2, 16)
         linear_11 = None
         value_layer_1 = view_23.transpose(1, 2)
@@ -549,7 +595,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_buffers_relative_coords_table_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_buffers_relative_coords_table_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_
+        ) = None
         input_5 = torch.nn.functional.relu(input_4, inplace=True)
         input_4 = None
         input_6 = torch._C._nn.linear(
@@ -557,7 +607,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_,
             None,
         )
-        input_5 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_ = (None)
+        input_5 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_
+        ) = None
         relative_position_bias_table_1 = input_6.view(-1, 2)
         input_6 = None
         view_25 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_self_buffers_relative_position_index_.view(
@@ -601,7 +653,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_5 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_5 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         hidden_states_13 = torch.nn.functional.dropout(
             hidden_states_12, 0.0, False, False
         )
@@ -625,7 +681,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_layernorm_before_parameters_bias_,
             1e-05,
         )
-        attention_windows_3 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_layernorm_before_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_layernorm_before_parameters_bias_ = (None)
+        attention_windows_3 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_layernorm_before_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_layernorm_before_parameters_bias_
+        ) = None
         hidden_states_15 = input_feature_8 + hidden_states_14
         input_feature_8 = hidden_states_14 = None
         hidden_states_16 = torch._C._nn.linear(
@@ -633,7 +693,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_weight_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_17 = torch._C._nn.gelu(hidden_states_16)
         hidden_states_16 = None
         hidden_states_18 = torch._C._nn.linear(
@@ -641,7 +703,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_output_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_17 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_output_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_17 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_output_modules_dense_parameters_bias_
+        ) = None
         hidden_states_19 = torch.nn.functional.dropout(
             hidden_states_18, 0.0, False, False
         )
@@ -653,7 +719,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_layernorm_after_parameters_bias_,
             1e-05,
         )
-        hidden_states_19 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_layernorm_after_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_layernorm_after_parameters_bias_ = (None)
+        hidden_states_19 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_layernorm_after_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_0_modules_layernorm_after_parameters_bias_
+        ) = None
         layer_output_1 = hidden_states_15 + layer_norm_5
         hidden_states_15 = layer_norm_5 = None
         hidden_states_20 = layer_output_1.view(1, 8, 8, 32)
@@ -795,7 +865,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_query_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_query_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_query_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_query_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_query_parameters_weight_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_query_parameters_bias_
+        ) = None
         view_39 = linear_17.view(16, -1, 2, 16)
         linear_17 = None
         query_layer_2 = view_39.transpose(1, 2)
@@ -817,7 +889,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_value_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_value_parameters_bias_,
         )
-        hidden_states_windows_2 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_value_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_value_parameters_bias_ = (None)
+        hidden_states_windows_2 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_value_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_value_parameters_bias_
+        ) = None
         view_41 = linear_19.view(16, -1, 2, 16)
         linear_19 = None
         value_layer_2 = view_41.transpose(1, 2)
@@ -846,7 +922,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_buffers_relative_coords_table_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_buffers_relative_coords_table_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_
+        ) = None
         input_8 = torch.nn.functional.relu(input_7, inplace=True)
         input_7 = None
         input_9 = torch._C._nn.linear(
@@ -854,7 +934,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_,
             None,
         )
-        input_8 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_ = (None)
+        input_8 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_
+        ) = None
         relative_position_bias_table_2 = input_9.view(-1, 2)
         input_9 = None
         view_43 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_self_buffers_relative_position_index_.view(
@@ -913,7 +995,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_8 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_8 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         hidden_states_23 = torch.nn.functional.dropout(
             hidden_states_22, 0.0, False, False
         )
@@ -939,7 +1025,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_layernorm_before_parameters_bias_,
             1e-05,
         )
-        attention_windows_6 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_layernorm_before_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_layernorm_before_parameters_bias_ = (None)
+        attention_windows_6 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_layernorm_before_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_layernorm_before_parameters_bias_
+        ) = None
         hidden_states_25 = layer_output_1 + hidden_states_24
         layer_output_1 = hidden_states_24 = None
         hidden_states_26 = torch._C._nn.linear(
@@ -947,7 +1037,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_intermediate_modules_dense_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_intermediate_modules_dense_parameters_weight_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_27 = torch._C._nn.gelu(hidden_states_26)
         hidden_states_26 = None
         hidden_states_28 = torch._C._nn.linear(
@@ -955,7 +1047,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_output_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_27 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_output_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_27 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_output_modules_dense_parameters_bias_
+        ) = None
         hidden_states_29 = torch.nn.functional.dropout(
             hidden_states_28, 0.0, False, False
         )
@@ -967,7 +1063,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_layernorm_after_parameters_bias_,
             1e-05,
         )
-        hidden_states_29 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_layernorm_after_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_layernorm_after_parameters_bias_ = (None)
+        hidden_states_29 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_layernorm_after_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_blocks_modules_1_modules_layernorm_after_parameters_bias_
+        ) = None
         layer_output_2 = hidden_states_25 + layer_norm_7
         hidden_states_25 = layer_norm_7 = None
         input_feature_12 = layer_output_2.view(1, 8, 8, 32)
@@ -1016,7 +1116,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_downsample_modules_reduction_parameters_weight_,
             None,
         )
-        input_feature_18 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_downsample_modules_reduction_parameters_weight_ = (None)
+        input_feature_18 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_downsample_modules_reduction_parameters_weight_
+        ) = None
         input_feature_20 = torch.nn.functional.layer_norm(
             input_feature_19,
             (64,),
@@ -1024,7 +1126,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_downsample_modules_norm_parameters_bias_,
             1e-05,
         )
-        input_feature_19 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_downsample_modules_norm_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_downsample_modules_norm_parameters_bias_ = (None)
+        input_feature_19 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_downsample_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_1_modules_downsample_modules_norm_parameters_bias_
+        ) = None
         hidden_states_30 = input_feature_20.view(1, 4, 4, 64)
         hidden_states_31 = torch._C._nn.pad(
             hidden_states_30, (0, 0, 0, 0, 0, 0), "constant", None
@@ -1045,7 +1151,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_weight_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_query_parameters_bias_
+        ) = None
         view_58 = linear_26.view(4, -1, 4, 16)
         linear_26 = None
         query_layer_3 = view_58.transpose(1, 2)
@@ -1067,7 +1175,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_bias_,
         )
-        hidden_states_windows_3 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_bias_ = (None)
+        hidden_states_windows_3 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_value_parameters_bias_
+        ) = None
         view_60 = linear_28.view(4, -1, 4, 16)
         linear_28 = None
         value_layer_3 = view_60.transpose(1, 2)
@@ -1096,7 +1208,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_buffers_relative_coords_table_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_buffers_relative_coords_table_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_0_parameters_bias_
+        ) = None
         input_11 = torch.nn.functional.relu(input_10, inplace=True)
         input_10 = None
         input_12 = torch._C._nn.linear(
@@ -1104,7 +1220,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_,
             None,
         )
-        input_11 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_ = (None)
+        input_11 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_modules_continuous_position_bias_mlp_modules_2_parameters_weight_
+        ) = None
         relative_position_bias_table_3 = input_12.view(-1, 4)
         input_12 = None
         view_62 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_self_buffers_relative_position_index_.view(
@@ -1148,7 +1266,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_11 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_11 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         hidden_states_33 = torch.nn.functional.dropout(
             hidden_states_32, 0.0, False, False
         )
@@ -1172,7 +1294,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_layernorm_before_parameters_bias_,
             1e-05,
         )
-        attention_windows_8 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_layernorm_before_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_layernorm_before_parameters_bias_ = (None)
+        attention_windows_8 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_layernorm_before_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_layernorm_before_parameters_bias_
+        ) = None
         hidden_states_35 = input_feature_20 + hidden_states_34
         input_feature_20 = hidden_states_34 = None
         hidden_states_36 = torch._C._nn.linear(
@@ -1180,7 +1306,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_bias_,
         )
-        l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_weight_ = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_37 = torch._C._nn.gelu(hidden_states_36)
         hidden_states_36 = None
         hidden_states_38 = torch._C._nn.linear(
@@ -1188,7 +1316,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_output_modules_dense_parameters_weight_,
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_37 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_output_modules_dense_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_37 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_output_modules_dense_parameters_bias_
+        ) = None
         hidden_states_39 = torch.nn.functional.dropout(
             hidden_states_38, 0.0, False, False
         )
@@ -1200,7 +1332,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_layernorm_after_parameters_bias_,
             1e-05,
         )
-        hidden_states_39 = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_layernorm_after_parameters_weight_ = l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_layernorm_after_parameters_bias_ = (None)
+        hidden_states_39 = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_layernorm_after_parameters_weight_
+        ) = (
+            l_self_modules_swinv2_modules_encoder_modules_layers_modules_2_modules_blocks_modules_0_modules_layernorm_after_parameters_bias_
+        ) = None
         layer_output_3 = hidden_states_35 + layer_norm_10
         hidden_states_35 = layer_norm_10 = None
         sequence_output = torch.nn.functional.layer_norm(
@@ -1210,9 +1346,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_swinv2_modules_layernorm_parameters_bias_,
             1e-05,
         )
-        layer_output_3 = (
-            l_self_modules_swinv2_modules_layernorm_parameters_weight_
-        ) = l_self_modules_swinv2_modules_layernorm_parameters_bias_ = None
+        layer_output_3 = l_self_modules_swinv2_modules_layernorm_parameters_weight_ = (
+            l_self_modules_swinv2_modules_layernorm_parameters_bias_
+        ) = None
         transpose_17 = sequence_output.transpose(1, 2)
         sequence_output = None
         pooled_output = torch.adaptive_avg_pool1d(transpose_17, 1)
@@ -1224,7 +1360,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_classifier_parameters_weight_,
             l_self_modules_classifier_parameters_bias_,
         )
-        pooled_output_1 = (
-            l_self_modules_classifier_parameters_weight_
-        ) = l_self_modules_classifier_parameters_bias_ = None
+        pooled_output_1 = l_self_modules_classifier_parameters_weight_ = (
+            l_self_modules_classifier_parameters_bias_
+        ) = None
         return (logits,)

@@ -63,7 +63,7 @@ import sys
 import io
 
 # sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
-if hasattr(sys.stdout, 'buffer'):
+if hasattr(sys.stdout, "buffer"):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 else:
     # Fallback
@@ -606,7 +606,9 @@ class StrReplaceEditor:
         if expand_tabs:
             file_content = file_content.expandtabs()
 
-        lines = [self._filter_context_heavy_line(line) for line in file_content.split("\n")]
+        lines = [
+            self._filter_context_heavy_line(line) for line in file_content.split("\n")
+        ]
         numbered = "\n".join(
             f"{i + init_line:6}\t{line}" for i, line in enumerate(lines)
         )

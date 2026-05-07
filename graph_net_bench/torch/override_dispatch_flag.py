@@ -2,6 +2,7 @@ from contextlib import contextmanager
 
 g_override_dispatch = True
 
+
 def set_global_override_dispatch(enabled: bool):
     global g_override_dispatch
     g_override_dispatch = enabled

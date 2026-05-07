@@ -29,7 +29,7 @@ class PassAgent(R2EGymAgent):
         # Hardcode use_fn_calling to True
         self.use_fn_calling = True
         self.max_score = -1.0
-    
+
     def extract_speedup(self, observation: str) -> float:
         """Return the speedup value embedded in an observation string.
 
@@ -38,9 +38,9 @@ class PassAgent(R2EGymAgent):
         if not observation:
             return 0.0
         patterns = [
-            r'rectified_speedup\s*=\s*([\d.e+\-]+)',
+            r"rectified_speedup\s*=\s*([\d.e+\-]+)",
             r'"score"\s*:\s*([\d.e+\-]+)',
-            r'Speedup[:\s]+([\d.e+\-]+)',
+            r"Speedup[:\s]+([\d.e+\-]+)",
         ]
         for pat in patterns:
             m = re.search(pat, observation)
@@ -57,7 +57,9 @@ class PassAgent(R2EGymAgent):
         file_list_raw, _ = env.runtime.run(
             "ls pass_dir/*.py pass_dir/*.json 2>/dev/null || echo ''", timeout=10
         )
-        file_paths = [line.strip() for line in file_list_raw.strip().split("\n") if line.strip()]
+        file_paths = [
+            line.strip() for line in file_list_raw.strip().split("\n") if line.strip()
+        ]
         for file_path in file_paths:
             file_content, _ = env.runtime.run(f"cat {file_path}", timeout=10)
             snapshot.append((file_path, file_content))
@@ -106,7 +108,9 @@ class PassAgent(R2EGymAgent):
         # Hardcode use_fn_calling
         self.use_fn_calling = True
         self.llm_timeout = max_llm_time
-        self.logger.warning(f"Using fn calling: {self.use_fn_calling} (PassAgent hardcoded)")
+        self.logger.warning(
+            f"Using fn calling: {self.use_fn_calling} (PassAgent hardcoded)"
+        )
 
         # Log the environment and agent
         self.logger.info(f"Running agent {self.name} in environment {env}.")
@@ -126,7 +130,7 @@ class PassAgent(R2EGymAgent):
         user_prompt = self.instance_prompt_template.format(
             problem_statement=problem_statement,
             gt_patch=gt_patch,
-            working_dir='/testbed',
+            working_dir="/testbed",
             test_patch_hint=metadata.get("test_patch_hint", ""),
             candidate_patch=metadata.get("candidate_patch", ""),
             candidate_patch_correctness=(
@@ -216,12 +220,14 @@ class PassAgent(R2EGymAgent):
             try:
                 function_name = response.choices[0].message.tool_calls[0].function.name
                 function_id = response.choices[0].message.tool_calls[0].id
-                self.history.append({
-                    "role": "tool",
-                    "content": str(obs),
-                    "name": function_name,
-                    "tool_call_id": function_id,
-                })
+                self.history.append(
+                    {
+                        "role": "tool",
+                        "content": str(obs),
+                        "name": function_name,
+                        "tool_call_id": function_id,
+                    }
+                )
             except Exception as e:
                 self.logger.error(f"Error logging tool response: {e}")
                 self.history.append({"role": "user", "content": str(obs)})
@@ -275,12 +281,14 @@ class PassAgent(R2EGymAgent):
         try:
             if best_pass_snapshot:
                 for file_path, file_content in best_pass_snapshot:
-                    output_patch += "-"*20 + f" {file_path} " + "-"*20
+                    output_patch += "-" * 20 + f" {file_path} " + "-" * 20
                     output_patch += f"\n{file_content}\n\n"
-                output_patch += "-"*20 + f" pass_dir/score.txt " + "-"*20
+                output_patch += "-" * 20 + f" pass_dir/score.txt " + "-" * 20
                 output_patch += f"\n{self.max_score}\n\n"
         except Exception as output_patch_error:
-            self.logger.error(f"Failed to serialize output patch from snapshot: {output_patch_error}")
+            self.logger.error(
+                f"Failed to serialize output patch from snapshot: {output_patch_error}"
+            )
 
         # Create Trajectory object
         trajectory = Trajectory(
@@ -301,8 +309,12 @@ class PassAgent(R2EGymAgent):
             output_patch=output_patch,
         )
 
-        self.logger.info(f"Returning trajectory with exit_reason: {trajectory.exit_reason}")
-        self.logger.info(f"Return type: Trajectory object (open-source r2e-gym expects single return)")
+        self.logger.info(
+            f"Returning trajectory with exit_reason: {trajectory.exit_reason}"
+        )
+        self.logger.info(
+            f"Return type: Trajectory object (open-source r2e-gym expects single return)"
+        )
 
         # Store history as instance variable so it can be accessed later
         self.final_history = self.history
@@ -310,7 +322,9 @@ class PassAgent(R2EGymAgent):
         # Open-source r2e-gym expects agent.run() to return just Trajectory, not tuple
         return trajectory
 
-    def model_query(self, messages: List[Dict[str, str]], temperature: float = 0) -> Dict[str, Any]:
+    def model_query(
+        self, messages: List[Dict[str, str]], temperature: float = 0
+    ) -> Dict[str, Any]:
         """
         Model query with PassNet tools (always uses function calling).
         """

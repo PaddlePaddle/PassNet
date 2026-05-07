@@ -67,7 +67,7 @@ class PassNetDocker(DockerRuntime):
         # Add GPU support
         if "device_requests" not in docker_kwargs and backend == "docker":
             docker_kwargs["device_requests"] = [
-                docker.types.DeviceRequest(count=-1, capabilities=[['gpu']])
+                docker.types.DeviceRequest(count=-1, capabilities=[["gpu"]])
             ]
 
         # Add privileged mode (required for proper GPU operation)
@@ -87,7 +87,7 @@ class PassNetDocker(DockerRuntime):
                 "new_commit_hash": "0000000000000000000000000000000000000000",  # Dummy hash
                 "commit_message": "PassNet task - no commit",  # Placeholder message
                 "commit_date": datetime.now().isoformat(),  # Current timestamp
-                "metadata": {}  # Empty metadata
+                "metadata": {},  # Empty metadata
             }
             ds["parsed_commit_content"] = json.dumps(mock_parsed_commit)
 
@@ -101,7 +101,7 @@ class PassNetDocker(DockerRuntime):
             command=command,
             logger=logger,
             backend=backend,
-            **docker_kwargs
+            **docker_kwargs,
         )
 
     def setup_env(self):
@@ -120,13 +120,17 @@ class PassNetDocker(DockerRuntime):
             output, code = self.run(f"ls -la {self.problem_path}")
             if code != "0":
                 self.logger.error(f"Problem directory not found: {self.problem_path}")
-                raise RuntimeError(f"Problem directory does not exist: {self.problem_path}")
+                raise RuntimeError(
+                    f"Problem directory does not exist: {self.problem_path}"
+                )
             else:
                 self.logger.info(f"✅ Problem directory verified: {self.problem_path}")
 
             # Verify entry.sh exists
             entry_sh = f"{self.problem_path}/entry.sh"
-            output, code = self.run(f"test -f {entry_sh} && echo 'exists' || echo 'not found'")
+            output, code = self.run(
+                f"test -f {entry_sh} && echo 'exists' || echo 'not found'"
+            )
             if "exists" in output:
                 self.logger.info(f"✅ entry.sh verified: {entry_sh}")
             else:
@@ -134,7 +138,9 @@ class PassNetDocker(DockerRuntime):
 
             # Verify pass_dir exists
             pass_dir = f"{self.problem_path}/pass_dir"
-            output, code = self.run(f"test -d {pass_dir} && echo 'exists' || echo 'not found'")
+            output, code = self.run(
+                f"test -d {pass_dir} && echo 'exists' || echo 'not found'"
+            )
             if "exists" in output:
                 self.logger.info(f"✅ pass_dir verified: {pass_dir}")
 
@@ -152,10 +158,18 @@ class PassNetDocker(DockerRuntime):
         except Exception as e:
             self.logger.error(f"❌ Error setting up PassAgent environment: {e}")
             import traceback
+
             self.logger.error(traceback.format_exc())
             raise
 
-    def run(self, code, timeout: int = CMD_TIMEOUT, args: str = "", workdir=None, type: str = None) -> tuple[str, str]:
+    def run(
+        self,
+        code,
+        timeout: int = CMD_TIMEOUT,
+        args: str = "",
+        workdir=None,
+        type: str = None,
+    ) -> tuple[str, str]:
         """
         Override run() to set working directory to problem_path by default.
 
@@ -182,7 +196,9 @@ class PassNetDocker(DockerRuntime):
         graph_info = self._get_graph_info()
 
         if not graph_info:
-            self.logger.error("Failed to load target graph information - this is required!")
+            self.logger.error(
+                "Failed to load target graph information - this is required!"
+            )
             # Return error message if graph loading fails
             return "\n**ERROR:** Could not load target graph information. Please check graph_list.txt exists.\n"
 
@@ -205,7 +221,9 @@ class PassNetDocker(DockerRuntime):
             # graph_path is RELATIVE to problem_path and already includes "graphs/" prefix
             # e.g., "graphs/fusible_subgraphs/samples/timm/..."
 
-            graph_paths = [line.strip() for line in output.strip().split('\n') if line.strip()]
+            graph_paths = [
+                line.strip() for line in output.strip().split("\n") if line.strip()
+            ]
 
             graphs_data = []
             for graph_path in graph_paths:
@@ -217,15 +235,19 @@ class PassNetDocker(DockerRuntime):
                 model_output, _ = self.run(model_cmd, timeout=10)
 
                 # Try to read weight_meta.py
-                weight_cmd = f"cat {graph_full_path}/weight_meta.py 2>/dev/null || echo ''"
+                weight_cmd = (
+                    f"cat {graph_full_path}/weight_meta.py 2>/dev/null || echo ''"
+                )
                 weight_output, _ = self.run(weight_cmd, timeout=10)
 
                 if model_output.strip() or weight_output.strip():
-                    graphs_data.append({
-                        "name": graph_path,
-                        "model_code": model_output.strip(),
-                        "weight_meta": weight_output.strip()
-                    })
+                    graphs_data.append(
+                        {
+                            "name": graph_path,
+                            "model_code": model_output.strip(),
+                            "weight_meta": weight_output.strip(),
+                        }
+                    )
 
             if not graphs_data:
                 self.logger.info("No graph information found")
@@ -238,16 +260,16 @@ class PassNetDocker(DockerRuntime):
                 info += f"Location: ./{graph['name']}/\n"
                 info += f"Files available: model.py, weight_meta.py\n"
 
-                if graph['model_code']:
+                if graph["model_code"]:
                     info += f"\nFile path: ./{graph['name']}/model.py\n"
                     info += "model.py (Computation to optimize):\n```python\n"
-                    info += graph['model_code']
+                    info += graph["model_code"]
                     info += "\n```\n"
 
-                if graph['weight_meta']:
+                if graph["weight_meta"]:
                     info += f"\nFile path: ./{graph['name']}/weight_meta.py\n"
                     info += "weight_meta.py (Input shapes and types):\n```python\n"
-                    info += graph['weight_meta']
+                    info += graph["weight_meta"]
                     info += "\n```\n"
 
             self.logger.info(f"Successfully loaded {len(graphs_data)} graph(s)")
@@ -256,6 +278,7 @@ class PassNetDocker(DockerRuntime):
         except Exception as e:
             self.logger.warning(f"Could not load graph info: {e}")
             import traceback
+
             self.logger.debug(traceback.format_exc())
 
         return ""

@@ -3,7 +3,9 @@ import re
 import sys
 from scipy.stats import gmean
 from graph_net_bench.config.datatype_tolerance_config import get_precision
-from graph_net_bench.positive_tolerance_interpretation import PositiveToleranceInterpretation
+from graph_net_bench.positive_tolerance_interpretation import (
+    PositiveToleranceInterpretation,
+)
 from graph_net_bench.verify_aggregated_params import determine_tolerances
 from graph_net_bench.positive_tolerance_interpretation_manager import (
     get_positive_tolerance_interpretation,
@@ -481,9 +483,11 @@ def get_incorrect_models(
                 current_correctness = fake_perf_degrad(
                     tolerance, fail_type_at_t1[idx], positive_tolerance_interpretation
                 )
-                failed_models.add(
-                    sample.get("model_path")
-                ) if current_correctness != "correct" else None
+                (
+                    failed_models.add(sample.get("model_path"))
+                    if current_correctness != "correct"
+                    else None
+                )
             else:
                 is_correct, fail_type = check_sample_correctness(sample, tolerance)
                 failed_models.add(sample.get("model_path")) if not is_correct else None

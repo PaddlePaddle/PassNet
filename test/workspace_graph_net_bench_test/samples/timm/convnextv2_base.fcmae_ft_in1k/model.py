@@ -793,9 +793,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1,
         )
-        l_x_ = (
-            l_self_modules_stem_modules_0_parameters_weight_
-        ) = l_self_modules_stem_modules_0_parameters_bias_ = None
+        l_x_ = l_self_modules_stem_modules_0_parameters_weight_ = (
+            l_self_modules_stem_modules_0_parameters_bias_
+        ) = None
         x = input_1.permute(0, 2, 3, 1)
         input_1 = None
         x_1 = torch.nn.functional.layer_norm(
@@ -805,9 +805,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stem_modules_1_parameters_bias_,
             1e-06,
         )
-        x = (
-            l_self_modules_stem_modules_1_parameters_weight_
-        ) = l_self_modules_stem_modules_1_parameters_bias_ = None
+        x = l_self_modules_stem_modules_1_parameters_weight_ = (
+            l_self_modules_stem_modules_1_parameters_bias_
+        ) = None
         x_2 = x_1.permute(0, 3, 1, 2)
         x_1 = None
         x_3 = torch.conv2d(
@@ -819,7 +819,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             128,
         )
-        l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_conv_dw_parameters_bias_
+        ) = None
         x_4 = x_3.permute(0, 2, 3, 1)
         x_3 = None
         x_5 = torch.nn.functional.layer_norm(
@@ -829,13 +831,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_4 = l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_norm_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_norm_parameters_bias_ = (None)
+        x_4 = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_norm_parameters_bias_
+        ) = None
         x_6 = torch._C._nn.linear(
             x_5,
             l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_5 = l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_5 = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_7 = torch._C._nn.gelu(x_6)
         x_6 = None
         x_8 = torch.nn.functional.dropout(x_7, 0.0, False, False)
@@ -869,7 +879,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_9 = l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_9 = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_11 = torch.nn.functional.dropout(x_10, 0.0, False, False)
         x_10 = None
         x_12 = x_11.permute(0, 3, 1, 2)
@@ -885,7 +899,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             128,
         )
-        l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_conv_dw_parameters_bias_
+        ) = None
         x_15 = x_14.permute(0, 2, 3, 1)
         x_14 = None
         x_16 = torch.nn.functional.layer_norm(
@@ -895,13 +911,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_15 = l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_norm_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_norm_parameters_bias_ = (None)
+        x_15 = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_norm_parameters_bias_
+        ) = None
         x_17 = torch._C._nn.linear(
             x_16,
             l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_16 = l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_16 = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_18 = torch._C._nn.gelu(x_17)
         x_17 = None
         x_19 = torch.nn.functional.dropout(x_18, 0.0, False, False)
@@ -935,7 +959,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_20 = l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_20 = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_22 = torch.nn.functional.dropout(x_21, 0.0, False, False)
         x_21 = None
         x_23 = x_22.permute(0, 3, 1, 2)
@@ -951,7 +979,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             128,
         )
-        l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_conv_dw_parameters_bias_
+        ) = None
         x_26 = x_25.permute(0, 2, 3, 1)
         x_25 = None
         x_27 = torch.nn.functional.layer_norm(
@@ -961,13 +991,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_26 = l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_norm_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_norm_parameters_bias_ = (None)
+        x_26 = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_norm_parameters_bias_
+        ) = None
         x_28 = torch._C._nn.linear(
             x_27,
             l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_27 = l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_27 = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_29 = torch._C._nn.gelu(x_28)
         x_28 = None
         x_30 = torch.nn.functional.dropout(x_29, 0.0, False, False)
@@ -1001,7 +1039,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_31 = l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_31 = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_0_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_33 = torch.nn.functional.dropout(x_32, 0.0, False, False)
         x_32 = None
         x_34 = x_33.permute(0, 3, 1, 2)
@@ -1017,7 +1059,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_1_modules_downsample_modules_0_parameters_bias_,
             1e-06,
         )
-        x_36 = l_self_modules_stages_modules_1_modules_downsample_modules_0_parameters_weight_ = l_self_modules_stages_modules_1_modules_downsample_modules_0_parameters_bias_ = (None)
+        x_36 = (
+            l_self_modules_stages_modules_1_modules_downsample_modules_0_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_downsample_modules_0_parameters_bias_
+        ) = None
         x_38 = x_37.permute(0, 3, 1, 2)
         x_37 = None
         input_2 = torch.conv2d(
@@ -1029,7 +1075,11 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1,
         )
-        x_38 = l_self_modules_stages_modules_1_modules_downsample_modules_1_parameters_weight_ = l_self_modules_stages_modules_1_modules_downsample_modules_1_parameters_bias_ = (None)
+        x_38 = (
+            l_self_modules_stages_modules_1_modules_downsample_modules_1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_downsample_modules_1_parameters_bias_
+        ) = None
         x_39 = torch.conv2d(
             input_2,
             l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_conv_dw_parameters_weight_,
@@ -1039,7 +1089,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             256,
         )
-        l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_conv_dw_parameters_bias_
+        ) = None
         x_40 = x_39.permute(0, 2, 3, 1)
         x_39 = None
         x_41 = torch.nn.functional.layer_norm(
@@ -1049,13 +1101,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_40 = l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_norm_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_norm_parameters_bias_ = (None)
+        x_40 = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_norm_parameters_bias_
+        ) = None
         x_42 = torch._C._nn.linear(
             x_41,
             l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_41 = l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_41 = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_43 = torch._C._nn.gelu(x_42)
         x_42 = None
         x_44 = torch.nn.functional.dropout(x_43, 0.0, False, False)
@@ -1089,7 +1149,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_45 = l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_45 = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_47 = torch.nn.functional.dropout(x_46, 0.0, False, False)
         x_46 = None
         x_48 = x_47.permute(0, 3, 1, 2)
@@ -1105,7 +1169,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             256,
         )
-        l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_conv_dw_parameters_bias_
+        ) = None
         x_51 = x_50.permute(0, 2, 3, 1)
         x_50 = None
         x_52 = torch.nn.functional.layer_norm(
@@ -1115,13 +1181,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_51 = l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_norm_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_norm_parameters_bias_ = (None)
+        x_51 = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_norm_parameters_bias_
+        ) = None
         x_53 = torch._C._nn.linear(
             x_52,
             l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_52 = l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_52 = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_54 = torch._C._nn.gelu(x_53)
         x_53 = None
         x_55 = torch.nn.functional.dropout(x_54, 0.0, False, False)
@@ -1155,7 +1229,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_56 = l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_56 = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_58 = torch.nn.functional.dropout(x_57, 0.0, False, False)
         x_57 = None
         x_59 = x_58.permute(0, 3, 1, 2)
@@ -1171,7 +1249,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             256,
         )
-        l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_conv_dw_parameters_bias_
+        ) = None
         x_62 = x_61.permute(0, 2, 3, 1)
         x_61 = None
         x_63 = torch.nn.functional.layer_norm(
@@ -1181,13 +1261,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_62 = l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_norm_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_norm_parameters_bias_ = (None)
+        x_62 = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_norm_parameters_bias_
+        ) = None
         x_64 = torch._C._nn.linear(
             x_63,
             l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_63 = l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_63 = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_65 = torch._C._nn.gelu(x_64)
         x_64 = None
         x_66 = torch.nn.functional.dropout(x_65, 0.0, False, False)
@@ -1221,7 +1309,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_67 = l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_67 = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_1_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_69 = torch.nn.functional.dropout(x_68, 0.0, False, False)
         x_68 = None
         x_70 = x_69.permute(0, 3, 1, 2)
@@ -1237,7 +1329,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_downsample_modules_0_parameters_bias_,
             1e-06,
         )
-        x_72 = l_self_modules_stages_modules_2_modules_downsample_modules_0_parameters_weight_ = l_self_modules_stages_modules_2_modules_downsample_modules_0_parameters_bias_ = (None)
+        x_72 = (
+            l_self_modules_stages_modules_2_modules_downsample_modules_0_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_downsample_modules_0_parameters_bias_
+        ) = None
         x_74 = x_73.permute(0, 3, 1, 2)
         x_73 = None
         input_3 = torch.conv2d(
@@ -1249,7 +1345,11 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1,
         )
-        x_74 = l_self_modules_stages_modules_2_modules_downsample_modules_1_parameters_weight_ = l_self_modules_stages_modules_2_modules_downsample_modules_1_parameters_bias_ = (None)
+        x_74 = (
+            l_self_modules_stages_modules_2_modules_downsample_modules_1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_downsample_modules_1_parameters_bias_
+        ) = None
         x_75 = torch.conv2d(
             input_3,
             l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_conv_dw_parameters_weight_,
@@ -1259,7 +1359,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_conv_dw_parameters_bias_
+        ) = None
         x_76 = x_75.permute(0, 2, 3, 1)
         x_75 = None
         x_77 = torch.nn.functional.layer_norm(
@@ -1269,13 +1371,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_76 = l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_norm_parameters_bias_ = (None)
+        x_76 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_norm_parameters_bias_
+        ) = None
         x_78 = torch._C._nn.linear(
             x_77,
             l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_77 = l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_77 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_79 = torch._C._nn.gelu(x_78)
         x_78 = None
         x_80 = torch.nn.functional.dropout(x_79, 0.0, False, False)
@@ -1309,7 +1419,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_81 = l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_81 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_83 = torch.nn.functional.dropout(x_82, 0.0, False, False)
         x_82 = None
         x_84 = x_83.permute(0, 3, 1, 2)
@@ -1325,7 +1439,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_conv_dw_parameters_bias_
+        ) = None
         x_87 = x_86.permute(0, 2, 3, 1)
         x_86 = None
         x_88 = torch.nn.functional.layer_norm(
@@ -1335,13 +1451,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_87 = l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_norm_parameters_bias_ = (None)
+        x_87 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_norm_parameters_bias_
+        ) = None
         x_89 = torch._C._nn.linear(
             x_88,
             l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_88 = l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_88 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_90 = torch._C._nn.gelu(x_89)
         x_89 = None
         x_91 = torch.nn.functional.dropout(x_90, 0.0, False, False)
@@ -1375,7 +1499,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_92 = l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_92 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_94 = torch.nn.functional.dropout(x_93, 0.0, False, False)
         x_93 = None
         x_95 = x_94.permute(0, 3, 1, 2)
@@ -1391,7 +1519,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_conv_dw_parameters_bias_
+        ) = None
         x_98 = x_97.permute(0, 2, 3, 1)
         x_97 = None
         x_99 = torch.nn.functional.layer_norm(
@@ -1401,13 +1531,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_98 = l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_norm_parameters_bias_ = (None)
+        x_98 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_norm_parameters_bias_
+        ) = None
         x_100 = torch._C._nn.linear(
             x_99,
             l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_99 = l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_99 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_101 = torch._C._nn.gelu(x_100)
         x_100 = None
         x_102 = torch.nn.functional.dropout(x_101, 0.0, False, False)
@@ -1441,7 +1579,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_103 = l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_103 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_105 = torch.nn.functional.dropout(x_104, 0.0, False, False)
         x_104 = None
         x_106 = x_105.permute(0, 3, 1, 2)
@@ -1457,7 +1599,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_conv_dw_parameters_bias_
+        ) = None
         x_109 = x_108.permute(0, 2, 3, 1)
         x_108 = None
         x_110 = torch.nn.functional.layer_norm(
@@ -1467,13 +1611,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_109 = l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_norm_parameters_bias_ = (None)
+        x_109 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_norm_parameters_bias_
+        ) = None
         x_111 = torch._C._nn.linear(
             x_110,
             l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_110 = l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_110 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_112 = torch._C._nn.gelu(x_111)
         x_111 = None
         x_113 = torch.nn.functional.dropout(x_112, 0.0, False, False)
@@ -1507,7 +1659,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_114 = l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_114 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_3_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_116 = torch.nn.functional.dropout(x_115, 0.0, False, False)
         x_115 = None
         x_117 = x_116.permute(0, 3, 1, 2)
@@ -1523,7 +1679,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_conv_dw_parameters_bias_
+        ) = None
         x_120 = x_119.permute(0, 2, 3, 1)
         x_119 = None
         x_121 = torch.nn.functional.layer_norm(
@@ -1533,13 +1691,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_120 = l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_norm_parameters_bias_ = (None)
+        x_120 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_norm_parameters_bias_
+        ) = None
         x_122 = torch._C._nn.linear(
             x_121,
             l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_121 = l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_121 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_123 = torch._C._nn.gelu(x_122)
         x_122 = None
         x_124 = torch.nn.functional.dropout(x_123, 0.0, False, False)
@@ -1573,7 +1739,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_125 = l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_125 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_4_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_127 = torch.nn.functional.dropout(x_126, 0.0, False, False)
         x_126 = None
         x_128 = x_127.permute(0, 3, 1, 2)
@@ -1589,7 +1759,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_conv_dw_parameters_bias_
+        ) = None
         x_131 = x_130.permute(0, 2, 3, 1)
         x_130 = None
         x_132 = torch.nn.functional.layer_norm(
@@ -1599,13 +1771,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_131 = l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_norm_parameters_bias_ = (None)
+        x_131 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_norm_parameters_bias_
+        ) = None
         x_133 = torch._C._nn.linear(
             x_132,
             l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_132 = l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_132 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_134 = torch._C._nn.gelu(x_133)
         x_133 = None
         x_135 = torch.nn.functional.dropout(x_134, 0.0, False, False)
@@ -1639,7 +1819,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_136 = l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_136 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_5_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_138 = torch.nn.functional.dropout(x_137, 0.0, False, False)
         x_137 = None
         x_139 = x_138.permute(0, 3, 1, 2)
@@ -1655,7 +1839,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_conv_dw_parameters_bias_
+        ) = None
         x_142 = x_141.permute(0, 2, 3, 1)
         x_141 = None
         x_143 = torch.nn.functional.layer_norm(
@@ -1665,13 +1851,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_142 = l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_norm_parameters_bias_ = (None)
+        x_142 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_norm_parameters_bias_
+        ) = None
         x_144 = torch._C._nn.linear(
             x_143,
             l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_143 = l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_143 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_145 = torch._C._nn.gelu(x_144)
         x_144 = None
         x_146 = torch.nn.functional.dropout(x_145, 0.0, False, False)
@@ -1705,7 +1899,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_147 = l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_147 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_6_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_149 = torch.nn.functional.dropout(x_148, 0.0, False, False)
         x_148 = None
         x_150 = x_149.permute(0, 3, 1, 2)
@@ -1721,7 +1919,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_conv_dw_parameters_bias_
+        ) = None
         x_153 = x_152.permute(0, 2, 3, 1)
         x_152 = None
         x_154 = torch.nn.functional.layer_norm(
@@ -1731,13 +1931,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_153 = l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_norm_parameters_bias_ = (None)
+        x_153 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_norm_parameters_bias_
+        ) = None
         x_155 = torch._C._nn.linear(
             x_154,
             l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_154 = l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_154 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_156 = torch._C._nn.gelu(x_155)
         x_155 = None
         x_157 = torch.nn.functional.dropout(x_156, 0.0, False, False)
@@ -1771,7 +1979,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_158 = l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_158 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_7_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_160 = torch.nn.functional.dropout(x_159, 0.0, False, False)
         x_159 = None
         x_161 = x_160.permute(0, 3, 1, 2)
@@ -1787,7 +1999,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_conv_dw_parameters_bias_
+        ) = None
         x_164 = x_163.permute(0, 2, 3, 1)
         x_163 = None
         x_165 = torch.nn.functional.layer_norm(
@@ -1797,13 +2011,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_164 = l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_norm_parameters_bias_ = (None)
+        x_164 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_norm_parameters_bias_
+        ) = None
         x_166 = torch._C._nn.linear(
             x_165,
             l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_165 = l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_165 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_167 = torch._C._nn.gelu(x_166)
         x_166 = None
         x_168 = torch.nn.functional.dropout(x_167, 0.0, False, False)
@@ -1837,7 +2059,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_169 = l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_169 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_8_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_171 = torch.nn.functional.dropout(x_170, 0.0, False, False)
         x_170 = None
         x_172 = x_171.permute(0, 3, 1, 2)
@@ -1853,7 +2079,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_conv_dw_parameters_bias_
+        ) = None
         x_175 = x_174.permute(0, 2, 3, 1)
         x_174 = None
         x_176 = torch.nn.functional.layer_norm(
@@ -1863,13 +2091,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_175 = l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_norm_parameters_bias_ = (None)
+        x_175 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_norm_parameters_bias_
+        ) = None
         x_177 = torch._C._nn.linear(
             x_176,
             l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_176 = l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_176 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_178 = torch._C._nn.gelu(x_177)
         x_177 = None
         x_179 = torch.nn.functional.dropout(x_178, 0.0, False, False)
@@ -1903,7 +2139,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_180 = l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_180 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_9_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_182 = torch.nn.functional.dropout(x_181, 0.0, False, False)
         x_181 = None
         x_183 = x_182.permute(0, 3, 1, 2)
@@ -1919,7 +2159,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_conv_dw_parameters_bias_
+        ) = None
         x_186 = x_185.permute(0, 2, 3, 1)
         x_185 = None
         x_187 = torch.nn.functional.layer_norm(
@@ -1929,13 +2171,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_186 = l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_norm_parameters_bias_ = (None)
+        x_186 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_norm_parameters_bias_
+        ) = None
         x_188 = torch._C._nn.linear(
             x_187,
             l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_187 = l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_187 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_189 = torch._C._nn.gelu(x_188)
         x_188 = None
         x_190 = torch.nn.functional.dropout(x_189, 0.0, False, False)
@@ -1969,7 +2219,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_191 = l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_191 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_10_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_193 = torch.nn.functional.dropout(x_192, 0.0, False, False)
         x_192 = None
         x_194 = x_193.permute(0, 3, 1, 2)
@@ -1985,7 +2239,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_conv_dw_parameters_bias_
+        ) = None
         x_197 = x_196.permute(0, 2, 3, 1)
         x_196 = None
         x_198 = torch.nn.functional.layer_norm(
@@ -1995,13 +2251,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_197 = l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_norm_parameters_bias_ = (None)
+        x_197 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_norm_parameters_bias_
+        ) = None
         x_199 = torch._C._nn.linear(
             x_198,
             l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_198 = l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_198 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_200 = torch._C._nn.gelu(x_199)
         x_199 = None
         x_201 = torch.nn.functional.dropout(x_200, 0.0, False, False)
@@ -2035,7 +2299,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_202 = l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_202 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_11_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_204 = torch.nn.functional.dropout(x_203, 0.0, False, False)
         x_203 = None
         x_205 = x_204.permute(0, 3, 1, 2)
@@ -2051,7 +2319,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_conv_dw_parameters_bias_
+        ) = None
         x_208 = x_207.permute(0, 2, 3, 1)
         x_207 = None
         x_209 = torch.nn.functional.layer_norm(
@@ -2061,13 +2331,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_208 = l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_norm_parameters_bias_ = (None)
+        x_208 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_norm_parameters_bias_
+        ) = None
         x_210 = torch._C._nn.linear(
             x_209,
             l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_209 = l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_209 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_211 = torch._C._nn.gelu(x_210)
         x_210 = None
         x_212 = torch.nn.functional.dropout(x_211, 0.0, False, False)
@@ -2101,7 +2379,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_213 = l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_213 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_12_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_215 = torch.nn.functional.dropout(x_214, 0.0, False, False)
         x_214 = None
         x_216 = x_215.permute(0, 3, 1, 2)
@@ -2117,7 +2399,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_conv_dw_parameters_bias_
+        ) = None
         x_219 = x_218.permute(0, 2, 3, 1)
         x_218 = None
         x_220 = torch.nn.functional.layer_norm(
@@ -2127,13 +2411,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_219 = l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_norm_parameters_bias_ = (None)
+        x_219 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_norm_parameters_bias_
+        ) = None
         x_221 = torch._C._nn.linear(
             x_220,
             l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_220 = l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_220 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_222 = torch._C._nn.gelu(x_221)
         x_221 = None
         x_223 = torch.nn.functional.dropout(x_222, 0.0, False, False)
@@ -2167,7 +2459,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_224 = l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_224 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_13_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_226 = torch.nn.functional.dropout(x_225, 0.0, False, False)
         x_225 = None
         x_227 = x_226.permute(0, 3, 1, 2)
@@ -2183,7 +2479,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_conv_dw_parameters_bias_
+        ) = None
         x_230 = x_229.permute(0, 2, 3, 1)
         x_229 = None
         x_231 = torch.nn.functional.layer_norm(
@@ -2193,13 +2491,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_230 = l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_norm_parameters_bias_ = (None)
+        x_230 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_norm_parameters_bias_
+        ) = None
         x_232 = torch._C._nn.linear(
             x_231,
             l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_231 = l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_231 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_233 = torch._C._nn.gelu(x_232)
         x_232 = None
         x_234 = torch.nn.functional.dropout(x_233, 0.0, False, False)
@@ -2233,7 +2539,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_235 = l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_235 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_14_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_237 = torch.nn.functional.dropout(x_236, 0.0, False, False)
         x_236 = None
         x_238 = x_237.permute(0, 3, 1, 2)
@@ -2249,7 +2559,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_conv_dw_parameters_bias_
+        ) = None
         x_241 = x_240.permute(0, 2, 3, 1)
         x_240 = None
         x_242 = torch.nn.functional.layer_norm(
@@ -2259,13 +2571,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_241 = l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_norm_parameters_bias_ = (None)
+        x_241 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_norm_parameters_bias_
+        ) = None
         x_243 = torch._C._nn.linear(
             x_242,
             l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_242 = l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_242 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_244 = torch._C._nn.gelu(x_243)
         x_243 = None
         x_245 = torch.nn.functional.dropout(x_244, 0.0, False, False)
@@ -2299,7 +2619,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_246 = l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_246 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_15_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_248 = torch.nn.functional.dropout(x_247, 0.0, False, False)
         x_247 = None
         x_249 = x_248.permute(0, 3, 1, 2)
@@ -2315,7 +2639,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_conv_dw_parameters_bias_
+        ) = None
         x_252 = x_251.permute(0, 2, 3, 1)
         x_251 = None
         x_253 = torch.nn.functional.layer_norm(
@@ -2325,13 +2651,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_252 = l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_norm_parameters_bias_ = (None)
+        x_252 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_norm_parameters_bias_
+        ) = None
         x_254 = torch._C._nn.linear(
             x_253,
             l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_253 = l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_253 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_255 = torch._C._nn.gelu(x_254)
         x_254 = None
         x_256 = torch.nn.functional.dropout(x_255, 0.0, False, False)
@@ -2365,7 +2699,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_257 = l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_257 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_16_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_259 = torch.nn.functional.dropout(x_258, 0.0, False, False)
         x_258 = None
         x_260 = x_259.permute(0, 3, 1, 2)
@@ -2381,7 +2719,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_conv_dw_parameters_bias_
+        ) = None
         x_263 = x_262.permute(0, 2, 3, 1)
         x_262 = None
         x_264 = torch.nn.functional.layer_norm(
@@ -2391,13 +2731,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_263 = l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_norm_parameters_bias_ = (None)
+        x_263 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_norm_parameters_bias_
+        ) = None
         x_265 = torch._C._nn.linear(
             x_264,
             l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_264 = l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_264 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_266 = torch._C._nn.gelu(x_265)
         x_265 = None
         x_267 = torch.nn.functional.dropout(x_266, 0.0, False, False)
@@ -2431,7 +2779,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_268 = l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_268 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_17_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_270 = torch.nn.functional.dropout(x_269, 0.0, False, False)
         x_269 = None
         x_271 = x_270.permute(0, 3, 1, 2)
@@ -2447,7 +2799,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_conv_dw_parameters_bias_
+        ) = None
         x_274 = x_273.permute(0, 2, 3, 1)
         x_273 = None
         x_275 = torch.nn.functional.layer_norm(
@@ -2457,13 +2811,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_274 = l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_norm_parameters_bias_ = (None)
+        x_274 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_norm_parameters_bias_
+        ) = None
         x_276 = torch._C._nn.linear(
             x_275,
             l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_275 = l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_275 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_277 = torch._C._nn.gelu(x_276)
         x_276 = None
         x_278 = torch.nn.functional.dropout(x_277, 0.0, False, False)
@@ -2497,7 +2859,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_279 = l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_279 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_18_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_281 = torch.nn.functional.dropout(x_280, 0.0, False, False)
         x_280 = None
         x_282 = x_281.permute(0, 3, 1, 2)
@@ -2513,7 +2879,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_conv_dw_parameters_bias_
+        ) = None
         x_285 = x_284.permute(0, 2, 3, 1)
         x_284 = None
         x_286 = torch.nn.functional.layer_norm(
@@ -2523,13 +2891,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_285 = l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_norm_parameters_bias_ = (None)
+        x_285 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_norm_parameters_bias_
+        ) = None
         x_287 = torch._C._nn.linear(
             x_286,
             l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_286 = l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_286 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_288 = torch._C._nn.gelu(x_287)
         x_287 = None
         x_289 = torch.nn.functional.dropout(x_288, 0.0, False, False)
@@ -2563,7 +2939,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_290 = l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_290 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_19_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_292 = torch.nn.functional.dropout(x_291, 0.0, False, False)
         x_291 = None
         x_293 = x_292.permute(0, 3, 1, 2)
@@ -2579,7 +2959,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_conv_dw_parameters_bias_
+        ) = None
         x_296 = x_295.permute(0, 2, 3, 1)
         x_295 = None
         x_297 = torch.nn.functional.layer_norm(
@@ -2589,13 +2971,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_296 = l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_norm_parameters_bias_ = (None)
+        x_296 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_norm_parameters_bias_
+        ) = None
         x_298 = torch._C._nn.linear(
             x_297,
             l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_297 = l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_297 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_299 = torch._C._nn.gelu(x_298)
         x_298 = None
         x_300 = torch.nn.functional.dropout(x_299, 0.0, False, False)
@@ -2629,7 +3019,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_301 = l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_301 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_20_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_303 = torch.nn.functional.dropout(x_302, 0.0, False, False)
         x_302 = None
         x_304 = x_303.permute(0, 3, 1, 2)
@@ -2645,7 +3039,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_conv_dw_parameters_bias_
+        ) = None
         x_307 = x_306.permute(0, 2, 3, 1)
         x_306 = None
         x_308 = torch.nn.functional.layer_norm(
@@ -2655,13 +3051,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_307 = l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_norm_parameters_bias_ = (None)
+        x_307 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_norm_parameters_bias_
+        ) = None
         x_309 = torch._C._nn.linear(
             x_308,
             l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_308 = l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_308 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_310 = torch._C._nn.gelu(x_309)
         x_309 = None
         x_311 = torch.nn.functional.dropout(x_310, 0.0, False, False)
@@ -2695,7 +3099,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_312 = l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_312 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_21_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_314 = torch.nn.functional.dropout(x_313, 0.0, False, False)
         x_313 = None
         x_315 = x_314.permute(0, 3, 1, 2)
@@ -2711,7 +3119,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_conv_dw_parameters_bias_
+        ) = None
         x_318 = x_317.permute(0, 2, 3, 1)
         x_317 = None
         x_319 = torch.nn.functional.layer_norm(
@@ -2721,13 +3131,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_318 = l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_norm_parameters_bias_ = (None)
+        x_318 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_norm_parameters_bias_
+        ) = None
         x_320 = torch._C._nn.linear(
             x_319,
             l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_319 = l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_319 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_321 = torch._C._nn.gelu(x_320)
         x_320 = None
         x_322 = torch.nn.functional.dropout(x_321, 0.0, False, False)
@@ -2761,7 +3179,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_323 = l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_323 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_22_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_325 = torch.nn.functional.dropout(x_324, 0.0, False, False)
         x_324 = None
         x_326 = x_325.permute(0, 3, 1, 2)
@@ -2777,7 +3199,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_conv_dw_parameters_bias_
+        ) = None
         x_329 = x_328.permute(0, 2, 3, 1)
         x_328 = None
         x_330 = torch.nn.functional.layer_norm(
@@ -2787,13 +3211,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_329 = l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_norm_parameters_bias_ = (None)
+        x_329 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_norm_parameters_bias_
+        ) = None
         x_331 = torch._C._nn.linear(
             x_330,
             l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_330 = l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_330 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_332 = torch._C._nn.gelu(x_331)
         x_331 = None
         x_333 = torch.nn.functional.dropout(x_332, 0.0, False, False)
@@ -2827,7 +3259,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_334 = l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_334 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_23_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_336 = torch.nn.functional.dropout(x_335, 0.0, False, False)
         x_335 = None
         x_337 = x_336.permute(0, 3, 1, 2)
@@ -2843,7 +3279,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_conv_dw_parameters_bias_
+        ) = None
         x_340 = x_339.permute(0, 2, 3, 1)
         x_339 = None
         x_341 = torch.nn.functional.layer_norm(
@@ -2853,13 +3291,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_340 = l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_norm_parameters_bias_ = (None)
+        x_340 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_norm_parameters_bias_
+        ) = None
         x_342 = torch._C._nn.linear(
             x_341,
             l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_341 = l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_341 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_343 = torch._C._nn.gelu(x_342)
         x_342 = None
         x_344 = torch.nn.functional.dropout(x_343, 0.0, False, False)
@@ -2893,7 +3339,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_345 = l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_345 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_24_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_347 = torch.nn.functional.dropout(x_346, 0.0, False, False)
         x_346 = None
         x_348 = x_347.permute(0, 3, 1, 2)
@@ -2909,7 +3359,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_conv_dw_parameters_bias_
+        ) = None
         x_351 = x_350.permute(0, 2, 3, 1)
         x_350 = None
         x_352 = torch.nn.functional.layer_norm(
@@ -2919,13 +3371,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_351 = l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_norm_parameters_bias_ = (None)
+        x_351 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_norm_parameters_bias_
+        ) = None
         x_353 = torch._C._nn.linear(
             x_352,
             l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_352 = l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_352 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_354 = torch._C._nn.gelu(x_353)
         x_353 = None
         x_355 = torch.nn.functional.dropout(x_354, 0.0, False, False)
@@ -2959,7 +3419,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_356 = l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_356 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_25_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_358 = torch.nn.functional.dropout(x_357, 0.0, False, False)
         x_357 = None
         x_359 = x_358.permute(0, 3, 1, 2)
@@ -2975,7 +3439,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             512,
         )
-        l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_conv_dw_parameters_bias_
+        ) = None
         x_362 = x_361.permute(0, 2, 3, 1)
         x_361 = None
         x_363 = torch.nn.functional.layer_norm(
@@ -2985,13 +3451,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_362 = l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_norm_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_norm_parameters_bias_ = (None)
+        x_362 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_norm_parameters_bias_
+        ) = None
         x_364 = torch._C._nn.linear(
             x_363,
             l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_363 = l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_363 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_365 = torch._C._nn.gelu(x_364)
         x_364 = None
         x_366 = torch.nn.functional.dropout(x_365, 0.0, False, False)
@@ -3025,7 +3499,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_367 = l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_367 = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_2_modules_blocks_modules_26_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_369 = torch.nn.functional.dropout(x_368, 0.0, False, False)
         x_368 = None
         x_370 = x_369.permute(0, 3, 1, 2)
@@ -3041,7 +3519,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_3_modules_downsample_modules_0_parameters_bias_,
             1e-06,
         )
-        x_372 = l_self_modules_stages_modules_3_modules_downsample_modules_0_parameters_weight_ = l_self_modules_stages_modules_3_modules_downsample_modules_0_parameters_bias_ = (None)
+        x_372 = (
+            l_self_modules_stages_modules_3_modules_downsample_modules_0_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_downsample_modules_0_parameters_bias_
+        ) = None
         x_374 = x_373.permute(0, 3, 1, 2)
         x_373 = None
         input_4 = torch.conv2d(
@@ -3053,7 +3535,11 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1,
         )
-        x_374 = l_self_modules_stages_modules_3_modules_downsample_modules_1_parameters_weight_ = l_self_modules_stages_modules_3_modules_downsample_modules_1_parameters_bias_ = (None)
+        x_374 = (
+            l_self_modules_stages_modules_3_modules_downsample_modules_1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_downsample_modules_1_parameters_bias_
+        ) = None
         x_375 = torch.conv2d(
             input_4,
             l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_conv_dw_parameters_weight_,
@@ -3063,7 +3549,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1024,
         )
-        l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_conv_dw_parameters_bias_
+        ) = None
         x_376 = x_375.permute(0, 2, 3, 1)
         x_375 = None
         x_377 = torch.nn.functional.layer_norm(
@@ -3073,13 +3561,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_376 = l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_norm_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_norm_parameters_bias_ = (None)
+        x_376 = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_norm_parameters_bias_
+        ) = None
         x_378 = torch._C._nn.linear(
             x_377,
             l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_377 = l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_377 = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_379 = torch._C._nn.gelu(x_378)
         x_378 = None
         x_380 = torch.nn.functional.dropout(x_379, 0.0, False, False)
@@ -3113,7 +3609,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_381 = l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_381 = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_0_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_383 = torch.nn.functional.dropout(x_382, 0.0, False, False)
         x_382 = None
         x_384 = x_383.permute(0, 3, 1, 2)
@@ -3129,7 +3629,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1024,
         )
-        l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_conv_dw_parameters_bias_
+        ) = None
         x_387 = x_386.permute(0, 2, 3, 1)
         x_386 = None
         x_388 = torch.nn.functional.layer_norm(
@@ -3139,13 +3641,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_387 = l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_norm_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_norm_parameters_bias_ = (None)
+        x_387 = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_norm_parameters_bias_
+        ) = None
         x_389 = torch._C._nn.linear(
             x_388,
             l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_388 = l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_388 = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_390 = torch._C._nn.gelu(x_389)
         x_389 = None
         x_391 = torch.nn.functional.dropout(x_390, 0.0, False, False)
@@ -3179,7 +3689,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_392 = l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_392 = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_1_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_394 = torch.nn.functional.dropout(x_393, 0.0, False, False)
         x_393 = None
         x_395 = x_394.permute(0, 3, 1, 2)
@@ -3195,7 +3709,9 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1024,
         )
-        l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_conv_dw_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_conv_dw_parameters_bias_ = (None)
+        l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_conv_dw_parameters_weight_ = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_conv_dw_parameters_bias_
+        ) = None
         x_398 = x_397.permute(0, 2, 3, 1)
         x_397 = None
         x_399 = torch.nn.functional.layer_norm(
@@ -3205,13 +3721,21 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_398 = l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_norm_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_norm_parameters_bias_ = (None)
+        x_398 = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_norm_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_norm_parameters_bias_
+        ) = None
         x_400 = torch._C._nn.linear(
             x_399,
             l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_,
             l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_,
         )
-        x_399 = l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_ = (None)
+        x_399 = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc1_parameters_bias_
+        ) = None
         x_401 = torch._C._nn.gelu(x_400)
         x_400 = None
         x_402 = torch.nn.functional.dropout(x_401, 0.0, False, False)
@@ -3245,7 +3769,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_,
             l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_,
         )
-        x_403 = l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_ = l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_ = (None)
+        x_403 = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_weight_
+        ) = (
+            l_self_modules_stages_modules_3_modules_blocks_modules_2_modules_mlp_modules_fc2_parameters_bias_
+        ) = None
         x_405 = torch.nn.functional.dropout(x_404, 0.0, False, False)
         x_404 = None
         x_406 = x_405.permute(0, 3, 1, 2)
@@ -3263,9 +3791,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_head_modules_norm_parameters_bias_,
             1e-06,
         )
-        x_409 = (
-            l_self_modules_head_modules_norm_parameters_weight_
-        ) = l_self_modules_head_modules_norm_parameters_bias_ = None
+        x_409 = l_self_modules_head_modules_norm_parameters_weight_ = (
+            l_self_modules_head_modules_norm_parameters_bias_
+        ) = None
         x_411 = x_410.permute(0, 3, 1, 2)
         x_410 = None
         x_412 = x_411.flatten(1, -1)
@@ -3277,7 +3805,7 @@ class GraphModule(torch.nn.Module):
             l_self_modules_head_modules_fc_parameters_weight_,
             l_self_modules_head_modules_fc_parameters_bias_,
         )
-        x_413 = (
-            l_self_modules_head_modules_fc_parameters_weight_
-        ) = l_self_modules_head_modules_fc_parameters_bias_ = None
+        x_413 = l_self_modules_head_modules_fc_parameters_weight_ = (
+            l_self_modules_head_modules_fc_parameters_bias_
+        ) = None
         return (x_414,)
