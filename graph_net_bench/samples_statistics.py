@@ -4,11 +4,14 @@ Aggregated statistics calculation module for S(t) and ES(t) metrics.
 This module provides independent functions for calculating each aggregated parameter
 (alpha, beta, gamma, lambda, eta, pi) according to Appendix B and C of the paper.
 """
+
 from typing import Union, Optional
 
 from scipy.stats import gmean
 from collections.abc import Callable
-from graph_net_bench.positive_tolerance_interpretation import PositiveToleranceInterpretation
+from graph_net_bench.positive_tolerance_interpretation import (
+    PositiveToleranceInterpretation,
+)
 
 
 def get_errno_from_error_type(

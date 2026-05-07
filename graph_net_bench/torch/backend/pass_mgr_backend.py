@@ -16,7 +16,11 @@ from dataclasses import dataclass
 from typing import Any, List, Optional, Dict
 from enum import Enum, auto
 from graph_net_bench.torch.custom_replacement import _replace_pattern
-from graph_net_bench.torch.posion_dispatch_tensor import wrap_args, unwrap_args, unwrap_tensor
+from graph_net_bench.torch.posion_dispatch_tensor import (
+    wrap_args,
+    unwrap_args,
+    unwrap_tensor,
+)
 from graph_net_bench.torch.override_dispatch_flag import get_global_override_dispatch
 
 
@@ -36,9 +40,11 @@ class MatchFailure:
     actual: Any = None
 
     def __repr__(self):
-        return (f"MatchFailure(type={self.failure_type.name}, "
-                f"p={self.pattern_node.name}, t={self.target_node.name}, "
-                f"exp={self.expected}, act={self.actual})")
+        return (
+            f"MatchFailure(type={self.failure_type.name}, "
+            f"p={self.pattern_node.name}, t={self.target_node.name}, "
+            f"exp={self.expected}, act={self.actual})"
+        )
 
 
 class DiagnosticMatcher(SubgraphMatcher):
@@ -65,8 +71,13 @@ class DiagnosticMatcher(SubgraphMatcher):
         pn_value = torch.fx.graph_module._get_attr(pn.graph.owning_module, pn.target)
         gn_value = torch.fx.graph_module._get_attr(gn.graph.owning_module, gn.target)
         if type(pn_value) is not type(gn_value):
-            return self._record_failure(pn, gn, FailureType.ATTR_MISMATCH,
-                                        type(pn_value).__name__, type(gn_value).__name__)
+            return self._record_failure(
+                pn,
+                gn,
+                FailureType.ATTR_MISMATCH,
+                type(pn_value).__name__,
+                type(gn_value).__name__,
+            )
         if isinstance(pn_value, torch.Tensor):
             return True
         raise RuntimeError(f"Unsupported type {pn_value} when matching attributes")
@@ -86,8 +97,12 @@ class DiagnosticMatcher(SubgraphMatcher):
             if pn.op == "call_function":
                 p_name = getattr(pn.target, "__name__", str(pn.target))
                 t_name = getattr(gn.target, "__name__", str(gn.target))
-                return self._record_failure(pn, gn, FailureType.TARGET_MISMATCH, p_name, t_name)
-            return self._record_failure(pn, gn, FailureType.TARGET_MISMATCH, pn.target, gn.target)
+                return self._record_failure(
+                    pn, gn, FailureType.TARGET_MISMATCH, p_name, t_name
+                )
+            return self._record_failure(
+                pn, gn, FailureType.TARGET_MISMATCH, pn.target, gn.target
+            )
         return True
 
     def _match_nodes(self, pn, gn, match, node_name_match=""):
@@ -122,8 +137,13 @@ class DiagnosticMatcher(SubgraphMatcher):
             for user in gn.users:
                 if user not in lookup:
                     self._containment_failures.append(
-                        MatchFailure(pn, gn, FailureType.NOT_CONTAINED,
-                                     "internal node", f"leaks to {user.name}")
+                        MatchFailure(
+                            pn,
+                            gn,
+                            FailureType.NOT_CONTAINED,
+                            "internal node",
+                            f"leaks to {user.name}",
+                        )
                     )
         return False
 
@@ -163,17 +183,19 @@ class PassMgrBackend(GraphCompilerBackend):
             output_pass_rule_dir
         )
         return {
-            'input_pass_rule_dir': input_pass_rule_dir,
-            'output_pass_rule_dir': output_pass_rule_dir,
-            'output_pass_pattern_limit': output_pass_pattern_limit,
-            'output_pass_replacement_func_limit': output_pass_replacement_func_limit,
-            'sorted_input_pass_rule_names': sorted_input_pass_rule_names,
-            'sorted_output_pass_rule_names': sorted_output_pass_rule_names,
-            'pass_match_result_file_path': pass_match_result_file_path,
+            "input_pass_rule_dir": input_pass_rule_dir,
+            "output_pass_rule_dir": output_pass_rule_dir,
+            "output_pass_pattern_limit": output_pass_pattern_limit,
+            "output_pass_replacement_func_limit": output_pass_replacement_func_limit,
+            "sorted_input_pass_rule_names": sorted_input_pass_rule_names,
+            "sorted_output_pass_rule_names": sorted_output_pass_rule_names,
+            "pass_match_result_file_path": pass_match_result_file_path,
         }
 
     def _get_sorted_output_pass_rule_names(self, output_pass_rule_dir):
-        output_pass_file_path = Path(output_pass_rule_dir) / "sorted_output_pass_rule_names.json"
+        output_pass_file_path = (
+            Path(output_pass_rule_dir) / "sorted_output_pass_rule_names.json"
+        )
         if not output_pass_file_path.exists():
             return []
         with open(output_pass_file_path) as f:
@@ -181,15 +203,21 @@ class PassMgrBackend(GraphCompilerBackend):
         assert isinstance(rule_names, list)
         return rule_names
 
-    def _get_sorted_input_pass_rule_names(self, input_pass_rule_dir, output_pass_rule_dir):
-        input_pass_file_path = Path(input_pass_rule_dir) / "sorted_input_pass_rule_names.json"
+    def _get_sorted_input_pass_rule_names(
+        self, input_pass_rule_dir, output_pass_rule_dir
+    ):
+        input_pass_file_path = (
+            Path(input_pass_rule_dir) / "sorted_input_pass_rule_names.json"
+        )
         if input_pass_file_path.exists():
             with open(input_pass_file_path) as f:
                 default_input_rule_names = json.load(f)
         else:
             default_input_rule_names = []
         assert isinstance(default_input_rule_names, list)
-        customized_input_pass_file_path = Path(output_pass_rule_dir) / "sorted_input_pass_rule_names.json"
+        customized_input_pass_file_path = (
+            Path(output_pass_rule_dir) / "sorted_input_pass_rule_names.json"
+        )
         if not customized_input_pass_file_path.exists():
             return default_input_rule_names
         with open(customized_input_pass_file_path) as f:
@@ -202,8 +230,8 @@ class PassMgrBackend(GraphCompilerBackend):
 
     def torch_compile_backend(self, gm: torch.fx.GraphModule, sample_inputs: list):
         pass_result = self.pass_manager(gm)
-        if self.config['pass_match_result_file_path'] is not None: 
-            tmp_file = Path(self.config['pass_match_result_file_path'])
+        if self.config["pass_match_result_file_path"] is not None:
+            tmp_file = Path(self.config["pass_match_result_file_path"])
             tmp_file.write_text(str(pass_result.modified))
         if not pass_result.modified:
             raise RuntimeError("[PassMgrBackend] No passes modified the graph.")
@@ -220,16 +248,19 @@ class PassMgrBackend(GraphCompilerBackend):
             )
             for pass_name, pass_rule in self._get_named_pass_rules()
         ]
-        print(f"[PassMgrBackend] Loaded {len(passes)} passes: {[p.__name__ for p in passes]}", flush=True)
+        print(
+            f"[PassMgrBackend] Loaded {len(passes)} passes: {[p.__name__ for p in passes]}",
+            flush=True,
+        )
         return passes
 
     def _get_named_pass_rules(self):
         name2output_pass_rules = OrderedDict(
-            (Path(inspect.getfile(rule)).stem, rule) 
+            (Path(inspect.getfile(rule)).stem, rule)
             for rule in self._get_output_pass_rules()
         )
         name2input_pass_rules = OrderedDict(
-            (Path(inspect.getfile(rule)).stem, rule) 
+            (Path(inspect.getfile(rule)).stem, rule)
             for rule in self._get_input_pass_rules()
         )
         for name in name2input_pass_rules.keys():
@@ -237,28 +268,25 @@ class PassMgrBackend(GraphCompilerBackend):
                 continue
             name2input_pass_rules[name] = name2output_pass_rules[name]
             del name2output_pass_rules[name]
-        return [
-            *name2input_pass_rules.items(),
-            *name2output_pass_rules.items()
-        ]
+        return [*name2input_pass_rules.items(), *name2output_pass_rules.items()]
 
     def _get_input_pass_rules(self):
-        input_pass_rule_dir = self.config['input_pass_rule_dir']
-        sorted_input_pass_rule_names = self.config['sorted_input_pass_rule_names']
+        input_pass_rule_dir = self.config["input_pass_rule_dir"]
+        sorted_input_pass_rule_names = self.config["sorted_input_pass_rule_names"]
         return [
-            rule 
+            rule
             for name in sorted_input_pass_rule_names
             if (rule := self._find_rule(dir_path=input_pass_rule_dir, name=name))
             is not None
         ]
 
     def _get_output_pass_rules(self):
-        output_pass_rule_dir = self.config['output_pass_rule_dir']
-        sorted_output_pass_rule_names = self.config['sorted_output_pass_rule_names']
+        output_pass_rule_dir = self.config["output_pass_rule_dir"]
+        sorted_output_pass_rule_names = self.config["sorted_output_pass_rule_names"]
         rules = [
-            rule 
+            rule
             for name in sorted_output_pass_rule_names
-            if (rule := self._find_rule(dir_path=output_pass_rule_dir, name=name)) 
+            if (rule := self._find_rule(dir_path=output_pass_rule_dir, name=name))
             is not None
         ]
         rules = self._bound_by_replacement_func_limit(rules)
@@ -274,14 +302,14 @@ class PassMgrBackend(GraphCompilerBackend):
         ]
 
     def _get_allowed_replacement_funcs(self, rules):
-        replacement_func_limit = self.config['output_pass_replacement_func_limit']
+        replacement_func_limit = self.config["output_pass_replacement_func_limit"]
         replacement_func2none = OrderedDict([])
         unstable_rules = []
         for rule in rules:
             func = rule.replacement_func()
             if func is not rule.replacement_func():
-                rule_file = getattr(rule, '__file__', 'unknown')
-                rule_name = getattr(rule, '__name__', repr(rule))
+                rule_file = getattr(rule, "__file__", "unknown")
+                rule_name = getattr(rule, "__name__", repr(rule))
                 unstable_rules.append((rule_name, rule_file))
                 continue
             replacement_func2none[func] = None
@@ -306,7 +334,7 @@ class PassMgrBackend(GraphCompilerBackend):
         return set(replacement_funcs[i] for i in indices)
 
     def _bound_by_pattern_limit(self, rules):
-        pattern_limit = self.config['output_pass_pattern_limit']
+        pattern_limit = self.config["output_pass_pattern_limit"]
         if len(rules) <= pattern_limit:
             return rules
         indices = random.sample(range(len(rules)), pattern_limit)
@@ -323,6 +351,7 @@ class PassMgrBackend(GraphCompilerBackend):
 
 g_replacement_func = None
 
+
 def set_g_replacement_func(f):
     global g_replacement_func
     if g_replacement_func is not None:
@@ -336,7 +365,11 @@ def with_dispatch_wrapper_run(*args):
     if get_global_override_dispatch():
         args = wrap_args(args)
         outs = g_replacement_func(*args)
-        outs = unwrap_args(outs) if isinstance(outs, (tuple, list)) else unwrap_tensor(outs)
+        outs = (
+            unwrap_args(outs)
+            if isinstance(outs, (tuple, list))
+            else unwrap_tensor(outs)
+        )
     else:
         outs = g_replacement_func(*args)
     return outs
@@ -354,6 +387,7 @@ class PatternReplacementPass:
         arg_names = list(inspect.signature(pass_rule.pattern).parameters.keys())
         set_g_replacement_func(pass_rule.replacement_func())
         f = replacement_core_decorator()
+
         @self.reset_func_arg_names(arg_names)
         def replacement(*args):
             outs = f(*pass_rule.replacement_args(*args))
@@ -374,21 +408,31 @@ class PatternReplacementPass:
             matcher = DiagnosticMatcher(pattern_graph)
             matcher.match(gm.graph)
             if not matcher.failures:
-                print(f"[PassMgrBackend] No specific node failures recorded for {self.pass_name}.", flush=True)
+                print(
+                    f"[PassMgrBackend] No specific node failures recorded for {self.pass_name}.",
+                    flush=True,
+                )
                 return
-            print(f"[PassMgrBackend] Diagnostic for {self.pass_name} (best-attempt):", flush=True)
-            non_op = [f for f in matcher.failures if f.failure_type != FailureType.OP_MISMATCH]
+            print(
+                f"[PassMgrBackend] Diagnostic for {self.pass_name} (best-attempt):",
+                flush=True,
+            )
+            non_op = [
+                f for f in matcher.failures if f.failure_type != FailureType.OP_MISMATCH
+            ]
             for f in (non_op or matcher.failures)[:10]:
                 print(f"  - {f}")
         except Exception as e:
             print(f"[PassMgrBackend] Diagnostic failed: {e}", flush=True)
-    
+
     @classmethod
     def reset_func_arg_names(cls, arg_names):
         # arg_names is a list like ['x', 'y', 'z']
         args_str = ", ".join(arg_names)
-        
-        func_name = "dynamic_func_" + "".join(random.choices(string.ascii_lowercase, k=5))
+
+        func_name = "dynamic_func_" + "".join(
+            random.choices(string.ascii_lowercase, k=5)
+        )
 
         source = f"""
 def {func_name}(f):
@@ -404,18 +448,26 @@ def {func_name}(f):
         try:
             matches = _replace_pattern(gm, self.pattern, self.replacement)
         except Exception as e:
-            print(f"[PassMgrBackend] Pass {self.pass_name} CRASHED with error: {e}", flush=True)
+            print(
+                f"[PassMgrBackend] Pass {self.pass_name} CRASHED with error: {e}",
+                flush=True,
+            )
             raise e
-        
+
         # Determine if the graph actually changed
         modified = len(matches) > 0
 
         if modified:
             gm.recompile()
-            print(f"[PassMgrBackend] Applied {len(matches)} replacements with {self.pass_name}.", flush=True)
+            print(
+                f"[PassMgrBackend] Applied {len(matches)} replacements with {self.pass_name}.",
+                flush=True,
+            )
         else:
             # Diagnose pattern matching failure
-            print(f"[PassMgrBackend] Pass {self.pass_name} failed to match.", flush=True)
+            print(
+                f"[PassMgrBackend] Pass {self.pass_name} failed to match.", flush=True
+            )
             self._print_diagnostic_report(gm)
 
         # Return the PassResult object
@@ -424,8 +476,10 @@ def {func_name}(f):
 
 def create_pass(pass_name, pass_rule):
     gm_pass = PatternReplacementPass(pass_rule, pass_name)
+
     def func(gm):
         return gm_pass(gm)
+
     func.__name__ = pass_name
     func.__qualname__ = pass_name
     return func
@@ -433,15 +487,22 @@ def create_pass(pass_name, pass_rule):
 
 def is_pass_source_valid(path):
     from graph_net_bench.ast_util import validate_pass_source
+
     with open(path, "r") as f:
         source = f.read()
     violations = validate_pass_source(source)
     if violations:
-        print(f"[PassMgrBackend] Detected hacking behavior, forbidden torch API usage in replacement_func", flush=True)
+        print(
+            f"[PassMgrBackend] Detected hacking behavior, forbidden torch API usage in replacement_func",
+            flush=True,
+        )
         print(f"[PassMgrBackend] Pass source validation failed for {path}:", flush=True)
         for v in violations:
             print(f"  - {v}", flush=True)
-        print(f"[PassMgrBackend] Skipping loading of {path} due to validation failures.", flush=True)
+        print(
+            f"[PassMgrBackend] Skipping loading of {path} due to validation failures.",
+            flush=True,
+        )
         return False
     return True
 
@@ -449,30 +510,42 @@ def is_pass_source_valid(path):
 def is_pass_source_valid_by_customized_checker(path):
     with open(path, "r") as f:
         source = f.read()
-    pass_source_checker_paths = os.environ.get("AI4C_CUSTOM_PASS_SOURCE_CHECKER_PATH")
+    pass_source_checker_paths = os.environ.get(
+        "PASSNET_CUSTOM_PASS_SOURCE_CHECKER_PATH"
+    )
     if pass_source_checker_paths is None:
         return True
-    for checker_path in pass_source_checker_paths.split(':'):
+    for checker_path in pass_source_checker_paths.split(":"):
         if not Path(checker_path).is_file():
             continue
         module = imp_util.load_module(checker_path)
         violations = module.validate_pass_source(source)
         if violations:
-            print(f"[PassMgrBackend] Detected hacking behavior, forbidden torch API usage in replacement_func", flush=True)
-            print(f"[PassMgrBackend] Pass source validation failed for {path}:", flush=True)
+            print(
+                f"[PassMgrBackend] Detected hacking behavior, forbidden torch API usage in replacement_func",
+                flush=True,
+            )
+            print(
+                f"[PassMgrBackend] Pass source validation failed for {path}:",
+                flush=True,
+            )
             for v in violations:
                 print(f"  - {v}", flush=True)
-            print(f"[PassMgrBackend] Skipping loading of {path} due to validation failures.", flush=True)
+            print(
+                f"[PassMgrBackend] Skipping loading of {path} due to validation failures.",
+                flush=True,
+            )
             return False
     return True
 
 
-def load_py_module(path, name='unamed'):
+def load_py_module(path, name="unamed"):
     if not is_pass_source_valid(path):
         return None
     if not is_pass_source_valid_by_customized_checker(path):
         return None
     import sys
+
     sys.path.insert(0, str(Path(path).parent.parent))
     spec = imp.spec_from_file_location(name, path)
     module = imp.module_from_spec(spec)

@@ -1,53 +1,38 @@
-# AI4C Agent Examples
+# PassAgent Examples
 
-This directory contains example scripts for running the AI4C agent.
+This directory contains example scripts for running the PassAgent.
 
 ## Available Scripts
 
-### `run_ai4c_demo.py`
+### `run_pass_agent_demo.py`
 Run the agent on the 10-task demo dataset.
 
 **Usage:**
 ```bash
 cd examples/
-python run_ai4c_demo.py
+python run_pass_agent_demo.py
 ```
 
 **Configuration:**
-- Dataset: `../datasets/ai4c_demo_dataset.jsonl` (10 tasks)
+- Dataset: `../datasets/passbench_demo_dataset.jsonl` (10 tasks)
 - Max steps: 100
 - LLM: openai/glm-4.7 (configurable via env var)
-- Output: `../trajectories/ai4c/`
+- Output: `../trajectories/pass_agent/`
 
-### `run_ai4c_single.py`
-Run the agent on a single task for quick testing.
-
-**Usage:**
-```bash
-cd examples/
-python run_ai4c_single.py
-```
-
-**Configuration:**
-- Dataset: `../datasets/ai4c_single.jsonl` (1 task)
-- Max steps: 50
-- LLM: openai/gpt-4 (configurable via env var)
-- Output: `../trajectories/single/`
-
-### `create_ai4c_dataset.py`
-Create custom AI4C datasets from sample directories.
+### `create_passbench_dataset.py`
+Create custom PassBench datasets from sample directories.
 
 **Usage:**
 ```bash
 cd examples/
-python create_ai4c_dataset.py
+python create_passbench_dataset.py
 ```
 
 ## Environment Variables
 
 All scripts support these environment variables:
 
-- `LLM_BASE_URL`: Base URL for LLM API (default: http://yy.dbh.baidu-int.com/v1)
+- `LLM_BASE_URL`: Base URL for LLM API
 - `OPENAI_API_KEY`: API key for OpenAI/compatible API
 - `ANTHROPIC_API_KEY`: API key for Anthropic API
 - `MAX_WORKERS`: Maximum parallel workers (default: 1)
@@ -56,49 +41,34 @@ All scripts support these environment variables:
 ```bash
 export OPENAI_API_KEY="your-key-here"
 export LLM_BASE_URL="https://api.openai.com/v1"
-python run_ai4c_single.py
+python run_pass_agent_demo.py
 ```
 
 ## How These Scripts Work
 
-1. **Import AI4C Runtime**: Scripts import `AI4CDocker` from `pass_agent.runtime`
+1. **Import PassNet Runtime**: Scripts import `PassNetDocker` from `runtime`
    ```python
-   from pass_agent.runtime import AI4CDocker
+   from runtime.passnet_docker import PassNetDocker
    ```
 
-2. **Load Dataset**: Load JSONL dataset using HuggingFace datasets library
-
-3. **Run Agent**: Call r2e-gym's `runagent_multiple` with `runtime_class=AI4CDocker`
+2. **Monkey-patch DockerRuntime**: Replace r2e-gym's `DockerRuntime` with `PassNetDocker`
    ```python
-   results = runagent_multiple(
-       dataset=dataset,
-       runtime_class=AI4CDocker,  # Use AI4C runtime directly
-       scaffold="configs/",
-       ...
-   )
+   import r2egym.agenthub.runtime.docker as docker_module
+   docker_module.DockerRuntime = PassNetDocker
    ```
 
-4. **Save Trajectories**: Results are saved to `trajectories/` directory
+3. **Load Dataset**: Load JSONL dataset (PassBench format)
 
-**Note:** We don't need to register the runtime with a map since we only care about AI4C in this repo. We just pass `runtime_class=AI4CDocker` directly.
+4. **Run Agent**: Call patched `runagent` with PassAgent and custom config path
+
+5. **Save Trajectories**: Results are saved to `trajectories/pass_agent/` directory
 
 ## Customization
 
-To customize the agent behavior, edit the scripts and modify:
+To customize the agent behavior, modify CLI arguments:
 
-- `--max_steps`: Maximum number of agent steps
-- `--llm_name`: LLM model to use
+- `--max-steps`: Maximum number of agent steps
+- `--llm-name`: LLM model to use
 - `--temperature`: Sampling temperature
-- `--backend`: Runtime backend (docker/kubernetes/rle)
-- `--scaffold`: Path to config directory (defaults to `../configs`)
-
-## Shell Wrapper
-
-For convenience, you can also use the bash wrapper:
-
-```bash
-# From pass_agent root directory
-bash scripts/run_ai4c.sh
-```
-
-This wrapper calls `examples/run_ai4c_demo.py` with proper environment setup.
+- `--config`: Path to config directory (defaults to `../configs`)
+- `--max-workers`: Number of parallel workers

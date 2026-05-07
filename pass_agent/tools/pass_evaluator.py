@@ -1,8 +1,8 @@
 #!/root/.venv/bin/python
 """
-Description: AI4C Pass Evaluator - Runs evaluation on optimized pass and returns performance metrics.
+Description: PassNet Pass Evaluator - Runs evaluation on optimized pass and returns performance metrics.
 
-This tool executes the entry.sh script in the AI4C problem directory to validate and benchmark
+This tool executes the entry.sh script in the PassNet problem directory to validate and benchmark
 the optimized pass code. The score is extracted from the evaluation output.
 
 The tool expects to be run from the problem directory (where entry.sh is located).
@@ -22,10 +22,10 @@ import io
 from pathlib import Path
 
 # Ensure stdout/stderr can handle UTF-8 encoding issues
-if hasattr(sys.stdout, 'buffer'):
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='ignore')
-if hasattr(sys.stderr, 'buffer'):
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='ignore')
+if hasattr(sys.stdout, "buffer"):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="ignore")
+if hasattr(sys.stderr, "buffer"):
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="ignore")
 
 
 def _remove_useless_lines(result_stdout, result_stderr):
@@ -52,9 +52,13 @@ def _remove_useless_lines(result_stdout, result_stderr):
 def run_with_timeout(cmd, cwd, timeout):
     """Run a command, collecting stdout/stderr. On timeout, flush collected output before exit."""
     proc = subprocess.Popen(
-        cmd, cwd=cwd,
-        stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-        text=True, encoding='utf-8', errors='ignore',
+        cmd,
+        cwd=cwd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        encoding="utf-8",
+        errors="ignore",
     )
 
     stdout_lines, stderr_lines = [], []
@@ -66,8 +70,8 @@ def run_with_timeout(cmd, cwd, timeout):
         if elapsed >= timeout:
             proc.terminate()
             proc.wait()
-            print(''.join(stdout_lines), end='')
-            print(''.join(stderr_lines), end='', file=sys.stderr)
+            print("".join(stdout_lines), end="")
+            print("".join(stderr_lines), end="", file=sys.stderr)
             print("\n❌ ERROR: Evaluation timed out after 10 minutes")
             sys.exit(1)
 
@@ -89,12 +93,12 @@ def run_with_timeout(cmd, cwd, timeout):
             break
 
     proc.wait()
-    return proc.returncode, ''.join(stdout_lines), ''.join(stderr_lines)
+    return proc.returncode, "".join(stdout_lines), "".join(stderr_lines)
 
 
 def run_evaluation():
     """
-    Run the AI4C evaluation script (entry.sh) and parse results.
+    Run the PassNet evaluation script (entry.sh) and parse results.
 
     Uses the current working directory as the problem directory.
 
@@ -126,6 +130,7 @@ def run_evaluation():
     except Exception as e:
         print(f"\n❌ ERROR: Unexpected error during evaluation: {e}")
         import traceback
+
         traceback.print_exc()
         sys.exit(1)
 
@@ -141,7 +146,7 @@ def run_evaluation():
     score_file = output_path / "aggregated_score.json"
 
     if score_file.exists():
-        with open(score_file, 'r') as f:
+        with open(score_file, "r") as f:
             score_data = json.load(f)
 
         print("\n✅ Evaluation completed successfully!")
@@ -169,7 +174,7 @@ def run_evaluation():
 
 def main():
     parser = argparse.ArgumentParser(
-        description="AI4C Pass Evaluator: Run evaluation on optimized pass code."
+        description="PassNet Pass Evaluator: Run evaluation on optimized pass code."
     )
     # No arguments needed - uses current working directory
 

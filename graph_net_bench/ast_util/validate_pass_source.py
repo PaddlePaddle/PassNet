@@ -11,9 +11,7 @@ BLOCKED_IMPORT_PREFIXES = [
     "torch.autograd",
 ]
 
-BLOCKED_CALL_PREFIXES = [
-    "torch"
-]
+BLOCKED_CALL_PREFIXES = ["torch"]
 
 ALLOWED_TORCH_CALLS = [
     "torch.empty",
@@ -24,7 +22,7 @@ ALLOWED_TORCH_CALLS = [
     "torch.ones_like",
     "torch.full",
     "torch.full_like",
-    "torch.as_tensor"
+    "torch.as_tensor",
 ]
 
 # Functions whose bodies are allowed to use blocked APIs
@@ -55,10 +53,7 @@ def validate_pass_source(source: str) -> list[str]:
 
 
 def _matches_blocked_prefix(name: str) -> bool:
-    return any(
-        name == p or name.startswith(p + ".")
-        for p in BLOCKED_IMPORT_PREFIXES
-    )
+    return any(name == p or name.startswith(p + ".") for p in BLOCKED_IMPORT_PREFIXES)
 
 
 def _check_imports(tree: ast.AST) -> list[str]:
@@ -84,9 +79,7 @@ def _check_imports(tree: ast.AST) -> list[str]:
             continue
         dotted = _resolve_dotted(node.value)
         if dotted and _matches_blocked_prefix(dotted):
-            violations.append(
-                f"Line {node.lineno}: blocked submodule alias '{dotted}'"
-            )
+            violations.append(f"Line {node.lineno}: blocked submodule alias '{dotted}'")
     return violations
 
 
@@ -153,9 +146,7 @@ def _is_blocked_call(resolved: str) -> bool:
     return any(resolved.startswith(p) for p in BLOCKED_CALL_PREFIXES)
 
 
-def _check_call_targets(
-    nodes: list[ast.AST], alias_map: dict[str, str]
-) -> list[str]:
+def _check_call_targets(nodes: list[ast.AST], alias_map: dict[str, str]) -> list[str]:
     """Check call targets in non-exempt nodes against blocked prefixes."""
     violations = []
     for node in nodes:
@@ -177,7 +168,7 @@ def _resolve_call_target(target: str, alias_map: dict[str, str]) -> str:
     """
     root = target.split(".")[0]
     if root in alias_map:
-        rest = target[len(root):]
+        rest = target[len(root) :]
         return alias_map[root] + rest
     return target
 

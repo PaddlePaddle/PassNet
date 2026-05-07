@@ -1,8 +1,8 @@
 """
-AI4C Agent - extends R2E-Gym Agent with AI4C-specific tool support.
+PassAgent - extends R2E-Gym Agent with PassNet-specific tool support.
 
 This agent always uses function calling (hardcoded) and only implements
-the minimal logic needed for AI4C tasks.
+the minimal logic needed for PassNet tasks.
 """
 
 import time
@@ -19,8 +19,8 @@ from r2egym.agenthub.trajectory import TrajectoryStep, Trajectory
 
 class PassAgent(R2EGymAgent):
     """
-    AI4C Agent that extends R2E-Gym Agent with:
-    - AI4C-specific tools (file_editor, pass_evaluator)
+    PassAgent that extends R2E-Gym Agent with:
+    - PassNet-specific tools (file_editor, pass_evaluator)
     - Hardcoded use_fn_calling=True (always uses function calling)
     """
 
@@ -29,7 +29,7 @@ class PassAgent(R2EGymAgent):
         # Hardcode use_fn_calling to True
         self.use_fn_calling = True
         self.max_score = -1.0
-    
+
     def extract_speedup(self, observation: str) -> float:
         """Return the speedup value embedded in an observation string.
 
@@ -38,9 +38,9 @@ class PassAgent(R2EGymAgent):
         if not observation:
             return 0.0
         patterns = [
-            r'rectified_speedup\s*=\s*([\d.e+\-]+)',
+            r"rectified_speedup\s*=\s*([\d.e+\-]+)",
             r'"score"\s*:\s*([\d.e+\-]+)',
-            r'Speedup[:\s]+([\d.e+\-]+)',
+            r"Speedup[:\s]+([\d.e+\-]+)",
         ]
         for pat in patterns:
             m = re.search(pat, observation)
@@ -57,7 +57,9 @@ class PassAgent(R2EGymAgent):
         file_list_raw, _ = env.runtime.run(
             "ls pass_dir/*.py pass_dir/*.json 2>/dev/null || echo ''", timeout=10
         )
-        file_paths = [line.strip() for line in file_list_raw.strip().split("\n") if line.strip()]
+        file_paths = [
+            line.strip() for line in file_list_raw.strip().split("\n") if line.strip()
+        ]
         for file_path in file_paths:
             file_content, _ = env.runtime.run(f"cat {file_path}", timeout=10)
             snapshot.append((file_path, file_content))
@@ -106,7 +108,9 @@ class PassAgent(R2EGymAgent):
         # Hardcode use_fn_calling
         self.use_fn_calling = True
         self.llm_timeout = max_llm_time
-        self.logger.warning(f"Using fn calling: {self.use_fn_calling} (AI4C hardcoded)")
+        self.logger.warning(
+            f"Using fn calling: {self.use_fn_calling} (PassAgent hardcoded)"
+        )
 
         # Log the environment and agent
         self.logger.info(f"Running agent {self.name} in environment {env}.")
@@ -126,7 +130,7 @@ class PassAgent(R2EGymAgent):
         user_prompt = self.instance_prompt_template.format(
             problem_statement=problem_statement,
             gt_patch=gt_patch,
-            working_dir='/testbed',
+            working_dir="/testbed",
             test_patch_hint=metadata.get("test_patch_hint", ""),
             candidate_patch=metadata.get("candidate_patch", ""),
             candidate_patch_correctness=(
@@ -216,12 +220,14 @@ class PassAgent(R2EGymAgent):
             try:
                 function_name = response.choices[0].message.tool_calls[0].function.name
                 function_id = response.choices[0].message.tool_calls[0].id
-                self.history.append({
-                    "role": "tool",
-                    "content": str(obs),
-                    "name": function_name,
-                    "tool_call_id": function_id,
-                })
+                self.history.append(
+                    {
+                        "role": "tool",
+                        "content": str(obs),
+                        "name": function_name,
+                        "tool_call_id": function_id,
+                    }
+                )
             except Exception as e:
                 self.logger.error(f"Error logging tool response: {e}")
                 self.history.append({"role": "user", "content": str(obs)})
@@ -270,24 +276,26 @@ class PassAgent(R2EGymAgent):
 
         self.logger.info(f"Agent run complete. Total steps: {step_count}")
 
-        # Get output patch (for AI4C, this would be the pass files)
+        # Get output patch (for PassNet, this would be the pass files)
         output_patch = ""
         try:
             if best_pass_snapshot:
                 for file_path, file_content in best_pass_snapshot:
-                    output_patch += "-"*20 + f" {file_path} " + "-"*20
+                    output_patch += "-" * 20 + f" {file_path} " + "-" * 20
                     output_patch += f"\n{file_content}\n\n"
-                output_patch += "-"*20 + f" pass_dir/score.txt " + "-"*20
+                output_patch += "-" * 20 + f" pass_dir/score.txt " + "-" * 20
                 output_patch += f"\n{self.max_score}\n\n"
         except Exception as output_patch_error:
-            self.logger.error(f"Failed to serialize output patch from snapshot: {output_patch_error}")
+            self.logger.error(
+                f"Failed to serialize output patch from snapshot: {output_patch_error}"
+            )
 
         # Create Trajectory object
         trajectory = Trajectory(
             trajectory_steps=self.trajectory_steps,
             problem_statement=problem_statement,
             docker_image=env.runtime.docker_image,
-            exp_name=metadata.get("exp_name", "ai4c"),
+            exp_name=metadata.get("exp_name", "passnet"),
             env_args={},
             agent_args={},
             ds=env.runtime.ds,
@@ -301,8 +309,12 @@ class PassAgent(R2EGymAgent):
             output_patch=output_patch,
         )
 
-        self.logger.info(f"Returning trajectory with exit_reason: {trajectory.exit_reason}")
-        self.logger.info(f"Return type: Trajectory object (open-source r2e-gym expects single return)")
+        self.logger.info(
+            f"Returning trajectory with exit_reason: {trajectory.exit_reason}"
+        )
+        self.logger.info(
+            f"Return type: Trajectory object (open-source r2e-gym expects single return)"
+        )
 
         # Store history as instance variable so it can be accessed later
         self.final_history = self.history
@@ -310,9 +322,11 @@ class PassAgent(R2EGymAgent):
         # Open-source r2e-gym expects agent.run() to return just Trajectory, not tuple
         return trajectory
 
-    def model_query(self, messages: List[Dict[str, str]], temperature: float = 0) -> Dict[str, Any]:
+    def model_query(
+        self, messages: List[Dict[str, str]], temperature: float = 0
+    ) -> Dict[str, Any]:
         """
-        Model query with AI4C tools (always uses function calling).
+        Model query with PassNet tools (always uses function calling).
         """
         from r2egym.agenthub.tools import file_editor
 
@@ -321,15 +335,15 @@ class PassAgent(R2EGymAgent):
             "type": "function",
             "function": {
                 "name": "pass_evaluator",
-                "description": """Evaluate your AI4C pass optimization implementation.
+                "description": """Evaluate your pass optimization implementation.
 
-This tool runs the AI4C evaluation pipeline to check your pass implementation:
+This tool runs the PassNet evaluation pipeline to check your pass implementation:
 1. Pass Matching: Verifies that your pass pattern matches the target computation
 2. Correctness: Ensures your optimized kernel produces correct outputs
 3. Performance: Measures the speedup achieved by your optimization
 
 The tool evaluates the pass files in the current problem directory (./pass_dir).
-The AI4C_PROBLEM_PATH environment variable is automatically set for you.
+The problem path environment variable is automatically set for you.
 
 If any stage fails, the tool reports the failure. If all stages pass, it reports the speedup.
 All output is printed to stdout for you to see.
@@ -343,7 +357,7 @@ No parameters are required - simply call this tool to evaluate your current pass
             },
         }
 
-        # Always use AI4C tools
+        # Always use PassNet tools
         tools = [file_editor, pass_evaluator_tool]
 
         # Add prompt caching

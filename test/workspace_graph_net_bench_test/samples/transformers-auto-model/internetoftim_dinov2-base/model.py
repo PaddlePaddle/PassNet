@@ -602,7 +602,11 @@ class GraphModule(torch.nn.Module):
             (1, 1),
             1,
         )
-        l_pixel_values_ = l_self_modules_embeddings_modules_patch_embeddings_modules_projection_parameters_weight_ = l_self_modules_embeddings_modules_patch_embeddings_modules_projection_parameters_bias_ = (None)
+        l_pixel_values_ = (
+            l_self_modules_embeddings_modules_patch_embeddings_modules_projection_parameters_weight_
+        ) = (
+            l_self_modules_embeddings_modules_patch_embeddings_modules_projection_parameters_bias_
+        ) = None
         flatten = conv2d.flatten(2)
         conv2d = None
         embeddings = flatten.transpose(1, 2)
@@ -632,15 +636,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_0_modules_layernorm_before_parameters_bias_,
             item_1,
         )
-        l_self_modules_encoder_modules_layer_modules_0_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_0_modules_layernorm_before_parameters_bias_ = (item_1) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_0_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_layernorm_before_parameters_bias_
+        ) = item_1 = None
         linear = torch._C._nn.linear(
             layer_norm,
             l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view = linear.view(1, -1, 12, 64)
         linear = None
         key_layer = view.transpose(1, 2)
@@ -650,7 +656,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_1 = linear_1.view(1, -1, 12, 64)
         linear_1 = None
         value_layer = view_1.transpose(1, 2)
@@ -660,7 +668,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm = l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_2 = linear_2.view(1, -1, 12, 64)
         linear_2 = None
         query_layer = view_2.transpose(1, 2)
@@ -698,7 +710,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer = l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_3 = (
             l_self_modules_encoder_modules_layer_modules_0_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -724,15 +740,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_0_modules_layernorm_after_parameters_bias_,
             item_4,
         )
-        l_self_modules_encoder_modules_layer_modules_0_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_0_modules_layernorm_after_parameters_bias_ = (item_4) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_0_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_layernorm_after_parameters_bias_
+        ) = item_4 = None
         hidden_states_3 = torch._C._nn.linear(
             layer_output,
             l_self_modules_encoder_modules_layer_modules_0_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_0_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output = l_self_modules_encoder_modules_layer_modules_0_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_0_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_4 = torch._C._nn.gelu(hidden_states_3)
         hidden_states_3 = None
         hidden_states_5 = torch._C._nn.linear(
@@ -740,7 +760,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_0_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_0_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_4 = l_self_modules_encoder_modules_layer_modules_0_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_0_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_4 = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_0_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_5 = (
             l_self_modules_encoder_modules_layer_modules_0_modules_output_modules_dropout_p.item()
         )
@@ -766,15 +790,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_1_modules_layernorm_before_parameters_bias_,
             item_6,
         )
-        l_self_modules_encoder_modules_layer_modules_1_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_1_modules_layernorm_before_parameters_bias_ = (item_6) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_1_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_layernorm_before_parameters_bias_
+        ) = item_6 = None
         linear_6 = torch._C._nn.linear(
             layer_norm_2,
             l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_3 = linear_6.view(1, -1, 12, 64)
         linear_6 = None
         key_layer_1 = view_3.transpose(1, 2)
@@ -784,7 +810,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_4 = linear_7.view(1, -1, 12, 64)
         linear_7 = None
         value_layer_1 = view_4.transpose(1, 2)
@@ -794,7 +822,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_2 = l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_2 = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_5 = linear_8.view(1, -1, 12, 64)
         linear_8 = None
         query_layer_1 = view_5.transpose(1, 2)
@@ -832,7 +864,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_1 = l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_1 = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_8 = (
             l_self_modules_encoder_modules_layer_modules_1_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -858,15 +894,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_1_modules_layernorm_after_parameters_bias_,
             item_9,
         )
-        l_self_modules_encoder_modules_layer_modules_1_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_1_modules_layernorm_after_parameters_bias_ = (item_9) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_1_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_layernorm_after_parameters_bias_
+        ) = item_9 = None
         hidden_states_11 = torch._C._nn.linear(
             layer_output_1,
             l_self_modules_encoder_modules_layer_modules_1_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_1_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_1 = l_self_modules_encoder_modules_layer_modules_1_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_1_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_1 = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_12 = torch._C._nn.gelu(hidden_states_11)
         hidden_states_11 = None
         hidden_states_13 = torch._C._nn.linear(
@@ -874,7 +914,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_1_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_1_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_12 = l_self_modules_encoder_modules_layer_modules_1_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_1_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_12 = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_1_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_10 = (
             l_self_modules_encoder_modules_layer_modules_1_modules_output_modules_dropout_p.item()
         )
@@ -900,15 +944,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_2_modules_layernorm_before_parameters_bias_,
             item_11,
         )
-        l_self_modules_encoder_modules_layer_modules_2_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_2_modules_layernorm_before_parameters_bias_ = (item_11) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_2_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_layernorm_before_parameters_bias_
+        ) = item_11 = None
         linear_12 = torch._C._nn.linear(
             layer_norm_4,
             l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_6 = linear_12.view(1, -1, 12, 64)
         linear_12 = None
         key_layer_2 = view_6.transpose(1, 2)
@@ -918,7 +964,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_7 = linear_13.view(1, -1, 12, 64)
         linear_13 = None
         value_layer_2 = view_7.transpose(1, 2)
@@ -928,7 +976,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_4 = l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_4 = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_8 = linear_14.view(1, -1, 12, 64)
         linear_14 = None
         query_layer_2 = view_8.transpose(1, 2)
@@ -966,7 +1018,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_2 = l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_2 = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_13 = (
             l_self_modules_encoder_modules_layer_modules_2_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -992,15 +1048,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_2_modules_layernorm_after_parameters_bias_,
             item_14,
         )
-        l_self_modules_encoder_modules_layer_modules_2_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_2_modules_layernorm_after_parameters_bias_ = (item_14) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_2_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_layernorm_after_parameters_bias_
+        ) = item_14 = None
         hidden_states_19 = torch._C._nn.linear(
             layer_output_2,
             l_self_modules_encoder_modules_layer_modules_2_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_2_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_2 = l_self_modules_encoder_modules_layer_modules_2_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_2_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_2 = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_20 = torch._C._nn.gelu(hidden_states_19)
         hidden_states_19 = None
         hidden_states_21 = torch._C._nn.linear(
@@ -1008,7 +1068,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_2_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_2_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_20 = l_self_modules_encoder_modules_layer_modules_2_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_2_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_20 = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_2_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_15 = (
             l_self_modules_encoder_modules_layer_modules_2_modules_output_modules_dropout_p.item()
         )
@@ -1034,15 +1098,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_3_modules_layernorm_before_parameters_bias_,
             item_16,
         )
-        l_self_modules_encoder_modules_layer_modules_3_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_3_modules_layernorm_before_parameters_bias_ = (item_16) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_3_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_layernorm_before_parameters_bias_
+        ) = item_16 = None
         linear_18 = torch._C._nn.linear(
             layer_norm_6,
             l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_9 = linear_18.view(1, -1, 12, 64)
         linear_18 = None
         key_layer_3 = view_9.transpose(1, 2)
@@ -1052,7 +1118,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_10 = linear_19.view(1, -1, 12, 64)
         linear_19 = None
         value_layer_3 = view_10.transpose(1, 2)
@@ -1062,7 +1130,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_6 = l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_6 = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_11 = linear_20.view(1, -1, 12, 64)
         linear_20 = None
         query_layer_3 = view_11.transpose(1, 2)
@@ -1100,7 +1172,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_3 = l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_3 = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_18 = (
             l_self_modules_encoder_modules_layer_modules_3_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -1126,15 +1202,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_3_modules_layernorm_after_parameters_bias_,
             item_19,
         )
-        l_self_modules_encoder_modules_layer_modules_3_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_3_modules_layernorm_after_parameters_bias_ = (item_19) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_3_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_layernorm_after_parameters_bias_
+        ) = item_19 = None
         hidden_states_27 = torch._C._nn.linear(
             layer_output_3,
             l_self_modules_encoder_modules_layer_modules_3_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_3_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_3 = l_self_modules_encoder_modules_layer_modules_3_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_3_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_3 = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_28 = torch._C._nn.gelu(hidden_states_27)
         hidden_states_27 = None
         hidden_states_29 = torch._C._nn.linear(
@@ -1142,7 +1222,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_3_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_3_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_28 = l_self_modules_encoder_modules_layer_modules_3_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_3_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_28 = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_3_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_20 = (
             l_self_modules_encoder_modules_layer_modules_3_modules_output_modules_dropout_p.item()
         )
@@ -1168,15 +1252,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_4_modules_layernorm_before_parameters_bias_,
             item_21,
         )
-        l_self_modules_encoder_modules_layer_modules_4_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_4_modules_layernorm_before_parameters_bias_ = (item_21) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_4_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_layernorm_before_parameters_bias_
+        ) = item_21 = None
         linear_24 = torch._C._nn.linear(
             layer_norm_8,
             l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_12 = linear_24.view(1, -1, 12, 64)
         linear_24 = None
         key_layer_4 = view_12.transpose(1, 2)
@@ -1186,7 +1272,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_13 = linear_25.view(1, -1, 12, 64)
         linear_25 = None
         value_layer_4 = view_13.transpose(1, 2)
@@ -1196,7 +1284,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_8 = l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_8 = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_14 = linear_26.view(1, -1, 12, 64)
         linear_26 = None
         query_layer_4 = view_14.transpose(1, 2)
@@ -1234,7 +1326,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_4 = l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_4 = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_23 = (
             l_self_modules_encoder_modules_layer_modules_4_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -1260,15 +1356,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_4_modules_layernorm_after_parameters_bias_,
             item_24,
         )
-        l_self_modules_encoder_modules_layer_modules_4_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_4_modules_layernorm_after_parameters_bias_ = (item_24) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_4_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_layernorm_after_parameters_bias_
+        ) = item_24 = None
         hidden_states_35 = torch._C._nn.linear(
             layer_output_4,
             l_self_modules_encoder_modules_layer_modules_4_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_4_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_4 = l_self_modules_encoder_modules_layer_modules_4_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_4_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_4 = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_36 = torch._C._nn.gelu(hidden_states_35)
         hidden_states_35 = None
         hidden_states_37 = torch._C._nn.linear(
@@ -1276,7 +1376,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_4_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_4_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_36 = l_self_modules_encoder_modules_layer_modules_4_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_4_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_36 = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_4_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_25 = (
             l_self_modules_encoder_modules_layer_modules_4_modules_output_modules_dropout_p.item()
         )
@@ -1302,15 +1406,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_5_modules_layernorm_before_parameters_bias_,
             item_26,
         )
-        l_self_modules_encoder_modules_layer_modules_5_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_5_modules_layernorm_before_parameters_bias_ = (item_26) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_5_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_layernorm_before_parameters_bias_
+        ) = item_26 = None
         linear_30 = torch._C._nn.linear(
             layer_norm_10,
             l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_15 = linear_30.view(1, -1, 12, 64)
         linear_30 = None
         key_layer_5 = view_15.transpose(1, 2)
@@ -1320,7 +1426,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_16 = linear_31.view(1, -1, 12, 64)
         linear_31 = None
         value_layer_5 = view_16.transpose(1, 2)
@@ -1330,7 +1438,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_10 = l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_10 = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_17 = linear_32.view(1, -1, 12, 64)
         linear_32 = None
         query_layer_5 = view_17.transpose(1, 2)
@@ -1368,7 +1480,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_5 = l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_5 = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_28 = (
             l_self_modules_encoder_modules_layer_modules_5_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -1394,15 +1510,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_5_modules_layernorm_after_parameters_bias_,
             item_29,
         )
-        l_self_modules_encoder_modules_layer_modules_5_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_5_modules_layernorm_after_parameters_bias_ = (item_29) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_5_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_layernorm_after_parameters_bias_
+        ) = item_29 = None
         hidden_states_43 = torch._C._nn.linear(
             layer_output_5,
             l_self_modules_encoder_modules_layer_modules_5_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_5_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_5 = l_self_modules_encoder_modules_layer_modules_5_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_5_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_5 = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_44 = torch._C._nn.gelu(hidden_states_43)
         hidden_states_43 = None
         hidden_states_45 = torch._C._nn.linear(
@@ -1410,7 +1530,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_5_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_5_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_44 = l_self_modules_encoder_modules_layer_modules_5_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_5_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_44 = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_5_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_30 = (
             l_self_modules_encoder_modules_layer_modules_5_modules_output_modules_dropout_p.item()
         )
@@ -1436,15 +1560,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_6_modules_layernorm_before_parameters_bias_,
             item_31,
         )
-        l_self_modules_encoder_modules_layer_modules_6_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_6_modules_layernorm_before_parameters_bias_ = (item_31) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_6_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_layernorm_before_parameters_bias_
+        ) = item_31 = None
         linear_36 = torch._C._nn.linear(
             layer_norm_12,
             l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_18 = linear_36.view(1, -1, 12, 64)
         linear_36 = None
         key_layer_6 = view_18.transpose(1, 2)
@@ -1454,7 +1580,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_19 = linear_37.view(1, -1, 12, 64)
         linear_37 = None
         value_layer_6 = view_19.transpose(1, 2)
@@ -1464,7 +1592,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_12 = l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_12 = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_20 = linear_38.view(1, -1, 12, 64)
         linear_38 = None
         query_layer_6 = view_20.transpose(1, 2)
@@ -1502,7 +1634,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_6 = l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_6 = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_33 = (
             l_self_modules_encoder_modules_layer_modules_6_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -1528,15 +1664,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_6_modules_layernorm_after_parameters_bias_,
             item_34,
         )
-        l_self_modules_encoder_modules_layer_modules_6_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_6_modules_layernorm_after_parameters_bias_ = (item_34) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_6_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_layernorm_after_parameters_bias_
+        ) = item_34 = None
         hidden_states_51 = torch._C._nn.linear(
             layer_output_6,
             l_self_modules_encoder_modules_layer_modules_6_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_6_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_6 = l_self_modules_encoder_modules_layer_modules_6_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_6_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_6 = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_52 = torch._C._nn.gelu(hidden_states_51)
         hidden_states_51 = None
         hidden_states_53 = torch._C._nn.linear(
@@ -1544,7 +1684,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_6_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_6_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_52 = l_self_modules_encoder_modules_layer_modules_6_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_6_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_52 = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_6_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_35 = (
             l_self_modules_encoder_modules_layer_modules_6_modules_output_modules_dropout_p.item()
         )
@@ -1570,15 +1714,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_7_modules_layernorm_before_parameters_bias_,
             item_36,
         )
-        l_self_modules_encoder_modules_layer_modules_7_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_7_modules_layernorm_before_parameters_bias_ = (item_36) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_7_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_layernorm_before_parameters_bias_
+        ) = item_36 = None
         linear_42 = torch._C._nn.linear(
             layer_norm_14,
             l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_21 = linear_42.view(1, -1, 12, 64)
         linear_42 = None
         key_layer_7 = view_21.transpose(1, 2)
@@ -1588,7 +1734,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_22 = linear_43.view(1, -1, 12, 64)
         linear_43 = None
         value_layer_7 = view_22.transpose(1, 2)
@@ -1598,7 +1746,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_14 = l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_14 = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_23 = linear_44.view(1, -1, 12, 64)
         linear_44 = None
         query_layer_7 = view_23.transpose(1, 2)
@@ -1636,7 +1788,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_7 = l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_7 = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_38 = (
             l_self_modules_encoder_modules_layer_modules_7_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -1662,15 +1818,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_7_modules_layernorm_after_parameters_bias_,
             item_39,
         )
-        l_self_modules_encoder_modules_layer_modules_7_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_7_modules_layernorm_after_parameters_bias_ = (item_39) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_7_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_layernorm_after_parameters_bias_
+        ) = item_39 = None
         hidden_states_59 = torch._C._nn.linear(
             layer_output_7,
             l_self_modules_encoder_modules_layer_modules_7_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_7_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_7 = l_self_modules_encoder_modules_layer_modules_7_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_7_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_7 = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_60 = torch._C._nn.gelu(hidden_states_59)
         hidden_states_59 = None
         hidden_states_61 = torch._C._nn.linear(
@@ -1678,7 +1838,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_7_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_7_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_60 = l_self_modules_encoder_modules_layer_modules_7_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_7_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_60 = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_7_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_40 = (
             l_self_modules_encoder_modules_layer_modules_7_modules_output_modules_dropout_p.item()
         )
@@ -1704,15 +1868,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_8_modules_layernorm_before_parameters_bias_,
             item_41,
         )
-        l_self_modules_encoder_modules_layer_modules_8_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_8_modules_layernorm_before_parameters_bias_ = (item_41) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_8_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_layernorm_before_parameters_bias_
+        ) = item_41 = None
         linear_48 = torch._C._nn.linear(
             layer_norm_16,
             l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_24 = linear_48.view(1, -1, 12, 64)
         linear_48 = None
         key_layer_8 = view_24.transpose(1, 2)
@@ -1722,7 +1888,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_25 = linear_49.view(1, -1, 12, 64)
         linear_49 = None
         value_layer_8 = view_25.transpose(1, 2)
@@ -1732,7 +1900,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_16 = l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_16 = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_26 = linear_50.view(1, -1, 12, 64)
         linear_50 = None
         query_layer_8 = view_26.transpose(1, 2)
@@ -1770,7 +1942,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_8 = l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_8 = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_43 = (
             l_self_modules_encoder_modules_layer_modules_8_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -1796,15 +1972,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_8_modules_layernorm_after_parameters_bias_,
             item_44,
         )
-        l_self_modules_encoder_modules_layer_modules_8_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_8_modules_layernorm_after_parameters_bias_ = (item_44) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_8_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_layernorm_after_parameters_bias_
+        ) = item_44 = None
         hidden_states_67 = torch._C._nn.linear(
             layer_output_8,
             l_self_modules_encoder_modules_layer_modules_8_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_8_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_8 = l_self_modules_encoder_modules_layer_modules_8_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_8_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_8 = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_68 = torch._C._nn.gelu(hidden_states_67)
         hidden_states_67 = None
         hidden_states_69 = torch._C._nn.linear(
@@ -1812,7 +1992,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_8_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_8_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_68 = l_self_modules_encoder_modules_layer_modules_8_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_8_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_68 = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_8_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_45 = (
             l_self_modules_encoder_modules_layer_modules_8_modules_output_modules_dropout_p.item()
         )
@@ -1838,15 +2022,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_9_modules_layernorm_before_parameters_bias_,
             item_46,
         )
-        l_self_modules_encoder_modules_layer_modules_9_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_9_modules_layernorm_before_parameters_bias_ = (item_46) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_9_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_layernorm_before_parameters_bias_
+        ) = item_46 = None
         linear_54 = torch._C._nn.linear(
             layer_norm_18,
             l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_27 = linear_54.view(1, -1, 12, 64)
         linear_54 = None
         key_layer_9 = view_27.transpose(1, 2)
@@ -1856,7 +2042,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_28 = linear_55.view(1, -1, 12, 64)
         linear_55 = None
         value_layer_9 = view_28.transpose(1, 2)
@@ -1866,7 +2054,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_18 = l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_18 = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_29 = linear_56.view(1, -1, 12, 64)
         linear_56 = None
         query_layer_9 = view_29.transpose(1, 2)
@@ -1904,7 +2096,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_9 = l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_9 = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_48 = (
             l_self_modules_encoder_modules_layer_modules_9_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -1930,15 +2126,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_9_modules_layernorm_after_parameters_bias_,
             item_49,
         )
-        l_self_modules_encoder_modules_layer_modules_9_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_9_modules_layernorm_after_parameters_bias_ = (item_49) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_9_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_layernorm_after_parameters_bias_
+        ) = item_49 = None
         hidden_states_75 = torch._C._nn.linear(
             layer_output_9,
             l_self_modules_encoder_modules_layer_modules_9_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_9_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_9 = l_self_modules_encoder_modules_layer_modules_9_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_9_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_9 = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_76 = torch._C._nn.gelu(hidden_states_75)
         hidden_states_75 = None
         hidden_states_77 = torch._C._nn.linear(
@@ -1946,7 +2146,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_9_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_9_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_76 = l_self_modules_encoder_modules_layer_modules_9_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_9_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_76 = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_9_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_50 = (
             l_self_modules_encoder_modules_layer_modules_9_modules_output_modules_dropout_p.item()
         )
@@ -1972,15 +2176,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_10_modules_layernorm_before_parameters_bias_,
             item_51,
         )
-        l_self_modules_encoder_modules_layer_modules_10_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_10_modules_layernorm_before_parameters_bias_ = (item_51) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_10_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_layernorm_before_parameters_bias_
+        ) = item_51 = None
         linear_60 = torch._C._nn.linear(
             layer_norm_20,
             l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_30 = linear_60.view(1, -1, 12, 64)
         linear_60 = None
         key_layer_10 = view_30.transpose(1, 2)
@@ -1990,7 +2196,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_31 = linear_61.view(1, -1, 12, 64)
         linear_61 = None
         value_layer_10 = view_31.transpose(1, 2)
@@ -2000,7 +2208,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_20 = l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_20 = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_32 = linear_62.view(1, -1, 12, 64)
         linear_62 = None
         query_layer_10 = view_32.transpose(1, 2)
@@ -2038,7 +2250,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_10 = l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_10 = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_53 = (
             l_self_modules_encoder_modules_layer_modules_10_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -2064,15 +2280,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_10_modules_layernorm_after_parameters_bias_,
             item_54,
         )
-        l_self_modules_encoder_modules_layer_modules_10_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_10_modules_layernorm_after_parameters_bias_ = (item_54) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_10_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_layernorm_after_parameters_bias_
+        ) = item_54 = None
         hidden_states_83 = torch._C._nn.linear(
             layer_output_10,
             l_self_modules_encoder_modules_layer_modules_10_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_10_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_10 = l_self_modules_encoder_modules_layer_modules_10_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_10_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_10 = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_84 = torch._C._nn.gelu(hidden_states_83)
         hidden_states_83 = None
         hidden_states_85 = torch._C._nn.linear(
@@ -2080,7 +2300,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_10_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_10_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_84 = l_self_modules_encoder_modules_layer_modules_10_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_10_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_84 = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_10_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_55 = (
             l_self_modules_encoder_modules_layer_modules_10_modules_output_modules_dropout_p.item()
         )
@@ -2106,15 +2330,17 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_11_modules_layernorm_before_parameters_bias_,
             item_56,
         )
-        l_self_modules_encoder_modules_layer_modules_11_modules_layernorm_before_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_11_modules_layernorm_before_parameters_bias_ = (item_56) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_11_modules_layernorm_before_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_layernorm_before_parameters_bias_
+        ) = item_56 = None
         linear_66 = torch._C._nn.linear(
             layer_norm_22,
             l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_key_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_key_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_key_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_key_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_key_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_key_parameters_bias_
+        ) = None
         view_33 = linear_66.view(1, -1, 12, 64)
         linear_66 = None
         key_layer_11 = view_33.transpose(1, 2)
@@ -2124,7 +2350,9 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_value_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_value_parameters_bias_,
         )
-        l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_value_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_value_parameters_bias_ = (None)
+        l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_value_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_value_parameters_bias_
+        ) = None
         view_34 = linear_67.view(1, -1, 12, 64)
         linear_67 = None
         value_layer_11 = view_34.transpose(1, 2)
@@ -2134,7 +2362,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_query_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_query_parameters_bias_,
         )
-        layer_norm_22 = l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_query_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_query_parameters_bias_ = (None)
+        layer_norm_22 = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_query_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_attention_modules_query_parameters_bias_
+        ) = None
         view_35 = linear_68.view(1, -1, 12, 64)
         linear_68 = None
         query_layer_11 = view_35.transpose(1, 2)
@@ -2172,7 +2404,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_output_modules_dense_parameters_bias_,
         )
-        context_layer_11 = l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_output_modules_dense_parameters_bias_ = (None)
+        context_layer_11 = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_58 = (
             l_self_modules_encoder_modules_layer_modules_11_modules_attention_modules_output_modules_dropout_p.item()
         )
@@ -2198,15 +2434,19 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_11_modules_layernorm_after_parameters_bias_,
             item_59,
         )
-        l_self_modules_encoder_modules_layer_modules_11_modules_layernorm_after_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_11_modules_layernorm_after_parameters_bias_ = (item_59) = (
-            None
-        )
+        l_self_modules_encoder_modules_layer_modules_11_modules_layernorm_after_parameters_weight_ = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_layernorm_after_parameters_bias_
+        ) = item_59 = None
         hidden_states_91 = torch._C._nn.linear(
             layer_output_11,
             l_self_modules_encoder_modules_layer_modules_11_modules_intermediate_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_11_modules_intermediate_modules_dense_parameters_bias_,
         )
-        layer_output_11 = l_self_modules_encoder_modules_layer_modules_11_modules_intermediate_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_11_modules_intermediate_modules_dense_parameters_bias_ = (None)
+        layer_output_11 = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_intermediate_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_intermediate_modules_dense_parameters_bias_
+        ) = None
         hidden_states_92 = torch._C._nn.gelu(hidden_states_91)
         hidden_states_91 = None
         hidden_states_93 = torch._C._nn.linear(
@@ -2214,7 +2454,11 @@ class GraphModule(torch.nn.Module):
             l_self_modules_encoder_modules_layer_modules_11_modules_output_modules_dense_parameters_weight_,
             l_self_modules_encoder_modules_layer_modules_11_modules_output_modules_dense_parameters_bias_,
         )
-        hidden_states_92 = l_self_modules_encoder_modules_layer_modules_11_modules_output_modules_dense_parameters_weight_ = l_self_modules_encoder_modules_layer_modules_11_modules_output_modules_dense_parameters_bias_ = (None)
+        hidden_states_92 = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_output_modules_dense_parameters_weight_
+        ) = (
+            l_self_modules_encoder_modules_layer_modules_11_modules_output_modules_dense_parameters_bias_
+        ) = None
         item_60 = (
             l_self_modules_encoder_modules_layer_modules_11_modules_output_modules_dropout_p.item()
         )
@@ -2236,18 +2480,18 @@ class GraphModule(torch.nn.Module):
             l_self_modules_layernorm_parameters_bias_,
             item_61,
         )
-        hidden_states_95 = (
-            l_self_modules_layernorm_parameters_weight_
-        ) = l_self_modules_layernorm_parameters_bias_ = item_61 = None
+        hidden_states_95 = l_self_modules_layernorm_parameters_weight_ = (
+            l_self_modules_layernorm_parameters_bias_
+        ) = item_61 = None
         first_token_tensor = sequence_output[(slice(None, None, None), 0)]
         pooled_output = torch._C._nn.linear(
             first_token_tensor,
             l_self_modules_pooler_modules_dense_parameters_weight_,
             l_self_modules_pooler_modules_dense_parameters_bias_,
         )
-        first_token_tensor = (
-            l_self_modules_pooler_modules_dense_parameters_weight_
-        ) = l_self_modules_pooler_modules_dense_parameters_bias_ = None
+        first_token_tensor = l_self_modules_pooler_modules_dense_parameters_weight_ = (
+            l_self_modules_pooler_modules_dense_parameters_bias_
+        ) = None
         pooled_output_1 = torch.tanh(pooled_output)
         pooled_output = None
         return (sequence_output, pooled_output_1)

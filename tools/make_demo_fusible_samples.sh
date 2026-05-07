@@ -1,9 +1,9 @@
 #!/bin/bash
 set -x
 
-# cd /ai4c/root/directory
-if [ $(cat .git/config | grep 'ai4c' | wc -l) -eq 0 ]; then
-    echo Please change to ai4c repo root directory
+# cd /passnet/root/directory
+if [ $(cat .git/config | grep -i 'passnet' | wc -l) -eq 0 ]; then
+    echo Please change to PassNet repo root directory
     exit 1
 fi
 
