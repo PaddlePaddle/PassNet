@@ -17,7 +17,7 @@ from r2egym.agenthub.agent.agent import Agent as R2EGymAgent
 from r2egym.agenthub.trajectory import TrajectoryStep, Trajectory
 
 
-class AI4CAgent(R2EGymAgent):
+class PassAgent(R2EGymAgent):
     """
     AI4C Agent that extends R2E-Gym Agent with:
     - AI4C-specific tools (file_editor, pass_evaluator)

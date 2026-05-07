@@ -61,9 +61,9 @@ python run_ai4c_single.py
 
 ## How These Scripts Work
 
-1. **Import AI4C Runtime**: Scripts import `AI4CDocker` from `ai4c_agent.runtime`
+1. **Import AI4C Runtime**: Scripts import `AI4CDocker` from `pass_agent.runtime`
    ```python
-   from ai4c_agent.runtime import AI4CDocker
+   from pass_agent.runtime import AI4CDocker
    ```
 
 2. **Load Dataset**: Load JSONL dataset using HuggingFace datasets library
@@ -97,7 +97,7 @@ To customize the agent behavior, edit the scripts and modify:
 For convenience, you can also use the bash wrapper:
 
 ```bash
-# From ai4c_agent root directory
+# From pass_agent root directory
 bash scripts/run_ai4c.sh
 ```
 

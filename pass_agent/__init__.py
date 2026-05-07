@@ -7,6 +7,6 @@ for training agents on compiler optimization tasks using R2E-Gym.
 
 __version__ = "0.1.0"
 
-from ai4c_agent.runtime.ai4c_docker import AI4CDocker
+from pass_agent.runtime.ai4c_docker import AI4CDocker
 
 __all__ = ["AI4CDocker"]

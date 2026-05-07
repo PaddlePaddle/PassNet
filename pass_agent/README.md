@@ -10,12 +10,12 @@ AI4C Agent provides the runtime, tools, and configurations needed to train reinf
 
 This package extends R2E-Gym with AI4C-specific components:
 
-- **Runtime** (`ai4c_agent/runtime/`): AI4CDocker runtime that handles AI4C environment setup
-- **Tools** (`ai4c_agent/tools/`): pass_evaluator tool for running evaluations
-- **Configs** (`ai4c_agent/configs/`): Agent scaffold configurations
-- **Examples** (`ai4c_agent/examples/`): Example scripts for running agents
-- **Tests** (`ai4c_agent/tests/`): Test files for development
-- **Docs** (`ai4c_agent/docs/`): Detailed documentation
+- **Runtime** (`pass_agent/runtime/`): AI4CDocker runtime that handles AI4C environment setup
+- **Tools** (`pass_agent/tools/`): pass_evaluator tool for running evaluations
+- **Configs** (`pass_agent/configs/`): Agent scaffold configurations
+- **Examples** (`pass_agent/examples/`): Example scripts for running agents
+- **Tests** (`pass_agent/tests/`): Test files for development
+- **Docs** (`pass_agent/docs/`): Detailed documentation
 
 ## Installation
 
@@ -29,7 +29,7 @@ This package extends R2E-Gym with AI4C-specific components:
 ### Install AI4C Agent
 
 ```bash
-cd ai4c/ai4c_agent
+cd ai4c/pass_agent
 pip install -r requirements.txt
 ```
 
@@ -46,7 +46,7 @@ AI4C-agent does NOT have a Python code dependency on AI4C. Instead:
 Before using ai4c-agent, build the Docker image from the parent AI4C project:
 
 ```bash
-# From the parent ai4c directory (not ai4c_agent)
+# From the parent ai4c directory (not pass_agent)
 cd ai4c
 docker build -f Dockerfile.nvidia -t ai4c:latest .
 
@@ -60,7 +60,7 @@ docker build -f Dockerfile.nvidia -t ai4c:latest .
 Run the AI4C agent with a simple command:
 
 ```bash
-cd ai4c_agent
+cd pass_agent
 
 # Run on demo dataset (10 tasks)
 python examples/run_ai4c_demo.py \
@@ -188,7 +188,7 @@ python examples/run_ai4c_demo.py \
 ## Directory Structure
 
 ```
-ai4c_agent/
+pass_agent/
 ├── __init__.py
 ├── runtime/
 │   ├── __init__.py
