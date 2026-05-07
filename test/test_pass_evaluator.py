@@ -3,7 +3,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-_mod_path = Path(__file__).resolve().parents[1] / "ai4c_agent/tools/pass_evaluator.py"
+_mod_path = Path(__file__).resolve().parents[1] / "pass_agent/tools/pass_evaluator.py"
 _spec = importlib.util.spec_from_file_location("pass_evaluator", _mod_path)
 _mod = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_mod)

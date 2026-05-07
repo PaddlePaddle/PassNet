@@ -108,8 +108,8 @@ if args.anthropic_api_key:
     os.environ["ANTHROPIC_API_KEY"] = args.anthropic_api_key
 os.environ["MAX_WORKERS"] = str(args.max_workers)
 
-# Add ai4c_agent directory to path
-# sys.path.insert(0, "/ssd1/hesijun/ai4c/ai4c_agent")
+# Add pass_agent directory to path
+# sys.path.insert(0, "/ssd1/hesijun/ai4c/pass_agent")
 
 # Import AI4C runtime directly from runtime folder
 from runtime.ai4c_docker import AI4CDocker
@@ -118,8 +118,8 @@ from runtime.ai4c_docker import AI4CDocker
 import r2egym.agenthub.runtime.docker as docker_module
 docker_module.DockerRuntime = AI4CDocker
 
-# Import AI4CAgent
-from agent.ai4c_agent import AI4CAgent
+# Import PassAgent
+from agent.pass_agent import PassAgent
 
 # Monkey-patch: Allow custom config path via scaffold parameter
 import r2egym.agenthub.run.edit as edit_module
@@ -165,8 +165,8 @@ def patched_runagent(ds, scaffold="r2egym", **kwargs):
         agent_args = AgentArgs.from_yaml(config_file)
         agent_args.llm_name = llm_name
 
-        # Initialize agent - use AI4CAgent instead of generic Agent
-        agent = AI4CAgent(name="AI4CAgent", args=agent_args, logger=logger)
+        # Initialize agent - use PassAgent instead of generic Agent
+        agent = PassAgent(name="PassAgent", args=agent_args, logger=logger)
 
         # Run agent
         try:

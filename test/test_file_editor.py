@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 from unittest import mock
 
-_mod_path = Path(__file__).resolve().parents[1] / "ai4c_agent/tools/file_editor.py"
+_mod_path = Path(__file__).resolve().parents[1] / "pass_agent/tools/file_editor.py"
 _spec = importlib.util.spec_from_file_location("file_editor", _mod_path)
 _mod = importlib.util.module_from_spec(_spec)
 
