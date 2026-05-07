@@ -65,7 +65,7 @@ cd pass_agent
 # Run on demo dataset (10 tasks)
 python examples/run_ai4c_demo.py \
     --llm-name openai/glm-4.7 \
-    --llm-base-url http://yy.dbh.baidu-int.com/v1 \
+    --llm-base-url http://127.0.0.0:8000/v1 \
     --openai-api-key sk-YOUR_API_KEY \
     --dataset datasets/ai4c_demo_dataset.jsonl \
     --max-steps 50 \
@@ -74,7 +74,7 @@ python examples/run_ai4c_demo.py \
 # Run on a single task for testing
 python examples/run_ai4c_demo.py \
     --llm-name openai/glm-4.7 \
-    --llm-base-url http://yy.dbh.baidu-int.com/v1 \
+    --llm-base-url http://127.0.0.0:8000/v1 \
     --openai-api-key sk-YOUR_API_KEY \
     --dataset datasets/ai4c_single.jsonl \
     --max-steps 5 \
@@ -90,7 +90,7 @@ The `run_ai4c_demo.py` script supports the following arguments:
   - Examples: `openai/glm-4.7`, `anthropic/claude-3-opus`, `gpt-4o`
 
 - `--llm-base-url`: Base URL for LLM API (default: from `LLM_BASE_URL` env var)
-  - Example: `http://yy.dbh.baidu-int.com/v1`
+  - Example: `http://127.0.0.0:8000/v1`
 
 - `--openai-api-key`: OpenAI API key (default: from `OPENAI_API_KEY` env var)
   - Required for authentication
@@ -141,7 +141,7 @@ The agent saves two JSONL files for each run:
 You can also set these as environment variables instead of command-line arguments:
 
 ```bash
-export LLM_BASE_URL=http://yy.dbh.baidu-int.com/v1
+export LLM_BASE_URL=http://127.0.0.0:8000/v1
 export OPENAI_API_KEY=sk-YOUR_API_KEY
 export MAX_WORKERS=1
 
@@ -168,7 +168,7 @@ python examples/run_ai4c_demo.py \
 # Single task for testing (fast)
 python examples/run_ai4c_demo.py \
     --llm-name openai/glm-4.7 \
-    --llm-base-url http://yy.dbh.baidu-int.com/v1 \
+    --llm-base-url http://127.0.0.0:8000/v1 \
     --openai-api-key sk-YOUR_API_KEY \
     --dataset datasets/ai4c_single.jsonl \
     --max-steps 5 \
@@ -177,7 +177,7 @@ python examples/run_ai4c_demo.py \
 # Parallel execution (4 workers)
 python examples/run_ai4c_demo.py \
     --llm-name openai/glm-4.7 \
-    --llm-base-url http://yy.dbh.baidu-int.com/v1 \
+    --llm-base-url http://127.0.0.0:8000/v1 \
     --openai-api-key sk-YOUR_API_KEY \
     --dataset datasets/ai4c_demo_dataset.jsonl \
     --max-steps 50 \
