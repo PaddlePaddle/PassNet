@@ -20,7 +20,8 @@ This package extends R2E-Gym with PassNet-specific components:
 
 ### Prerequisites
 
-- Python 3.10+
+- Python 3.12+
+- PyTorch 2.9+
 - Docker with GPU support
 - PassNet Docker image built (from `Dockerfile.nvidia`)
 - PassBench sample data available (in `samples/` directory)
