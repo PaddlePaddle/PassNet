@@ -1,5 +1,5 @@
-"""AI4C Docker runtime for R2E-Gym."""
+"""PassNet docker runtime for R2E-Gym."""
 
-from runtime.ai4c_docker import AI4CDocker
+from runtime.passnet_docker import PassNetDocker
 
-__all__ = ["AI4CDocker"]
+__all__ = ["PassNetDocker"]

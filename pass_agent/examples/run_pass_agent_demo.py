@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Run AI4C agent on demo dataset.
+Run PassAgent on demo dataset.
 
-This script demonstrates how to run the AI4C agent using direct imports.
+This script demonstrates how to run the PassAgent using direct imports.
 """
 
 import os
@@ -15,7 +15,7 @@ import concurrent.futures
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Run AI4C agent on demo dataset"
+        description="Run PassAgent on demo dataset"
     )
     parser.add_argument(
         "--llm-base-url",
@@ -44,7 +44,7 @@ def parse_args():
     parser.add_argument(
         "--dataset",
         type=str,
-        default="./datasets/ai4c_demo_dataset.jsonl",
+        default="./datasets/passbench_demo_dataset.jsonl",
         help="Path to dataset JSONL file"
     )
     parser.add_argument(
@@ -56,13 +56,13 @@ def parse_args():
     parser.add_argument(
         "--traj-dir",
         type=str,
-        default="./trajectories/ai4c",
+        default="./trajectories/pass_agent",
         help="Directory to save trajectories"
     )
     parser.add_argument(
         "--exp-name",
         type=str,
-        default="ai4c_full_trajectory",
+        default="pass_agent_full_trajectory",
         help="Experiment name"
     )
     parser.add_argument(
@@ -109,14 +109,14 @@ if args.anthropic_api_key:
 os.environ["MAX_WORKERS"] = str(args.max_workers)
 
 # Add pass_agent directory to path
-# sys.path.insert(0, "/ssd1/hesijun/ai4c/pass_agent")
+# sys.path.insert(0, "/ssd1/hesijun/passnet/pass_agent")
 
-# Import AI4C runtime directly from runtime folder
-from runtime.ai4c_docker import AI4CDocker
+# Import PassNet docker runtime
+from runtime.passnet_docker import PassNetDocker
 
-# Monkey-patch: Replace DockerRuntime with AI4CDocker BEFORE importing r2e-gym
+# Monkey-patch: Replace DockerRuntime with PassNetDocker BEFORE importing r2e-gym
 import r2egym.agenthub.runtime.docker as docker_module
-docker_module.DockerRuntime = AI4CDocker
+docker_module.DockerRuntime = PassNetDocker
 
 # Import PassAgent
 from agent.pass_agent import PassAgent
@@ -179,7 +179,7 @@ def patched_runagent(ds, scaffold="r2egym", **kwargs):
                 max_steps_absolute=kwargs.get('max_steps_absolute', 50),
                 use_fn_calling=use_fn_calling,
                 max_iterations=kwargs.get('max_iterations', 1),
-                scaffold="r2egym",  # Use r2egym scaffold, AI4C tools detected via command_files
+                scaffold="r2egym",  # Use r2egym scaffold, PassNet tools detected via command_files
                 max_tokens=kwargs.get('max_tokens', 65536),
             )
             logger.info(f"Trajectory type: {type(trajectory)}")
@@ -219,7 +219,7 @@ edit_module.runagent = patched_runagent
 from r2egym.agenthub.run.edit import runagent
 
 
-def run_multiple_ai4c(
+def run_multiple_pass_agent(
     dataset_path: str,
     traj_dir: str,
     exp_name: str,
@@ -235,7 +235,7 @@ def run_multiple_ai4c(
     max_workers: int = 1,
 ):
     """
-    Run AI4C agent on multiple tasks from a JSONL dataset.
+    Run PassAgent on multiple tasks from a JSONL dataset.
 
     Args:
         dataset_path: Path to JSONL dataset file
@@ -364,14 +364,14 @@ def run_multiple_ai4c(
 
 
 if __name__ == "__main__":
-    print(f"Running AI4C agent on dataset: {args.dataset}")
+    print(f"Running PassAgent on dataset: {args.dataset}")
     print(f"Trajectories will be saved to: {args.traj_dir}")
     print(f"Using config from: {args.config}")
     print(f"LLM: {args.llm_name}")
     print("-" * 80)
 
-    # Run AI4C agent
-    results = run_multiple_ai4c(
+    # Run PassAgent
+    results = run_multiple_pass_agent(
         dataset_path=args.dataset,
         traj_dir=args.traj_dir,
         exp_name=args.exp_name,

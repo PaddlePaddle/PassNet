@@ -1,10 +1,10 @@
 """
-AI4C Docker Runtime - extends R2E-Gym DockerRuntime for AI4C tasks.
+PassNetDocker Runtime - extends R2E-Gym DockerRuntime for PassNet tasks.
 
-This runtime handles AI4C-specific setup including:
-- Mounting AI4C workspace directory
+This runtime handles PassAgent-specific setup including:
+- Mounting PassNet workspace directory
 - Installing pass_evaluator tool
-- Injecting AI4C_PROBLEM_PATH environment variable
+- Setting problem path environment
 - Loading target graph information
 - Calculating rewards based on speedup and correctness
 """
@@ -16,11 +16,11 @@ from r2egym.agenthub.runtime.docker import DockerRuntime
 from r2egym.agenthub import CMD_TIMEOUT
 
 
-class AI4CDocker(DockerRuntime):
+class PassNetDocker(DockerRuntime):
     """
-    Docker runtime for AI4C pass optimization tasks.
+    Docker runtime for PassNet pass optimization tasks.
 
-    AI4C tasks involve optimizing compiler passes by implementing high-performance
+    Tasks involve optimizing compiler passes by implementing high-performance
     custom kernels in the replacement_func. The agent should:
     1. View and understand the existing pass code structure
     2. Implement optimized replacement functions
@@ -30,8 +30,8 @@ class AI4CDocker(DockerRuntime):
 
     def __init__(
         self,
-        ds,  # dataset entry containing AI4C sample info
-        repo_path: str = "/workspace",  # AI4C workspace path
+        ds,  # dataset entry containing PassBench sample info
+        repo_path: str = "/workspace",  # PassNet workspace path
         alt_path: str = "/root",
         docker_image: str = None,
         command: list = ["/bin/bash", "-l"],
@@ -40,12 +40,12 @@ class AI4CDocker(DockerRuntime):
         **docker_kwargs,
     ):
         """
-        Initialize AI4CDocker runtime.
+        Initialize PassNet docker runtime.
 
         Args:
             ds: Dataset entry with fields like 'sample_dir', 'dsl', 'device', etc.
-            repo_path: Path where AI4C workspace is mounted
-            docker_image: AI4C docker image name
+            repo_path: Path where PassNet workspace is mounted
+            docker_image: PassNet docker image name
             command: Shell command to run in container
             logger: Logger instance
             backend: Runtime backend (docker/kubernetes/rle)
@@ -54,11 +54,11 @@ class AI4CDocker(DockerRuntime):
         # Store sample directory for this specific problem
         self.sample_dir = ds.get("sample_dir", "")
         if not self.sample_dir:
-            raise ValueError("AI4C dataset must contain 'sample_dir' field")
+            raise ValueError("PassBench dataset must contain 'sample_dir' field")
 
         # Set the problem-specific working directory
         # This will be the directory where the agent works
-        self.problem_path = f"/workspace/ai4c/{self.sample_dir}"
+        self.problem_path = f"/workspace/passnet/{self.sample_dir}"
 
         # Track speedup history across the trajectory
         self.speedup_history = []
@@ -70,11 +70,11 @@ class AI4CDocker(DockerRuntime):
                 docker.types.DeviceRequest(count=-1, capabilities=[['gpu']])
             ]
 
-        # Add privileged mode for AI4C (required for proper operation)
+        # Add privileged mode (required for proper GPU operation)
         if "privileged" not in docker_kwargs and backend == "docker":
             docker_kwargs["privileged"] = True
 
-        # Add dummy fields required by r2e-gym's DockerRuntime but not needed for AI4C
+        # Add dummy fields required by r2e-gym's DockerRuntime but not needed for PassNet
         # The parent DockerRuntime expects these fields for SWE-bench tasks
         if "parsed_commit_content" not in ds:
             # Create a valid ParsedCommit mock with all required fields
@@ -85,7 +85,7 @@ class AI4CDocker(DockerRuntime):
                 "file_diffs": [],  # Empty list of file diffs
                 "old_commit_hash": "0000000000000000000000000000000000000000",  # Dummy hash
                 "new_commit_hash": "0000000000000000000000000000000000000000",  # Dummy hash
-                "commit_message": "AI4C task - no commit",  # Placeholder message
+                "commit_message": "PassNet task - no commit",  # Placeholder message
                 "commit_date": datetime.now().isoformat(),  # Current timestamp
                 "metadata": {}  # Empty metadata
             }
@@ -106,7 +106,7 @@ class AI4CDocker(DockerRuntime):
 
     def setup_env(self):
         """
-        Setup the AI4C environment by:
+        Setup the PassAgent environment by:
         1. Installing pass_evaluator tool
         2. Setting PYTHONPATH
         3. Verifying problem structure
@@ -145,12 +145,12 @@ class AI4CDocker(DockerRuntime):
             else:
                 self.logger.warning(f"⚠️  pass_dir not found at: {pass_dir}")
 
-            self.logger.info("✅ AI4C environment setup completed")
+            self.logger.info("✅ PassAgent environment setup completed")
             self.logger.info(f"📂 Working directory: {self.problem_path}")
             self.logger.info(f"📁 Pass directory: {self.problem_path}/pass_dir")
 
         except Exception as e:
-            self.logger.error(f"❌ Error setting up AI4C environment: {e}")
+            self.logger.error(f"❌ Error setting up PassAgent environment: {e}")
             import traceback
             self.logger.error(traceback.format_exc())
             raise
@@ -170,11 +170,10 @@ class AI4CDocker(DockerRuntime):
 
     def get_task_instruction(self) -> str:
         """
-        Get the task instruction for the AI4C pass optimization task.
+        Get the task instruction for the pass optimization task.
 
         This method returns only the graph information which will be inserted
         into the {graph_info} placeholder in the scaffold's instance_prompt.
-        All other instruction content is now in the scaffold yaml file.
 
         Returns:
             Graph information string to be inserted into {graph_info} placeholder
@@ -263,7 +262,7 @@ class AI4CDocker(DockerRuntime):
 
     def _calculate_reward(self, get_test_output=False, timeout: int = 600) -> float:
         """
-        Calculate reward by running the AI4C evaluation script and parsing results.
+        Calculate reward by running the evaluation script and parsing results.
 
         TODO: Implement proper reward calculation based on speedup and correctness metrics.
         For now, returns 1.0 to enable trajectory generation.
@@ -308,7 +307,7 @@ class AI4CDocker(DockerRuntime):
                     score_data = json.loads(score_output)
                     self.logger.info(f"Score data: {score_data}")
 
-                    # Extract speedup - AI4C considers it successful if speedup > 1.0
+                    # Extract speedup - considers it successful if speedup > 1.0
                     speedup = score_data.get('speedup', 0.0)
                     correctness = score_data.get('correctness', False)
 
@@ -378,7 +377,7 @@ class AI4CDocker(DockerRuntime):
         """
         Parse time costs from pass_evaluator output if available.
 
-        Currently a stub as AI4C doesn't track stage-based time costs like KernelBench.
+        Currently a stub as PassNet doesn't track stage-based time costs like KernelBench.
         Could be extended to track compilation time, evaluation time, etc.
 
         Args:
@@ -402,6 +401,6 @@ class AI4CDocker(DockerRuntime):
         Get time cost breakdown for trajectory tracking.
 
         Returns:
-            dict: Dictionary of time costs by stage (currently empty for AI4C)
+            dict: Dictionary of time costs by stage (currently empty)
         """
         return self.time_cost

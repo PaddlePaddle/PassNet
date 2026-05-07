@@ -287,7 +287,7 @@ class PassAgent(R2EGymAgent):
             trajectory_steps=self.trajectory_steps,
             problem_statement=problem_statement,
             docker_image=env.runtime.docker_image,
-            exp_name=metadata.get("exp_name", "ai4c"),
+            exp_name=metadata.get("exp_name", "passnet"),
             env_args={},
             agent_args={},
             ds=env.runtime.ds,
