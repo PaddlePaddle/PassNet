@@ -1,26 +1,79 @@
 # PassNet
 
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
+[![PyTorch 2.9](https://img.shields.io/badge/PyTorch-2.9-EE4C2C.svg)](https://pytorch.org/)
+[![CUDA 12.8](https://img.shields.io/badge/CUDA-12.8-76B900.svg)](https://developer.nvidia.com/cuda-toolkit)
+[![HuggingFace Dataset](https://img.shields.io/badge/%F0%9F%A4%97-Dataset-blue)](https://huggingface.co/datasets/PassNet/PassNet)
+
 PassNet is an AI system for compiler optimization that leverages LLM-driven agents to automatically generate high-performance GPU kernels through compiler pass mechanisms for computation graph optimization. PassNet includes a complete optimization toolchain, the PassBench evaluation benchmark, and the PassAgent agent evaluation framework.
+
+**English** | **[中文](README_cn.md)**
+
+## Table of Contents
+
+- [Project Structure](#project-structure)
+- [Architecture Overview](#architecture-overview)
+- [Core Components](#core-components)
+- [Data and Samples](#data-and-samples)
+- [Quick Start](#quick-start)
+- [Evaluation Pipeline](#evaluation-pipeline)
+- [Agent Evaluation](#agent-evaluation)
+- [License](#license)
 
 ## Project Structure
 
 ```
 PassNet/
-├── pass_bench/               # Compiler evaluation framework: kernel compilation, correctness verification, performance benchmarking
-├── pass_agent/               # R2E-Gym agent evaluation framework
+├── pass_bench/               # PassBench compiler evaluation framework: kernel compilation, correctness verification, performance benchmarking
+├── pass_agent/               # PassAgent evaluation framework
 ├── samples/                  # PassBench sample data
-├── sample_lists/             # Sample list files (eval/train splits)
+├── sample_lists/             # PassBench sample list files (eval/train splits)
 ├── entry_scripts/            # Evaluation entry scripts
-├── graphs/                   # Computation graph data
+├── graphs/                   # Subgraph data
 ├── graph_lists/              # Subgraph lists and grouping info
 ├── test/                     # Unit tests
 ├── Dockerfile.nvidia         # Docker image definition
 └── requirements.txt          # Python dependencies
 ```
 
+## Architecture Overview
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                             PassAgent                                   │
+│                    (LLM-driven Pass Generation)                         │
+│ ┌─────────────────────────────────────────────────────────────────────┐ │◄───┐
+│ │  Multi-step Iterative Solving  ·  k-attempts  ·  R2E-Gym Framework  │ │    │
+│ └─────────────────────────────────────────────────────────────────────┘ │    │
+└────────────────┬───────────────────────────────────────┬────────────────┘    │
+      read data  │                        generated pass │                     │
+                 ▼                                       ▼                     │
+┌───────────────────────────────────┐    ┌───────────────────────────────┐     │
+│             DataSet               │    │          PassBench            │     │
+│  ┌─────────────────────────────┐  │    │  ┌──────────────────────────┐ │     │
+│  │ graphs/                     │  │    │  │ 1. Execution & Eval      │ │     │
+│  │  sole_op  (5,939)           │  │    │  │    Eager Execution       │ │     │
+│  │  fusible  (22,870)          │  │    │  │    pass_mgr Execution    │ │     │
+│  │  typical  (25,151)          │  │    │  └────────────┬─────────────┘ │     │
+│  └─────────────────────────────┘  │    │               │               │     │
+│  ┌─────────────────────────────┐  │    │               ▼               │  feedback
+│  │ samples/                    │  │    │  ┌──────────────────────────┐ │     │
+│  │  sole_op  (1,029)           │  │    │  │ 2. Result Checking       │ │     │
+│  │  fusible  (4,676)           │  │    │  │    Correctness & Speedup │ │     │
+│  │  typical  (4,278)           │  │    │  └────────────┬─────────────┘ │     │
+│  └─────────────────────────────┘  │    │               │               │     │
+│  ┌─────────────────────────────┐  │    │               ▼               │     │
+│  │ sample_lists/               │  │    │  ┌──────────────────────────┐ │     │
+│  │  train/                     │  │    │  │ 3. Score Aggregation     │ │     │
+│  │  eval/                      │  │    │  │    ES(t) & AS Met        │ │     │
+│  └─────────────────────────────┘  │    │  └──────────────────────────┘ │     │
+└───────────────────────────────────┘    └───────────────────────────────┘     │
+                                                         └─────────────────────┘
+```
+
 ## Core Components
 
-### pass_bench — Compiler Evaluation Framework
+### [PassBench](pass_bench/) — Compiler Evaluation Framework
 
 Provides kernel compilation, correctness verification, and performance benchmarking:
 
@@ -29,7 +82,7 @@ Provides kernel compilation, correctness verification, and performance benchmark
 - **Performance Benchmarking**: Measures speedup and other metrics, outputs `aggregated_score.json`
 - **Score Aggregation**: `aggregate_es_scores.py` aggregates results from multiple evaluation runs
 
-### pass_agent — R2E-Gym Agent Evaluation Framework
+### [PassAgent](pass_agent/) — R2E-Gym Agent Evaluation Framework
 
 Evaluates agent capabilities for compiler optimization using the R2E-Gym framework. See [pass_agent/README.md](pass_agent/README.md) for details.
 
