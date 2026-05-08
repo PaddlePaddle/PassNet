@@ -321,7 +321,7 @@ class PassNetDocker(DockerRuntime):
             self.logger.info(f"Evaluation completed with exit code: {exit_code}")
 
             # Parse the aggregated score
-            score_file = "/tmp/workspace_graph_net_bench_test/aggregated_score.json"
+            score_file = "/tmp/workspace_pass_bench_test/aggregated_score.json"
             score_output, score_code = self.run(f"cat {score_file}")
 
             reward = 0.0
