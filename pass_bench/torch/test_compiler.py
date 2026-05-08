@@ -17,6 +17,7 @@ import inspect
 import base64
 from pass_bench.torch.backend.graph_compiler_backend import GraphCompilerBackend
 from pass_bench.torch.backend.nope_backend import NopeBackend
+from pass_bench.torch.backend.inductor_backend import InductorBackend
 from pass_bench.torch.backend.pass_mgr_backend import PassMgrBackend
 from pass_bench.torch.backend.pass_mgr_direct import PassMgrDirectBackend
 from pass_bench.torch.override_dispatch_flag import global_override_dispatch
@@ -26,6 +27,7 @@ from pass_bench import path_utils
 
 compiler_backend_name2class = {
     "nope": NopeBackend,
+    "inductor": InductorBackend,
     "pass_mgr": PassMgrBackend,
     "pass_mgr_direct": PassMgrDirectBackend,
 }
