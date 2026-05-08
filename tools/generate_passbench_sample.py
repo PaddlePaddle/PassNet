@@ -87,8 +87,8 @@ def generate_sample(
         sample_output_path / "entry.sh",
     )
     safe_relative_symlink(
-        passnet_root / "graph_net_bench",
-        sample_output_path / "graph_net_bench",
+        passnet_root / "pass_bench",
+        sample_output_path / "pass_bench",
     )
 
     # Write sample_uids.txt
@@ -111,9 +111,9 @@ def evaluate_sample(sample_path: str) -> bool:
     """
     Evaluate a PassBench sample.
     """
-    validation_log_path = Path("/tmp/workspace_graph_net_bench_test/validation.log")
+    validation_log_path = Path("/tmp/workspace_pass_bench_test/validation.log")
     aggregated_score_path = Path(
-        "/tmp/workspace_graph_net_bench_test/aggregated_score.json"
+        "/tmp/workspace_pass_bench_test/aggregated_score.json"
     )
 
     sample_dir = Path(sample_path).resolve()
