@@ -14,10 +14,10 @@ PassNet is an AI system for compiler optimization that leverages LLM-driven agen
 - [Project Structure](#project-structure)
 - [Architecture Overview](#architecture-overview)
 - [Core Components](#core-components)
-- [Data and Samples](#data-and-samples)
+- [DataSet](#dataset)
 - [Quick Start](#quick-start)
-- [Evaluation Pipeline](#evaluation-pipeline)
-- [Agent Evaluation](#agent-evaluation)
+- [PassBench Evaluation Pipeline](#passbench-evaluation-pipeline)
+- [PassAgent Evaluation](#passagent-evaluation)
 - [License](#license)
 
 ## Project Structure
@@ -86,7 +86,7 @@ Provides kernel compilation, correctness verification, and performance benchmark
 
 Evaluates agent capabilities for compiler optimization using the R2E-Gym framework. See [pass_agent/README.md](pass_agent/README.md) for details.
 
-## Data and Samples
+## DataSet
 
 ### graphs — Raw Subgraph Data
 
@@ -177,9 +177,6 @@ pip install -r requirements.txt
 
 # Set environment variables
 export PYTHONPATH=$PYTHONPATH:/path/to/passnet
-export PASSNET_BASE_URL='your_llm_base_url'
-export PASSNET_API_KEY='your_llm_api_key'
-export PASSNET_API_MODEL_NAME='your_llm_api_model_name'
 ```
 
 ### Run Example
@@ -207,7 +204,7 @@ docker run --gpus all --privileged \
     bash samples/fusible_subgraphs/crossvit_15_dagger_240.in1k/crossvit_15_dagger_240.in1k_0_start14_end16_4/entry.sh
 ```
 
-## Evaluation Pipeline
+## PassBench Evaluation Pipeline
 
 The PassNet evaluation pipeline works as follows:
 
@@ -217,7 +214,7 @@ The PassNet evaluation pipeline works as follows:
 4. **Correctness Verification**: Validate numerical consistency between the optimized and original kernels
 5. **Performance Benchmarking**: Measure speedup and output evaluation results
 
-## Agent Evaluation
+## PassAgent Evaluation
 
 Evaluate agents using the PassAgent framework:
 

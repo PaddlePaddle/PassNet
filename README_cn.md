@@ -14,10 +14,10 @@ PassNet 是一个面向编译器优化的 AI 系统，利用大语言模型（LL
 - [项目结构](#项目结构)
 - [架构概览](#架构概览)
 - [核心组件](#核心组件)
-- [数据与样本](#数据与样本)
+- [数据集](#数据集)
 - [快速开始](#快速开始)
-- [评测流程](#评测流程)
-- [Agent 评估](#agent-评估)
+- [PassBench评测流程](#passbench评测流程)
+- [PassAgent 评估](#passagent-评估)
 - [许可证](#许可证)
 
 ## 项目结构
@@ -177,9 +177,6 @@ pip install -r requirements.txt
 
 # 设置环境变量
 export PYTHONPATH=$PYTHONPATH:/path/to/passnet
-export PASSNET_BASE_URL='your_llm_base_url'
-export PASSNET_API_KEY='your_llm_api_key'
-export PASSNET_API_MODEL_NAME='your_llm_api_model_name'
 ```
 
 ### 运行示例
@@ -207,7 +204,7 @@ docker run --gpus all --privileged \
     bash samples/fusible_subgraphs/crossvit_15_dagger_240.in1k/crossvit_15_dagger_240.in1k_0_start14_end16_4/entry.sh
 ```
 
-## 评测流程
+## PassBench评测流程
 
 PassNet 的评测流程如下：
 
@@ -217,7 +214,7 @@ PassNet 的评测流程如下：
 4. **正确性验证**：验证优化后算子与原始算子的数值一致性
 5. **性能评测**：统计加速比，输出评测结果
 
-## Agent 评估
+## PassAgent 评估
 
 使用 PassAgent 框架评估 Agent：
 
