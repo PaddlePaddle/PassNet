@@ -142,7 +142,7 @@ def run_evaluation():
         print(line)
 
     # Parse the aggregated score
-    output_path = Path("/tmp/workspace_graph_net_bench_test")
+    output_path = Path("/tmp/workspace_pass_bench_test")
     score_file = output_path / "aggregated_score.json"
 
     if score_file.exists():

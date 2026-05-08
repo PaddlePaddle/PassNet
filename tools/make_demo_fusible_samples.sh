@@ -40,10 +40,10 @@ get_selected \
 
 get_selected \
     | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8}' \
-    | xargs -I{} unlink ./{}/graph_net_bench
+    | xargs -I{} unlink ./{}/pass_bench
 get_selected \
     | awk -F'/' '{print "samples/fusible_subgraphs/"$4"/"$8}' \
-    | xargs -I{} ln -sr ./graph_net_bench ./{}/graph_net_bench
+    | xargs -I{} ln -sr ./pass_bench ./{}/pass_bench
 
 get_selected | while read i;
 do
