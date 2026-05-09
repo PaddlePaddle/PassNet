@@ -1,9 +1,17 @@
---extra-index-url https://download.pytorch.org/whl/cu128
-torch==2.9.1+cu128
-torchvision==0.24.1+cu128
-torchaudio==2.9.1+cu128
-openai
-docker
-jinja2
-scipy
-chardet
+# PassNet - Full installation (all components)
+#
+# Install everything:       pip install -r requirements.txt
+# Install pass_bench only:  pip install -r pass_bench/requirements.txt
+# Install pass_agent only:  pip install -r pass_agent/requirements.txt
+
+# Core (PassBench evaluation)
+-r pass_bench/requirements.txt
+
+# PassAgent (R2E-Gym based)
+-r pass_agent/requirements.txt
+
+# Legacy PassAgent
+-r legacy_pass_agent/requirements.txt
+
+# Dev / Testing
+pytest

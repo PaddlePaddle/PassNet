@@ -1,6 +1,9 @@
-
 # Core dependency - r2e-gym framework (from GitHub)
 git+https://github.com/R2E-Gym/R2E-Gym.git
+
+# Runtime dependencies
+docker
+chardet
 
 # Note: PassNet benchmark is NOT a code dependency
 # PassAgent uses:

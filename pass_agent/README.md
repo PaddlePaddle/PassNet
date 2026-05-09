@@ -20,11 +20,9 @@ This package extends R2E-Gym with PassNet-specific components:
 
 ### Prerequisites
 
-- Python 3.12+
-- PyTorch 2.9+
-- Docker with GPU support
-- PassNet Docker image built (from `Dockerfile.nvidia`)
-- PassBench sample data available (in `samples/` directory)
+See [project root README](../README.md#quick-start) for environment requirements (Python, PyTorch, CUDA, Docker) and Docker image build instructions.
+
+Additionally, PassBench sample data must be available (in `samples/` directory).
 
 ### Install PassAgent
 
@@ -40,13 +38,6 @@ PassAgent does NOT have a Python code dependency on PassNet. Instead:
 1. **Docker Image**: Uses Docker image built from `../Dockerfile.nvidia`
 2. **Data**: Mounts PassBench sample directories as volumes at runtime
 3. **No imports**: Does not import any PassNet Python modules directly
-
-### Build PassNet Docker Image
-
-```bash
-# From the PassNet repo root directory
-docker build -f Dockerfile.nvidia -t passnet:latest .
-```
 
 ## Usage
 
@@ -153,11 +144,10 @@ The `pass_evaluator` tool (defined as a function-calling tool in PassAgent):
 
 ### Agent Workflow
 
-1. **Analyze target computation**: Study graph info (model.py, weight_meta.py)
-2. **Design optimization passes**: Create pass files with pattern matching
-3. **Implement optimized kernels**: Write high-performance Triton kernels
-4. **Run evaluation**: Use pass_evaluator tool
-5. **Iterate for better performance**: Adjust implementation based on results
+See [PassBench Evaluation Pipeline](../README.md#passbench-evaluation-pipeline) for the overall optimization flow. Within that pipeline, the agent interacts via two tools:
+
+- **file_editor**: Creates/modifies pass files in `pass_dir/`
+- **pass_evaluator**: Executes `entry.sh` and reports metrics back to the agent
 
 ## Dependencies
 
@@ -165,7 +155,7 @@ The `pass_evaluator` tool (defined as a function-calling tool in PassAgent):
 - **r2e-gym**: Agent framework and orchestration (installed from GitHub: https://github.com/R2E-Gym/R2E-Gym)
 
 ### Runtime Dependencies (not Python packages)
-- **PassNet Docker Image**: Built from `../Dockerfile.nvidia`, contains torch/triton/evaluation scripts
+- **PassNet Docker Image**: Built from `../Dockerfile.nvidia` (see [root README](../README.md#docker-usage))
 - **PassBench Sample Data**: Located in `../samples/` directory, mounted at runtime
 - **GPU**: NVIDIA GPU with CUDA support
 
