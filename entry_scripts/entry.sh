@@ -1,14 +1,14 @@
 #!/bin/bash
 
-ai4c_repo_root=$(realpath $0 | xargs -I{} dirname {} | xargs -I{} dirname {})
-if [ ! -f "$ai4c_repo_root/graph_net_bench/__init__.py" ]; then
-    echo Python module graph_net_bench not found
+passnet_repo_root=$(realpath $0 | xargs -I{} dirname {} | xargs -I{} dirname {})
+if [ ! -f "$passnet_repo_root/pass_bench/__init__.py" ]; then
+    echo Python module pass_bench not found
     exit -1
 fi
-export PYTHONPATH=$ai4c_repo_root:$PYTHONPATH
+export PYTHONPATH=$passnet_repo_root:$PYTHONPATH
 
 SAMPLE_ROOT=$(dirname $0)
-OUTPUT_PATH=/tmp/workspace_graph_net_bench_test
+OUTPUT_PATH=/tmp/workspace_pass_bench_test
 
 mkdir -p "$OUTPUT_PATH"
 model_list="$SAMPLE_ROOT/graph_list.txt"
@@ -17,7 +17,7 @@ pass_match_result_file_path=$(mktemp)
 
 compiler_method=pass_mgr
 
-python3 -m graph_net_bench.torch.test_compiler \
+python3 -m pass_bench.torch.test_compiler \
     --model-path-prefix $SAMPLE_ROOT \
     --allow-list $model_list \
     --compiler $compiler_method \
@@ -42,7 +42,7 @@ if [[ $compiler_method == "pass_mgr" && $pass_match_result == "False" ]]; then
     echo Pass testing early exits on pass mismatch.
 fi
 
-python3 -m graph_net_bench.aggregate_es_scores \
+python3 -m pass_bench.aggregate_es_scores \
     --benchmark-path "$OUTPUT_PATH/validation.log" \
     --sample-id 1 \
     --disable-aggregation-mode \

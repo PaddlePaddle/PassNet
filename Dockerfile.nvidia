@@ -37,7 +37,7 @@ COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Set working directory
-WORKDIR /workspace/ai4c
+WORKDIR /workspace/passnet
 
 # Copy project files (including .git directory to maintain git functionality)
 COPY . .
@@ -46,12 +46,12 @@ COPY . .
 RUN git reset --hard HEAD
 
 # Set PYTHONPATH
-ENV PYTHONPATH=/workspace/ai4c:$PYTHONPATH
+ENV PYTHONPATH=/workspace/passnet:$PYTHONPATH
 
-# Set environment variables for AI4C (these should be overridden at runtime)
-ENV AI4C_BASE_URL=""
-ENV AI4C_API_KEY=""
-ENV AI4C_API_MODEL_NAME=""
+# Set environment variables for PassNet LLM access (these should be overridden at runtime)
+ENV PASSNET_BASE_URL=""
+ENV PASSNET_API_KEY=""
+ENV PASSNET_API_MODEL_NAME=""
 
 # Default command
 CMD ["/bin/bash"]

@@ -1,0 +1,12 @@
+# Core dependency - r2e-gym framework (from GitHub)
+git+https://github.com/R2E-Gym/R2E-Gym.git
+
+# Runtime dependencies
+docker
+chardet
+
+# Note: PassNet benchmark is NOT a code dependency
+# PassAgent uses:
+# 1. PassNet Docker image - built from ../Dockerfile.nvidia
+# 2. PassBench sample data - mounted as volume during runtime
+# 3. No direct Python imports from PassNet code

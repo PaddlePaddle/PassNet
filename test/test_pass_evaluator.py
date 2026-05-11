@@ -3,7 +3,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-_mod_path = Path(__file__).resolve().parents[1] / "ai4c_agent/tools/pass_evaluator.py"
+_mod_path = Path(__file__).resolve().parents[1] / "pass_agent/tools/pass_evaluator.py"
 _spec = importlib.util.spec_from_file_location("pass_evaluator", _mod_path)
 _mod = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_mod)
@@ -44,8 +44,7 @@ def test_timeout_flushes_output():
         "mod.run_with_timeout(['bash','-c','echo before_timeout; sleep 10'], cwd='/tmp', timeout=2)\n"
     )
     result = subprocess.run(
-        [sys.executable, "-c", script],
-        capture_output=True, text=True
+        [sys.executable, "-c", script], capture_output=True, text=True
     )
     assert result.returncode == 1
     assert "before_timeout" in result.stdout

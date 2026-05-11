@@ -15,6 +15,7 @@ import argparse
 from pathlib import Path
 from typing import List
 
+
 def get_sample_uids_to_relative_path(root_dir: str) -> List[str]:
     """
     Core logic: yield lines formatted as "content\trelative_path" for each
@@ -24,12 +25,12 @@ def get_sample_uids_to_relative_path(root_dir: str) -> List[str]:
     lines = []
 
     # Find all sample_uids.txt files recursively
-    file_paths = list(root_path.rglob('sample_uids.txt'))
+    file_paths = list(root_path.rglob("sample_uids.txt"))
 
     for file_path in file_paths:
         try:
             # Read entire file content as a string (preserving newlines)
-            content = file_path.read_text(encoding='utf-8')
+            content = file_path.read_text(encoding="utf-8")
         except Exception:
             # Skip unreadable files
             continue
@@ -43,7 +44,7 @@ def get_sample_uids_to_relative_path(root_dir: str) -> List[str]:
 
         rel_str = str(rel_dir)
         # Remove possible leading './' (though relative_to should not produce it)
-        if rel_str.startswith('./'):
+        if rel_str.startswith("./"):
             rel_str = rel_str[2:]
 
         # Append formatted line
@@ -51,16 +52,18 @@ def get_sample_uids_to_relative_path(root_dir: str) -> List[str]:
 
     return lines
 
+
 def main():
     parser = argparse.ArgumentParser(
         description="Map contents of sample_uids.txt files to relative paths."
     )
-    parser.add_argument('root_dir', help='Root directory to search recursively')
+    parser.add_argument("root_dir", help="Root directory to search recursively")
     args = parser.parse_args()
 
     output_lines = get_sample_uids_to_relative_path(args.root_dir)
     for line in output_lines:
         print(line)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

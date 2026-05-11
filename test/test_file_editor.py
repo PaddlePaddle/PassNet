@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 from unittest import mock
 
-_mod_path = Path(__file__).resolve().parents[1] / "ai4c_agent/tools/file_editor.py"
+_mod_path = Path(__file__).resolve().parents[1] / "pass_agent/tools/file_editor.py"
 _spec = importlib.util.spec_from_file_location("file_editor", _mod_path)
 _mod = importlib.util.module_from_spec(_spec)
 
@@ -20,6 +20,7 @@ EditorError = _mod.EditorError
 # helpers
 # ---------------------------------------------------------------------------
 
+
 def make_editor():
     return StrReplaceEditor(file_history={})
 
@@ -27,6 +28,7 @@ def make_editor():
 # ---------------------------------------------------------------------------
 # view – file
 # ---------------------------------------------------------------------------
+
 
 def test_view_py_file(tmp_path):
     f = tmp_path / "hello.py"
@@ -81,6 +83,7 @@ def test_view_invalid_range_returns_error(tmp_path):
 # view – directory
 # ---------------------------------------------------------------------------
 
+
 def test_view_directory_python_only_false(tmp_path):
     (tmp_path / "a.py").write_text("pass\n", encoding="utf-8")
     (tmp_path / "b.txt").write_text("text\n", encoding="utf-8")
@@ -104,6 +107,7 @@ def test_view_directory_python_only_true_excludes_non_py(tmp_path):
 # python_only defaults to False
 # ---------------------------------------------------------------------------
 
+
 def test_python_only_default_is_false(tmp_path):
     """run() default python_only=False: non-.py files must be viewable."""
     f = tmp_path / "data.json"
@@ -118,6 +122,7 @@ def test_python_only_default_is_false(tmp_path):
 # ---------------------------------------------------------------------------
 # create
 # ---------------------------------------------------------------------------
+
 
 def test_create_new_file(tmp_path):
     f = tmp_path / "new.py"
@@ -142,6 +147,7 @@ def test_create_existing_file_raises(tmp_path):
 # ---------------------------------------------------------------------------
 # str_replace
 # ---------------------------------------------------------------------------
+
 
 def test_str_replace_basic(tmp_path):
     f = tmp_path / "code.py"
@@ -178,6 +184,7 @@ def test_str_replace_multiple_occurrences_raises(tmp_path):
 # insert
 # ---------------------------------------------------------------------------
 
+
 def test_insert_line(tmp_path):
     f = tmp_path / "code.py"
     f.write_text("line1\nline3\n", encoding="utf-8")
@@ -205,6 +212,7 @@ def test_insert_invalid_line_raises(tmp_path):
 # undo_edit
 # ---------------------------------------------------------------------------
 
+
 def test_undo_edit(tmp_path):
     f = tmp_path / "code.py"
     f.write_text("original\n", encoding="utf-8")
@@ -229,6 +237,7 @@ def test_undo_edit_no_history_raises(tmp_path):
 # ---------------------------------------------------------------------------
 # validate_path
 # ---------------------------------------------------------------------------
+
 
 def test_view_nonexistent_path_raises(tmp_path):
     editor = make_editor()
