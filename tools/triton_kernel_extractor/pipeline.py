@@ -38,7 +38,7 @@ def _load_samples(
     # source == "hf"
     if dataset.hf_subdir is None:
         raise ValueError("hf_subdir must be set for 'hf' source")
-    return enumerate_hf_samples(config.graphnet_hf_dir, dataset.hf_subdir)
+    return enumerate_hf_samples(config.passnet_hf_dir, dataset.hf_subdir)
 
 
 def run_dataset_pipeline(
@@ -60,7 +60,7 @@ def run_dataset_pipeline(
         logger.info(" Graph list: %s", dataset.graph_list_file)
     else:
         logger.info(
-            " HF dir:     %s/%s", config.graphnet_hf_dir, dataset.hf_subdir
+            " HF dir:     %s/%s", config.passnet_hf_dir, dataset.hf_subdir
         )
 
     logger.info(" Samples:    %d", len(samples))

@@ -1,15 +1,15 @@
 #!/bin/bash
 
-BASE_DIR="/path/to/ai4c/repo/"
+PASSNET_DIR="/path/to/passnet/repo/"
 
 INPUT_LISTS=(
-    "${BASE_DIR}/sample_lists/hf_typical_samples_v2.txt"
-    "${BASE_DIR}/sample_lists/hf_sole_op_samples_v2.txt"
-    "${BASE_DIR}/sample_lists/hf_fusible_samples_v2.txt"
+    "${PASSNET_DIR}/sample_lists/hf_typical_samples_v2.txt"
+    "${PASSNET_DIR}/sample_lists/hf_sole_op_samples_v2.txt"
+    "${PASSNET_DIR}/sample_lists/hf_fusible_samples_v2.txt"
 )
 
-if [ ! -d "$BASE_DIR" ]; then
-    echo "Error: base directory $BASE_DIR not found"
+if [ ! -d "$PASSNET_DIR" ]; then
+    echo "Error: base directory $PASSNET_DIR not found"
     exit 1
 fi
 
@@ -25,7 +25,7 @@ for INPUT_LIST in "${INPUT_LISTS[@]}"; do
         clean_rel_path=$(echo "$rel_path" | tr -d '\r' | xargs)
         [ -z "$clean_rel_path" ] && continue
 
-        TARGET_FILE="${BASE_DIR}/${clean_rel_path}/graph_list.txt"
+        TARGET_FILE="${PASSNET_DIR}/${clean_rel_path}/graph_list.txt"
 
         if [ -f "$TARGET_FILE" ]; then
             cat "$TARGET_FILE" >> "$OUTPUT_FILE"

@@ -7,10 +7,10 @@ Subcommands
 
     python3 -m tools.triton_kernel_extractor [extract] \\
         --source list \\
-        --dataset-base-dir /data/ai4c_dataset \\
+        --dataset-base-dir /data/passnet_dataset \\
         --graphnet-dir /opt/GraphNet \\
-        --ai4c-base /opt/ai4c \\
-        --graphnet-hf-dir /opt/GraphNet_hf \\
+        --passnet-dir /opt/passnet \\
+        [--passnet-hf-dir /opt/passnet/graphs/hf_subgraphs_v2] \\
         [--gpu-ids 0 2 5 7]
 
 **analyze**::
@@ -117,19 +117,22 @@ def _add_extract_parser(subparsers: argparse._SubParsersAction) -> None:
         "--graphnet-dir",
         type=Path,
         required=True,
-        help="Path to the GraphNet repository (added to PYTHONPATH by the bash wrapper).",
+        help="Path to the GraphNet repository (added to PYTHONPATH for graph_net_bench).",
     )
     parser.add_argument(
-        "--ai4c-base",
+        "--passnet-dir",
         type=Path,
         required=True,
-        help="Root of the ai4c repository (prefix for model paths in 'list' mode).",
+        help="Root of the PassNet repository (prefix for model paths in 'list' mode).",
     )
     parser.add_argument(
-        "--graphnet-hf-dir",
+        "--passnet-hf-dir",
         type=Path,
-        required=True,
-        help="Root of the GraphNet HuggingFace data directory.",
+        default=None,
+        help=(
+            "Root of the HuggingFace graph data directory. "
+            "Defaults to {passnet-dir}/graphs/hf_subgraphs_v2 when not specified."
+        ),
     )
     parser.add_argument(
         "--enable-cache-analysis",
@@ -146,9 +149,8 @@ def _add_extract_parser(subparsers: argparse._SubParsersAction) -> None:
         default=False,
         help=(
             "Enable Inductor max_autotune mode during compilation. "
-            "This activates comprehensive autotuning across all backends "
-            "(max_autotune, max_autotune_gemm, coordinate_descent_tuning, "
-            "epilogue_fusion) via the GraphNet inductor config template."
+            "Passes mode='max-autotune' to the GraphNet InductorBackend, "
+            "which activates comprehensive autotuning via torch.compile."
         ),
     )
     parser.set_defaults(func=_run_extract)
@@ -159,13 +161,17 @@ def _run_extract(args: argparse.Namespace) -> None:
 
     gpu_ids = args.gpu_ids if args.gpu_ids else _detect_gpu_ids()
 
+    passnet_hf_dir = args.passnet_hf_dir
+    if passnet_hf_dir is None:
+        passnet_hf_dir = args.passnet_dir / "graphs" / "hf_subgraphs_v2"
+
     config = PipelineConfig(
         source=args.source,
         gpu_ids=gpu_ids,
         dataset_base_dir=args.dataset_base_dir,
         graphnet_dir=args.graphnet_dir,
-        ai4c_base=args.ai4c_base,
-        graphnet_hf_dir=args.graphnet_hf_dir,
+        passnet_dir=args.passnet_dir,
+        passnet_hf_dir=passnet_hf_dir,
         max_autotune=args.max_autotune,
     )
 

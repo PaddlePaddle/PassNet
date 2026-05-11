@@ -27,22 +27,20 @@ GPU_ARG="${2:-}"
 # ============================================================
 # Machine-specific path configuration
 #
-# Edit the four variables below to match your local environment.
+# Edit the variables below to match your local environment.
 # ============================================================
 
-DATASET_BASE_DIR="/path/to/ai4c_dataset"
+DATASET_BASE_DIR="/path/to/dataset_output"
 GRAPHNET_DIR="/path/to/GraphNet/GitHub/repo/"
-AI4C_BASE="/path/to/ai4c/repo"
-GRAPHNET_HF_DIR="/path/to/GraphNet/Huggingface/repo/"
 
 # ============================================================
 # Environment setup
 # ============================================================
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-AI4C_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+PASSNET_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 
-export PYTHONPATH="$GRAPHNET_DIR:${AI4C_ROOT}:${PYTHONPATH:-}"
+export PYTHONPATH="$GRAPHNET_DIR:${PASSNET_DIR}:${PYTHONPATH:-}"
 
 # ============================================================
 # Build Python CLI arguments
@@ -52,8 +50,7 @@ PYTHON_ARGS=(
     --source "$SOURCE"
     --dataset-base-dir "$DATASET_BASE_DIR"
     --graphnet-dir "$GRAPHNET_DIR"
-    --ai4c-base "$AI4C_BASE"
-    --graphnet-hf-dir "$GRAPHNET_HF_DIR"
+    --passnet-dir "$PASSNET_DIR"
     --max-autotune
     --enable-cache-analysis
 )

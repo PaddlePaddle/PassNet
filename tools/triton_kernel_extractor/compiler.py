@@ -54,8 +54,8 @@ def _is_already_compiled(
 def _compile_one_sample(
     sample_path: str,
     source: str,
-    ai4c_base: str,
-    graphnet_hf_dir: str,
+    passnet_dir: str,
+    passnet_hf_dir: str,
     cache_dir: Path,
     gpu_id: int,
     progress_label: str,
@@ -65,8 +65,8 @@ def _compile_one_sample(
 
     Returns one of ``"compiled"``, ``"skipped"``, or ``"failed"``.
     """
-    unique_dir = compute_unique_dir(source, sample_path, graphnet_hf_dir)
-    full_model_path = resolve_model_path(source, sample_path, ai4c_base)
+    unique_dir = compute_unique_dir(source, sample_path, passnet_hf_dir)
+    full_model_path = resolve_model_path(source, sample_path, passnet_dir)
 
     graph_cache_dir = cache_dir / unique_dir
     log_file = graph_cache_dir / "test_compiler_log.log"
@@ -131,8 +131,8 @@ def _compile_one_sample(
 def _compile_chunk(
     samples: list[str],
     source: str,
-    ai4c_base: str,
-    graphnet_hf_dir: str,
+    passnet_dir: str,
+    passnet_hf_dir: str,
     cache_dir: Path,
     gpu_id: int,
     compiler_config: str | None = None,
@@ -150,8 +150,8 @@ def _compile_chunk(
         status = _compile_one_sample(
             sample_path=sample_path,
             source=source,
-            ai4c_base=ai4c_base,
-            graphnet_hf_dir=graphnet_hf_dir,
+            passnet_dir=passnet_dir,
+            passnet_hf_dir=passnet_hf_dir,
             cache_dir=cache_dir,
             gpu_id=gpu_id,
             progress_label=label,
@@ -193,7 +193,7 @@ def compile_all_samples(
     # Build base64-encoded config for test_compiler --config, if needed.
     compiler_config: str | None = None
     if config.max_autotune:
-        config_dict = {"graph_net_inductor_config_template": "max_autotune"}
+        config_dict = {"mode": "max-autotune"}
         compiler_config = base64.b64encode(
             json.dumps(config_dict).encode()
         ).decode()
@@ -219,8 +219,8 @@ def compile_all_samples(
                 _compile_chunk,
                 samples=chunk,
                 source=config.source,
-                ai4c_base=str(config.ai4c_base),
-                graphnet_hf_dir=str(config.graphnet_hf_dir),
+                passnet_dir=str(config.passnet_dir),
+                passnet_hf_dir=str(config.passnet_hf_dir),
                 cache_dir=dataset.cache_dir,
                 gpu_id=gid,
                 compiler_config=compiler_config,

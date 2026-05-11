@@ -30,8 +30,8 @@ downstream analysis.
 
 ## Pipeline Steps
 
-The pipeline processes three dataset categories — `sole_op_graph`,
-`fusible_graph`, and `typical_graph` — executing five steps for each:
+The pipeline processes three dataset categories — `sole_op_subgraphs`,
+`fusible_subgraphs`, and `typical_subgraphs` — executing five steps for each:
 
 ### Step 1: Multi-GPU Parallel Compilation
 
@@ -40,7 +40,7 @@ Compiles each subgraph sample using `graph_net_bench.torch.test_compiler
 available GPUs in round-robin fashion, with one `ProcessPoolExecutor` worker per
 GPU.  Each subprocess receives a dedicated `CUDA_VISIBLE_DEVICES` and an
 isolated `TORCHINDUCTOR_CACHE_DIR`.  Pass `--max-autotune` to enable Inductor's
-`max_autotune` mode (via the GraphNet config template), which activates
+`max_autotune` mode (via `torch.compile(mode="max-autotune")`), which activates
 comprehensive autotuning including `max_autotune_gemm`,
 `coordinate_descent_tuning`, and `epilogue_fusion`.
 
@@ -128,10 +128,10 @@ bash tools/extract_triton_kernels.sh hf 0,2,5,7      # specify GPUs
 ```bash
 python3 -m tools.triton_kernel_extractor \
     --source list \
-    --dataset-base-dir /data/ai4c_dataset \
+    --dataset-base-dir /data/passnet_dataset \
     --graphnet-dir /opt/GraphNet \
-    --ai4c-base /opt/ai4c \
-    --graphnet-hf-dir /opt/GraphNet_hf \
+    --passnet-dir /opt/passnet \
+    --passnet-hf-dir /opt/passnet/graphs/hf_subgraphs_v2 \
     --gpu-ids 0 2 5 7 \
     --max-autotune \
     --enable-cache-analysis
@@ -145,12 +145,12 @@ python3 -m tools.triton_kernel_extractor analyze <cache_dir> [--output-dir DIR]
 | Argument                   | Required | Description                                           |
 |----------------------------|----------|-------------------------------------------------------|
 | `--source`                 | Yes      | `list` (sample paths from text files) or `hf` (scan HuggingFace directories) |
-| `--dataset-base-dir`       | Yes      | Root directory of the dataset collection               |
-| `--graphnet-dir`           | Yes      | Path to the GraphNet repository (for `PYTHONPATH`)     |
-| `--ai4c-base`              | Yes      | Root of the ai4c repository                            |
-| `--graphnet-hf-dir`        | Yes      | Root of the GraphNet HuggingFace data directory        |
+| `--dataset-base-dir`       | Yes      | Root directory for cache and extraction output         |
+| `--graphnet-dir`           | Yes      | Path to the GraphNet repository (for `graph_net_bench` on PYTHONPATH) |
+| `--passnet-dir`            | Yes      | Root of the PassNet repository (model path prefix)    |
+| `--passnet-hf-dir`         | No       | HuggingFace graph data directory; defaults to `{passnet-dir}/graphs/hf_subgraphs_v2` |
 | `--gpu-ids`                | No       | GPU IDs for compilation; auto-detected when omitted    |
-| `--max-autotune`           | No       | Enable Inductor max_autotune mode during compilation   |
+| `--max-autotune`           | No       | Enable Inductor max_autotune mode (`torch.compile(mode="max-autotune")`) |
 | `--enable-cache-analysis`  | No       | Run cache analysis on each dataset after extraction    |
 
 ## Module Structure

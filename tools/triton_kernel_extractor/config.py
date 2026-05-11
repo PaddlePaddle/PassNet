@@ -7,9 +7,9 @@ from pathlib import Path
 
 # The three dataset categories processed by the pipeline.
 DATASET_NAMES: tuple[str, ...] = (
-    "sole_op_graph",
-    "fusible_graph",
-    "typical_graph",
+    "sole_op_subgraphs",
+    "fusible_subgraphs",
+    "typical_subgraphs",
 )
 
 # Log pattern emitted by the external GraphNet test_compiler with --kernel-time.
@@ -50,8 +50,8 @@ class PipelineConfig:
     gpu_ids: list[int]
     dataset_base_dir: Path
     graphnet_dir: Path
-    ai4c_base: Path
-    graphnet_hf_dir: Path
+    passnet_dir: Path
+    passnet_hf_dir: Path
     max_autotune: bool = False
 
 
@@ -91,7 +91,6 @@ def build_dataset_descriptors(
             f"Invalid source {config.source!r}. Must be 'list' or 'hf'."
         )
 
-    hf_subdirs: list[str | None]
     if config.source == "hf":
         hf_subdirs = list(DATASET_NAMES)
     else:
