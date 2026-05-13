@@ -75,12 +75,12 @@ PassNet/
 
 ### [PassBench](pass_bench/) — Compiler Evaluation Framework
 
-Provides kernel compilation, correctness verification, and performance benchmarking:
+Provides kernel compilation, correctness verification, and performance benchmarking. It serves as both a standalone evaluation tool and the backend evaluation framework invoked by PassAgent:
 
 - **Kernel Compilation**: Executes pass matching and replacement via the `pass_mgr` compiler method
-- **Correctness Verification**: Validates numerical correctness of optimized kernels using tolerance-based comparison
-- **Performance Benchmarking**: Measures speedup and other metrics, outputs `aggregated_score.json`
-- **Score Aggregation**: `aggregate_es_scores.py` aggregates results from multiple evaluation runs
+- **Correctness Verification**: Validates numerical correctness of optimized kernels against dtype-specific tolerance thresholds (float32 / float16 / bfloat16)
+- **Performance Benchmarking**: Measures speedup over 100 trials and outputs `aggregated_score.json`
+- **Score Aggregation**: `aggregate_es_scores.py` computes ES(t) scores across all graphs in a sample
 
 ### [PassAgent](pass_agent/) — R2E-Gym Agent Evaluation Framework
 
@@ -208,11 +208,11 @@ docker run --gpus all --privileged \
 
 The PassNet evaluation pipeline works as follows:
 
-1. **Analyze computation graph**: Read the target subgraph's `model.py` and `weight_meta.py`
-2. **Generate optimization pass**: Create pattern matching rules and replacement functions
-3. **Pass matching and replacement**: The `pass_mgr` compiler applies the generated pass
-4. **Correctness verification**: Validate numerical consistency between the optimized and original kernels
-5. **Performance benchmarking**: Measure speedup and output evaluation results
+1. **Analyze computation graph**: Read `model.py` and `weight_meta.py` to understand the target subgraph's operators, tensor shapes, and dtypes
+2. **Generate optimization pass**: LLM agent generates a pass file and places it in `pass_dir/`
+3. **Pass matching and replacement**: `pass_mgr` matches the pattern in the FX graph and replaces it with the optimized kernel
+4. **Correctness verification**: Compare eager and compiled outputs using dtype-specific tolerance thresholds
+5. **Performance benchmarking**: Measure speedup and compute ES(t), output `aggregated_score.json`
 
 ```bash
 # place your pass file

@@ -75,12 +75,12 @@ PassNet/
 
 ### [PassBench](pass_bench/) — 编译器评测框架
 
-提供算子编译、正确性验证与性能评测能力：
+提供算子编译、正确性验证与性能评测能力，既可独立使用，也作为 PassAgent 的评测后端：
 
 - **算子编译**：通过 `pass_mgr` 编译器方法执行 Pass 匹配与替换
-- **正确性验证**：基于容差机制验证优化后算子的数值正确性
-- **性能评测**：统计加速比等性能指标，输出 `aggregated_score.json`
-- **评分聚合**：`aggregate_es_scores.py` 汇总多次评测结果
+- **正确性验证**：在各 dtype（float32 / float16 / bfloat16）对应的容忍度阈值下验证优化后算子的数值正确性
+- **性能评测**：100 次试运行统计加速比，输出 `aggregated_score.json`
+- **评分聚合**：`aggregate_es_scores.py` 计算样本内所有计算图的 ES(t) 分数
 
 ### [PassAgent](pass_agent/) — R2E-Gym Agent 评估框架
 
@@ -208,11 +208,11 @@ docker run --gpus all --privileged \
 
 PassNet 的评测流程如下：
 
-1. **分析计算图**：读取目标子图的 `model.py` 和 `weight_meta.py`
-2. **生成优化 Pass**：Agent 创建匹配模式与替换函数
-3. **Pass 匹配与替换**：`pass_mgr` 编译器执行 Pass 应用
-4. **正确性验证**：验证优化后算子与原始算子的数值一致性
-5. **性能评测**：统计加速比，输出评测结果
+1. **分析计算图**：读取 `model.py` 和 `weight_meta.py`，理解目标子图的算子结构、张量形状及数据类型
+2. **生成优化 Pass**：大模型生成 Pass 文件，复制到样本的 `pass_dir/` 目录下
+3. **Pass 匹配与替换**：`pass_mgr` 在 FX 图中匹配目标模式，将其替换为优化算子
+4. **正确性验证**：在各 dtype 对应的容忍度阈值下比较 eager 与编译后模型的输出
+5. **性能评测**：统计加速比，计算 ES(t)，输出 `aggregated_score.json`
 
 ```bash
 # 放置 pass 文件
