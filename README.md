@@ -208,11 +208,22 @@ docker run --gpus all --privileged \
 
 The PassNet evaluation pipeline works as follows:
 
-1. **Analyze Computation Graph**: Read the target subgraph's `model.py` and `weight_meta.py`
-2. **Generate Optimization Pass**: Agent creates pattern matching rules and replacement functions
-3. **Pass Matching and Replacement**: The `pass_mgr` compiler applies the generated pass
-4. **Correctness Verification**: Validate numerical consistency between the optimized and original kernels
-5. **Performance Benchmarking**: Measure speedup and output evaluation results
+1. **Analyze computation graph**: Read the target subgraph's `model.py` and `weight_meta.py`
+2. **Generate optimization pass**: Create pattern matching rules and replacement functions
+3. **Pass matching and replacement**: The `pass_mgr` compiler applies the generated pass
+4. **Correctness verification**: Validate numerical consistency between the optimized and original kernels
+5. **Performance benchmarking**: Measure speedup and output evaluation results
+
+```bash
+# place your pass file
+cp MyPass.py samples/<type>/<hash>/pass_dir/
+echo '["MyPass"]' > samples/<type>/<hash>/pass_dir/sorted_output_pass_rule_names.json
+
+# run evaluation for a single sample
+bash samples/<type>/<hash>/entry.sh
+```
+
+See **[pass_bench/README.md](pass_bench/README.md)** for pass file format and batch evaluation.
 
 ## PassAgent Evaluation
 

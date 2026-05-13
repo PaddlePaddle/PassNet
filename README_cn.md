@@ -214,6 +214,17 @@ PassNet 的评测流程如下：
 4. **正确性验证**：验证优化后算子与原始算子的数值一致性
 5. **性能评测**：统计加速比，输出评测结果
 
+```bash
+# 放置 pass 文件
+cp MyPass.py samples/<type>/<hash>/pass_dir/
+echo '["MyPass"]' > samples/<type>/<hash>/pass_dir/sorted_output_pass_rule_names.json
+
+# 单样本评测
+bash samples/<type>/<hash>/entry.sh
+```
+
+Pass 文件格式及批量评测说明见 **[pass_bench/README.md](pass_bench/README.md)**。
+
 ## PassAgent 评估
 
 使用 PassAgent 框架评估 Agent：

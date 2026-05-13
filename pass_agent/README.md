@@ -144,7 +144,7 @@ The `pass_evaluator` tool (defined as a function-calling tool in PassAgent):
 
 ### Agent Workflow
 
-See [PassBench Evaluation Pipeline](../README.md#passbench-evaluation-pipeline) for the overall optimization flow. Within that pipeline, the agent interacts via two tools:
+See [PassBench Evaluation Pipeline](../pass_bench/README.md) for the overall optimization flow. Within that pipeline, the agent interacts via two tools:
 
 - **file_editor**: Creates/modifies pass files in `pass_dir/`
 - **pass_evaluator**: Executes `entry.sh` and reports metrics back to the agent
