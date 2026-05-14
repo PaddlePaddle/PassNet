@@ -38,7 +38,7 @@ def run_pipeline(
     if config.allow_list:
         logger.info(" Allow list: %s", config.allow_list)
     if config.max_autotune:
-        logger.info(" Autotune:   max_autotune (mode='max-autotune')")
+        logger.info(" Autotune:   max_autotune (mode='max-autotune-no-cudagraphs')")
     logger.info("======================================================")
 
     samples = _load_samples(config)

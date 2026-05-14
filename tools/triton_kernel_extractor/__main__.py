@@ -145,7 +145,7 @@ def _add_extract_parser(subparsers: argparse._SubParsersAction) -> None:
         default=False,
         help=(
             "Enable Inductor max_autotune mode during compilation "
-            "(passes mode='max-autotune' to torch.compile via GraphNet)."
+            "(passes mode='max-autotune-no-cudagraphs' to torch.compile via GraphNet)."
         ),
     )
     parser.set_defaults(func=_run_extract)

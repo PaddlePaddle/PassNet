@@ -40,7 +40,7 @@ Compiles each subgraph sample using `graph_net_bench.torch.test_compiler
 available GPUs in round-robin fashion, with one `ProcessPoolExecutor` worker per
 GPU.  Each subprocess receives a dedicated `CUDA_VISIBLE_DEVICES` and an
 isolated `TORCHINDUCTOR_CACHE_DIR`.  Pass `--max-autotune` to enable Inductor's
-`max_autotune` mode (via `torch.compile(mode="max-autotune")`), which activates
+`max_autotune` mode (via `torch.compile(mode="max-autotune-no-cudagraphs")`), which activates
 comprehensive autotuning including `max_autotune_gemm`,
 `coordinate_descent_tuning`, and `epilogue_fusion`.
 
@@ -141,7 +141,7 @@ python3 -m tools.triton_kernel_extractor analyze <cache_dir> [--output-dir DIR]
 | `--graph-dir`             | Yes      | —                    | Input graph data root. Scanned for `model.py` by default; path resolution base when `--allow-list` is given |
 | `--output-dir`            | Yes      | —                    | Pipeline output directory (compilation cache, extracted kernels, analysis)   |
 | `--gpu-ids`               | No       | Auto-detected        | GPU IDs for parallel compilation. Auto-detected via `CUDA_VISIBLE_DEVICES` or `nvidia-smi` when omitted |
-| `--max-autotune`          | No       | `False`              | Enable Inductor max_autotune mode (`torch.compile(mode="max-autotune")`)    |
+| `--max-autotune`          | No       | `False`              | Enable Inductor max_autotune mode (`torch.compile(mode="max-autotune-no-cudagraphs")`) |
 | `--enable-cache-analysis` | No       | `False`              | Run cache analysis (statistics, plots) after extraction                     |
 
 #### `analyze` subcommand

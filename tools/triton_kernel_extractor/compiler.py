@@ -188,7 +188,7 @@ def compile_all_samples(
     # Build base64-encoded config for test_compiler --config, if needed.
     compiler_config: str | None = None
     if config.max_autotune:
-        config_dict = {"mode": "max-autotune"}
+        config_dict = {"mode": "max-autotune-no-cudagraphs"}
         compiler_config = base64.b64encode(json.dumps(config_dict).encode()).decode()
 
     # Round-robin assignment (mirrors bash: gpu_id = GPU_IDS[local_idx % NUM_GPUS]).
