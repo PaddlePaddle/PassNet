@@ -61,9 +61,7 @@ def filter_samples_by_speedup(cache_dir: Path) -> tuple[int, int, int]:
     # Collect candidate directories (snapshot the listing to avoid mutating
     # the iterator while moving entries).
     candidates: list[Path] = [
-        d
-        for d in sorted(cache_dir.iterdir())
-        if d.is_dir() and is_sample_dir(d.name)
+        d for d in sorted(cache_dir.iterdir()) if d.is_dir() and is_sample_dir(d.name)
     ]
     total = len(candidates)
 
@@ -71,25 +69,23 @@ def filter_samples_by_speedup(cache_dir: Path) -> tuple[int, int, int]:
     discarded_count = 0
     skip_count = 0
 
-    for idx, graph_dir in enumerate(candidates, 1):
-        graph_name = graph_dir.name
+    for idx, sample_cache_dir in enumerate(candidates, 1):
+        graph_name = sample_cache_dir.name
 
         # Skip if already classified in a previous (possibly interrupted) run.
-        if (kept_dir / graph_name).exists() or (
-            discarded_dir / graph_name
-        ).exists():
+        if (kept_dir / graph_name).exists() or (discarded_dir / graph_name).exists():
             skip_count += 1
             continue
 
-        log_file = graph_dir / "test_compiler_log.log"
+        log_file = sample_cache_dir / "test_compiler_log.log"
         speedup = _parse_kernel_speedup(log_file)
         should_keep = speedup is not None and speedup >= SPEEDUP_THRESHOLD
 
         if should_keep:
-            shutil.move(str(graph_dir), str(kept_dir / graph_name))
+            shutil.move(str(sample_cache_dir), str(kept_dir / graph_name))
             kept_count += 1
         else:
-            shutil.move(str(graph_dir), str(discarded_dir / graph_name))
+            shutil.move(str(sample_cache_dir), str(discarded_dir / graph_name))
             discarded_count += 1
 
         label = "KEPT" if should_keep else "DISCARDED"

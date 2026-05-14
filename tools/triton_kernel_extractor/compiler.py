@@ -12,8 +12,8 @@ import sys
 from concurrent.futures import Future, ProcessPoolExecutor, as_completed
 from pathlib import Path
 
-from .config import PipelineConfig, DatasetDescriptor
-from .sample_enumerator import compute_unique_dir, resolve_model_path
+from .config import PipelineConfig
+from .sample_enumerator import compute_unique_dir
 
 logger = logging.getLogger(__name__)
 
@@ -21,6 +21,7 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Single-sample compilation
 # ---------------------------------------------------------------------------
+
 
 def _is_already_compiled(
     log_file: Path,
@@ -53,9 +54,7 @@ def _is_already_compiled(
 
 def _compile_one_sample(
     sample_path: str,
-    source: str,
-    passnet_dir: str,
-    passnet_hf_dir: str,
+    graph_dir: str,
     cache_dir: Path,
     gpu_id: int,
     progress_label: str,
@@ -65,8 +64,7 @@ def _compile_one_sample(
 
     Returns one of ``"compiled"``, ``"skipped"``, or ``"failed"``.
     """
-    unique_dir = compute_unique_dir(source, sample_path, passnet_hf_dir)
-    full_model_path = resolve_model_path(source, sample_path, passnet_dir)
+    unique_dir = compute_unique_dir(sample_path, graph_dir)
 
     graph_cache_dir = cache_dir / unique_dir
     log_file = graph_cache_dir / "test_compiler_log.log"
@@ -80,7 +78,7 @@ def _compile_one_sample(
         shutil.rmtree(graph_cache_dir)
     graph_cache_dir.mkdir(parents=True)
 
-    logger.info("%s Compiling: %s", progress_label, full_model_path)
+    logger.info("%s Compiling: %s", progress_label, sample_path)
 
     # Build a clean environment for the compiler subprocess.
     env = os.environ.copy()
@@ -94,7 +92,7 @@ def _compile_one_sample(
             "-m",
             "graph_net_bench.torch.test_compiler",
             "--model-path",
-            full_model_path,
+            sample_path,
             "--kernel-time",
             *(["--config", compiler_config] if compiler_config else []),
         ],
@@ -110,7 +108,7 @@ def _compile_one_sample(
     # Copy the original graph source into the cache.
     original_graph_dir = graph_cache_dir / "original_graph"
     original_graph_dir.mkdir(exist_ok=True)
-    model_src = Path(full_model_path)
+    model_src = Path(sample_path)
     if model_src.is_dir():
         for item in model_src.iterdir():
             dest = original_graph_dir / item.name
@@ -128,11 +126,10 @@ def _compile_one_sample(
 # Per-GPU sequential chunk worker
 # ---------------------------------------------------------------------------
 
+
 def _compile_chunk(
     samples: list[str],
-    source: str,
-    passnet_dir: str,
-    passnet_hf_dir: str,
+    graph_dir: str,
     cache_dir: Path,
     gpu_id: int,
     compiler_config: str | None = None,
@@ -149,9 +146,7 @@ def _compile_chunk(
         label = f"[GPU{gpu_id} {idx}/{total}]"
         status = _compile_one_sample(
             sample_path=sample_path,
-            source=source,
-            passnet_dir=passnet_dir,
-            passnet_hf_dir=passnet_hf_dir,
+            graph_dir=graph_dir,
             cache_dir=cache_dir,
             gpu_id=gpu_id,
             progress_label=label,
@@ -174,10 +169,10 @@ def _compile_chunk(
 # Multi-GPU orchestrator
 # ---------------------------------------------------------------------------
 
+
 def compile_all_samples(
     samples: list[str],
     config: PipelineConfig,
-    dataset: DatasetDescriptor,
 ) -> dict[str, int]:
     """Split samples across GPUs round-robin and compile in parallel.
 
@@ -194,9 +189,7 @@ def compile_all_samples(
     compiler_config: str | None = None
     if config.max_autotune:
         config_dict = {"mode": "max-autotune"}
-        compiler_config = base64.b64encode(
-            json.dumps(config_dict).encode()
-        ).decode()
+        compiler_config = base64.b64encode(json.dumps(config_dict).encode()).decode()
 
     # Round-robin assignment (mirrors bash: gpu_id = GPU_IDS[local_idx % NUM_GPUS]).
     chunks: dict[int, list[str]] = {gid: [] for gid in gpu_ids}
@@ -218,10 +211,8 @@ def compile_all_samples(
             future = executor.submit(
                 _compile_chunk,
                 samples=chunk,
-                source=config.source,
-                passnet_dir=str(config.passnet_dir),
-                passnet_hf_dir=str(config.passnet_hf_dir),
-                cache_dir=dataset.cache_dir,
+                graph_dir=str(config.graph_dir),
+                cache_dir=config.output_dir,
                 gpu_id=gid,
                 compiler_config=compiler_config,
             )
@@ -242,8 +233,6 @@ def compile_all_samples(
                 logger.exception("Worker GPU %d raised an exception", gid)
 
         if has_errors:
-            logger.warning(
-                "WARNING: Some workers had errors. Check logs for details."
-            )
+            logger.warning("WARNING: Some workers had errors. Check logs for details.")
 
     return aggregated

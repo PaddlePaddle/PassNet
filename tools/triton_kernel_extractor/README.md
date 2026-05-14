@@ -30,8 +30,8 @@ downstream analysis.
 
 ## Pipeline Steps
 
-The pipeline processes three dataset categories — `sole_op_subgraphs`,
-`fusible_subgraphs`, and `typical_subgraphs` — executing five steps for each:
+The pipeline executes five steps on the samples enumerated from `--graph-dir`
+(recursive scan) or `--allow-list` (explicit paths):
 
 ### Step 1: Multi-GPU Parallel Compilation
 
@@ -44,16 +44,19 @@ isolated `TORCHINDUCTOR_CACHE_DIR`.  Pass `--max-autotune` to enable Inductor's
 comprehensive autotuning including `max_autotune_gemm`,
 `coordinate_descent_tuning`, and `epilogue_fusion`.
 
+**Note:** `graph_net_bench` must be importable — ensure the GraphNet repository
+is on `PYTHONPATH` before invoking this module.
+
 ### Step 2: Speedup Filtering
 
 Parses the `[Speedup][kernel]:` metric from each sample's compilation log (the
-last occurrence is used).  Samples achieving a speedup ≥ 1.0 are moved to
+last occurrence is used).  Samples achieving a speedup >= 1.0 are moved to
 `kept/`; the rest are moved to `discarded/`.
 
 ### Step 3: Temporary File Cleanup
 
 Recursively removes `__pycache__/` directories, `*.pyc`, and `*.pyo` files from
-the `kept/` tree to reduce storage footprint before extraction.
+the output tree to reduce storage footprint before extraction.
 
 ### Step 4: Kernel and PTX Extraction
 
@@ -86,72 +89,67 @@ configurations.  The algorithm to locate the winning PTX is:
    `*.best_config` files in the sample, and select the candidate whose directory
    name matches one of these hashes.
 
-This approach was validated on 125 kernels across 98 samples with a 100% match
-rate.
-
 ## Output Structure
 
 ```
-{output_dir}/{sample_name}/
-    original_graph/
-        model.py                           # source subgraph
-    triton_kernel/
-        triton_poi_fused_xxx_0.py          # Triton kernel source
-        triton_poi_fused_yyy_1.py
-    ptx/
-        triton_poi_fused_xxx_0.ptx         # corresponding PTX assembly
-        triton_poi_fused_yyy_1.ptx
+{output-dir}/
+    {sample_name}/                         # compilation cache (kept/discarded)
+    kept/
+    discarded/
+    extracted/
+        {sample_name}/
+            original_graph/
+                model.py                   # source subgraph
+            triton_kernel/
+                triton_poi_fused_xxx_0.py  # Triton kernel source
+                triton_poi_fused_yyy_1.py
+            ptx/
+                triton_poi_fused_xxx_0.ptx # corresponding PTX assembly
+                triton_poi_fused_yyy_1.ptx
+    analysis/                              # if --enable-cache-analysis
 ```
-
-## Cache Analysis
-
-Analyzes an inductor cache directory post-hoc, available as the `analyze`
-subcommand or triggered automatically by passing `--enable-cache-analysis` to
-the `extract` subcommand.  Concatenates `test_compiler_log.log` files across
-all sample states (root, kept, discarded), computes kernel and end-to-end
-speedup distributions (mean, median, percentiles, threshold breakdowns), and
-generates histogram, CDF, and optionally violin/ES(t) plots.  Output defaults
-to `<cache_dir>_analysis/`.
 
 ## Usage
 
-### Via the Bash Launcher
-
 ```bash
-# Edit machine-specific paths in extract_triton_kernels.sh first, then:
-bash tools/extract_triton_kernels.sh list            # auto-detect GPUs
-bash tools/extract_triton_kernels.sh hf 0,2,5,7      # specify GPUs
-```
+# With allow-list: read sample paths from file, resolve against --graph-dir
+python3 -m tools.triton_kernel_extractor extract \
+    --allow-list /data/typical_samples_expanded.txt \
+    --graph-dir /data/graphs/typical_subgraphs \
+    --output-dir /data/output/typical_inductor_dump \
+    --gpu-ids 0 2 5 7
 
-### Via Python Directly
-
-```bash
-python3 -m tools.triton_kernel_extractor \
-    --source list \
-    --dataset-base-dir /data/passnet_dataset \
-    --graphnet-dir /opt/GraphNet \
-    --passnet-dir /opt/passnet \
-    --passnet-hf-dir /opt/passnet/graphs/hf_subgraphs_v2 \
+# Without allow-list: recursively find all model.py in --graph-dir
+python3 -m tools.triton_kernel_extractor extract \
+    --graph-dir /data/graphs/typical_subgraphs \
+    --output-dir /data/output/typical_inductor_dump \
     --gpu-ids 0 2 5 7 \
     --max-autotune \
     --enable-cache-analysis
 
-# Cache analysis can also be run standalone:
+# Cache analysis standalone:
 python3 -m tools.triton_kernel_extractor analyze <cache_dir> [--output-dir DIR]
 ```
 
 ### CLI Arguments
 
-| Argument                   | Required | Description                                           |
-|----------------------------|----------|-------------------------------------------------------|
-| `--source`                 | Yes      | `list` (sample paths from text files) or `hf` (scan HuggingFace directories) |
-| `--dataset-base-dir`       | Yes      | Root directory for cache and extraction output         |
-| `--graphnet-dir`           | Yes      | Path to the GraphNet repository (for `graph_net_bench` on PYTHONPATH) |
-| `--passnet-dir`            | Yes      | Root of the PassNet repository (model path prefix)    |
-| `--passnet-hf-dir`         | No       | HuggingFace graph data directory; defaults to `{passnet-dir}/graphs/hf_subgraphs_v2` |
-| `--gpu-ids`                | No       | GPU IDs for compilation; auto-detected when omitted    |
-| `--max-autotune`           | No       | Enable Inductor max_autotune mode (`torch.compile(mode="max-autotune")`) |
-| `--enable-cache-analysis`  | No       | Run cache analysis on each dataset after extraction    |
+#### `extract` subcommand
+
+| Argument                  | Required | Default              | Description                                                                 |
+|---------------------------|----------|----------------------|-----------------------------------------------------------------------------|
+| `--allow-list`            | No       | `None`               | Text file with sample paths (one per line), relative to `--graph-dir`. When omitted, `--graph-dir` is scanned recursively for `model.py` |
+| `--graph-dir`             | Yes      | —                    | Input graph data root. Scanned for `model.py` by default; path resolution base when `--allow-list` is given |
+| `--output-dir`            | Yes      | —                    | Pipeline output directory (compilation cache, extracted kernels, analysis)   |
+| `--gpu-ids`               | No       | Auto-detected        | GPU IDs for parallel compilation. Auto-detected via `CUDA_VISIBLE_DEVICES` or `nvidia-smi` when omitted |
+| `--max-autotune`          | No       | `False`              | Enable Inductor max_autotune mode (`torch.compile(mode="max-autotune")`)    |
+| `--enable-cache-analysis` | No       | `False`              | Run cache analysis (statistics, plots) after extraction                     |
+
+#### `analyze` subcommand
+
+| Argument       | Required | Default              | Description                                     |
+|----------------|----------|----------------------|-------------------------------------------------|
+| `cache_dir`    | Yes      | —                    | Inductor cache directory to analyze             |
+| `--output-dir` | No       | `<cache_dir>/analysis` | Directory for analysis output                 |
 
 ## Module Structure
 
@@ -159,14 +157,14 @@ python3 -m tools.triton_kernel_extractor analyze <cache_dir> [--output-dir DIR]
 triton_kernel_extractor/
     __init__.py              # package marker
     __main__.py              # CLI entry point (subcommands: extract, analyze)
-    config.py                # PipelineConfig, DatasetDescriptor, constants
-    sample_enumerator.py     # enumerate samples from "list" or "hf" sources
+    config.py                # PipelineConfig, constants
+    sample_enumerator.py     # enumerate samples from graph-dir or allow-list
     compiler.py              # Step 1: multi-GPU parallel compilation
     speedup_filter.py        # Step 2: filter by kernel speedup
     temp_cleaner.py          # Step 3: remove __pycache__ / *.pyc / *.pyo
     kernel_extractor.py      # Step 4: extract Triton kernels and PTX
     empty_sample_cleaner.py  # Step 5: remove samples without Triton kernels
-    pipeline.py              # orchestrate Steps 1–5 for all datasets
+    pipeline.py              # orchestrate Steps 1-5
     cache_analyzer.py        # analyze cache: logs, statistics, plots
 ```
 

@@ -24,7 +24,7 @@ _TRITON_KERNEL_PATTERN = re.compile(
 )
 
 
-def _collect_best_config_hashes(graph_dir: Path) -> set[str]:
+def _collect_best_config_hashes(sample_cache_dir: Path) -> set[str]:
     """Gather all autotuning-selected cache hashes from a sample directory.
 
     TorchInductor writes ``.best_config`` JSON files (one per autotuned kernel)
@@ -36,7 +36,7 @@ def _collect_best_config_hashes(graph_dir: Path) -> set[str]:
     kernel in that sample.
     """
     hashes: set[str] = set()
-    for bc_path in graph_dir.rglob("*.best_config"):
+    for bc_path in sample_cache_dir.rglob("*.best_config"):
         try:
             data = json.loads(bc_path.read_text(encoding="utf-8"))
             cache_hash = data.get("triton_cache_hash")
@@ -48,7 +48,7 @@ def _collect_best_config_hashes(graph_dir: Path) -> set[str]:
 
 
 def _find_best_ptx(
-    graph_dir: Path,
+    sample_cache_dir: Path,
     kernel_name: str,
     best_hashes: set[str],
 ) -> str | None:
@@ -65,7 +65,7 @@ def _find_best_ptx(
       - N candidates → intersect directory names with *best_hashes*; the match
         identifies the autotuning winner.
     """
-    triton_base = graph_dir / "triton" / "0"
+    triton_base = sample_cache_dir / "triton" / "0"
     if not triton_base.is_dir():
         return None
 
@@ -80,7 +80,9 @@ def _find_best_ptx(
     ]
 
     if not candidates:
-        logger.debug("No PTX found for kernel %s in %s", kernel_name, graph_dir.name)
+        logger.debug(
+            "No PTX found for kernel %s in %s", kernel_name, sample_cache_dir.name
+        )
         return None
 
     if len(candidates) == 1:
@@ -103,7 +105,7 @@ def _find_best_ptx(
     logger.warning(
         "Multiple PTX candidates for %s but no .best_config match in %s",
         kernel_name,
-        graph_dir.name,
+        sample_cache_dir.name,
     )
     return None
 
@@ -171,8 +173,8 @@ def extract_triton_kernels(
     copied_graphs = 0
     skip_count = 0
 
-    for idx, graph_dir in enumerate(eligible, 1):
-        graph_name = graph_dir.name
+    for idx, sample_cache_dir in enumerate(eligible, 1):
+        graph_name = sample_cache_dir.name
         dest_graph_dir = output_dir / graph_name
 
         # Resume: skip if the final output already exists.
@@ -189,21 +191,21 @@ def extract_triton_kernels(
         tmp_dir.mkdir(parents=True)
 
         # Copy original model source when available.
-        model_src = graph_dir / "original_graph" / "model.py"
+        model_src = sample_cache_dir / "original_graph" / "model.py"
         if model_src.is_file():
             og_dir = tmp_dir / "original_graph"
             og_dir.mkdir()
             shutil.copy2(str(model_src), str(og_dir / "model.py"))
 
         # Pre-collect autotuning best-config hashes once per sample.
-        best_hashes = _collect_best_config_hashes(graph_dir)
+        best_hashes = _collect_best_config_hashes(sample_cache_dir)
 
         # Track kernel names already written for this sample to detect
         # duplicates across multiple output_code.py files.
         seen_kernels: set[str] = set()
 
         # Find and process all output_code.py files within the sample.
-        for output_code_path in sorted(graph_dir.rglob("output_code.py")):
+        for output_code_path in sorted(sample_cache_dir.rglob("output_code.py")):
             processed_files += 1
             kernels = extract_kernels_from_file(output_code_path)
             if not kernels:
@@ -227,13 +229,11 @@ def extract_triton_kernels(
                 total_kernels += 1
 
                 # Locate and write the corresponding PTX for this kernel.
-                ptx_content = _find_best_ptx(graph_dir, name, best_hashes)
+                ptx_content = _find_best_ptx(sample_cache_dir, name, best_hashes)
                 if ptx_content is not None:
                     ptx_dir = tmp_dir / "ptx"
                     ptx_dir.mkdir(exist_ok=True)
-                    (ptx_dir / f"{name}.ptx").write_text(
-                        ptx_content, encoding="utf-8"
-                    )
+                    (ptx_dir / f"{name}.ptx").write_text(ptx_content, encoding="utf-8")
                     total_ptx += 1
 
         # Atomic completion: rename .tmp → final (same filesystem guarantees

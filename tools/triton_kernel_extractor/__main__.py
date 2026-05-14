@@ -6,11 +6,9 @@ Subcommands
 **extract** (default when no subcommand is given)::
 
     python3 -m tools.triton_kernel_extractor [extract] \\
-        --source list \\
-        --dataset-base-dir /data/passnet_dataset \\
-        --graphnet-dir /opt/GraphNet \\
-        --passnet-dir /opt/passnet \\
-        [--passnet-hf-dir /opt/passnet/graphs/hf_subgraphs_v2] \\
+        --graph-dir /data/graphs/typical_subgraphs \\
+        --output-dir /data/output/typical_inductor_dump \\
+        [--allow-list paths.txt] \\
         [--gpu-ids 0 2 5 7]
 
 **analyze**::
@@ -18,8 +16,15 @@ Subcommands
     python3 -m tools.triton_kernel_extractor analyze \\
         <cache_dir> [--output-dir DIR]
 
+When ``--allow-list`` is provided, sample paths are read from the file and
+resolved relative to ``--graph-dir``.  Otherwise ``--graph-dir`` is scanned
+recursively for ``model.py`` files.
+
 When ``--gpu-ids`` is omitted the script auto-detects all available GPUs
 by parsing the output of ``nvidia-smi -L``.
+
+Note: ``graph_net_bench`` must be importable (ensure GraphNet is on
+PYTHONPATH before invoking this module).
 """
 
 from __future__ import annotations
@@ -40,6 +45,7 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # GPU detection (shared by the extract subcommand)
 # ---------------------------------------------------------------------------
+
 
 def _detect_gpu_ids() -> list[int]:
     """Auto-detect available GPU IDs.
@@ -82,20 +88,40 @@ def _detect_gpu_ids() -> list[int]:
 # Subcommand: extract
 # ---------------------------------------------------------------------------
 
+
 def _add_extract_parser(subparsers: argparse._SubParsersAction) -> None:
     parser = subparsers.add_parser(
         "extract",
-        help="Run the full compilation and extraction pipeline.",
+        help="Run the compilation and extraction pipeline.",
         description=(
-            "Compile graph datasets and extract "
+            "Compile graph samples and extract "
             "(subgraph, triton_kernel, ptx) triples."
         ),
     )
     parser.add_argument(
-        "--source",
+        "--allow-list",
+        type=Path,
+        default=None,
+        help=(
+            "Text file with sample paths (one per line), relative to --graph-dir. "
+            "When omitted, --graph-dir is scanned recursively for model.py."
+        ),
+    )
+    parser.add_argument(
+        "--graph-dir",
+        type=Path,
         required=True,
-        choices=("list", "hf"),
-        help="Data source type: 'list' (txt file paths) or 'hf' (scan HF dirs).",
+        help=(
+            "Root directory of input graph data. "
+            "Scanned recursively for model.py by default. "
+            "When --allow-list is given, used as base for resolving relative paths."
+        ),
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        required=True,
+        help="Directory for pipeline output (compilation cache, extracted kernels, analysis).",
     )
     parser.add_argument(
         "--gpu-ids",
@@ -108,49 +134,18 @@ def _add_extract_parser(subparsers: argparse._SubParsersAction) -> None:
         ),
     )
     parser.add_argument(
-        "--dataset-base-dir",
-        type=Path,
-        required=True,
-        help="Root directory of the dataset collection.",
-    )
-    parser.add_argument(
-        "--graphnet-dir",
-        type=Path,
-        required=True,
-        help="Path to the GraphNet repository (added to PYTHONPATH for graph_net_bench).",
-    )
-    parser.add_argument(
-        "--passnet-dir",
-        type=Path,
-        required=True,
-        help="Root of the PassNet repository (prefix for model paths in 'list' mode).",
-    )
-    parser.add_argument(
-        "--passnet-hf-dir",
-        type=Path,
-        default=None,
-        help=(
-            "Root of the HuggingFace graph data directory. "
-            "Defaults to {passnet-dir}/graphs/hf_subgraphs_v2 when not specified."
-        ),
-    )
-    parser.add_argument(
         "--enable-cache-analysis",
         action="store_true",
         default=False,
-        help=(
-            "Run cache analysis (log concatenation, speedup statistics, plots) "
-            "on each dataset's cache directory after the extraction pipeline."
-        ),
+        help="Run cache analysis (statistics, plots) after extraction.",
     )
     parser.add_argument(
         "--max-autotune",
         action="store_true",
         default=False,
         help=(
-            "Enable Inductor max_autotune mode during compilation. "
-            "Passes mode='max-autotune' to the GraphNet InductorBackend, "
-            "which activates comprehensive autotuning via torch.compile."
+            "Enable Inductor max_autotune mode during compilation "
+            "(passes mode='max-autotune' to torch.compile via GraphNet)."
         ),
     )
     parser.set_defaults(func=_run_extract)
@@ -161,21 +156,14 @@ def _run_extract(args: argparse.Namespace) -> None:
 
     gpu_ids = args.gpu_ids if args.gpu_ids else _detect_gpu_ids()
 
-    passnet_hf_dir = args.passnet_hf_dir
-    if passnet_hf_dir is None:
-        passnet_hf_dir = args.passnet_dir / "graphs" / "hf_subgraphs_v2"
-
     config = PipelineConfig(
-        source=args.source,
         gpu_ids=gpu_ids,
-        dataset_base_dir=args.dataset_base_dir,
-        graphnet_dir=args.graphnet_dir,
-        passnet_dir=args.passnet_dir,
-        passnet_hf_dir=passnet_hf_dir,
+        graph_dir=args.graph_dir,
+        output_dir=args.output_dir,
+        allow_list=args.allow_list,
         max_autotune=args.max_autotune,
     )
 
-    logger.info("Source: %s", config.source)
     logger.info(
         "Using %d GPU(s): %s",
         len(config.gpu_ids),
@@ -184,7 +172,7 @@ def _run_extract(args: argparse.Namespace) -> None:
 
     # Unset CUDA_VISIBLE_DEVICES in the parent process so that worker
     # subprocesses start with a clean slate and receive only the per-GPU
-    # value assigned by compiler.py.  Matches the bash: `unset CUDA_VISIBLE_DEVICES`.
+    # value assigned by compiler.py.
     os.environ.pop("CUDA_VISIBLE_DEVICES", None)
 
     run_pipeline(config, enable_cache_analysis=args.enable_cache_analysis)
@@ -193,6 +181,7 @@ def _run_extract(args: argparse.Namespace) -> None:
 # ---------------------------------------------------------------------------
 # Subcommand: analyze
 # ---------------------------------------------------------------------------
+
 
 def _add_analyze_parser(subparsers: argparse._SubParsersAction) -> None:
     parser = subparsers.add_parser(
@@ -212,10 +201,7 @@ def _add_analyze_parser(subparsers: argparse._SubParsersAction) -> None:
         "--output-dir",
         type=Path,
         default=None,
-        help=(
-            "Directory for analysis output. "
-            "Defaults to <cache_dir>_analysis."
-        ),
+        help=("Directory for analysis output. " "Defaults to <cache_dir>/analysis."),
     )
     parser.set_defaults(func=_run_analyze)
 
@@ -224,7 +210,7 @@ def _run_analyze(args: argparse.Namespace) -> None:
     from .cache_analyzer import analyze_cache
 
     cache_dir: Path = args.cache_dir
-    output_dir: Path = args.output_dir or Path(f"{cache_dir}_analysis")
+    output_dir: Path = args.output_dir or (cache_dir / "analysis")
     analyze_cache(cache_dir, output_dir)
 
 
@@ -232,12 +218,12 @@ def _run_analyze(args: argparse.Namespace) -> None:
 # Backward-compatible argument detection
 # ---------------------------------------------------------------------------
 
-def _needs_implicit_extract(argv: list[str]) -> bool:
-    """Return True if *argv* looks like the old extract-only CLI.
 
-    The old CLI had no subcommand — it started directly with ``--source``.
-    If the first argument is not a known subcommand and not a help flag,
-    we prepend ``extract`` for backward compatibility.
+def _needs_implicit_extract(argv: list[str]) -> bool:
+    """Return True if *argv* does not start with a known subcommand.
+
+    When the first argument is a flag like ``--graph-dir`` rather than a
+    subcommand name, we prepend ``extract`` for convenience.
     """
     if not argv:
         return False
@@ -245,7 +231,6 @@ def _needs_implicit_extract(argv: list[str]) -> bool:
     first = argv[0]
     if first in known_subcommands:
         return False
-    # Do not intercept top-level --help / -h.
     if first in ("-h", "--help"):
         return False
     return True
@@ -254,6 +239,7 @@ def _needs_implicit_extract(argv: list[str]) -> bool:
 # ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
+
 
 def main(argv: list[str] | None = None) -> None:
     logging.basicConfig(

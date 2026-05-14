@@ -30,6 +30,7 @@ _SPEEDUP_KERNEL_RE = re.compile(SPEEDUP_KERNEL_PATTERN)
 # Step 1: Log concatenation
 # ---------------------------------------------------------------------------
 
+
 def _concat_logs(search_dir: Path) -> tuple[str, int]:
     """Concatenate ``test_compiler_log.log`` from all samples under *search_dir*.
 
@@ -75,7 +76,10 @@ def concatenate_logs(cache_dir: Path, output_dir: Path) -> tuple[Path, Path, Pat
     total = root_count + kept_count + discarded_count
     logger.info(
         "  Logs concatenated: %d total (%d root, %d kept, %d discarded)",
-        total, root_count, kept_count, discarded_count,
+        total,
+        root_count,
+        kept_count,
+        discarded_count,
     )
     logger.info("  All:       %s", all_log)
     logger.info("  Kept:      %s", kept_log)
@@ -87,6 +91,7 @@ def concatenate_logs(cache_dir: Path, output_dir: Path) -> tuple[Path, Path, Pat
 # ---------------------------------------------------------------------------
 # Step 2: Summary statistics
 # ---------------------------------------------------------------------------
+
 
 def _parse_speedups(text: str, pattern: re.Pattern[str]) -> list[float]:
     """Extract all speedup values matching *pattern* from log text."""
@@ -160,10 +165,11 @@ def generate_summary(
     e2e_speedups = _parse_speedups(all_log_text, _SPEEDUP_E2E_RE)
 
     # Count samples in each state.
-    root_samples = sum(
-        1 for d in cache_dir.iterdir()
-        if d.is_dir() and is_sample_dir(d.name)
-    ) if cache_dir.is_dir() else 0
+    root_samples = (
+        sum(1 for d in cache_dir.iterdir() if d.is_dir() and is_sample_dir(d.name))
+        if cache_dir.is_dir()
+        else 0
+    )
     kept_samples = _count_subdirs(cache_dir / "kept")
     discarded_samples = _count_subdirs(cache_dir / "discarded")
     total_samples = root_samples + kept_samples + discarded_samples
@@ -197,16 +203,19 @@ def generate_summary(
     if discarded_log_text:
         neg_opt = sum(1 for v in kernel_speedups if 0 < v < 1.0)
         error_lines = sum(
-            1 for line in discarded_log_text.splitlines()
+            1
+            for line in discarded_log_text.splitlines()
             if re.search(r"ERROR|Exception|Traceback", line)
         )
-        lines.extend([
-            "",
-            "Failure/Discard Analysis",
-            "------------------------",
-            f"  Negative optimization (0 < kernel speedup < 1): {neg_opt}",
-            f"  Logs with errors/exceptions: {error_lines} lines",
-        ])
+        lines.extend(
+            [
+                "",
+                "Failure/Discard Analysis",
+                "------------------------",
+                f"  Negative optimization (0 < kernel speedup < 1): {neg_opt}",
+                f"  Logs with errors/exceptions: {error_lines} lines",
+            ]
+        )
 
     report = "\n".join(lines) + "\n"
     summary_file = output_dir / "summary.txt"
@@ -223,11 +232,13 @@ def generate_summary(
 # Step 3: Plots
 # ---------------------------------------------------------------------------
 
+
 def _check_plotting_deps() -> bool:
     """Return True if matplotlib and numpy are importable."""
     try:
         import matplotlib  # noqa: F401
         import numpy  # noqa: F401
+
         return True
     except ImportError:
         return False
@@ -261,7 +272,9 @@ def generate_plots(
     _generate_builtin_plots(kernel_speedups, output_dir)
     _run_external_plot("graph_net_visual.plot_violin", all_log_path, output_dir)
     _run_external_plot(
-        "graph_net_visual.plot_ESt", all_log_path, output_dir,
+        "graph_net_visual.plot_ESt",
+        all_log_path,
+        output_dir,
         extra_args=["--disable-aggregation-mode"],
     )
 
@@ -272,6 +285,7 @@ def _generate_builtin_plots(
 ) -> None:
     """Generate histogram and CDF plots using matplotlib."""
     import matplotlib
+
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     import numpy as np
@@ -282,15 +296,22 @@ def _generate_builtin_plots(
     fig, axes = plt.subplots(1, 2, figsize=(18, 7))
 
     ax1 = axes[0]
-    bins = np.concatenate([
-        np.arange(0, 1.0, 0.1),
-        np.arange(1.0, 2.0, 0.1),
-        np.arange(2.0, max(5.0, float(np.percentile(speedups, 99))) + 0.5, 0.5),
-    ])
+    bins = np.concatenate(
+        [
+            np.arange(0, 1.0, 0.1),
+            np.arange(1.0, 2.0, 0.1),
+            np.arange(2.0, max(5.0, float(np.percentile(speedups, 99))) + 0.5, 0.5),
+        ]
+    )
     ax1.hist(speedups, bins=bins, color="steelblue", edgecolor="white", alpha=0.85)
-    ax1.axvline(x=1.0, color="red", linestyle="--", linewidth=1.5, label="speedup = 1.0")
     ax1.axvline(
-        x=float(np.median(speedups)), color="orange", linestyle="-", linewidth=1.5,
+        x=1.0, color="red", linestyle="--", linewidth=1.5, label="speedup = 1.0"
+    )
+    ax1.axvline(
+        x=float(np.median(speedups)),
+        color="orange",
+        linestyle="-",
+        linewidth=1.5,
         label=f"median = {np.median(speedups):.3f}",
     )
     ax1.set_xlabel("Kernel Speedup", fontsize=14)
@@ -309,8 +330,13 @@ def _generate_builtin_plots(
         f"Median: {np.median(speedups):.3f}"
     )
     ax1.text(
-        0.97, 0.97, stats_text, transform=ax1.transAxes, fontsize=10,
-        verticalalignment="top", horizontalalignment="right",
+        0.97,
+        0.97,
+        stats_text,
+        transform=ax1.transAxes,
+        fontsize=10,
+        verticalalignment="top",
+        horizontalalignment="right",
         bbox=dict(boxstyle="round", facecolor="wheat", alpha=0.8),
     )
 
@@ -319,9 +345,14 @@ def _generate_builtin_plots(
     log2_sp = np.log2(positive)
     ax2 = axes[1]
     ax2.hist(log2_sp, bins=60, color="darkorange", edgecolor="white", alpha=0.85)
-    ax2.axvline(x=0, color="red", linestyle="--", linewidth=1.5, label="log2(speedup) = 0")
     ax2.axvline(
-        x=float(np.median(log2_sp)), color="blue", linestyle="-", linewidth=1.5,
+        x=0, color="red", linestyle="--", linewidth=1.5, label="log2(speedup) = 0"
+    )
+    ax2.axvline(
+        x=float(np.median(log2_sp)),
+        color="blue",
+        linestyle="-",
+        linewidth=1.5,
         label=f"median = {np.median(log2_sp):.3f}",
     )
     ax2.set_xlabel("log2(Kernel Speedup)", fontsize=14)
@@ -340,7 +371,9 @@ def _generate_builtin_plots(
     sorted_sp = np.sort(speedups)
     cdf = np.arange(1, len(sorted_sp) + 1) / len(sorted_sp)
     ax3.plot(sorted_sp, cdf, color="steelblue", linewidth=2)
-    ax3.axvline(x=1.0, color="red", linestyle="--", linewidth=1.2, label="speedup = 1.0")
+    ax3.axvline(
+        x=1.0, color="red", linestyle="--", linewidth=1.2, label="speedup = 1.0"
+    )
 
     cdf_at_1 = float(np.searchsorted(sorted_sp, 1.0) / len(sorted_sp))
     ax3.axhline(y=cdf_at_1, color="gray", linestyle=":", linewidth=1, alpha=0.7)
@@ -368,16 +401,23 @@ def _run_external_plot(
 ) -> None:
     """Run an external GraphNet plotting module (best effort, never fatal)."""
     cmd = [
-        sys.executable, "-m", module,
-        "--benchmark-path", str(log_path),
-        "--output-dir", str(output_dir),
+        sys.executable,
+        "-m",
+        module,
+        "--benchmark-path",
+        str(log_path),
+        "--output-dir",
+        str(output_dir),
     ]
     if extra_args:
         cmd.extend(extra_args)
 
     try:
         result = subprocess.run(
-            cmd, capture_output=True, text=True, timeout=120,
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=120,
         )
         # Log any saved/error lines from stdout+stderr.
         for line in (result.stdout + result.stderr).splitlines():
@@ -390,6 +430,7 @@ def _run_external_plot(
 # ---------------------------------------------------------------------------
 # Public entry point
 # ---------------------------------------------------------------------------
+
 
 def analyze_cache(cache_dir: Path, output_dir: Path) -> None:
     """Run the full analysis pipeline on an inductor cache directory."""
@@ -430,7 +471,8 @@ def analyze_cache(cache_dir: Path, output_dir: Path) -> None:
     logger.info(" Output directory: %s", output_dir)
     logger.info("======================================================")
     output_files = sorted(
-        f for f in output_dir.iterdir()
+        f
+        for f in output_dir.iterdir()
         if f.is_file() and f.suffix in {".txt", ".log", ".png"}
     )
     for f in output_files:

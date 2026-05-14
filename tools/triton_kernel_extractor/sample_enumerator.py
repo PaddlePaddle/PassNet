@@ -1,4 +1,4 @@
-"""Enumerate graph samples from 'list' or 'hf' data sources."""
+"""Enumerate graph samples for the extraction pipeline."""
 
 from __future__ import annotations
 
@@ -8,78 +8,49 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 
-def enumerate_list_samples(graph_list_file: Path) -> list[str]:
-    """Read sample paths from a text file, one per line.
+def enumerate_list_samples(allow_list: Path, graph_dir: Path) -> list[str]:
+    """Read relative sample paths from *allow_list* and resolve against *graph_dir*.
 
-    Blank lines are silently skipped.
+    Returns absolute paths to sample directories.  Blank lines are skipped.
 
     Raises:
-        FileNotFoundError: If *graph_list_file* does not exist.
+        FileNotFoundError: If *allow_list* does not exist.
     """
-    lines: list[str] = []
-    with open(graph_list_file, encoding="utf-8") as fh:
+    paths: list[str] = []
+    with open(allow_list, encoding="utf-8") as fh:
         for raw in fh:
             stripped = raw.strip()
             if stripped:
-                lines.append(stripped)
-    return lines
+                paths.append(str(graph_dir / stripped))
+    return paths
 
 
-def enumerate_hf_samples(passnet_hf_dir: Path, hf_subdir: str) -> list[str]:
-    """Discover samples by scanning for ``model.py`` under a HuggingFace dir.
+def enumerate_graph_dir(graph_dir: Path) -> list[str]:
+    """Discover samples by recursively scanning *graph_dir* for ``model.py``.
 
     Returns the sorted list of parent directories that contain a ``model.py``.
 
     Raises:
-        FileNotFoundError: If the base directory does not exist.
+        FileNotFoundError: If *graph_dir* does not exist.
     """
-    base_dir = passnet_hf_dir / hf_subdir
-    if not base_dir.is_dir():
-        raise FileNotFoundError(f"HF dataset directory not found: {base_dir}")
+    if not graph_dir.is_dir():
+        raise FileNotFoundError(f"Graph directory not found: {graph_dir}")
     parents = sorted(
-        {str(p.parent) for p in base_dir.rglob("model.py") if p.is_file()}
+        {str(p.parent) for p in graph_dir.rglob("model.py") if p.is_file()}
     )
     return parents
 
 
-def compute_unique_dir(
-    source: str,
-    sample_path: str,
-    passnet_hf_dir: str,
-) -> str:
+def compute_unique_dir(sample_path: str, graph_dir: str) -> str:
     """Derive a flat directory name from a sample path.
 
-    For *list* sources the entire ``sample_path`` has ``/`` replaced by ``_``.
-    For *hf* sources only the relative portion below ``passnet_hf_dir`` is used.
-
-    This mirrors the bash logic::
-
-        list:  unique_dir="${sample_path//\\//_}"
-        hf:    rel_path="${sample_path#$PASSNET_HF_DIR/}"
-               unique_dir="${rel_path//\\//_}"
+    Uses the relative portion below *graph_dir*, with ``/`` replaced by ``_``.
+    If *sample_path* is not under *graph_dir*, the full path is flattened
+    with leading slashes stripped to avoid reserved-prefix collisions.
     """
-    if source == "list":
-        return sample_path.replace("/", "_")
-
-    # source == "hf"
-    hf_prefix = passnet_hf_dir.rstrip("/") + "/"
-    if sample_path.startswith(hf_prefix):
-        rel = sample_path[len(hf_prefix):]
+    prefix = graph_dir.rstrip("/") + "/"
+    if sample_path.startswith(prefix):
+        rel = sample_path[len(prefix) :]
     else:
-        rel = sample_path
+        rel = sample_path.lstrip("/")
     return rel.replace("/", "_")
-
-
-def resolve_model_path(
-    source: str,
-    sample_path: str,
-    passnet_dir: str,
-) -> str:
-    """Return the absolute path to the model directory.
-
-    For *list* sources the model path is ``passnet_dir / sample_path``.
-    For *hf* sources ``sample_path`` is already absolute.
-    """
-    if source == "list":
-        return f"{passnet_dir}/{sample_path}"
-    return sample_path
