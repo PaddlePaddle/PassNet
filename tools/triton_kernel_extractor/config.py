@@ -43,4 +43,4 @@ class PipelineConfig:
     graph_dir: Path
     output_dir: Path
     allow_list: Path | None = None
-    max_autotune: bool = False
+    max_autotune_no_cudagraphs: bool = False

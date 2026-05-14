@@ -78,7 +78,7 @@ for i in "${!CATEGORIES[@]}"; do
         --graph-dir "$GRAPH_DIR" \
         --output-dir "${OUTPUT_BASE}/${CATEGORY}_inductor_dump" \
         --graphnet-dir "$GRAPHNET_DIR" \
-        --max-autotune \
+        --max-autotune-no-cudagraphs \
         --enable-cache-analysis \
         "${GPU_ARGS[@]}"
 done

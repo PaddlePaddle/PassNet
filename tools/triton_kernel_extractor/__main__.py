@@ -140,11 +140,11 @@ def _add_extract_parser(subparsers: argparse._SubParsersAction) -> None:
         help="Run cache analysis (statistics, plots) after extraction.",
     )
     parser.add_argument(
-        "--max-autotune",
+        "--max-autotune-no-cudagraphs",
         action="store_true",
         default=False,
         help=(
-            "Enable Inductor max_autotune mode during compilation "
+            "Enable Inductor max-autotune-no-cudagraphs mode during compilation "
             "(passes mode='max-autotune-no-cudagraphs' to torch.compile via GraphNet)."
         ),
     )
@@ -161,7 +161,7 @@ def _run_extract(args: argparse.Namespace) -> None:
         graph_dir=args.graph_dir,
         output_dir=args.output_dir,
         allow_list=args.allow_list,
-        max_autotune=args.max_autotune,
+        max_autotune_no_cudagraphs=args.max_autotune_no_cudagraphs,
     )
 
     logger.info(

@@ -37,8 +37,8 @@ def run_pipeline(
     logger.info(" GPUs:       %s", " ".join(str(g) for g in config.gpu_ids))
     if config.allow_list:
         logger.info(" Allow list: %s", config.allow_list)
-    if config.max_autotune:
-        logger.info(" Autotune:   max_autotune (mode='max-autotune-no-cudagraphs')")
+    if config.max_autotune_no_cudagraphs:
+        logger.info(" Autotune:   mode='max-autotune-no-cudagraphs'")
     logger.info("======================================================")
 
     samples = _load_samples(config)
