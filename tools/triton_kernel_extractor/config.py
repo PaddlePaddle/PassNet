@@ -12,9 +12,9 @@ DATASET_NAMES: tuple[str, ...] = (
     "typical_subgraphs",
 )
 
-# Log pattern emitted by the external GraphNet test_compiler with --kernel-time.
-# Used in speedup_filter to decide whether to keep or discard a compiled sample.
+# Log patterns emitted by the external GraphNet test_compiler with --kernel-time.
 SPEEDUP_KERNEL_PATTERN = r"\[Speedup\]\[kernel\]:\s*([\d.]+)"
+SPEEDUP_E2E_PATTERN = r"\[Speedup\]\[e2e\]:\s*([\d.]+)"
 
 # Subdirectory names reserved for internal bookkeeping inside the cache directory.
 # These are skipped when iterating over sample directories.

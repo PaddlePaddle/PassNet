@@ -18,14 +18,11 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-from .config import SPEEDUP_KERNEL_PATTERN, is_sample_dir
+from .config import SPEEDUP_E2E_PATTERN, SPEEDUP_KERNEL_PATTERN, is_sample_dir
 
 logger = logging.getLogger(__name__)
 
-# Pattern for end-to-end speedup (secondary metric, includes framework overhead).
-_SPEEDUP_E2E_PATTERN = re.compile(r"\[Speedup\]\[e2e\]:\s*([\d.]+)")
-
-# Reuse the kernel speedup pattern from config (compiled for findall).
+_SPEEDUP_E2E_RE = re.compile(SPEEDUP_E2E_PATTERN)
 _SPEEDUP_KERNEL_RE = re.compile(SPEEDUP_KERNEL_PATTERN)
 
 
@@ -160,7 +157,7 @@ def generate_summary(
 ) -> Path:
     """Generate a text summary report and return its path."""
     kernel_speedups = _parse_speedups(all_log_text, _SPEEDUP_KERNEL_RE)
-    e2e_speedups = _parse_speedups(all_log_text, _SPEEDUP_E2E_PATTERN)
+    e2e_speedups = _parse_speedups(all_log_text, _SPEEDUP_E2E_RE)
 
     # Count samples in each state.
     root_samples = sum(
