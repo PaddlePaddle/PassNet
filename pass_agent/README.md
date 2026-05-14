@@ -1,5 +1,7 @@
 # PassAgent
 
+**[English](README.md)** | **[中文](README_cn.md)**
+
 R2E-Gym extension for training agents on PassNet (AI for Compiler) optimization tasks.
 
 ## Overview
@@ -133,21 +135,25 @@ The `PassNetDocker` class extends R2E-Gym's `DockerRuntime` to:
 4. Track speedup history across iterations
 5. Calculate rewards based on performance metrics
 
-### Pass Evaluator Tool
+### PassBench Evaluation
 
-The `pass_evaluator` tool (defined as a function-calling tool in PassAgent):
+The `pass_evaluator` tool invokes the PassBench pipeline by executing `entry.sh` inside the sample directory. It covers the full five-step evaluation:
 
-- Executes `entry.sh` in the problem directory
-- Validates pass matching and correctness
-- Reports performance metrics (speedup, correctness)
-- Parses `aggregated_score.json` for results
+- **Pass matching**: loads pass files from `pass_dir/` and applies `pass_mgr` to the FX graph
+- **Correctness verification**: compares eager and compiled outputs across dtype-specific tolerance thresholds
+- **Performance benchmarking**: measures speedup over 100 trials and aggregates ES(t) scores
+- **Result reporting**: parses `aggregated_score.json` and returns speedup and correctness back to the agent
+
+See [PassBench Evaluation Pipeline](../pass_bench/README.md) for the full pipeline details.
 
 ### Agent Workflow
 
-See [PassBench Evaluation Pipeline](../README.md#passbench-evaluation-pipeline) for the overall optimization flow. Within that pipeline, the agent interacts via two tools:
+The agent iterates through the following loop:
 
-- **file_editor**: Creates/modifies pass files in `pass_dir/`
-- **pass_evaluator**: Executes `entry.sh` and reports metrics back to the agent
+1. Reads `model.py` and `weight_meta.py` to understand the target subgraph
+2. Uses **file_editor** to write or update pass files in `pass_dir/`
+3. Uses **pass_evaluator** to trigger PassBench and receive feedback (speedup, correctness)
+4. Repeats until the pass matches and achieves the target speedup, or max steps is reached
 
 ## Dependencies
 
