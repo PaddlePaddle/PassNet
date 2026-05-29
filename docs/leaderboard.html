@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PassBench Leaderboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#fbfbf8;--surface:#ffffff;
+    --ink:#1c2025;--ink-soft:#3b424a;--muted:#646c74;--faint:#9aa1a8;
+    --line:#e8e7e0;--line2:#d9d8cf;
+    --accent:#1f4e6b;--accent-fill:#3f7195;--accent-soft:#e6eef3;
+    --sage:#4a7c5d;--ref:#9a5d33;--ref-soft:#f0e7df;
+    --serif:'Source Serif 4',Georgia,serif;--sans:'Source Sans 3',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:920px;margin:0 auto;padding:0 28px 72px;}
+
+  header{padding:52px 0 24px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+  h1{font-family:var(--serif);font-weight:700;font-size:clamp(28px,4.4vw,40px);line-height:1.05;letter-spacing:-.01em;margin:0;}
+  .meta{font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:right;line-height:1.7;}
+  .meta a{color:var(--accent);text-decoration:none;}
+  .meta a:hover{text-decoration:underline;}
+
+  .tablecard{border:1px solid var(--line2);border-radius:8px;overflow:hidden;background:var(--surface);}
+  .scroll{overflow-x:auto;}
+  table{border-collapse:collapse;width:100%;min-width:680px;}
+  thead th{
+    font-family:var(--sans);font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);font-weight:600;
+    text-align:right;padding:13px 16px;border-bottom:1.5px solid var(--accent);white-space:nowrap;background:#f6f5f1;
+    cursor:pointer;user-select:none;position:sticky;top:0;
+  }
+  thead th.l{text-align:left;}
+  thead th .arrow{color:var(--accent);font-size:9px;margin-left:3px;opacity:0;}
+  thead th.sorted{color:var(--accent);}
+  thead th.sorted .arrow{opacity:1;}
+  thead th:hover{color:var(--ink);}
+  thead th:focus-visible{outline:2px solid var(--accent);outline-offset:-2px;}
+  tbody td{padding:14px 16px;text-align:right;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:13px;white-space:nowrap;color:var(--ink-soft);font-variant-numeric:tabular-nums;}
+  tbody td.l{text-align:left;}
+  tbody tr.model:nth-child(even){background:#fcfcfa;}
+  tbody tr.model:hover{background:var(--accent-soft);}
+  .rank{color:var(--muted);width:40px;}
+  tr[data-rank="1"] .rank{color:var(--accent);font-weight:700;}
+  tr[data-rank="2"] .rank,tr[data-rank="3"] .rank{color:var(--ink);font-weight:600;}
+
+  .model-name{font-family:var(--sans);font-weight:600;font-size:15px;color:var(--ink);display:flex;align-items:center;gap:9px;flex-wrap:wrap;}
+  .dot{width:8px;height:8px;border-radius:2px;flex:none;}
+  .org{font-size:12.5px;color:var(--muted);margin-top:2px;}
+  .cat{font-family:var(--mono);font-size:9px;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:4px;border:1px solid var(--line2);color:var(--muted);font-weight:500;}
+  .cat.frontier{color:var(--accent);border-color:#bcd2df;background:var(--accent-soft);}
+  .cat.open{color:var(--ink-soft);border-color:var(--line2);background:#f4f3ee;}
+  .cat.finetuned{color:var(--sage);border-color:#c2d6c8;background:#eef4ef;}
+
+  .asnum{font-weight:600;font-size:13.5px;color:var(--ink);}
+  .asbar{position:relative;height:6px;border-radius:3px;background:#eeede7;margin-top:7px;border:1px solid var(--line);overflow:visible;width:118px;margin-left:auto;}
+  .asfill{position:absolute;left:0;top:0;bottom:0;border-radius:3px;background:var(--accent-fill);}
+  .astarget{position:absolute;top:-4px;bottom:-4px;width:0;border-left:1.5px dashed var(--ref);}
+  .astarget::after{content:"Inductor";position:absolute;top:-13px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:7.5px;color:var(--ref);white-space:nowrap;}
+
+  tr.baseline-row{background:var(--ref-soft);}
+  tr.baseline-row td{border-bottom:1px solid #e6d6c8;}
+  tr.baseline-row .model-name{color:var(--ref);}
+  .refbadge{font-family:var(--mono);font-size:9px;color:var(--ref);border:1px solid #e0cdbe;border-radius:4px;padding:2px 6px;background:var(--surface);}
+
+  .note{margin-top:14px;font-size:12.5px;color:var(--muted);line-height:1.6;}
+  .note b{color:var(--ink-soft);font-weight:600;}
+  .note a{color:var(--accent);text-decoration:none;}
+  .note a:hover{text-decoration:underline;}
+  footer{margin-top:22px;font-family:var(--mono);font-size:11.5px;color:var(--muted);}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>PassBench Leaderboard</h1>
+    <div class="meta">last updated 2026-05-29</div>
+  </header>
+
+  <div class="tablecard">
+    <div class="scroll">
+      <table id="lb">
+        <thead>
+          <tr>
+            <th class="l" style="cursor:default">#</th>
+            <th class="l" style="cursor:default">Model</th>
+            <th class="sorted" data-k="as" tabindex="0" role="button" aria-sort="descending" title="Aggregated Speedup — headline metric. Weighted geometric mean of ES_t across correctness tolerances. Higher is better; Eager = 1.000.">AS Score <span class="arrow">&#9660;</span></th>
+            <th data-k="gmean" tabindex="0" role="button" title="Geometric-mean wall-clock speedup over eager, on the subgraphs a model gets correct.">G-Mean Speedup <span class="arrow">&#9660;</span></th>
+            <th data-k="subcr" tabindex="0" role="button" title="Share of subgraphs whose generated pass is numerically correct across all required dtypes.">Correctness <span class="arrow">&#9660;</span></th>
+            <th data-k="fast1" tabindex="0" role="button" title="Share of correct subgraphs that also beat eager (speedup >= 1).">fast_1 <span class="arrow">&#9660;</span></th>
+          </tr>
+        </thead>
+        <tbody id="baselines"></tbody>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <p class="note">
+    <b>AS Score</b> is the headline metric — higher is better; <b>Eager = 1.000</b> and <b>TorchInductor = 0.706</b> are reference baselines. Hover a column header or see the <a href="https://arxiv.org/abs/2605.29357" target="_blank" rel="noopener">paper</a> for metric definitions.
+  </p>
+  <footer>Evaluated on NVIDIA A30 &middot; greedy decoding (temp 0).</footer>
+</div>
+
+<script>
+/* PassBench results — edit this array to update the board.
+   Source: PassNet paper, Table 1 (replace with your canonical run if it differs).
+   as=AS Score, gmean=G-Mean Speedup, subcr=Correctness %, fast1=fast_1 % */
+const DATA = [
+  {name:'Eager',             org:'PyTorch (reference)',     cat:'baseline',  as:1.000, gmean:1.000, subcr:100.0, fast1:100.0, color:'#9a5d33'},
+  {name:'TorchInductor',     org:'PyTorch · torch.compile', cat:'baseline',  as:0.706, gmean:0.846, subcr:85.0,  fast1:20.3,  color:'#9a5d33'},
+
+  {name:'Claude-Sonnet-4.6', org:'Anthropic', cat:'frontier',  as:0.448, gmean:0.835, subcr:61.9, fast1:9.2,  color:'#1f4e6b'},
+  {name:'Claude-Opus-4.6',   org:'Anthropic', cat:'frontier',  as:0.410, gmean:0.922, subcr:48.6, fast1:9.8,  color:'#2f6f96'},
+  {name:'GPT-5.4',           org:'OpenAI',    cat:'frontier',  as:0.410, gmean:0.821, subcr:54.6, fast1:7.4,  color:'#2c7d70'},
+  {name:'Qwen3-30B-A3B-SFT', org:'Baidu · fine-tuned on PassNet', cat:'finetuned', as:0.371, gmean:0.809, subcr:48.8, fast1:5.3, color:'#4a7c5d'},
+  {name:'GLM-5.1',           org:'Zhipu AI',  cat:'open',      as:0.240, gmean:0.844, subcr:33.5, fast1:4.8,  color:'#5a6b86'},
+  {name:'Qwen3-4B-SFT',      org:'Baidu · fine-tuned on PassNet', cat:'finetuned', as:0.240, gmean:0.808, subcr:28.5, fast1:3.0, color:'#4a7c5d'},
+  {name:'MiniMax-M2.7',      org:'MiniMax',   cat:'open',      as:0.208, gmean:0.653, subcr:23.0, fast1:1.0,  color:'#a8554a'},
+  {name:'Qwen3-30B-A3B',     org:'Alibaba',   cat:'open',      as:0.139, gmean:0.693, subcr:11.8, fast1:0.6,  color:'#7a5b8a'},
+  {name:'Qwen3-4B',          org:'Alibaba',   cat:'open',      as:0.108, gmean:0.953, subcr:1.3,  fast1:0.2,  color:'#7a5b8a'},
+];
+
+const INDUCTOR_AS = 0.706, AS_MAX = 1.0;
+let sortKey='as', sortDir=-1;
+const fmt=(v,d=3)=>v.toFixed(d);
+const pct=v=>v.toFixed(1)+'%';
+
+function rowHTML(m, rank){
+  const isBase = m.cat==='baseline';
+  const asW = Math.min(100,(m.as/AS_MAX)*100);
+  const tgt = (INDUCTOR_AS/AS_MAX)*100;
+  const asCell = `<div class="asnum">${fmt(m.as)}</div>
+    <div class="asbar"><div class="asfill" style="width:${asW}%"></div>${isBase?'':`<div class="astarget" style="left:${tgt}%"></div>`}</div>`;
+  const tag = isBase?'':`<span class="cat ${m.cat}">${m.cat==='finetuned'?'SFT':m.cat}</span>`;
+  return `<tr class="${isBase?'baseline-row':'model'}" data-rank="${isBase?'':rank}">
+      <td class="l rank">${isBase?'<span class="refbadge">REF</span>':rank}</td>
+      <td class="l"><div class="model-name"><span class="dot" style="background:${m.color}"></span>${m.name} ${tag}</div><div class="org">${m.org}</div></td>
+      <td>${asCell}</td>
+      <td>${fmt(m.gmean)}</td>
+      <td>${pct(m.subcr)}</td>
+      <td>${pct(m.fast1)}</td>
+    </tr>`;
+}
+
+function render(){
+  const base = DATA.filter(m=>m.cat==='baseline').sort((a,b)=>b.as-a.as);
+  document.getElementById('baselines').innerHTML = base.map(m=>rowHTML(m)).join('');
+  const models = DATA.filter(m=>m.cat!=='baseline').slice().sort((a,b)=>sortDir*(a[sortKey]-b[sortKey]));
+  const ranked = DATA.filter(m=>m.cat!=='baseline').slice().sort((a,b)=>b.as-a.as);
+  const rankMap = new Map(); let prevAs=null, prevRank=0;
+  ranked.forEach((m,i)=>{
+    const r = (m.as===prevAs) ? prevRank : (i+1);
+    prevAs=m.as; prevRank=r;
+    rankMap.set(m.name, r);
+  });
+  document.getElementById('rows').innerHTML = models.map(m=>rowHTML(m, rankMap.get(m.name))).join('');
+}
+
+function sortBy(th){
+  const k=th.dataset.k;
+  if(sortKey===k) sortDir*=-1; else {sortKey=k;sortDir=-1;}
+  document.querySelectorAll('thead th').forEach(t=>{t.classList.remove('sorted');t.removeAttribute('aria-sort');});
+  th.classList.add('sorted');
+  th.setAttribute('aria-sort', sortDir<0?'descending':'ascending');
+  th.querySelector('.arrow').innerHTML = sortDir<0?'&#9660;':'&#9650;';
+  render();
+}
+document.querySelectorAll('thead th[data-k]').forEach(th=>{
+  th.addEventListener('click',()=>sortBy(th));
+  th.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); sortBy(th); } });
+});
+render();
+</script>
+</body>
+</html>

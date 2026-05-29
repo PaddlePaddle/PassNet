@@ -9,6 +9,12 @@ PassNet 是一个面向编译器优化的 AI 系统，利用大语言模型（LL
 
 **[English](README.md)** | **中文**
 
+## 相关链接
+
+- 论文：[arXiv:2605.29357](https://arxiv.org/abs/2605.29357)
+- 数据集：[PassNet · HuggingFace](https://huggingface.co/datasets/PassNet/PassNet)
+- 榜单：[PassBench 榜单](https://paddlepaddle.github.io/PassNet/leaderboard.html)
+
 ## 目录
 
 - [项目结构](#项目结构)
