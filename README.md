@@ -9,6 +9,12 @@ PassNet is an AI system for compiler optimization that leverages LLM-driven agen
 
 **English** | **[中文](README_cn.md)**
 
+## Links
+
+- Paper: [arXiv:2605.29357](https://arxiv.org/abs/2605.29357)
+- Dataset: [PassNet on HuggingFace](https://huggingface.co/datasets/PassNet/PassNet)
+- Leaderboard: [PassBench Leaderboard](https://paddlepaddle.github.io/PassNet/leaderboard.html)
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
