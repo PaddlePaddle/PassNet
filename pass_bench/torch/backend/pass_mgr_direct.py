@@ -517,5 +517,10 @@ class _CompileOnceWrapper(torch.nn.Module):
             self.__dict__['forward'] = gm.forward
             # Release dynamo-compiled object — no longer needed.
             del self._compiled
+        else:
+            # Backend raised RuntimeError (no pass matched), dynamo fell back
+            # to eager. Re-raise so test framework treats this as failed,
+            # consistent with pass_mgr behavior.
+            raise RuntimeError("[PassMgrDirect] No passes modified the graph.")
 
         return result
